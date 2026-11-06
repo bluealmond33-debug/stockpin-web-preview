@@ -1,13 +1,10 @@
 import {escapeText,readView} from './view.mjs';
 import {openStore} from './storage.mjs';
+import {demoPages} from './demo.mjs';
 const main=document.querySelector('#content'), alert=document.querySelector('#alert');
 const labels={assets:'내 자산',market:'시장',connections:'계좌 연결',journal:'매매일지'};
-const pages={
- assets:'<h1>내 자산</h1><div class="metrics"><div><span class="quiet">전체 자산</span><p class="metric-value">—</p></div><div><span class="quiet">보유 종목</span><p class="metric-value">—</p></div></div><div class="empty"><h2>아직 조회한 자산이 없어요</h2><p class="quiet">금융 자료를 연결하지 않은 웹 초기 버전입니다.</p><button type="button" data-route="connections">계좌 연결 안내</button></div>',
- market:'<h1>시장</h1><p class="quiet">공급 미연결 · 현재값과 추이를 만들지 않습니다.</p><div class="market-list">'+['환율','비트코인 심리','VIX'].map(name=>`<div class="market-row"><div><p>${name}</p><p class="quiet">아직 불러오지 않음</p></div><span class="unknown">—</span></div>`).join('')+'</div>',
- connections:'<h1>계좌 연결</h1><div class="provider-list">'+['토스증권','키움증권'].map(name=>`<div class="provider-row"><p>${name}</p><span class="quiet">웹 연결 미지원</span></div>`).join('')+'</div><p class="quiet">이 버전에는 금융 키 입력·계좌 조회가 없습니다. 일지는 계좌 없이 사용할 수 있어요.</p>'+'<button type="button" data-route="journal">매매일지로</button>'
-};
-let domain,repo,notes=[],route='journal',mode='browse',draft=null,dirty=false,pending=false,photoBusy=false,current=null;
+const pages=demoPages;
+let domain,repo,notes=[],route='assets',mode='browse',draft=null,dirty=false,pending=false,photoBusy=false,current=null;
 let query='',selectedDate='',filterOpen=false,calendarVisible=true,openEpoch=0;
 let month=new Date().getMonth()+1,year=new Date().getFullYear();
 const localDate=()=>{const d=new Date();return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;};
@@ -128,10 +125,11 @@ document.addEventListener('change',event=>{
 });
 document.querySelector('.brand').addEventListener('click',e=>{e.preventDefault();navigate('journal');});
 window.addEventListener('beforeunload',event=>{if(dirty||pending){event.preventDefault();event.returnValue='';}});
+navigate('assets');
 const startupEpoch=openEpoch;
 let openingRepo;
 try{
  domain=await import('./journal.mjs');openingRepo=await openStore({validateNote:domain.validateNote,upsertNote:domain.upsertNote});const loaded=await openingRepo.load();
  repo=openingRepo;notes=loaded;document.body.dataset.ready='true';
- if(openEpoch===startupEpoch)navigate('journal');else{tools();if(route==='journal')renderJournal();}
+ if(openEpoch===startupEpoch)navigate('assets');else{tools();if(route==='journal')renderJournal();}
 }catch(e){openingRepo?.close();repo=null;document.body.dataset.ready='error';tools();if(route==='journal')renderJournal();showError('브라우저 저장소를 열지 못했습니다. 기존 기록은 변경하지 않았습니다.');}
