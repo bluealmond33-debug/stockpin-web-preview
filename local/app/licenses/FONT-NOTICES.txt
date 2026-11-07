@@ -1,0 +1,25 @@
+StockPin Local — bundled font notices
+
+Alte Haas Grotesk Regular / Bold
+Copyright (c) 2007 by Yann Le Coroller. All rights reserved.
+The original author distribution notice must accompany these freeware fonts.
+Full original notice: Alte Haas Grotesk licence.rtf
+Source: https://dl.dafont.com/dl/?f=alte_haas_grotesk
+These files are not licensed under the SIL Open Font License.
+
+LINE Seed Sans KR Regular / Bold
+© LY Corporation
+Licensed under the SIL Open Font License, Version 1.1.
+Full copyright and license: LINESeedSansKR-OFL.txt
+Official site: https://seed.line.me/index_en.html
+Official license: https://github.com/line/seed/blob/b3c59339e76b11d06aa31ec829202b97f371fdb4/OFL.txt
+
+Space Grotesk
+Copyright 2020 The Space Grotesk Project Authors (https://github.com/floriankarsten/space-grotesk)
+Licensed under the SIL Open Font License, Version 1.1.
+Full copyright and license: SpaceGrotesk-OFL.txt
+Source: https://github.com/google/fonts/tree/00a38a53f92aef923b9353f40128e8f4552ddae4/ofl/spacegrotesk
+
+All bundled font binaries and the original Alte Haas RTF are byte-for-byte unmodified.
+Space Grotesk OFL uses LF line endings and removes one trailing space; license text is unchanged.
+The app's license does not replace these font-specific terms.

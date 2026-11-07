@@ -1,0 +1,25 @@
+.market-page .web-demo-market-caption { margin: 0 0 20px; color: var(--muted, #aaa); font-size: 13px; line-height: 1.5; }
+.market-page .web-demo-market-bitcoin > button, .market-page .web-demo-market-stocks > button { margin-top: 12px; }
+.market-page .web-demo-sentiment-comparisons { display: flex; flex-wrap: wrap; gap: 8px 20px; margin: 12px 0 0; font-size: 12px; line-height: 1.5; }
+.market-page .web-demo-sentiment-comparisons dt, .market-page .web-demo-sentiment-comparisons time { color: var(--muted, #aaa); }
+.market-page .web-demo-sentiment-comparisons dd { margin: 0; font-variant-numeric: tabular-nums; }
+.market-page .web-demo-sentiment-comparisons time { display: block; }
+.market-page .web-demo-market-indices .reference-rate-groups { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.market-page .web-demo-index-rows { margin: 0; }
+.market-page .web-demo-index-rows > div { min-width: 0; padding: 10px 0; }
+.market-page .web-demo-index-quote { display: flex; flex-direction: row; align-items: baseline; justify-content: space-between; gap: 6px 12px; margin: 4px 0 0; white-space: normal; text-align: left; }
+.market-page .web-demo-index-quote strong { white-space: nowrap; }
+.market-page .web-demo-index-change { font-size: 14px; font-variant-numeric: tabular-nums; text-align: right; color: var(--muted, #a7a7a7); }
+.market-page .web-demo-index-change[data-direction="gain"] { color: var(--gain, #e05a5a); }
+.market-page .web-demo-index-change[data-direction="loss"] { color: var(--loss, #5a7fe0); }
+.market-page .web-demo-index-trend { display: block; margin: 6px 0 0; text-align: left; color: var(--muted, #a7a7a7); font-size: 12px; }
+.market-page .web-demo-index-trend svg { display: block; width: 96px; max-width: 100%; height: 32px; }
+.market-page .web-demo-index-trend polyline { fill: none; stroke: currentColor; stroke-width: 1.5; }
+.market-page .web-demo-index-trend[data-direction="gain"] { color: var(--gain, #e05a5a); }
+.market-page .web-demo-index-trend[data-direction="loss"] { color: var(--loss, #5a7fe0); }
+.web-demo-market-details .reference-rate-detail-chart[data-direction="gain"] polyline { stroke: var(--gain, #e05a5a); }
+.web-demo-market-details .reference-rate-detail-chart[data-direction="loss"] polyline { stroke: var(--loss, #5a7fe0); }
+.market-page .web-demo-market-fx .reference-rates > div:has(.reference-rate-change[data-direction="gain"]) .reference-rate-trend { color: var(--gain, #e05a5a); }
+.market-page .web-demo-market-fx .reference-rates > div:has(.reference-rate-change[data-direction="loss"]) .reference-rate-trend { color: var(--loss, #5a7fe0); }
+.market-page[data-market-demo] .market-source { display: none; }
+@container reference-rates (max-width: 560px) { .market-page .web-demo-market-indices .reference-rate-groups { grid-template-columns: minmax(0, 1fr); } }

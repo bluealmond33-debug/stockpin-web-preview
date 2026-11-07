@@ -1,0 +1,218 @@
+/* Only standalone journal entry pages opt into a document background. */
+body.journal-standalone {
+  margin: 0;
+  background: #111111;
+}
+body.journal-standalone .journal-surface {
+  min-height: 100vh;
+}
+@font-face {
+  font-family: system-local;
+  src: local("Arial");
+}
+.journal-surface,
+.journal-surface * {
+  box-sizing: border-box;
+}
+.journal-surface {
+  margin: 0;
+  background: transparent;
+  color: #e8e8e8;
+  font-family: system-ui, sans-serif;
+  font-size: 15px;
+}
+.journal-surface main {
+  max-width: 1200px;
+  margin: auto;
+  padding: 36px;
+}
+.journal-surface header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  border-bottom: 1px solid #3a3a3a;
+  padding-bottom: 22px;
+}
+.journal-surface .brand {
+  font-size: 21px;
+  font-weight: 700;
+}
+.journal-surface .badge {
+  font-size: 12px;
+  color: #2bbf4a;
+  letter-spacing: 1px;
+}
+.journal-surface h1 {
+  font-size: 32px;
+  margin: 34px 0 8px;
+}
+.journal-surface h2 {
+  font-size: 16px;
+  color: #e8e8e8;
+  margin: 0 0 20px;
+}
+.journal-surface .intro,
+.journal-surface .muted,
+.journal-surface footer,
+.journal-surface small {
+  color: #a7a7a7;
+  line-height: 1.7;
+}
+.journal-surface .notice {
+  border-left: 3px solid #d0b887;
+  padding: 14px 20px;
+  background: transparent;
+  line-height: 1.8;
+  margin: 24px 0 32px;
+}
+.journal-surface .layout {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 40px;
+}
+.journal-surface section + section {
+  border-left: 1px solid #3a3a3a;
+  padding-left: 40px;
+}
+.journal-surface button,
+.journal-surface input,
+.journal-surface textarea {
+  font: inherit;
+}
+.journal-surface button {
+  cursor: pointer;
+  color: inherit;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  padding: 12px 16px;
+  min-height: 44px;
+}
+.journal-surface button:hover,
+.journal-surface button:focus-visible {
+  background: transparent;
+  color: #2bbf4a;
+}
+.journal-surface button:focus-visible,
+.journal-surface input:focus-visible,
+.journal-surface textarea:focus-visible {
+  outline: 2px solid #2bbf4a;
+  outline-offset: 3px;
+}
+.journal-surface .trade,
+.journal-surface .saved {
+  display: block;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 12px;
+  border-left: 2px solid transparent;
+  text-decoration: none;
+}
+.journal-surface .trade strong,
+.journal-surface .saved {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.journal-surface .trade small {
+  display: block;
+  margin-top: 8px;
+}
+.journal-surface .trade[aria-pressed="true"] {
+  border-color: #2bbf4a;
+  background: transparent;
+}
+.journal-surface .saved {
+  overflow-wrap: anywhere;
+}
+.journal-surface label {
+  display: block;
+  margin: 20px 0 9px;
+}
+.journal-surface input,
+.journal-surface textarea {
+  display: block;
+  width: 100%;
+  background: transparent;
+  color: #e8e8e8;
+  border: 0;
+  border-bottom: 1px solid #606060;
+  border-radius: 0;
+  padding: 12px;
+  line-height: 1.65;
+}
+.journal-surface textarea {
+  resize: vertical;
+}
+.journal-surface .primary {
+  background: transparent;
+  color: #2bbf4a;
+  font-weight: 700;
+}
+.journal-surface .primary:hover,
+.journal-surface .primary:focus-visible {
+  color: #e8e8e8;
+}
+.journal-surface button:disabled {
+  background: transparent;
+  color: #8c8c8c;
+}
+.journal-surface .primary:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+.journal-surface [role="status"] {
+  color: #a7a7a7;
+  min-height: 24px;
+}
+.journal-surface footer {
+  border-top: 1px solid #3a3a3a;
+  padding-top: 20px;
+  margin-top: 36px;
+  font-size: 12px;
+}
+@media (max-width: 850px) {
+  .journal-surface main {
+    padding: 24px;
+  }
+  .journal-surface .layout {
+    grid-template-columns: 230px 1fr;
+    gap: 24px;
+  }
+  .journal-surface section + section {
+    padding-left: 24px;
+  }
+  .journal-surface .badge {
+    max-width: 220px;
+    line-height: 1.7;
+  }
+}
+@media (max-width: 600px) {
+  .journal-surface header {
+    align-items: flex-start;
+  }
+  .journal-surface .layout {
+    grid-template-columns: 1fr;
+  }
+  .journal-surface section + section {
+    padding: 24px 0 0;
+    border-left: 0;
+    border-top: 1px solid #3a3a3a;
+  }
+}
+
+/* Keep the native chooser and its labelled input, without a decorative button fill. */
+.journal-surface input[type="file"]::file-selector-button {
+  color: inherit;
+  font: inherit;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  margin-right: 12px;
+  padding: 4px 0;
+  cursor: pointer;
+}

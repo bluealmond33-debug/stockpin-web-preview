@@ -1,0 +1,46 @@
+.journal-surface .manual-backup-dialog {
+  width: min(38rem, calc(100vw - 40px));
+}
+.manual-backup-dialog .manual-backup-modes {
+  display: flex;
+  gap: 24px;
+  border-bottom: 1px solid var(--border-color, #3a3a3a);
+  margin-bottom: 16px;
+}
+.manual-backup-dialog .manual-backup-modes button[aria-pressed="true"] {
+  font-weight: 600;
+}
+.manual-backup-dialog button,
+.manual-backup-dialog input {
+  min-height: 44px;
+}
+.manual-backup-dialog form input {
+  width: 100%;
+  box-sizing: border-box;
+}
+.manual-backup-dialog .manual-backup-preview {
+  border-top: 1px solid var(--border-color, #3a3a3a);
+  margin-top: 16px;
+  padding-top: 8px;
+}
+.manual-backup-dialog .manual-backup-confirm {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.manual-backup-dialog .manual-backup-confirm input {
+  flex: 0 0 auto;
+  width: 20px;
+}
+.manual-backup-dialog p {
+  overflow-wrap: anywhere;
+}
+.manual-backup-dialog .manual-backup-modes {
+  flex-wrap: wrap;
+  row-gap: 0;
+}
+.manual-backup-dialog .manual-recovery-actions {
+  border-bottom: 1px solid var(--border-color, #3a3a3a);
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+}

@@ -1,0 +1,13 @@
+/* Reuse the ordinary journal controls; no separate boxed writer surface. */
+.journal-surface.manual-journal-draft .manual-editor-content .manual-draft-fields input:focus-visible {
+  outline: none;
+  box-shadow: none;
+  border-bottom: 1px solid var(--muted, #999);
+  border-radius: 0;
+}
+.journal-surface.manual-journal-draft .journal-icon-action:focus-visible {
+  outline: 1px solid var(--text, #e8e8e8);
+  outline-offset: 3px;
+}
+.linked-journal-editor .manual-save-actions [hidden] { display: none; }
+.linked-journal-editor .linked-writing-actions { align-items: center; }

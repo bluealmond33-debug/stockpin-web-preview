@@ -1,0 +1,19 @@
+.trade-cleanup-notice {
+  margin-block: 1rem;
+  padding-block: 0.75rem;
+  border-block: 1px solid var(--border);
+}
+.trade-cleanup-notice p {
+  margin-block: 0 0.5rem;
+}
+.trade-cleanup-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+}
+.trade-cleanup-actions button {
+  min-height: 44px;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 1px;
+}

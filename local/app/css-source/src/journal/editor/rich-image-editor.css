@@ -1,0 +1,148 @@
+.rich-image-editor figure {
+  margin-top: 0;
+  margin-bottom: var(--space-2);
+}
+.rich-image-editor img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+.rich-image-editor figcaption {
+  color: var(--muted);
+  overflow-wrap: anywhere;
+}
+.rich-image-editor fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  min-width: 0;
+}
+.rich-image-editor legend {
+  font-size: 0.875rem;
+  color: var(--muted);
+}
+.rich-image-editor label {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+.rich-image-editor input {
+  flex: 1;
+  min-width: 0;
+}
+.rich-image-editor input,
+.rich-image-editor select,
+.rich-image-editor button {
+  background: var(--surface);
+  color: var(--text);
+  border: 1px solid var(--border);
+  min-height: 44px;
+  font: inherit;
+}
+.rich-image-editor .rich-source-text {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  padding: var(--space-3) 0;
+}
+
+.rich-image-editor .rich-photo-input {
+  display: none !important;
+}
+
+/* Photo-only specificity wins over the later writing-feedback menu rules. */
+.journal-surface.manual-journal-draft .rich-photo-tools .editor-popover-panel {
+  box-sizing: border-box;
+  width: 264px;
+  max-height: min(520px, calc(100vh - 24px));
+  padding: 12px;
+  color: var(--text);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: 0 8px 28px rgb(0 0 0 / 24%);
+}
+.journal-surface.manual-journal-draft .rich-photo-tools .editor-popover-panel fieldset > legend {
+  display: block;
+  width: 100%;
+  padding: 0 8px 8px;
+  color: var(--bright);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.journal-surface.manual-journal-draft .rich-photo-tools .editor-popover-panel button {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 38px;
+  padding: 8px;
+  border: 0;
+  border-radius: 4px;
+  background: transparent;
+  color: var(--bright);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  cursor: pointer;
+}
+.journal-surface.manual-journal-draft .rich-photo-tools .editor-popover-panel .rich-photo-actions {
+  display: grid;
+  gap: 2px;
+}
+.journal-surface.manual-journal-draft .rich-photo-tools .editor-popover-panel .rich-photo-settings {
+  display: grid;
+  gap: 10px;
+  margin-top: 8px;
+  padding: 10px 8px;
+  border-top: 1px solid var(--border);
+}
+.journal-surface.manual-journal-draft .rich-photo-tools .editor-popover-panel label {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 4px;
+  min-width: 0;
+  color: var(--text);
+  font-size: 13px;
+  line-height: 1.5;
+}
+.journal-surface.manual-journal-draft .rich-photo-tools .editor-popover-panel select {
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  min-height: 38px;
+  padding: 6px 8px;
+  border: 1px solid var(--input-border);
+  border-radius: 4px;
+  color: var(--bright);
+  background: var(--bg);
+  font-size: 14px;
+  line-height: 1.5;
+}
+.journal-surface.manual-journal-draft .rich-photo-tools .editor-popover-panel .rich-photo-movement {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  padding: 6px 0;
+  border-top: 1px solid var(--border);
+}
+.journal-surface.manual-journal-draft .rich-photo-tools .editor-popover-panel .rich-photo-danger {
+  padding-top: 6px;
+  border-top: 1px solid var(--border);
+}
+.journal-surface.manual-journal-draft .rich-photo-tools .editor-popover-panel .rich-photo-danger button {
+  color: var(--gain);
+}
+.journal-surface.manual-journal-draft .rich-photo-tools .editor-popover-panel button:enabled:hover {
+  background: var(--border-subtle);
+}
+.journal-surface.manual-journal-draft .rich-photo-tools .editor-popover-panel :is(button, select):disabled {
+  color: var(--muted);
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+.journal-surface.manual-journal-draft .rich-photo-tools .editor-popover-panel :is(button, select):focus-visible {
+  outline: 2px solid var(--green);
+  outline-offset: 2px;
+}

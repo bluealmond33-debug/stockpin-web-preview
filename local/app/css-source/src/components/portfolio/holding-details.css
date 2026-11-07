@@ -1,0 +1,12 @@
+.instrument .holding-detail-trigger { display: block; padding: 0; border: 0; background: transparent; color: inherit; font: inherit; text-align: left; cursor: pointer; }
+.holding-detail-trigger:is(:hover, :focus-visible) { text-decoration: underline; text-underline-offset: 4px; }
+.holding-detail-trigger:focus-visible, .holding-details button:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
+.holding-details-backdrop { position: fixed; inset: 0; z-index: 1000; display: grid; place-items: center; padding: 20px; background: rgb(0 0 0 / 55%); }
+.holding-details { width: min(480px, 100%); max-height: calc(100dvh - 40px); overflow: auto; box-sizing: border-box; padding: 24px; color: var(--text); background: var(--bg); }
+.holding-details header { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.holding-details h2 { margin: 0; font-size: 20px; }
+.holding-details button { border: 0; background: transparent; color: inherit; font: inherit; padding: 8px 4px; cursor: pointer; }
+.holding-details dl { margin: 20px 0 0; }
+.holding-details dl > div { display: grid; grid-template-columns: 90px minmax(0, 1fr); gap: 16px; padding: 8px 0; }
+.holding-details dt { color: var(--muted); }
+.holding-details dd { margin: 0; text-align: right; overflow-wrap: anywhere; font-variant-numeric: tabular-nums; }

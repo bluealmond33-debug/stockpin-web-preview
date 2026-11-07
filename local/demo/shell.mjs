@@ -1,0 +1,13 @@
+const states=new Set(['open','expanded','minimized','closed']);
+export function transition(state,action){
+ if(!states.has(state))throw Error('Unknown window state');
+ if(action==='restore')return 'open';
+ if(action==='close')return 'closed';
+ if(action==='minimize')return 'minimized';
+ if(action==='expand')return state==='expanded'?'open':'expanded';
+ throw Error('Unknown window action');
+}
+export function renderShell({appPath}){
+ if(typeof appPath!=='string'||!/^\/(?!\/)[a-zA-Z0-9/_-]+\.html$/.test(appPath)||appPath.includes('..'))throw Error('Only explicit local HTML app paths are allowed');
+ return `<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="referrer" content="no-referrer"><meta name="robots" content="noindex,nofollow"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; frame-src 'self'; img-src 'self'; font-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'"><title>StockPin · 앱 프리뷰</title><link rel="icon" href="./favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="./shell.css"></head><body><main class="preview-stage"><section class="preview-window" data-state="open" aria-label="StockPin 앱 체험"><header class="preview-titlebar"><div class="traffic-lights" aria-label="프리뷰 창 도구"><button type="button" data-action="close" aria-label="프리뷰 접기" title="프리뷰 접기"></button><button type="button" data-action="minimize" aria-label="프리뷰 최소화" title="프리뷰 최소화"></button><button type="button" data-action="expand" aria-label="프리뷰 확대" title="프리뷰 확대" aria-pressed="false"></button></div></header><iframe src="${appPath}" title="StockPin 앱 프리뷰" referrerpolicy="no-referrer" allow="camera 'none'; microphone 'none'; geolocation 'none'; payment 'none'"></iframe></section><section class="preview-restore" hidden><p>StockPin 프리뷰</p><button type="button" data-action="restore">다시 열기</button></section><p class="preview-caption">실제 데이터가 아닌 가상 데이터입니다.</p></main><script type="module" src="./window.mjs"></script></body></html>`;
+}

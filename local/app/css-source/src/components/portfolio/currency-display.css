@@ -1,0 +1,13 @@
+.original-summary {display:grid;gap:24px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));}
+.original-summary section {min-width:0;padding:0;border:0;}
+.original-summary h3 {font-size:13px;color:var(--text-secondary,#929292);font-weight:500;margin:0 0 8px;}
+.original-summary .total-value {font-size:28px;overflow-wrap:anywhere;}
+.original-summary .metrics-row {gap:12px;grid-template-columns:repeat(3,minmax(0,1fr));}
+.original-summary .metrics-row strong {font-size:14px;overflow-wrap:anywhere;}
+.portfolio-toolbar .currency-toggle {display:flex;gap:8px;}
+.portfolio-toolbar .currency-toggle button {min-width:44px;min-height:44px;border:0;background:none;color:var(--text-secondary,#929292);}
+.portfolio-toolbar .currency-toggle button[aria-pressed="true"] {color:var(--green,#2bbf4a);}
+.refresh-status,.fx-reference {font-size:12px;color:var(--text-secondary,#929292);}
+.portfolio-scope-details {font-size:12px;color:var(--text-secondary,#929292);margin:8px 0 16px;}
+.fx-reference summary,.portfolio-scope-details summary {cursor:pointer;}
+.fx-reference p {max-width:340px;}

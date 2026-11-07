@@ -1,0 +1,87 @@
+/* StockPin source colors and typography; local usability adjustments documented in DESIGN.md. */
+@font-face {
+  font-family: "Alte Haas Grotesk";
+  src: url("/local/app/fonts/AlteHaasGroteskRegular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+}
+/* Original StockPin maps CSS 500 to the same Regular file (not a Medium font). */
+@font-face {
+  font-family: "Alte Haas Grotesk";
+  src: url("/local/app/fonts/AlteHaasGroteskRegular.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Alte Haas Grotesk";
+  src: url("/local/app/fonts/AlteHaasGroteskBold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: "LINE Seed Sans KR";
+  src: url("/local/app/fonts/LINESeedKR-Rg.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "LINE Seed Sans KR";
+  src: url("/local/app/fonts/LINESeedKR-Bd.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("/local/app/fonts/SpaceGrotesk-Variable.ttf") format("truetype");
+  font-weight: 300 700;
+  font-display: swap;
+}
+:root {
+  --window-toolbar-height: 56px;
+  --window-traffic-space: 96px;
+  color-scheme: dark;
+  --bg: #111111;
+  --surface: #1a1a1a;
+  --text: #c1c1c1;
+  --bright: #e8e8e8;
+  --muted: #a7a7a7;
+  --faint: #8c8c8c;
+  --border: rgba(193, 193, 193, 0.18);
+  --border-subtle: rgba(193, 193, 193, 0.08);
+  --input-border: #767676;
+  --green: #2bbf4a;
+  --interaction-emphasis: #45d963;
+  --brand: #01a525;
+  --action: #16752c;
+  --gain: #e05a5a;
+  --loss: #5a7fe0;
+  --warning: #d0b887;
+  --body-font: "Alte Haas Grotesk", "LINE Seed Sans KR", sans-serif;
+  --title-font:
+    "Space Grotesk", "Alte Haas Grotesk", "LINE Seed Sans KR", sans-serif;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+  --bg: #ffffff;
+  --surface: #f2f2f2;
+  --text: #333333;
+  --bright: #171717;
+  --muted: #555555;
+  --faint: #666666;
+  --border: rgba(30, 30, 30, 0.18);
+  --border-subtle: rgba(30, 30, 30, 0.08);
+  --input-border: #767676;
+  --interaction-emphasis: #16752c;
+  --gain: #b52323;
+  --loss: #315bc1;
+  --warning: #765519;
+}
+.theme-control { display: flex; align-items: center; gap: 4px; }
+.theme-control [aria-pressed="true"] { color: var(--interaction-emphasis); }
