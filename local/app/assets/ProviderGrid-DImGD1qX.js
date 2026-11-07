@@ -1,6 +1,6 @@
 import { n as __esmMin } from "./rolldown-runtime-CnFjIZqj.js";
 import { t as require_jsx_runtime } from "./jsx-runtime-D3ER87f6.js";
-import { d as init_createLucideIcon, u as createLucideIcon } from "./AppIcon-diqwIFgz.js";
+import { d as init_createLucideIcon, u as createLucideIcon } from "./AppIcon-Cb6LEo3e.js";
 var __iconData$3, Plus;
 function init_plus() {
 	return (init_plus = __esmMin((() => {
@@ -148,7 +148,7 @@ function init_provider_grid() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/features/connections/provider-grid.css?v=source-build-r57";
+			l.href = "/local/app/css-source/src/features/connections/provider-grid.css?v=source-build-r59";
 			document.head.appendChild(l);
 		}
 	})))();

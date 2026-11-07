@@ -78,7 +78,7 @@ function init_reference_rates_table() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/features/market/reference-rates-table.css?v=source-build-r57";
+			l.href = "/local/app/css-source/src/features/market/reference-rates-table.css?v=source-build-r59";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -678,7 +678,7 @@ function init_reference_rate_details() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/features/market/reference-rate-details.css?v=source-build-r57";
+			l.href = "/local/app/css-source/src/features/market/reference-rate-details.css?v=source-build-r59";
 			document.head.appendChild(l);
 		}
 	})))();

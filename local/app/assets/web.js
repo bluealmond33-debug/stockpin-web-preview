@@ -1,6 +1,6 @@
 import { n as __esmMin, r as __toESM, t as __commonJSMin } from "./rolldown-runtime-CnFjIZqj.js";
 import { n as require_react, t as require_jsx_runtime } from "./jsx-runtime-D3ER87f6.js";
-import { i as require_react_dom, n as init_ThemeControl, r as initializeTheme } from "./ThemeControl-CXlHzItV.js";
+import { i as require_react_dom, n as init_ThemeControl, r as initializeTheme } from "./ThemeControl-BPhnSu9B.js";
 /**
 * @license React
 * scheduler.production.js
@@ -10847,7 +10847,7 @@ function init_styles() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/styles.css?v=source-build-r57";
+			l.href = "/local/app/css-source/src/styles.css?v=source-build-r59";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -10957,24 +10957,24 @@ function init_web_entry() {
 		};
 		navigator.sendBeacon = () => false;
 		initializeTheme();
-		({default: App} = await import("./App-CEAB9zHv.js"));
-		({createDemoSnapshot} = await import("./portfolio-rV0EonqR.js"));
-		({createPortfolioWidgetDemo} = await import("./portfolioWidgetPresentation-OLnr1eg1.js"));
-		({createWebPortfolio, WEB_DEMO_FX} = await import("./portfolio-Bvo0sPhL.js"));
-		({createJournalCommand} = await import("./journal-C73mAQkv.js"));
-		({createInitializedBrowserJournal} = await import("./initialize-on-open-CbMR50JJ.js"));
-		({createIndexedDBRepository} = await import("./indexeddb-9TcbcbY9.js"));
-		({validateState: validateJournalState} = await import("./state-A4JL_WdU.js"));
-		({readManualResponse} = await import("./manualPersistence-Dfaa2t0y.js"));
-		({createBackupSchema} = await import("./backup-codec-D5l_Coil.js"));
-		({createDisplayPreferences} = await import("./display-preferences-DoivC3SW.js"));
-		({createBrowserBackupCommand} = await import("./backup-BEgUUp7F.js"));
-		({createBrowserFileTransport} = await import("./transport-WoFprtJP.js"));
-		({createMarketDemo, getSeries, getComponentData} = await import("./market-eQgIMmpI.js"));
-		({MarketPage} = await import("./MarketPage-2PBiLH5C.js"));
-		({WebDemoConnections} = await import("./WebDemoConnections-BESOiBrX.js"));
-		({WebDemoTradeNotice} = await import("./WebDemoTradeNotice-D7M3jHzn.js"));
-		({WebDemoMarketWidget} = await import("./WebDemoMarketWidget-D6_DtVne.js"));
+		({default: App} = await import("./App-CHCaUypI.js"));
+		({createDemoSnapshot} = await import("./portfolio-DoIosU5a.js"));
+		({createPortfolioWidgetDemo} = await import("./portfolioWidgetPresentation-B6Ka0lD-.js"));
+		({createWebPortfolio, WEB_DEMO_FX} = await import("./portfolio-lNo72ms8.js"));
+		({createJournalCommand} = await import("./journal-DxPinSit.js"));
+		({createInitializedBrowserJournal} = await import("./initialize-on-open-C1H9l9gP.js"));
+		({createIndexedDBRepository} = await import("./indexeddb-WS-utGsh.js"));
+		({validateState: validateJournalState} = await import("./state-CJxT_1f9.js"));
+		({readManualResponse} = await import("./manualPersistence-Ee5l4RI8.js"));
+		({createBackupSchema} = await import("./backup-codec-BaorBYFO.js"));
+		({createDisplayPreferences} = await import("./display-preferences-Baa7xZNu.js"));
+		({createBrowserBackupCommand} = await import("./backup-BvvGVjwn.js"));
+		({createBrowserFileTransport} = await import("./transport-DF72AaYa.js"));
+		({createMarketDemo, getSeries, getComponentData} = await import("./market-tG52U6fD.js"));
+		({MarketPage} = await import("./MarketPage-D6eS2ptf.js"));
+		({WebDemoConnections} = await import("./WebDemoConnections-DZ9XSVoY.js"));
+		({WebDemoTradeNotice} = await import("./WebDemoTradeNotice-B8POSyxx.js"));
+		({WebDemoMarketWidget} = await import("./WebDemoMarketWidget-CrUKEw_m.js"));
 		repository = createIndexedDBRepository();
 		storage = createInitializedBrowserJournal(createJournalCommand({ repository }));
 		displayPreferences = createDisplayPreferences((() => {

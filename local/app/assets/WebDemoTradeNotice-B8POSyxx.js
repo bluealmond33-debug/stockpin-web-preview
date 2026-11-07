@@ -1,12 +1,12 @@
 import { n as __esmMin } from "./rolldown-runtime-CnFjIZqj.js";
 import { n as require_react, t as require_jsx_runtime } from "./jsx-runtime-D3ER87f6.js";
-import { t as init_diary_trade_carousel } from "./diary-trade-carousel-B7kj0dAD.js";
+import { n as init_StockLogo, r as init_diary_trade_carousel, t as StockLogo } from "./StockLogo-D_f5Vek1.js";
 function init_WebDemoTradeNotice() {
 	return (init_WebDemoTradeNotice = __esmMin((() => {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/features/journal/WebDemoTradeNotice.css?v=source-build-r57";
+			l.href = "/local/app/css-source/src/features/journal/WebDemoTradeNotice.css?v=source-build-r59";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -66,12 +66,12 @@ function WebDemoTradeNotice({ onRecord }) {
 					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
 						className: "web-trade-identity",
 						children: [
-							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
-								src: trade.logo,
-								width: "28",
-								height: "28",
-								alt: ""
-							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)(StockLogo, { position: {
+								name: trade.instrument,
+								instrumentId: trade.ticker,
+								currency: trade.currency,
+								market: trade.market
+							} }),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("strong", { children: trade.instrument }),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("time", {
 								dateTime: trade.soldAt,
@@ -154,6 +154,7 @@ var import_react, import_jsx_runtime, WEB_DEMO_TRADES;
 function init_WebDemoTradeNotice$1() {
 	return (init_WebDemoTradeNotice$1 = __esmMin((() => {
 		import_react = require_react();
+		init_StockLogo();
 		init_diary_trade_carousel();
 		init_WebDemoTradeNotice();
 		import_jsx_runtime = require_jsx_runtime();
@@ -162,6 +163,8 @@ function init_WebDemoTradeNotice$1() {
 				id: "web-demo-trade-amber",
 				instrument: "SK하이닉스",
 				ticker: "000660",
+				currency: "KRW",
+				market: "KRX",
 				logo: "/local/app/logos/skhynix-official.png",
 				account: "키움 · ••••1001",
 				quantity: "12",
@@ -180,6 +183,8 @@ function init_WebDemoTradeNotice$1() {
 				id: "web-demo-trade-birch",
 				instrument: "삼성전자",
 				ticker: "005930",
+				currency: "KRW",
+				market: "KRX",
 				logo: "/local/app/logos/samsung-official.png",
 				account: "키움 · ••••1001",
 				quantity: "40",
@@ -198,6 +203,8 @@ function init_WebDemoTradeNotice$1() {
 				id: "web-demo-trade-cedar",
 				instrument: "Apple",
 				ticker: "AAPL",
+				currency: "USD",
+				market: "US",
 				logo: "/local/app/logos/apple.svg",
 				account: "토스 · ••••2002",
 				quantity: "8",

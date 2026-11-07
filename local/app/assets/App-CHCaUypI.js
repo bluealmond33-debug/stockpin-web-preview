@@ -1,15 +1,15 @@
 import { n as __esmMin, r as __toESM } from "./rolldown-runtime-CnFjIZqj.js";
 import { n as require_react, t as require_jsx_runtime } from "./jsx-runtime-D3ER87f6.js";
-import { i as require_react_dom, n as init_ThemeControl, t as ThemeControl } from "./ThemeControl-CXlHzItV.js";
-import { a as init_AppIcon, c as Info, d as init_createLucideIcon, i as WonSign, l as init_info, n as SidebarCloseIcon, o as TriangleAlert, r as SidebarOpenIcon, s as init_triangle_alert, t as AppIcon, u as createLucideIcon } from "./AppIcon-diqwIFgz.js";
-import { a as Unlink, c as init_refresh_cw, i as init_x, l as Plus, n as init_ProviderGrid, o as init_unlink, r as X, s as RefreshCw, t as ProviderGrid, u as init_plus } from "./ProviderGrid-RfhjhiiH.js";
-import { t as init_diary_trade_carousel } from "./diary-trade-carousel-B7kj0dAD.js";
-import { a as init_portfolio, c as summarizePortfolio, i as decimalRatioPercent, n as allocationBasisPoints, o as selectAccountSnapshot, r as compareDecimalStrings, s as summarizeKnownHoldings, t as addDecimalStrings } from "./portfolio-CTG4vcXB.js";
-import { A as reconcileTradeObservation, D as validRecordDate, E as prepareDraftCandidate, O as assessTradeObservation, S as imageSource, T as init_draft, _ as readCalendarLink, a as readManualResponse, b as readManualImage, c as sameTradeLink, d as manualDraftErrors, f as init_manualPdfs, g as init_calendarLink, h as calendarLinkKey, i as manualRequestWire, k as init_tradeProvenance, l as validManualSave, m as readManualPdfs, n as manualErrorCode, o as readManualTradeLink, p as readManualPdf, r as manualErrorMessage, s as sameSummary, t as init_manualPersistence, u as init_manualDraft, v as init_manualAttachments, w as draftBlock, x as sameManualAttachments, y as readManualAttachments } from "./manualPersistence-CTX5pfQh.js";
-import { _ as invoke, a as init_MarketWidgets, c as readMarketPrefs, f as localTime, g as init_core, h as SERIALIZE_TO_IPC_FN, i as MarketWidgetCard, l as formatDecimal, m as Resource, n as init_MarketPage, o as MARKET_WIDGETS, p as Channel, s as init_preferences, t as MarketPage, u as formatMoney, v as isTauri, y as transformCallback } from "./MarketPage-CCqHsnD1.js";
-import { c as init_ReferenceRatesTable, o as ReferenceRateRows } from "./WebDemoMarketDetails-BzujGOXi.js";
-import { t as createPortfolioWidgetDemo } from "./portfolioWidgetPresentation-D6SXwb8D.js";
-import { n as createDemoSnapshot, r as init_portfolio$1 } from "./portfolio-8yv-NHKg.js";
+import { i as require_react_dom, n as init_ThemeControl, t as ThemeControl } from "./ThemeControl-BPhnSu9B.js";
+import { a as init_AppIcon, c as Info, d as init_createLucideIcon, i as WonSign, l as init_info, n as SidebarCloseIcon, o as TriangleAlert, r as SidebarOpenIcon, s as init_triangle_alert, t as AppIcon, u as createLucideIcon } from "./AppIcon-Cb6LEo3e.js";
+import { a as Unlink, c as init_refresh_cw, i as init_x, l as Plus, n as init_ProviderGrid, o as init_unlink, r as X, s as RefreshCw, t as ProviderGrid, u as init_plus } from "./ProviderGrid-DImGD1qX.js";
+import { n as init_StockLogo, r as init_diary_trade_carousel, t as StockLogo } from "./StockLogo-D_f5Vek1.js";
+import { a as init_portfolio, c as summarizePortfolio, i as decimalRatioPercent, n as allocationBasisPoints, o as selectAccountSnapshot, r as compareDecimalStrings, s as summarizeKnownHoldings, t as addDecimalStrings } from "./portfolio-Bdh9WMb-.js";
+import { A as reconcileTradeObservation, D as validRecordDate, E as prepareDraftCandidate, O as assessTradeObservation, S as imageSource, T as init_draft, _ as readCalendarLink, a as readManualResponse, b as readManualImage, c as sameTradeLink, d as manualDraftErrors, f as init_manualPdfs, g as init_calendarLink, h as calendarLinkKey, i as manualRequestWire, k as init_tradeProvenance, l as validManualSave, m as readManualPdfs, n as manualErrorCode, o as readManualTradeLink, p as readManualPdf, r as manualErrorMessage, s as sameSummary, t as init_manualPersistence, u as init_manualDraft, v as init_manualAttachments, w as draftBlock, x as sameManualAttachments, y as readManualAttachments } from "./manualPersistence-mZI2Epyq.js";
+import { _ as invoke, a as init_MarketWidgets, c as readMarketPrefs, f as localTime, g as init_core, h as SERIALIZE_TO_IPC_FN, i as MarketWidgetCard, l as formatDecimal, m as Resource, n as init_MarketPage, o as MARKET_WIDGETS, p as Channel, s as init_preferences, t as MarketPage, u as formatMoney, v as isTauri, y as transformCallback } from "./MarketPage-B8JBx8HU.js";
+import { c as init_ReferenceRatesTable, o as ReferenceRateRows } from "./WebDemoMarketDetails-BnFoJfif.js";
+import { t as createPortfolioWidgetDemo } from "./portfolioWidgetPresentation-DC6Gn2hf.js";
+import { n as createDemoSnapshot, r as init_portfolio$1 } from "./portfolio-BXmxJdu_.js";
 var __iconData$25, ArrowDownAZ;
 function init_arrow_down_a_z() {
 	return (init_arrow_down_a_z = __esmMin((() => {
@@ -912,7 +912,7 @@ function init_style() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/trade-review/style.css?v=source-build-r57";
+			l.href = "/local/app/css-source/src/trade-review/style.css?v=source-build-r59";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -921,8 +921,8 @@ function init_style() {
 * The caller supplies a .trade-review-root surface and owns preparation actions.
 */
 function TradeReviewPanel({ batch, privacy = false, selectedId, onSelect, onCancel, labels = defaultLabels, instrumentName, selectedActions, beforeContent }) {
-	const detailId = (0, import_react$53.useId)();
-	const rowButtons = (0, import_react$53.useRef)(/* @__PURE__ */ new Map());
+	const detailId = (0, import_react$52.useId)();
+	const rowButtons = (0, import_react$52.useRef)(/* @__PURE__ */ new Map());
 	const selected = batch.rows.find((row) => row.trade.tradeId === selectedId);
 	const observation = selected?.trade.observation;
 	function clearSelection() {
@@ -930,7 +930,7 @@ function TradeReviewPanel({ batch, privacy = false, selectedId, onSelect, onCanc
 		onCancel();
 		opener?.focus();
 	}
-	return /* @__PURE__ */ (0, import_jsx_runtime$66.jsxs)("div", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$65.jsxs)("div", {
 		onKeyDown: (event) => {
 			if (event.key === "Escape" && selected) {
 				event.preventDefault();
@@ -939,17 +939,17 @@ function TradeReviewPanel({ batch, privacy = false, selectedId, onSelect, onCanc
 		},
 		children: [
 			beforeContent,
-			/* @__PURE__ */ (0, import_jsx_runtime$66.jsx)("p", {
+			/* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("p", {
 				className: "trade-review-scope",
 				children: labels.scope
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$66.jsx)("p", { children: "주문별 집계이며 개별 체결 내역이 아닙니다." }),
-			/* @__PURE__ */ (0, import_jsx_runtime$66.jsx)("p", {
+			/* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("p", { children: "주문별 집계이며 개별 체결 내역이 아닙니다." }),
+			/* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("p", {
 				role: batch.coverage === "error" ? "alert" : "status",
 				className: "trade-review-status",
 				children: labels.status(batch)
 			}),
-			batch.invalidCount > 0 && /* @__PURE__ */ (0, import_jsx_runtime$66.jsxs)("p", {
+			batch.invalidCount > 0 && /* @__PURE__ */ (0, import_jsx_runtime$65.jsxs)("p", {
 				className: "trade-review-status",
 				children: [
 					"검토할 수 없는 입력 ",
@@ -957,7 +957,7 @@ function TradeReviewPanel({ batch, privacy = false, selectedId, onSelect, onCanc
 					"건 제외"
 				]
 			}),
-			batch.outsideScopeCount > 0 && /* @__PURE__ */ (0, import_jsx_runtime$66.jsxs)("p", {
+			batch.outsideScopeCount > 0 && /* @__PURE__ */ (0, import_jsx_runtime$65.jsxs)("p", {
 				className: "trade-review-status",
 				children: [
 					"검토 범위가 다른 입력 ",
@@ -965,39 +965,39 @@ function TradeReviewPanel({ batch, privacy = false, selectedId, onSelect, onCanc
 					"건 제외"
 				]
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$66.jsxs)("div", {
+			/* @__PURE__ */ (0, import_jsx_runtime$65.jsxs)("div", {
 				className: "trade-review-columns",
-				children: [/* @__PURE__ */ (0, import_jsx_runtime$66.jsx)("section", {
+				children: [/* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("section", {
 					"aria-label": labels.list,
-					children: /* @__PURE__ */ (0, import_jsx_runtime$66.jsx)("div", {
+					children: /* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("div", {
 						className: "trade-review-table-scroll",
 						tabIndex: 0,
 						"aria-label": labels.table,
-						children: /* @__PURE__ */ (0, import_jsx_runtime$66.jsxs)("table", { children: [
-							/* @__PURE__ */ (0, import_jsx_runtime$66.jsxs)("caption", { children: [
+						children: /* @__PURE__ */ (0, import_jsx_runtime$65.jsxs)("table", { children: [
+							/* @__PURE__ */ (0, import_jsx_runtime$65.jsxs)("caption", { children: [
 								"검토 항목 ",
 								batch.rows.length,
 								"개"
 							] }),
-							/* @__PURE__ */ (0, import_jsx_runtime$66.jsx)("thead", { children: /* @__PURE__ */ (0, import_jsx_runtime$66.jsxs)("tr", { children: [
-								/* @__PURE__ */ (0, import_jsx_runtime$66.jsx)("th", {
+							/* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("thead", { children: /* @__PURE__ */ (0, import_jsx_runtime$65.jsxs)("tr", { children: [
+								/* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("th", {
 									scope: "col",
 									children: "항목"
 								}),
-								/* @__PURE__ */ (0, import_jsx_runtime$66.jsx)("th", {
+								/* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("th", {
 									scope: "col",
 									children: "체결 수량"
 								}),
-								/* @__PURE__ */ (0, import_jsx_runtime$66.jsx)("th", {
+								/* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("th", {
 									scope: "col",
 									children: "평균 체결가"
 								})
 							] }) }),
-							/* @__PURE__ */ (0, import_jsx_runtime$66.jsx)("tbody", { children: batch.rows.map((row, index) => /* @__PURE__ */ (0, import_jsx_runtime$66.jsxs)("tr", { children: [
-								/* @__PURE__ */ (0, import_jsx_runtime$66.jsxs)("th", {
+							/* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("tbody", { children: batch.rows.map((row, index) => /* @__PURE__ */ (0, import_jsx_runtime$65.jsxs)("tr", { children: [
+								/* @__PURE__ */ (0, import_jsx_runtime$65.jsxs)("th", {
 									scope: "row",
 									children: [
-										/* @__PURE__ */ (0, import_jsx_runtime$66.jsx)("button", {
+										/* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("button", {
 											type: "button",
 											"aria-label": `${labels.row(index)} 검토`,
 											"aria-pressed": row.trade.tradeId === selectedId,
@@ -1009,45 +1009,45 @@ function TradeReviewPanel({ batch, privacy = false, selectedId, onSelect, onCanc
 											onClick: () => onSelect(row.trade.tradeId),
 											children: labels.row(index)
 										}),
-										/* @__PURE__ */ (0, import_jsx_runtime$66.jsxs)("span", { children: [
+										/* @__PURE__ */ (0, import_jsx_runtime$65.jsxs)("span", { children: [
 											instrumentName?.(row.trade.observation.instrumentRef) ?? "종목명 미연결",
 											" ",
 											"·",
 											" ",
 											row.trade.observation.side === "BUY" ? "매수" : "매도"
 										] }),
-										row.conflictCount > 0 && /* @__PURE__ */ (0, import_jsx_runtime$66.jsx)("span", {
+										row.conflictCount > 0 && /* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("span", {
 											className: "trade-review-status",
 											children: "변경 관측 · 기존 값 유지"
 										})
 									]
 								}),
-								/* @__PURE__ */ (0, import_jsx_runtime$66.jsx)("td", { children: row.trade.observation.filledQuantity ?? "미확인" }),
-								/* @__PURE__ */ (0, import_jsx_runtime$66.jsx)("td", { children: row.trade.observation.price === null ? "미확인" : privacy ? "••••••" : `${row.trade.observation.price} ${row.trade.observation.currency}` })
+								/* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("td", { children: row.trade.observation.filledQuantity ?? "미확인" }),
+								/* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("td", { children: row.trade.observation.price === null ? "미확인" : privacy ? "••••••" : `${row.trade.observation.price} ${row.trade.observation.currency}` })
 							] }, row.trade.tradeId)) })
 						] })
 					})
-				}), /* @__PURE__ */ (0, import_jsx_runtime$66.jsxs)("section", {
+				}), /* @__PURE__ */ (0, import_jsx_runtime$65.jsxs)("section", {
 					id: detailId,
 					"aria-label": "선택 항목 검토",
 					className: "trade-review-detail",
-					children: [/* @__PURE__ */ (0, import_jsx_runtime$66.jsx)("h2", { children: "선택 항목 검토" }), selected && observation ? /* @__PURE__ */ (0, import_jsx_runtime$66.jsxs)(import_jsx_runtime$66.Fragment, { children: [
-						/* @__PURE__ */ (0, import_jsx_runtime$66.jsxs)("p", { children: [
+					children: [/* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("h2", { children: "선택 항목 검토" }), selected && observation ? /* @__PURE__ */ (0, import_jsx_runtime$65.jsxs)(import_jsx_runtime$65.Fragment, { children: [
+						/* @__PURE__ */ (0, import_jsx_runtime$65.jsxs)("p", { children: [
 							instrumentName?.(observation.instrumentRef) ?? "종목명 미연결",
 							" ",
 							"· ",
 							observation.side === "BUY" ? "매수" : "매도"
 						] }),
-						/* @__PURE__ */ (0, import_jsx_runtime$66.jsx)("p", {
+						/* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("p", {
 							className: "trade-review-status",
 							children: "일지 날짜 미확정 · 차트와 일지에 연결하지 않습니다."
 						}),
-						selected.duplicateCount > 0 && /* @__PURE__ */ (0, import_jsx_runtime$66.jsxs)("p", { children: [
+						selected.duplicateCount > 0 && /* @__PURE__ */ (0, import_jsx_runtime$65.jsxs)("p", { children: [
 							"동일 관측 ",
 							selected.duplicateCount,
 							"건 · 항목 추가 없음"
 						] }),
-						selected.conflictCount > 0 && /* @__PURE__ */ (0, import_jsx_runtime$66.jsxs)("p", {
+						selected.conflictCount > 0 && /* @__PURE__ */ (0, import_jsx_runtime$65.jsxs)("p", {
 							className: "trade-review-status",
 							children: [
 								"변경 관측 ",
@@ -1055,36 +1055,36 @@ function TradeReviewPanel({ batch, privacy = false, selectedId, onSelect, onCanc
 								"건 · 기존 값 유지"
 							]
 						}),
-						/* @__PURE__ */ (0, import_jsx_runtime$66.jsxs)("dl", { children: [
-							/* @__PURE__ */ (0, import_jsx_runtime$66.jsx)("dt", { children: "체결 수량" }),
-							/* @__PURE__ */ (0, import_jsx_runtime$66.jsxs)("dd", { children: [observation.filledQuantity ?? "미확인", /* @__PURE__ */ (0, import_jsx_runtime$66.jsx)("span", { children: fillLabel(selected.trade) })] }),
-							/* @__PURE__ */ (0, import_jsx_runtime$66.jsx)("dt", { children: "평균 체결가" }),
-							/* @__PURE__ */ (0, import_jsx_runtime$66.jsx)("dd", { children: observation.price === null ? "가격 미확인" : privacy ? "••••••" : `${observation.price} ${observation.currency}` }),
-							/* @__PURE__ */ (0, import_jsx_runtime$66.jsx)("dt", { children: "원천 영업일" }),
-							/* @__PURE__ */ (0, import_jsx_runtime$66.jsx)("dd", { children: observation.sourceBusinessDate ?? "미확인" }),
-							/* @__PURE__ */ (0, import_jsx_runtime$66.jsx)("dt", { children: timeMeaning[observation.sourceTime.meaning] }),
-							/* @__PURE__ */ (0, import_jsx_runtime$66.jsxs)("dd", { children: [observation.sourceTime.value ?? "미확인", /* @__PURE__ */ (0, import_jsx_runtime$66.jsx)("span", { children: observation.sourceTime.timezone ?? "시간대 미확인" })] }),
-							/* @__PURE__ */ (0, import_jsx_runtime$66.jsx)("dt", { children: "관측 시각" }),
-							/* @__PURE__ */ (0, import_jsx_runtime$66.jsxs)("dd", { children: [observation.observedAt, /* @__PURE__ */ (0, import_jsx_runtime$66.jsx)("span", { children: "최신성·거래 완결을 보장하지 않음" })] })
+						/* @__PURE__ */ (0, import_jsx_runtime$65.jsxs)("dl", { children: [
+							/* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("dt", { children: "체결 수량" }),
+							/* @__PURE__ */ (0, import_jsx_runtime$65.jsxs)("dd", { children: [observation.filledQuantity ?? "미확인", /* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("span", { children: fillLabel(selected.trade) })] }),
+							/* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("dt", { children: "평균 체결가" }),
+							/* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("dd", { children: observation.price === null ? "가격 미확인" : privacy ? "••••••" : `${observation.price} ${observation.currency}` }),
+							/* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("dt", { children: "원천 영업일" }),
+							/* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("dd", { children: observation.sourceBusinessDate ?? "미확인" }),
+							/* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("dt", { children: timeMeaning[observation.sourceTime.meaning] }),
+							/* @__PURE__ */ (0, import_jsx_runtime$65.jsxs)("dd", { children: [observation.sourceTime.value ?? "미확인", /* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("span", { children: observation.sourceTime.timezone ?? "시간대 미확인" })] }),
+							/* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("dt", { children: "관측 시각" }),
+							/* @__PURE__ */ (0, import_jsx_runtime$65.jsxs)("dd", { children: [observation.observedAt, /* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("span", { children: "최신성·거래 완결을 보장하지 않음" })] })
 						] }),
 						selectedActions,
-						/* @__PURE__ */ (0, import_jsx_runtime$66.jsx)("button", {
+						/* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("button", {
 							type: "button",
 							onClick: clearSelection,
 							children: "선택 취소"
 						})
-					] }) : /* @__PURE__ */ (0, import_jsx_runtime$66.jsx)("p", { children: "검토할 항목을 선택하세요." })]
+					] }) : /* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("p", { children: "검토할 항목을 선택하세요." })]
 				})]
 			})
 		]
 	});
 }
-var import_react$53, import_jsx_runtime$66, fillLabel, timeMeaning, defaultLabels;
+var import_react$52, import_jsx_runtime$65, fillLabel, timeMeaning, defaultLabels;
 function init_TradeReviewPanel() {
 	return (init_TradeReviewPanel = __esmMin((() => {
-		import_react$53 = require_react();
+		import_react$52 = require_react();
 		init_style();
-		import_jsx_runtime$66 = require_jsx_runtime();
+		import_jsx_runtime$65 = require_jsx_runtime();
 		fillLabel = (trade) => trade.fillState === "unknown_fill" ? "수량 미확인" : trade.fillState === "no_fill" ? "체결 수량 0" : "양수 체결 수량";
 		timeMeaning = {
 			last_execution: "마지막 체결 시각",
@@ -1289,21 +1289,21 @@ function phaseText(publication) {
 }
 /** The parent supplies only its current validated publication. No IPC or run authority. */
 function TradePublicationPanel({ publication, privacy = false, renderSelectedActions }) {
-	return /* @__PURE__ */ (0, import_jsx_runtime$65.jsx)(PublicationWindow, {
+	return /* @__PURE__ */ (0, import_jsx_runtime$64.jsx)(PublicationWindow, {
 		publication,
 		privacy,
 		renderSelectedActions
 	}, publication.runId);
 }
 function PublicationWindow({ publication, privacy, renderSelectedActions }) {
-	const [view, setView] = (0, import_react$52.useState)({
+	const [view, setView] = (0, import_react$51.useState)({
 		input: publication,
 		offset: 0,
 		selectedId: null
 	});
 	const lastOffset = Math.max(0, Math.floor((publication.observations.length - 1) / WINDOW_SIZE) * WINDOW_SIZE);
 	const offset = Math.min(view.offset, lastOffset);
-	const window = (0, import_react$52.useMemo)(() => reviewWindow(publication, offset, WINDOW_SIZE), [publication, offset]);
+	const window = (0, import_react$51.useMemo)(() => reviewWindow(publication, offset, WINDOW_SIZE), [publication, offset]);
 	const selectedId = window.batch.rows.some((row) => row.trade.tradeId === view.selectedId) ? view.selectedId : null;
 	if (view.input !== publication) setView({
 		input: publication,
@@ -1325,7 +1325,7 @@ function PublicationWindow({ publication, privacy, renderSelectedActions }) {
 			selectedId: null
 		});
 	}
-	return /* @__PURE__ */ (0, import_jsx_runtime$65.jsx)(TradeReviewPanel, {
+	return /* @__PURE__ */ (0, import_jsx_runtime$64.jsx)(TradeReviewPanel, {
 		batch: window.batch,
 		privacy,
 		selectedId,
@@ -1341,8 +1341,8 @@ function PublicationWindow({ publication, privacy, renderSelectedActions }) {
 		}),
 		labels,
 		selectedActions: selected ? renderSelectedActions?.(selected) : void 0,
-		beforeContent: /* @__PURE__ */ (0, import_jsx_runtime$65.jsxs)(import_jsx_runtime$65.Fragment, { children: [
-			/* @__PURE__ */ (0, import_jsx_runtime$65.jsxs)("p", { children: [
+		beforeContent: /* @__PURE__ */ (0, import_jsx_runtime$64.jsxs)(import_jsx_runtime$64.Fragment, { children: [
+			/* @__PURE__ */ (0, import_jsx_runtime$64.jsxs)("p", { children: [
 				"수신 항목 ",
 				window.total,
 				"개 · 표시 ",
@@ -1350,16 +1350,16 @@ function PublicationWindow({ publication, privacy, renderSelectedActions }) {
 				"–",
 				window.end
 			] }),
-			/* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("p", { children: "화면 내 이동이며 금융사에 요청하지 않습니다." }),
-			/* @__PURE__ */ (0, import_jsx_runtime$65.jsxs)("nav", {
+			/* @__PURE__ */ (0, import_jsx_runtime$64.jsx)("p", { children: "화면 내 이동이며 금융사에 요청하지 않습니다." }),
+			/* @__PURE__ */ (0, import_jsx_runtime$64.jsxs)("nav", {
 				className: "trade-review-samples",
 				"aria-label": "수신 항목 화면 이동",
-				children: [/* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("button", {
+				children: [/* @__PURE__ */ (0, import_jsx_runtime$64.jsx)("button", {
 					type: "button",
 					disabled: !window.previous,
 					onClick: () => move(Math.max(0, offset - WINDOW_SIZE)),
 					children: "이전 100개 · 화면 이동"
-				}), /* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("button", {
+				}), /* @__PURE__ */ (0, import_jsx_runtime$64.jsx)("button", {
 					type: "button",
 					disabled: !window.next,
 					onClick: () => move(offset + WINDOW_SIZE),
@@ -1369,40 +1369,40 @@ function PublicationWindow({ publication, privacy, renderSelectedActions }) {
 		] })
 	});
 }
-var import_react$52, import_jsx_runtime$65, WINDOW_SIZE;
+var import_react$51, import_jsx_runtime$64, WINDOW_SIZE;
 function init_TradePublicationPanel() {
 	return (init_TradePublicationPanel = __esmMin((() => {
-		import_react$52 = require_react();
+		import_react$51 = require_react();
 		init_TradeReviewPanel();
 		init_publication();
-		import_jsx_runtime$65 = require_jsx_runtime();
+		import_jsx_runtime$64 = require_jsx_runtime();
 		WINDOW_SIZE = 100;
 	})))();
 }
 function DiaryTradeNotice({ batch, onDismiss, renderSelectedActions }) {
-	const [expanded, setExpanded] = (0, import_react$51.useState)(false);
-	return /* @__PURE__ */ (0, import_jsx_runtime$64.jsxs)("aside", {
+	const [expanded, setExpanded] = (0, import_react$50.useState)(false);
+	return /* @__PURE__ */ (0, import_jsx_runtime$63.jsxs)("aside", {
 		className: "manual-trade-notice",
 		"aria-label": "최근 거래 안내",
-		children: [/* @__PURE__ */ (0, import_jsx_runtime$64.jsxs)("div", { children: [
-			/* @__PURE__ */ (0, import_jsx_runtime$64.jsxs)("span", { children: [
+		children: [/* @__PURE__ */ (0, import_jsx_runtime$63.jsxs)("div", { children: [
+			/* @__PURE__ */ (0, import_jsx_runtime$63.jsxs)("span", { children: [
 				"최근 조회한 거래 ",
 				batch.count,
 				"건"
 			] }),
-			/* @__PURE__ */ (0, import_jsx_runtime$64.jsx)("button", {
+			/* @__PURE__ */ (0, import_jsx_runtime$63.jsx)("button", {
 				type: "button",
 				"aria-expanded": expanded,
 				onClick: () => setExpanded(!expanded),
 				children: "보기"
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$64.jsx)("button", {
+			/* @__PURE__ */ (0, import_jsx_runtime$63.jsx)("button", {
 				type: "button",
 				"aria-label": "거래 안내 닫기",
 				onClick: onDismiss,
 				children: "×"
 			})
-		] }), expanded && /* @__PURE__ */ (0, import_jsx_runtime$64.jsx)(DiaryTradeItems, {
+		] }), expanded && /* @__PURE__ */ (0, import_jsx_runtime$63.jsx)(DiaryTradeItems, {
 			batch,
 			renderSelectedActions
 		}, batch.publication.runId + ":" + batch.publication.revision)]
@@ -1418,10 +1418,10 @@ function diaryTradeKeyOffset(key, offset, total) {
 }
 /** Local historical carousel. Selection never grants current authority. */
 function DiaryTradeItems({ batch, renderSelectedActions }) {
-	const [offset, setOffset] = (0, import_react$51.useState)(0), [selectedId, setSelectedId] = (0, import_react$51.useState)(null), [details, setDetails] = (0, import_react$51.useState)(false);
-	const opener = (0, import_react$51.useRef)(null);
+	const [offset, setOffset] = (0, import_react$50.useState)(0), [selectedId, setSelectedId] = (0, import_react$50.useState)(null), [details, setDetails] = (0, import_react$50.useState)(false);
+	const opener = (0, import_react$50.useRef)(null);
 	const safeOffset = Math.min(offset, Math.max(0, batch.publication.observations.length - 1));
-	const window = (0, import_react$51.useMemo)(() => reviewWindow(batch.publication, safeOffset, 1), [batch.publication, safeOffset]);
+	const window = (0, import_react$50.useMemo)(() => reviewWindow(batch.publication, safeOffset, 1), [batch.publication, safeOffset]);
 	const selected = window.batch.rows.find((r) => r.trade.tradeId === selectedId);
 	function move(next) {
 		if (next === safeOffset) return;
@@ -1429,7 +1429,7 @@ function DiaryTradeItems({ batch, renderSelectedActions }) {
 		setSelectedId(null);
 		setDetails(false);
 	}
-	return /* @__PURE__ */ (0, import_jsx_runtime$64.jsxs)("section", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$63.jsxs)("section", {
 		className: "diary-trade-carousel",
 		"aria-label": "조회 당시 거래",
 		"aria-roledescription": "carousel",
@@ -1442,35 +1442,35 @@ function DiaryTradeItems({ batch, renderSelectedActions }) {
 			}
 		},
 		children: [
-			window.total === 0 && /* @__PURE__ */ (0, import_jsx_runtime$64.jsx)("p", {
+			window.total === 0 && /* @__PURE__ */ (0, import_jsx_runtime$63.jsx)("p", {
 				role: "status",
 				children: "조회된 거래가 없습니다."
 			}),
-			window.batch.coverage === "error" ? /* @__PURE__ */ (0, import_jsx_runtime$64.jsx)("p", {
+			window.batch.coverage === "error" ? /* @__PURE__ */ (0, import_jsx_runtime$63.jsx)("p", {
 				role: "alert",
 				children: "조회 오류 · 상세에서 원인 확인"
-			}) : window.batch.coverage === "partial" ? /* @__PURE__ */ (0, import_jsx_runtime$64.jsx)("p", {
+			}) : window.batch.coverage === "partial" ? /* @__PURE__ */ (0, import_jsx_runtime$63.jsx)("p", {
 				role: "status",
 				children: "일부 조회"
 			}) : null,
-			/* @__PURE__ */ (0, import_jsx_runtime$64.jsxs)("div", {
+			/* @__PURE__ */ (0, import_jsx_runtime$63.jsxs)("div", {
 				className: "diary-trade-carousel-track",
 				children: [
-					/* @__PURE__ */ (0, import_jsx_runtime$64.jsx)("button", {
+					/* @__PURE__ */ (0, import_jsx_runtime$63.jsx)("button", {
 						type: "button",
 						"aria-label": "이전 거래",
 						disabled: !window.previous,
 						onClick: () => move(safeOffset - 1),
 						children: "‹"
 					}),
-					/* @__PURE__ */ (0, import_jsx_runtime$64.jsx)("div", {
+					/* @__PURE__ */ (0, import_jsx_runtime$63.jsx)("div", {
 						className: "diary-trade-carousel-card",
 						role: "group",
 						"aria-roledescription": "slide",
 						"aria-label": `${window.start} / ${window.total}`,
 						children: window.batch.rows.map((row) => {
 							const o = row.trade.observation;
-							return /* @__PURE__ */ (0, import_jsx_runtime$64.jsxs)("button", {
+							return /* @__PURE__ */ (0, import_jsx_runtime$63.jsxs)("button", {
 								ref: opener,
 								type: "button",
 								onKeyDown: (event) => {
@@ -1484,11 +1484,11 @@ function DiaryTradeItems({ batch, renderSelectedActions }) {
 								"aria-pressed": selectedId === row.trade.tradeId,
 								onClick: () => setSelectedId(selectedId === row.trade.tradeId ? null : row.trade.tradeId),
 								children: [
-									/* @__PURE__ */ (0, import_jsx_runtime$64.jsx)("span", { children: o.side === "BUY" ? "매수" : "매도" }),
+									/* @__PURE__ */ (0, import_jsx_runtime$63.jsx)("span", { children: o.side === "BUY" ? "매수" : "매도" }),
 									" ",
-									/* @__PURE__ */ (0, import_jsx_runtime$64.jsxs)("span", { children: ["수량 ", quantityPresentation(o.filledQuantity)] }),
+									/* @__PURE__ */ (0, import_jsx_runtime$63.jsxs)("span", { children: ["수량 ", quantityPresentation(o.filledQuantity)] }),
 									" ",
-									/* @__PURE__ */ (0, import_jsx_runtime$64.jsx)("span", { children: o.price === null ? /* @__PURE__ */ (0, import_jsx_runtime$64.jsx)("span", {
+									/* @__PURE__ */ (0, import_jsx_runtime$63.jsx)("span", { children: o.price === null ? /* @__PURE__ */ (0, import_jsx_runtime$63.jsx)("span", {
 										"aria-label": "가격 미조회",
 										children: "—"
 									}) : `${o.price} ${o.currency}` })
@@ -1496,14 +1496,14 @@ function DiaryTradeItems({ batch, renderSelectedActions }) {
 							}, "current");
 						})
 					}),
-					/* @__PURE__ */ (0, import_jsx_runtime$64.jsx)("button", {
+					/* @__PURE__ */ (0, import_jsx_runtime$63.jsx)("button", {
 						type: "button",
 						"aria-label": "다음 거래",
 						disabled: !window.next,
 						onClick: () => move(safeOffset + 1),
 						children: "›"
 					}),
-					/* @__PURE__ */ (0, import_jsx_runtime$64.jsxs)("span", {
+					/* @__PURE__ */ (0, import_jsx_runtime$63.jsxs)("span", {
 						"aria-live": "polite",
 						"aria-atomic": "true",
 						children: [
@@ -1512,7 +1512,7 @@ function DiaryTradeItems({ batch, renderSelectedActions }) {
 							window.total
 						]
 					}),
-					/* @__PURE__ */ (0, import_jsx_runtime$64.jsx)("button", {
+					/* @__PURE__ */ (0, import_jsx_runtime$63.jsx)("button", {
 						type: "button",
 						"aria-label": "거래 상세",
 						"aria-expanded": details,
@@ -1522,18 +1522,18 @@ function DiaryTradeItems({ batch, renderSelectedActions }) {
 				]
 			}),
 			selected && renderSelectedActions?.(selected),
-			details && /* @__PURE__ */ (0, import_jsx_runtime$64.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime$64.jsx)("p", { children: "조회 당시 주문별 집계 · 개별 체결 기록 아님 · 현재 상태와 다를 수 있습니다." }), /* @__PURE__ */ (0, import_jsx_runtime$64.jsx)(TradePublicationPanel, { publication: batch.publication })] })
+			details && /* @__PURE__ */ (0, import_jsx_runtime$63.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime$63.jsx)("p", { children: "조회 당시 주문별 집계 · 개별 체결 기록 아님 · 현재 상태와 다를 수 있습니다." }), /* @__PURE__ */ (0, import_jsx_runtime$63.jsx)(TradePublicationPanel, { publication: batch.publication })] })
 		]
 	});
 }
-var import_react$51, import_jsx_runtime$64;
+var import_react$50, import_jsx_runtime$63;
 function init_DiaryTradeNotice() {
 	return (init_DiaryTradeNotice = __esmMin((() => {
 		init_diary_trade_carousel();
-		import_react$51 = require_react();
+		import_react$50 = require_react();
 		init_TradePublicationPanel();
 		init_publication();
-		import_jsx_runtime$64 = require_jsx_runtime();
+		import_jsx_runtime$63 = require_jsx_runtime();
 	})))();
 }
 function object$4(value) {
@@ -2155,17 +2155,17 @@ function catalogKey(c) {
 }
 /** Historical rows never authorize a draft. Explicit current check, then exact live snapshot. */
 function DiaryTradeActions({ session, history, recordRef, catalog, prepareDraft, onOpenNote, onWriteDraft }) {
-	const snapshot = (0, import_react$50.useSyncExternalStore)(session.subscribe, session.getSnapshot, session.getSnapshot);
-	const [checked, setChecked] = (0, import_react$50.useState)(null), [message, setMessage] = (0, import_react$50.useState)(""), [busy, setBusy] = (0, import_react$50.useState)(false);
-	const lifetime = (0, import_react$50.useRef)({
+	const snapshot = (0, import_react$49.useSyncExternalStore)(session.subscribe, session.getSnapshot, session.getSnapshot);
+	const [checked, setChecked] = (0, import_react$49.useState)(null), [message, setMessage] = (0, import_react$49.useState)(""), [busy, setBusy] = (0, import_react$49.useState)(false);
+	const lifetime = (0, import_react$49.useRef)({
 		live: false,
 		epoch: 0,
 		pending: false
-	}), latestCatalog = (0, import_react$50.useRef)(catalog);
-	const [date, setDate] = (0, import_react$50.useState)("");
-	const receiver = (0, import_react$50.useRef)(null), action = (0, import_react$50.useRef)(null), input = (0, import_react$50.useRef)(null);
-	const dateId = (0, import_react$50.useId)();
-	(0, import_react$50.useLayoutEffect)(() => {
+	}), latestCatalog = (0, import_react$49.useRef)(catalog);
+	const [date, setDate] = (0, import_react$49.useState)("");
+	const receiver = (0, import_react$49.useRef)(null), action = (0, import_react$49.useRef)(null), input = (0, import_react$49.useRef)(null);
+	const dateId = (0, import_react$49.useId)();
+	(0, import_react$49.useLayoutEffect)(() => {
 		const owned = new ServerDraftReceiver(prepareDraft);
 		receiver.current = owned;
 		return () => {
@@ -2173,10 +2173,10 @@ function DiaryTradeActions({ session, history, recordRef, catalog, prepareDraft,
 			if (receiver.current === owned) receiver.current = null;
 		};
 	}, [prepareDraft]);
-	(0, import_react$50.useLayoutEffect)(() => {
+	(0, import_react$49.useLayoutEffect)(() => {
 		latestCatalog.current = catalog;
 	}, [catalog]);
-	(0, import_react$50.useLayoutEffect)(() => {
+	(0, import_react$49.useLayoutEffect)(() => {
 		const life = lifetime.current;
 		life.live = true;
 		return () => {
@@ -2190,7 +2190,7 @@ function DiaryTradeActions({ session, history, recordRef, catalog, prepareDraft,
 		recordRef
 	]);
 	const key = catalogKey(catalog);
-	(0, import_react$50.useLayoutEffect)(() => {
+	(0, import_react$49.useLayoutEffect)(() => {
 		const life = lifetime.current;
 		life.epoch++;
 		life.pending = false;
@@ -2253,11 +2253,11 @@ function DiaryTradeActions({ session, history, recordRef, catalog, prepareDraft,
 	const intent = prior.ok ? diaryTradeDestination(catalog, prior.value.tradeId) : { kind: "unavailable" };
 	const permit = () => checked !== null && allowed(checked);
 	const choosingDate = !!selected && checked?.confirmed === true && destination.kind === "new";
-	(0, import_react$50.useLayoutEffect)(() => {
+	(0, import_react$49.useLayoutEffect)(() => {
 		if (choosingDate) input.current?.focus();
 	}, [choosingDate]);
-	const returnFocus = (0, import_react$50.useRef)(null);
-	(0, import_react$50.useLayoutEffect)(() => () => {
+	const returnFocus = (0, import_react$49.useRef)(null);
+	(0, import_react$49.useLayoutEffect)(() => () => {
 		returnFocus.current?.cancel();
 		returnFocus.current = null;
 	}, [
@@ -2267,7 +2267,7 @@ function DiaryTradeActions({ session, history, recordRef, catalog, prepareDraft,
 		history,
 		recordRef
 	]);
-	(0, import_react$50.useLayoutEffect)(() => {
+	(0, import_react$49.useLayoutEffect)(() => {
 		const intent = returnFocus.current;
 		if (!intent || choosingDate) return;
 		returnFocus.current = null;
@@ -2423,10 +2423,10 @@ function DiaryTradeActions({ session, history, recordRef, catalog, prepareDraft,
 			after.recordRef
 		]
 	].filter(([, a, b]) => a !== b) : [];
-	return /* @__PURE__ */ (0, import_jsx_runtime$63.jsxs)("section", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$62.jsxs)("section", {
 		"aria-label": "거래 기록 연결",
 		children: [
-			/* @__PURE__ */ (0, import_jsx_runtime$63.jsx)("button", {
+			/* @__PURE__ */ (0, import_jsx_runtime$62.jsx)("button", {
 				ref: action,
 				type: "button",
 				disabled: busy || snapshot.pending !== null || choosingDate && !validRecordDate(date),
@@ -2436,19 +2436,19 @@ function DiaryTradeActions({ session, history, recordRef, catalog, prepareDraft,
 				},
 				children: busy ? "확인 중…" : choosingDate ? "작성" : message ? "다시 시도" : intent.kind === "existing" ? "기록 보기" : "기록하기"
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$63.jsx)("p", {
+			/* @__PURE__ */ (0, import_jsx_runtime$62.jsx)("p", {
 				role: "status",
 				style: { margin: message ? "8px 0" : 0 },
 				children: !checked || checked.snapshot === snapshot ? message : ""
 			}),
-			selected && checked && !checked.confirmed && /* @__PURE__ */ (0, import_jsx_runtime$63.jsxs)("div", { children: [
-				/* @__PURE__ */ (0, import_jsx_runtime$63.jsx)("p", { children: "조회 이후 거래 정보가 바뀌었습니다." }),
-				/* @__PURE__ */ (0, import_jsx_runtime$63.jsx)("dl", { children: changes.map(([label, a, b]) => /* @__PURE__ */ (0, import_jsx_runtime$63.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime$63.jsx)("dt", { children: label }), /* @__PURE__ */ (0, import_jsx_runtime$63.jsxs)("dd", { children: [
+			selected && checked && !checked.confirmed && /* @__PURE__ */ (0, import_jsx_runtime$62.jsxs)("div", { children: [
+				/* @__PURE__ */ (0, import_jsx_runtime$62.jsx)("p", { children: "조회 이후 거래 정보가 바뀌었습니다." }),
+				/* @__PURE__ */ (0, import_jsx_runtime$62.jsx)("dl", { children: changes.map(([label, a, b]) => /* @__PURE__ */ (0, import_jsx_runtime$62.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime$62.jsx)("dt", { children: label }), /* @__PURE__ */ (0, import_jsx_runtime$62.jsxs)("dd", { children: [
 					a ?? "미제공",
 					" → ",
 					b ?? "미제공"
 				] })] }, label)) }),
-				/* @__PURE__ */ (0, import_jsx_runtime$63.jsx)("button", {
+				/* @__PURE__ */ (0, import_jsx_runtime$62.jsx)("button", {
 					type: "button",
 					onClick: (event) => {
 						const value = {
@@ -2464,16 +2464,16 @@ function DiaryTradeActions({ session, history, recordRef, catalog, prepareDraft,
 					children: "변경 내용 사용"
 				})
 			] }),
-			selected && checked?.confirmed && /* @__PURE__ */ (0, import_jsx_runtime$63.jsxs)(import_jsx_runtime$63.Fragment, { children: [
-				destination.kind === "unavailable" && /* @__PURE__ */ (0, import_jsx_runtime$63.jsx)("p", {
+			selected && checked?.confirmed && /* @__PURE__ */ (0, import_jsx_runtime$62.jsxs)(import_jsx_runtime$62.Fragment, { children: [
+				destination.kind === "unavailable" && /* @__PURE__ */ (0, import_jsx_runtime$62.jsx)("p", {
 					role: "status",
 					children: "기록 보관을 먼저 열어 주세요."
 				}),
-				destination.kind === "ambiguous" && /* @__PURE__ */ (0, import_jsx_runtime$63.jsx)("p", {
+				destination.kind === "ambiguous" && /* @__PURE__ */ (0, import_jsx_runtime$62.jsx)("p", {
 					role: "status",
 					children: "연결된 기록이 여러 개입니다. 달력에서 확인해 주세요."
 				}),
-				choosingDate && /* @__PURE__ */ (0, import_jsx_runtime$63.jsxs)("form", {
+				choosingDate && /* @__PURE__ */ (0, import_jsx_runtime$62.jsxs)("form", {
 					className: "diary-trade-date",
 					onSubmit: (event) => {
 						event.preventDefault();
@@ -2487,11 +2487,11 @@ function DiaryTradeActions({ session, history, recordRef, catalog, prepareDraft,
 						}
 					},
 					children: [
-						/* @__PURE__ */ (0, import_jsx_runtime$63.jsx)("label", {
+						/* @__PURE__ */ (0, import_jsx_runtime$62.jsx)("label", {
 							htmlFor: dateId,
 							children: "기록 날짜"
 						}),
-						/* @__PURE__ */ (0, import_jsx_runtime$63.jsx)("input", {
+						/* @__PURE__ */ (0, import_jsx_runtime$62.jsx)("input", {
 							ref: input,
 							id: dateId,
 							type: "text",
@@ -2508,11 +2508,11 @@ function DiaryTradeActions({ session, history, recordRef, catalog, prepareDraft,
 								setDate(event.target.value);
 							}
 						}),
-						date.length > 0 && !validRecordDate(date) && /* @__PURE__ */ (0, import_jsx_runtime$63.jsx)("p", {
+						date.length > 0 && !validRecordDate(date) && /* @__PURE__ */ (0, import_jsx_runtime$62.jsx)("p", {
 							id: `${dateId}-error`,
 							children: "유효한 날짜를 YYYY-MM-DD 형식으로 입력하세요."
 						}),
-						/* @__PURE__ */ (0, import_jsx_runtime$63.jsx)("button", {
+						/* @__PURE__ */ (0, import_jsx_runtime$62.jsx)("button", {
 							type: "button",
 							onClick: back,
 							children: "돌아가기"
@@ -2523,15 +2523,15 @@ function DiaryTradeActions({ session, history, recordRef, catalog, prepareDraft,
 		]
 	});
 }
-var import_react$50, import_jsx_runtime$63;
+var import_react$49, import_jsx_runtime$62;
 function init_DiaryTradeActions() {
 	return (init_DiaryTradeActions = __esmMin((() => {
-		import_react$50 = require_react();
+		import_react$49 = require_react();
 		init_draft();
 		init_serverDraft();
 		init_diaryTradeSelection();
 		init_tradeProvenance();
-		import_jsx_runtime$63 = require_jsx_runtime();
+		import_jsx_runtime$62 = require_jsx_runtime();
 	})))();
 }
 /** Historical display only: this never grants authority to write or refresh. */
@@ -2573,7 +2573,7 @@ function TradeServerDraftPreparation(props) {
 		props.current.worker?.revision,
 		props.row
 	]);
-	return /* @__PURE__ */ (0, import_jsx_runtime$62.jsx)(DraftForm, { ...props }, key);
+	return /* @__PURE__ */ (0, import_jsx_runtime$61.jsx)(DraftForm, { ...props }, key);
 }
 function createSession$1(prepare) {
 	let receiver = new ServerDraftReceiver(prepare);
@@ -2599,17 +2599,17 @@ function createSession$1(prepare) {
 	};
 }
 function DraftForm({ current, row, prepareDraft, onWriteDraft, compact = false }) {
-	const session = (0, import_react$49.useMemo)(() => createSession$1(prepareDraft), [prepareDraft]);
-	const state = (0, import_react$49.useSyncExternalStore)(session.subscribe, session.getSnapshot, session.getSnapshot);
-	const [open, setOpen] = (0, import_react$49.useState)(false), [date, setDate] = (0, import_react$49.useState)("");
-	const opener = (0, import_react$49.useRef)(null), input = (0, import_react$49.useRef)(null), backButton = (0, import_react$49.useRef)(null);
-	const moved = (0, import_react$49.useRef)(false);
-	const id = (0, import_react$49.useId)();
+	const session = (0, import_react$48.useMemo)(() => createSession$1(prepareDraft), [prepareDraft]);
+	const state = (0, import_react$48.useSyncExternalStore)(session.subscribe, session.getSnapshot, session.getSnapshot);
+	const [open, setOpen] = (0, import_react$48.useState)(false), [date, setDate] = (0, import_react$48.useState)("");
+	const opener = (0, import_react$48.useRef)(null), input = (0, import_react$48.useRef)(null), backButton = (0, import_react$48.useRef)(null);
+	const moved = (0, import_react$48.useRef)(false);
+	const id = (0, import_react$48.useId)();
 	const blocked = draftBlock(row, {
 		coverage: "partial",
 		linkedTradeIds: []
 	});
-	(0, import_react$49.useLayoutEffect)(() => {
+	(0, import_react$48.useLayoutEffect)(() => {
 		session.update(current, row.trade.observation.recordRef, date);
 	}, [
 		session,
@@ -2617,8 +2617,8 @@ function DraftForm({ current, row, prepareDraft, onWriteDraft, compact = false }
 		row.trade.observation.recordRef,
 		date
 	]);
-	(0, import_react$49.useLayoutEffect)(() => () => session.cancel(), [session]);
-	(0, import_react$49.useLayoutEffect)(() => {
+	(0, import_react$48.useLayoutEffect)(() => () => session.cancel(), [session]);
+	(0, import_react$48.useLayoutEffect)(() => {
 		if (moved.current) (open ? input : opener).current?.focus();
 	}, [open]);
 	function back() {
@@ -2632,7 +2632,7 @@ function DraftForm({ current, row, prepareDraft, onWriteDraft, compact = false }
 		backButton.current?.focus();
 		session.prepare();
 	}
-	return /* @__PURE__ */ (0, import_jsx_runtime$62.jsxs)("section", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$61.jsxs)("section", {
 		className: "trade-review-draft",
 		"aria-label": "일지 초안 준비",
 		onKeyDown: (event) => {
@@ -2643,12 +2643,12 @@ function DraftForm({ current, row, prepareDraft, onWriteDraft, compact = false }
 			}
 		},
 		children: [
-			!compact && /* @__PURE__ */ (0, import_jsx_runtime$62.jsxs)(import_jsx_runtime$62.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$62.jsx)("h3", { children: "일지 초안 준비" }), /* @__PURE__ */ (0, import_jsx_runtime$62.jsx)("p", { children: "기록 날짜를 직접 정해 메모리 초안을 준비합니다." })] }),
-			blocked ? /* @__PURE__ */ (0, import_jsx_runtime$62.jsx)("p", {
+			!compact && /* @__PURE__ */ (0, import_jsx_runtime$61.jsxs)(import_jsx_runtime$61.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$61.jsx)("h3", { children: "일지 초안 준비" }), /* @__PURE__ */ (0, import_jsx_runtime$61.jsx)("p", { children: "기록 날짜를 직접 정해 메모리 초안을 준비합니다." })] }),
+			blocked ? /* @__PURE__ */ (0, import_jsx_runtime$61.jsx)("p", {
 				className: "trade-review-status",
 				children: "양수 체결 수량이 확인된 항목만 준비할 수 있습니다."
 			}) : null,
-			!open ? /* @__PURE__ */ (0, import_jsx_runtime$62.jsx)("button", {
+			!open ? /* @__PURE__ */ (0, import_jsx_runtime$61.jsx)("button", {
 				ref: opener,
 				type: "button",
 				disabled: blocked !== null,
@@ -2658,17 +2658,17 @@ function DraftForm({ current, row, prepareDraft, onWriteDraft, compact = false }
 					setOpen(true);
 				},
 				children: "기록 날짜 정하기"
-			}) : /* @__PURE__ */ (0, import_jsx_runtime$62.jsxs)("form", {
+			}) : /* @__PURE__ */ (0, import_jsx_runtime$61.jsxs)("form", {
 				onSubmit: (event) => {
 					event.preventDefault();
 					prepare();
 				},
 				children: [
-					/* @__PURE__ */ (0, import_jsx_runtime$62.jsx)("label", {
+					/* @__PURE__ */ (0, import_jsx_runtime$61.jsx)("label", {
 						htmlFor: id,
 						children: "기록 날짜"
 					}),
-					/* @__PURE__ */ (0, import_jsx_runtime$62.jsx)("input", {
+					/* @__PURE__ */ (0, import_jsx_runtime$61.jsx)("input", {
 						ref: input,
 						id,
 						type: "text",
@@ -2684,35 +2684,35 @@ function DraftForm({ current, row, prepareDraft, onWriteDraft, compact = false }
 							setDate(event.target.value);
 						}
 					}),
-					/* @__PURE__ */ (0, import_jsx_runtime$62.jsx)("p", {
+					/* @__PURE__ */ (0, import_jsx_runtime$61.jsx)("p", {
 						id: `${id}-hint`,
 						className: "trade-review-caption",
 						children: "원천 날짜를 자동으로 추정하지 않습니다."
 					}),
-					date.length > 0 && !validRecordDate(date) ? /* @__PURE__ */ (0, import_jsx_runtime$62.jsx)("p", {
+					date.length > 0 && !validRecordDate(date) ? /* @__PURE__ */ (0, import_jsx_runtime$61.jsx)("p", {
 						className: "trade-review-status",
 						children: "유효한 날짜를 YYYY-MM-DD 형식으로 입력하세요."
 					}) : null,
-					state.status === "preparing" ? /* @__PURE__ */ (0, import_jsx_runtime$62.jsx)("p", {
+					state.status === "preparing" ? /* @__PURE__ */ (0, import_jsx_runtime$61.jsx)("p", {
 						role: "status",
 						children: "초안 준비 중 · 저장 요청 없음"
 					}) : null,
-					state.status === "prepared" && state.candidate ? /* @__PURE__ */ (0, import_jsx_runtime$62.jsxs)("div", {
+					state.status === "prepared" && state.candidate ? /* @__PURE__ */ (0, import_jsx_runtime$61.jsxs)("div", {
 						role: "status",
-						children: [/* @__PURE__ */ (0, import_jsx_runtime$62.jsx)("p", { children: "메모리 초안 준비됨 · 저장되지 않음" }), /* @__PURE__ */ (0, import_jsx_runtime$62.jsxs)("p", { children: [
+						children: [/* @__PURE__ */ (0, import_jsx_runtime$61.jsx)("p", { children: "메모리 초안 준비됨 · 저장되지 않음" }), /* @__PURE__ */ (0, import_jsx_runtime$61.jsxs)("p", { children: [
 							"기록 날짜: ",
 							state.candidate.recordDate.value,
 							" · 직접 지정"
 						] })]
 					}) : null,
-					state.status === "rejected" ? /* @__PURE__ */ (0, import_jsx_runtime$62.jsx)("p", {
+					state.status === "rejected" ? /* @__PURE__ */ (0, import_jsx_runtime$61.jsx)("p", {
 						role: "alert",
 						children: "초안을 준비하지 못했습니다. 날짜 입력은 유지됩니다."
 					}) : null,
-					/* @__PURE__ */ (0, import_jsx_runtime$62.jsxs)("div", {
+					/* @__PURE__ */ (0, import_jsx_runtime$61.jsxs)("div", {
 						className: "trade-review-draft-actions",
 						children: [
-							state.status === "prepared" && state.candidate && onWriteDraft && /* @__PURE__ */ (0, import_jsx_runtime$62.jsx)("button", {
+							state.status === "prepared" && state.candidate && onWriteDraft && /* @__PURE__ */ (0, import_jsx_runtime$61.jsx)("button", {
 								type: "button",
 								onClick: (event) => {
 									if (!state.candidate || !current.worker) return;
@@ -2729,12 +2729,12 @@ function DraftForm({ current, row, prepareDraft, onWriteDraft, compact = false }
 								},
 								children: "이 거래로 일지 작성"
 							}),
-							/* @__PURE__ */ (0, import_jsx_runtime$62.jsx)("button", {
+							/* @__PURE__ */ (0, import_jsx_runtime$61.jsx)("button", {
 								type: "submit",
 								disabled: blocked !== null || !validRecordDate(date) || !state.canPrepare,
 								children: state.status === "rejected" ? "다시 준비" : "초안 준비"
 							}),
-							/* @__PURE__ */ (0, import_jsx_runtime$62.jsx)("button", {
+							/* @__PURE__ */ (0, import_jsx_runtime$61.jsx)("button", {
 								ref: backButton,
 								type: "button",
 								onClick: back,
@@ -2747,13 +2747,13 @@ function DraftForm({ current, row, prepareDraft, onWriteDraft, compact = false }
 		]
 	});
 }
-var import_react$49, import_jsx_runtime$62;
+var import_react$48, import_jsx_runtime$61;
 function init_TradeServerDraftPreparation() {
 	return (init_TradeServerDraftPreparation = __esmMin((() => {
-		import_react$49 = require_react();
+		import_react$48 = require_react();
 		init_draft();
 		init_serverDraft();
-		import_jsx_runtime$62 = require_jsx_runtime();
+		import_jsx_runtime$61 = require_jsx_runtime();
 	})))();
 }
 function eligible$1(value) {
@@ -2761,11 +2761,11 @@ function eligible$1(value) {
 }
 /** Only the parent can establish current authenticated official selection. No account labels/IDs are rendered. */
 function TradeRunPanel({ selection, command, cleanup, privacy = false, prepareDraft, onWriteDraft, onCurrentChange, session: ownedSession }) {
-	if (!eligible$1(selection) || ownedSession && !ownedSession.matchesSelection(selection)) return /* @__PURE__ */ (0, import_jsx_runtime$61.jsx)("p", {
+	if (!eligible$1(selection) || ownedSession && !ownedSession.matchesSelection(selection)) return /* @__PURE__ */ (0, import_jsx_runtime$60.jsx)("p", {
 		role: "status",
 		children: "인증된 토스 실전 계좌를 선택한 뒤 검토할 수 있습니다."
 	});
-	return /* @__PURE__ */ (0, import_jsx_runtime$61.jsx)(ScopedRun, {
+	return /* @__PURE__ */ (0, import_jsx_runtime$60.jsx)(ScopedRun, {
 		selection,
 		session: ownedSession,
 		command,
@@ -2817,17 +2817,17 @@ function statusText$1(state) {
 	}
 }
 function ScopedRun({ selection, command, cleanup, privacy, prepareDraft, onWriteDraft, onCurrentChange, session: ownedSession }) {
-	const session = (0, import_react$48.useMemo)(() => ownedSession ?? createSession(command, cleanup), [
+	const session = (0, import_react$47.useMemo)(() => ownedSession ?? createSession(command, cleanup), [
 		ownedSession,
 		command,
 		cleanup
 	]);
-	const cleanupState = (0, import_react$48.useSyncExternalStore)(cleanup?.subscribe ?? subscribeNoCleanup, cleanup?.getSnapshot ?? getNoCleanup, cleanup?.getSnapshot ?? getNoCleanup);
-	const state = (0, import_react$48.useSyncExternalStore)(session.subscribe, session.getSnapshot, session.getSnapshot);
-	const [storage, setStorage] = (0, import_react$48.useState)(null);
-	const [confirmed, setConfirmed] = (0, import_react$48.useState)(false);
-	const [from, setFrom] = (0, import_react$48.useState)("");
-	const [to, setTo] = (0, import_react$48.useState)("");
+	const cleanupState = (0, import_react$47.useSyncExternalStore)(cleanup?.subscribe ?? subscribeNoCleanup, cleanup?.getSnapshot ?? getNoCleanup, cleanup?.getSnapshot ?? getNoCleanup);
+	const state = (0, import_react$47.useSyncExternalStore)(session.subscribe, session.getSnapshot, session.getSnapshot);
+	const [storage, setStorage] = (0, import_react$47.useState)(null);
+	const [confirmed, setConfirmed] = (0, import_react$47.useState)(false);
+	const [from, setFrom] = (0, import_react$47.useState)("");
+	const [to, setTo] = (0, import_react$47.useState)("");
 	const worker = state.current?.worker;
 	const inactive = [
 		"idle",
@@ -2841,7 +2841,7 @@ function ScopedRun({ selection, command, cleanup, privacy, prepareDraft, onWrite
 	const canRead = available && worker?.phase === "needs_read";
 	const canCancel = state.canCancel;
 	const draftCurrent = available && state.error === null && worker?.phase === "review" && worker.error === null ? state.current : null;
-	(0, import_react$48.useLayoutEffect)(() => {
+	(0, import_react$47.useLayoutEffect)(() => {
 		onCurrentChange?.(draftCurrent);
 		return () => onCurrentChange?.(null);
 	}, [draftCurrent, onCurrentChange]);
@@ -2849,22 +2849,22 @@ function ScopedRun({ selection, command, cleanup, privacy, prepareDraft, onWrite
 		setStorage(value);
 		setConfirmed(false);
 	}
-	return /* @__PURE__ */ (0, import_jsx_runtime$61.jsxs)("section", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$60.jsxs)("section", {
 		"aria-label": "거래 검토 작업",
 		children: [
-			/* @__PURE__ */ (0, import_jsx_runtime$61.jsx)("h2", { children: "선택한 토스 계좌의 거래 검토" }),
-			/* @__PURE__ */ (0, import_jsx_runtime$61.jsx)("p", {
+			/* @__PURE__ */ (0, import_jsx_runtime$60.jsx)("h2", { children: "선택한 토스 계좌의 거래 검토" }),
+			/* @__PURE__ */ (0, import_jsx_runtime$60.jsx)("p", {
 				className: "trade-review-caption",
 				children: "주문별 집계 · 개별 체결 복원 아님"
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$61.jsxs)("div", {
+			/* @__PURE__ */ (0, import_jsx_runtime$60.jsxs)("div", {
 				className: "trade-review-draft",
 				children: [
-					/* @__PURE__ */ (0, import_jsx_runtime$61.jsxs)("div", {
+					/* @__PURE__ */ (0, import_jsx_runtime$60.jsxs)("div", {
 						className: "trade-review-draft-actions",
 						role: "group",
 						"aria-label": "조회 범위",
-						children: [/* @__PURE__ */ (0, import_jsx_runtime$61.jsxs)("label", { children: ["시작일 · 선택", /* @__PURE__ */ (0, import_jsx_runtime$61.jsx)("input", {
+						children: [/* @__PURE__ */ (0, import_jsx_runtime$60.jsxs)("label", { children: ["시작일 · 선택", /* @__PURE__ */ (0, import_jsx_runtime$60.jsx)("input", {
 							"aria-label": "시작일 · 선택",
 							type: "date",
 							value: from,
@@ -2873,7 +2873,7 @@ function ScopedRun({ selection, command, cleanup, privacy, prepareDraft, onWrite
 								setFrom(event.target.value);
 								setConfirmed(false);
 							}
-						})] }), /* @__PURE__ */ (0, import_jsx_runtime$61.jsxs)("label", { children: ["종료일 · 선택", /* @__PURE__ */ (0, import_jsx_runtime$61.jsx)("input", {
+						})] }), /* @__PURE__ */ (0, import_jsx_runtime$60.jsxs)("label", { children: ["종료일 · 선택", /* @__PURE__ */ (0, import_jsx_runtime$60.jsx)("input", {
 							"aria-label": "종료일 · 선택",
 							type: "date",
 							value: to,
@@ -2884,17 +2884,17 @@ function ScopedRun({ selection, command, cleanup, privacy, prepareDraft, onWrite
 							}
 						})] })]
 					}),
-					/* @__PURE__ */ (0, import_jsx_runtime$61.jsxs)("div", {
+					/* @__PURE__ */ (0, import_jsx_runtime$60.jsxs)("div", {
 						role: "group",
 						"aria-label": "로컬 보관 선택",
 						className: "trade-review-draft-actions",
-						children: [/* @__PURE__ */ (0, import_jsx_runtime$61.jsx)("button", {
+						children: [/* @__PURE__ */ (0, import_jsx_runtime$60.jsx)("button", {
 							type: "button",
 							disabled: !inactive,
 							"aria-pressed": storage === "open_existing",
 							onClick: () => choose("open_existing"),
 							children: "기존 보관 열기"
-						}), /* @__PURE__ */ (0, import_jsx_runtime$61.jsx)("button", {
+						}), /* @__PURE__ */ (0, import_jsx_runtime$60.jsx)("button", {
 							type: "button",
 							disabled: !inactive,
 							"aria-pressed": storage === "create_new",
@@ -2902,7 +2902,7 @@ function ScopedRun({ selection, command, cleanup, privacy, prepareDraft, onWrite
 							children: "새 보관 준비"
 						})]
 					}),
-					storage ? /* @__PURE__ */ (0, import_jsx_runtime$61.jsxs)("p", {
+					storage ? /* @__PURE__ */ (0, import_jsx_runtime$60.jsxs)("p", {
 						className: "trade-review-caption",
 						children: [
 							storage === "create_new" ? "새 암호화 보관과 저장키를 준비합니다. 기존 보관은 덮어쓰지 않습니다." : "기존 암호화 보관과 저장키를 읽습니다. 없거나 확인할 수 없으면 중단합니다.",
@@ -2910,7 +2910,7 @@ function ScopedRun({ selection, command, cleanup, privacy, prepareDraft, onWrite
 							"OS 승인이 나타날 수 있습니다."
 						]
 					}) : null,
-					/* @__PURE__ */ (0, import_jsx_runtime$61.jsxs)("button", {
+					/* @__PURE__ */ (0, import_jsx_runtime$60.jsxs)("button", {
 						type: "button",
 						role: "checkbox",
 						"aria-checked": confirmed,
@@ -2921,11 +2921,11 @@ function ScopedRun({ selection, command, cleanup, privacy, prepareDraft, onWrite
 					})
 				]
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$61.jsxs)("nav", {
+			/* @__PURE__ */ (0, import_jsx_runtime$60.jsxs)("nav", {
 				className: "trade-review-samples",
 				"aria-label": "거래 작업 제어",
 				children: [
-					/* @__PURE__ */ (0, import_jsx_runtime$61.jsx)("button", {
+					/* @__PURE__ */ (0, import_jsx_runtime$60.jsx)("button", {
 						type: "button",
 						disabled: !canPrepare,
 						onClick: () => {
@@ -2942,25 +2942,25 @@ function ScopedRun({ selection, command, cleanup, privacy, prepareDraft, onWrite
 						},
 						children: "조회 준비"
 					}),
-					/* @__PURE__ */ (0, import_jsx_runtime$61.jsx)("button", {
+					/* @__PURE__ */ (0, import_jsx_runtime$60.jsx)("button", {
 						type: "button",
 						disabled: !canCheck,
 						onClick: () => void session.current(),
 						children: "현재 상태 확인"
 					}),
-					/* @__PURE__ */ (0, import_jsx_runtime$61.jsx)("button", {
+					/* @__PURE__ */ (0, import_jsx_runtime$60.jsx)("button", {
 						type: "button",
 						disabled: !canPage,
 						onClick: () => void session.page(),
 						children: worker?.review ? "다음 1페이지 조회" : "첫 1페이지 조회"
 					}),
-					/* @__PURE__ */ (0, import_jsx_runtime$61.jsx)("button", {
+					/* @__PURE__ */ (0, import_jsx_runtime$60.jsx)("button", {
 						type: "button",
 						disabled: !canRead,
 						onClick: () => void session.read(),
 						children: "저장 상태 다시 읽기"
 					}),
-					/* @__PURE__ */ (0, import_jsx_runtime$61.jsx)("button", {
+					/* @__PURE__ */ (0, import_jsx_runtime$60.jsx)("button", {
 						type: "button",
 						disabled: !canCancel,
 						onClick: () => {
@@ -2971,20 +2971,20 @@ function ScopedRun({ selection, command, cleanup, privacy, prepareDraft, onWrite
 					})
 				]
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$61.jsx)("p", {
+			/* @__PURE__ */ (0, import_jsx_runtime$60.jsx)("p", {
 				role: "status",
 				"aria-label": "검토 작업 상태",
 				className: "trade-review-status",
 				children: statusText$1(state)
 			}),
-			state.error ? /* @__PURE__ */ (0, import_jsx_runtime$61.jsx)("p", {
+			state.error ? /* @__PURE__ */ (0, import_jsx_runtime$60.jsx)("p", {
 				role: "alert",
 				children: errors[state.error]
 			}) : null,
-			worker ? /* @__PURE__ */ (0, import_jsx_runtime$61.jsx)(TradePublicationPanel, {
+			worker ? /* @__PURE__ */ (0, import_jsx_runtime$60.jsx)(TradePublicationPanel, {
 				publication: worker,
 				privacy,
-				renderSelectedActions: prepareDraft && draftCurrent ? (row) => /* @__PURE__ */ (0, import_jsx_runtime$61.jsx)(TradeServerDraftPreparation, {
+				renderSelectedActions: prepareDraft && draftCurrent ? (row) => /* @__PURE__ */ (0, import_jsx_runtime$60.jsx)(TradeServerDraftPreparation, {
 					current: draftCurrent,
 					row,
 					prepareDraft,
@@ -2994,14 +2994,14 @@ function ScopedRun({ selection, command, cleanup, privacy, prepareDraft, onWrite
 		]
 	});
 }
-var import_react$48, import_jsx_runtime$61, noCleanup, getNoCleanup, subscribeNoCleanup, uuid$9, errors;
+var import_react$47, import_jsx_runtime$60, noCleanup, getNoCleanup, subscribeNoCleanup, uuid$9, errors;
 function init_TradeRunPanel() {
 	return (init_TradeRunPanel = __esmMin((() => {
-		import_react$48 = require_react();
+		import_react$47 = require_react();
 		init_runController();
 		init_TradePublicationPanel();
 		init_TradeServerDraftPreparation();
-		import_jsx_runtime$61 = require_jsx_runtime();
+		import_jsx_runtime$60 = require_jsx_runtime();
 		noCleanup = Object.freeze({
 			status: "idle",
 			canRetry: false,
@@ -3279,21 +3279,21 @@ function init_cleanup() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/trade-review/cleanup.css?v=source-build-r57";
+			l.href = "/local/app/css-source/src/trade-review/cleanup.css?v=source-build-r59";
 			document.head.appendChild(l);
 		}
 	})))();
 }
 /** App-owned state. Mounting or leaving this notice never issues or owns cleanup. */
 function TradeCleanupNotice({ cleanup }) {
-	const region = (0, import_react$47.useRef)(null);
-	const focusReturn = (0, import_react$47.useRef)(null);
-	const subscribe = (0, import_react$47.useCallback)((notify) => cleanup.subscribe(() => {
+	const region = (0, import_react$46.useRef)(null);
+	const focusReturn = (0, import_react$46.useRef)(null);
+	const subscribe = (0, import_react$46.useCallback)((notify) => cleanup.subscribe(() => {
 		if (region.current?.contains(document.activeElement)) focusReturn.current = region.current.closest("main");
 		notify();
 	}), [cleanup]);
-	const state = (0, import_react$47.useSyncExternalStore)(subscribe, cleanup.getSnapshot, cleanup.getSnapshot);
-	(0, import_react$47.useLayoutEffect)(() => {
+	const state = (0, import_react$46.useSyncExternalStore)(subscribe, cleanup.getSnapshot, cleanup.getSnapshot);
+	(0, import_react$46.useLayoutEffect)(() => {
 		const movedOutside = (event) => {
 			if (event.target instanceof Node && event.target !== document.body && event.target !== document.documentElement && !region.current?.contains(event.target)) focusReturn.current = null;
 		};
@@ -3305,7 +3305,7 @@ function TradeCleanupNotice({ cleanup }) {
 			focusReturn.current = null;
 		};
 	}, [cleanup]);
-	(0, import_react$47.useLayoutEffect)(() => {
+	(0, import_react$46.useLayoutEffect)(() => {
 		if (state.status !== "idle") return;
 		const target = focusReturn.current;
 		focusReturn.current = null;
@@ -3313,26 +3313,26 @@ function TradeCleanupNotice({ cleanup }) {
 	}, [state.status]);
 	if (state.status === "idle") return null;
 	const message = state.status === "waiting" ? "이전 거래 작업의 응답을 기다리고 있습니다." : state.status === "cancelling" ? "이전 거래 작업의 취소를 요청하고 있습니다." : state.status === "checking" ? "이전 거래 작업의 상태를 확인하고 있습니다." : "이전 거래 작업 정리를 확인하지 못했습니다.";
-	return /* @__PURE__ */ (0, import_jsx_runtime$60.jsxs)("section", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$59.jsxs)("section", {
 		ref: region,
 		className: "trade-cleanup-notice",
 		"aria-label": "이전 거래 작업 정리",
 		children: [
-			/* @__PURE__ */ (0, import_jsx_runtime$60.jsx)("p", {
+			/* @__PURE__ */ (0, import_jsx_runtime$59.jsx)("p", {
 				role: "status",
 				children: message
 			}),
-			state.status === "unknown" && /* @__PURE__ */ (0, import_jsx_runtime$60.jsx)("p", { children: state.canRetry ? "이전 작업의 취소를 다시 요청할 수 있습니다." : "작업 번호를 확인하지 못해 취소할 수 없습니다." }),
-			/* @__PURE__ */ (0, import_jsx_runtime$60.jsx)("p", { children: "새 조회 준비 전에 확인하세요. 취소 접수는 진행 중인 OS 작업의 완료를 뜻하지 않습니다." }),
-			/* @__PURE__ */ (0, import_jsx_runtime$60.jsxs)("div", {
+			state.status === "unknown" && /* @__PURE__ */ (0, import_jsx_runtime$59.jsx)("p", { children: state.canRetry ? "이전 작업의 취소를 다시 요청할 수 있습니다." : "작업 번호를 확인하지 못해 취소할 수 없습니다." }),
+			/* @__PURE__ */ (0, import_jsx_runtime$59.jsx)("p", { children: "새 조회 준비 전에 확인하세요. 취소 접수는 진행 중인 OS 작업의 완료를 뜻하지 않습니다." }),
+			/* @__PURE__ */ (0, import_jsx_runtime$59.jsxs)("div", {
 				className: "trade-cleanup-actions",
-				children: [/* @__PURE__ */ (0, import_jsx_runtime$60.jsx)("button", {
+				children: [/* @__PURE__ */ (0, import_jsx_runtime$59.jsx)("button", {
 					type: "button",
 					className: "text-button",
 					disabled: !state.canRetry,
 					onClick: () => void cleanup.retry(),
 					children: "이전 검토 취소 다시 요청"
-				}), /* @__PURE__ */ (0, import_jsx_runtime$60.jsx)("button", {
+				}), /* @__PURE__ */ (0, import_jsx_runtime$59.jsx)("button", {
 					type: "button",
 					className: "text-button",
 					disabled: !state.canCheck,
@@ -3343,12 +3343,12 @@ function TradeCleanupNotice({ cleanup }) {
 		]
 	});
 }
-var import_react$47, import_jsx_runtime$60;
+var import_react$46, import_jsx_runtime$59;
 function init_TradeCleanupNotice() {
 	return (init_TradeCleanupNotice = __esmMin((() => {
-		import_react$47 = require_react();
+		import_react$46 = require_react();
 		init_cleanup();
-		import_jsx_runtime$60 = require_jsx_runtime();
+		import_jsx_runtime$59 = require_jsx_runtime();
 	})))();
 }
 function id(value) {
@@ -5236,7 +5236,7 @@ function init_rich_columns() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/journal/editor/rich-columns.css?v=source-build-r57";
+			l.href = "/local/app/css-source/src/journal/editor/rich-columns.css?v=source-build-r59";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -5248,36 +5248,36 @@ function RichColumnLayout({ document, renderBlock, renderRowTools }) {
 		block,
 		index
 	}]));
-	return /* @__PURE__ */ (0, import_jsx_runtime$59.jsx)("div", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$58.jsx)("div", {
 		className: "rich-document-layout",
 		children: document.blocks.map((block, index) => {
 			const row = document.rows?.find((row) => row.columns[0].blockIds[0] === block.id);
-			if (row) return /* @__PURE__ */ (0, import_jsx_runtime$59.jsxs)("div", {
+			if (row) return /* @__PURE__ */ (0, import_jsx_runtime$58.jsxs)("div", {
 				className: "rich-column-row",
 				"data-row-id": row.id,
 				role: "group",
 				"aria-label": "2열 배치",
-				children: [renderRowTools?.(row), row.columns.map((column, i) => /* @__PURE__ */ (0, import_jsx_runtime$59.jsx)("div", {
+				children: [renderRowTools?.(row), row.columns.map((column, i) => /* @__PURE__ */ (0, import_jsx_runtime$58.jsx)("div", {
 					className: "rich-column",
 					"data-column-id": column.id,
 					role: "group",
 					"aria-label": i === 0 ? "왼쪽 열" : "오른쪽 열",
 					children: column.blockIds.map((id) => {
 						const entry = lookup.get(id);
-						return /* @__PURE__ */ (0, import_jsx_runtime$59.jsx)(import_react$46.Fragment, { children: renderBlock(entry.block, entry.index) }, id);
+						return /* @__PURE__ */ (0, import_jsx_runtime$58.jsx)(import_react$45.Fragment, { children: renderBlock(entry.block, entry.index) }, id);
 					})
 				}, column.id))]
 			}, row.id);
-			return grouped.has(block.id) ? null : /* @__PURE__ */ (0, import_jsx_runtime$59.jsx)(import_react$46.Fragment, { children: renderBlock(block, index) }, block.id);
+			return grouped.has(block.id) ? null : /* @__PURE__ */ (0, import_jsx_runtime$58.jsx)(import_react$45.Fragment, { children: renderBlock(block, index) }, block.id);
 		})
 	});
 }
-var import_react$46, import_jsx_runtime$59;
+var import_react$45, import_jsx_runtime$58;
 function init_RichColumnLayout() {
 	return (init_RichColumnLayout = __esmMin((() => {
-		import_react$46 = require_react();
+		import_react$45 = require_react();
 		init_rich_columns();
-		import_jsx_runtime$59 = require_jsx_runtime();
+		import_jsx_runtime$58 = require_jsx_runtime();
 	})))();
 }
 function columnFor(document, id) {
@@ -5337,13 +5337,13 @@ function init_richColumns() {
 }
 /** A named action opens a floating panel, not an in-flow accordion. */
 function EditorPopover({ label, tooltipLabel, kind = "block", className = "", children, disabled = false, onOpen, triggerRef }) {
-	const [open, setOpen] = (0, import_react$45.useState)(false);
-	const root = (0, import_react$45.useRef)(null);
-	const ownTrigger = (0, import_react$45.useRef)(null);
+	const [open, setOpen] = (0, import_react$44.useState)(false);
+	const root = (0, import_react$44.useRef)(null);
+	const ownTrigger = (0, import_react$44.useRef)(null);
 	const trigger = triggerRef ?? ownTrigger;
-	const id = (0, import_react$45.useId)();
-	const panel = (0, import_react$45.useRef)(null);
-	(0, import_react$45.useEffect)(() => {
+	const id = (0, import_react$44.useId)();
+	const panel = (0, import_react$44.useRef)(null);
+	(0, import_react$44.useEffect)(() => {
 		if (!open) return;
 		const outside = (e) => {
 			if (!root.current?.contains(e.target)) setOpen(false);
@@ -5351,7 +5351,7 @@ function EditorPopover({ label, tooltipLabel, kind = "block", className = "", ch
 		document.addEventListener("pointerdown", outside);
 		return () => document.removeEventListener("pointerdown", outside);
 	}, [open]);
-	(0, import_react$45.useLayoutEffect)(() => {
+	(0, import_react$44.useLayoutEffect)(() => {
 		if (!open) return;
 		const measure = () => {
 			const box = panel.current, anchor = trigger.current, host = root.current;
@@ -5374,7 +5374,7 @@ function EditorPopover({ label, tooltipLabel, kind = "block", className = "", ch
 		trigger,
 		children
 	]);
-	return /* @__PURE__ */ (0, import_jsx_runtime$58.jsxs)("div", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$57.jsxs)("div", {
 		ref: root,
 		className: `journal-popover ${className}`,
 		onKeyDown: (e) => {
@@ -5387,7 +5387,7 @@ function EditorPopover({ label, tooltipLabel, kind = "block", className = "", ch
 		onBlur: (e) => {
 			if (!e.currentTarget.contains(e.relatedTarget) && !e.currentTarget.querySelector("dialog[open]")) setOpen(false);
 		},
-		children: [/* @__PURE__ */ (0, import_jsx_runtime$58.jsxs)("button", {
+		children: [/* @__PURE__ */ (0, import_jsx_runtime$57.jsxs)("button", {
 			ref: trigger,
 			type: "button",
 			className: "editor-popover-trigger",
@@ -5406,66 +5406,66 @@ function EditorPopover({ label, tooltipLabel, kind = "block", className = "", ch
 				if (!open) onOpen?.();
 				setOpen((v) => !v);
 			},
-			children: [kind === "block" ? /* @__PURE__ */ (0, import_jsx_runtime$58.jsx)("svg", {
+			children: [kind === "block" ? /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("svg", {
 				viewBox: "0 0 24 24",
 				"aria-hidden": "true",
-				children: /* @__PURE__ */ (0, import_jsx_runtime$58.jsx)("g", {
+				children: /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("g", {
 					fill: "currentColor",
 					stroke: "none",
 					children: [
 						6,
 						12,
 						18
-					].flatMap((y) => [9, 15].map((x) => /* @__PURE__ */ (0, import_jsx_runtime$58.jsx)("circle", {
+					].flatMap((y) => [9, 15].map((x) => /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("circle", {
 						cx: x,
 						cy: y,
 						r: "1.3"
 					}, `${x}-${y}`)))
 				})
-			}) : kind === "more" ? /* @__PURE__ */ (0, import_jsx_runtime$58.jsx)("svg", {
+			}) : kind === "more" ? /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("svg", {
 				viewBox: "0 0 24 24",
 				"aria-hidden": "true",
-				children: /* @__PURE__ */ (0, import_jsx_runtime$58.jsx)("g", {
+				children: /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("g", {
 					fill: "currentColor",
 					stroke: "none",
 					children: [
 						6,
 						12,
 						18
-					].map((x) => /* @__PURE__ */ (0, import_jsx_runtime$58.jsx)("circle", {
+					].map((x) => /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("circle", {
 						cx: x,
 						cy: "12",
 						r: "1.4"
 					}, x))
 				})
-			}) : kind === "columns" ? /* @__PURE__ */ (0, import_jsx_runtime$58.jsxs)("svg", {
+			}) : kind === "columns" ? /* @__PURE__ */ (0, import_jsx_runtime$57.jsxs)("svg", {
 				viewBox: "0 0 24 24",
 				"aria-hidden": "true",
-				children: [/* @__PURE__ */ (0, import_jsx_runtime$58.jsx)("rect", {
+				children: [/* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("rect", {
 					x: "4",
 					y: "5",
 					width: "6",
 					height: "14",
 					rx: "1"
-				}), /* @__PURE__ */ (0, import_jsx_runtime$58.jsx)("rect", {
+				}), /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("rect", {
 					x: "14",
 					y: "5",
 					width: "6",
 					height: "14",
 					rx: "1"
 				})]
-			}) : kind === "text" ? /* @__PURE__ */ (0, import_jsx_runtime$58.jsx)("span", {
+			}) : kind === "text" ? /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("span", {
 				"aria-hidden": "true",
 				children: "Aa"
-			}) : /* @__PURE__ */ (0, import_jsx_runtime$58.jsx)("svg", {
+			}) : /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("svg", {
 				viewBox: "0 0 24 24",
 				"aria-hidden": "true",
-				children: /* @__PURE__ */ (0, import_jsx_runtime$58.jsx)("path", { d: kind === "image" ? "M4 4h16v16H4Zm0 12 5-5 4 4 3-3 4 4" : kind === "file" ? "m8 12 5-5a3 3 0 0 1 4 4l-7 7a5 5 0 0 1-7-7l8-8" : "M5 6h14M5 12h14M5 18h14M9 4v4M15 10v4M10 16v4" })
-			}), /* @__PURE__ */ (0, import_jsx_runtime$58.jsx)("span", {
+				children: /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("path", { d: kind === "image" ? "M4 4h16v16H4Zm0 12 5-5 4 4 3-3 4 4" : kind === "file" ? "m8 12 5-5a3 3 0 0 1 4 4l-7 7a5 5 0 0 1-7-7l8-8" : "M5 6h14M5 12h14M5 18h14M9 4v4M15 10v4M10 16v4" })
+			}), /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("span", {
 				className: "journal-action-tooltip",
 				children: tooltipLabel ?? label
 			})]
-		}), open && /* @__PURE__ */ (0, import_jsx_runtime$58.jsx)("div", {
+		}), open && /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("div", {
 			ref: panel,
 			id,
 			role: "dialog",
@@ -5483,11 +5483,11 @@ function EditorPopover({ label, tooltipLabel, kind = "block", className = "", ch
 		})]
 	});
 }
-var import_react$45, import_jsx_runtime$58;
+var import_react$44, import_jsx_runtime$57;
 function init_EditorPopover() {
 	return (init_EditorPopover = __esmMin((() => {
-		import_react$45 = require_react();
-		import_jsx_runtime$58 = require_jsx_runtime();
+		import_react$44 = require_react();
+		import_jsx_runtime$57 = require_jsx_runtime();
 	})))();
 }
 /** Pure staged edit. Caller owns history/persistence; never re-encodes image bytes. */
@@ -5619,7 +5619,7 @@ function init_editor() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/journal/editor/editor.css?v=source-build-r57";
+			l.href = "/local/app/css-source/src/journal/editor/editor.css?v=source-build-r59";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -5830,7 +5830,7 @@ function formatSelection(body, start, end, kind) {
 	return result;
 }
 function CommandIcon({ kind }) {
-	if (/^h[123]$/.test(kind)) return /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("span", {
+	if (/^h[123]$/.test(kind)) return /* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("span", {
 		className: "writing-command-icon",
 		"aria-hidden": "true",
 		children: kind.toUpperCase()
@@ -5842,17 +5842,17 @@ function CommandIcon({ kind }) {
 		quote: "M3 8h6v6H5l-2 4V8Zm12 0h6v6h-4l-2 4V8Z",
 		callout: "M4 4h16v16H4ZM12 8v5M12 16h.1"
 	};
-	if (symbols[kind]) return /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("svg", {
+	if (symbols[kind]) return /* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("svg", {
 		className: "writing-command-icon",
 		viewBox: "0 0 24 24",
 		"aria-hidden": "true",
-		children: /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("path", { d: symbols[kind] })
+		children: /* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("path", { d: symbols[kind] })
 	});
-	return /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("svg", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("svg", {
 		className: "writing-command-icon",
 		viewBox: "0 0 24 24",
 		"aria-hidden": "true",
-		children: /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("path", { d: kind === "image" ? "M4 4h16v16H4Zm0 12 5-5 4 4 3-3 4 4" : kind === "news" ? "M4 4h16v16H4Zm4 4h8M8 12h8M8 16h5" : kind === "decision" ? "m4 12 5 5L20 6" : kind === "p" ? "M4 5h16M12 5v16" : kind === "code" ? "m8 6-5 6 5 6m8-12 5 6-5 6" : "M8 6h12M8 12h12M8 18h12M3 6h1M3 12h1M3 18h1" })
+		children: /* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("path", { d: kind === "image" ? "M4 4h16v16H4Zm0 12 5-5 4 4 3-3 4 4" : kind === "news" ? "M4 4h16v16H4Zm4 4h8M8 12h8M8 16h5" : kind === "decision" ? "m4 12 5 5L20 6" : kind === "p" ? "M4 5h16M12 5v16" : kind === "code" ? "m8 6-5 6 5 6m8-12 5 6-5 6" : "M8 6h12M8 12h12M8 18h12M3 6h1M3 12h1M3 18h1" })
 	});
 }
 function rawOffset(text, offset) {
@@ -5875,20 +5875,20 @@ function inputText(raw, next, newline) {
 }
 /** Local block UX: existing encrypted body stays a lossless string, never HTML. */
 function BlockEditor({ id, value, readOnly = false, invalid, describedBy, onMenuIntentChange, onAddImages, onGroupColumns, showBlockTools = true, showEmptyHint = true, initialMenuOpen = false, firstLabel = "본문", onChange }) {
-	const [source, setSource] = (0, import_react$44.useState)(false);
-	const [active, setActive] = (0, import_react$44.useState)(0);
+	const [source, setSource] = (0, import_react$43.useState)(false);
+	const [active, setActive] = (0, import_react$43.useState)(0);
 	const isMac = typeof navigator !== "undefined" && /Mac|iPhone|iPad|iPod/.test(navigator.platform);
-	const [commandIndex, setCommandIndex] = (0, import_react$44.useState)(0);
-	const [selectedBlock, setSelectedBlock] = (0, import_react$44.useState)(null);
-	const [dismissed, setDismissed] = (0, import_react$44.useState)(null);
-	const [menu, setMenu] = (0, import_react$44.useState)(initialMenuOpen ? 0 : null);
-	const [insertAfter, setInsertAfter] = (0, import_react$44.useState)(null);
-	const [childMenuIntent, setChildMenuIntent] = (0, import_react$44.useState)(false);
-	const [history, setHistory] = (0, import_react$44.useState)([]);
-	const [future, setFuture] = (0, import_react$44.useState)([]);
-	const editorRoot = (0, import_react$44.useRef)(null);
-	const refs = (0, import_react$44.useRef)(/* @__PURE__ */ new Map());
-	(0, import_react$44.useLayoutEffect)(() => {
+	const [commandIndex, setCommandIndex] = (0, import_react$43.useState)(0);
+	const [selectedBlock, setSelectedBlock] = (0, import_react$43.useState)(null);
+	const [dismissed, setDismissed] = (0, import_react$43.useState)(null);
+	const [menu, setMenu] = (0, import_react$43.useState)(initialMenuOpen ? 0 : null);
+	const [insertAfter, setInsertAfter] = (0, import_react$43.useState)(null);
+	const [childMenuIntent, setChildMenuIntent] = (0, import_react$43.useState)(false);
+	const [history, setHistory] = (0, import_react$43.useState)([]);
+	const [future, setFuture] = (0, import_react$43.useState)([]);
+	const editorRoot = (0, import_react$43.useRef)(null);
+	const refs = (0, import_react$43.useRef)(/* @__PURE__ */ new Map());
+	(0, import_react$43.useLayoutEffect)(() => {
 		const root = editorRoot.current;
 		if (!root) return;
 		const widths = /* @__PURE__ */ new Map();
@@ -5919,10 +5919,10 @@ function BlockEditor({ id, value, readOnly = false, invalid, describedBy, onMenu
 			window.removeEventListener("resize", resize);
 		};
 	});
-	const focusNext = (0, import_react$44.useRef)(null);
-	const selectionNext = (0, import_react$44.useRef)(null);
-	const [formatError, setFormatError] = (0, import_react$44.useState)("");
-	(0, import_react$44.useLayoutEffect)(() => {
+	const focusNext = (0, import_react$43.useRef)(null);
+	const selectionNext = (0, import_react$43.useRef)(null);
+	const [formatError, setFormatError] = (0, import_react$43.useState)("");
+	(0, import_react$43.useLayoutEffect)(() => {
 		if (selectionNext.current) {
 			const { index, start, end } = selectionNext.current;
 			const target = refs.current.get(index);
@@ -5935,12 +5935,12 @@ function BlockEditor({ id, value, readOnly = false, invalid, describedBy, onMenu
 			focusNext.current = null;
 		}
 	}, [value]);
-	(0, import_react$44.useLayoutEffect)(() => {
+	(0, import_react$43.useLayoutEffect)(() => {
 		if (initialMenuOpen) refs.current.get(0)?.focus();
 	}, [initialMenuOpen]);
 	const blocks = parseBlocks(value);
 	const menuIntent = !source && blocks.some((block, index) => menu === index || blockText(block.raw).text.startsWith("/") && active === index && dismissed !== `${index}:${blockText(block.raw).text}`);
-	(0, import_react$44.useLayoutEffect)(() => {
+	(0, import_react$43.useLayoutEffect)(() => {
 		onMenuIntentChange?.(menuIntent || childMenuIntent);
 		return () => onMenuIntentChange?.(false);
 	}, [
@@ -5948,7 +5948,7 @@ function BlockEditor({ id, value, readOnly = false, invalid, describedBy, onMenu
 		childMenuIntent,
 		onMenuIntentChange
 	]);
-	(0, import_react$44.useEffect)(() => {
+	(0, import_react$43.useEffect)(() => {
 		if (!menuIntent) return;
 		const outside = (e) => {
 			if (!editorRoot.current?.contains(e.target)) {
@@ -5963,7 +5963,7 @@ function BlockEditor({ id, value, readOnly = false, invalid, describedBy, onMenu
 		active,
 		value
 	]);
-	(0, import_react$44.useLayoutEffect)(() => {
+	(0, import_react$43.useLayoutEffect)(() => {
 		const menuBox = editorRoot.current?.querySelector(".writing-menu");
 		if (!menuBox) return;
 		menuBox.querySelectorAll("button").forEach((button, i) => button.dataset.commandSelected = String(i === commandIndex));
@@ -6058,7 +6058,7 @@ function BlockEditor({ id, value, readOnly = false, invalid, describedBy, onMenu
 		}
 		onChange(next.after);
 	};
-	return /* @__PURE__ */ (0, import_jsx_runtime$57.jsxs)("section", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$56.jsxs)("section", {
 		ref: editorRoot,
 		className: "writing-editor",
 		"aria-label": "블록 본문 편집기",
@@ -6078,15 +6078,15 @@ function BlockEditor({ id, value, readOnly = false, invalid, describedBy, onMenu
 			else undo();
 		},
 		children: [
-			/* @__PURE__ */ (0, import_jsx_runtime$57.jsx)(EditorPopover, {
+			/* @__PURE__ */ (0, import_jsx_runtime$56.jsx)(EditorPopover, {
 				className: "writing-editor-options",
 				kind: "text",
 				label: "편집 도구",
-				children: /* @__PURE__ */ (0, import_jsx_runtime$57.jsxs)("div", {
+				children: /* @__PURE__ */ (0, import_jsx_runtime$56.jsxs)("div", {
 					className: "writing-toolbar",
 					"aria-label": "본문 편집 도구",
 					children: [
-						/* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("button", {
+						/* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("button", {
 							type: "button",
 							onClick: () => {
 								setSource(!source);
@@ -6094,13 +6094,13 @@ function BlockEditor({ id, value, readOnly = false, invalid, describedBy, onMenu
 							},
 							children: source ? "블록 편집" : "원문 편집"
 						}),
-						/* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("button", {
+						/* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("button", {
 							type: "button",
 							disabled: readOnly || history.at(-1)?.after !== value,
 							onClick: undo,
 							children: "실행 취소"
 						}),
-						/* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("button", {
+						/* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("button", {
 							type: "button",
 							disabled: readOnly || future.at(-1)?.before !== value,
 							onClick: redo,
@@ -6109,11 +6109,11 @@ function BlockEditor({ id, value, readOnly = false, invalid, describedBy, onMenu
 					]
 				})
 			}),
-			formatError && /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("p", {
+			formatError && /* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("p", {
 				role: "alert",
 				children: formatError
 			}),
-			source ? /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("textarea", {
+			source ? /* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("textarea", {
 				spellCheck: false,
 				autoComplete: "off",
 				id,
@@ -6123,7 +6123,7 @@ function BlockEditor({ id, value, readOnly = false, invalid, describedBy, onMenu
 				"aria-invalid": invalid,
 				"aria-describedby": describedBy,
 				onChange: (e) => commit(e.target.value)
-			}) : /* @__PURE__ */ (0, import_jsx_runtime$57.jsxs)(import_jsx_runtime$57.Fragment, { children: [blocks.map((block, index) => {
+			}) : /* @__PURE__ */ (0, import_jsx_runtime$56.jsxs)(import_jsx_runtime$56.Fragment, { children: [blocks.map((block, index) => {
 				const parsed = blockText(block.raw);
 				const extraSeparator = blocks[index + 1]?.separator.match(/^(?:\r?\n)([\s\S]*)$/)?.[1] ?? "";
 				const parts = index === blocks.length - 1 && parsed.ending ? {
@@ -6138,11 +6138,11 @@ function BlockEditor({ id, value, readOnly = false, invalid, describedBy, onMenu
 				const showMenu = !readOnly && (menu === index || slash);
 				const filter = slash ? parts.text.slice(1).toLowerCase().trim() : "";
 				const matches = (...terms) => !filter || terms.some((term) => term.toLowerCase().split(/\s+/).some((word) => word.startsWith(filter)) || term.toLowerCase().replace(/\s+/g, "").startsWith(filter.replace(/\s+/g, "")));
-				return /* @__PURE__ */ (0, import_jsx_runtime$57.jsxs)("div", {
+				return /* @__PURE__ */ (0, import_jsx_runtime$56.jsxs)("div", {
 					className: `writing-block writing-block-${parts.type}`,
 					"data-block-selected": selectedBlock === index,
 					children: [
-						showBlockTools && /* @__PURE__ */ (0, import_jsx_runtime$57.jsxs)(import_jsx_runtime$57.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("button", {
+						showBlockTools && /* @__PURE__ */ (0, import_jsx_runtime$56.jsxs)(import_jsx_runtime$56.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("button", {
 							type: "button",
 							className: "writing-block-add",
 							"aria-label": `${index + 1}번 블록 아래 추가`,
@@ -6158,12 +6158,12 @@ function BlockEditor({ id, value, readOnly = false, invalid, describedBy, onMenu
 									setInsertAfter(index);
 								}
 							},
-							children: /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("svg", {
+							children: /* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("svg", {
 								viewBox: "0 0 24 24",
 								"aria-hidden": "true",
-								children: /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("path", { d: "M12 4v16M4 12h16" })
+								children: /* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("path", { d: "M12 4v16M4 12h16" })
 							})
-						}), /* @__PURE__ */ (0, import_jsx_runtime$57.jsxs)(EditorPopover, {
+						}), /* @__PURE__ */ (0, import_jsx_runtime$56.jsxs)(EditorPopover, {
 							className: "writing-block-tools",
 							label: `${index + 1}번 블록 관리`,
 							tooltipLabel: "블록",
@@ -6173,12 +6173,12 @@ function BlockEditor({ id, value, readOnly = false, invalid, describedBy, onMenu
 								setSelectedBlock(index);
 							},
 							children: [
-								index === 0 && onGroupColumns && /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("button", {
+								index === 0 && onGroupColumns && /* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("button", {
 									type: "button",
 									onClick: onGroupColumns,
 									children: "다음 블록과 나란히"
 								}),
-								/* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("button", {
+								/* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("button", {
 									type: "button",
 									onClick: () => {
 										setActive(index);
@@ -6188,16 +6188,16 @@ function BlockEditor({ id, value, readOnly = false, invalid, describedBy, onMenu
 									},
 									children: "블록 종류"
 								}),
-								/* @__PURE__ */ (0, import_jsx_runtime$57.jsxs)("button", {
+								/* @__PURE__ */ (0, import_jsx_runtime$56.jsxs)("button", {
 									type: "button",
 									"aria-keyshortcuts": isMac ? "Meta+Shift+D" : "Control+Shift+D",
 									onClick: () => duplicate(index),
-									children: ["복제 ", /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("kbd", {
+									children: ["복제 ", /* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("kbd", {
 										"aria-hidden": "true",
 										children: isMac ? "⌘⇧D" : "Ctrl+Shift+D"
 									})]
 								}),
-								/* @__PURE__ */ (0, import_jsx_runtime$57.jsxs)("button", {
+								/* @__PURE__ */ (0, import_jsx_runtime$56.jsxs)("button", {
 									type: "button",
 									"aria-keyshortcuts": "Alt+ArrowUp",
 									disabled: index === 0,
@@ -6209,12 +6209,12 @@ function BlockEditor({ id, value, readOnly = false, invalid, describedBy, onMenu
 										};
 										commit(serializeBlocks(moveBlock(blocks, index, index - 1)));
 									},
-									children: ["위로 이동 ", /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("kbd", {
+									children: ["위로 이동 ", /* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("kbd", {
 										"aria-hidden": "true",
 										children: isMac ? "⌥↑" : "Alt+↑"
 									})]
 								}),
-								/* @__PURE__ */ (0, import_jsx_runtime$57.jsxs)("button", {
+								/* @__PURE__ */ (0, import_jsx_runtime$56.jsxs)("button", {
 									type: "button",
 									"aria-keyshortcuts": "Alt+ArrowDown",
 									disabled: index === blocks.length - 1,
@@ -6226,12 +6226,12 @@ function BlockEditor({ id, value, readOnly = false, invalid, describedBy, onMenu
 										};
 										commit(serializeBlocks(moveBlock(blocks, index, index + 1)));
 									},
-									children: ["아래로 이동 ", /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("kbd", {
+									children: ["아래로 이동 ", /* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("kbd", {
 										"aria-hidden": "true",
 										children: isMac ? "⌥↓" : "Alt+↓"
 									})]
 								}),
-								/* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("button", {
+								/* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("button", {
 									type: "button",
 									onClick: () => {
 										const next = blocks.filter((_, i) => i !== index);
@@ -6250,9 +6250,9 @@ function BlockEditor({ id, value, readOnly = false, invalid, describedBy, onMenu
 								})
 							]
 						})] }),
-						parts.type === "checklist" && /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("label", {
+						parts.type === "checklist" && /* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("label", {
 							className: "writing-check",
-							children: /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("input", {
+							children: /* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("input", {
 								type: "checkbox",
 								"aria-label": `${index + 1}번 항목 완료`,
 								checked: /^[-*] \[[xX]\]/.test(parts.prefix),
@@ -6263,7 +6263,7 @@ function BlockEditor({ id, value, readOnly = false, invalid, describedBy, onMenu
 								})
 							})
 						}),
-						/* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("textarea", {
+						/* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("textarea", {
 							spellCheck: false,
 							autoComplete: "off",
 							ref: (node) => {
@@ -6432,18 +6432,18 @@ function BlockEditor({ id, value, readOnly = false, invalid, describedBy, onMenu
 								}
 							}
 						}),
-						showMenu && slash && !filter && /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("span", {
+						showMenu && slash && !filter && /* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("span", {
 							"aria-hidden": "true",
 							className: "writing-slash-placeholder",
 							children: "명령어 검색"
 						}),
-						showMenu && /* @__PURE__ */ (0, import_jsx_runtime$57.jsxs)("div", {
+						showMenu && /* @__PURE__ */ (0, import_jsx_runtime$56.jsxs)("div", {
 							className: "writing-menu",
 							"data-command-index": commandIndex,
 							role: "dialog",
 							"aria-label": "블록 종류 선택",
 							children: [
-								onAddImages && matches("사진", "이미지", "그림", "image", "photo", "picture", "p") && /* @__PURE__ */ (0, import_jsx_runtime$57.jsxs)("button", {
+								onAddImages && matches("사진", "이미지", "그림", "image", "photo", "picture", "p") && /* @__PURE__ */ (0, import_jsx_runtime$56.jsxs)("button", {
 									type: "button",
 									title: "검색 힌트: /image — 키보드 단축키가 아닙니다",
 									onClick: () => {
@@ -6456,15 +6456,15 @@ function BlockEditor({ id, value, readOnly = false, invalid, describedBy, onMenu
 										} : { offset: start + block.raw.length });
 									},
 									children: [
-										/* @__PURE__ */ (0, import_jsx_runtime$57.jsx)(CommandIcon, { kind: "image" }),
+										/* @__PURE__ */ (0, import_jsx_runtime$56.jsx)(CommandIcon, { kind: "image" }),
 										"사진",
-										/* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("kbd", {
+										/* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("kbd", {
 											"aria-hidden": "true",
 											children: "/image"
 										})
 									]
 								}),
-								evidenceTemplates.filter((t) => matches(t.label, t.id)).map((t) => /* @__PURE__ */ (0, import_jsx_runtime$57.jsxs)("button", {
+								evidenceTemplates.filter((t) => matches(t.label, t.id)).map((t) => /* @__PURE__ */ (0, import_jsx_runtime$56.jsxs)("button", {
 									type: "button",
 									onClick: () => {
 										if (readOnly) return;
@@ -6472,21 +6472,21 @@ function BlockEditor({ id, value, readOnly = false, invalid, describedBy, onMenu
 										setMenu(null);
 										focusNext.current = index;
 									},
-									children: [/* @__PURE__ */ (0, import_jsx_runtime$57.jsx)(CommandIcon, { kind: t.id }), t.label]
+									children: [/* @__PURE__ */ (0, import_jsx_runtime$56.jsx)(CommandIcon, { kind: t.id }), t.label]
 								}, t.id)),
 								blockCommands.filter((c) => filter !== "p" && matches(c.label, c.type, ...c.type === "p" ? [
 									"text",
 									"paragraph",
 									"문단",
 									"t"
-								] : [])).map((c) => /* @__PURE__ */ (0, import_jsx_runtime$57.jsxs)("button", {
+								] : [])).map((c) => /* @__PURE__ */ (0, import_jsx_runtime$56.jsxs)("button", {
 									type: "button",
 									title: `${c.prefix.trim() ? `저장 서식: ${c.prefix.trim()}` : "검색 힌트: /text"} — 키보드 단축키가 아닙니다`,
 									onClick: () => choose(index, c.type, slash && menu !== index),
 									children: [
-										/* @__PURE__ */ (0, import_jsx_runtime$57.jsx)(CommandIcon, { kind: c.type }),
+										/* @__PURE__ */ (0, import_jsx_runtime$56.jsx)(CommandIcon, { kind: c.type }),
 										c.label,
-										/* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("kbd", {
+										/* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("kbd", {
 											"aria-hidden": "true",
 											children: c.prefix.trim() || "/text"
 										})
@@ -6494,9 +6494,9 @@ function BlockEditor({ id, value, readOnly = false, invalid, describedBy, onMenu
 								}, c.type))
 							]
 						}),
-						insertAfter === index && /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("div", {
+						insertAfter === index && /* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("div", {
 							className: "writing-insertion",
-							children: /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)(BlockEditor, {
+							children: /* @__PURE__ */ (0, import_jsx_runtime$56.jsx)(BlockEditor, {
 								id: `${id}-insert-${index}`,
 								value: "",
 								readOnly,
@@ -6531,7 +6531,7 @@ function BlockEditor({ id, value, readOnly = false, invalid, describedBy, onMenu
 						})
 					]
 				}, index);
-			}), /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("button", {
+			}), /* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("button", {
 				type: "button",
 				className: "writing-add",
 				disabled: readOnly,
@@ -6541,15 +6541,15 @@ function BlockEditor({ id, value, readOnly = false, invalid, describedBy, onMenu
 		]
 	});
 }
-var import_react$44, import_jsx_runtime$57;
+var import_react$43, import_jsx_runtime$56;
 function init_BlockEditor() {
 	return (init_BlockEditor = __esmMin((() => {
 		init_EditorPopover();
-		import_react$44 = require_react();
+		import_react$43 = require_react();
 		init_blocks();
 		init_editor();
 		init_evidenceTemplates();
-		import_jsx_runtime$57 = require_jsx_runtime();
+		import_jsx_runtime$56 = require_jsx_runtime();
 	})))();
 }
 function init_rich_image_editor() {
@@ -6557,7 +6557,7 @@ function init_rich_image_editor() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/journal/editor/rich-image-editor.css?v=source-build-r57";
+			l.href = "/local/app/css-source/src/journal/editor/rich-image-editor.css?v=source-build-r59";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -6594,36 +6594,36 @@ function createRichMenuIntent() {
 	};
 }
 function RichMenuBlockEditor({ reportMenu, ...props }) {
-	const identity = (0, import_react$43.useRef)({});
-	const report = (0, import_react$43.useCallback)((open) => reportMenu(identity.current, open), [reportMenu]);
-	(0, import_react$43.useLayoutEffect)(() => {
+	const identity = (0, import_react$42.useRef)({});
+	const report = (0, import_react$42.useCallback)((open) => reportMenu(identity.current, open), [reportMenu]);
+	(0, import_react$42.useLayoutEffect)(() => {
 		const owner = identity.current;
 		return () => reportMenu(owner, false);
 	}, [reportMenu]);
-	return /* @__PURE__ */ (0, import_jsx_runtime$56.jsx)(BlockEditor, {
+	return /* @__PURE__ */ (0, import_jsx_runtime$55.jsx)(BlockEditor, {
 		...props,
 		onMenuIntentChange: report
 	});
 }
 /** Controlled image layout surface. Storage integration is intentionally separate. */
 function RichImageEditor({ value, onChange: emitChange, readOnly = false, onBusyChange, onMenuIntentChange, initialPhotoInsertion, onPhotoCancel }) {
-	const [menuIntent] = (0, import_react$43.useState)(createRichMenuIntent);
-	(0, import_react$43.useLayoutEffect)(() => menuIntent.bind(onMenuIntentChange), [menuIntent, onMenuIntentChange]);
-	(0, import_react$43.useLayoutEffect)(() => () => menuIntent.clear(), [menuIntent]);
-	const [busy, setBusy] = (0, import_react$43.useState)(false);
-	const [error, setError] = (0, import_react$43.useState)("");
-	const [resizing, setResizing] = (0, import_react$43.useState)(null);
-	const resizeRef = (0, import_react$43.useRef)(null);
+	const [menuIntent] = (0, import_react$42.useState)(createRichMenuIntent);
+	(0, import_react$42.useLayoutEffect)(() => menuIntent.bind(onMenuIntentChange), [menuIntent, onMenuIntentChange]);
+	(0, import_react$42.useLayoutEffect)(() => () => menuIntent.clear(), [menuIntent]);
+	const [busy, setBusy] = (0, import_react$42.useState)(false);
+	const [error, setError] = (0, import_react$42.useState)("");
+	const [resizing, setResizing] = (0, import_react$42.useState)(null);
+	const resizeRef = (0, import_react$42.useRef)(null);
 	const interactionBusy = busy || resizing !== null;
-	(0, import_react$43.useLayoutEffect)(() => {
+	(0, import_react$42.useLayoutEffect)(() => {
 		onBusyChange?.(interactionBusy);
 		return () => onBusyChange?.(false);
 	}, [interactionBusy, onBusyChange]);
-	const generation = (0, import_react$43.useRef)(0);
-	const decoding = (0, import_react$43.useRef)(false);
-	const photoInput = (0, import_react$43.useRef)(null);
-	const insertion = (0, import_react$43.useRef)(null);
-	(0, import_react$43.useLayoutEffect)(() => {
+	const generation = (0, import_react$42.useRef)(0);
+	const decoding = (0, import_react$42.useRef)(false);
+	const photoInput = (0, import_react$42.useRef)(null);
+	const insertion = (0, import_react$42.useRef)(null);
+	(0, import_react$42.useLayoutEffect)(() => {
 		const input = photoInput.current;
 		if (!input) return;
 		const cancel = () => {
@@ -6634,11 +6634,11 @@ function RichImageEditor({ value, onChange: emitChange, readOnly = false, onBusy
 		input.addEventListener("cancel", cancel);
 		return () => input.removeEventListener("cancel", cancel);
 	}, [onPhotoCancel]);
-	const focusNext = (0, import_react$43.useRef)(null);
-	const root = (0, import_react$43.useRef)(null);
-	const [past, setPast] = (0, import_react$43.useState)([]);
-	const [future, setFuture] = (0, import_react$43.useState)([]);
-	const restoreSelection = (0, import_react$43.useRef)(void 0);
+	const focusNext = (0, import_react$42.useRef)(null);
+	const root = (0, import_react$42.useRef)(null);
+	const [past, setPast] = (0, import_react$42.useState)([]);
+	const [future, setFuture] = (0, import_react$42.useState)([]);
+	const restoreSelection = (0, import_react$42.useRef)(void 0);
 	const snapshot = () => {
 		const input = document.activeElement;
 		return {
@@ -6681,7 +6681,7 @@ function RichImageEditor({ value, onChange: emitChange, readOnly = false, onBusy
 		focusNext.current = step.selection ? null : step.value.document.blocks.find((block) => block.type === "text")?.id ?? "";
 		emitChange(step.value);
 	};
-	(0, import_react$43.useLayoutEffect)(() => {
+	(0, import_react$42.useLayoutEffect)(() => {
 		const selection = restoreSelection.current;
 		if (selection) {
 			const input = document.getElementById(selection.id);
@@ -6702,7 +6702,7 @@ function RichImageEditor({ value, onChange: emitChange, readOnly = false, onBusy
 		focusNext.current = id;
 		onChange(next);
 	};
-	(0, import_react$43.useLayoutEffect)(() => {
+	(0, import_react$42.useLayoutEffect)(() => {
 		++generation.current;
 		return () => {
 			++generation.current;
@@ -6738,7 +6738,7 @@ function RichImageEditor({ value, onChange: emitChange, readOnly = false, onBusy
 			setBusy(false);
 		}
 	}
-	return /* @__PURE__ */ (0, import_jsx_runtime$56.jsxs)("div", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$55.jsxs)("div", {
 		ref: root,
 		tabIndex: -1,
 		className: "writing-editor rich-image-editor",
@@ -6757,7 +6757,7 @@ function RichImageEditor({ value, onChange: emitChange, readOnly = false, onBusy
 			travel(event.shiftKey);
 		},
 		children: [
-			/* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("input", {
+			/* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("input", {
 				className: "rich-photo-input",
 				hidden: true,
 				ref: photoInput,
@@ -6770,28 +6770,28 @@ function RichImageEditor({ value, onChange: emitChange, readOnly = false, onBusy
 					addPhoto(file);
 				}
 			}),
-			busy && /* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("p", {
+			busy && /* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("p", {
 				role: "status",
 				children: "사진 처리 중"
 			}),
-			error && /* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("p", {
+			error && /* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("p", {
 				role: "alert",
 				children: error
 			}),
-			value.document.blocks.length === 0 && /* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("button", {
+			value.document.blocks.length === 0 && /* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("button", {
 				type: "button",
 				disabled: readOnly || busy,
 				onClick: () => addParagraph(0),
 				children: "문단 추가"
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$56.jsx)(RichColumnLayout, {
+			/* @__PURE__ */ (0, import_jsx_runtime$55.jsx)(RichColumnLayout, {
 				document: value.document,
-				renderRowTools: (row) => /* @__PURE__ */ (0, import_jsx_runtime$56.jsx)(EditorPopover, {
+				renderRowTools: (row) => /* @__PURE__ */ (0, import_jsx_runtime$55.jsx)(EditorPopover, {
 					className: "rich-row-tools",
 					label: "열 배치",
 					kind: "columns",
 					disabled: readOnly || interactionBusy,
-					children: /* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("button", {
+					children: /* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("button", {
 						type: "button",
 						disabled: readOnly || interactionBusy,
 						onClick: () => {
@@ -6801,10 +6801,10 @@ function RichImageEditor({ value, onChange: emitChange, readOnly = false, onBusy
 						children: "세로로 되돌리기"
 					})
 				}),
-				renderBlock: (block, index) => block.type === "text" ? /* @__PURE__ */ (0, import_jsx_runtime$56.jsxs)("div", {
+				renderBlock: (block, index) => block.type === "text" ? /* @__PURE__ */ (0, import_jsx_runtime$55.jsxs)("div", {
 					"data-block-id": block.id,
 					className: "writing-block",
-					children: [/* @__PURE__ */ (0, import_jsx_runtime$56.jsx)(RichMenuBlockEditor, {
+					children: [/* @__PURE__ */ (0, import_jsx_runtime$55.jsx)(RichMenuBlockEditor, {
 						reportMenu: menuIntent.report,
 						showBlockTools: true,
 						showEmptyHint: index === value.document.blocks.length - 1,
@@ -6833,27 +6833,27 @@ function RichImageEditor({ value, onChange: emitChange, readOnly = false, onBusy
 							};
 							photoInput.current?.click();
 						}
-					}), /* @__PURE__ */ (0, import_jsx_runtime$56.jsxs)(EditorPopover, {
+					}), /* @__PURE__ */ (0, import_jsx_runtime$55.jsxs)(EditorPopover, {
 						className: "writing-block-tools rich-paragraph-tools",
 						label: "문단 관리",
-						children: [/* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("button", {
+						children: [/* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("button", {
 							type: "button",
 							disabled: readOnly || busy || value.document.blocks.length >= 256,
 							onClick: () => addParagraph(index + 1),
 							children: "아래에 문단 추가"
-						}), /* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("button", {
+						}), /* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("button", {
 							type: "button",
 							disabled: readOnly || busy,
 							onClick: () => onChange(deleteRichBlock(value, block.id)),
 							children: "문단 삭제"
 						})]
 					})]
-				}, block.id) : /* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("div", {
+				}, block.id) : /* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("div", {
 					"data-block-id": block.id,
 					role: "group",
 					"aria-label": `사진 ${value.document.blocks.filter((item) => item.type === "image").findIndex((item) => item.id === block.id) + 1}`,
 					className: "writing-block",
-					children: /* @__PURE__ */ (0, import_jsx_runtime$56.jsxs)("figure", {
+					children: /* @__PURE__ */ (0, import_jsx_runtime$55.jsxs)("figure", {
 						style: {
 							width: `${resizing?.id === block.id ? resizing.current : block.width}%`,
 							position: "relative",
@@ -6861,14 +6861,14 @@ function RichImageEditor({ value, onChange: emitChange, readOnly = false, onBusy
 							marginRight: block.align === "right" ? 0 : "auto"
 						},
 						children: [
-							/* @__PURE__ */ (0, import_jsx_runtime$56.jsxs)("div", {
+							/* @__PURE__ */ (0, import_jsx_runtime$55.jsxs)("div", {
 								className: "rich-photo-frame",
 								"data-resizing": resizing?.id === block.id,
-								children: [/* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("img", {
+								children: [/* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("img", {
 									draggable: false,
 									src: imageSource(value.assets.find((a) => a.id === block.assetId)),
 									alt: block.caption || "첨부 사진"
-								}), /* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("button", {
+								}), /* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("button", {
 									type: "button",
 									className: "rich-photo-resize",
 									"data-align": block.align,
@@ -6917,14 +6917,14 @@ function RichImageEditor({ value, onChange: emitChange, readOnly = false, onBusy
 										const width = Math.max(Math.min(25, block.width), Math.min(100, block.width + (event.key === "ArrowRight" ? 5 : -5)));
 										onChange(editRichImage(value, block.id, { width }));
 									},
-									children: /* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("svg", {
+									children: /* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("svg", {
 										viewBox: "0 0 20 20",
 										"aria-hidden": "true",
-										children: /* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("path", { d: "M5 17h9a3 3 0 0 0 3-3V5" })
+										children: /* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("path", { d: "M5 17h9a3 3 0 0 0 3-3V5" })
 									})
 								})]
 							}),
-							/* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("figcaption", { children: /* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("textarea", {
+							/* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("figcaption", { children: /* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("textarea", {
 								id: `rich-caption-${block.id}`,
 								className: "rich-photo-caption",
 								"aria-label": "사진 설명",
@@ -6941,19 +6941,19 @@ function RichImageEditor({ value, onChange: emitChange, readOnly = false, onBusy
 								maxLength: Math.min(1e3, 2e4 - value.document.blocks.reduce((total, item) => total + (item.id === block.id ? 0 : item.type === "text" ? item.text.length : item.caption.length), 0)),
 								onChange: (event) => onChange(editRichImage(value, block.id, { caption: event.target.value }))
 							}) }),
-							/* @__PURE__ */ (0, import_jsx_runtime$56.jsx)(EditorPopover, {
+							/* @__PURE__ */ (0, import_jsx_runtime$55.jsx)(EditorPopover, {
 								className: "rich-photo-tools",
 								kind: "more",
 								disabled: readOnly || interactionBusy,
 								label: "사진 편집",
-								children: /* @__PURE__ */ (0, import_jsx_runtime$56.jsxs)("fieldset", {
+								children: /* @__PURE__ */ (0, import_jsx_runtime$55.jsxs)("fieldset", {
 									disabled: readOnly || interactionBusy,
 									children: [
-										/* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("legend", { children: "사진" }),
-										/* @__PURE__ */ (0, import_jsx_runtime$56.jsxs)("div", {
+										/* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("legend", { children: "사진" }),
+										/* @__PURE__ */ (0, import_jsx_runtime$55.jsxs)("div", {
 											className: "rich-photo-actions",
 											children: [
-												/* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("button", {
+												/* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("button", {
 													type: "button",
 													disabled: !canGroupRichColumns(value, block.id),
 													onClick: () => {
@@ -6962,13 +6962,13 @@ function RichImageEditor({ value, onChange: emitChange, readOnly = false, onBusy
 													},
 													children: "다음 블록과 나란히"
 												}),
-												/* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("button", {
+												/* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("button", {
 													type: "button",
 													"aria-label": "사진 설명 편집",
 													onClick: () => document.getElementById(`rich-caption-${block.id}`)?.focus(),
 													children: block.caption ? "설명 수정" : "설명 추가"
 												}),
-												/* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("button", {
+												/* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("button", {
 													type: "button",
 													disabled: value.document.blocks.length >= 256,
 													onClick: () => addParagraph(index + 1),
@@ -6976,9 +6976,9 @@ function RichImageEditor({ value, onChange: emitChange, readOnly = false, onBusy
 												})
 											]
 										}),
-										/* @__PURE__ */ (0, import_jsx_runtime$56.jsxs)("div", {
+										/* @__PURE__ */ (0, import_jsx_runtime$55.jsxs)("div", {
 											className: "rich-photo-settings",
-											children: [/* @__PURE__ */ (0, import_jsx_runtime$56.jsxs)("label", { children: ["사진 크기", /* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("select", {
+											children: [/* @__PURE__ */ (0, import_jsx_runtime$55.jsxs)("label", { children: ["사진 크기", /* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("select", {
 												"aria-label": "사진 크기",
 												value: block.width,
 												onChange: (e) => onChange(editRichImage(value, block.id, { width: Number(e.target.value) })),
@@ -6988,7 +6988,7 @@ function RichImageEditor({ value, onChange: emitChange, readOnly = false, onBusy
 													75,
 													100,
 													block.width
-												])).sort((a, b) => a - b).map((w) => /* @__PURE__ */ (0, import_jsx_runtime$56.jsxs)("option", {
+												])).sort((a, b) => a - b).map((w) => /* @__PURE__ */ (0, import_jsx_runtime$55.jsxs)("option", {
 													value: w,
 													children: [
 														{
@@ -7002,42 +7002,42 @@ function RichImageEditor({ value, onChange: emitChange, readOnly = false, onBusy
 														"%)"
 													]
 												}, w))
-											})] }), /* @__PURE__ */ (0, import_jsx_runtime$56.jsxs)("label", { children: ["사진 정렬", /* @__PURE__ */ (0, import_jsx_runtime$56.jsxs)("select", {
+											})] }), /* @__PURE__ */ (0, import_jsx_runtime$55.jsxs)("label", { children: ["사진 정렬", /* @__PURE__ */ (0, import_jsx_runtime$55.jsxs)("select", {
 												value: block.align,
 												onChange: (e) => onChange(editRichImage(value, block.id, { align: e.target.value })),
 												children: [
-													/* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("option", {
+													/* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("option", {
 														value: "left",
 														children: "왼쪽"
 													}),
-													/* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("option", {
+													/* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("option", {
 														value: "center",
 														children: "가운데"
 													}),
-													/* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("option", {
+													/* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("option", {
 														value: "right",
 														children: "오른쪽"
 													})
 												]
 											})] })]
 										}),
-										/* @__PURE__ */ (0, import_jsx_runtime$56.jsxs)("div", {
+										/* @__PURE__ */ (0, import_jsx_runtime$55.jsxs)("div", {
 											className: "rich-photo-movement",
-											children: [/* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("button", {
+											children: [/* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("button", {
 												type: "button",
 												disabled: index === 0 || !!columnFor(value.document, block.id) || !!columnFor(value.document, value.document.blocks[index - 1]?.id ?? ""),
 												onClick: () => onChange(moveRichBlock(value, block.id, index - 1)),
 												children: "위로"
-											}), /* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("button", {
+											}), /* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("button", {
 												type: "button",
 												disabled: index === value.document.blocks.length - 1 || !!columnFor(value.document, block.id) || !!columnFor(value.document, value.document.blocks[index + 1]?.id ?? ""),
 												onClick: () => onChange(moveRichBlock(value, block.id, index + 1)),
 												children: "아래로"
 											})]
 										}),
-										/* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("div", {
+										/* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("div", {
 											className: "rich-photo-danger",
-											children: /* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("button", {
+											children: /* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("button", {
 												type: "button",
 												onClick: () => onChange(deleteRichBlock(value, block.id)),
 												children: "사진 삭제"
@@ -7053,10 +7053,10 @@ function RichImageEditor({ value, onChange: emitChange, readOnly = false, onBusy
 		]
 	});
 }
-var import_react$43, import_jsx_runtime$56;
+var import_react$42, import_jsx_runtime$55;
 function init_RichImageEditor() {
 	return (init_RichImageEditor = __esmMin((() => {
-		import_react$43 = require_react();
+		import_react$42 = require_react();
 		init_RichColumnLayout();
 		init_richColumns();
 		init_EditorPopover();
@@ -7065,7 +7065,7 @@ function init_RichImageEditor() {
 		init_editor();
 		init_BlockEditor();
 		init_rich_image_editor();
-		import_jsx_runtime$56 = require_jsx_runtime();
+		import_jsx_runtime$55 = require_jsx_runtime();
 	})))();
 }
 /** Display-only validation; never rewrites the stored date or date input. */
@@ -7090,7 +7090,7 @@ function journalSavedClock(at) {
 function JournalSavedTime({ updatedAt }) {
 	const formatted = journalSavedClock(updatedAt);
 	if (!formatted) return null;
-	return /* @__PURE__ */ (0, import_jsx_runtime$55.jsxs)("time", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$54.jsxs)("time", {
 		dateTime: updatedAt,
 		"aria-label": "마지막 저장",
 		title: updatedAt,
@@ -7104,7 +7104,7 @@ function JournalRecordWeekday({ recordDate }) {
 		timeZone: "UTC",
 		weekday: "long"
 	}).format(date);
-	return /* @__PURE__ */ (0, import_jsx_runtime$55.jsxs)("span", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$54.jsxs)("span", {
 		className: "journal-record-weekday",
 		"aria-label": weekday,
 		children: [
@@ -7119,9 +7119,9 @@ function JournalRecordWeekday({ recordDate }) {
 }
 function JournalNoteMetadata({ recordDate }) {
 	if (!recordDay(recordDate)) return null;
-	return /* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("div", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("div", {
 		className: "journal-note-metadata",
-		children: /* @__PURE__ */ (0, import_jsx_runtime$55.jsxs)("time", {
+		children: /* @__PURE__ */ (0, import_jsx_runtime$54.jsxs)("time", {
 			className: "journal-read-date",
 			dateTime: recordDate,
 			title: `기록 날짜 ${recordDate}`,
@@ -7130,15 +7130,15 @@ function JournalNoteMetadata({ recordDate }) {
 				"월 ",
 				Number(recordDate.slice(8)),
 				"일 ",
-				/* @__PURE__ */ (0, import_jsx_runtime$55.jsx)(JournalRecordWeekday, { recordDate })
+				/* @__PURE__ */ (0, import_jsx_runtime$54.jsx)(JournalRecordWeekday, { recordDate })
 			]
 		})
 	});
 }
-var import_jsx_runtime$55;
+var import_jsx_runtime$54;
 function init_JournalNoteMetadata() {
 	return (init_JournalNoteMetadata = __esmMin((() => {
-		import_jsx_runtime$55 = require_jsx_runtime();
+		import_jsx_runtime$54 = require_jsx_runtime();
 	})))();
 }
 /** Presentation only. Preserve saved source and render HTML as escaped text. */
@@ -7148,7 +7148,7 @@ function renderBlock(raw, extraEnding = "") {
 		const full = value + extraEnding;
 		const trailing = full.match(/(?:\r?\n)+$/)?.[0] ?? "";
 		if (full && !trailing) return full;
-		return /* @__PURE__ */ (0, import_jsx_runtime$54.jsxs)(import_jsx_runtime$54.Fragment, { children: [full.slice(0, full.length - trailing.length), Array.from({ length: (trailing.match(/\n/g)?.length ?? 0) + 1 }, (_, i) => /* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("br", {}, i))] });
+		return /* @__PURE__ */ (0, import_jsx_runtime$53.jsxs)(import_jsx_runtime$53.Fragment, { children: [full.slice(0, full.length - trailing.length), Array.from({ length: (trailing.match(/\n/g)?.length ?? 0) + 1 }, (_, i) => /* @__PURE__ */ (0, import_jsx_runtime$53.jsx)("br", {}, i))] });
 	};
 	const lines = raw.match(/[^\n]*\n|[^\n]+$/g) ?? [];
 	const fence = lines[0]?.match(/^ {0,3}(`{3,}|~{3,})/)?.[1];
@@ -7159,88 +7159,88 @@ function renderBlock(raw, extraEnding = "") {
 		});
 		if (closing > 0 && closing === lines.length - 1) {
 			const body = lines.slice(1, closing).join("").replace(/\r?\n$/, "");
-			return /* @__PURE__ */ (0, import_jsx_runtime$54.jsxs)(import_jsx_runtime$54.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("pre", {
+			return /* @__PURE__ */ (0, import_jsx_runtime$53.jsxs)(import_jsx_runtime$53.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$53.jsx)("pre", {
 				style: {
 					whiteSpace: "pre-wrap",
 					overflowWrap: "anywhere"
 				},
-				children: /* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("code", { children: body })
-			}), extraEnding && /* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("p", { children: Array.from({ length: extraEnding.match(/\n/g)?.length ?? 0 }, (_, i) => /* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("br", {}, i)) })] });
+				children: /* @__PURE__ */ (0, import_jsx_runtime$53.jsx)("code", { children: body })
+			}), extraEnding && /* @__PURE__ */ (0, import_jsx_runtime$53.jsx)("p", { children: Array.from({ length: extraEnding.match(/\n/g)?.length ?? 0 }, (_, i) => /* @__PURE__ */ (0, import_jsx_runtime$53.jsx)("br", {}, i)) })] });
 		}
 	}
 	if ((type === "h1" || type === "h2" || type === "h3") && text.includes("\n")) {
 		const [first, ...lines] = raw.replace(/\r?\n$/, "").split(/\r?\n/), rest = lines.join("\n");
-		return /* @__PURE__ */ (0, import_jsx_runtime$54.jsxs)(import_jsx_runtime$54.Fragment, { children: [renderBlock(first), renderBlock(rest, extraEnding)] });
+		return /* @__PURE__ */ (0, import_jsx_runtime$53.jsxs)(import_jsx_runtime$53.Fragment, { children: [renderBlock(first), renderBlock(rest, extraEnding)] });
 	}
 	switch (type) {
-		case "h1": return /* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("h2", { children: content(text) });
-		case "h2": return /* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("h3", { children: content(text) });
-		case "h3": return /* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("h4", { children: content(text) });
-		case "list": return /* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("ul", { children: raw.replace(/\r?\n$/, "").split(/\r?\n/).map((line, i, lines) => /* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("li", { children: i === lines.length - 1 ? content(line.replace(/^[-*] /, "")) : line.replace(/^[-*] /, "") }, i)) });
-		case "numbered": return /* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("ol", {
+		case "h1": return /* @__PURE__ */ (0, import_jsx_runtime$53.jsx)("h2", { children: content(text) });
+		case "h2": return /* @__PURE__ */ (0, import_jsx_runtime$53.jsx)("h3", { children: content(text) });
+		case "h3": return /* @__PURE__ */ (0, import_jsx_runtime$53.jsx)("h4", { children: content(text) });
+		case "list": return /* @__PURE__ */ (0, import_jsx_runtime$53.jsx)("ul", { children: raw.replace(/\r?\n$/, "").split(/\r?\n/).map((line, i, lines) => /* @__PURE__ */ (0, import_jsx_runtime$53.jsx)("li", { children: i === lines.length - 1 ? content(line.replace(/^[-*] /, "")) : line.replace(/^[-*] /, "") }, i)) });
+		case "numbered": return /* @__PURE__ */ (0, import_jsx_runtime$53.jsx)("ol", {
 			start: Number(prefix.slice(0, -2)),
-			children: raw.replace(/\r?\n$/, "").split(/\r?\n/).map((line, i, lines) => /* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("li", { children: i === lines.length - 1 ? content(line.replace(/^\d+\. /, "")) : line.replace(/^\d+\. /, "") }, i))
+			children: raw.replace(/\r?\n$/, "").split(/\r?\n/).map((line, i, lines) => /* @__PURE__ */ (0, import_jsx_runtime$53.jsx)("li", { children: i === lines.length - 1 ? content(line.replace(/^\d+\. /, "")) : line.replace(/^\d+\. /, "") }, i))
 		});
-		case "quote": return /* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("blockquote", { children: content(text) });
-		case "callout": return /* @__PURE__ */ (0, import_jsx_runtime$54.jsxs)("aside", { children: ["💡 ", content(text)] });
-		case "checklist": return /* @__PURE__ */ (0, import_jsx_runtime$54.jsxs)("p", { children: [
+		case "quote": return /* @__PURE__ */ (0, import_jsx_runtime$53.jsx)("blockquote", { children: content(text) });
+		case "callout": return /* @__PURE__ */ (0, import_jsx_runtime$53.jsxs)("aside", { children: ["💡 ", content(text)] });
+		case "checklist": return /* @__PURE__ */ (0, import_jsx_runtime$53.jsxs)("p", { children: [
 			/[xX]/.test(prefix) ? "☑" : "☐",
 			" ",
 			content(text)
 		] });
-		default: return /* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("p", { children: content(raw.replace(/\r?\n$/, "")) });
+		default: return /* @__PURE__ */ (0, import_jsx_runtime$53.jsx)("p", { children: content(raw.replace(/\r?\n$/, "")) });
 	}
 }
 function WritingReadView({ value }) {
 	const blocks = parseBlocks(value);
-	return /* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("div", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$53.jsx)("div", {
 		className: "writing-read-view",
 		children: blocks.map((block, index) => {
 			const extraEnding = index === blocks.length - 1 ? blockText(block.raw).ending : blocks[index + 1].separator.replace(/^\r?\n/, "");
-			return /* @__PURE__ */ (0, import_jsx_runtime$54.jsx)(import_react$42.Fragment, { children: renderBlock(block.raw, extraEnding) }, index);
+			return /* @__PURE__ */ (0, import_jsx_runtime$53.jsx)(import_react$41.Fragment, { children: renderBlock(block.raw, extraEnding) }, index);
 		})
 	});
 }
-var import_react$42, import_jsx_runtime$54;
+var import_react$41, import_jsx_runtime$53;
 function init_WritingReadView() {
 	return (init_WritingReadView = __esmMin((() => {
-		import_react$42 = require_react();
+		import_react$41 = require_react();
 		init_blocks();
-		import_jsx_runtime$54 = require_jsx_runtime();
+		import_jsx_runtime$53 = require_jsx_runtime();
 	})))();
 }
 /** Verified rich content stays rich; no editing or persistence projection. */
 function RichNoteView({ note, active }) {
-	const heading = (0, import_react$41.useRef)(null);
-	(0, import_react$41.useLayoutEffect)(() => {
+	const heading = (0, import_react$40.useRef)(null);
+	(0, import_react$40.useLayoutEffect)(() => {
 		if (!active) return;
 		heading.current?.focus({ preventScroll: true });
 		heading.current?.scrollIntoView({ block: "center" });
 	}, [note.id, active]);
-	return /* @__PURE__ */ (0, import_jsx_runtime$53.jsxs)("section", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$52.jsxs)("section", {
 		"aria-label": "사진 근거 기록",
 		children: [
-			/* @__PURE__ */ (0, import_jsx_runtime$53.jsx)("h2", {
+			/* @__PURE__ */ (0, import_jsx_runtime$52.jsx)("h2", {
 				ref: heading,
 				tabIndex: -1,
 				children: note.title || "제목 없음"
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$53.jsx)(JournalNoteMetadata, {
+			/* @__PURE__ */ (0, import_jsx_runtime$52.jsx)(JournalNoteMetadata, {
 				recordDate: note.recordDate.value,
 				updatedAt: note.updatedAt
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$53.jsx)(RichColumnLayout, {
+			/* @__PURE__ */ (0, import_jsx_runtime$52.jsx)(RichColumnLayout, {
 				document: note.content.document,
 				renderBlock: (block) => {
-					if (block.type === "text") return /* @__PURE__ */ (0, import_jsx_runtime$53.jsx)(WritingReadView, { value: block.text }, block.id);
+					if (block.type === "text") return /* @__PURE__ */ (0, import_jsx_runtime$52.jsx)(WritingReadView, { value: block.text }, block.id);
 					const asset = note.content.assets.find((a) => a.id === block.assetId);
-					return /* @__PURE__ */ (0, import_jsx_runtime$53.jsxs)("figure", {
+					return /* @__PURE__ */ (0, import_jsx_runtime$52.jsxs)("figure", {
 						style: {
 							width: `${block.width}%`,
 							marginLeft: block.align === "left" ? 0 : "auto",
 							marginRight: block.align === "right" ? 0 : "auto"
 						},
-						children: [/* @__PURE__ */ (0, import_jsx_runtime$53.jsx)("img", {
+						children: [/* @__PURE__ */ (0, import_jsx_runtime$52.jsx)("img", {
 							src: imageSource(asset),
 							alt: block.caption || asset.name,
 							style: {
@@ -7248,30 +7248,30 @@ function RichNoteView({ note, active }) {
 								width: "100%",
 								height: "auto"
 							}
-						}), block.caption && /* @__PURE__ */ (0, import_jsx_runtime$53.jsx)("figcaption", { children: block.caption })]
+						}), block.caption && /* @__PURE__ */ (0, import_jsx_runtime$52.jsx)("figcaption", { children: block.caption })]
 					}, block.id);
 				}
 			})
 		]
 	});
 }
-var import_react$41, import_jsx_runtime$53;
+var import_react$40, import_jsx_runtime$52;
 function init_RichNoteView() {
 	return (init_RichNoteView = __esmMin((() => {
 		init_RichColumnLayout();
 		init_JournalNoteMetadata();
-		import_react$41 = require_react();
+		import_react$40 = require_react();
 		init_manualAttachments();
 		init_WritingReadView();
-		import_jsx_runtime$53 = require_jsx_runtime();
+		import_jsx_runtime$52 = require_jsx_runtime();
 	})))();
 }
 /** App-owned confirmation: no dependency on a WebView implementing JS dialogs. */
 function useJournalNavigationGuard(dirtyCount, busy, registerHostGuard) {
-	const [prompt, setPrompt] = (0, import_react$40.useState)(null);
-	const pending = (0, import_react$40.useRef)(null);
-	const approvedAnchor = (0, import_react$40.useRef)(null);
-	const requestLeave = (0, import_react$40.useCallback)((approve, restore, destination) => {
+	const [prompt, setPrompt] = (0, import_react$39.useState)(null);
+	const pending = (0, import_react$39.useRef)(null);
+	const approvedAnchor = (0, import_react$39.useRef)(null);
+	const requestLeave = (0, import_react$39.useCallback)((approve, restore, destination) => {
 		if (pending.current) {
 			restore?.();
 			return;
@@ -7293,14 +7293,14 @@ function useJournalNavigationGuard(dirtyCount, busy, registerHostGuard) {
 			destination
 		});
 	}, [dirtyCount, busy]);
-	const cancel = (0, import_react$40.useCallback)(() => {
+	const cancel = (0, import_react$39.useCallback)(() => {
 		if (pending.current?.inFlight) return;
 		const previous = pending.current;
 		pending.current = null;
 		setPrompt(null);
 		previous?.cancel();
 	}, []);
-	const approve = (0, import_react$40.useCallback)(() => {
+	const approve = (0, import_react$39.useCallback)(() => {
 		if (!pending.current || pending.current.inFlight || prompt?.kind !== "discard") return;
 		if (busy) {
 			setPrompt({
@@ -7340,14 +7340,14 @@ function useJournalNavigationGuard(dirtyCount, busy, registerHostGuard) {
 		dirtyCount,
 		prompt
 	]);
-	(0, import_react$40.useLayoutEffect)(() => {
+	(0, import_react$39.useLayoutEffect)(() => {
 		registerHostGuard?.(requestLeave);
 		return () => registerHostGuard?.(null);
 	}, [requestLeave, registerHostGuard]);
-	(0, import_react$40.useLayoutEffect)(() => () => {
+	(0, import_react$39.useLayoutEffect)(() => () => {
 		pending.current = null;
 	}, []);
-	(0, import_react$40.useLayoutEffect)(() => {
+	(0, import_react$39.useLayoutEffect)(() => {
 		if (!dirtyCount && !busy) return;
 		const unload = (event) => {
 			event.preventDefault();
@@ -7391,24 +7391,24 @@ function useJournalNavigationGuard(dirtyCount, busy, registerHostGuard) {
 		approve
 	};
 }
-var import_react$40;
+var import_react$39;
 function init_navigation() {
 	return (init_navigation = __esmMin((() => {
-		import_react$40 = require_react();
+		import_react$39 = require_react();
 	})))();
 }
 function JournalLeaveDialog({ prompt, onCancel, onApprove, discardDescription, onPreserve, canPreserve = false }) {
-	const dialog = (0, import_react$39.useRef)(null);
-	const cancelButton = (0, import_react$39.useRef)(null);
-	const id = (0, import_react$39.useId)();
-	(0, import_react$39.useLayoutEffect)(() => {
+	const dialog = (0, import_react$38.useRef)(null);
+	const cancelButton = (0, import_react$38.useRef)(null);
+	const id = (0, import_react$38.useId)();
+	(0, import_react$38.useLayoutEffect)(() => {
 		const element = dialog.current;
 		element.showModal();
 		return () => {
 			if (element.open) element.close();
 		};
 	}, []);
-	(0, import_react$39.useLayoutEffect)(() => {
+	(0, import_react$38.useLayoutEffect)(() => {
 		if (prompt.submitting) dialog.current?.focus({ preventScroll: true });
 		else cancelButton.current?.focus({ preventScroll: true });
 	}, [prompt.kind, prompt.submitting]);
@@ -7416,7 +7416,7 @@ function JournalLeaveDialog({ prompt, onCancel, onApprove, discardDescription, o
 		dialog.current?.close();
 		action();
 	};
-	return /* @__PURE__ */ (0, import_jsx_runtime$52.jsxs)("dialog", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$51.jsxs)("dialog", {
 		ref: dialog,
 		className: "journal-leave-dialog",
 		"aria-labelledby": `${id}-title`,
@@ -7435,31 +7435,31 @@ function JournalLeaveDialog({ prompt, onCancel, onApprove, discardDescription, o
 			controls[(controls.indexOf(document.activeElement) + (event.shiftKey ? controls.length - 1 : 1)) % controls.length]?.focus();
 		},
 		children: [
-			/* @__PURE__ */ (0, import_jsx_runtime$52.jsx)("h2", {
+			/* @__PURE__ */ (0, import_jsx_runtime$51.jsx)("h2", {
 				id: `${id}-title`,
 				children: prompt.kind === "busy" ? "로컬 작업 중입니다" : prompt.destination === "close" ? "미저장 초안을 버리고 창을 닫을까요?" : prompt.destination === "quit" ? "미저장 초안을 버리고 앱을 종료할까요?" : onPreserve ? "작성 중인 글에서 이동할까요?" : "미저장 초안을 버리고 이동할까요?"
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$52.jsx)("p", {
+			/* @__PURE__ */ (0, import_jsx_runtime$51.jsx)("p", {
 				id: `${id}-description`,
 				children: prompt.submitting ? "종료 확인 중입니다. 입력은 유지됩니다." : prompt.kind === "busy" ? `작업이 끝난 뒤 다시 ${prompt.destination ? "닫기를 선택하세요" : "이동하세요"}. 현재 화면과 입력은 유지됩니다.` : onPreserve && !prompt.destination ? "임시저장이 끝난 내용만 이 기기에 남습니다. 정식 저장은 하지 않습니다." : discardDescription ?? `미저장 거래 초안 ${prompt.dirtyCount}개를 버립니다. 저장된 기록은 유지됩니다.`
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$52.jsxs)("div", {
+			/* @__PURE__ */ (0, import_jsx_runtime$51.jsxs)("div", {
 				className: "journal-leave-actions",
 				children: [
-					/* @__PURE__ */ (0, import_jsx_runtime$52.jsx)("button", {
+					/* @__PURE__ */ (0, import_jsx_runtime$51.jsx)("button", {
 						ref: cancelButton,
 						type: "button",
 						disabled: prompt.submitting,
 						onClick: () => close(onCancel),
 						children: prompt.kind === "busy" ? "일지로 돌아가기" : "계속 작성"
 					}),
-					prompt.kind === "discard" && !prompt.destination && onPreserve && /* @__PURE__ */ (0, import_jsx_runtime$52.jsx)("button", {
+					prompt.kind === "discard" && !prompt.destination && onPreserve && /* @__PURE__ */ (0, import_jsx_runtime$51.jsx)("button", {
 						type: "button",
 						disabled: !canPreserve || prompt.submitting,
 						onClick: onPreserve,
 						children: "임시본 남기고 이동"
 					}, "preserve-copy"),
-					prompt.kind === "discard" && /* @__PURE__ */ (0, import_jsx_runtime$52.jsx)("button", {
+					prompt.kind === "discard" && /* @__PURE__ */ (0, import_jsx_runtime$51.jsx)("button", {
 						type: "button",
 						onClick: onApprove,
 						disabled: prompt.submitting,
@@ -7470,11 +7470,11 @@ function JournalLeaveDialog({ prompt, onCancel, onApprove, discardDescription, o
 		]
 	});
 }
-var import_react$39, import_jsx_runtime$52;
+var import_react$38, import_jsx_runtime$51;
 function init_JournalLeaveDialog() {
 	return (init_JournalLeaveDialog = __esmMin((() => {
-		import_react$39 = require_react();
-		import_jsx_runtime$52 = require_jsx_runtime();
+		import_react$38 = require_react();
+		import_jsx_runtime$51 = require_jsx_runtime();
 	})))();
 }
 function init_style$1() {
@@ -7482,7 +7482,7 @@ function init_style$1() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/synthetic-journal/style.css?v=source-build-r57";
+			l.href = "/local/app/css-source/src/synthetic-journal/style.css?v=source-build-r59";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -7492,7 +7492,7 @@ function init_journal() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/journal/journal.css?v=source-build-r57";
+			l.href = "/local/app/css-source/src/journal/journal.css?v=source-build-r59";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -7502,7 +7502,7 @@ function init_manual_draft() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/journal/manual-draft.css?v=source-build-r57";
+			l.href = "/local/app/css-source/src/journal/manual-draft.css?v=source-build-r59";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -7512,15 +7512,15 @@ function init_linked_writing() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/trade-review/linked-writing.css?v=source-build-r57";
+			l.href = "/local/app/css-source/src/trade-review/linked-writing.css?v=source-build-r59";
 			document.head.appendChild(l);
 		}
 	})))();
 }
 /** A decrypted temporary snapshot, never a canonical note or restoration grant. */
 function TemporaryJournalPreview({ entry, onClose }) {
-	const dialog = (0, import_react$38.useRef)(null), closeButton = (0, import_react$38.useRef)(null), id = (0, import_react$38.useId)(), data = entry.data;
-	(0, import_react$38.useLayoutEffect)(() => {
+	const dialog = (0, import_react$37.useRef)(null), closeButton = (0, import_react$37.useRef)(null), id = (0, import_react$37.useId)(), data = entry.data;
+	(0, import_react$37.useLayoutEffect)(() => {
 		const el = dialog.current;
 		el.showModal();
 		closeButton.current?.focus();
@@ -7532,7 +7532,7 @@ function TemporaryJournalPreview({ entry, onClose }) {
 		dialog.current?.close();
 		onClose();
 	};
-	return /* @__PURE__ */ (0, import_jsx_runtime$51.jsxs)("dialog", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$50.jsxs)("dialog", {
 		ref: dialog,
 		className: "journal-leave-dialog temporary-journal-preview",
 		"aria-labelledby": id,
@@ -7554,14 +7554,14 @@ function TemporaryJournalPreview({ entry, onClose }) {
 			}
 		},
 		children: [
-			/* @__PURE__ */ (0, import_jsx_runtime$51.jsx)("h2", {
+			/* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("h2", {
 				id,
 				children: "임시본 내용 확인"
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$51.jsx)("p", { children: "내용 확인만 하며, 작성 중인 글은 바꾸지 않습니다." }),
-			/* @__PURE__ */ (0, import_jsx_runtime$51.jsxs)("p", {
+			/* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("p", { children: "내용 확인만 하며, 작성 중인 글은 바꾸지 않습니다." }),
+			/* @__PURE__ */ (0, import_jsx_runtime$50.jsxs)("p", {
 				className: "temporary-preview-time",
-				children: ["임시보관 · ", /* @__PURE__ */ (0, import_jsx_runtime$51.jsx)("time", {
+				children: ["임시보관 · ", /* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("time", {
 					dateTime: entry.savedAt,
 					children: new Intl.DateTimeFormat("ko-KR", {
 						timeZone: "Asia/Seoul",
@@ -7575,43 +7575,43 @@ function TemporaryJournalPreview({ entry, onClose }) {
 					}).format(new Date(entry.savedAt))
 				})]
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$51.jsxs)("div", {
+			/* @__PURE__ */ (0, import_jsx_runtime$50.jsxs)("div", {
 				className: "temporary-preview-body",
 				tabIndex: 0,
 				"aria-label": "임시본 본문",
 				children: [
-					/* @__PURE__ */ (0, import_jsx_runtime$51.jsx)("h3", { children: data.title || "제목 없는 임시본" }),
-					/* @__PURE__ */ (0, import_jsx_runtime$51.jsxs)("p", { children: ["기록 날짜 · ", data.recordDate || "날짜 미입력"] }),
-					data.content ? /* @__PURE__ */ (0, import_jsx_runtime$51.jsx)(RichColumnLayout, {
+					/* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("h3", { children: data.title || "제목 없는 임시본" }),
+					/* @__PURE__ */ (0, import_jsx_runtime$50.jsxs)("p", { children: ["기록 날짜 · ", data.recordDate || "날짜 미입력"] }),
+					data.content ? /* @__PURE__ */ (0, import_jsx_runtime$50.jsx)(RichColumnLayout, {
 						document: data.content.document,
 						renderBlock: (block) => {
-							if (block.type === "text") return /* @__PURE__ */ (0, import_jsx_runtime$51.jsx)(WritingReadView, { value: block.text }, block.id);
+							if (block.type === "text") return /* @__PURE__ */ (0, import_jsx_runtime$50.jsx)(WritingReadView, { value: block.text }, block.id);
 							const asset = data.content.assets.find((a) => a.id === block.assetId);
-							return /* @__PURE__ */ (0, import_jsx_runtime$51.jsxs)("figure", {
+							return /* @__PURE__ */ (0, import_jsx_runtime$50.jsxs)("figure", {
 								style: {
 									width: `${block.width}%`,
 									marginLeft: block.align === "left" ? 0 : "auto",
 									marginRight: block.align === "right" ? 0 : "auto"
 								},
-								children: [/* @__PURE__ */ (0, import_jsx_runtime$51.jsx)("img", {
+								children: [/* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("img", {
 									src: imageSource(asset),
 									alt: block.caption || asset.name
-								}), block.caption && /* @__PURE__ */ (0, import_jsx_runtime$51.jsx)("figcaption", { children: block.caption })]
+								}), block.caption && /* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("figcaption", { children: block.caption })]
 							}, block.id);
 						}
-					}) : /* @__PURE__ */ (0, import_jsx_runtime$51.jsxs)(import_jsx_runtime$51.Fragment, { children: [
-						/* @__PURE__ */ (0, import_jsx_runtime$51.jsx)(WritingReadView, { value: data.body }),
-						data.attachments.map((a, i) => /* @__PURE__ */ (0, import_jsx_runtime$51.jsx)("figure", { children: /* @__PURE__ */ (0, import_jsx_runtime$51.jsx)("img", {
+					}) : /* @__PURE__ */ (0, import_jsx_runtime$50.jsxs)(import_jsx_runtime$50.Fragment, { children: [
+						/* @__PURE__ */ (0, import_jsx_runtime$50.jsx)(WritingReadView, { value: data.body }),
+						data.attachments.map((a, i) => /* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("figure", { children: /* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("img", {
 							src: imageSource(a),
 							alt: a.name
 						}) }, i)),
-						data.pdfs.map((a, i) => /* @__PURE__ */ (0, import_jsx_runtime$51.jsxs)("p", { children: ["PDF · ", a.name] }, i))
+						data.pdfs.map((a, i) => /* @__PURE__ */ (0, import_jsx_runtime$50.jsxs)("p", { children: ["PDF · ", a.name] }, i))
 					] })
 				]
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$51.jsx)("div", {
+			/* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("div", {
 				className: "journal-leave-actions",
-				children: /* @__PURE__ */ (0, import_jsx_runtime$51.jsx)("button", {
+				children: /* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("button", {
 					ref: closeButton,
 					type: "button",
 					"aria-label": "임시본 내용 닫기",
@@ -7622,25 +7622,25 @@ function TemporaryJournalPreview({ entry, onClose }) {
 		]
 	});
 }
-var import_react$38, import_jsx_runtime$51;
+var import_react$37, import_jsx_runtime$50;
 function init_TemporaryJournalPreview() {
 	return (init_TemporaryJournalPreview = __esmMin((() => {
-		import_react$38 = require_react();
+		import_react$37 = require_react();
 		init_RichColumnLayout();
 		init_WritingReadView();
 		init_manualAttachments();
-		import_jsx_runtime$51 = require_jsx_runtime();
+		import_jsx_runtime$50 = require_jsx_runtime();
 	})))();
 }
 function TemporaryBackupReader({ busy, onRead }) {
-	const [open, setOpen] = (0, import_react$37.useState)(false), opener = (0, import_react$37.useRef)(null);
-	return /* @__PURE__ */ (0, import_jsx_runtime$50.jsxs)(import_jsx_runtime$50.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("button", {
+	const [open, setOpen] = (0, import_react$36.useState)(false), opener = (0, import_react$36.useRef)(null);
+	return /* @__PURE__ */ (0, import_jsx_runtime$49.jsxs)(import_jsx_runtime$49.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$49.jsx)("button", {
 		ref: opener,
 		type: "button",
 		disabled: busy,
 		onClick: () => setOpen(true),
 		children: "임시본 백업 보기"
-	}), open && /* @__PURE__ */ (0, import_jsx_runtime$50.jsx)(ArchiveDialog, {
+	}), open && /* @__PURE__ */ (0, import_jsx_runtime$49.jsx)(ArchiveDialog, {
 		onRead,
 		onClose: () => {
 			setOpen(false);
@@ -7649,9 +7649,9 @@ function TemporaryBackupReader({ busy, onRead }) {
 	})] });
 }
 function ArchiveDialog({ onRead, onClose }) {
-	const dialog = (0, import_react$37.useRef)(null), input = (0, import_react$37.useRef)(null), live = (0, import_react$37.useRef)(true), previewOpener = (0, import_react$37.useRef)(null), id = (0, import_react$37.useId)();
-	const [password, setPassword] = (0, import_react$37.useState)(""), [pending, setPending] = (0, import_react$37.useState)(false), [error, setError] = (0, import_react$37.useState)(""), [message, setMessage] = (0, import_react$37.useState)(""), [entries, setEntries] = (0, import_react$37.useState)(null), [preview, setPreview] = (0, import_react$37.useState)(null);
-	(0, import_react$37.useLayoutEffect)(() => {
+	const dialog = (0, import_react$36.useRef)(null), input = (0, import_react$36.useRef)(null), live = (0, import_react$36.useRef)(true), previewOpener = (0, import_react$36.useRef)(null), id = (0, import_react$36.useId)();
+	const [password, setPassword] = (0, import_react$36.useState)(""), [pending, setPending] = (0, import_react$36.useState)(false), [error, setError] = (0, import_react$36.useState)(""), [message, setMessage] = (0, import_react$36.useState)(""), [entries, setEntries] = (0, import_react$36.useState)(null), [preview, setPreview] = (0, import_react$36.useState)(null);
+	(0, import_react$36.useLayoutEffect)(() => {
 		live.current = true;
 		const el = dialog.current;
 		el.showModal();
@@ -7689,7 +7689,7 @@ function ArchiveDialog({ onRead, onClose }) {
 			if (live.current) setPending(false);
 		}
 	};
-	return /* @__PURE__ */ (0, import_jsx_runtime$50.jsxs)(import_jsx_runtime$50.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$50.jsxs)("dialog", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$49.jsxs)(import_jsx_runtime$49.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$49.jsxs)("dialog", {
 		ref: dialog,
 		className: "journal-leave-dialog temporary-backup-dialog",
 		"aria-labelledby": id,
@@ -7718,12 +7718,12 @@ function ArchiveDialog({ onRead, onClose }) {
 			}
 		},
 		children: [
-			/* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("h2", {
+			/* @__PURE__ */ (0, import_jsx_runtime$49.jsx)("h2", {
 				id,
 				children: "임시본 백업 파일 보기"
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("p", { children: "파일 내용만 확인합니다. 이 기기의 기록·임시본을 바꾸거나 거래 연결을 복원하지 않습니다." }),
-			/* @__PURE__ */ (0, import_jsx_runtime$50.jsxs)("label", { children: ["백업 암호", /* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("input", {
+			/* @__PURE__ */ (0, import_jsx_runtime$49.jsx)("p", { children: "파일 내용만 확인합니다. 이 기기의 기록·임시본을 바꾸거나 거래 연결을 복원하지 않습니다." }),
+			/* @__PURE__ */ (0, import_jsx_runtime$49.jsxs)("label", { children: ["백업 암호", /* @__PURE__ */ (0, import_jsx_runtime$49.jsx)("input", {
 				ref: input,
 				type: "password",
 				autoComplete: "off",
@@ -7733,36 +7733,36 @@ function ArchiveDialog({ onRead, onClose }) {
 				value: password,
 				onChange: (e) => setPassword(e.target.value)
 			})] }),
-			entries !== null && /* @__PURE__ */ (0, import_jsx_runtime$50.jsxs)("div", {
+			entries !== null && /* @__PURE__ */ (0, import_jsx_runtime$49.jsxs)("div", {
 				className: "temporary-archive-entries",
-				children: [/* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("p", {
+				children: [/* @__PURE__ */ (0, import_jsx_runtime$49.jsx)("p", {
 					role: "status",
 					children: entries.length ? `파일에 보관된 임시본 ${entries.length}개 · 읽기 전용` : "파일에 보관된 임시본이 없습니다."
-				}), /* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("ul", { children: entries.map((entry) => /* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime$50.jsxs)("button", {
+				}), /* @__PURE__ */ (0, import_jsx_runtime$49.jsx)("ul", { children: entries.map((entry) => /* @__PURE__ */ (0, import_jsx_runtime$49.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime$49.jsxs)("button", {
 					type: "button",
 					onClick: (e) => {
 						previewOpener.current = e.currentTarget;
 						setPreview(entry);
 					},
-					children: [/* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("span", { children: entry.data.title || "제목 없는 임시본" }), /* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("small", { children: entry.data.recordDate || "날짜 미입력" })]
+					children: [/* @__PURE__ */ (0, import_jsx_runtime$49.jsx)("span", { children: entry.data.title || "제목 없는 임시본" }), /* @__PURE__ */ (0, import_jsx_runtime$49.jsx)("small", { children: entry.data.recordDate || "날짜 미입력" })]
 				}) }, entry.source.draftId)) })]
 			}),
-			error && /* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("p", {
+			error && /* @__PURE__ */ (0, import_jsx_runtime$49.jsx)("p", {
 				role: "alert",
 				children: error
 			}),
-			message && /* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("p", {
+			message && /* @__PURE__ */ (0, import_jsx_runtime$49.jsx)("p", {
 				role: "status",
 				children: message
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$50.jsxs)("div", {
+			/* @__PURE__ */ (0, import_jsx_runtime$49.jsxs)("div", {
 				className: "journal-leave-actions",
-				children: [/* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("button", {
+				children: [/* @__PURE__ */ (0, import_jsx_runtime$49.jsx)("button", {
 					type: "button",
 					disabled: pending,
 					onClick: close,
 					children: "닫기"
-				}), /* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("button", {
+				}), /* @__PURE__ */ (0, import_jsx_runtime$49.jsx)("button", {
 					type: "button",
 					disabled: pending || !valid,
 					onClick: () => void read(),
@@ -7770,7 +7770,7 @@ function ArchiveDialog({ onRead, onClose }) {
 				})]
 			})
 		]
-	}), preview && /* @__PURE__ */ (0, import_jsx_runtime$50.jsx)(TemporaryJournalPreview, {
+	}), preview && /* @__PURE__ */ (0, import_jsx_runtime$49.jsx)(TemporaryJournalPreview, {
 		entry: {
 			data: preview.data,
 			savedAt: preview.source.savedAt
@@ -7781,24 +7781,24 @@ function ArchiveDialog({ onRead, onClose }) {
 		}
 	})] });
 }
-var import_react$37, import_jsx_runtime$50;
+var import_react$36, import_jsx_runtime$49;
 function init_TemporaryBackupReader() {
 	return (init_TemporaryBackupReader = __esmMin((() => {
-		import_react$37 = require_react();
+		import_react$36 = require_react();
 		init_TemporaryJournalPreview();
-		import_jsx_runtime$50 = require_jsx_runtime();
+		import_jsx_runtime$49 = require_jsx_runtime();
 	})))();
 }
 function TemporaryBackupExport({ enabled, busy, onExport }) {
-	const [open, setOpen] = (0, import_react$36.useState)(false), opener = (0, import_react$36.useRef)(null);
-	return /* @__PURE__ */ (0, import_jsx_runtime$49.jsxs)(import_jsx_runtime$49.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$49.jsx)("button", {
+	const [open, setOpen] = (0, import_react$35.useState)(false), opener = (0, import_react$35.useRef)(null);
+	return /* @__PURE__ */ (0, import_jsx_runtime$48.jsxs)(import_jsx_runtime$48.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("button", {
 		ref: opener,
 		hidden: !enabled,
 		type: "button",
 		disabled: busy,
 		onClick: () => setOpen(true),
 		children: "임시본 내보내기"
-	}), open && /* @__PURE__ */ (0, import_jsx_runtime$49.jsx)(ExportDialog, {
+	}), open && /* @__PURE__ */ (0, import_jsx_runtime$48.jsx)(ExportDialog, {
 		onExport,
 		onClose: () => {
 			setOpen(false);
@@ -7807,9 +7807,9 @@ function TemporaryBackupExport({ enabled, busy, onExport }) {
 	})] });
 }
 function ExportDialog({ onExport, onClose }) {
-	const dialog = (0, import_react$36.useRef)(null), first = (0, import_react$36.useRef)(null), live = (0, import_react$36.useRef)(true), id = (0, import_react$36.useId)();
-	const [password, setPassword] = (0, import_react$36.useState)(""), [confirmation, setConfirmation] = (0, import_react$36.useState)(""), [pending, setPending] = (0, import_react$36.useState)(false), [error, setError] = (0, import_react$36.useState)(""), [message, setMessage] = (0, import_react$36.useState)("");
-	(0, import_react$36.useLayoutEffect)(() => {
+	const dialog = (0, import_react$35.useRef)(null), first = (0, import_react$35.useRef)(null), live = (0, import_react$35.useRef)(true), id = (0, import_react$35.useId)();
+	const [password, setPassword] = (0, import_react$35.useState)(""), [confirmation, setConfirmation] = (0, import_react$35.useState)(""), [pending, setPending] = (0, import_react$35.useState)(false), [error, setError] = (0, import_react$35.useState)(""), [message, setMessage] = (0, import_react$35.useState)("");
+	(0, import_react$35.useLayoutEffect)(() => {
 		live.current = true;
 		const el = dialog.current;
 		el.showModal();
@@ -7847,7 +7847,7 @@ function ExportDialog({ onExport, onClose }) {
 			if (live.current) setPending(false);
 		}
 	};
-	return /* @__PURE__ */ (0, import_jsx_runtime$49.jsxs)("dialog", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$48.jsxs)("dialog", {
 		ref: dialog,
 		className: "journal-leave-dialog temporary-backup-dialog",
 		"aria-labelledby": id,
@@ -7876,13 +7876,13 @@ function ExportDialog({ onExport, onClose }) {
 			}
 		},
 		children: [
-			/* @__PURE__ */ (0, import_jsx_runtime$49.jsx)("h2", {
+			/* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("h2", {
 				id,
 				children: "임시본 암호화 내보내기"
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$49.jsx)("p", { children: "현재 보관함의 임시본 전체를 담습니다. 아직 임시저장되지 않은 입력은 포함하지 않습니다." }),
-			/* @__PURE__ */ (0, import_jsx_runtime$49.jsx)("p", { children: "기기 저장용 키는 담지 않으며, 원본은 바꾸지 않습니다. 이 파일의 가져오기는 아직 지원하지 않습니다." }),
-			/* @__PURE__ */ (0, import_jsx_runtime$49.jsxs)("label", { children: ["백업 암호", /* @__PURE__ */ (0, import_jsx_runtime$49.jsx)("input", {
+			/* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("p", { children: "현재 보관함의 임시본 전체를 담습니다. 아직 임시저장되지 않은 입력은 포함하지 않습니다." }),
+			/* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("p", { children: "기기 저장용 키는 담지 않으며, 원본은 바꾸지 않습니다. 이 파일의 가져오기는 아직 지원하지 않습니다." }),
+			/* @__PURE__ */ (0, import_jsx_runtime$48.jsxs)("label", { children: ["백업 암호", /* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("input", {
 				ref: first,
 				type: "password",
 				autoComplete: "new-password",
@@ -7892,7 +7892,7 @@ function ExportDialog({ onExport, onClose }) {
 				disabled: pending,
 				onChange: (e) => setPassword(e.target.value)
 			})] }),
-			/* @__PURE__ */ (0, import_jsx_runtime$49.jsxs)("label", { children: ["암호 확인", /* @__PURE__ */ (0, import_jsx_runtime$49.jsx)("input", {
+			/* @__PURE__ */ (0, import_jsx_runtime$48.jsxs)("label", { children: ["암호 확인", /* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("input", {
 				type: "password",
 				autoComplete: "new-password",
 				maxLength: 1024,
@@ -7900,22 +7900,22 @@ function ExportDialog({ onExport, onClose }) {
 				disabled: pending,
 				onChange: (e) => setConfirmation(e.target.value)
 			})] }),
-			error && /* @__PURE__ */ (0, import_jsx_runtime$49.jsx)("p", {
+			error && /* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("p", {
 				role: "alert",
 				children: error
 			}),
-			message && /* @__PURE__ */ (0, import_jsx_runtime$49.jsx)("p", {
+			message && /* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("p", {
 				role: "status",
 				children: message
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$49.jsxs)("div", {
+			/* @__PURE__ */ (0, import_jsx_runtime$48.jsxs)("div", {
 				className: "journal-leave-actions",
-				children: [/* @__PURE__ */ (0, import_jsx_runtime$49.jsx)("button", {
+				children: [/* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("button", {
 					type: "button",
 					disabled: pending,
 					onClick: close,
 					children: "닫기"
-				}), /* @__PURE__ */ (0, import_jsx_runtime$49.jsx)("button", {
+				}), /* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("button", {
 					type: "button",
 					disabled: pending || !valid,
 					onClick: () => void submit(),
@@ -7925,11 +7925,11 @@ function ExportDialog({ onExport, onClose }) {
 		]
 	});
 }
-var import_react$36, import_jsx_runtime$49;
+var import_react$35, import_jsx_runtime$48;
 function init_TemporaryBackupExport() {
 	return (init_TemporaryBackupExport = __esmMin((() => {
-		import_react$36 = require_react();
-		import_jsx_runtime$49 = require_jsx_runtime();
+		import_react$35 = require_react();
+		import_jsx_runtime$48 = require_jsx_runtime();
 	})))();
 }
 function matchingTemporaryPreview(selected, entries) {
@@ -7944,60 +7944,60 @@ function init_temporary_journal() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/journal/temporary-journal.css?v=source-build-r57";
+			l.href = "/local/app/css-source/src/journal/temporary-journal.css?v=source-build-r59";
 			document.head.appendChild(l);
 		}
 	})))();
 }
 function TemporaryJournalStatus({ value, showStatus, busy, blocked, onRetry, onOpen, onRestore, onExport, onReadBackup, toolsInMenu = false }) {
 	const savedClock = value.kind === "saved" ? journalSavedClock(value.savedAt) : null;
-	const [dismissed, setDismissed] = (0, import_react$35.useState)(false);
+	const [dismissed, setDismissed] = (0, import_react$34.useState)(false);
 	const candidate = [...value.recovered].sort((a, b) => Date.parse(b.savedAt) - Date.parse(a.savedAt) || a.draftId.localeCompare(b.draftId))[0];
 	const offer = showStatus && !blocked && !dismissed && !!candidate;
-	const [preview, setPreview] = (0, import_react$35.useState)(null);
-	const previewOpener = (0, import_react$35.useRef)(null);
+	const [preview, setPreview] = (0, import_react$34.useState)(null);
+	const previewOpener = (0, import_react$34.useRef)(null);
 	const currentPreview = matchingTemporaryPreview(preview, value.recovered);
 	const label = value.kind === "saving" ? "임시저장 중…" : value.kind === "pending" ? "임시저장 대기" : value.kind === "unavailable" ? "기기에 임시저장되지 않음" : value.kind === "error" ? value.error?.includes("temporary_cleanup") ? "일지 저장됨 · 임시본 정리 확인 필요" : value.error?.includes("restore_requires_review") ? "저장본이 달라 자동 복원 보류 · 임시본 보존됨" : "임시저장 확인 필요 · 입력은 유지됨" : "";
-	const backupTools = /* @__PURE__ */ (0, import_jsx_runtime$48.jsxs)(import_jsx_runtime$48.Fragment, { children: [onReadBackup && /* @__PURE__ */ (0, import_jsx_runtime$48.jsx)(TemporaryBackupReader, {
+	const backupTools = /* @__PURE__ */ (0, import_jsx_runtime$47.jsxs)(import_jsx_runtime$47.Fragment, { children: [onReadBackup && /* @__PURE__ */ (0, import_jsx_runtime$47.jsx)(TemporaryBackupReader, {
 		busy,
 		onRead: onReadBackup
-	}), onExport && /* @__PURE__ */ (0, import_jsx_runtime$48.jsx)(TemporaryBackupExport, {
+	}), onExport && /* @__PURE__ */ (0, import_jsx_runtime$47.jsx)(TemporaryBackupExport, {
 		enabled: value.kind === "saved" || value.recovered.length > 0,
 		busy,
 		onExport
 	})] });
-	return /* @__PURE__ */ (0, import_jsx_runtime$48.jsxs)("div", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$47.jsxs)("div", {
 		className: "manual-temporary-controls",
 		children: [
-			showStatus && /* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("p", {
+			showStatus && /* @__PURE__ */ (0, import_jsx_runtime$47.jsx)("p", {
 				className: "manual-save-status",
 				role: "status",
 				"aria-label": "임시저장 상태",
-				children: value.kind === "saved" && value.savedAt && savedClock ? /* @__PURE__ */ (0, import_jsx_runtime$48.jsxs)(import_jsx_runtime$48.Fragment, { children: ["자동 저장 ", /* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("time", {
+				children: value.kind === "saved" && value.savedAt && savedClock ? /* @__PURE__ */ (0, import_jsx_runtime$47.jsxs)(import_jsx_runtime$47.Fragment, { children: ["자동 저장 ", /* @__PURE__ */ (0, import_jsx_runtime$47.jsx)("time", {
 					dateTime: value.savedAt,
 					title: "이 기기에 임시본을 보존한 시각",
 					children: savedClock
 				})] }) : label
 			}),
-			showStatus && value.kind === "unavailable" && /* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("button", {
+			showStatus && value.kind === "unavailable" && /* @__PURE__ */ (0, import_jsx_runtime$47.jsx)("button", {
 				type: "button",
 				disabled: busy,
 				onClick: () => void onOpen(),
 				children: "보관 열기"
 			}),
-			showStatus && value.kind === "error" && /* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("button", {
+			showStatus && value.kind === "error" && /* @__PURE__ */ (0, import_jsx_runtime$47.jsx)("button", {
 				type: "button",
 				disabled: busy,
 				onClick: () => void onRetry(),
 				children: "다시 확인"
 			}),
-			offer && /* @__PURE__ */ (0, import_jsx_runtime$48.jsxs)("div", {
+			offer && /* @__PURE__ */ (0, import_jsx_runtime$47.jsxs)("div", {
 				className: "writing-resume-offer",
 				role: "group",
 				"aria-label": "이전 글 이어쓰기",
 				children: [
-					/* @__PURE__ */ (0, import_jsx_runtime$48.jsxs)("span", { children: ["이전에 쓰던 글이 있어요", candidate.data.title ? ` · ${candidate.data.title}` : ""] }),
-					/* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("button", {
+					/* @__PURE__ */ (0, import_jsx_runtime$47.jsxs)("span", { children: ["이전에 쓰던 글이 있어요", candidate.data.title ? ` · ${candidate.data.title}` : ""] }),
+					/* @__PURE__ */ (0, import_jsx_runtime$47.jsx)("button", {
 						type: "button",
 						disabled: busy,
 						onClick: () => void onRestore(candidate.draftId).then((ok) => {
@@ -8005,7 +8005,7 @@ function TemporaryJournalStatus({ value, showStatus, busy, blocked, onRetry, onO
 						}),
 						children: "이어서 쓰기"
 					}),
-					/* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("button", {
+					/* @__PURE__ */ (0, import_jsx_runtime$47.jsx)("button", {
 						type: "button",
 						disabled: busy,
 						onClick: () => setDismissed(true),
@@ -8013,7 +8013,7 @@ function TemporaryJournalStatus({ value, showStatus, busy, blocked, onRetry, onO
 					})
 				]
 			}),
-			showStatus && candidate && value.kind === "error" && value.error?.includes("restore_requires_review") && /* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("button", {
+			showStatus && candidate && value.kind === "error" && value.error?.includes("restore_requires_review") && /* @__PURE__ */ (0, import_jsx_runtime$47.jsx)("button", {
 				type: "button",
 				disabled: busy,
 				onClick: (event) => {
@@ -8022,16 +8022,16 @@ function TemporaryJournalStatus({ value, showStatus, busy, blocked, onRetry, onO
 				},
 				children: "이전 글 내용 확인"
 			}),
-			toolsInMenu ? (onReadBackup || onExport) && /* @__PURE__ */ (0, import_jsx_runtime$48.jsx)(EditorPopover, {
+			toolsInMenu ? (onReadBackup || onExport) && /* @__PURE__ */ (0, import_jsx_runtime$47.jsx)(EditorPopover, {
 				label: "임시본 도구",
 				kind: "more",
 				disabled: busy,
-				children: /* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("div", {
+				children: /* @__PURE__ */ (0, import_jsx_runtime$47.jsx)("div", {
 					onClick: (event) => event.stopPropagation(),
 					children: backupTools
 				})
 			}) : backupTools,
-			currentPreview && /* @__PURE__ */ (0, import_jsx_runtime$48.jsx)(TemporaryJournalPreview, {
+			currentPreview && /* @__PURE__ */ (0, import_jsx_runtime$47.jsx)(TemporaryJournalPreview, {
 				entry: currentPreview,
 				onClose: () => {
 					setPreview(null);
@@ -8041,17 +8041,17 @@ function TemporaryJournalStatus({ value, showStatus, busy, blocked, onRetry, onO
 		]
 	});
 }
-var import_react$35, import_jsx_runtime$48;
+var import_react$34, import_jsx_runtime$47;
 function init_TemporaryJournalStatus() {
 	return (init_TemporaryJournalStatus = __esmMin((() => {
-		import_react$35 = require_react();
+		import_react$34 = require_react();
 		init_TemporaryBackupReader();
 		init_TemporaryBackupExport();
 		init_TemporaryJournalPreview();
 		init_temporary_journal();
 		init_EditorPopover();
 		init_JournalNoteMetadata();
-		import_jsx_runtime$48 = require_jsx_runtime();
+		import_jsx_runtime$47 = require_jsx_runtime();
 	})))();
 }
 /** Strict saved-note presentation or explicitly labelled draft preview. Neither is a live observation or write authority. */
@@ -8125,19 +8125,19 @@ function init_historical_details() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/trade-review/historical-details.css?v=source-build-r57";
+			l.href = "/local/app/css-source/src/trade-review/historical-details.css?v=source-build-r59";
 			document.head.appendChild(l);
 		}
 	})))();
 }
 /** Owned saved-link or explicitly labelled draft-link presentation. No I/O or write authority. */
 function HistoricalTradeDetails({ note, privacy, compact = false, preview = false }) {
-	const [expanded, setExpanded] = (0, import_react$34.useState)(false);
-	const opener = (0, import_react$34.useRef)(null);
-	const id = (0, import_react$34.useId)();
+	const [expanded, setExpanded] = (0, import_react$33.useState)(false);
+	const opener = (0, import_react$33.useRef)(null);
+	const id = (0, import_react$33.useId)();
 	const details = historicalTradeDetails(note, privacy, preview);
 	if (!details) return null;
-	return /* @__PURE__ */ (0, import_jsx_runtime$47.jsxs)("div", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$46.jsxs)("div", {
 		className: "historical-trade-details",
 		onKeyDown: (event) => {
 			if (event.key === "Escape" && expanded) {
@@ -8147,7 +8147,7 @@ function HistoricalTradeDetails({ note, privacy, compact = false, preview = fals
 				opener.current?.focus({ preventScroll: true });
 			}
 		},
-		children: [/* @__PURE__ */ (0, import_jsx_runtime$47.jsx)("button", {
+		children: [/* @__PURE__ */ (0, import_jsx_runtime$46.jsx)("button", {
 			ref: opener,
 			type: "button",
 			className: compact ? "journal-icon-action" : void 0,
@@ -8155,38 +8155,38 @@ function HistoricalTradeDetails({ note, privacy, compact = false, preview = fals
 			"aria-expanded": expanded,
 			"aria-controls": id,
 			onClick: () => setExpanded(!expanded),
-			children: compact ? /* @__PURE__ */ (0, import_jsx_runtime$47.jsxs)("svg", {
+			children: compact ? /* @__PURE__ */ (0, import_jsx_runtime$46.jsxs)("svg", {
 				"aria-hidden": "true",
 				viewBox: "0 0 24 24",
-				children: [/* @__PURE__ */ (0, import_jsx_runtime$47.jsx)("path", { d: "M12 17v-5m0-5v1" }), /* @__PURE__ */ (0, import_jsx_runtime$47.jsx)("circle", {
+				children: [/* @__PURE__ */ (0, import_jsx_runtime$46.jsx)("path", { d: "M12 17v-5m0-5v1" }), /* @__PURE__ */ (0, import_jsx_runtime$46.jsx)("circle", {
 					cx: "12",
 					cy: "12",
 					r: "9"
 				})]
 			}) : "저장된 거래 상세"
-		}), expanded && /* @__PURE__ */ (0, import_jsx_runtime$47.jsxs)("div", {
+		}), expanded && /* @__PURE__ */ (0, import_jsx_runtime$46.jsxs)("div", {
 			id,
 			role: "region",
 			"aria-label": preview ? "연결할 거래 사실" : "저장된 거래 사실",
-			children: [/* @__PURE__ */ (0, import_jsx_runtime$47.jsxs)("p", {
+			children: [/* @__PURE__ */ (0, import_jsx_runtime$46.jsxs)("p", {
 				className: "manual-save-hint",
 				children: [preview && "저장 전 연결 대상입니다. ", "현재 잔고나 개별 체결 내역이 아닙니다."]
-			}), /* @__PURE__ */ (0, import_jsx_runtime$47.jsx)("dl", { children: details.rows.map((row) => /* @__PURE__ */ (0, import_jsx_runtime$47.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime$47.jsx)("dt", { children: row.label }), /* @__PURE__ */ (0, import_jsx_runtime$47.jsx)("dd", { children: row.value })] }, row.label)) })]
+			}), /* @__PURE__ */ (0, import_jsx_runtime$46.jsx)("dl", { children: details.rows.map((row) => /* @__PURE__ */ (0, import_jsx_runtime$46.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime$46.jsx)("dt", { children: row.label }), /* @__PURE__ */ (0, import_jsx_runtime$46.jsx)("dd", { children: row.value })] }, row.label)) })]
 		})]
 	});
 }
-var import_react$34, import_jsx_runtime$47;
+var import_react$33, import_jsx_runtime$46;
 function init_HistoricalTradeDetails() {
 	return (init_HistoricalTradeDetails = __esmMin((() => {
-		import_react$34 = require_react();
+		import_react$33 = require_react();
 		init_historicalDetails();
 		init_historical_details();
-		import_jsx_runtime$47 = require_jsx_runtime();
+		import_jsx_runtime$46 = require_jsx_runtime();
 	})))();
 }
 function SavedCopyReview({ review, onCancel, onChoose }) {
-	const dialog = (0, import_react$33.useRef)(null), cancel = (0, import_react$33.useRef)(null), id = (0, import_react$33.useId)();
-	(0, import_react$33.useLayoutEffect)(() => {
+	const dialog = (0, import_react$32.useRef)(null), cancel = (0, import_react$32.useRef)(null), id = (0, import_react$32.useId)();
+	(0, import_react$32.useLayoutEffect)(() => {
 		const el = dialog.current;
 		el.showModal();
 		cancel.current?.focus();
@@ -8209,7 +8209,7 @@ function SavedCopyReview({ review, onCancel, onChoose }) {
 		dialog.current?.close();
 		action();
 	};
-	return /* @__PURE__ */ (0, import_jsx_runtime$46.jsxs)("dialog", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$45.jsxs)("dialog", {
 		ref: dialog,
 		className: "journal-leave-dialog linked-reconcile-dialog",
 		"aria-labelledby": `${id}-title`,
@@ -8231,29 +8231,29 @@ function SavedCopyReview({ review, onCancel, onChoose }) {
 			}
 		},
 		children: [
-			/* @__PURE__ */ (0, import_jsx_runtime$46.jsx)("h2", {
+			/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("h2", {
 				id: `${id}-title`,
 				children: "저장된 글과 비교"
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$46.jsx)("p", {
+			/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("p", {
 				id: `${id}-description`,
 				children: "작성 내용은 아직 바꾸지 않았습니다. 저장된 글로 전환하면 현재 입력은 교체됩니다. 임시저장되지 않은 수정은 남지 않을 수 있습니다. 저장된 임시본은 삭제하지 않습니다."
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$46.jsx)("div", {
+			/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("div", {
 				className: "linked-reconcile-columns",
-				children: copies.map((c) => /* @__PURE__ */ (0, import_jsx_runtime$46.jsxs)("section", {
+				children: copies.map((c) => /* @__PURE__ */ (0, import_jsx_runtime$45.jsxs)("section", {
 					"aria-label": c.label,
 					children: [
-						/* @__PURE__ */ (0, import_jsx_runtime$46.jsx)("h3", { children: c.label }),
-						/* @__PURE__ */ (0, import_jsx_runtime$46.jsxs)("p", {
+						/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("h3", { children: c.label }),
+						/* @__PURE__ */ (0, import_jsx_runtime$45.jsxs)("p", {
 							className: "linked-reconcile-date",
 							children: ["기록 날짜 · ", c.recordDate]
 						}),
-						/* @__PURE__ */ (0, import_jsx_runtime$46.jsx)("h4", { children: c.title || "제목 없음" }),
-						/* @__PURE__ */ (0, import_jsx_runtime$46.jsx)("div", {
+						/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("h4", { children: c.title || "제목 없음" }),
+						/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("div", {
 							tabIndex: 0,
 							"aria-label": `${c.label} 본문`,
-							children: c.content ? /* @__PURE__ */ (0, import_jsx_runtime$46.jsx)(RichNoteView, {
+							children: c.content ? /* @__PURE__ */ (0, import_jsx_runtime$45.jsx)(RichNoteView, {
 								note: {
 									...review.note,
 									title: c.title,
@@ -8264,19 +8264,19 @@ function SavedCopyReview({ review, onCancel, onChoose }) {
 									content: c.content
 								},
 								active: false
-							}) : /* @__PURE__ */ (0, import_jsx_runtime$46.jsx)("pre", { children: c.body })
+							}) : /* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("pre", { children: c.body })
 						})
 					]
 				}, c.label))
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$46.jsxs)("div", {
+			/* @__PURE__ */ (0, import_jsx_runtime$45.jsxs)("div", {
 				className: "journal-leave-actions",
-				children: [/* @__PURE__ */ (0, import_jsx_runtime$46.jsx)("button", {
+				children: [/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("button", {
 					ref: cancel,
 					type: "button",
 					onClick: () => close(onCancel),
 					children: "작성 내용 유지"
-				}), /* @__PURE__ */ (0, import_jsx_runtime$46.jsx)("button", {
+				}), /* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("button", {
 					type: "button",
 					onClick: () => close(onChoose),
 					children: "저장된 글로 전환"
@@ -8287,16 +8287,16 @@ function SavedCopyReview({ review, onCancel, onChoose }) {
 }
 /** App owns this controller beyond unmount. Mount probes only an already prepared draft store; never opens/initializes keys. */
 function TradeLinkedJournalEditor({ controller, registerHostGuard, onTitleChange, privacy = false, onBack }) {
-	const state = (0, import_react$33.useSyncExternalStore)(controller.subscribe, controller.getSnapshot, controller.getSnapshot);
-	(0, import_react$33.useEffect)(() => {
+	const state = (0, import_react$32.useSyncExternalStore)(controller.subscribe, controller.getSnapshot, controller.getSnapshot);
+	(0, import_react$32.useEffect)(() => {
 		controller.startTemporarySave();
 	}, [controller]);
-	const [showList, setShowList] = (0, import_react$33.useState)(false);
-	const [richEditing, setRichEditing] = (0, import_react$33.useState)(false);
-	const surface = (0, import_react$33.useRef)(null);
-	const title = (0, import_react$33.useRef)(null), lastFocus = (0, import_react$33.useRef)(null), live = (0, import_react$33.useRef)(false), ownGuard = (0, import_react$33.useRef)(null), reviewOpener = (0, import_react$33.useRef)(null);
-	const id = (0, import_react$33.useId)(), errors = manualDraftErrors(state.draft);
-	(0, import_react$33.useLayoutEffect)(() => {
+	const [showList, setShowList] = (0, import_react$32.useState)(false);
+	const [richEditing, setRichEditing] = (0, import_react$32.useState)(false);
+	const surface = (0, import_react$32.useRef)(null);
+	const title = (0, import_react$32.useRef)(null), lastFocus = (0, import_react$32.useRef)(null), live = (0, import_react$32.useRef)(false), ownGuard = (0, import_react$32.useRef)(null), reviewOpener = (0, import_react$32.useRef)(null);
+	const id = (0, import_react$32.useId)(), errors = manualDraftErrors(state.draft);
+	(0, import_react$32.useLayoutEffect)(() => {
 		live.current = true;
 		title.current?.focus({ preventScroll: true });
 		return () => {
@@ -8304,10 +8304,10 @@ function TradeLinkedJournalEditor({ controller, registerHostGuard, onTitleChange
 			ownGuard.current = null;
 		};
 	}, []);
-	(0, import_react$33.useLayoutEffect)(() => {
+	(0, import_react$32.useLayoutEffect)(() => {
 		if (richEditing) title.current?.focus({ preventScroll: true });
 	}, [richEditing]);
-	const register = (0, import_react$33.useCallback)((guard) => {
+	const register = (0, import_react$32.useCallback)((guard) => {
 		ownGuard.current = guard;
 		registerHostGuard?.(guard ? (approve, cancel, destination) => {
 			if (!live.current || ownGuard.current !== guard) {
@@ -8321,10 +8321,10 @@ function TradeLinkedJournalEditor({ controller, registerHostGuard, onTitleChange
 		} : null);
 	}, [registerHostGuard]);
 	const leave = useJournalNavigationGuard(state.dirty ? 1 : 0, state.pending !== null || state.composing || state.editorMenuActive || state.richBusy, register);
-	(0, import_react$33.useLayoutEffect)(() => {
+	(0, import_react$32.useLayoutEffect)(() => {
 		onTitleChange?.(state.draft.title);
 	}, [state.draft.title, onTitleChange]);
-	(0, import_react$33.useLayoutEffect)(() => () => onTitleChange?.(""), [onTitleChange]);
+	(0, import_react$32.useLayoutEffect)(() => () => onTitleChange?.(""), [onTitleChange]);
 	const replace = (opener, action) => ownGuard.current?.(action, () => {
 		if (opener.isConnected) opener.focus({ preventScroll: true });
 	});
@@ -8333,7 +8333,7 @@ function TradeLinkedJournalEditor({ controller, registerHostGuard, onTitleChange
 	const status = state.pending === "saving" ? "저장 중…" : state.pending ? "불러오는 중…" : state.needsRead ? "저장 상태 확인 필요" : state.status === "saved" && !state.dirty ? state.contextChanged ? "저장됨 · 현재 거래 문맥은 변경됨" : "저장됨" : state.status === "read" && !state.dirty ? "저장된 일지" : "저장되지 않은 초안";
 	const canSave = !state.pending && !state.needsRead && !state.composing && !state.editorMenuActive && !state.richBusy && (state.content ? validLinkedRichDraft(state.draft, state.content) : validManualSave(state.draft)) && (!state.note ? state.authorized : state.dirty);
 	const notes = state.store?.notes.filter((n) => n.tradeLink?.tradeId === state.link?.tradeId) ?? [];
-	return /* @__PURE__ */ (0, import_jsx_runtime$46.jsxs)("section", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$45.jsxs)("section", {
 		ref: surface,
 		className: "journal-surface manual-journal-draft linked-journal-editor",
 		"aria-label": "거래 연결 일지",
@@ -8358,29 +8358,29 @@ function TradeLinkedJournalEditor({ controller, registerHostGuard, onTitleChange
 			}
 		},
 		children: [
-			/* @__PURE__ */ (0, import_jsx_runtime$46.jsxs)("div", {
+			/* @__PURE__ */ (0, import_jsx_runtime$45.jsxs)("div", {
 				className: "manual-draft-commands linked-writing-toolbar",
-				children: [/* @__PURE__ */ (0, import_jsx_runtime$46.jsx)("div", {
+				children: [/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("div", {
 					className: "manual-draft-toolbar",
-					children: /* @__PURE__ */ (0, import_jsx_runtime$46.jsx)("button", {
+					children: /* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("button", {
 						type: "button",
 						className: "journal-icon-action",
 						"aria-label": "돌아가기",
 						onClick: (event) => back(event.currentTarget),
-						children: /* @__PURE__ */ (0, import_jsx_runtime$46.jsx)("svg", {
+						children: /* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("svg", {
 							"aria-hidden": "true",
 							viewBox: "0 0 24 24",
-							children: /* @__PURE__ */ (0, import_jsx_runtime$46.jsx)("path", { d: "M20 12H4m7-7-7 7 7 7" })
+							children: /* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("path", { d: "M20 12H4m7-7-7 7 7 7" })
 						})
 					})
-				}), /* @__PURE__ */ (0, import_jsx_runtime$46.jsxs)("div", {
+				}), /* @__PURE__ */ (0, import_jsx_runtime$45.jsxs)("div", {
 					className: "manual-save-actions linked-writing-actions",
 					children: [
-						(state.pending || state.needsRead) && /* @__PURE__ */ (0, import_jsx_runtime$46.jsx)("p", {
+						(state.pending || state.needsRead) && /* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("p", {
 							role: "status",
 							children: status
 						}),
-						/* @__PURE__ */ (0, import_jsx_runtime$46.jsx)(TemporaryJournalStatus, {
+						/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)(TemporaryJournalStatus, {
 							toolsInMenu: true,
 							onReadBackup: controller.readTemporaryBackup,
 							onExport: controller.exportTemporaryBackup,
@@ -8398,22 +8398,22 @@ function TradeLinkedJournalEditor({ controller, registerHostGuard, onTitleChange
 							},
 							onRestore: (draftId) => controller.restoreTemporaryDraft(draftId)
 						}),
-						state.note && "content" in state.note && !state.dirty && !richEditing && /* @__PURE__ */ (0, import_jsx_runtime$46.jsxs)("button", {
+						state.note && "content" in state.note && !state.dirty && !richEditing && /* @__PURE__ */ (0, import_jsx_runtime$45.jsxs)("button", {
 							type: "button",
 							className: "journal-icon-action",
 							"aria-label": "일지 수정",
 							disabled: !!state.pending || state.needsRead || state.composing || state.richBusy || state.editorMenuActive,
 							onClick: () => setRichEditing(true),
-							children: [/* @__PURE__ */ (0, import_jsx_runtime$46.jsx)("svg", {
+							children: [/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("svg", {
 								"aria-hidden": "true",
 								viewBox: "0 0 24 24",
-								children: /* @__PURE__ */ (0, import_jsx_runtime$46.jsx)("path", { d: "m15 4 5 5M4 20l5-1L21 7a2 2 0 0 0-5-5L4 14Z" })
-							}), /* @__PURE__ */ (0, import_jsx_runtime$46.jsx)("span", {
+								children: /* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("path", { d: "m15 4 5 5M4 20l5-1L21 7a2 2 0 0 0-5-5L4 14Z" })
+							}), /* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("span", {
 								className: "journal-action-tooltip",
 								children: "수정"
 							})]
 						}),
-						/* @__PURE__ */ (0, import_jsx_runtime$46.jsxs)("button", {
+						/* @__PURE__ */ (0, import_jsx_runtime$45.jsxs)("button", {
 							type: "button",
 							className: "journal-icon-action",
 							"aria-label": "일지 저장",
@@ -8424,16 +8424,16 @@ function TradeLinkedJournalEditor({ controller, registerHostGuard, onTitleChange
 								setRichEditing(false);
 								controller.save();
 							},
-							children: [/* @__PURE__ */ (0, import_jsx_runtime$46.jsx)("svg", {
+							children: [/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("svg", {
 								"aria-hidden": "true",
 								viewBox: "0 0 24 24",
-								children: /* @__PURE__ */ (0, import_jsx_runtime$46.jsx)("path", { d: "M20 12a8 8 0 1 1-5-7M8 11l4 4 9-10" })
-							}), /* @__PURE__ */ (0, import_jsx_runtime$46.jsx)("span", {
+								children: /* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("path", { d: "M20 12a8 8 0 1 1-5-7M8 11l4 4 9-10" })
+							}), /* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("span", {
 								className: "journal-action-tooltip",
 								children: "저장 ⌘S"
 							})]
 						}),
-						(state.note || state.needsRead) && /* @__PURE__ */ (0, import_jsx_runtime$46.jsxs)("button", {
+						(state.note || state.needsRead) && /* @__PURE__ */ (0, import_jsx_runtime$45.jsxs)("button", {
 							type: "button",
 							className: state.needsRead ? "text-button" : "journal-icon-action",
 							"aria-label": state.needsRead ? "상태 다시 확인" : "저장된 일지 보기",
@@ -8441,11 +8441,11 @@ function TradeLinkedJournalEditor({ controller, registerHostGuard, onTitleChange
 							onClick: () => void controller.open().then(() => {
 								if (live.current && !controller.getSnapshot().error) setShowList(true);
 							}),
-							children: [state.needsRead ? "상태 다시 확인" : /* @__PURE__ */ (0, import_jsx_runtime$46.jsx)("svg", {
+							children: [state.needsRead ? "상태 다시 확인" : /* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("svg", {
 								"aria-hidden": "true",
 								viewBox: "0 0 24 24",
-								children: /* @__PURE__ */ (0, import_jsx_runtime$46.jsx)("path", { d: "M4 4h6a3 3 0 0 1 2 1 3 3 0 0 1 2-1h6v15h-6a3 3 0 0 0-2 1 3 3 0 0 0-2-1H4Zm8 1v15" })
-							}), !state.needsRead && /* @__PURE__ */ (0, import_jsx_runtime$46.jsx)("span", {
+								children: /* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("path", { d: "M4 4h6a3 3 0 0 1 2 1 3 3 0 0 1 2-1h6v15h-6a3 3 0 0 0-2 1 3 3 0 0 0-2-1H4Zm8 1v15" })
+							}), !state.needsRead && /* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("span", {
 								className: "journal-action-tooltip",
 								children: "저장된 글 보기"
 							})]
@@ -8453,7 +8453,7 @@ function TradeLinkedJournalEditor({ controller, registerHostGuard, onTitleChange
 					]
 				})]
 			}),
-			(state.note || state.link) && /* @__PURE__ */ (0, import_jsx_runtime$46.jsx)(HistoricalTradeDetails, {
+			(state.note || state.link) && /* @__PURE__ */ (0, import_jsx_runtime$45.jsx)(HistoricalTradeDetails, {
 				note: state.note ?? {
 					tradeLink: state.link ?? void 0,
 					recordDate: {
@@ -8465,32 +8465,32 @@ function TradeLinkedJournalEditor({ controller, registerHostGuard, onTitleChange
 				compact: true,
 				preview: !state.note
 			}, state.note?.id ?? "link-preview"),
-			!state.note && !state.authorized && /* @__PURE__ */ (0, import_jsx_runtime$46.jsx)("p", {
+			!state.note && !state.authorized && /* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("p", {
 				role: "alert",
 				children: "현재 거래 문맥을 확인할 수 없어 저장할 수 없습니다. 작성한 글은 유지됩니다."
 			}),
-			state.error && /* @__PURE__ */ (0, import_jsx_runtime$46.jsx)("p", {
+			state.error && /* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("p", {
 				role: "alert",
 				children: manualErrorMessage(state.error)
 			}),
-			state.canResolveAbsent && /* @__PURE__ */ (0, import_jsx_runtime$46.jsxs)(import_jsx_runtime$46.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$46.jsx)("p", {
+			state.canResolveAbsent && /* @__PURE__ */ (0, import_jsx_runtime$45.jsxs)(import_jsx_runtime$45.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("p", {
 				className: "manual-save-hint",
 				children: "다시 확인한 저장소에 이 거래의 일지가 없습니다. 작성한 글은 유지됩니다."
-			}), /* @__PURE__ */ (0, import_jsx_runtime$46.jsx)("button", {
+			}), /* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("button", {
 				type: "button",
 				disabled: !!state.pending || state.composing || state.editorMenuActive || state.richBusy,
 				onClick: () => controller.resolveAbsent(),
 				children: "미저장 확인 후 다시 작성"
 			})] }),
-			showList && state.listAbsent && !state.store && /* @__PURE__ */ (0, import_jsx_runtime$46.jsx)("p", { children: "저장된 일지가 없습니다. 저장할 때 보관소를 준비합니다." }),
-			showList && state.store && /* @__PURE__ */ (0, import_jsx_runtime$46.jsxs)("section", {
+			showList && state.listAbsent && !state.store && /* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("p", { children: "저장된 일지가 없습니다. 저장할 때 보관소를 준비합니다." }),
+			showList && state.store && /* @__PURE__ */ (0, import_jsx_runtime$45.jsxs)("section", {
 				className: "manual-note-list",
 				"aria-label": "연결된 일지 목록",
-				children: [/* @__PURE__ */ (0, import_jsx_runtime$46.jsx)("button", {
+				children: [/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("button", {
 					type: "button",
 					onClick: () => setShowList(false),
 					children: "목록 닫기"
-				}), notes.length === 0 ? /* @__PURE__ */ (0, import_jsx_runtime$46.jsx)("p", { children: "이 거래에 연결된 일지가 없습니다." }) : /* @__PURE__ */ (0, import_jsx_runtime$46.jsx)("ul", { children: notes.map((n) => /* @__PURE__ */ (0, import_jsx_runtime$46.jsxs)("li", { children: [/* @__PURE__ */ (0, import_jsx_runtime$46.jsxs)("button", {
+				}), notes.length === 0 ? /* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("p", { children: "이 거래에 연결된 일지가 없습니다." }) : /* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("ul", { children: notes.map((n) => /* @__PURE__ */ (0, import_jsx_runtime$45.jsxs)("li", { children: [/* @__PURE__ */ (0, import_jsx_runtime$45.jsxs)("button", {
 					type: "button",
 					disabled: !!state.pending || state.composing || state.editorMenuActive || state.richBusy,
 					onClick: (event) => {
@@ -8514,25 +8514,25 @@ function TradeLinkedJournalEditor({ controller, registerHostGuard, onTitleChange
 						" ",
 						n.title || "제목 없음"
 					]
-				}), /* @__PURE__ */ (0, import_jsx_runtime$46.jsx)("span", { children: n.recordDate.value })] }, n.id)) })]
+				}), /* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("span", { children: n.recordDate.value })] }, n.id)) })]
 			}),
-			state.note && "content" in state.note && !state.dirty && !richEditing ? /* @__PURE__ */ (0, import_jsx_runtime$46.jsx)("div", {
+			state.note && "content" in state.note && !state.dirty && !richEditing ? /* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("div", {
 				className: "manual-editor-content",
-				children: /* @__PURE__ */ (0, import_jsx_runtime$46.jsx)(RichNoteView, {
+				children: /* @__PURE__ */ (0, import_jsx_runtime$45.jsx)(RichNoteView, {
 					note: state.note,
 					active: true
 				})
-			}) : /* @__PURE__ */ (0, import_jsx_runtime$46.jsxs)("div", {
+			}) : /* @__PURE__ */ (0, import_jsx_runtime$45.jsxs)("div", {
 				className: "manual-editor-content",
 				children: [
-					/* @__PURE__ */ (0, import_jsx_runtime$46.jsxs)("div", {
+					/* @__PURE__ */ (0, import_jsx_runtime$45.jsxs)("div", {
 						className: "manual-draft-fields",
-						children: [/* @__PURE__ */ (0, import_jsx_runtime$46.jsxs)("div", { children: [
-							/* @__PURE__ */ (0, import_jsx_runtime$46.jsx)("label", {
+						children: [/* @__PURE__ */ (0, import_jsx_runtime$45.jsxs)("div", { children: [
+							/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("label", {
 								htmlFor: `${id}-title`,
 								children: "제목"
 							}),
-							/* @__PURE__ */ (0, import_jsx_runtime$46.jsx)("input", {
+							/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("input", {
 								ref: title,
 								id: `${id}-title`,
 								value: state.draft.title,
@@ -8542,17 +8542,17 @@ function TradeLinkedJournalEditor({ controller, registerHostGuard, onTitleChange
 								"aria-invalid": !!errors.title,
 								"aria-describedby": errors.title ? `${id}-title-error` : void 0
 							}),
-							errors.title && /* @__PURE__ */ (0, import_jsx_runtime$46.jsx)("p", {
+							errors.title && /* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("p", {
 								id: `${id}-title-error`,
 								role: "alert",
 								children: errors.title
 							})
-						] }), /* @__PURE__ */ (0, import_jsx_runtime$46.jsxs)("div", { children: [
-							/* @__PURE__ */ (0, import_jsx_runtime$46.jsx)("label", {
+						] }), /* @__PURE__ */ (0, import_jsx_runtime$45.jsxs)("div", { children: [
+							/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("label", {
 								htmlFor: `${id}-date`,
 								children: "기록 날짜"
 							}),
-							/* @__PURE__ */ (0, import_jsx_runtime$46.jsx)("input", {
+							/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("input", {
 								id: `${id}-date`,
 								value: state.draft.recordDate,
 								readOnly: !!state.pending,
@@ -8565,25 +8565,25 @@ function TradeLinkedJournalEditor({ controller, registerHostGuard, onTitleChange
 								"aria-invalid": !!errors.recordDate,
 								"aria-describedby": errors.recordDate ? `${id}-date-error` : void 0
 							}),
-							errors.recordDate && /* @__PURE__ */ (0, import_jsx_runtime$46.jsx)("p", {
+							errors.recordDate && /* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("p", {
 								id: `${id}-date-error`,
 								role: "alert",
 								children: errors.recordDate
 							}),
-							/* @__PURE__ */ (0, import_jsx_runtime$46.jsx)(JournalSavedTime, { updatedAt: state.note?.updatedAt })
+							/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)(JournalSavedTime, { updatedAt: state.note?.updatedAt })
 						] })]
 					}),
-					/* @__PURE__ */ (0, import_jsx_runtime$46.jsx)("label", {
+					/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("label", {
 						htmlFor: `${id}-body`,
 						children: "본문"
 					}),
-					state.content ? /* @__PURE__ */ (0, import_jsx_runtime$46.jsx)(RichImageEditor, {
+					state.content ? /* @__PURE__ */ (0, import_jsx_runtime$45.jsx)(RichImageEditor, {
 						value: state.content,
 						onChange: controller.editRich,
 						readOnly: !!state.pending || state.needsRead,
 						onBusyChange: controller.setRichBusy,
 						onMenuIntentChange: controller.setEditorMenu
-					}, state.editorEpoch) : /* @__PURE__ */ (0, import_jsx_runtime$46.jsx)(BlockEditor, {
+					}, state.editorEpoch) : /* @__PURE__ */ (0, import_jsx_runtime$45.jsx)(BlockEditor, {
 						onAddImages: () => {
 							(0, import_react_dom$4.flushSync)(() => {
 								controller.beginRichDraft();
@@ -8598,14 +8598,14 @@ function TradeLinkedJournalEditor({ controller, registerHostGuard, onTitleChange
 						invalid: !!errors.body,
 						describedBy: errors.body ? `${id}-body-error` : void 0
 					}, state.editorEpoch),
-					!state.content && errors.body && /* @__PURE__ */ (0, import_jsx_runtime$46.jsx)("p", {
+					!state.content && errors.body && /* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("p", {
 						id: `${id}-body-error`,
 						role: "alert",
 						children: errors.body
 					})
 				]
 			}),
-			state.review && /* @__PURE__ */ (0, import_jsx_runtime$46.jsx)(SavedCopyReview, {
+			state.review && /* @__PURE__ */ (0, import_jsx_runtime$45.jsx)(SavedCopyReview, {
 				review: state.review,
 				onCancel: () => {
 					controller.dismissReview();
@@ -8618,7 +8618,7 @@ function TradeLinkedJournalEditor({ controller, registerHostGuard, onTitleChange
 					}
 				}
 			}),
-			leave.prompt && /* @__PURE__ */ (0, import_jsx_runtime$46.jsx)(JournalLeaveDialog, {
+			leave.prompt && /* @__PURE__ */ (0, import_jsx_runtime$45.jsx)(JournalLeaveDialog, {
 				prompt: leave.prompt,
 				onCancel: leave.cancel,
 				onApprove: leave.approve,
@@ -8631,10 +8631,10 @@ function TradeLinkedJournalEditor({ controller, registerHostGuard, onTitleChange
 		]
 	});
 }
-var import_react$33, import_react_dom$4, import_jsx_runtime$46;
+var import_react$32, import_react_dom$4, import_jsx_runtime$45;
 function init_TradeLinkedJournalEditor() {
 	return (init_TradeLinkedJournalEditor = __esmMin((() => {
-		import_react$33 = require_react();
+		import_react$32 = require_react();
 		init_linkedJournal();
 		import_react_dom$4 = require_react_dom();
 		init_RichImageEditor();
@@ -8651,7 +8651,7 @@ function init_TradeLinkedJournalEditor() {
 		init_TemporaryJournalStatus();
 		init_HistoricalTradeDetails();
 		init_BlockEditor();
-		import_jsx_runtime$46 = require_jsx_runtime();
+		import_jsx_runtime$45 = require_jsx_runtime();
 	})))();
 }
 /** A UI observation only: not an epoch, lease, token or backend permission proof. */
@@ -8685,77 +8685,77 @@ function init_tradeReviewEntry() {
 	})))();
 }
 function PortfolioChart({ visible, demo, hidden, connected = false }) {
-	if (hidden) return /* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("div", {
+	if (hidden) return /* @__PURE__ */ (0, import_jsx_runtime$44.jsx)("div", {
 		className: "empty-chart",
-		children: /* @__PURE__ */ (0, import_jsx_runtime$45.jsxs)("div", { children: [
-			/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)(AppIcon, {
+		children: /* @__PURE__ */ (0, import_jsx_runtime$44.jsxs)("div", { children: [
+			/* @__PURE__ */ (0, import_jsx_runtime$44.jsx)(AppIcon, {
 				icon: EyeOff,
 				size: 24
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("strong", { children: "금액 숨김 모드" }),
-			/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("span", { children: "자산평가액 추이와 금액 축을 가렸습니다." })
+			/* @__PURE__ */ (0, import_jsx_runtime$44.jsx)("strong", { children: "금액 숨김 모드" }),
+			/* @__PURE__ */ (0, import_jsx_runtime$44.jsx)("span", { children: "자산평가액 추이와 금액 축을 가렸습니다." })
 		] })
 	});
-	if (!visible) return /* @__PURE__ */ (0, import_jsx_runtime$45.jsxs)("div", {
+	if (!visible) return /* @__PURE__ */ (0, import_jsx_runtime$44.jsxs)("div", {
 		className: "empty-chart",
-		children: [/* @__PURE__ */ (0, import_jsx_runtime$45.jsxs)("div", {
+		children: [/* @__PURE__ */ (0, import_jsx_runtime$44.jsxs)("div", {
 			className: "grid-lines",
 			children: [
-				/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("i", {}),
-				/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("i", {}),
-				/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("i", {})
+				/* @__PURE__ */ (0, import_jsx_runtime$44.jsx)("i", {}),
+				/* @__PURE__ */ (0, import_jsx_runtime$44.jsx)("i", {}),
+				/* @__PURE__ */ (0, import_jsx_runtime$44.jsx)("i", {})
 			]
-		}), /* @__PURE__ */ (0, import_jsx_runtime$45.jsxs)("div", { children: [
-			/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)(AppIcon, {
+		}), /* @__PURE__ */ (0, import_jsx_runtime$44.jsxs)("div", { children: [
+			/* @__PURE__ */ (0, import_jsx_runtime$44.jsx)(AppIcon, {
 				icon: ChartColumn,
 				size: 24
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("strong", { children: demo ? "이 조건의 추이 기록이 없습니다" : connected ? "실제 자산 이력 저장은 꺼져 있습니다" : "자산 이력 저장은 꺼져 있습니다" }),
-			/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("span", { children: demo ? "전체 계좌 · KRW · 정상 조회에서 합성 추이를 확인하세요." : connected ? "현재 조회는 메모리에만 유지합니다. 암호화 이력이 준비되기 전 기록하지 않습니다." : "현재 조회값만 표시합니다. 과거 이력은 기록하지 않습니다." })
+			/* @__PURE__ */ (0, import_jsx_runtime$44.jsx)("strong", { children: demo ? "이 조건의 추이 기록이 없습니다" : connected ? "실제 자산 이력 저장은 꺼져 있습니다" : "자산 이력 저장은 꺼져 있습니다" }),
+			/* @__PURE__ */ (0, import_jsx_runtime$44.jsx)("span", { children: demo ? "전체 계좌 · KRW · 정상 조회에서 합성 추이를 확인하세요." : connected ? "현재 조회는 메모리에만 유지합니다. 암호화 이력이 준비되기 전 기록하지 않습니다." : "현재 조회값만 표시합니다. 과거 이력은 기록하지 않습니다." })
 		] })]
 	});
-	return /* @__PURE__ */ (0, import_jsx_runtime$45.jsxs)("div", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$44.jsxs)("div", {
 		className: "portfolio-chart",
 		children: [
-			/* @__PURE__ */ (0, import_jsx_runtime$45.jsxs)("div", {
+			/* @__PURE__ */ (0, import_jsx_runtime$44.jsxs)("div", {
 				className: "chart-axis",
 				children: [
-					/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("span", { children: "5,000만" }),
-					/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("span", { children: "4,000만" }),
-					/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("span", { children: "3,000만" })
+					/* @__PURE__ */ (0, import_jsx_runtime$44.jsx)("span", { children: "5,000만" }),
+					/* @__PURE__ */ (0, import_jsx_runtime$44.jsx)("span", { children: "4,000만" }),
+					/* @__PURE__ */ (0, import_jsx_runtime$44.jsx)("span", { children: "3,000만" })
 				]
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$45.jsxs)("svg", {
+			/* @__PURE__ */ (0, import_jsx_runtime$44.jsxs)("svg", {
 				viewBox: "0 0 660 180",
 				role: "img",
 				"aria-label": "합성 자산평가액 추이. 투자수익률이 아닙니다.",
 				preserveAspectRatio: "none",
 				children: [
-					/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("defs", { children: /* @__PURE__ */ (0, import_jsx_runtime$45.jsxs)("linearGradient", {
+					/* @__PURE__ */ (0, import_jsx_runtime$44.jsx)("defs", { children: /* @__PURE__ */ (0, import_jsx_runtime$44.jsxs)("linearGradient", {
 						id: "chart-fill",
 						x1: "0",
 						y1: "0",
 						x2: "0",
 						y2: "1",
-						children: [/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("stop", {
+						children: [/* @__PURE__ */ (0, import_jsx_runtime$44.jsx)("stop", {
 							offset: "0%",
 							stopColor: "#2bbf4a",
 							stopOpacity: ".16"
-						}), /* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("stop", {
+						}), /* @__PURE__ */ (0, import_jsx_runtime$44.jsx)("stop", {
 							offset: "100%",
 							stopColor: "#2bbf4a",
 							stopOpacity: "0"
 						})]
 					}) }),
-					/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("path", {
+					/* @__PURE__ */ (0, import_jsx_runtime$44.jsx)("path", {
 						className: "chart-grid",
 						d: "M0 15H660M0 83H660M0 151H660"
 					}),
-					/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("path", {
+					/* @__PURE__ */ (0, import_jsx_runtime$44.jsx)("path", {
 						d: "M0 147L24 143L49 149L75 128L100 131L125 119L150 125L176 99L201 106L226 110L251 85L277 89L302 65L327 72L352 62L377 75L402 58L427 65L453 43L478 50L503 35L528 44L554 28L579 33L604 16L630 23L660 19V180H0Z",
 						fill: "url(#chart-fill)"
 					}),
-					/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("path", {
+					/* @__PURE__ */ (0, import_jsx_runtime$44.jsx)("path", {
 						d: "M0 147L24 143L49 149L75 128L100 131L125 119L150 125L176 99L201 106L226 110L251 85L277 89L302 65L327 72L352 62L377 75L402 58L427 65L453 43L478 50L503 35L528 44L554 28L579 33L604 16L630 23L660 19",
 						fill: "none",
 						stroke: "#2bbf4a",
@@ -8764,25 +8764,25 @@ function PortfolioChart({ visible, demo, hidden, connected = false }) {
 					})
 				]
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$45.jsxs)("div", {
+			/* @__PURE__ */ (0, import_jsx_runtime$44.jsxs)("div", {
 				className: "chart-dates",
 				children: [
-					/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("span", { children: "09. 21" }),
-					/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("span", { children: "09. 28" }),
-					/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("span", { children: "10. 05" }),
-					/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("span", { children: "10. 12" }),
-					/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("span", { children: "10. 20" })
+					/* @__PURE__ */ (0, import_jsx_runtime$44.jsx)("span", { children: "09. 21" }),
+					/* @__PURE__ */ (0, import_jsx_runtime$44.jsx)("span", { children: "09. 28" }),
+					/* @__PURE__ */ (0, import_jsx_runtime$44.jsx)("span", { children: "10. 05" }),
+					/* @__PURE__ */ (0, import_jsx_runtime$44.jsx)("span", { children: "10. 12" }),
+					/* @__PURE__ */ (0, import_jsx_runtime$44.jsx)("span", { children: "10. 20" })
 				]
 			})
 		]
 	});
 }
-var import_jsx_runtime$45;
+var import_jsx_runtime$44;
 function init_PortfolioChart() {
 	return (init_PortfolioChart = __esmMin((() => {
 		init_chart_column(), init_eye_off();
 		init_AppIcon();
-		import_jsx_runtime$45 = require_jsx_runtime();
+		import_jsx_runtime$44 = require_jsx_runtime();
 	})))();
 }
 function init_holdings_responsive() {
@@ -8790,140 +8790,9 @@ function init_holdings_responsive() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/components/portfolio/holdings-responsive.css?v=source-build-r57";
+			l.href = "/local/app/css-source/src/components/portfolio/holdings-responsive.css?v=source-build-r59";
 			document.head.appendChild(l);
 		}
-	})))();
-}
-function init_stock_logo() {
-	return (init_stock_logo = __esmMin((() => {
-		{
-			const l = document.createElement("link");
-			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/components/portfolio/stock-logo.css?v=source-build-r57";
-			document.head.appendChild(l);
-		}
-	})))();
-}
-/** Presentation-only lookup. Never changes the broker identity or sends it to a server. */
-function bundledStockLogo(position) {
-	let slug;
-	const currency = typeof position.originalCurrency === "string" ? position.originalCurrency : position.currency;
-	if (currency === "KRW" && position.market === "KRX") {
-		const match = /^(?:A)?(\d{6})(?::credit:(?:00|03):loan:(?:\d{8})?)?$/.exec(position.instrumentId);
-		if (match && Object.hasOwn(domestic, match[1])) slug = domestic[match[1]];
-	} else if (currency === "USD" && [
-		"US",
-		"NASDAQ",
-		"NYSE",
-		"미국(거래소 미확인)"
-	].includes(position.market)) {
-		if (Object.hasOwn(us, position.instrumentId)) slug = us[position.instrumentId];
-	}
-	return slug ? `/local/app/logos/${slug}.svg` : null;
-}
-function qualifiedIdentity(p) {
-	const currency = typeof p.originalCurrency === "string" ? p.originalCurrency : p.currency;
-	if (currency === "KRW" && p.market === "KRX") {
-		const m = /^(?:A)?(\d{6})(?::credit:(?:00|03):loan:(?:\d{8})?)?$/.exec(p.instrumentId);
-		return m ? {
-			market: "KRX",
-			symbol: m[1]
-		} : null;
-	}
-	return currency === "USD" && [
-		"US",
-		"NASDAQ",
-		"NYSE",
-		"미국(거래소 미확인)"
-	].includes(p.market) ? {
-		market: "US",
-		symbol: p.instrumentId
-	} : null;
-}
-/** Explicit display catalogue; never infer issuer or leverage from a company's name. */
-function securityBadge(p) {
-	const id = qualifiedIdentity(p);
-	if (!id) return null;
-	const badges = id.market === "KRX" ? {
-		"069500": "ETF",
-		"122630": "2*"
-	} : {
-		QQQ: "ETF",
-		SPY: "ETF",
-		VOO: "ETF",
-		NVDL: "2*",
-		TSLL: "2*"
-	};
-	return Object.hasOwn(badges, id.symbol) ? badges[id.symbol] : null;
-}
-/** Explicit text, not an issuer logo: wordmark rights remain unconfirmed. */
-function stockLogoTextFallback(p) {
-	const id = qualifiedIdentity(p);
-	return id?.market === "KRX" && ["005930", "005935"].includes(id.symbol) ? "삼성" : null;
-}
-function officialCompanyLogo(p) {
-	if (securityBadge(p) || stockLogoTextFallback(p)) return null;
-	const id = qualifiedIdentity(p);
-	if (!id) return null;
-	if (id.market === "KRX" && id.symbol === "000660") return "/local/app/logos/skhynix-official.png";
-	if (id.market === "US" && id.symbol === "MSFT") return "/local/app/logos/microsoft-official.png";
-	const old = bundledStockLogo(p);
-	if (old && [
-		"samsung",
-		"hyundai",
-		"apple",
-		"nvidia"
-	].some((slug) => old === `/local/app/logos/${slug}.svg`)) return old.replace(".svg", "-official.png");
-	return old;
-}
-var domestic, us;
-function init_stockLogos() {
-	return (init_stockLogos = __esmMin((() => {
-		domestic = {
-			"005930": "samsung",
-			"005935": "samsung",
-			"005380": "hyundai"
-		};
-		us = {
-			AAPL: "apple",
-			NVDA: "nvidia",
-			TSLA: "tesla",
-			GOOG: "alphabet",
-			GOOGL: "alphabet"
-		};
-	})))();
-}
-function StockLogo({ position }) {
-	const badge = securityBadge(position);
-	const src = badge ? null : officialCompanyLogo(position);
-	const [failed, setFailed] = (0, import_react$32.useState)(null);
-	return /* @__PURE__ */ (0, import_jsx_runtime$44.jsx)("span", {
-		className: `instrument-icon stock-logo-frame${src && failed !== src ? " stock-icon-branded" : ""}`,
-		"aria-hidden": "true",
-		children: badge ? /* @__PURE__ */ (0, import_jsx_runtime$44.jsx)("span", {
-			className: "stock-type-label",
-			children: badge
-		}) : src && failed !== src ? /* @__PURE__ */ (0, import_jsx_runtime$44.jsx)("img", {
-			src,
-			width: 20,
-			height: 20,
-			alt: "",
-			draggable: false,
-			onError: () => setFailed(src)
-		}) : /* @__PURE__ */ (0, import_jsx_runtime$44.jsx)("span", {
-			className: `stock-logo-fallback${stockLogoTextFallback(position) ? " stock-logo-text-fallback" : ""}`,
-			children: stockLogoTextFallback(position) ?? Array.from(position.name.trim())[0] ?? "?"
-		})
-	});
-}
-var import_react$32, import_jsx_runtime$44;
-function init_StockLogo() {
-	return (init_StockLogo = __esmMin((() => {
-		import_react$32 = require_react();
-		init_stock_logo();
-		init_stockLogos();
-		import_jsx_runtime$44 = require_jsx_runtime();
 	})))();
 }
 function bindModal(dialog, dismiss) {
@@ -8973,7 +8842,7 @@ function init_holding_details() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/components/portfolio/holding-details.css?v=source-build-r57";
+			l.href = "/local/app/css-source/src/components/portfolio/holding-details.css?v=source-build-r59";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -9256,7 +9125,7 @@ function init_asset_headline() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/components/portfolio/asset-headline.css?v=source-build-r57";
+			l.href = "/local/app/css-source/src/components/portfolio/asset-headline.css?v=source-build-r59";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -9297,7 +9166,7 @@ function init_legacy_quote_radar() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/components/portfolio/legacy-quote-radar.css?v=source-build-r57";
+			l.href = "/local/app/css-source/src/components/portfolio/legacy-quote-radar.css?v=source-build-r59";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -9507,7 +9376,7 @@ function init_legacy_widget_host() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/components/portfolio/legacy-widget-host.css?v=source-build-r57";
+			l.href = "/local/app/css-source/src/components/portfolio/legacy-widget-host.css?v=source-build-r59";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -9572,7 +9441,7 @@ function init_legacy_performance_widgets() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/components/portfolio/legacy-performance-widgets.css?v=source-build-r57";
+			l.href = "/local/app/css-source/src/components/portfolio/legacy-performance-widgets.css?v=source-build-r59";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -11083,7 +10952,7 @@ function init_portfolio_clean() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/components/portfolio/portfolio-clean.css?v=source-build-r57";
+			l.href = "/local/app/css-source/src/components/portfolio/portfolio-clean.css?v=source-build-r59";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -11213,7 +11082,7 @@ function init_currency_display() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/components/portfolio/currency-display.css?v=source-build-r57";
+			l.href = "/local/app/css-source/src/components/portfolio/currency-display.css?v=source-build-r59";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -12270,7 +12139,7 @@ function init_portfolio_widgets() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/features/market/portfolio-widgets.css?v=source-build-r57";
+			l.href = "/local/app/css-source/src/features/market/portfolio-widgets.css?v=source-build-r59";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -12391,7 +12260,7 @@ function init_profit_contribution() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/components/portfolio/profit-contribution.css?v=source-build-r57";
+			l.href = "/local/app/css-source/src/components/portfolio/profit-contribution.css?v=source-build-r59";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -12577,7 +12446,7 @@ function init_weight_return() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/components/portfolio/weight-return.css?v=source-build-r57";
+			l.href = "/local/app/css-source/src/components/portfolio/weight-return.css?v=source-build-r59";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -13569,7 +13438,7 @@ function init_settings_dialog() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/features/settings/settings-dialog.css?v=source-build-r57";
+			l.href = "/local/app/css-source/src/features/settings/settings-dialog.css?v=source-build-r59";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -15201,7 +15070,7 @@ function init_backup$1() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/journal/backup.css?v=source-build-r57";
+			l.href = "/local/app/css-source/src/journal/backup.css?v=source-build-r59";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -15302,7 +15171,7 @@ function init_panel() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/journal/preservation/panel.css?v=source-build-r57";
+			l.href = "/local/app/css-source/src/journal/preservation/panel.css?v=source-build-r59";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -16150,7 +16019,7 @@ function init_writing_feedback() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/journal/writing-feedback.css?v=source-build-r57";
+			l.href = "/local/app/css-source/src/journal/writing-feedback.css?v=source-build-r59";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -17619,7 +17488,7 @@ function init_manual_note_calendar() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/journal/manual-note-calendar.css?v=source-build-r57";
+			l.href = "/local/app/css-source/src/journal/manual-note-calendar.css?v=source-build-r59";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -18495,7 +18364,7 @@ function init_chart() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/journal/chart/chart.css?v=source-build-r57";
+			l.href = "/local/app/css-source/src/journal/chart/chart.css?v=source-build-r59";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -19835,7 +19704,7 @@ function init_manual_entry() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/journal/manual-entry.css?v=source-build-r57";
+			l.href = "/local/app/css-source/src/journal/manual-entry.css?v=source-build-r59";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -23235,7 +23104,7 @@ function init_portfolio_history() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/features/connections/portfolio-history.css?v=source-build-r57";
+			l.href = "/local/app/css-source/src/features/connections/portfolio-history.css?v=source-build-r59";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -23822,7 +23691,7 @@ function init_connection_resolution() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/features/connections/connection-resolution.css?v=source-build-r57";
+			l.href = "/local/app/css-source/src/features/connections/connection-resolution.css?v=source-build-r59";
 			document.head.appendChild(l);
 		}
 	})))();
