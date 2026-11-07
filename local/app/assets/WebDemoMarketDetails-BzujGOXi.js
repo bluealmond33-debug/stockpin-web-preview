@@ -78,7 +78,7 @@ function init_reference_rates_table() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/features/market/reference-rates-table.css?v=source-build-r49";
+			l.href = "/local/app/css-source/src/features/market/reference-rates-table.css?v=source-build-r57";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -678,7 +678,7 @@ function init_reference_rate_details() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/features/market/reference-rate-details.css?v=source-build-r49";
+			l.href = "/local/app/css-source/src/features/market/reference-rate-details.css?v=source-build-r57";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -1277,7 +1277,7 @@ function decodeWebDemoMarket(input) {
 			"kosdaq",
 			"sp500",
 			"nasdaq"
-		].includes(market) || snapshot.market !== market || snapshot.asOf !== "2024-03-31T00:00:00Z" || snapshot.sourceLabel !== "데모 · 가상 4종목 범위 (실제 지수 구성 아님)" || snapshot.sourceUrl !== "https://example.invalid/stockpin-web-demo") throw fail();
+		].includes(market) || snapshot.market !== market || snapshot.asOf !== "2024-03-31T00:00:00Z" || !["데모 · 가상 4종목 범위 (실제 지수 구성 아님)", "데모 · 고정 가상 종목 (실제 지수 구성 아님)"].includes(snapshot.sourceLabel) || snapshot.sourceUrl !== "https://example.invalid/stockpin-web-demo") throw fail();
 	}
 	function rows(raw, ids) {
 		if (!Array.isArray(raw) || raw.length !== ids.length) throw fail();

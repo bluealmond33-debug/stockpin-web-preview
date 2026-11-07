@@ -1,6 +1,6 @@
 import { n as __esmMin } from "./rolldown-runtime-CnFjIZqj.js";
 import { n as require_react, t as require_jsx_runtime } from "./jsx-runtime-D3ER87f6.js";
-import { a as init_WebDemoMarketModel, c as init_ReferenceRatesTable, n as init_WebDemoMarketDetails, o as ReferenceRateRows, r as WEB_DEMO_CAPTION, t as WebDemoMarketDetails } from "./WebDemoMarketDetails-CTnIXhcy.js";
+import { a as init_WebDemoMarketModel, c as init_ReferenceRatesTable, n as init_WebDemoMarketDetails, o as ReferenceRateRows, r as WEB_DEMO_CAPTION, t as WebDemoMarketDetails } from "./WebDemoMarketDetails-BzujGOXi.js";
 /** Web-only supplied presentation. Provider admission stays with the supplier. */
 function WebDemoMarketWidget({ row, series }) {
 	const [detail, setDetail] = (0, import_react.useState)(null);

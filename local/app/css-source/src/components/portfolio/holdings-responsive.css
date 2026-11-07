@@ -1,4 +1,4 @@
-/* The available widget width, not the window, owns the table layout. */
+/* Available widget width owns reflow; the narrow view is deliberately minimal. */
 .table-scroll.holdings-responsive {
   container-name: holdings;
   container-type: inline-size;
@@ -6,69 +6,47 @@
   overflow: visible;
 }
 .holdings-responsive table { min-width: 0; table-layout: fixed; }
-.holdings-responsive th, .holdings-responsive td {
-  white-space: normal;
-  overflow-wrap: anywhere;
-}
+.holdings-responsive th, .holdings-responsive td { white-space: normal; overflow-wrap: anywhere; }
 .holdings-responsive .instrument > div,
 .holdings-responsive .holding-detail-trigger { min-width: 0; max-width: 100%; }
 .holdings-responsive .instrument strong,
 .holdings-responsive .instrument span { white-space: normal; overflow-wrap: anywhere; }
+.holdings-responsive .instrument strong { min-width: 0; }
 .holdings-responsive .instrument-icon { flex-shrink: 0; }
-
+.holdings-responsive .instrument .holding-inline-quantity { display: none; }
+.holdings-responsive .holdings-compact .holding-inline-quantity { display: block; }
+.holdings-responsive .holding-account { font-size: 11px; color: var(--muted); }
 @container holdings (max-width: 900px) {
   .holdings-responsive table,
   .holdings-responsive thead,
   .holdings-responsive tbody { display: block; width: 100%; }
   .holdings-responsive thead tr { display: flex; justify-content: space-between; gap: 16px; }
-  /* Keep column names accessible without duplicating a six-column visual header. */
-  .holdings-responsive th:not(:has(.table-sort)) {
-    position: absolute; width: 1px; height: 1px; padding: 0;
-    clip-path: inset(50%);
-  }
+  .holdings-responsive th:not(:has(.table-sort)) { display: none; }
   .holdings-responsive th:has(.table-sort) { min-width: 0; padding: 8px 0; }
   .holdings-responsive .table-sort { white-space: normal; text-align: inherit; }
   .holdings-responsive .table-sort svg { flex-shrink: 0; }
   .holdings-responsive tbody tr {
     display: grid;
-    grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr) minmax(0, 1.2fr);
-    grid-template-areas: "identity average value" "quantity current pnl";
-    column-gap: 24px;
-    row-gap: 8px;
-    padding: 18px 0;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    grid-template-areas: "identity value" "identity pnl";
+    column-gap: 16px;
+    row-gap: 4px;
+    padding: 14px 0;
     border-bottom: 1px solid var(--border);
   }
   .holdings-responsive tbody td {
     display: block; min-width: 0; height: auto; padding: 0;
     border: 0; align-self: start; text-align: right;
   }
-  .holdings-responsive td::before {
-    content: attr(data-label); display: block; color: var(--muted);
-    font-size: 12px; font-weight: 400; margin-bottom: 4px;
-  }
-  .holdings-responsive .holding-identity { grid-area: identity; text-align: left; }
-  .holdings-responsive .holding-identity::before { content: none; }
-  .holdings-responsive .holding-quantity { grid-area: quantity; text-align: left; }
-  .holdings-responsive .holding-average { grid-area: average; }
-  .holdings-responsive .holding-current { grid-area: current; }
-  .holdings-responsive .holding-value { grid-area: value; font-weight: 600; }
-  .holdings-responsive td[data-label="평가손익"] { grid-area: pnl; }
-}
-@container holdings (max-width: 560px) {
-  .holdings-responsive tbody tr {
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-    grid-template-areas: "identity value" "quantity pnl" "average average" "current current";
-    column-gap: 16px;
-  }
   .holdings-responsive td.holding-average,
-  .holdings-responsive td.holding-current { text-align: left; }
-  .holdings-responsive .holding-average::before,
-  .holdings-responsive .holding-current::before { display: inline; margin-right: 12px; }
+  .holdings-responsive td.holding-current,
+  .holdings-responsive td.holding-quantity { display: none; }
+  .holdings-responsive .instrument .holding-inline-quantity { display: block; font-size: 12px; color: var(--muted); }
+  .holdings-responsive td.holding-identity { grid-area: identity; text-align: left; }
+  .holdings-responsive .holding-value { grid-area: value; font-weight: 600; }
+  .holdings-responsive td[data-label="평가손익"] { grid-area: pnl; font-size: 13px; }
 }
 @container holdings (max-width: 360px) {
-  .holdings-responsive tbody tr {
-    grid-template-columns: minmax(0, 1fr);
-    grid-template-areas: "identity" "quantity" "value" "pnl" "average" "current";
-  }
-  .holdings-responsive tbody td { text-align: left; }
+  .holdings-responsive tbody tr { column-gap: 10px; }
+  .holdings-responsive .instrument { gap: 8px; }
 }

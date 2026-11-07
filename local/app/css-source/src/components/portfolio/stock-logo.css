@@ -1,0 +1,24 @@
+/* The frame is round; the issuer artwork is not a circular avatar.
+   A 20px square fits inside the 30px inner circle, corners included. */
+.instrument-icon.stock-logo-frame {
+  box-sizing: border-box;
+  width: 32px;
+  height: 32px;
+  padding: 5px;
+  overflow: visible;
+}
+.instrument-icon.stock-logo-frame > img {
+  display: block;
+  flex: none;
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 0;
+}
+.instrument-icon.stock-logo-frame > .stock-logo-text-fallback {
+  font-size: 10px;
+  line-height: 1;
+  white-space: nowrap;
+  color: var(--muted);
+}

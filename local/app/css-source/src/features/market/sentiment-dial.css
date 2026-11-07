@@ -1,16 +1,6 @@
-.sentiment-dial {
-  display: block;
-  width: clamp(160px, 20vw, 180px);
-  max-width: 100%;
-  height: 100px;
-  flex-shrink: 1;
-  color: var(--bright, #e5e7eb);
-  background: transparent;
-  border: 0;
-  font-family: inherit;
-  animation: none;
-  transition: none;
-}
+.sentiment-dial-control { width: 180px; flex-shrink: 0; text-align: center; color: var(--bright, #e5e7eb); }
+.sentiment-dial { display: block; width: 180px; height: 126px; flex-shrink: 0; overflow: visible; background: transparent; border: 0; font-family: inherit; }
+.sentiment-dial:focus-visible { outline: 2px solid var(--green, #49ae78); outline-offset: 3px; border-radius: 4px; }
 .sentiment-dial__arc { fill: none; stroke-width: 6; }
 .sentiment-dial__arc--0 { stroke: var(--loss, #5a7fe0); }
 .sentiment-dial__arc--1 { stroke: #91a8e6; }
@@ -18,32 +8,14 @@
 .sentiment-dial__arc--3 { stroke: var(--gain, #e05a5a); }
 .sentiment-dial__tick { stroke: currentColor; stroke-width: 1; }
 .sentiment-dial__needle { stroke: currentColor; stroke-width: 2.5; stroke-linecap: round; }
-.sentiment-dial__scale,
-.sentiment-dial__caption,
-.sentiment-dial__value { fill: currentColor; text-anchor: middle; }
-.sentiment-dial__scale { font-size: 18px; font-variant-numeric: tabular-nums; }
-.sentiment-dial__caption { font-size: 16px; }
-.sentiment-dial__value { font-size: 30px; font-weight: 600; font-variant-numeric: tabular-nums; }
-.sentiment-dial--unknown { display: grid; place-items: center; font-size: 13px; }
-@media (prefers-reduced-motion: reduce) {
-  .sentiment-dial, .sentiment-dial * { animation: none; transition: none; }
-}
-
-.sentiment-dial-control { position: relative; width: fit-content; max-width: 100%; text-align: center; }
-.sentiment-dial__scale { opacity: 0; }
+.sentiment-dial__scale, .sentiment-dial__value { fill: currentColor; text-anchor: middle; font-variant-numeric: tabular-nums; }
+.sentiment-dial__scale { font-size: 13px; opacity: 0; }
+.sentiment-dial__scale:last-child { text-anchor: middle; }
 .sentiment-dial-control:hover .sentiment-dial__scale,
-.sentiment-dial-control:focus-within .sentiment-dial__scale,
-.sentiment-dial-control[data-show-scale="true"] .sentiment-dial__scale { opacity: 1; }
-.sentiment-dial-state { display: block; font-size: 15px; font-weight: 600; }
-.sentiment-dial-state small { display: block; font-size: 11px; font-weight: 400; color: var(--muted, #aaa); }
+.sentiment-dial-control:focus-within .sentiment-dial__scale { opacity: 1; }
+.sentiment-dial__value { font-size: 28px; font-weight: 600; }
+.sentiment-dial-state { display: block; min-height: 22px; font-size: 14px; font-weight: 600; }
 .sentiment-dial-state[data-band="0"], .sentiment-dial-state[data-band="1"] { color: var(--loss, #5a7fe0); }
-.sentiment-dial-state[data-band="2"] { color: var(--muted, #aaa); }
+.sentiment-dial-state[data-band="2"], .sentiment-dial-state[data-band="volatility"] { color: var(--muted, #aaa); }
 .sentiment-dial-state[data-band="3"], .sentiment-dial-state[data-band="4"] { color: var(--gain, #e05a5a); }
-.sentiment-scale-toggle { font-size: 11px; color: var(--muted, #aaa); min-height: 28px; }
-.volatility-dial { width: 180px; max-width: 100%; text-align: center; color: var(--bright, #e5e7eb); }
-.volatility-dial svg { display: block; width: 100%; overflow: visible; }
-.volatility-dial__arc { fill: none; stroke: var(--muted, #aaa); stroke-width: 6; }
-.volatility-dial__needle { stroke: currentColor; stroke-width: 2.5; }
-.volatility-dial text { fill: currentColor; text-anchor: middle; font-size: 12px; }
-.volatility-dial .volatility-dial__value { font-size: 26px; font-weight: 600; }
-.volatility-dial > span { font-size: 11px; color: var(--muted, #aaa); }
+@media (prefers-reduced-motion: reduce) { .sentiment-dial, .sentiment-dial * { animation: none; transition: none; } }

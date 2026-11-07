@@ -10,18 +10,18 @@
 .holding-details dl > div { display: grid; grid-template-columns: minmax(0, 90px) minmax(0, 1fr); gap: 16px; padding: 8px 0; min-width: 0; }
 .holding-details dt { color: var(--muted); overflow-wrap: anywhere; }
 .holding-details dd { margin: 0; text-align: right; overflow-wrap: anywhere; font-variant-numeric: tabular-nums; }
-.holding-details .holding-name { order: -6; grid-template-columns: minmax(0, 1fr); gap: 4px; }
+.holding-details .holding-name { grid-template-columns: minmax(0, 1fr); gap: 4px; }
 .holding-details .holding-name dd { text-align: left; font-size: 20px; font-weight: 600; }
 .holding-details .holding-name dt { font-size: 12px; }
-.holding-details .holding-summary-value { order: -5; grid-template-columns: minmax(0, 1fr); gap: 6px; padding-top: 20px; }
+.holding-details .holding-summary-value { grid-template-columns: minmax(0, 1fr); gap: 6px; padding-top: 20px; }
 .holding-details .holding-summary-value dd { font-size: 28px; font-weight: 600; text-align: left; }
-.holding-details .holding-summary-pnl { order: -4; grid-template-columns: minmax(0, 1fr); gap: 4px; padding-bottom: 24px; }
+.holding-details .holding-summary-pnl { grid-template-columns: minmax(0, 1fr); gap: 4px; padding-bottom: 24px; }
 .holding-details .holding-summary-pnl dd { text-align: left; font-size: 18px; }
-.holding-details .holding-average { order: -3; }
-.holding-details .holding-current { order: -2; }
-.holding-details .holding-size { order: -1; padding-bottom: 20px; }
+.holding-details .holding-size { padding-top: 12px; }
 .holding-details .holding-metadata { font-size: 13px; }
-.holding-details .holding-purchase-unavailable { display: flex; justify-content: space-between; gap: 16px; color: var(--muted); font-size: 13px; }
+.holding-details .holding-additional { margin-top: 20px; font-size: 13px; }
+.holding-details summary { cursor: pointer; color: var(--muted); }
+.holding-details summary:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
 @media (max-width: 400px) {
   .holding-details-backdrop { padding: 12px; }
   .holding-details { padding: 16px; max-height: calc(100dvh - 24px); }

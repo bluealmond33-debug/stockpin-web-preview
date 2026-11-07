@@ -171,6 +171,83 @@ function init_catalog() {
 		];
 	})))();
 }
+function heatmapDemoSnapshots() {
+	return Object.fromEntries(Object.entries({
+		kospi: [
+			"반도체",
+			"자동차",
+			"금융",
+			"산업재",
+			"소재",
+			"생활소비"
+		],
+		kosdaq: [
+			"바이오",
+			"소프트웨어",
+			"반도체장비",
+			"콘텐츠",
+			"친환경",
+			"의료기기"
+		],
+		sp500: [
+			"정보기술",
+			"금융",
+			"헬스케어",
+			"소비재",
+			"통신",
+			"에너지"
+		],
+		nasdaq: [
+			"소프트웨어",
+			"반도체",
+			"인터넷",
+			"바이오",
+			"미디어",
+			"운송"
+		]
+	}).map(([market, names], m) => {
+		const rows = names.flatMap((sector, s) => Array.from({ length: 6 }, (_, i) => ({
+			symbol: `${[
+				"KP",
+				"KQ",
+				"SP",
+				"NQ"
+			][m]}${s + 1}${i + 1}`,
+			name: `가상 ${sector} ${[
+				"온빛",
+				"새결",
+				"이음",
+				"한울"
+			][m]}${i + 1}`,
+			sector,
+			marketCap: String(BigInt((7 - s) * (8 - i) * (m + 2) + (s + i + m) % 5) * 1000000000n),
+			changePct: [
+				"1.42",
+				"-2.16",
+				"0.38",
+				"-0.64",
+				"0",
+				"2.83",
+				"-1.07"
+			][(s * 2 + i + m) % 7]
+		})));
+		rows.push({
+			symbol: `${market.toUpperCase()}_NA`,
+			name: "가상 미조회 종목",
+			sector: names[5],
+			marketCap: null,
+			changePct: null
+		});
+		return [market, {
+			market,
+			asOf: "2024-03-31T00:00:00Z",
+			sourceLabel: "데모 · 고정 가상 종목 (실제 지수 구성 아님)",
+			sourceUrl: "https://example.invalid/stockpin-web-demo",
+			universeSize: 40,
+			rows
+		}];
+	}));
+}
 function historyFor(id, previous, current) {
 	const start = Date.parse("2023-03-01T00:00:00Z"), end = Date.parse("2024-03-31T00:00:00Z");
 	const rows = [], p = decimal(previous);
@@ -414,48 +491,7 @@ function getComponentData(target, { fixture = "ready" } = {}) {
 			rows: demo.fx
 		}
 	};
-	const data = Object.fromEntries([
-		"kospi",
-		"kosdaq",
-		"sp500",
-		"nasdaq"
-	].map((market) => [market, {
-		market,
-		asOf: "2024-03-31T00:00:00Z",
-		sourceLabel: "데모 · 가상 4종목 범위 (실제 지수 구성 아님)",
-		sourceUrl: "https://example.invalid/stockpin-web-demo",
-		universeSize: 4,
-		rows: [
-			{
-				symbol: "DEMO_A",
-				name: "가상 반도체 A",
-				sector: "반도체",
-				marketCap: "40000000000",
-				changePct: "1.25"
-			},
-			{
-				symbol: "DEMO_B",
-				name: "가상 반도체 B",
-				sector: "반도체",
-				marketCap: "20000000000",
-				changePct: "-0.75"
-			},
-			{
-				symbol: "DEMO_C",
-				name: "가상 금융 C",
-				sector: "금융",
-				marketCap: "10000000000",
-				changePct: "0"
-			},
-			{
-				symbol: "DEMO_D",
-				name: "가상 미조회 D",
-				sector: "미분류",
-				marketCap: null,
-				changePct: null
-			}
-		]
-	}]));
+	const data = heatmapDemoSnapshots();
 	return {
 		...envelope,
 		data

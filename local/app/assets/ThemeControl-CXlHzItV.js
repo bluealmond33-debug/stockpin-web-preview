@@ -1,6 +1,6 @@
 import { n as __esmMin, t as __commonJSMin } from "./rolldown-runtime-CnFjIZqj.js";
 import { n as require_react, t as require_jsx_runtime } from "./jsx-runtime-D3ER87f6.js";
-import { a as init_AppIcon, d as init_createLucideIcon, t as AppIcon, u as createLucideIcon } from "./AppIcon-CvYBSlFG.js";
+import { a as init_AppIcon, d as init_createLucideIcon, t as AppIcon, u as createLucideIcon } from "./AppIcon-diqwIFgz.js";
 /**
 * @license React
 * react-dom.production.js

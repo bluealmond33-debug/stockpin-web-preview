@@ -1,5 +1,4 @@
 .market-page .web-demo-market-caption { margin: 0 0 20px; color: var(--muted, #aaa); font-size: 13px; line-height: 1.5; }
-.market-page .web-demo-market-bitcoin > button, .market-page .web-demo-market-stocks > button { margin-top: 12px; }
 .market-page .web-demo-sentiment-comparisons { display: flex; flex-wrap: wrap; gap: 8px 20px; margin: 12px 0 0; font-size: 12px; line-height: 1.5; }
 .market-page .web-demo-sentiment-comparisons dt, .market-page .web-demo-sentiment-comparisons time { color: var(--muted, #aaa); }
 .market-page .web-demo-sentiment-comparisons dd { margin: 0; font-variant-numeric: tabular-nums; }
@@ -16,20 +15,6 @@
 .market-page .web-demo-market-fx .reference-rates > div:has(.reference-rate-change[data-direction="gain"]) .reference-rate-trend { color: var(--gain, #e05a5a); }
 .market-page .web-demo-market-fx .reference-rates > div:has(.reference-rate-change[data-direction="loss"]) .reference-rate-trend { color: var(--loss, #5a7fe0); }
 .market-page[data-market-demo] .market-source { display: none; }
-.market-page .web-demo-market-overview { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); align-items: center; gap: 24px 40px; margin: 0 0 24px; }
-.market-page .web-demo-gauge { display: flex; align-items: center; gap: 16px; min-width: 0; }
-.market-page .web-demo-gauge > :first-child { flex: 0 1 160px; min-width: 0; }
-.market-page .web-demo-gauge-info { min-width: 0; }
-.market-page .web-demo-gauge h2, .market-page .web-demo-vix-summary h2 { margin: 0; font-size: 16px; font-weight: 500; }
-.market-page .web-demo-gauge-scale, .market-page .web-demo-gauge-meaning { margin: 4px 0 0; color: var(--muted, #aaa); font-size: 12px; line-height: 1.5; }
-.market-page .web-demo-gauge-meaning { display: block; }
-.market-page .web-demo-vix-summary { display: grid; grid-template-columns: max-content minmax(0, 1fr); align-items: baseline; gap: 8px 16px; }
-.market-page .web-demo-vix-summary h2, .market-page .web-demo-vix-summary p { grid-column: 1 / -1; }
-.market-page .web-demo-vix-summary strong { font-size: 30px; font-weight: 500; font-variant-numeric: tabular-nums; }
-.market-page .web-demo-vix-summary > span { font-size: 14px; font-variant-numeric: tabular-nums; }
-.market-page .web-demo-vix-summary p { margin: 0; color: var(--muted, #aaa); font-size: 12px; }
-.market-page .web-demo-vix-summary [data-direction="gain"] { color: var(--gain, #e05a5a); }
-.market-page .web-demo-vix-summary [data-direction="loss"] { color: var(--loss, #5a7fe0); }
 .market-page .web-demo-market-tabs { gap: 16px; margin: 0 0 20px; border-bottom: 1px solid var(--line, #303030); }
 .market-page .web-demo-market-tabs button { border-bottom: 2px solid transparent; padding: 8px 12px; }
 .market-page .web-demo-market-tabs button[aria-pressed="true"] { border-bottom-color: var(--green, #49ae78); }
@@ -38,15 +23,6 @@
 .market-page .web-demo-region-choices button[aria-pressed="true"] { color: var(--green, #49ae78); }
 .market-page .web-demo-index-rows dt button { font-size: 16px; text-align: left; }
 .market-page .web-demo-market-indices .reference-rate-group h3 { margin: 8px 0 0; padding-bottom: 10px; border-bottom: 1px solid var(--line, #303030); }
-.market-page .web-demo-stock-sentiment { margin: 24px 0; }
-.market-page .web-demo-stock-sentiment summary { cursor: pointer; color: var(--muted, #aaa); font-size: 14px; }
-.market-page .web-demo-stock-sentiment .web-demo-market-stocks { padding-top: 16px; max-width: 560px; }
-@media (max-width: 760px) {
- .market-page .web-demo-market-overview { grid-template-columns: minmax(0, 1fr); gap: 20px; }
- .market-page .web-demo-gauge { gap: 12px; flex-wrap: wrap; }
- .market-page .web-demo-gauge > :first-child { flex: 0 0 160px; min-width: 160px; }
- .market-page .web-demo-gauge-info { flex: 1 1 180px; }
-}
 .market-page .web-demo-market-indices .reference-rate-groups { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px; align-items: start; }
 .market-page .web-demo-market-indices .reference-rate-groups > :only-child { grid-column: 1 / -1; }
 .market-page .web-demo-index-rows > div { display: grid; grid-template-columns: minmax(0, 1fr) 80px; grid-template-areas: "name trend" "quote trend"; align-items: center; gap: 8px 16px; min-width: 0; padding: 22px 0; }
@@ -67,21 +43,16 @@
  .market-page .web-demo-index-quote strong { font-size: 21px; }
  .market-page .web-demo-index-change { font-size: 12px; }
 }
-/* Keep the market list within reach; historical comparisons stay available on demand. */
-.market-page .web-demo-market-overview { grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start; gap: 24px; }
-.market-page .web-demo-gauge { flex-direction: column-reverse; align-items: center; gap: 8px; }
-.market-page .web-demo-gauge > :first-child { flex: initial; min-width: 0; }
-.market-page .web-demo-gauge-info { flex: initial; text-align: center; }
-.market-page .web-demo-gauge-comparisons { font-size: 12px; color: var(--muted); }
-.market-page .web-demo-gauge-comparisons summary { cursor: pointer; margin-top: 4px; }
-.market-page .web-demo-market-bitcoin > button { display: block; margin: 4px auto 0; font-size: 12px; }
-.market-page .web-demo-vix-summary { display: flex; flex-direction: column; align-items: center; gap: 8px; }
-.market-page .web-demo-vix-summary > span { white-space: nowrap; }
-@media (max-width:760px) {
- .market-page .web-demo-market-overview { gap: 12px; }
- .market-page .web-demo-gauge { flex-wrap: nowrap; }
- .market-page .sentiment-dial { width: 120px; height: 84px; }
- .market-page .volatility-dial { width: 120px; }
- .market-page .volatility-dial text { font-size: 18px; }
- .market-page .web-demo-gauge h2, .market-page .web-demo-vix-summary h2 { font-size: 14px; }
-}
+
+/* Stable metric geometry; columns wrap rather than reducing readable SVG type. */
+.market-page .web-demo-market-overview { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); align-items: start; gap: 20px 24px; margin: 0 0 24px; }
+.market-page .web-demo-gauge { position: relative; display: flex; flex-direction: column; align-items: center; gap: 8px; min-width: 0; }
+.market-page .market-metric-heading { display: flex; align-items: center; justify-content: center; gap: 6px; min-height: 32px; }
+.market-page .market-metric-heading h2 { margin: 0; font-size: 15px; font-weight: 500; }
+.market-page .market-metric-heading h2 button { font: inherit; padding: 4px 0; }
+.market-page .market-metric-help-trigger { display: grid; place-items: center; width: 24px; height: 24px; min-height: 24px; padding: 0; border: 1px solid var(--muted, #aaa); border-radius: 50%; font-size: 13px; color: var(--muted, #aaa); }
+.market-page .market-metric-help-panel { position: absolute; z-index: 20; top: 32px; left: 0; width: 100%; box-sizing: border-box; max-height: min(440px, 60vh); overflow-y: auto; padding: 12px; border: 1px solid var(--line, #444); border-radius: 8px; background: var(--surface, #252525); color: var(--bright, #e5e7eb); box-shadow: 0 8px 24px #0003; text-align: left; font-size: 13px; line-height: 1.6; overflow-wrap: anywhere; }
+.market-page .market-metric-help-panel[hidden] { display: none; }
+.market-page .market-metric-help-panel p { margin: 0 0 10px; }
+.market-page .market-metric-help-panel p:last-child { margin-bottom: 0; }
+.market-page .market-metric-help-trigger:focus-visible, .market-page .market-metric-heading h2 button:focus-visible { outline: 2px solid var(--green, #49ae78); outline-offset: 3px; }

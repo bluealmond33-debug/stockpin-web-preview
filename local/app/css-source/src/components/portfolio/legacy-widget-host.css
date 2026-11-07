@@ -1,0 +1,3 @@
+/* The owning portal positions a 28px grip at left:0. Keep title text outside that hit target; inert gallery cards have no grip. */
+.portfolio-widget-frame [data-legacy-widget]>section>header,
+.portfolio-widget-frame [data-legacy-widget]>section>h3{padding-left:34px;box-sizing:border-box}

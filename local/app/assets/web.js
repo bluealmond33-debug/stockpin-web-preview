@@ -1,6 +1,6 @@
 import { n as __esmMin, r as __toESM, t as __commonJSMin } from "./rolldown-runtime-CnFjIZqj.js";
 import { n as require_react, t as require_jsx_runtime } from "./jsx-runtime-D3ER87f6.js";
-import { i as require_react_dom, n as init_ThemeControl, r as initializeTheme } from "./ThemeControl-B0NGQbAq.js";
+import { i as require_react_dom, n as init_ThemeControl, r as initializeTheme } from "./ThemeControl-CXlHzItV.js";
 /**
 * @license React
 * scheduler.production.js
@@ -10847,7 +10847,7 @@ function init_styles() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/styles.css?v=source-build-r49";
+			l.href = "/local/app/css-source/src/styles.css?v=source-build-r57";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -10929,7 +10929,7 @@ function DemoMarket() {
 	}, [fixture]);
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(MarketPage, { demoPresentation: presentation });
 }
-var import_react, import_client, import_jsx_runtime, deny, App, createDemoSnapshot, createWebPortfolio, WEB_DEMO_FX, createJournalCommand, createInitializedBrowserJournal, createIndexedDBRepository, validateJournalState, readManualResponse, createBackupSchema, createDisplayPreferences, createBrowserBackupCommand, createBrowserFileTransport, createMarketDemo, getSeries, getComponentData, MarketPage, WebDemoConnections, WebDemoTradeNotice, WebDemoMarketWidget, repository, storage, displayPreferences, backupTransport, backupStorage, widgetMarket, widgetRows, widgetPresentations, preview;
+var import_react, import_client, import_jsx_runtime, deny, App, createDemoSnapshot, createPortfolioWidgetDemo, createWebPortfolio, WEB_DEMO_FX, createJournalCommand, createInitializedBrowserJournal, createIndexedDBRepository, validateJournalState, readManualResponse, createBackupSchema, createDisplayPreferences, createBrowserBackupCommand, createBrowserFileTransport, createMarketDemo, getSeries, getComponentData, MarketPage, WebDemoConnections, WebDemoTradeNotice, WebDemoMarketWidget, repository, storage, displayPreferences, backupTransport, backupStorage, widgetMarket, widgetRows, widgetPresentations, preview;
 function init_web_entry() {
 	return (init_web_entry = __esmMin((async () => {
 		import_react = /* @__PURE__ */ __toESM(require_react(), 1);
@@ -10957,23 +10957,24 @@ function init_web_entry() {
 		};
 		navigator.sendBeacon = () => false;
 		initializeTheme();
-		({default: App} = await import("./App-yMrQmiEp.js"));
-		({createDemoSnapshot} = await import("./portfolio-BZTFzz2o.js"));
-		({createWebPortfolio, WEB_DEMO_FX} = await import("./portfolio-XLY229E_.js"));
-		({createJournalCommand} = await import("./journal-BTmQfuCv.js"));
-		({createInitializedBrowserJournal} = await import("./initialize-on-open-BLfA7AtK.js"));
-		({createIndexedDBRepository} = await import("./indexeddb-CRfX-YYp.js"));
-		({validateState: validateJournalState} = await import("./state-oqt9A23A.js"));
-		({readManualResponse} = await import("./manualPersistence-DmVwlXvW.js"));
-		({createBackupSchema} = await import("./backup-codec-DTLn0bub.js"));
-		({createDisplayPreferences} = await import("./display-preferences-CSGpGdp_.js"));
-		({createBrowserBackupCommand} = await import("./backup-VoEPPTuS.js"));
-		({createBrowserFileTransport} = await import("./transport-CFGhR7ta.js"));
-		({createMarketDemo, getSeries, getComponentData} = await import("./market-DU0WgczJ.js"));
-		({MarketPage} = await import("./MarketPage-CiA8_vA2.js"));
-		({WebDemoConnections} = await import("./WebDemoConnections-DOmU4K1-.js"));
-		({WebDemoTradeNotice} = await import("./WebDemoTradeNotice-YBXtDOFP.js"));
-		({WebDemoMarketWidget} = await import("./WebDemoMarketWidget-kYDohKot.js"));
+		({default: App} = await import("./App-CEAB9zHv.js"));
+		({createDemoSnapshot} = await import("./portfolio-rV0EonqR.js"));
+		({createPortfolioWidgetDemo} = await import("./portfolioWidgetPresentation-OLnr1eg1.js"));
+		({createWebPortfolio, WEB_DEMO_FX} = await import("./portfolio-Bvo0sPhL.js"));
+		({createJournalCommand} = await import("./journal-C73mAQkv.js"));
+		({createInitializedBrowserJournal} = await import("./initialize-on-open-CbMR50JJ.js"));
+		({createIndexedDBRepository} = await import("./indexeddb-9TcbcbY9.js"));
+		({validateState: validateJournalState} = await import("./state-A4JL_WdU.js"));
+		({readManualResponse} = await import("./manualPersistence-Dfaa2t0y.js"));
+		({createBackupSchema} = await import("./backup-codec-D5l_Coil.js"));
+		({createDisplayPreferences} = await import("./display-preferences-DoivC3SW.js"));
+		({createBrowserBackupCommand} = await import("./backup-BEgUUp7F.js"));
+		({createBrowserFileTransport} = await import("./transport-WoFprtJP.js"));
+		({createMarketDemo, getSeries, getComponentData} = await import("./market-eQgIMmpI.js"));
+		({MarketPage} = await import("./MarketPage-2PBiLH5C.js"));
+		({WebDemoConnections} = await import("./WebDemoConnections-BESOiBrX.js"));
+		({WebDemoTradeNotice} = await import("./WebDemoTradeNotice-D7M3jHzn.js"));
+		({WebDemoMarketWidget} = await import("./WebDemoMarketWidget-D6_DtVne.js"));
 		repository = createIndexedDBRepository();
 		storage = createInitializedBrowserJournal(createJournalCommand({ repository }));
 		displayPreferences = createDisplayPreferences((() => {
@@ -11015,6 +11016,7 @@ function init_web_entry() {
 			].map((period) => [period, getSeries(row.id, { period })]))
 		}]));
 		preview = Object.freeze({
+			portfolioWidgets: createPortfolioWidgetDemo(),
 			fxQuote: WEB_DEMO_FX,
 			portfolio: createWebPortfolio(createDemoSnapshot),
 			manualStorage: storage,
