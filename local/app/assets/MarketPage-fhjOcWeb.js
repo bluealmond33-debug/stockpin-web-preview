@@ -1,8 +1,8 @@
 import { n as __esmMin } from "./rolldown-runtime-CnFjIZqj.js";
 import { n as require_react, t as require_jsx_runtime } from "./jsx-runtime-D3ER87f6.js";
-import { a as init_AppIcon } from "./AppIcon-ekIUpJry.js";
-import { a as init_portfolio, i as decimalRatioPercent, r as compareDecimalStrings } from "./portfolio-CFH6ZZwV.js";
-import { C as isOldFx, S as init_referenceFx, T as writeFx, _ as decodeReferenceHistory, a as init_WebDemoMarketModel, b as readReferenceRates, c as init_ReferenceRatesTable, d as REFERENCE_YEAR_HISTORY_KEY, f as init_referenceYearHistory, g as REFERENCE_HISTORY_KEY, i as decodeWebDemoMarket, l as displayReferenceRate, m as writeReferenceYearHistory, n as init_WebDemoMarketDetails, o as ReferenceRateRows, p as readReferenceYearHistory, r as WEB_DEMO_CAPTION, s as ReferenceRatesTable, t as WebDemoMarketDetails, v as init_referenceHistory, w as readFx, x as writeReferenceRates, y as init_referenceRates } from "./WebDemoMarketDetails-CU10d-Ve.js";
+import { a as init_AppIcon } from "./AppIcon-H0qTe9c0.js";
+import { a as init_portfolio, i as decimalRatioPercent, r as compareDecimalStrings } from "./portfolio-CPpZ408a.js";
+import { C as isOldFx, S as init_referenceFx, T as writeFx, _ as decodeReferenceHistory, a as init_WebDemoMarketModel, b as readReferenceRates, c as init_ReferenceRatesTable, d as REFERENCE_YEAR_HISTORY_KEY, f as init_referenceYearHistory, g as REFERENCE_HISTORY_KEY, i as decodeWebDemoMarket, l as displayReferenceRate, m as writeReferenceYearHistory, n as init_WebDemoMarketDetails, o as ReferenceRateRows, p as readReferenceYearHistory, r as WEB_DEMO_CAPTION, s as ReferenceRatesTable, t as WebDemoMarketDetails, v as init_referenceHistory, w as readFx, x as writeReferenceRates, y as init_referenceRates } from "./WebDemoMarketDetails-BoEJ24ig.js";
 /******************************************************************************
 Copyright (c) Microsoft Corporation.
 
@@ -276,7 +276,7 @@ function init_market_widgets() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/features/market/market-widgets.css";
+			l.href = "/local/app/css-source/src/features/market/market-widgets.css?v=source-build-r46";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -460,7 +460,7 @@ function init_vix_file() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/features/market/vix-file.css";
+			l.href = "/local/app/css-source/src/features/market/vix-file.css?v=source-build-r46";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -685,7 +685,7 @@ function init_sentiment_dial() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/features/market/sentiment-dial.css";
+			l.href = "/local/app/css-source/src/features/market/sentiment-dial.css?v=source-build-r46";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -788,7 +788,7 @@ function init_fear_greed_details() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/features/market/fear-greed-details.css";
+			l.href = "/local/app/css-source/src/features/market/fear-greed-details.css?v=source-build-r46";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -798,7 +798,7 @@ function init_WebDemoMarket() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/features/market/WebDemoMarket.css";
+			l.href = "/local/app/css-source/src/features/market/WebDemoMarket.css?v=source-build-r46";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -2749,7 +2749,7 @@ function init_market_page() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/features/market/market-page.css";
+			l.href = "/local/app/css-source/src/features/market/market-page.css?v=source-build-r46";
 			document.head.appendChild(l);
 		}
 	})))();

@@ -1,13 +1,13 @@
 import { n as __esmMin } from "./rolldown-runtime-CnFjIZqj.js";
 import { n as require_react, t as require_jsx_runtime } from "./jsx-runtime-D3ER87f6.js";
-import { i as require_react_dom, n as init_ThemeControl, t as ThemeControl } from "./ThemeControl-BTmhrPtE.js";
-import { a as init_AppIcon, c as Info, d as init_createLucideIcon, i as WonSign, l as init_info, n as SidebarCloseIcon, o as TriangleAlert, r as SidebarOpenIcon, s as init_triangle_alert, t as AppIcon, u as createLucideIcon } from "./AppIcon-ekIUpJry.js";
-import { a as Unlink, c as init_refresh_cw, i as init_x, l as Plus, n as init_ProviderGrid, o as init_unlink, r as X, s as RefreshCw, t as ProviderGrid, u as init_plus } from "./ProviderGrid-CtlrnkGy.js";
-import { t as init_diary_trade_carousel } from "./diary-trade-carousel-B8dTvHOF.js";
-import { a as init_portfolio, c as summarizePortfolio, i as decimalRatioPercent, n as allocationBasisPoints, o as selectAccountSnapshot, r as compareDecimalStrings, s as summarizeKnownHoldings, t as addDecimalStrings } from "./portfolio-CFH6ZZwV.js";
-import { A as reconcileTradeObservation, D as validRecordDate, E as prepareDraftCandidate, O as assessTradeObservation, S as imageSource, T as init_draft, _ as readCalendarLink, a as readManualResponse, b as readManualImage, c as sameTradeLink, d as manualDraftErrors, f as init_manualPdfs, g as init_calendarLink, h as calendarLinkKey, i as manualRequestWire, k as init_tradeProvenance, l as validManualSave, m as readManualPdfs, n as manualErrorCode, o as readManualTradeLink, p as readManualPdf, r as manualErrorMessage, s as sameSummary, t as init_manualPersistence, u as init_manualDraft, v as init_manualAttachments, w as draftBlock, x as sameManualAttachments, y as readManualAttachments } from "./manualPersistence-BuHzwJZP.js";
-import { _ as invoke, a as init_MarketWidgets, c as readMarketPrefs, f as localTime, g as init_core, h as SERIALIZE_TO_IPC_FN, i as MarketWidgetCard, l as formatDecimal, m as Resource, n as init_MarketPage, o as MARKET_WIDGETS, p as Channel, s as init_preferences, t as MarketPage, u as formatMoney, v as isTauri, y as transformCallback } from "./MarketPage-Boi_1jKt.js";
-import { n as createDemoSnapshot, r as init_portfolio$1 } from "./portfolio-BsPDw3Pp.js";
+import { i as require_react_dom, n as init_ThemeControl, t as ThemeControl } from "./ThemeControl-DX9ugbf2.js";
+import { a as init_AppIcon, c as Info, d as init_createLucideIcon, i as WonSign, l as init_info, n as SidebarCloseIcon, o as TriangleAlert, r as SidebarOpenIcon, s as init_triangle_alert, t as AppIcon, u as createLucideIcon } from "./AppIcon-H0qTe9c0.js";
+import { a as Unlink, c as init_refresh_cw, i as init_x, l as Plus, n as init_ProviderGrid, o as init_unlink, r as X, s as RefreshCw, t as ProviderGrid, u as init_plus } from "./ProviderGrid-Dy4cm2py.js";
+import { t as init_diary_trade_carousel } from "./diary-trade-carousel-DXeigSvK.js";
+import { a as init_portfolio, c as summarizePortfolio, i as decimalRatioPercent, n as allocationBasisPoints, o as selectAccountSnapshot, r as compareDecimalStrings, s as summarizeKnownHoldings, t as addDecimalStrings } from "./portfolio-CPpZ408a.js";
+import { A as reconcileTradeObservation, D as validRecordDate, E as prepareDraftCandidate, O as assessTradeObservation, S as imageSource, T as init_draft, _ as readCalendarLink, a as readManualResponse, b as readManualImage, c as sameTradeLink, d as manualDraftErrors, f as init_manualPdfs, g as init_calendarLink, h as calendarLinkKey, i as manualRequestWire, k as init_tradeProvenance, l as validManualSave, m as readManualPdfs, n as manualErrorCode, o as readManualTradeLink, p as readManualPdf, r as manualErrorMessage, s as sameSummary, t as init_manualPersistence, u as init_manualDraft, v as init_manualAttachments, w as draftBlock, x as sameManualAttachments, y as readManualAttachments } from "./manualPersistence-DxclcFYj.js";
+import { _ as invoke, a as init_MarketWidgets, c as readMarketPrefs, f as localTime, g as init_core, h as SERIALIZE_TO_IPC_FN, i as MarketWidgetCard, l as formatDecimal, m as Resource, n as init_MarketPage, o as MARKET_WIDGETS, p as Channel, s as init_preferences, t as MarketPage, u as formatMoney, v as isTauri, y as transformCallback } from "./MarketPage-fhjOcWeb.js";
+import { n as createDemoSnapshot, r as init_portfolio$1 } from "./portfolio-DTwR38sP.js";
 var __iconData$26, ArrowDownAZ;
 function init_arrow_down_a_z() {
 	return (init_arrow_down_a_z = __esmMin((() => {
@@ -935,7 +935,7 @@ function init_style() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/trade-review/style.css";
+			l.href = "/local/app/css-source/src/trade-review/style.css?v=source-build-r46";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -3302,7 +3302,7 @@ function init_cleanup() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/trade-review/cleanup.css";
+			l.href = "/local/app/css-source/src/trade-review/cleanup.css?v=source-build-r46";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -5259,7 +5259,7 @@ function init_rich_columns() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/journal/editor/rich-columns.css";
+			l.href = "/local/app/css-source/src/journal/editor/rich-columns.css?v=source-build-r46";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -5642,7 +5642,7 @@ function init_editor() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/journal/editor/editor.css";
+			l.href = "/local/app/css-source/src/journal/editor/editor.css?v=source-build-r46";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -6580,7 +6580,7 @@ function init_rich_image_editor() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/journal/editor/rich-image-editor.css";
+			l.href = "/local/app/css-source/src/journal/editor/rich-image-editor.css?v=source-build-r46";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -7505,7 +7505,7 @@ function init_style$1() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/synthetic-journal/style.css";
+			l.href = "/local/app/css-source/src/synthetic-journal/style.css?v=source-build-r46";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -7515,7 +7515,7 @@ function init_journal() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/journal/journal.css";
+			l.href = "/local/app/css-source/src/journal/journal.css?v=source-build-r46";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -7525,7 +7525,7 @@ function init_manual_draft() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/journal/manual-draft.css";
+			l.href = "/local/app/css-source/src/journal/manual-draft.css?v=source-build-r46";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -7535,7 +7535,7 @@ function init_linked_writing() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/trade-review/linked-writing.css";
+			l.href = "/local/app/css-source/src/trade-review/linked-writing.css?v=source-build-r46";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -7967,7 +7967,7 @@ function init_temporary_journal() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/journal/temporary-journal.css";
+			l.href = "/local/app/css-source/src/journal/temporary-journal.css?v=source-build-r46";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -8148,7 +8148,7 @@ function init_historical_details() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/trade-review/historical-details.css";
+			l.href = "/local/app/css-source/src/trade-review/historical-details.css?v=source-build-r46";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -8970,7 +8970,7 @@ function init_holding_details() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/components/portfolio/holding-details.css";
+			l.href = "/local/app/css-source/src/components/portfolio/holding-details.css?v=source-build-r46";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -10370,7 +10370,7 @@ function init_portfolio_clean() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/components/portfolio/portfolio-clean.css";
+			l.href = "/local/app/css-source/src/components/portfolio/portfolio-clean.css?v=source-build-r46";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -10500,7 +10500,7 @@ function init_currency_display() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/components/portfolio/currency-display.css";
+			l.href = "/local/app/css-source/src/components/portfolio/currency-display.css?v=source-build-r46";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -11152,7 +11152,7 @@ function init_portfolio_widgets() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/features/market/portfolio-widgets.css";
+			l.href = "/local/app/css-source/src/features/market/portfolio-widgets.css?v=source-build-r46";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -11884,7 +11884,7 @@ function init_profit_contribution() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/components/portfolio/profit-contribution.css";
+			l.href = "/local/app/css-source/src/components/portfolio/profit-contribution.css?v=source-build-r46";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -11980,7 +11980,7 @@ function init_weight_return() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/components/portfolio/weight-return.css";
+			l.href = "/local/app/css-source/src/components/portfolio/weight-return.css?v=source-build-r46";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -12268,7 +12268,7 @@ function init_settings_dialog() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/features/settings/settings-dialog.css";
+			l.href = "/local/app/css-source/src/features/settings/settings-dialog.css?v=source-build-r46";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -13900,7 +13900,7 @@ function init_backup$1() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/journal/backup.css";
+			l.href = "/local/app/css-source/src/journal/backup.css?v=source-build-r46";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -14001,7 +14001,7 @@ function init_panel() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/journal/preservation/panel.css";
+			l.href = "/local/app/css-source/src/journal/preservation/panel.css?v=source-build-r46";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -14849,7 +14849,7 @@ function init_writing_feedback() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/journal/writing-feedback.css";
+			l.href = "/local/app/css-source/src/journal/writing-feedback.css?v=source-build-r46";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -16318,7 +16318,7 @@ function init_manual_note_calendar() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/journal/manual-note-calendar.css";
+			l.href = "/local/app/css-source/src/journal/manual-note-calendar.css?v=source-build-r46";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -17194,7 +17194,7 @@ function init_chart() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/journal/chart/chart.css";
+			l.href = "/local/app/css-source/src/journal/chart/chart.css?v=source-build-r46";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -18534,7 +18534,7 @@ function init_manual_entry() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/journal/manual-entry.css";
+			l.href = "/local/app/css-source/src/journal/manual-entry.css?v=source-build-r46";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -21934,7 +21934,7 @@ function init_portfolio_history() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/features/connections/portfolio-history.css";
+			l.href = "/local/app/css-source/src/features/connections/portfolio-history.css?v=source-build-r46";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -22521,7 +22521,7 @@ function init_connection_resolution() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/features/connections/connection-resolution.css";
+			l.href = "/local/app/css-source/src/features/connections/connection-resolution.css?v=source-build-r46";
 			document.head.appendChild(l);
 		}
 	})))();

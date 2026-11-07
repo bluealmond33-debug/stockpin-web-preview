@@ -1,12 +1,12 @@
 import { n as __esmMin } from "./rolldown-runtime-CnFjIZqj.js";
 import { n as require_react, t as require_jsx_runtime } from "./jsx-runtime-D3ER87f6.js";
-import { t as init_diary_trade_carousel } from "./diary-trade-carousel-B8dTvHOF.js";
+import { t as init_diary_trade_carousel } from "./diary-trade-carousel-DXeigSvK.js";
 function init_WebDemoTradeNotice() {
 	return (init_WebDemoTradeNotice = __esmMin((() => {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/features/journal/WebDemoTradeNotice.css";
+			l.href = "/local/app/css-source/src/features/journal/WebDemoTradeNotice.css?v=source-build-r46";
 			document.head.appendChild(l);
 		}
 	})))();

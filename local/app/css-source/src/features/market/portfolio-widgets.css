@@ -2,6 +2,8 @@
 
 .portfolio-widget-lane .portfolio-widget-frame>section{margin:0}
 
+.page-title:has(.portfolio-widget-add) .page-actions{flex:1;min-width:0}
+.page-title .portfolio-widget-add{margin-left:auto;flex-shrink:0}
 .portfolio-widget-add{display:inline-grid;place-items:center;width:36px;height:36px;border:1px solid var(--line);border-radius:8px;color:var(--muted);background:transparent}
 .portfolio-widget-add:hover{color:var(--green);border-color:var(--green)}
 .portfolio-widget-gallery{box-sizing:border-box;width:min(760px,calc(100% - 32px));max-width:calc(100% - 32px);max-height:calc(100dvh - 32px);overflow-y:auto;overscroll-behavior:contain;margin:auto;padding:24px;border:1px solid var(--line);border-radius:16px;background:var(--bg);color:inherit;box-shadow:0 24px 80px #0005}
