@@ -28,3 +28,22 @@
 @media (prefers-reduced-motion: reduce) {
   .sentiment-dial, .sentiment-dial * { animation: none; transition: none; }
 }
+
+.sentiment-dial-control { position: relative; width: fit-content; max-width: 100%; text-align: center; }
+.sentiment-dial__scale { opacity: 0; }
+.sentiment-dial-control:hover .sentiment-dial__scale,
+.sentiment-dial-control:focus-within .sentiment-dial__scale,
+.sentiment-dial-control[data-show-scale="true"] .sentiment-dial__scale { opacity: 1; }
+.sentiment-dial-state { display: block; font-size: 15px; font-weight: 600; }
+.sentiment-dial-state small { display: block; font-size: 11px; font-weight: 400; color: var(--muted, #aaa); }
+.sentiment-dial-state[data-band="0"], .sentiment-dial-state[data-band="1"] { color: var(--loss, #5a7fe0); }
+.sentiment-dial-state[data-band="2"] { color: var(--muted, #aaa); }
+.sentiment-dial-state[data-band="3"], .sentiment-dial-state[data-band="4"] { color: var(--gain, #e05a5a); }
+.sentiment-scale-toggle { font-size: 11px; color: var(--muted, #aaa); min-height: 28px; }
+.volatility-dial { width: 180px; max-width: 100%; text-align: center; color: var(--bright, #e5e7eb); }
+.volatility-dial svg { display: block; width: 100%; overflow: visible; }
+.volatility-dial__arc { fill: none; stroke: var(--muted, #aaa); stroke-width: 6; }
+.volatility-dial__needle { stroke: currentColor; stroke-width: 2.5; }
+.volatility-dial text { fill: currentColor; text-anchor: middle; font-size: 12px; }
+.volatility-dial .volatility-dial__value { font-size: 26px; font-weight: 600; }
+.volatility-dial > span { font-size: 11px; color: var(--muted, #aaa); }

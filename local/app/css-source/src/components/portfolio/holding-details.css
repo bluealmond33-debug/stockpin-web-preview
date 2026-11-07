@@ -6,7 +6,26 @@
 .holding-details header { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
 .holding-details h2 { margin: 0; font-size: 20px; }
 .holding-details button { border: 0; background: transparent; color: inherit; font: inherit; padding: 8px 4px; cursor: pointer; }
-.holding-details dl { margin: 20px 0 0; }
-.holding-details dl > div { display: grid; grid-template-columns: 90px minmax(0, 1fr); gap: 16px; padding: 8px 0; }
-.holding-details dt { color: var(--muted); }
+.holding-details dl { margin: 20px 0 0; display: flex; flex-direction: column; }
+.holding-details dl > div { display: grid; grid-template-columns: minmax(0, 90px) minmax(0, 1fr); gap: 16px; padding: 8px 0; min-width: 0; }
+.holding-details dt { color: var(--muted); overflow-wrap: anywhere; }
 .holding-details dd { margin: 0; text-align: right; overflow-wrap: anywhere; font-variant-numeric: tabular-nums; }
+.holding-details .holding-name { order: -6; grid-template-columns: minmax(0, 1fr); gap: 4px; }
+.holding-details .holding-name dd { text-align: left; font-size: 20px; font-weight: 600; }
+.holding-details .holding-name dt { font-size: 12px; }
+.holding-details .holding-summary-value { order: -5; grid-template-columns: minmax(0, 1fr); gap: 6px; padding-top: 20px; }
+.holding-details .holding-summary-value dd { font-size: 28px; font-weight: 600; text-align: left; }
+.holding-details .holding-summary-pnl { order: -4; grid-template-columns: minmax(0, 1fr); gap: 4px; padding-bottom: 24px; }
+.holding-details .holding-summary-pnl dd { text-align: left; font-size: 18px; }
+.holding-details .holding-average { order: -3; }
+.holding-details .holding-current { order: -2; }
+.holding-details .holding-size { order: -1; padding-bottom: 20px; }
+.holding-details .holding-metadata { font-size: 13px; }
+.holding-details .holding-purchase-unavailable { display: flex; justify-content: space-between; gap: 16px; color: var(--muted); font-size: 13px; }
+@media (max-width: 400px) {
+  .holding-details-backdrop { padding: 12px; }
+  .holding-details { padding: 16px; max-height: calc(100dvh - 24px); }
+  .holding-details header { gap: 8px; }
+  .holding-details h2 { font-size: 18px; }
+  .holding-details dl > div { column-gap: 10px; }
+}

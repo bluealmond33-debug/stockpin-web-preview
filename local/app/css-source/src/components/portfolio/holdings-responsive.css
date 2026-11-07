@@ -1,0 +1,74 @@
+/* The available widget width, not the window, owns the table layout. */
+.table-scroll.holdings-responsive {
+  container-name: holdings;
+  container-type: inline-size;
+  min-width: 0;
+  overflow: visible;
+}
+.holdings-responsive table { min-width: 0; table-layout: fixed; }
+.holdings-responsive th, .holdings-responsive td {
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+.holdings-responsive .instrument > div,
+.holdings-responsive .holding-detail-trigger { min-width: 0; max-width: 100%; }
+.holdings-responsive .instrument strong,
+.holdings-responsive .instrument span { white-space: normal; overflow-wrap: anywhere; }
+.holdings-responsive .instrument-icon { flex-shrink: 0; }
+
+@container holdings (max-width: 900px) {
+  .holdings-responsive table,
+  .holdings-responsive thead,
+  .holdings-responsive tbody { display: block; width: 100%; }
+  .holdings-responsive thead tr { display: flex; justify-content: space-between; gap: 16px; }
+  /* Keep column names accessible without duplicating a six-column visual header. */
+  .holdings-responsive th:not(:has(.table-sort)) {
+    position: absolute; width: 1px; height: 1px; padding: 0;
+    clip-path: inset(50%);
+  }
+  .holdings-responsive th:has(.table-sort) { min-width: 0; padding: 8px 0; }
+  .holdings-responsive .table-sort { white-space: normal; text-align: inherit; }
+  .holdings-responsive .table-sort svg { flex-shrink: 0; }
+  .holdings-responsive tbody tr {
+    display: grid;
+    grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr) minmax(0, 1.2fr);
+    grid-template-areas: "identity average value" "quantity current pnl";
+    column-gap: 24px;
+    row-gap: 8px;
+    padding: 18px 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .holdings-responsive tbody td {
+    display: block; min-width: 0; height: auto; padding: 0;
+    border: 0; align-self: start; text-align: right;
+  }
+  .holdings-responsive td::before {
+    content: attr(data-label); display: block; color: var(--muted);
+    font-size: 12px; font-weight: 400; margin-bottom: 4px;
+  }
+  .holdings-responsive .holding-identity { grid-area: identity; text-align: left; }
+  .holdings-responsive .holding-identity::before { content: none; }
+  .holdings-responsive .holding-quantity { grid-area: quantity; text-align: left; }
+  .holdings-responsive .holding-average { grid-area: average; }
+  .holdings-responsive .holding-current { grid-area: current; }
+  .holdings-responsive .holding-value { grid-area: value; font-weight: 600; }
+  .holdings-responsive td[data-label="평가손익"] { grid-area: pnl; }
+}
+@container holdings (max-width: 560px) {
+  .holdings-responsive tbody tr {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    grid-template-areas: "identity value" "quantity pnl" "average average" "current current";
+    column-gap: 16px;
+  }
+  .holdings-responsive td.holding-average,
+  .holdings-responsive td.holding-current { text-align: left; }
+  .holdings-responsive .holding-average::before,
+  .holdings-responsive .holding-current::before { display: inline; margin-right: 12px; }
+}
+@container holdings (max-width: 360px) {
+  .holdings-responsive tbody tr {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas: "identity" "quantity" "value" "pnl" "average" "current";
+  }
+  .holdings-responsive tbody td { text-align: left; }
+}

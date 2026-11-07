@@ -15,7 +15,12 @@ th:not(:first-child) .table-sort { justify-content:flex-end; }
 .allocation-modes button[aria-pressed="true"],.portfolio-mode-tabs button[aria-pressed="true"]{color:var(--green)}
 .portfolio-mode-tabs{display:flex;gap:28px;padding:4px 0 24px}
 .portfolio-mode-tabs .text-button{font-size:16px}
-.portfolio-widgets{margin-top:28px;padding-top:16px;border-top:1px solid var(--line)}
+.portfolio-widgets{margin:0;padding:0;border:0}
+[data-web-preview="true"] .dashboard-main .summary-section{padding-top:8px}
+[data-web-preview="true"] .portfolio-toolbar:not([hidden]){padding:8px 0;margin-bottom:8px}
+.summary-section .metrics-row{margin-top:24px}
+.dashboard-grid:has(.dashboard-main){column-gap:48px}
+.portfolio-widget-frame .profit-contribution h3{color:var(--bright);font-weight:600}
 .portfolio-widgets>.section-heading{display:flex;align-items:center;justify-content:space-between;gap:16px}
 .portfolio-widgets>.section-heading h2{font-size:14px;font-weight:500;margin:0}
 .portfolio-widgets .market-indicators header{flex-wrap:wrap;gap:8px}

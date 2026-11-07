@@ -78,7 +78,7 @@ function init_reference_rates_table() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/features/market/reference-rates-table.css?v=source-build-r46";
+			l.href = "/local/app/css-source/src/features/market/reference-rates-table.css?v=source-build-r49";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -678,7 +678,7 @@ function init_reference_rate_details() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/features/market/reference-rate-details.css?v=source-build-r46";
+			l.href = "/local/app/css-source/src/features/market/reference-rate-details.css?v=source-build-r49";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -1502,9 +1502,33 @@ function WebDemoMarketDetails({ row, series, onClose }) {
 				"aria-label": `${row.label} 상세 닫기`,
 				children: "닫기"
 			})] }),
-			row.meaning && !row.meaning.includes("고정 가상") && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
+				className: "reference-detail-meta",
+				children: [
+					WEB_DEMO_CAPTION,
+					" · ",
+					row.provenance.source
+				]
+			}),
+			row.meaning && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 				className: "reference-detail-meta",
 				children: row.meaning
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("details", {
+				className: "reference-detail-values",
+				children: [
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("summary", { children: "차트 기준" }),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", { children: [
+						"목록의 작은 차트: ",
+						row.mini.points[0]?.date ?? "미확인",
+						"–",
+						row.mini.points.at(-1)?.date ?? "미확인",
+						" · ",
+						row.mini.points.length,
+						"개 일별 가상 표본. 실제 전일 종가가 아닌 고정 가상 자료로, 실시간 변동을 나타내지 않습니다."
+					] }),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "아래 기간 선택은 상세 차트의 실제 제공 범위를 보여줍니다." })
+				]
 			}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 				className: "reference-rate-periods",

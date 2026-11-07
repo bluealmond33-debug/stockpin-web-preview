@@ -4,7 +4,7 @@ function init_diary_trade_carousel() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/journal/diary-trade-carousel.css?v=source-build-r46";
+			l.href = "/local/app/css-source/src/journal/diary-trade-carousel.css?v=source-build-r49";
 			document.head.appendChild(l);
 		}
 	})))();
