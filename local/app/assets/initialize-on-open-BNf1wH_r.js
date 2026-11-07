@@ -1,5 +1,5 @@
 import { n as __esmMin } from "./rolldown-runtime-CnFjIZqj.js";
-import { a as init_validation, f as validateRequest } from "./validation-C2O6cBVU.js";
+import { a as init_validation, f as validateRequest } from "./validation-VimskkvC.js";
 /** Web-only adapter; the underlying journal retains explicit initialization.
 * @param {import('./protocol.mjs').Command} command
 * @returns {import('./protocol.mjs').Command}

@@ -1,7 +1,7 @@
 import { n as __esmMin } from "./rolldown-runtime-CnFjIZqj.js";
 import { n as require_react, t as require_jsx_runtime } from "./jsx-runtime-D3ER87f6.js";
-import { a as init_AppIcon, c as Info, l as init_info, t as AppIcon } from "./AppIcon-DTp6b6Wl.js";
-import { a as Unlink, c as init_refresh_cw, i as init_x, l as Plus, n as init_ProviderGrid, o as init_unlink, r as X, s as RefreshCw, t as ProviderGrid, u as init_plus } from "./ProviderGrid-g_N7C6o9.js";
+import { a as init_AppIcon, c as Info, l as init_info, t as AppIcon } from "./AppIcon-ekIUpJry.js";
+import { a as Unlink, c as init_refresh_cw, i as init_x, l as Plus, n as init_ProviderGrid, o as init_unlink, r as X, s as RefreshCw, t as ProviderGrid, u as init_plus } from "./ProviderGrid-CtlrnkGy.js";
 /** Web-only dialog keyboard boundary. Native cancellation stays owned by onCancel. */
 function keepWebDemoTabInside(dialog, event) {
 	if (event.key !== "Tab") return false;
@@ -293,31 +293,23 @@ function WebDemoConnections({ refreshMinutes = 0 }) {
 	}));
 	const title = state.view === "picker" ? "금융사 연결 추가" : state.view === "consent" ? `${demoProviderName(state.provider)} 연결 · 1/2` : state.view === "accounts" ? "계좌 선택 · 2/2" : state.view === "disconnect" ? "연결을 해제할까요?" : `${active ? demoProviderName(active.provider) : ""} 연결 상세`;
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-		className: "connections-layout connections-minimal",
+		className: "connections-layout connections-minimal connections-web-demo",
 		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
 			className: "saved-connections",
 			"aria-label": "등록한 연결",
 			children: [
 				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 					className: "connections-heading",
-					children: [
-						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h2", {
-							ref: gridHeading,
-							tabIndex: -1,
-							children: ["등록한 연결 ", /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: state.connections.length })]
-						}),
-						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
-							type: "button",
-							className: "text-button",
-							onClick: () => open({ type: "add" }),
-							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(AppIcon, { icon: Plus }), "연결 추가"]
-						}),
-						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-							className: "connections-next-check",
-							title: "웹 체험 · 실제 금융 요청 없음",
-							children: nextCheckLabel
-						})
-					]
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h2", {
+						ref: gridHeading,
+						tabIndex: -1,
+						children: ["등록한 연결 ", /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: state.connections.length })]
+					}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
+						type: "button",
+						className: "text-button",
+						onClick: () => open({ type: "add" }),
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(AppIcon, { icon: Plus }), "연결 추가"]
+					})]
 				}),
 				/* @__PURE__ */ (0, import_jsx_runtime.jsx)(ProviderGrid, {
 					compactWeb: true,
@@ -504,7 +496,7 @@ function init_WebDemoConnections() {
 		init_WebDemoConnectionsState();
 		import_jsx_runtime = require_jsx_runtime();
 		queryNames = {
-			never: "미조회",
+			never: "자산 확인 전",
 			succeeded: "정상",
 			partial: "부분 조회",
 			failed: "조회 오류"

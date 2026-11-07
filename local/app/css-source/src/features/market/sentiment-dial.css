@@ -1,0 +1,30 @@
+.sentiment-dial {
+  display: block;
+  width: clamp(160px, 20vw, 180px);
+  max-width: 100%;
+  height: 100px;
+  flex-shrink: 1;
+  color: var(--bright, #e5e7eb);
+  background: transparent;
+  border: 0;
+  font-family: inherit;
+  animation: none;
+  transition: none;
+}
+.sentiment-dial__arc { fill: none; stroke-width: 6; }
+.sentiment-dial__arc--0 { stroke: var(--loss, #5a7fe0); }
+.sentiment-dial__arc--1 { stroke: #91a8e6; }
+.sentiment-dial__arc--2 { stroke: #d0b887; }
+.sentiment-dial__arc--3 { stroke: var(--gain, #e05a5a); }
+.sentiment-dial__tick { stroke: currentColor; stroke-width: 1; }
+.sentiment-dial__needle { stroke: currentColor; stroke-width: 2.5; stroke-linecap: round; }
+.sentiment-dial__scale,
+.sentiment-dial__caption,
+.sentiment-dial__value { fill: currentColor; text-anchor: middle; }
+.sentiment-dial__scale { font-size: 18px; font-variant-numeric: tabular-nums; }
+.sentiment-dial__caption { font-size: 16px; }
+.sentiment-dial__value { font-size: 30px; font-weight: 600; font-variant-numeric: tabular-nums; }
+.sentiment-dial--unknown { display: grid; place-items: center; font-size: 13px; }
+@media (prefers-reduced-motion: reduce) {
+  .sentiment-dial, .sentiment-dial * { animation: none; transition: none; }
+}

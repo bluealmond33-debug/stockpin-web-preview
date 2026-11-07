@@ -1,18 +1,18 @@
 import { n as __esmMin } from "./rolldown-runtime-CnFjIZqj.js";
 import { n as require_react, t as require_jsx_runtime } from "./jsx-runtime-D3ER87f6.js";
-import { i as require_react_dom, n as init_ThemeControl, t as ThemeControl } from "./ThemeControl-Ab7Pfkhw.js";
-import { a as init_AppIcon, c as Info, d as init_createLucideIcon, i as WonSign, l as init_info, n as SidebarCloseIcon, o as TriangleAlert, r as SidebarOpenIcon, s as init_triangle_alert, t as AppIcon, u as createLucideIcon } from "./AppIcon-DTp6b6Wl.js";
-import { a as Unlink, c as init_refresh_cw, i as init_x, l as Plus, n as init_ProviderGrid, o as init_unlink, r as X, s as RefreshCw, t as ProviderGrid, u as init_plus } from "./ProviderGrid-g_N7C6o9.js";
-import { t as init_diary_trade_carousel } from "./diary-trade-carousel-BNkplf9_.js";
-import { a as init_portfolio, c as summarizePortfolio, i as decimalRatioPercent, n as allocationBasisPoints, o as selectAccountSnapshot, r as compareDecimalStrings, s as summarizeKnownHoldings, t as addDecimalStrings } from "./portfolio-UGXOnruG.js";
-import { A as reconcileTradeObservation, D as validRecordDate, E as prepareDraftCandidate, O as assessTradeObservation, S as imageSource, T as init_draft, _ as readCalendarLink, a as readManualResponse, b as readManualImage, c as sameTradeLink, d as manualDraftErrors, f as init_manualPdfs, g as init_calendarLink, h as calendarLinkKey, i as manualRequestWire, k as init_tradeProvenance, l as validManualSave, m as readManualPdfs, n as manualErrorCode, o as readManualTradeLink, p as readManualPdf, r as manualErrorMessage, s as sameSummary, t as init_manualPersistence, u as init_manualDraft, v as init_manualAttachments, w as draftBlock, x as sameManualAttachments, y as readManualAttachments } from "./manualPersistence-BSnQcn0K.js";
-import { _ as invoke, a as init_MarketWidgets, c as readMarketPrefs, f as localTime, g as init_core, h as SERIALIZE_TO_IPC_FN, i as MarketWidgetCard, l as formatDecimal, m as Resource, n as init_MarketPage, o as MARKET_WIDGETS, p as Channel, s as init_preferences, t as MarketPage, u as formatMoney, v as isTauri, y as transformCallback } from "./MarketPage-ERuILyU8.js";
-import { n as createDemoSnapshot, r as init_portfolio$1 } from "./portfolio-DShj8cCn.js";
-var __iconData$25, ArrowDownAZ;
+import { i as require_react_dom, n as init_ThemeControl, t as ThemeControl } from "./ThemeControl-BTmhrPtE.js";
+import { a as init_AppIcon, c as Info, d as init_createLucideIcon, i as WonSign, l as init_info, n as SidebarCloseIcon, o as TriangleAlert, r as SidebarOpenIcon, s as init_triangle_alert, t as AppIcon, u as createLucideIcon } from "./AppIcon-ekIUpJry.js";
+import { a as Unlink, c as init_refresh_cw, i as init_x, l as Plus, n as init_ProviderGrid, o as init_unlink, r as X, s as RefreshCw, t as ProviderGrid, u as init_plus } from "./ProviderGrid-CtlrnkGy.js";
+import { t as init_diary_trade_carousel } from "./diary-trade-carousel-B8dTvHOF.js";
+import { a as init_portfolio, c as summarizePortfolio, i as decimalRatioPercent, n as allocationBasisPoints, o as selectAccountSnapshot, r as compareDecimalStrings, s as summarizeKnownHoldings, t as addDecimalStrings } from "./portfolio-CFH6ZZwV.js";
+import { A as reconcileTradeObservation, D as validRecordDate, E as prepareDraftCandidate, O as assessTradeObservation, S as imageSource, T as init_draft, _ as readCalendarLink, a as readManualResponse, b as readManualImage, c as sameTradeLink, d as manualDraftErrors, f as init_manualPdfs, g as init_calendarLink, h as calendarLinkKey, i as manualRequestWire, k as init_tradeProvenance, l as validManualSave, m as readManualPdfs, n as manualErrorCode, o as readManualTradeLink, p as readManualPdf, r as manualErrorMessage, s as sameSummary, t as init_manualPersistence, u as init_manualDraft, v as init_manualAttachments, w as draftBlock, x as sameManualAttachments, y as readManualAttachments } from "./manualPersistence-BuHzwJZP.js";
+import { _ as invoke, a as init_MarketWidgets, c as readMarketPrefs, f as localTime, g as init_core, h as SERIALIZE_TO_IPC_FN, i as MarketWidgetCard, l as formatDecimal, m as Resource, n as init_MarketPage, o as MARKET_WIDGETS, p as Channel, s as init_preferences, t as MarketPage, u as formatMoney, v as isTauri, y as transformCallback } from "./MarketPage-Boi_1jKt.js";
+import { n as createDemoSnapshot, r as init_portfolio$1 } from "./portfolio-BsPDw3Pp.js";
+var __iconData$26, ArrowDownAZ;
 function init_arrow_down_a_z() {
 	return (init_arrow_down_a_z = __esmMin((() => {
 		init_createLucideIcon();
-		__iconData$25 = {
+		__iconData$26 = {
 			name: "arrow-down-a-z",
 			size: 24,
 			node: [
@@ -45,15 +45,15 @@ function init_arrow_down_a_z() {
 		* This source code is licensed under the ISC license.
 		* See the LICENSE file in the root directory of this source tree.
 		*/
-		__iconData$25.node;
-		ArrowDownAZ = createLucideIcon(__iconData$25);
+		__iconData$26.node;
+		ArrowDownAZ = createLucideIcon(__iconData$26);
 	})))();
 }
-var __iconData$24, ArrowDownLeft;
+var __iconData$25, ArrowDownLeft;
 function init_arrow_down_left() {
 	return (init_arrow_down_left = __esmMin((() => {
 		init_createLucideIcon();
-		__iconData$24 = {
+		__iconData$25 = {
 			name: "arrow-down-left",
 			size: 24,
 			node: [["path", {
@@ -70,15 +70,15 @@ function init_arrow_down_left() {
 		* This source code is licensed under the ISC license.
 		* See the LICENSE file in the root directory of this source tree.
 		*/
-		__iconData$24.node;
-		ArrowDownLeft = createLucideIcon(__iconData$24);
+		__iconData$25.node;
+		ArrowDownLeft = createLucideIcon(__iconData$25);
 	})))();
 }
-var __iconData$23, ArrowDownWideNarrow;
+var __iconData$24, ArrowDownWideNarrow;
 function init_arrow_down_wide_narrow() {
 	return (init_arrow_down_wide_narrow = __esmMin((() => {
 		init_createLucideIcon();
-		__iconData$23 = {
+		__iconData$24 = {
 			name: "arrow-down-wide-narrow",
 			size: 24,
 			node: [
@@ -111,15 +111,15 @@ function init_arrow_down_wide_narrow() {
 		* This source code is licensed under the ISC license.
 		* See the LICENSE file in the root directory of this source tree.
 		*/
-		__iconData$23.node;
-		ArrowDownWideNarrow = createLucideIcon(__iconData$23);
+		__iconData$24.node;
+		ArrowDownWideNarrow = createLucideIcon(__iconData$24);
 	})))();
 }
-var __iconData$22, ArrowRight;
+var __iconData$23, ArrowRight;
 function init_arrow_right() {
 	return (init_arrow_right = __esmMin((() => {
 		init_createLucideIcon();
-		__iconData$22 = {
+		__iconData$23 = {
 			name: "arrow-right",
 			size: 24,
 			node: [["path", {
@@ -136,15 +136,15 @@ function init_arrow_right() {
 		* This source code is licensed under the ISC license.
 		* See the LICENSE file in the root directory of this source tree.
 		*/
-		__iconData$22.node;
-		ArrowRight = createLucideIcon(__iconData$22);
+		__iconData$23.node;
+		ArrowRight = createLucideIcon(__iconData$23);
 	})))();
 }
-var __iconData$21, ArrowUpRight;
+var __iconData$22, ArrowUpRight;
 function init_arrow_up_right() {
 	return (init_arrow_up_right = __esmMin((() => {
 		init_createLucideIcon();
-		__iconData$21 = {
+		__iconData$22 = {
 			name: "arrow-up-right",
 			size: 24,
 			node: [["path", {
@@ -161,15 +161,15 @@ function init_arrow_up_right() {
 		* This source code is licensed under the ISC license.
 		* See the LICENSE file in the root directory of this source tree.
 		*/
-		__iconData$21.node;
-		ArrowUpRight = createLucideIcon(__iconData$21);
+		__iconData$22.node;
+		ArrowUpRight = createLucideIcon(__iconData$22);
 	})))();
 }
-var __iconData$20, BookOpen;
+var __iconData$21, BookOpen;
 function init_book_open() {
 	return (init_book_open = __esmMin((() => {
 		init_createLucideIcon();
-		__iconData$20 = {
+		__iconData$21 = {
 			name: "book-open",
 			size: 24,
 			node: [["path", {
@@ -186,15 +186,15 @@ function init_book_open() {
 		* This source code is licensed under the ISC license.
 		* See the LICENSE file in the root directory of this source tree.
 		*/
-		__iconData$20.node;
-		BookOpen = createLucideIcon(__iconData$20);
+		__iconData$21.node;
+		BookOpen = createLucideIcon(__iconData$21);
 	})))();
 }
-var __iconData$19, ChartColumn;
+var __iconData$20, ChartColumn;
 function init_chart_column() {
 	return (init_chart_column = __esmMin((() => {
 		init_createLucideIcon();
-		__iconData$19 = {
+		__iconData$20 = {
 			name: "chart-column",
 			size: 24,
 			node: [
@@ -223,15 +223,15 @@ function init_chart_column() {
 		* This source code is licensed under the ISC license.
 		* See the LICENSE file in the root directory of this source tree.
 		*/
-		__iconData$19.node;
-		ChartColumn = createLucideIcon(__iconData$19);
+		__iconData$20.node;
+		ChartColumn = createLucideIcon(__iconData$20);
 	})))();
 }
-var __iconData$18, ChartNoAxesCombined;
+var __iconData$19, ChartNoAxesCombined;
 function init_chart_no_axes_combined() {
 	return (init_chart_no_axes_combined = __esmMin((() => {
 		init_createLucideIcon();
-		__iconData$18 = {
+		__iconData$19 = {
 			name: "chart-no-axes-combined",
 			size: 24,
 			node: [
@@ -267,15 +267,15 @@ function init_chart_no_axes_combined() {
 		* This source code is licensed under the ISC license.
 		* See the LICENSE file in the root directory of this source tree.
 		*/
-		__iconData$18.node;
-		ChartNoAxesCombined = createLucideIcon(__iconData$18);
+		__iconData$19.node;
+		ChartNoAxesCombined = createLucideIcon(__iconData$19);
 	})))();
 }
-var __iconData$17, CircleCheck;
+var __iconData$18, CircleCheck;
 function init_circle_check() {
 	return (init_circle_check = __esmMin((() => {
 		init_createLucideIcon();
-		__iconData$17 = {
+		__iconData$18 = {
 			name: "circle-check",
 			size: 24,
 			node: [["circle", {
@@ -295,15 +295,15 @@ function init_circle_check() {
 		* This source code is licensed under the ISC license.
 		* See the LICENSE file in the root directory of this source tree.
 		*/
-		__iconData$17.node;
-		CircleCheck = createLucideIcon(__iconData$17);
+		__iconData$18.node;
+		CircleCheck = createLucideIcon(__iconData$18);
 	})))();
 }
-var __iconData$16, CircleX;
+var __iconData$17, CircleX;
 function init_circle_x() {
 	return (init_circle_x = __esmMin((() => {
 		init_createLucideIcon();
-		__iconData$16 = {
+		__iconData$17 = {
 			name: "circle-x",
 			size: 24,
 			node: [
@@ -330,15 +330,15 @@ function init_circle_x() {
 		* This source code is licensed under the ISC license.
 		* See the LICENSE file in the root directory of this source tree.
 		*/
-		__iconData$16.node;
-		CircleX = createLucideIcon(__iconData$16);
+		__iconData$17.node;
+		CircleX = createLucideIcon(__iconData$17);
 	})))();
 }
-var __iconData$15, Clock3;
+var __iconData$16, Clock3;
 function init_clock_3() {
 	return (init_clock_3 = __esmMin((() => {
 		init_createLucideIcon();
-		__iconData$15 = {
+		__iconData$16 = {
 			name: "clock-3",
 			size: 24,
 			node: [["circle", {
@@ -357,15 +357,15 @@ function init_clock_3() {
 		* This source code is licensed under the ISC license.
 		* See the LICENSE file in the root directory of this source tree.
 		*/
-		__iconData$15.node;
-		Clock3 = createLucideIcon(__iconData$15);
+		__iconData$16.node;
+		Clock3 = createLucideIcon(__iconData$16);
 	})))();
 }
-var __iconData$14, DollarSign;
+var __iconData$15, DollarSign;
 function init_dollar_sign() {
 	return (init_dollar_sign = __esmMin((() => {
 		init_createLucideIcon();
-		__iconData$14 = {
+		__iconData$15 = {
 			name: "dollar-sign",
 			size: 24,
 			node: [["line", {
@@ -385,15 +385,15 @@ function init_dollar_sign() {
 		* This source code is licensed under the ISC license.
 		* See the LICENSE file in the root directory of this source tree.
 		*/
-		__iconData$14.node;
-		DollarSign = createLucideIcon(__iconData$14);
+		__iconData$15.node;
+		DollarSign = createLucideIcon(__iconData$15);
 	})))();
 }
-var __iconData$13, Download;
+var __iconData$14, Download;
 function init_download() {
 	return (init_download = __esmMin((() => {
 		init_createLucideIcon();
-		__iconData$13 = {
+		__iconData$14 = {
 			name: "download",
 			size: 24,
 			node: [
@@ -417,15 +417,15 @@ function init_download() {
 		* This source code is licensed under the ISC license.
 		* See the LICENSE file in the root directory of this source tree.
 		*/
-		__iconData$13.node;
-		Download = createLucideIcon(__iconData$13);
+		__iconData$14.node;
+		Download = createLucideIcon(__iconData$14);
 	})))();
 }
-var __iconData$12, Eye;
+var __iconData$13, Eye;
 function init_eye() {
 	return (init_eye = __esmMin((() => {
 		init_createLucideIcon();
-		__iconData$12 = {
+		__iconData$13 = {
 			name: "eye",
 			size: 24,
 			node: [["path", {
@@ -444,15 +444,15 @@ function init_eye() {
 		* This source code is licensed under the ISC license.
 		* See the LICENSE file in the root directory of this source tree.
 		*/
-		__iconData$12.node;
-		Eye = createLucideIcon(__iconData$12);
+		__iconData$13.node;
+		Eye = createLucideIcon(__iconData$13);
 	})))();
 }
-var __iconData$11, EyeOff;
+var __iconData$12, EyeOff;
 function init_eye_off() {
 	return (init_eye_off = __esmMin((() => {
 		init_createLucideIcon();
-		__iconData$11 = {
+		__iconData$12 = {
 			name: "eye-off",
 			size: 24,
 			node: [
@@ -480,15 +480,15 @@ function init_eye_off() {
 		* This source code is licensed under the ISC license.
 		* See the LICENSE file in the root directory of this source tree.
 		*/
-		__iconData$11.node;
-		EyeOff = createLucideIcon(__iconData$11);
+		__iconData$12.node;
+		EyeOff = createLucideIcon(__iconData$12);
 	})))();
 }
-var __iconData$10, FlaskConical;
+var __iconData$11, FlaskConical;
 function init_flask_conical() {
 	return (init_flask_conical = __esmMin((() => {
 		init_createLucideIcon();
-		__iconData$10 = {
+		__iconData$11 = {
 			name: "flask-conical",
 			size: 24,
 			node: [
@@ -512,15 +512,15 @@ function init_flask_conical() {
 		* This source code is licensed under the ISC license.
 		* See the LICENSE file in the root directory of this source tree.
 		*/
-		__iconData$10.node;
-		FlaskConical = createLucideIcon(__iconData$10);
+		__iconData$11.node;
+		FlaskConical = createLucideIcon(__iconData$11);
 	})))();
 }
-var __iconData$9, FolderOpen;
+var __iconData$10, FolderOpen;
 function init_folder_open() {
 	return (init_folder_open = __esmMin((() => {
 		init_createLucideIcon();
-		__iconData$9 = {
+		__iconData$10 = {
 			name: "folder-open",
 			size: 24,
 			node: [["path", {
@@ -534,15 +534,15 @@ function init_folder_open() {
 		* This source code is licensed under the ISC license.
 		* See the LICENSE file in the root directory of this source tree.
 		*/
-		__iconData$9.node;
-		FolderOpen = createLucideIcon(__iconData$9);
+		__iconData$10.node;
+		FolderOpen = createLucideIcon(__iconData$10);
 	})))();
 }
-var __iconData$8, GripVertical;
+var __iconData$9, GripVertical;
 function init_grip_vertical() {
 	return (init_grip_vertical = __esmMin((() => {
 		init_createLucideIcon();
-		__iconData$8 = {
+		__iconData$9 = {
 			name: "grip-vertical",
 			size: 24,
 			node: [
@@ -590,15 +590,15 @@ function init_grip_vertical() {
 		* This source code is licensed under the ISC license.
 		* See the LICENSE file in the root directory of this source tree.
 		*/
-		__iconData$8.node;
-		GripVertical = createLucideIcon(__iconData$8);
+		__iconData$9.node;
+		GripVertical = createLucideIcon(__iconData$9);
 	})))();
 }
-var __iconData$7, KeyRound;
+var __iconData$8, KeyRound;
 function init_key_round() {
 	return (init_key_round = __esmMin((() => {
 		init_createLucideIcon();
-		__iconData$7 = {
+		__iconData$8 = {
 			name: "key-round",
 			size: 24,
 			node: [["path", {
@@ -618,15 +618,15 @@ function init_key_round() {
 		* This source code is licensed under the ISC license.
 		* See the LICENSE file in the root directory of this source tree.
 		*/
-		__iconData$7.node;
-		KeyRound = createLucideIcon(__iconData$7);
+		__iconData$8.node;
+		KeyRound = createLucideIcon(__iconData$8);
 	})))();
 }
-var __iconData$6, LayoutDashboard;
+var __iconData$7, LayoutDashboard;
 function init_layout_dashboard() {
 	return (init_layout_dashboard = __esmMin((() => {
 		init_createLucideIcon();
-		__iconData$6 = {
+		__iconData$7 = {
 			name: "layout-dashboard",
 			size: 24,
 			node: [
@@ -670,8 +670,60 @@ function init_layout_dashboard() {
 		* This source code is licensed under the ISC license.
 		* See the LICENSE file in the root directory of this source tree.
 		*/
+		__iconData$7.node;
+		LayoutDashboard = createLucideIcon(__iconData$7);
+	})))();
+}
+var __iconData$6, LayoutGrid;
+function init_layout_grid() {
+	return (init_layout_grid = __esmMin((() => {
+		init_createLucideIcon();
+		__iconData$6 = {
+			name: "layout-grid",
+			size: 24,
+			node: [
+				["rect", {
+					width: "7",
+					height: "7",
+					x: "3",
+					y: "3",
+					rx: "1",
+					key: "1g98yp"
+				}],
+				["rect", {
+					width: "7",
+					height: "7",
+					x: "14",
+					y: "3",
+					rx: "1",
+					key: "6d4xhi"
+				}],
+				["rect", {
+					width: "7",
+					height: "7",
+					x: "14",
+					y: "14",
+					rx: "1",
+					key: "nxv5o0"
+				}],
+				["rect", {
+					width: "7",
+					height: "7",
+					x: "3",
+					y: "14",
+					rx: "1",
+					key: "1bb6yr"
+				}]
+			]
+		};
+		/**
+		* @license lucide-react v1.59.0 - ISC
+		*
+		* This source code is licensed under the ISC license.
+		* See the LICENSE file in the root directory of this source tree.
+		*/
 		__iconData$6.node;
-		LayoutDashboard = createLucideIcon(__iconData$6);
+		LayoutGrid = createLucideIcon(__iconData$6);
 	})))();
 }
 var __iconData$5, Link2;
@@ -11361,6 +11413,22 @@ function usePortfolioWidgets() {
 		}
 	};
 }
+function PortfolioWidgetAddButton({ open, toggle }) {
+	return /* @__PURE__ */ (0, import_jsx_runtime$27.jsx)("button", {
+		type: "button",
+		className: "portfolio-widget-add",
+		"data-portfolio-add": "true",
+		"aria-label": "위젯 추가",
+		title: "위젯 추가",
+		"aria-haspopup": "dialog",
+		"aria-expanded": open,
+		onClick: (e) => {
+			e.currentTarget.focus({ preventScroll: true });
+			toggle();
+		},
+		children: /* @__PURE__ */ (0, import_jsx_runtime$27.jsx)(AppIcon, { icon: LayoutGrid })
+	});
+}
 function PortfolioWidgetSettings({ widgets }) {
 	return /* @__PURE__ */ (0, import_jsx_runtime$27.jsxs)("section", {
 		className: "portfolio-widget-settings",
@@ -11381,37 +11449,197 @@ function PortfolioWidgetSettings({ widgets }) {
 		]
 	});
 }
+function WidgetMiniature({ id }) {
+	return /* @__PURE__ */ (0, import_jsx_runtime$27.jsx)("svg", {
+		className: "portfolio-widget-miniature",
+		viewBox: "0 0 240 100",
+		"aria-hidden": "true",
+		focusable: "false",
+		children: id === "allocation" ? /* @__PURE__ */ (0, import_jsx_runtime$27.jsxs)(import_jsx_runtime$27.Fragment, { children: [
+			/* @__PURE__ */ (0, import_jsx_runtime$27.jsx)("circle", {
+				cx: "75",
+				cy: "50",
+				r: "32",
+				fill: "none",
+				stroke: "currentColor",
+				strokeWidth: "14",
+				opacity: ".18"
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime$27.jsx)("circle", {
+				cx: "75",
+				cy: "50",
+				r: "32",
+				fill: "none",
+				stroke: "currentColor",
+				strokeWidth: "14",
+				strokeDasharray: "125 202",
+				transform: "rotate(-90 75 50)"
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime$27.jsx)("path", {
+				d: "M135 30h65M135 50h48M135 70h58",
+				stroke: "currentColor",
+				strokeWidth: "7",
+				opacity: ".45"
+			})
+		] }) : id === "profit-contribution" ? /* @__PURE__ */ (0, import_jsx_runtime$27.jsxs)(import_jsx_runtime$27.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$27.jsx)("path", {
+			d: "M90 15v70",
+			stroke: "currentColor",
+			opacity: ".3"
+		}), /* @__PURE__ */ (0, import_jsx_runtime$27.jsx)("path", {
+			d: "M90 25h100M90 50h65M55 75h35",
+			stroke: "currentColor",
+			strokeWidth: "12"
+		})] }) : id === "weight-return" ? /* @__PURE__ */ (0, import_jsx_runtime$27.jsxs)(import_jsx_runtime$27.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$27.jsx)("path", {
+			d: "M25 15v70h190M25 50h190",
+			stroke: "currentColor",
+			fill: "none",
+			opacity: ".3"
+		}), [
+			[
+				55,
+				65,
+				5
+			],
+			[
+				95,
+				48,
+				8
+			],
+			[
+				145,
+				32,
+				11
+			],
+			[
+				190,
+				40,
+				6
+			]
+		].map(([cx, cy, r]) => /* @__PURE__ */ (0, import_jsx_runtime$27.jsx)("circle", {
+			cx,
+			cy,
+			r,
+			fill: "currentColor",
+			opacity: ".7"
+		}, cx))] }) : /* @__PURE__ */ (0, import_jsx_runtime$27.jsxs)(import_jsx_runtime$27.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$27.jsx)("path", {
+			d: "M15 80h210M15 50h210M15 20h210",
+			stroke: "currentColor",
+			opacity: ".12"
+		}), /* @__PURE__ */ (0, import_jsx_runtime$27.jsx)("path", {
+			d: id === "vix" ? "M15 70L40 60L65 73L90 25L115 48L140 40L165 63L190 51L225 58" : id === "usdkrw" ? "M15 65L45 49L75 54L105 37L135 44L165 30L195 38L225 25" : "M15 76L40 62L65 67L90 42L115 52L140 30L165 39L190 22L225 16",
+			stroke: "currentColor",
+			strokeWidth: "3",
+			fill: "none",
+			strokeLinecap: "round",
+			strokeLinejoin: "round"
+		})] })
+	});
+}
 function PortfolioWidgetToolbar({ widgets, open, toggle }) {
+	const title = (0, import_react$22.useId)(), dialog = (0, import_react$22.useRef)(null);
+	(0, import_react$22.useLayoutEffect)(() => {
+		const node = dialog.current;
+		if (!open || !node) return;
+		const opener = node.ownerDocument.activeElement;
+		node.showModal();
+		(node.querySelector("[data-gallery-action]:not(:disabled)") ?? node.querySelector("button:not(:disabled)"))?.focus();
+		return () => {
+			if (node.open) node.close();
+			if (opener?.isConnected) opener.focus({ preventScroll: true });
+		};
+	}, [open]);
+	const trap = (e) => {
+		if (e.key !== "Tab") return;
+		const buttons = [...e.currentTarget.querySelectorAll("button:not(:disabled)")], first = buttons[0], last = buttons[buttons.length - 1], active = e.currentTarget.ownerDocument.activeElement;
+		if (e.shiftKey && active === first) {
+			e.preventDefault();
+			last?.focus();
+		} else if (!e.shiftKey && active === last) {
+			e.preventDefault();
+			first?.focus();
+		}
+	};
+	const reload = () => {
+		(dialog.current?.querySelector("[aria-label=\"위젯 갤러리 닫기\"]") ?? (typeof document !== "undefined" ? document.querySelector("[data-portfolio-add]") : null))?.focus({ preventScroll: true });
+		widgets.reload();
+	};
+	const errors = widgets.error && /* @__PURE__ */ (0, import_jsx_runtime$27.jsxs)(import_jsx_runtime$27.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$27.jsx)("p", {
+		role: "alert",
+		children: widgets.error
+	}), /* @__PURE__ */ (0, import_jsx_runtime$27.jsx)("button", {
+		type: "button",
+		onClick: reload,
+		children: "배치 다시 읽기"
+	})] });
 	return /* @__PURE__ */ (0, import_jsx_runtime$27.jsxs)("section", {
 		className: "portfolio-widgets",
 		"aria-label": "포트폴리오 위젯",
 		children: [
-			/* @__PURE__ */ (0, import_jsx_runtime$27.jsxs)("div", {
-				className: "section-heading",
-				children: [/* @__PURE__ */ (0, import_jsx_runtime$27.jsx)("h2", { children: "위젯" }), /* @__PURE__ */ (0, import_jsx_runtime$27.jsx)("button", {
-					type: "button",
-					className: "text-button",
-					"data-portfolio-add": "true",
-					"aria-expanded": open,
-					onClick: toggle,
-					children: "추가·편집"
-				})]
+			!open && errors,
+			open && /* @__PURE__ */ (0, import_jsx_runtime$27.jsxs)("dialog", {
+				ref: dialog,
+				onKeyDown: trap,
+				onCancel: (e) => {
+					e.preventDefault();
+					toggle();
+				},
+				className: "portfolio-widget-gallery",
+				"aria-labelledby": title,
+				"aria-describedby": `${title}-demo`,
+				children: [
+					/* @__PURE__ */ (0, import_jsx_runtime$27.jsxs)("header", {
+						className: "portfolio-widget-gallery-heading",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime$27.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime$27.jsx)("h2", {
+							id: title,
+							children: "위젯 추가"
+						}), /* @__PURE__ */ (0, import_jsx_runtime$27.jsx)("p", {
+							id: `${title}-demo`,
+							children: "미리보기 · 가상 데이터 (실제 자산·시세 아님)"
+						})] }), /* @__PURE__ */ (0, import_jsx_runtime$27.jsx)("button", {
+							type: "button",
+							"aria-label": "위젯 갤러리 닫기",
+							onClick: toggle,
+							children: /* @__PURE__ */ (0, import_jsx_runtime$27.jsx)(AppIcon, { icon: X })
+						})]
+					}),
+					errors,
+					/* @__PURE__ */ (0, import_jsx_runtime$27.jsx)("div", {
+						className: "portfolio-widget-gallery-grid",
+						children: PORTFOLIO_WIDGETS.map((w) => {
+							const shown = !widgets.value.hidden.includes(w.id);
+							return /* @__PURE__ */ (0, import_jsx_runtime$27.jsxs)("article", {
+								className: "portfolio-widget-gallery-card",
+								"data-gallery-widget": w.id,
+								children: [
+									/* @__PURE__ */ (0, import_jsx_runtime$27.jsx)(WidgetMiniature, { id: w.id }),
+									/* @__PURE__ */ (0, import_jsx_runtime$27.jsx)("h3", { children: w.label }),
+									/* @__PURE__ */ (0, import_jsx_runtime$27.jsx)("button", {
+										type: "button",
+										"data-gallery-action": w.id,
+										disabled: !!widgets.error,
+										"aria-label": `${w.label} ${shown ? "숨기기" : "추가"}`,
+										"data-gallery-shown": shown,
+										onClick: () => widgets.hide(w.id, shown),
+										children: shown ? "표시 중 · 숨기기" : "추가"
+									})
+								]
+							}, w.id);
+						})
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime$27.jsx)("span", {
+						role: "status",
+						"aria-live": "polite",
+						className: "portfolio-widget-a11y",
+						children: widgets.announcement
+					})
+				]
 			}),
-			widgets.error && /* @__PURE__ */ (0, import_jsx_runtime$27.jsxs)(import_jsx_runtime$27.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$27.jsx)("p", {
-				role: "alert",
-				children: widgets.error
-			}), /* @__PURE__ */ (0, import_jsx_runtime$27.jsx)("button", {
-				type: "button",
-				onClick: widgets.reload,
-				children: "배치 다시 읽기"
-			})] }),
-			open && /* @__PURE__ */ (0, import_jsx_runtime$27.jsx)(PortfolioWidgetSettings, { widgets }),
 			/* @__PURE__ */ (0, import_jsx_runtime$27.jsx)("span", {
 				id: widgets.helpId,
 				className: "portfolio-widget-a11y",
 				children: "손잡이를 클릭하면 위치 메뉴가 열립니다. Space로 이동 선택, 방향키로 위치 선택, Enter로 확정, Escape로 취소합니다."
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$27.jsx)("span", {
+			!open && /* @__PURE__ */ (0, import_jsx_runtime$27.jsx)("span", {
 				role: "status",
 				"aria-live": "polite",
 				className: "portfolio-widget-a11y",
@@ -11581,7 +11809,7 @@ function init_PortfolioWidgets() {
 	return (init_PortfolioWidgets = __esmMin((() => {
 		import_react$22 = require_react();
 		import_react_dom$3 = require_react_dom();
-		init_grip_vertical();
+		init_grip_vertical(), init_layout_grid(), init_x();
 		init_AppIcon();
 		init_widgetLayout();
 		init_portfolio_widgets();
@@ -24819,6 +25047,10 @@ function App({ preview } = {}) {
 									(page === "overview" || page === "holdings") && /* @__PURE__ */ (0, import_jsx_runtime.jsx)(QueryStatus, {
 										fetchedAt: snapshot?.fetchedAt ?? null,
 										autoMinutes: autoRefreshAvailable ? refreshMinutes : 0
+									}),
+									(page === "overview" || page === "holdings") && snapshot && /* @__PURE__ */ (0, import_jsx_runtime.jsx)(PortfolioWidgetAddButton, {
+										open: widgetPickerOpen,
+										toggle: () => setWidgetPickerOpen((v) => !v)
 									}),
 									demo && !preview && (page === "overview" || page === "holdings") && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("label", {
 										className: "demo-state-picker",

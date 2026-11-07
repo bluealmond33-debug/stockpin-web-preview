@@ -1,6 +1,6 @@
 import { n as __esmMin } from "./rolldown-runtime-CnFjIZqj.js";
 import { n as require_react, t as require_jsx_runtime } from "./jsx-runtime-D3ER87f6.js";
-import { t as init_diary_trade_carousel } from "./diary-trade-carousel-BNkplf9_.js";
+import { t as init_diary_trade_carousel } from "./diary-trade-carousel-B8dTvHOF.js";
 function init_WebDemoTradeNotice() {
 	return (init_WebDemoTradeNotice = __esmMin((() => {
 		{

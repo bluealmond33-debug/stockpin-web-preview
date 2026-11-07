@@ -105,7 +105,19 @@
 .provider-grid-card .provider-grid-connection { margin-left: auto; font-size: 0.75rem; }
 .provider-grid-card .provider-grid-accounts { margin: 8px 0 0; }
 .provider-grid-card .provider-grid-query { font-size: 0.8125rem; }
-.connections-heading .connections-next-check { margin-left: auto; font-size: 0.8125rem; color: var(--muted, #a7a7a7); }
+/* Compact web cards only; native/default grid keeps its existing presentation. */
+.provider-grid-compact[data-state="connected"] .provider-grid-connection { color: var(--accent, #2bbf4a); }
+.provider-grid-compact[data-state="error"] .provider-grid-connection { color: var(--danger, #ef4444); }
+.connections-web-demo .connections-heading h2,
+.connections-web-demo .connections-heading h2 span { color: var(--accent, #2bbf4a); }
+.provider-grid-compact .provider-grid-accounts,
+.provider-grid-compact .provider-grid-query,
+.provider-grid-compact .provider-grid-time {
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 
 .provider-grid .provider-grid-action:focus-visible {
   outline: 1px solid currentColor;

@@ -1,8 +1,8 @@
 import { n as __esmMin } from "./rolldown-runtime-CnFjIZqj.js";
 import { n as require_react, t as require_jsx_runtime } from "./jsx-runtime-D3ER87f6.js";
-import { a as init_AppIcon } from "./AppIcon-DTp6b6Wl.js";
-import { a as init_portfolio, i as decimalRatioPercent, r as compareDecimalStrings } from "./portfolio-UGXOnruG.js";
-import { C as isOldFx, S as init_referenceFx, T as writeFx, _ as decodeReferenceHistory, a as init_WebDemoMarketModel, b as readReferenceRates, c as init_ReferenceRatesTable, d as REFERENCE_YEAR_HISTORY_KEY, f as init_referenceYearHistory, g as REFERENCE_HISTORY_KEY, i as decodeWebDemoMarket, l as displayReferenceRate, m as writeReferenceYearHistory, n as init_WebDemoMarketDetails, o as ReferenceRateRows, p as readReferenceYearHistory, r as WEB_DEMO_CAPTION, s as ReferenceRatesTable, t as WebDemoMarketDetails, v as init_referenceHistory, w as readFx, x as writeReferenceRates, y as init_referenceRates } from "./WebDemoMarketDetails-nn3iSZk5.js";
+import { a as init_AppIcon } from "./AppIcon-ekIUpJry.js";
+import { a as init_portfolio, i as decimalRatioPercent, r as compareDecimalStrings } from "./portfolio-CFH6ZZwV.js";
+import { C as isOldFx, S as init_referenceFx, T as writeFx, _ as decodeReferenceHistory, a as init_WebDemoMarketModel, b as readReferenceRates, c as init_ReferenceRatesTable, d as REFERENCE_YEAR_HISTORY_KEY, f as init_referenceYearHistory, g as REFERENCE_HISTORY_KEY, i as decodeWebDemoMarket, l as displayReferenceRate, m as writeReferenceYearHistory, n as init_WebDemoMarketDetails, o as ReferenceRateRows, p as readReferenceYearHistory, r as WEB_DEMO_CAPTION, s as ReferenceRatesTable, t as WebDemoMarketDetails, v as init_referenceHistory, w as readFx, x as writeReferenceRates, y as init_referenceRates } from "./WebDemoMarketDetails-CU10d-Ve.js";
 /******************************************************************************
 Copyright (c) Microsoft Corporation.
 
@@ -339,7 +339,7 @@ function useReferenceFx() {
 	};
 }
 function ReferenceFxCaption({ quote }) {
-	return /* @__PURE__ */ (0, import_jsx_runtime$10.jsxs)("small", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$11.jsxs)("small", {
 		className: "market-fx-caption",
 		title: `출처: ECB ${quote.sourceUrl}\n1 EUR = ${quote.eurUsd} USD / ${quote.eurKrw} KRW\nKRW/EUR ÷ USD/EUR로 계산, 소수 8자리 반올림\n불러온 시각: ${quote.observedAt}\n실시간·거래용 환율이 아니며 자산 환산에 자동 적용하지 않습니다.`,
 		children: [
@@ -350,13 +350,13 @@ function ReferenceFxCaption({ quote }) {
 		]
 	});
 }
-var import_react$10, import_jsx_runtime$10;
+var import_react$10, import_jsx_runtime$11;
 function init_ReferenceFxView() {
 	return (init_ReferenceFxView = __esmMin((() => {
 		import_react$10 = require_react();
 		init_core();
 		init_referenceFx();
-		import_jsx_runtime$10 = require_jsx_runtime();
+		import_jsx_runtime$11 = require_jsx_runtime();
 	})))();
 }
 function date(raw) {
@@ -520,19 +520,19 @@ function VixFileQuoteView() {
 		}
 	}
 	const old = state.quote && clock - Date.parse(state.quote.latest.sourceDate + "T00:00:00Z") > 6048e5;
-	return /* @__PURE__ */ (0, import_jsx_runtime$9.jsxs)(import_jsx_runtime$9.Fragment, { children: [
-		/* @__PURE__ */ (0, import_jsx_runtime$9.jsx)("p", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$10.jsxs)(import_jsx_runtime$10.Fragment, { children: [
+		/* @__PURE__ */ (0, import_jsx_runtime$10.jsx)("p", {
 			className: "market-vix-meaning",
 			children: "S&P 500 옵션 · 약 30일 예상 변동성 (연율 %)"
 		}),
-		/* @__PURE__ */ (0, import_jsx_runtime$9.jsx)("strong", {
+		/* @__PURE__ */ (0, import_jsx_runtime$10.jsx)("strong", {
 			"data-market-value": true,
 			children: state.quote ? formatMoney({
 				amount: state.quote.latest.close,
 				currency: "INDEX"
 			}, false, 2) : "—"
 		}),
-		state.quote && /* @__PURE__ */ (0, import_jsx_runtime$9.jsxs)("small", {
+		state.quote && /* @__PURE__ */ (0, import_jsx_runtime$10.jsxs)("small", {
 			className: "market-vix-caption",
 			title: `사용자가 VIX로 지정해 가져온 파일입니다. 원본의 출처·진위를 검증하지 않았습니다.\n파일 날짜 원문: ${state.quote.latest.sourceDateRaw}\n가져온 시각: ${state.quote.importedAt}\n종가의 확정 시각을 추정하지 않으며 실시간 지수가 아닙니다.`,
 			children: [
@@ -541,7 +541,7 @@ function VixFileQuoteView() {
 				" · 파일 종가 · 출처 미검증"
 			]
 		}),
-		/* @__PURE__ */ (0, import_jsx_runtime$9.jsx)("input", {
+		/* @__PURE__ */ (0, import_jsx_runtime$10.jsx)("input", {
 			ref: input,
 			className: "market-vix-input",
 			type: "file",
@@ -554,32 +554,32 @@ function VixFileQuoteView() {
 				if (file) importFile(file);
 			}
 		}),
-		/* @__PURE__ */ (0, import_jsx_runtime$9.jsx)("button", {
+		/* @__PURE__ */ (0, import_jsx_runtime$10.jsx)("button", {
 			type: "button",
 			className: "market-vix-import",
 			disabled: busy || state.blocked,
 			onClick: () => input.current?.click(),
 			children: busy ? "파일 읽는 중" : "VIX 파일 가져오기"
 		}),
-		state.error && /* @__PURE__ */ (0, import_jsx_runtime$9.jsx)("p", {
+		state.error && /* @__PURE__ */ (0, import_jsx_runtime$10.jsx)("p", {
 			role: "alert",
 			className: "market-vix-error",
 			children: state.error
 		}),
-		state.blocked && /* @__PURE__ */ (0, import_jsx_runtime$9.jsx)("button", {
+		state.blocked && /* @__PURE__ */ (0, import_jsx_runtime$10.jsx)("button", {
 			type: "button",
 			onClick: () => setState(load()),
 			children: "VIX 저장값 다시 읽기"
 		})
 	] });
 }
-var import_react$9, import_jsx_runtime$9;
+var import_react$9, import_jsx_runtime$10;
 function init_VixFileQuoteView() {
 	return (init_VixFileQuoteView = __esmMin((() => {
 		import_react$9 = require_react();
 		init_vixFile();
 		init_vix_file();
-		import_jsx_runtime$9 = require_jsx_runtime();
+		import_jsx_runtime$10 = require_jsx_runtime();
 	})))();
 }
 function MarketWidgetStrip({ prefs }) {
@@ -587,42 +587,42 @@ function MarketWidgetStrip({ prefs }) {
 	const visible = prefs.order.filter((id) => prefs.enabled.includes(id));
 	if (!visible.length) return null;
 	const hasFx = visible.includes("usdkrw");
-	return /* @__PURE__ */ (0, import_jsx_runtime$8.jsxs)("section", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$9.jsxs)("section", {
 		className: "market-indicators",
 		"aria-label": "시장 지표",
 		children: [
-			/* @__PURE__ */ (0, import_jsx_runtime$8.jsxs)("header", { children: [
-				/* @__PURE__ */ (0, import_jsx_runtime$8.jsx)("h2", { children: "시장 지표" }),
-				/* @__PURE__ */ (0, import_jsx_runtime$8.jsx)("span", { children: hasFx && fx.quote ? visible.some((id) => id !== "usdkrw") ? "일부 공급 미연결" : "ECB 참고환율" : "공급 미연결" }),
-				hasFx && fx.native && /* @__PURE__ */ (0, import_jsx_runtime$8.jsx)("button", {
+			/* @__PURE__ */ (0, import_jsx_runtime$9.jsxs)("header", { children: [
+				/* @__PURE__ */ (0, import_jsx_runtime$9.jsx)("h2", { children: "시장 지표" }),
+				/* @__PURE__ */ (0, import_jsx_runtime$9.jsx)("span", { children: hasFx && fx.quote ? visible.some((id) => id !== "usdkrw") ? "일부 공급 미연결" : "ECB 참고환율" : "공급 미연결" }),
+				hasFx && fx.native && /* @__PURE__ */ (0, import_jsx_runtime$9.jsx)("button", {
 					disabled: fx.busy || fx.blocked,
 					onClick: () => void fx.refresh(),
 					children: fx.busy ? "참고환율 불러오는 중" : "ECB 참고환율 불러오기"
 				})
 			] }),
-			/* @__PURE__ */ (0, import_jsx_runtime$8.jsx)("div", {
+			/* @__PURE__ */ (0, import_jsx_runtime$9.jsx)("div", {
 				className: "market-indicator-values",
-				children: visible.map((id) => /* @__PURE__ */ (0, import_jsx_runtime$8.jsxs)("div", {
+				children: visible.map((id) => /* @__PURE__ */ (0, import_jsx_runtime$9.jsxs)("div", {
 					"data-market-id": id,
 					children: [
-						/* @__PURE__ */ (0, import_jsx_runtime$8.jsx)("span", { children: MARKET_WIDGETS.find((w) => w.id === id).label }),
-						id === "vix" ? /* @__PURE__ */ (0, import_jsx_runtime$8.jsx)(VixFileQuoteView, {}) : /* @__PURE__ */ (0, import_jsx_runtime$8.jsx)("strong", {
+						/* @__PURE__ */ (0, import_jsx_runtime$9.jsx)("span", { children: MARKET_WIDGETS.find((w) => w.id === id).label }),
+						id === "vix" ? /* @__PURE__ */ (0, import_jsx_runtime$9.jsx)(VixFileQuoteView, {}) : /* @__PURE__ */ (0, import_jsx_runtime$9.jsx)("strong", {
 							"data-market-value": true,
 							children: id === "usdkrw" && fx.quote ? new Intl.NumberFormat("ko-KR", {
 								minimumFractionDigits: 2,
 								maximumFractionDigits: 2
 							}).format(Number(fx.quote.krwPerUsd)) : "—"
 						}),
-						id === "usdkrw" && fx.quote && /* @__PURE__ */ (0, import_jsx_runtime$8.jsx)(ReferenceFxCaption, { quote: fx.quote })
+						id === "usdkrw" && fx.quote && /* @__PURE__ */ (0, import_jsx_runtime$9.jsx)(ReferenceFxCaption, { quote: fx.quote })
 					]
 				}, id))
 			}),
-			hasFx && fx.error && /* @__PURE__ */ (0, import_jsx_runtime$8.jsx)("p", {
+			hasFx && fx.error && /* @__PURE__ */ (0, import_jsx_runtime$9.jsx)("p", {
 				role: "alert",
 				className: "market-fx-error",
 				children: fx.error
 			}),
-			hasFx && fx.blocked && /* @__PURE__ */ (0, import_jsx_runtime$8.jsx)("button", {
+			hasFx && fx.blocked && /* @__PURE__ */ (0, import_jsx_runtime$9.jsx)("button", {
 				onClick: fx.reload,
 				children: "참고환율 저장값 다시 읽기"
 			})
@@ -631,44 +631,44 @@ function MarketWidgetStrip({ prefs }) {
 }
 function MarketWidgetCard({ id }) {
 	const fx = useReferenceFx(), label = MARKET_WIDGETS.find((w) => w.id === id).label, hasFx = id === "usdkrw";
-	return /* @__PURE__ */ (0, import_jsx_runtime$8.jsxs)("section", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$9.jsxs)("section", {
 		className: "market-indicators",
 		"aria-label": label,
 		children: [
-			/* @__PURE__ */ (0, import_jsx_runtime$8.jsxs)("header", { children: [/* @__PURE__ */ (0, import_jsx_runtime$8.jsx)("h3", { children: label }), hasFx && fx.native && /* @__PURE__ */ (0, import_jsx_runtime$8.jsx)("button", {
+			/* @__PURE__ */ (0, import_jsx_runtime$9.jsxs)("header", { children: [/* @__PURE__ */ (0, import_jsx_runtime$9.jsx)("h3", { children: label }), hasFx && fx.native && /* @__PURE__ */ (0, import_jsx_runtime$9.jsx)("button", {
 				disabled: fx.busy || fx.blocked,
 				onClick: () => void fx.refresh(),
 				children: fx.busy ? "참고환율 불러오는 중" : "ECB 참고환율 불러오기"
 			})] }),
-			/* @__PURE__ */ (0, import_jsx_runtime$8.jsx)("div", {
+			/* @__PURE__ */ (0, import_jsx_runtime$9.jsx)("div", {
 				className: "market-indicator-values",
-				children: /* @__PURE__ */ (0, import_jsx_runtime$8.jsxs)("div", {
+				children: /* @__PURE__ */ (0, import_jsx_runtime$9.jsxs)("div", {
 					"data-market-id": id,
-					children: [id === "vix" ? /* @__PURE__ */ (0, import_jsx_runtime$8.jsx)(VixFileQuoteView, {}) : /* @__PURE__ */ (0, import_jsx_runtime$8.jsx)("strong", {
+					children: [id === "vix" ? /* @__PURE__ */ (0, import_jsx_runtime$9.jsx)(VixFileQuoteView, {}) : /* @__PURE__ */ (0, import_jsx_runtime$9.jsx)("strong", {
 						"data-market-value": true,
 						children: hasFx && fx.quote ? new Intl.NumberFormat("ko-KR", {
 							minimumFractionDigits: 2,
 							maximumFractionDigits: 2
 						}).format(Number(fx.quote.krwPerUsd)) : "—"
-					}), hasFx && fx.quote ? /* @__PURE__ */ (0, import_jsx_runtime$8.jsx)(ReferenceFxCaption, { quote: fx.quote }) : id !== "vix" && /* @__PURE__ */ (0, import_jsx_runtime$8.jsx)("small", {
+					}), hasFx && fx.quote ? /* @__PURE__ */ (0, import_jsx_runtime$9.jsx)(ReferenceFxCaption, { quote: fx.quote }) : id !== "vix" && /* @__PURE__ */ (0, import_jsx_runtime$9.jsx)("small", {
 						className: "scope-copy",
 						children: "공급 미연결"
 					})]
 				})
 			}),
-			hasFx && fx.error && /* @__PURE__ */ (0, import_jsx_runtime$8.jsx)("p", {
+			hasFx && fx.error && /* @__PURE__ */ (0, import_jsx_runtime$9.jsx)("p", {
 				role: "alert",
 				className: "market-fx-error",
 				children: fx.error
 			}),
-			hasFx && fx.blocked && /* @__PURE__ */ (0, import_jsx_runtime$8.jsx)("button", {
+			hasFx && fx.blocked && /* @__PURE__ */ (0, import_jsx_runtime$9.jsx)("button", {
 				onClick: fx.reload,
 				children: "참고환율 저장값 다시 읽기"
 			})
 		]
 	});
 }
-var import_jsx_runtime$8;
+var import_jsx_runtime$9;
 function init_MarketWidgets() {
 	return (init_MarketWidgets = __esmMin((() => {
 		require_react();
@@ -677,7 +677,110 @@ function init_MarketWidgets() {
 		init_market_widgets();
 		init_ReferenceFxView();
 		init_VixFileQuoteView();
+		import_jsx_runtime$9 = require_jsx_runtime();
+	})))();
+}
+function init_sentiment_dial() {
+	return (init_sentiment_dial = __esmMin((() => {
+		{
+			const l = document.createElement("link");
+			l.rel = "stylesheet";
+			l.href = "/local/app/css-source/src/features/market/sentiment-dial.css";
+			document.head.appendChild(l);
+		}
+	})))();
+}
+/** Display-only 0–100 sentiment score. Not a VIX normalizer. */
+function SentimentDial({ value, label }) {
+	if (value === null || !Number.isFinite(value) || value < 0 || value > 100) return /* @__PURE__ */ (0, import_jsx_runtime$8.jsx)("div", {
+		className: "sentiment-dial sentiment-dial--unknown",
+		role: "img",
+		"aria-label": `${label}: 미확인`,
+		children: /* @__PURE__ */ (0, import_jsx_runtime$8.jsx)("span", { children: "미확인" })
+	});
+	const [x, y] = point(value, 54);
+	return /* @__PURE__ */ (0, import_jsx_runtime$8.jsx)("svg", {
+		className: "sentiment-dial",
+		viewBox: "0 -26 180 126",
+		role: "meter",
+		"aria-label": label,
+		"aria-valuemin": 0,
+		"aria-valuemax": 100,
+		"aria-valuenow": value,
+		"aria-valuetext": `${value} / 100 · 0 공포, 100 탐욕`,
+		children: /* @__PURE__ */ (0, import_jsx_runtime$8.jsxs)("g", {
+			"aria-hidden": "true",
+			children: [
+				ticks.slice(0, -1).map((start, index) => {
+					const [sx, sy] = point(start, 64);
+					const [ex, ey] = point(ticks[index + 1], 64);
+					return /* @__PURE__ */ (0, import_jsx_runtime$8.jsx)("path", {
+						className: `sentiment-dial__arc sentiment-dial__arc--${index}`,
+						d: `M ${sx} ${sy} A 64 64 0 0 1 ${ex} ${ey}`
+					}, start);
+				}),
+				ticks.map((tick) => {
+					const [x1, y1] = point(tick, 59);
+					const [x2, y2] = point(tick, 69);
+					const [tx, ty] = point(tick, 80);
+					return /* @__PURE__ */ (0, import_jsx_runtime$8.jsxs)("g", { children: [/* @__PURE__ */ (0, import_jsx_runtime$8.jsx)("line", {
+						className: "sentiment-dial__tick",
+						x1,
+						y1,
+						x2,
+						y2
+					}), /* @__PURE__ */ (0, import_jsx_runtime$8.jsx)("text", {
+						className: "sentiment-dial__scale",
+						x: tx,
+						y: ty + 3,
+						children: tick
+					})] }, tick);
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime$8.jsx)("line", {
+					className: "sentiment-dial__needle",
+					x1: 90,
+					y1: 74,
+					x2: x,
+					y2: y
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime$8.jsx)("text", {
+					x: 28,
+					y: 96,
+					className: "sentiment-dial__caption",
+					children: "공포"
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime$8.jsx)("text", {
+					x: 152,
+					y: 96,
+					className: "sentiment-dial__caption",
+					children: "탐욕"
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime$8.jsx)("text", {
+					x: 90,
+					y: 96,
+					className: "sentiment-dial__value",
+					children: value
+				})
+			]
+		})
+	});
+}
+var import_jsx_runtime$8, ticks, point;
+function init_SentimentDial() {
+	return (init_SentimentDial = __esmMin((() => {
+		init_sentiment_dial();
 		import_jsx_runtime$8 = require_jsx_runtime();
+		ticks = [
+			0,
+			25,
+			50,
+			75,
+			100
+		];
+		point = (value, radius) => {
+			const angle = value * Math.PI / 100;
+			return [Number((90 - radius * Math.cos(angle)).toFixed(6)), Number((74 - radius * Math.sin(angle)).toFixed(6))];
+		};
 	})))();
 }
 function init_fear_greed_details() {
@@ -745,7 +848,7 @@ function WebDemoIndexRows({ rows, onOpen }) {
 							className: "web-demo-index-change",
 							"data-direction": direction,
 							title: comparisonTitle,
-							children: compared ? `${row.change} (${row.percent})` : "등락 미확인"
+							children: compared ? `${row.change}\n(${row.percent})` : "등락 미확인"
 						})]
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime$7.jsx)("dd", {
@@ -763,62 +866,26 @@ function WebDemoIndexRows({ rows, onOpen }) {
 		})
 	});
 }
-/** Uses the native gauge geometry/styles without forging a provider FearQuote. */
+/** Passive web dial: preserve raw supplied values; never fabricate provider quotes. */
 function WebDemoMarketGauge({ row }) {
 	const label = row.category === "stocksSentiment" ? "주식 공포·탐욕" : row.label;
 	const meaning = row.category === "stocksSentiment" ? "주식 심리 · 0–100점 · 매매 신호 아님" : row.meaning;
 	return /* @__PURE__ */ (0, import_jsx_runtime$7.jsxs)("div", {
-		className: "fear-gauge",
-		children: [row.value !== null && /* @__PURE__ */ (0, import_jsx_runtime$7.jsxs)("svg", {
-			viewBox: "0 0 72 72",
-			width: "72",
-			height: "72",
-			role: "meter",
-			"aria-label": `${row.label} 가상 점수`,
-			"aria-valuemin": 0,
-			"aria-valuemax": 100,
-			"aria-valuenow": Number(row.value),
-			"aria-valuetext": `${row.value}점 · 가상 기준일 2024-03-31`,
-			children: [
-				/* @__PURE__ */ (0, import_jsx_runtime$7.jsx)("circle", {
-					className: "fear-gauge-track",
-					cx: "36",
-					cy: "36",
-					r: "32"
-				}),
-				/* @__PURE__ */ (0, import_jsx_runtime$7.jsx)("circle", {
-					className: "fear-gauge-progress",
-					cx: "36",
-					cy: "36",
-					r: "32",
-					pathLength: "100",
-					strokeDasharray: `${row.value} 100`,
-					transform: "rotate(-90 36 36)"
-				}),
-				/* @__PURE__ */ (0, import_jsx_runtime$7.jsx)("text", {
-					x: "36",
-					y: "36",
-					dy: ".35em",
-					textAnchor: "middle",
-					className: "fear-gauge-score",
-					children: row.value
-				})
-			]
+		className: "web-demo-gauge",
+		children: [/* @__PURE__ */ (0, import_jsx_runtime$7.jsx)(SentimentDial, {
+			value: row.value !== null ? Number(row.value) : null,
+			label: `${row.label} 가상 점수 · ${row.sourceDate ?? "기준일 미확인"}`
 		}), /* @__PURE__ */ (0, import_jsx_runtime$7.jsxs)("div", {
-			className: "fear-gauge-info",
+			className: "web-demo-gauge-info",
 			children: [
-				/* @__PURE__ */ (0, import_jsx_runtime$7.jsx)("h3", {
+				/* @__PURE__ */ (0, import_jsx_runtime$7.jsx)("h2", {
 					title: row.label,
 					children: label
 				}),
 				/* @__PURE__ */ (0, import_jsx_runtime$7.jsx)("p", {
-					className: "fear-gauge-state",
-					children: row.value === null ? "값 미확인" : `${row.value} / 100점`
-				}),
-				/* @__PURE__ */ (0, import_jsx_runtime$7.jsx)("p", {
-					className: "fear-meta",
+					className: "web-demo-gauge-scale",
 					title: `${row.meaning} · ${WEB_DEMO_CAPTION}`,
-					children: meaning
+					children: row.value === null ? "값 미확인" : "0–100점"
 				}),
 				/* @__PURE__ */ (0, import_jsx_runtime$7.jsx)("dl", {
 					className: "web-demo-sentiment-comparisons",
@@ -829,14 +896,22 @@ function WebDemoMarketGauge({ row }) {
 							children: comparison.date
 						})]
 					})] }, comparison.key))
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime$7.jsx)("span", {
+					className: "web-demo-gauge-meaning",
+					title: row.meaning,
+					children: row.category === "stocksSentiment" ? meaning : "매매 신호 아님"
 				})
 			]
 		})]
 	});
 }
-function WebDemoMarketPanels({ view, group }) {
+function WebDemoMarketPanels({ view, group, filters, regionControls }) {
 	const [detail, setDetail] = (0, import_react$7.useState)(null), opener = (0, import_react$7.useRef)(null);
-	const market = view.market, selected = [
+	(0, import_react$7.useEffect)(() => {
+		setDetail(null);
+	}, [group]);
+	const market = view.market, vixCompared = market.vix.status === "ready" && market.vix.value !== null && market.vix.change !== null && market.vix.percent !== null && market.vix.comparisonDate !== null, selected = [
 		...market.fx,
 		...market.indices,
 		market.stocksSentiment,
@@ -863,26 +938,74 @@ function WebDemoMarketPanels({ view, group }) {
 			role: market.status === "error" ? "alert" : "status",
 			children: market.status === "error" ? "가상 자료 확인 실패" : market.status === "empty" ? "가상 자료 없음" : "가상 자료 미조회"
 		}),
+		/* @__PURE__ */ (0, import_jsx_runtime$7.jsxs)("section", {
+			className: "web-demo-market-overview",
+			"aria-label": "시장 심리 요약",
+			children: [/* @__PURE__ */ (0, import_jsx_runtime$7.jsxs)("div", {
+				className: "web-demo-market-bitcoin",
+				children: [/* @__PURE__ */ (0, import_jsx_runtime$7.jsx)(WebDemoMarketGauge, { row: market.bitcoinSentiment }), /* @__PURE__ */ (0, import_jsx_runtime$7.jsx)("button", {
+					type: "button",
+					"aria-haspopup": "dialog",
+					onClick: (event) => open(market.bitcoinSentiment.id, event.currentTarget),
+					children: "비트코인 심리 상세 추이"
+				})]
+			}), /* @__PURE__ */ (0, import_jsx_runtime$7.jsxs)("div", {
+				className: "web-demo-vix-summary",
+				title: market.vix.meaning,
+				children: [
+					/* @__PURE__ */ (0, import_jsx_runtime$7.jsx)("h2", { children: /* @__PURE__ */ (0, import_jsx_runtime$7.jsx)("button", {
+						type: "button",
+						"aria-haspopup": "dialog",
+						"aria-label": "VIX 상세 추이",
+						onClick: (event) => open(market.vix.id, event.currentTarget),
+						children: "VIX"
+					}) }),
+					/* @__PURE__ */ (0, import_jsx_runtime$7.jsx)("strong", {
+						title: `${market.vix.value ?? "미확인"} · ${market.vix.sourceDate ?? "기준일 미확인"} · ${market.vix.provenance.source}`,
+						children: market.vix.value === null ? "미확인" : market.vix.displayValue
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime$7.jsx)("span", {
+						"data-direction": vixCompared ? market.vix.direction : "unknown",
+						children: vixCompared ? `${market.vix.change} (${market.vix.percent})` : "등락 미확인"
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime$7.jsx)("p", { children: "변동성 지수 · 0–100 점수 아님" })
+				]
+			})]
+		}),
+		filters,
 		group !== "fx" && /* @__PURE__ */ (0, import_jsx_runtime$7.jsxs)("section", {
 			className: "market-indicators reference-rates-table web-demo-market-indices",
 			"aria-label": "가상 시장 지수",
-			children: [/* @__PURE__ */ (0, import_jsx_runtime$7.jsx)("header", {
-				className: "reference-rates-heading",
-				children: /* @__PURE__ */ (0, import_jsx_runtime$7.jsx)("h2", { children: "시장 지수" })
-			}), /* @__PURE__ */ (0, import_jsx_runtime$7.jsx)("div", {
-				className: "reference-rate-groups",
-				children: indexGroups.map((item) => /* @__PURE__ */ (0, import_jsx_runtime$7.jsxs)("div", {
-					className: "reference-rate-group",
-					role: "group",
-					"aria-label": item.name,
-					children: [/* @__PURE__ */ (0, import_jsx_runtime$7.jsx)("h3", { children: item.name }), /* @__PURE__ */ (0, import_jsx_runtime$7.jsx)(WebDemoIndexRows, {
-						rows: item.rows,
-						onOpen: open
-					})]
-				}, item.name))
-			})]
+			children: [
+				/* @__PURE__ */ (0, import_jsx_runtime$7.jsxs)("header", {
+					className: "reference-rates-heading",
+					children: [/* @__PURE__ */ (0, import_jsx_runtime$7.jsx)("h2", { children: "시장 지수" }), regionControls]
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime$7.jsxs)("div", {
+					className: "web-demo-index-columns",
+					"aria-hidden": "true",
+					children: [
+						/* @__PURE__ */ (0, import_jsx_runtime$7.jsx)("span", { children: "지수" }),
+						/* @__PURE__ */ (0, import_jsx_runtime$7.jsx)("span", { children: "가격" }),
+						/* @__PURE__ */ (0, import_jsx_runtime$7.jsx)("span", { children: "등락률" }),
+						/* @__PURE__ */ (0, import_jsx_runtime$7.jsx)("span", { children: "그래프" })
+					]
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime$7.jsx)("div", {
+					className: "reference-rate-groups",
+					children: indexGroups.map((item) => /* @__PURE__ */ (0, import_jsx_runtime$7.jsxs)("div", {
+						className: "reference-rate-group",
+						role: "group",
+						"aria-label": item.name,
+						children: [/* @__PURE__ */ (0, import_jsx_runtime$7.jsx)("h3", { children: item.name }), /* @__PURE__ */ (0, import_jsx_runtime$7.jsx)(WebDemoIndexRows, {
+							rows: item.rows,
+							onOpen: open
+						})]
+					}, item.name))
+				})
+			]
 		}),
-		(group === "all" || group === "fx") && /* @__PURE__ */ (0, import_jsx_runtime$7.jsxs)("section", {
+		group === "fx" && /* @__PURE__ */ (0, import_jsx_runtime$7.jsxs)("section", {
 			className: "market-indicators reference-rates-table web-demo-market-fx",
 			"aria-label": "가상 환율",
 			children: [/* @__PURE__ */ (0, import_jsx_runtime$7.jsx)("header", {
@@ -907,36 +1030,16 @@ function WebDemoMarketPanels({ view, group }) {
 				}, item.name))
 			})]
 		}),
-		(group === "all" || group === "us") && /* @__PURE__ */ (0, import_jsx_runtime$7.jsxs)("section", {
-			className: "market-mood",
-			"aria-label": "미국 주식 변동성·심리",
-			children: [/* @__PURE__ */ (0, import_jsx_runtime$7.jsx)("h2", { children: "미국 주식 변동성·심리" }), /* @__PURE__ */ (0, import_jsx_runtime$7.jsxs)("div", {
-				className: "market-mood-values",
-				children: [/* @__PURE__ */ (0, import_jsx_runtime$7.jsxs)("div", {
-					className: "reference-rates-table",
-					children: [/* @__PURE__ */ (0, import_jsx_runtime$7.jsx)(ReferenceRateRows, {
-						rows: [presentation(market.vix)],
-						onOpen: open
-					}), /* @__PURE__ */ (0, import_jsx_runtime$7.jsx)("p", { children: market.vix.meaning })]
-				}), /* @__PURE__ */ (0, import_jsx_runtime$7.jsxs)("div", {
-					className: "web-demo-market-stocks",
-					children: [/* @__PURE__ */ (0, import_jsx_runtime$7.jsx)(WebDemoMarketGauge, { row: market.stocksSentiment }), /* @__PURE__ */ (0, import_jsx_runtime$7.jsx)("button", {
-						type: "button",
-						"aria-haspopup": "dialog",
-						onClick: (event) => open(market.stocksSentiment.id, event.currentTarget),
-						children: "주식 심리 상세 추이"
-					})]
+		(group === "all" || group === "us") && /* @__PURE__ */ (0, import_jsx_runtime$7.jsxs)("details", {
+			className: "web-demo-stock-sentiment",
+			children: [/* @__PURE__ */ (0, import_jsx_runtime$7.jsx)("summary", { children: "주식 심리" }), /* @__PURE__ */ (0, import_jsx_runtime$7.jsxs)("div", {
+				className: "web-demo-market-stocks",
+				children: [/* @__PURE__ */ (0, import_jsx_runtime$7.jsx)(WebDemoMarketGauge, { row: market.stocksSentiment }), /* @__PURE__ */ (0, import_jsx_runtime$7.jsx)("button", {
+					type: "button",
+					"aria-haspopup": "dialog",
+					onClick: (event) => open(market.stocksSentiment.id, event.currentTarget),
+					children: "주식 심리 상세 추이"
 				})]
-			})]
-		}),
-		group === "all" && /* @__PURE__ */ (0, import_jsx_runtime$7.jsxs)("section", {
-			className: "market-crypto bitcoin-sentiment web-demo-market-bitcoin",
-			"aria-label": "가상자산 심리",
-			children: [/* @__PURE__ */ (0, import_jsx_runtime$7.jsx)(WebDemoMarketGauge, { row: market.bitcoinSentiment }), /* @__PURE__ */ (0, import_jsx_runtime$7.jsx)("button", {
-				type: "button",
-				"aria-haspopup": "dialog",
-				onClick: (event) => open(market.bitcoinSentiment.id, event.currentTarget),
-				children: "비트코인 심리 상세 추이"
 			})]
 		}),
 		selected && /* @__PURE__ */ (0, import_jsx_runtime$7.jsx)(WebDemoMarketDetails, {
@@ -950,6 +1053,7 @@ var import_react$7, import_jsx_runtime$7;
 function init_WebDemoMarketPanels() {
 	return (init_WebDemoMarketPanels = __esmMin((() => {
 		import_react$7 = require_react();
+		init_SentimentDial();
 		init_ReferenceRatesTable();
 		init_WebDemoMarketDetails();
 		init_WebDemoMarketModel();
@@ -2668,11 +2772,38 @@ function MarketPage({ active = true, snapshots, demoPresentation }) {
 		...defaultMarketPrefs(),
 		enabled: groups.find((g) => g.id === group).items.filter((id) => id !== "vix" && id !== "usdkrw")
 	};
+	const demoFilters = /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+		className: "market-page-filters web-demo-market-tabs",
+		role: "group",
+		"aria-label": "시장 보기",
+		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
+			type: "button",
+			"aria-pressed": group !== "fx",
+			onClick: () => setGroup("all"),
+			children: "시장"
+		}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
+			type: "button",
+			"aria-pressed": group === "fx",
+			onClick: () => setGroup("fx"),
+			children: "환율"
+		})]
+	});
+	const regionControls = /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+		className: "web-demo-region-choices",
+		role: "group",
+		"aria-label": "지수 지역",
+		children: groups.filter((g) => g.id !== "fx").map((g) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
+			type: "button",
+			"aria-pressed": group === g.id,
+			onClick: () => setGroup(g.id),
+			children: g.label
+		}, g.id))
+	});
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
 		className: "market-page",
 		"aria-label": "시장",
 		"data-market-demo": demoPresentation !== void 0 ? "synthetic" : void 0,
-		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+		children: [demoPresentation === void 0 && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 			className: "market-page-filters",
 			role: "group",
 			"aria-label": "시장 분류",
@@ -2684,8 +2815,10 @@ function MarketPage({ active = true, snapshots, demoPresentation }) {
 			}, g.id))
 		}), active && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(import_jsx_runtime.Fragment, { children: [demoPresentation !== void 0 ? demo ? /* @__PURE__ */ (0, import_jsx_runtime.jsx)(WebDemoMarketPanels, {
 			view: demo,
-			group
-		}, group) : /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+			group,
+			filters: demoFilters,
+			regionControls
+		}) : /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 			role: "alert",
 			children: "가상 시장 자료 확인 필요 · 실제 데이터로 대체하지 않습니다."
 		}) : /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(import_jsx_runtime.Fragment, { children: [

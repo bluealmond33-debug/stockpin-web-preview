@@ -1,6 +1,6 @@
 import { n as __esmMin, r as __toESM, t as __commonJSMin } from "./rolldown-runtime-CnFjIZqj.js";
 import { n as require_react, t as require_jsx_runtime } from "./jsx-runtime-D3ER87f6.js";
-import { i as require_react_dom, n as init_ThemeControl, r as initializeTheme } from "./ThemeControl-Ab7Pfkhw.js";
+import { i as require_react_dom, n as init_ThemeControl, r as initializeTheme } from "./ThemeControl-BTmhrPtE.js";
 /**
 * @license React
 * scheduler.production.js
@@ -10957,23 +10957,23 @@ function init_web_entry() {
 		};
 		navigator.sendBeacon = () => false;
 		initializeTheme();
-		({default: App} = await import("./App-SzbyiG8e.js"));
-		({createDemoSnapshot} = await import("./portfolio-DpX3sWNO.js"));
-		({createWebPortfolio, WEB_DEMO_FX} = await import("./portfolio-CgtvofVV.js"));
-		({createJournalCommand} = await import("./journal-OhrsDOCR.js"));
-		({createInitializedBrowserJournal} = await import("./initialize-on-open-CKeQajAE.js"));
-		({createIndexedDBRepository} = await import("./indexeddb-B3pQtj--.js"));
-		({validateState: validateJournalState} = await import("./state-CUzkY5D6.js"));
-		({readManualResponse} = await import("./manualPersistence-GaHCWm3j.js"));
-		({createBackupSchema} = await import("./backup-codec-BIbITOjY.js"));
-		({createDisplayPreferences} = await import("./display-preferences-CrDyMW7P.js"));
-		({createBrowserBackupCommand} = await import("./backup-DSbCpu2M.js"));
-		({createBrowserFileTransport} = await import("./transport-BC4yk2Fv.js"));
-		({createMarketDemo, getSeries, getComponentData} = await import("./market-BdmoH7c_.js"));
-		({MarketPage} = await import("./MarketPage-BD_rxx6H.js"));
-		({WebDemoConnections} = await import("./WebDemoConnections-yrzZH_kp.js"));
-		({WebDemoTradeNotice} = await import("./WebDemoTradeNotice-n0goa3Wf.js"));
-		({WebDemoMarketWidget} = await import("./WebDemoMarketWidget-CQGMvwH_.js"));
+		({default: App} = await import("./App-ctATtkJs.js"));
+		({createDemoSnapshot} = await import("./portfolio-iGeJO75_.js"));
+		({createWebPortfolio, WEB_DEMO_FX} = await import("./portfolio-BmxDb_gp.js"));
+		({createJournalCommand} = await import("./journal-PxiNPifa.js"));
+		({createInitializedBrowserJournal} = await import("./initialize-on-open-BNf1wH_r.js"));
+		({createIndexedDBRepository} = await import("./indexeddb-DuviaEpz.js"));
+		({validateState: validateJournalState} = await import("./state-vENmTxvU.js"));
+		({readManualResponse} = await import("./manualPersistence-Dxd0t0bj.js"));
+		({createBackupSchema} = await import("./backup-codec-BCPZHwEy.js"));
+		({createDisplayPreferences} = await import("./display-preferences-B6HeJjEk.js"));
+		({createBrowserBackupCommand} = await import("./backup-rO9WeUFd.js"));
+		({createBrowserFileTransport} = await import("./transport-BFlB8cP4.js"));
+		({createMarketDemo, getSeries, getComponentData} = await import("./market-CAXeY7kl.js"));
+		({MarketPage} = await import("./MarketPage-BdL-lppf.js"));
+		({WebDemoConnections} = await import("./WebDemoConnections-BL0LsQBK.js"));
+		({WebDemoTradeNotice} = await import("./WebDemoTradeNotice-DBSwF9TY.js"));
+		({WebDemoMarketWidget} = await import("./WebDemoMarketWidget-CYd9Hj3o.js"));
 		repository = createIndexedDBRepository();
 		storage = createInitializedBrowserJournal(createJournalCommand({ repository }));
 		displayPreferences = createDisplayPreferences((() => {

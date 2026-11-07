@@ -1,6 +1,6 @@
 import { n as __esmMin } from "./rolldown-runtime-CnFjIZqj.js";
 import { t as require_jsx_runtime } from "./jsx-runtime-D3ER87f6.js";
-import { d as init_createLucideIcon, u as createLucideIcon } from "./AppIcon-DTp6b6Wl.js";
+import { d as init_createLucideIcon, u as createLucideIcon } from "./AppIcon-ekIUpJry.js";
 var __iconData$3, Plus;
 function init_plus() {
 	return (init_plus = __esmMin((() => {
@@ -210,8 +210,11 @@ function ProviderGrid({ items, now, compactWeb = false, nextCheckLabel, lastChec
 				const read = item.state === "disconnected" ? null : observation(item, now);
 				if (compactWeb) {
 					const labels = item.state === "disconnected" ? "" : accountLabels(item).replaceAll(`${name} · `, "").replaceAll(` · ${environment}`, "").replace(/••••[0-9-]{1,4}/g, (suffix) => `${suffix} · ${environment}`);
-					const stamp = lastCheckedAt ?? (item.state !== "disconnected" && item.queryState !== "never" && read?.valid ? item.lastSuccessAt : null);
-					const stampMs = stamp ? utcTimestamp(stamp) : null;
+					const candidate = item.state !== "disconnected" && item.queryState !== "never" ? lastCheckedAt ?? (read?.valid ? item.lastSuccessAt : null) : null;
+					const candidateMs = utcTimestamp(candidate);
+					const currentMs = utcTimestamp(now);
+					const stamp = candidateMs != null && currentMs != null && candidateMs <= currentMs ? candidate : null;
+					const stampMs = stamp ? candidateMs : null;
 					return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", {
 						className: "provider-grid-item provider-grid-compact",
 						"data-state": item.state,
@@ -244,33 +247,31 @@ function ProviderGrid({ items, now, compactWeb = false, nextCheckLabel, lastChec
 							}), item.state !== "disconnected" && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(import_jsx_runtime.Fragment, { children: [
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 									className: "provider-grid-accounts",
+									title: labels,
 									children: labels
 								}),
-								item.queryState !== "succeeded" && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-									className: "provider-grid-query",
-									children: item.queryState === "never" ? "미조회" : read?.query
-								}),
-								item.queryState === "succeeded" && !read?.complete && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-									className: "provider-grid-query",
-									children: read?.stale ? "오래됨" : read?.query
-								}),
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-									className: "provider-grid-time",
-									children: stamp && stampMs != null ? /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(import_jsx_runtime.Fragment, { children: ["마지막 확인 ", /* @__PURE__ */ (0, import_jsx_runtime.jsx)("time", {
-										dateTime: stamp,
-										title: stamp,
-										children: new Intl.DateTimeFormat("ko-KR", {
-											timeZone: "Asia/Seoul",
-											hour: "2-digit",
-											minute: "2-digit",
-											hourCycle: "h23"
-										}).format(new Date(stampMs))
-									})] }) : item.queryState === "never" ? "마지막 확인 없음" : read?.future ? "확인 시각 확인 필요" : "확인 시각 미확인"
+									className: "provider-grid-query",
+									children: item.queryState === "never" ? "자산 확인 전" : item.queryState === "failed" ? "자산 확인 실패" : item.queryState === "partial" ? "자산 부분 조회" : read?.complete ? "자산 확인 완료" : read?.stale ? "자산 마지막 성공 기록 · 오래됨" : "자산 확인 상태 미확인"
 								}),
-								nextCheckLabel && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
 									className: "provider-grid-time",
 									title: "웹 체험 · 실제 금융 요청 없음",
-									children: nextCheckLabel
+									children: [
+										"마지막 확인 ",
+										stamp && stampMs != null ? /* @__PURE__ */ (0, import_jsx_runtime.jsx)("time", {
+											dateTime: stamp,
+											title: stamp,
+											children: new Intl.DateTimeFormat("ko-KR", {
+												timeZone: "Asia/Seoul",
+												hour: "2-digit",
+												minute: "2-digit",
+												hourCycle: "h23"
+											}).format(new Date(stampMs))
+										}) : "—",
+										" · ",
+										nextCheckLabel || "자동 갱신 꺼짐"
+									]
 								})
 							] })]
 						})

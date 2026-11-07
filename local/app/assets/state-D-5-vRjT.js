@@ -1,5 +1,5 @@
 import { n as __esmMin } from "./rolldown-runtime-CnFjIZqj.js";
-import { a as init_validation, c as revision, d as uuid, f as validateRequest, l as temporaryData, m as init_calendar, n as date, o as keys, p as calendarLink, r as fail, s as plainCopy, t as bytes, u as text } from "./validation-C2O6cBVU.js";
+import { a as init_validation, c as revision, d as uuid, f as validateRequest, l as temporaryData, m as init_calendar, n as date, o as keys, p as calendarLink, r as fail, s as plainCopy, t as bytes, u as text } from "./validation-VimskkvC.js";
 function timestamp(v) {
 	text(v, 40);
 	if (!/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(\.\d{1,9})?Z$/.test(v) || !Number.isFinite(Date.parse(v))) fail();
