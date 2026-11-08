@@ -5,7 +5,7 @@ function init_market_widgets() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/features/market/market-widgets.css?v=source-build-r99";
+			l.href = "/local/app/css-source/src/features/market/market-widgets.css?v=source-build-r102";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -88,7 +88,7 @@ function init_reference_rates_table() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/features/market/reference-rates-table.css?v=source-build-r99";
+			l.href = "/local/app/css-source/src/features/market/reference-rates-table.css?v=source-build-r102";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -688,7 +688,7 @@ function init_reference_rate_details() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/features/market/reference-rate-details.css?v=source-build-r99";
+			l.href = "/local/app/css-source/src/features/market/reference-rate-details.css?v=source-build-r102";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -1145,7 +1145,7 @@ function init_sentiment_dial() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/features/market/sentiment-dial.css?v=source-build-r99";
+			l.href = "/local/app/css-source/src/features/market/sentiment-dial.css?v=source-build-r102";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -1307,7 +1307,7 @@ function init_fear_greed_details() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/features/market/fear-greed-details.css?v=source-build-r99";
+			l.href = "/local/app/css-source/src/features/market/fear-greed-details.css?v=source-build-r102";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -1908,7 +1908,7 @@ function init_market_page() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/features/market/market-page.css?v=source-build-r99";
+			l.href = "/local/app/css-source/src/features/market/market-page.css?v=source-build-r102";
 			document.head.appendChild(l);
 		}
 	})))();

@@ -1,8 +1,8 @@
 import { n as __esmMin } from "./rolldown-runtime-CnFjIZqj.js";
 import { n as require_react, t as require_jsx_runtime } from "./jsx-runtime-DGHTPpxp.js";
-import { n as init_WidgetMetricHelp, t as WidgetMetricHelp } from "./WidgetMetricHelp-Cjf5qekk.js";
-import { _ as ReferenceRateRows, y as init_ReferenceRatesTable } from "./market-page-ChJV9tzs.js";
-import { d as init_contract, f as projectPublicReference, i as referenceGeometry, r as init_PublicReferenceMarket, t as PublicReferenceDetail, u as decodePublicReferenceRelease } from "./PublicReferenceMarket-BNFd0XT3.js";
+import { n as init_WidgetMetricHelp, t as WidgetMetricHelp } from "./WidgetMetricHelp-DxhDuq-p.js";
+import { _ as ReferenceRateRows, y as init_ReferenceRatesTable } from "./market-page-8F4NLO8C.js";
+import { d as init_contract, f as projectPublicReference, i as referenceGeometry, r as init_PublicReferenceMarket, t as PublicReferenceDetail, u as decodePublicReferenceRelease } from "./PublicReferenceMarket-B14SSsuL.js";
 /** Public source only. Missing permission/data never borrows the fixed-demo feed. */
 function PublicMarketWidget({ id, release }) {
 	const [open, setOpen] = (0, import_react.useState)(false), opener = (0, import_react.useRef)(null);

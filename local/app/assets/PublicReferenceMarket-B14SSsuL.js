@@ -1,13 +1,13 @@
 import { n as __esmMin } from "./rolldown-runtime-CnFjIZqj.js";
 import { n as require_react, t as require_jsx_runtime } from "./jsx-runtime-DGHTPpxp.js";
-import { n as init_WidgetMetricHelp, t as WidgetMetricHelp } from "./WidgetMetricHelp-Cjf5qekk.js";
-import { R as init_market_widgets, _ as ReferenceRateRows, b as init_reference_rate_details, f as init_fearGreed, g as init_SentimentDial, h as VolatilityDial, m as SentimentDial, n as FearGreedDetails, r as init_FearGreedDetails, s as FEAR_LABELS$1, t as init_market_page, y as init_ReferenceRatesTable } from "./market-page-ChJV9tzs.js";
+import { n as init_WidgetMetricHelp, t as WidgetMetricHelp } from "./WidgetMetricHelp-DxhDuq-p.js";
+import { R as init_market_widgets, _ as ReferenceRateRows, b as init_reference_rate_details, f as init_fearGreed, g as init_SentimentDial, h as VolatilityDial, m as SentimentDial, n as FearGreedDetails, r as init_FearGreedDetails, s as FEAR_LABELS$1, t as init_market_page, y as init_ReferenceRatesTable } from "./market-page-8F4NLO8C.js";
 function init_public_reference() {
 	return (init_public_reference = __esmMin((() => {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/features/market/public-reference/public-reference.css?v=source-build-r99";
+			l.href = "/local/app/css-source/src/features/market/public-reference/public-reference.css?v=source-build-r102";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -256,7 +256,7 @@ function init_BitcoinPublicGauge() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/features/market/public-reference/bitcoin-public/BitcoinPublicGauge.css?v=source-build-r99";
+			l.href = "/local/app/css-source/src/features/market/public-reference/bitcoin-public/BitcoinPublicGauge.css?v=source-build-r102";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -1217,7 +1217,7 @@ function init_public_disclosures() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/features/market/public-disclosures/public-disclosures.css?v=source-build-r99";
+			l.href = "/local/app/css-source/src/features/market/public-disclosures/public-disclosures.css?v=source-build-r102";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -1700,9 +1700,11 @@ function UnconnectedIndices() {
 	});
 }
 /** Host must choose this instead of the native/demo MarketPage, never alongside it. */
-function PublicReferenceMarket({ release }) {
+function PublicReferenceMarket({ release, heatmapView }) {
+	const marketTabs = heatmapView ? [...baseMarketTabs, ["heatmap", "히트맵"]] : baseMarketTabs;
 	const [detail, setDetail] = (0, import_react.useState)(null), opener = (0, import_react.useRef)(null);
-	const [tab, setTab] = (0, import_react.useState)("indices"), tabId = (0, import_react.useId)();
+	const [requestedTab, setTab] = (0, import_react.useState)("indices"), tabId = (0, import_react.useId)();
+	const tab = requestedTab === "heatmap" && !heatmapView ? "indices" : requestedTab;
 	const select = (next) => {
 		setDetail(null);
 		setTab(next);
@@ -1813,6 +1815,7 @@ function PublicReferenceMarket({ release }) {
 						})
 					] }),
 					tab === "bonds" && /* @__PURE__ */ (0, import_jsx_runtime.jsx)(PublicTreasury, {}),
+					tab === "heatmap" && heatmapView,
 					tab === "commodities" && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
 						"aria-label": "원자재",
 						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("header", {
@@ -1994,7 +1997,7 @@ function PublicReferenceDetail({ release, pairId, onClose }) {
 		]
 	});
 }
-var import_react, import_jsx_runtime, format, signed, marketTabs;
+var import_react, import_jsx_runtime, format, signed, baseMarketTabs;
 function init_PublicReferenceMarket() {
 	return (init_PublicReferenceMarket = __esmMin((() => {
 		import_react = require_react();
@@ -2014,7 +2017,7 @@ function init_PublicReferenceMarket() {
 			maximumFractionDigits: 2
 		}).format(n);
 		signed = (n) => `${n > 0 ? "+" : ""}${format(n)}`;
-		marketTabs = [
+		baseMarketTabs = [
 			["indices", "지수 · 환율"],
 			["bonds", "채권"],
 			["commodities", "원자재"]

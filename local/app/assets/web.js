@@ -1,6 +1,6 @@
 import { n as __esmMin, r as __toESM, t as __commonJSMin } from "./rolldown-runtime-CnFjIZqj.js";
 import { n as require_react, t as require_jsx_runtime } from "./jsx-runtime-DGHTPpxp.js";
-import { i as require_react_dom, n as init_ThemeControl, r as initializeTheme } from "./ThemeControl-D108JMQi.js";
+import { i as require_react_dom, n as init_ThemeControl, r as initializeTheme } from "./ThemeControl-ButI9C8r.js";
 /**
 * @license React
 * scheduler.production.js
@@ -10847,7 +10847,7 @@ function init_styles() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/styles.css?v=source-build-r99";
+			l.href = "/local/app/css-source/src/styles.css?v=source-build-r102";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -10888,7 +10888,7 @@ function BackupDownloadControls() {
 		]
 	});
 }
-var import_react, import_client, import_jsx_runtime, deny, App, InstrumentDetails, createDemoSnapshot, createPortfolioWidgetDemo, createWebPortfolio, WEB_DEMO_FX, createJournalCommand, createInitializedBrowserJournal, createIndexedDBRepository, validateJournalState, readManualResponse, createBackupSchema, createDisplayPreferences, createBrowserBackupCommand, createBrowserFileTransport, WebDemoConnections, WebDemoTradeNotice, PublicReferenceMarket, verifiedEcbPublicRelease, PublicMarketWidget, repository, storage, displayPreferences, backupTransport, backupStorage, instrumentView, preview, BrandDisplayProvider;
+var import_react, import_client, import_jsx_runtime, deny, App, InstrumentDetails, createDemoSnapshot, createPortfolioWidgetDemo, createWebPortfolio, WEB_DEMO_FX, createJournalCommand, createInitializedBrowserJournal, createIndexedDBRepository, validateJournalState, readManualResponse, createBackupSchema, createDisplayPreferences, createBrowserBackupCommand, createBrowserFileTransport, WebDemoConnections, WebDemoTradeNotice, PublicReferenceMarket, verifiedEcbPublicRelease, PublicMarketWidget, PublicHeatmapExplorer, repository, storage, displayPreferences, backupTransport, backupStorage, instrumentView, preview, BrandDisplayProvider;
 function init_web_entry() {
 	return (init_web_entry = __esmMin((async () => {
 		import_react = /* @__PURE__ */ __toESM(require_react(), 1);
@@ -10916,24 +10916,25 @@ function init_web_entry() {
 		};
 		navigator.sendBeacon = () => false;
 		initializeTheme();
-		({default: App} = await import("./App-Da3s3Ojo.js"));
-		({InstrumentDetails} = await import("./InstrumentDetails-DeRdCtb9.js"));
-		({createDemoSnapshot} = await import("./portfolio-fWzgjB0G.js"));
-		({createPortfolioWidgetDemo} = await import("./portfolioWidgetPresentation-D7EwljFK.js"));
-		({createWebPortfolio, WEB_DEMO_FX} = await import("./portfolio-BIQ8cSV9.js"));
-		({createJournalCommand} = await import("./journal-DCW8icnT.js"));
-		({createInitializedBrowserJournal} = await import("./initialize-on-open-CVECxJ4X.js"));
-		({createIndexedDBRepository} = await import("./indexeddb-Ci0ZHZ9J.js"));
-		({validateState: validateJournalState} = await import("./state-Cl9xOgbU.js"));
-		({readManualResponse} = await import("./manualPersistence-C-C7i3wH.js"));
-		({createBackupSchema} = await import("./backup-codec-CwHq6sLe.js"));
-		({createDisplayPreferences} = await import("./display-preferences-D8dUsk3L.js"));
-		({createBrowserBackupCommand} = await import("./backup-D0bvYwy1.js"));
-		({createBrowserFileTransport} = await import("./transport-B9y11Ezk.js"));
-		({WebDemoConnections} = await import("./WebDemoConnections-Dq83v-TW.js"));
-		({WebDemoTradeNotice} = await import("./WebDemoTradeNotice-B_A42Tm8.js"));
-		({PublicReferenceMarket, verifiedEcbPublicRelease} = await import("./public-reference-CAYNJh9w.js"));
-		({PublicMarketWidget} = await import("./PublicMarketWidget-DUlPBF5B.js"));
+		({default: App} = await import("./App-B0il6VW9.js"));
+		({InstrumentDetails} = await import("./InstrumentDetails-Bku1hQAt.js"));
+		({createDemoSnapshot} = await import("./portfolio-DyvOKz1-.js"));
+		({createPortfolioWidgetDemo} = await import("./portfolioWidgetPresentation-D_sSdC3G.js"));
+		({createWebPortfolio, WEB_DEMO_FX} = await import("./portfolio-CoQ6BUaw.js"));
+		({createJournalCommand} = await import("./journal-DU8eKB9_.js"));
+		({createInitializedBrowserJournal} = await import("./initialize-on-open-B-KzM_PJ.js"));
+		({createIndexedDBRepository} = await import("./indexeddb-BnMZocOn.js"));
+		({validateState: validateJournalState} = await import("./state-BWqitwh4.js"));
+		({readManualResponse} = await import("./manualPersistence-D7Sx5HJ_.js"));
+		({createBackupSchema} = await import("./backup-codec-CFU_S8It.js"));
+		({createDisplayPreferences} = await import("./display-preferences-D5bxc9fX.js"));
+		({createBrowserBackupCommand} = await import("./backup-w45W6McL.js"));
+		({createBrowserFileTransport} = await import("./transport-BGZ3g0zB.js"));
+		({WebDemoConnections} = await import("./WebDemoConnections-CyxB7_ks.js"));
+		({WebDemoTradeNotice} = await import("./WebDemoTradeNotice-QT4zdPLK.js"));
+		({PublicReferenceMarket, verifiedEcbPublicRelease} = await import("./public-reference-CZ280ov_.js"));
+		({PublicMarketWidget} = await import("./PublicMarketWidget-Bzy7ARGc.js"));
+		({PublicHeatmapExplorer} = await import("./PublicHeatmapExplorer-DcSA3AzK.js"));
 		repository = createIndexedDBRepository();
 		storage = createInitializedBrowserJournal(createJournalCommand({ repository }));
 		displayPreferences = createDisplayPreferences((() => {
@@ -10985,14 +10986,17 @@ function init_web_entry() {
 				onCurrencyDisplayChange: display?.onCurrencyChange,
 				fxQuote: display?.fxQuote
 			}),
-			marketView: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(PublicReferenceMarket, { release: verifiedEcbPublicRelease }),
+			marketView: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(PublicReferenceMarket, {
+				release: verifiedEcbPublicRelease,
+				heatmapView: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(PublicHeatmapExplorer, {})
+			}),
 			marketWidgetView: (id) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(PublicMarketWidget, {
 				id,
 				release: verifiedEcbPublicRelease
 			}),
 			connectionsView: (refreshMinutes) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(WebDemoConnections, { refreshMinutes })
 		});
-		({BrandDisplayProvider} = await import("./BrandDisplayContext-C6AgJYgb.js"));
+		({BrandDisplayProvider} = await import("./BrandDisplayContext-SMOWF-g_.js"));
 		(0, import_client.createRoot)(document.getElementById("root")).render(/* @__PURE__ */ (0, import_jsx_runtime.jsx)(import_react.StrictMode, { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(BrandDisplayProvider, {
 			mode: document.documentElement.dataset.brandDisplay === "text-only" ? "text-only" : "original",
 			children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(App, { preview })

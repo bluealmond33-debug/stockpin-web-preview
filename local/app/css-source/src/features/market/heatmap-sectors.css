@@ -15,6 +15,9 @@
 .market-sector-block .market-treemap>button span{font-size:11px}
 .market-heatmap-comparison{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
 .market-heatmap-comparison>section{min-width:0}
+.market-heatmap-panel-controls{display:flex;align-items:end;flex-wrap:wrap;gap:12px}
+.market-heatmap-panel-controls>label{display:grid;gap:4px;min-width:0;max-width:100%}
+.market-heatmap-panel-controls select{min-width:0;max-width:100%;margin:0}
 .market-heatmap-comparison h3{font-size:15px;font-weight:500}
 .market-heatmap-comparison .market-sector-map{height:500px}
 .market-heatmap-comparison .market-sector-choices{gap:6px 12px;margin:12px 0}

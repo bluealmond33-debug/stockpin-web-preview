@@ -1,14 +1,16 @@
 import { n as __esmMin, r as __toESM } from "./rolldown-runtime-CnFjIZqj.js";
 import { n as require_react, t as require_jsx_runtime } from "./jsx-runtime-DGHTPpxp.js";
-import { i as require_react_dom, n as init_ThemeControl, t as ThemeControl } from "./ThemeControl-D108JMQi.js";
-import { a as init_AppIcon, c as Info, d as init_createLucideIcon, i as WonSign, l as init_info, n as SidebarCloseIcon, o as TriangleAlert, r as SidebarOpenIcon, s as init_triangle_alert, t as AppIcon, u as createLucideIcon } from "./AppIcon-HxmRgjk4.js";
-import { a as Unlink, c as init_refresh_cw, i as init_x, l as Plus, n as init_ProviderGrid, o as init_unlink, r as X, s as RefreshCw, t as ProviderGrid, u as init_plus } from "./ProviderGrid-B7Y_PoOR.js";
-import { a as formatDecimal, c as localTime, d as init_diary_trade_carousel, i as usableQuote, l as StockLogo, n as displaySnapshot, o as formatMoney, r as init_currencyDisplay, t as convertMoney, u as init_StockLogo } from "./currencyDisplay-D_7PrZZu.js";
-import { A as reconcileTradeObservation, D as validRecordDate, E as prepareDraftCandidate, F as init_portfolio, I as selectAccountSnapshot, L as summarizeKnownHoldings, M as allocationBasisPoints, N as compareDecimalStrings, O as assessTradeObservation, P as decimalRatioPercent, R as summarizePortfolio, S as imageSource, T as init_draft, _ as readCalendarLink, a as readManualResponse, b as readManualImage, c as sameTradeLink, d as manualDraftErrors, f as init_manualPdfs, g as init_calendarLink, h as calendarLinkKey, i as manualRequestWire, j as addDecimalStrings, k as init_tradeProvenance, l as validManualSave, m as readManualPdfs, n as manualErrorCode, o as readManualTradeLink, p as readManualPdf, r as manualErrorMessage, s as sameSummary, t as init_manualPersistence, u as init_manualDraft, v as init_manualAttachments, w as draftBlock, x as sameManualAttachments, y as readManualAttachments } from "./manualPersistence-B9PLy1nK.js";
-import { n as init_WidgetMetricHelp, t as WidgetMetricHelp } from "./WidgetMetricHelp-Cjf5qekk.js";
-import { A as init_referenceHistory, C as REFERENCE_YEAR_HISTORY_KEY, E as writeReferenceYearHistory, F as isOldFx, I as readFx, L as writeFx, M as readReferenceRates, N as writeReferenceRates, O as REFERENCE_HISTORY_KEY, P as init_referenceFx, R as init_market_widgets, T as readReferenceYearHistory, _ as ReferenceRateRows, a as displayClockInstant, b as init_reference_rate_details, c as FEAR_SOURCE, d as fearQuoteIsStale, f as init_fearGreed, g as init_SentimentDial, h as VolatilityDial, i as canonicalInstant, j as init_referenceRates, k as decodeReferenceHistory, l as FearGreedReader, m as SentimentDial, n as FearGreedDetails, o as init_fearGreedHistory, p as init_fear_greed_details, r as init_FearGreedDetails, s as FEAR_LABELS, t as init_market_page, u as coalescedFearRequest, v as ReferenceRatesTable, w as init_referenceYearHistory, x as displayReferenceRate, y as init_ReferenceRatesTable } from "./market-page-ChJV9tzs.js";
-import { t as createPortfolioWidgetDemo } from "./portfolioWidgetPresentation-pR89Rw7Y.js";
-import { n as createDemoSnapshot, r as init_portfolio$1 } from "./portfolio-B3DrbBdI.js";
+import { i as require_react_dom, n as init_ThemeControl, t as ThemeControl } from "./ThemeControl-ButI9C8r.js";
+import { a as init_AppIcon, c as Info, d as init_createLucideIcon, i as WonSign, l as init_info, n as SidebarCloseIcon, o as TriangleAlert, r as SidebarOpenIcon, s as init_triangle_alert, t as AppIcon, u as createLucideIcon } from "./AppIcon-CP3CLtyc.js";
+import { a as Unlink, c as init_refresh_cw, i as init_x, l as Plus, n as init_ProviderGrid, o as init_unlink, r as X, s as RefreshCw, t as ProviderGrid, u as init_plus } from "./ProviderGrid-C-hq8Bhh.js";
+import { a as formatDecimal, c as localTime, d as init_diary_trade_carousel, i as usableQuote, l as StockLogo, n as displaySnapshot, o as formatMoney, r as init_currencyDisplay, t as convertMoney, u as init_StockLogo } from "./currencyDisplay-DMViZNwN.js";
+import { a as init_portfolio, c as summarizePortfolio, i as decimalRatioPercent, n as allocationBasisPoints, o as selectAccountSnapshot, r as compareDecimalStrings, s as summarizeKnownHoldings, t as addDecimalStrings } from "./portfolio-9N77BA_A.js";
+import { A as reconcileTradeObservation, D as validRecordDate, E as prepareDraftCandidate, O as assessTradeObservation, S as imageSource, T as init_draft, _ as readCalendarLink, a as readManualResponse, b as readManualImage, c as sameTradeLink, d as manualDraftErrors, f as init_manualPdfs, g as init_calendarLink, h as calendarLinkKey, i as manualRequestWire, k as init_tradeProvenance, l as validManualSave, m as readManualPdfs, n as manualErrorCode, o as readManualTradeLink, p as readManualPdf, r as manualErrorMessage, s as sameSummary, t as init_manualPersistence, u as init_manualDraft, v as init_manualAttachments, w as draftBlock, x as sameManualAttachments, y as readManualAttachments } from "./manualPersistence-BRQ7mkxX.js";
+import { n as init_WidgetMetricHelp, t as WidgetMetricHelp } from "./WidgetMetricHelp-DxhDuq-p.js";
+import { A as init_referenceHistory, C as REFERENCE_YEAR_HISTORY_KEY, E as writeReferenceYearHistory, F as isOldFx, I as readFx, L as writeFx, M as readReferenceRates, N as writeReferenceRates, O as REFERENCE_HISTORY_KEY, P as init_referenceFx, R as init_market_widgets, T as readReferenceYearHistory, _ as ReferenceRateRows, a as displayClockInstant, b as init_reference_rate_details, c as FEAR_SOURCE, d as fearQuoteIsStale, f as init_fearGreed, g as init_SentimentDial, h as VolatilityDial, i as canonicalInstant, j as init_referenceRates, k as decodeReferenceHistory, l as FearGreedReader, m as SentimentDial, n as FearGreedDetails, o as init_fearGreedHistory, p as init_fear_greed_details, r as init_FearGreedDetails, s as FEAR_LABELS, t as init_market_page, u as coalescedFearRequest, v as ReferenceRatesTable, w as init_referenceYearHistory, x as displayReferenceRate, y as init_ReferenceRatesTable } from "./market-page-8F4NLO8C.js";
+import { t as createPortfolioWidgetDemo } from "./portfolioWidgetPresentation-B_c6he2V.js";
+import { a as init_MarketHeatmap, i as MARKET_UNIVERSES, o as init_marketSnapshot, r as init_HeatmapExplorer, s as parseMarketSnapshot, t as HeatmapExplorer } from "./HeatmapExplorer-DtxDvo5r.js";
+import { n as createDemoSnapshot, r as init_portfolio$1 } from "./portfolio-CQNqxQ_F.js";
 var __iconData$26, ArrowDownAZ;
 function init_arrow_down_a_z() {
 	return (init_arrow_down_a_z = __esmMin((() => {
@@ -933,7 +935,7 @@ function init_style() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/trade-review/style.css?v=source-build-r99";
+			l.href = "/local/app/css-source/src/trade-review/style.css?v=source-build-r102";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -942,8 +944,8 @@ function init_style() {
 * The caller supplies a .trade-review-root surface and owns preparation actions.
 */
 function TradeReviewPanel({ batch, privacy = false, selectedId, onSelect, onCancel, labels = defaultLabels, instrumentName, selectedActions, beforeContent }) {
-	const detailId = (0, import_react$65.useId)();
-	const rowButtons = (0, import_react$65.useRef)(/* @__PURE__ */ new Map());
+	const detailId = (0, import_react$63.useId)();
+	const rowButtons = (0, import_react$63.useRef)(/* @__PURE__ */ new Map());
 	const selected = batch.rows.find((row) => row.trade.tradeId === selectedId);
 	const observation = selected?.trade.observation;
 	function clearSelection() {
@@ -951,7 +953,7 @@ function TradeReviewPanel({ batch, privacy = false, selectedId, onSelect, onCanc
 		onCancel();
 		opener?.focus();
 	}
-	return /* @__PURE__ */ (0, import_jsx_runtime$78.jsxs)("div", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$76.jsxs)("div", {
 		onKeyDown: (event) => {
 			if (event.key === "Escape" && selected) {
 				event.preventDefault();
@@ -960,17 +962,17 @@ function TradeReviewPanel({ batch, privacy = false, selectedId, onSelect, onCanc
 		},
 		children: [
 			beforeContent,
-			/* @__PURE__ */ (0, import_jsx_runtime$78.jsx)("p", {
+			/* @__PURE__ */ (0, import_jsx_runtime$76.jsx)("p", {
 				className: "trade-review-scope",
 				children: labels.scope
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$78.jsx)("p", { children: "주문별 집계이며 개별 체결 내역이 아닙니다." }),
-			/* @__PURE__ */ (0, import_jsx_runtime$78.jsx)("p", {
+			/* @__PURE__ */ (0, import_jsx_runtime$76.jsx)("p", { children: "주문별 집계이며 개별 체결 내역이 아닙니다." }),
+			/* @__PURE__ */ (0, import_jsx_runtime$76.jsx)("p", {
 				role: batch.coverage === "error" ? "alert" : "status",
 				className: "trade-review-status",
 				children: labels.status(batch)
 			}),
-			batch.invalidCount > 0 && /* @__PURE__ */ (0, import_jsx_runtime$78.jsxs)("p", {
+			batch.invalidCount > 0 && /* @__PURE__ */ (0, import_jsx_runtime$76.jsxs)("p", {
 				className: "trade-review-status",
 				children: [
 					"검토할 수 없는 입력 ",
@@ -978,7 +980,7 @@ function TradeReviewPanel({ batch, privacy = false, selectedId, onSelect, onCanc
 					"건 제외"
 				]
 			}),
-			batch.outsideScopeCount > 0 && /* @__PURE__ */ (0, import_jsx_runtime$78.jsxs)("p", {
+			batch.outsideScopeCount > 0 && /* @__PURE__ */ (0, import_jsx_runtime$76.jsxs)("p", {
 				className: "trade-review-status",
 				children: [
 					"검토 범위가 다른 입력 ",
@@ -986,39 +988,39 @@ function TradeReviewPanel({ batch, privacy = false, selectedId, onSelect, onCanc
 					"건 제외"
 				]
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$78.jsxs)("div", {
+			/* @__PURE__ */ (0, import_jsx_runtime$76.jsxs)("div", {
 				className: "trade-review-columns",
-				children: [/* @__PURE__ */ (0, import_jsx_runtime$78.jsx)("section", {
+				children: [/* @__PURE__ */ (0, import_jsx_runtime$76.jsx)("section", {
 					"aria-label": labels.list,
-					children: /* @__PURE__ */ (0, import_jsx_runtime$78.jsx)("div", {
+					children: /* @__PURE__ */ (0, import_jsx_runtime$76.jsx)("div", {
 						className: "trade-review-table-scroll",
 						tabIndex: 0,
 						"aria-label": labels.table,
-						children: /* @__PURE__ */ (0, import_jsx_runtime$78.jsxs)("table", { children: [
-							/* @__PURE__ */ (0, import_jsx_runtime$78.jsxs)("caption", { children: [
+						children: /* @__PURE__ */ (0, import_jsx_runtime$76.jsxs)("table", { children: [
+							/* @__PURE__ */ (0, import_jsx_runtime$76.jsxs)("caption", { children: [
 								"검토 항목 ",
 								batch.rows.length,
 								"개"
 							] }),
-							/* @__PURE__ */ (0, import_jsx_runtime$78.jsx)("thead", { children: /* @__PURE__ */ (0, import_jsx_runtime$78.jsxs)("tr", { children: [
-								/* @__PURE__ */ (0, import_jsx_runtime$78.jsx)("th", {
+							/* @__PURE__ */ (0, import_jsx_runtime$76.jsx)("thead", { children: /* @__PURE__ */ (0, import_jsx_runtime$76.jsxs)("tr", { children: [
+								/* @__PURE__ */ (0, import_jsx_runtime$76.jsx)("th", {
 									scope: "col",
 									children: "항목"
 								}),
-								/* @__PURE__ */ (0, import_jsx_runtime$78.jsx)("th", {
+								/* @__PURE__ */ (0, import_jsx_runtime$76.jsx)("th", {
 									scope: "col",
 									children: "체결 수량"
 								}),
-								/* @__PURE__ */ (0, import_jsx_runtime$78.jsx)("th", {
+								/* @__PURE__ */ (0, import_jsx_runtime$76.jsx)("th", {
 									scope: "col",
 									children: "평균 체결가"
 								})
 							] }) }),
-							/* @__PURE__ */ (0, import_jsx_runtime$78.jsx)("tbody", { children: batch.rows.map((row, index) => /* @__PURE__ */ (0, import_jsx_runtime$78.jsxs)("tr", { children: [
-								/* @__PURE__ */ (0, import_jsx_runtime$78.jsxs)("th", {
+							/* @__PURE__ */ (0, import_jsx_runtime$76.jsx)("tbody", { children: batch.rows.map((row, index) => /* @__PURE__ */ (0, import_jsx_runtime$76.jsxs)("tr", { children: [
+								/* @__PURE__ */ (0, import_jsx_runtime$76.jsxs)("th", {
 									scope: "row",
 									children: [
-										/* @__PURE__ */ (0, import_jsx_runtime$78.jsx)("button", {
+										/* @__PURE__ */ (0, import_jsx_runtime$76.jsx)("button", {
 											type: "button",
 											"aria-label": `${labels.row(index)} 검토`,
 											"aria-pressed": row.trade.tradeId === selectedId,
@@ -1030,45 +1032,45 @@ function TradeReviewPanel({ batch, privacy = false, selectedId, onSelect, onCanc
 											onClick: () => onSelect(row.trade.tradeId),
 											children: labels.row(index)
 										}),
-										/* @__PURE__ */ (0, import_jsx_runtime$78.jsxs)("span", { children: [
+										/* @__PURE__ */ (0, import_jsx_runtime$76.jsxs)("span", { children: [
 											instrumentName?.(row.trade.observation.instrumentRef) ?? "종목명 미연결",
 											" ",
 											"·",
 											" ",
 											row.trade.observation.side === "BUY" ? "매수" : "매도"
 										] }),
-										row.conflictCount > 0 && /* @__PURE__ */ (0, import_jsx_runtime$78.jsx)("span", {
+										row.conflictCount > 0 && /* @__PURE__ */ (0, import_jsx_runtime$76.jsx)("span", {
 											className: "trade-review-status",
 											children: "변경 관측 · 기존 값 유지"
 										})
 									]
 								}),
-								/* @__PURE__ */ (0, import_jsx_runtime$78.jsx)("td", { children: row.trade.observation.filledQuantity ?? "미확인" }),
-								/* @__PURE__ */ (0, import_jsx_runtime$78.jsx)("td", { children: row.trade.observation.price === null ? "미확인" : privacy ? "••••••" : `${row.trade.observation.price} ${row.trade.observation.currency}` })
+								/* @__PURE__ */ (0, import_jsx_runtime$76.jsx)("td", { children: row.trade.observation.filledQuantity ?? "미확인" }),
+								/* @__PURE__ */ (0, import_jsx_runtime$76.jsx)("td", { children: row.trade.observation.price === null ? "미확인" : privacy ? "••••••" : `${row.trade.observation.price} ${row.trade.observation.currency}` })
 							] }, row.trade.tradeId)) })
 						] })
 					})
-				}), /* @__PURE__ */ (0, import_jsx_runtime$78.jsxs)("section", {
+				}), /* @__PURE__ */ (0, import_jsx_runtime$76.jsxs)("section", {
 					id: detailId,
 					"aria-label": "선택 항목 검토",
 					className: "trade-review-detail",
-					children: [/* @__PURE__ */ (0, import_jsx_runtime$78.jsx)("h2", { children: "선택 항목 검토" }), selected && observation ? /* @__PURE__ */ (0, import_jsx_runtime$78.jsxs)(import_jsx_runtime$78.Fragment, { children: [
-						/* @__PURE__ */ (0, import_jsx_runtime$78.jsxs)("p", { children: [
+					children: [/* @__PURE__ */ (0, import_jsx_runtime$76.jsx)("h2", { children: "선택 항목 검토" }), selected && observation ? /* @__PURE__ */ (0, import_jsx_runtime$76.jsxs)(import_jsx_runtime$76.Fragment, { children: [
+						/* @__PURE__ */ (0, import_jsx_runtime$76.jsxs)("p", { children: [
 							instrumentName?.(observation.instrumentRef) ?? "종목명 미연결",
 							" ",
 							"· ",
 							observation.side === "BUY" ? "매수" : "매도"
 						] }),
-						/* @__PURE__ */ (0, import_jsx_runtime$78.jsx)("p", {
+						/* @__PURE__ */ (0, import_jsx_runtime$76.jsx)("p", {
 							className: "trade-review-status",
 							children: "일지 날짜 미확정 · 차트와 일지에 연결하지 않습니다."
 						}),
-						selected.duplicateCount > 0 && /* @__PURE__ */ (0, import_jsx_runtime$78.jsxs)("p", { children: [
+						selected.duplicateCount > 0 && /* @__PURE__ */ (0, import_jsx_runtime$76.jsxs)("p", { children: [
 							"동일 관측 ",
 							selected.duplicateCount,
 							"건 · 항목 추가 없음"
 						] }),
-						selected.conflictCount > 0 && /* @__PURE__ */ (0, import_jsx_runtime$78.jsxs)("p", {
+						selected.conflictCount > 0 && /* @__PURE__ */ (0, import_jsx_runtime$76.jsxs)("p", {
 							className: "trade-review-status",
 							children: [
 								"변경 관측 ",
@@ -1076,36 +1078,36 @@ function TradeReviewPanel({ batch, privacy = false, selectedId, onSelect, onCanc
 								"건 · 기존 값 유지"
 							]
 						}),
-						/* @__PURE__ */ (0, import_jsx_runtime$78.jsxs)("dl", { children: [
-							/* @__PURE__ */ (0, import_jsx_runtime$78.jsx)("dt", { children: "체결 수량" }),
-							/* @__PURE__ */ (0, import_jsx_runtime$78.jsxs)("dd", { children: [observation.filledQuantity ?? "미확인", /* @__PURE__ */ (0, import_jsx_runtime$78.jsx)("span", { children: fillLabel(selected.trade) })] }),
-							/* @__PURE__ */ (0, import_jsx_runtime$78.jsx)("dt", { children: "평균 체결가" }),
-							/* @__PURE__ */ (0, import_jsx_runtime$78.jsx)("dd", { children: observation.price === null ? "가격 미확인" : privacy ? "••••••" : `${observation.price} ${observation.currency}` }),
-							/* @__PURE__ */ (0, import_jsx_runtime$78.jsx)("dt", { children: "원천 영업일" }),
-							/* @__PURE__ */ (0, import_jsx_runtime$78.jsx)("dd", { children: observation.sourceBusinessDate ?? "미확인" }),
-							/* @__PURE__ */ (0, import_jsx_runtime$78.jsx)("dt", { children: timeMeaning[observation.sourceTime.meaning] }),
-							/* @__PURE__ */ (0, import_jsx_runtime$78.jsxs)("dd", { children: [observation.sourceTime.value ?? "미확인", /* @__PURE__ */ (0, import_jsx_runtime$78.jsx)("span", { children: observation.sourceTime.timezone ?? "시간대 미확인" })] }),
-							/* @__PURE__ */ (0, import_jsx_runtime$78.jsx)("dt", { children: "관측 시각" }),
-							/* @__PURE__ */ (0, import_jsx_runtime$78.jsxs)("dd", { children: [observation.observedAt, /* @__PURE__ */ (0, import_jsx_runtime$78.jsx)("span", { children: "최신성·거래 완결을 보장하지 않음" })] })
+						/* @__PURE__ */ (0, import_jsx_runtime$76.jsxs)("dl", { children: [
+							/* @__PURE__ */ (0, import_jsx_runtime$76.jsx)("dt", { children: "체결 수량" }),
+							/* @__PURE__ */ (0, import_jsx_runtime$76.jsxs)("dd", { children: [observation.filledQuantity ?? "미확인", /* @__PURE__ */ (0, import_jsx_runtime$76.jsx)("span", { children: fillLabel(selected.trade) })] }),
+							/* @__PURE__ */ (0, import_jsx_runtime$76.jsx)("dt", { children: "평균 체결가" }),
+							/* @__PURE__ */ (0, import_jsx_runtime$76.jsx)("dd", { children: observation.price === null ? "가격 미확인" : privacy ? "••••••" : `${observation.price} ${observation.currency}` }),
+							/* @__PURE__ */ (0, import_jsx_runtime$76.jsx)("dt", { children: "원천 영업일" }),
+							/* @__PURE__ */ (0, import_jsx_runtime$76.jsx)("dd", { children: observation.sourceBusinessDate ?? "미확인" }),
+							/* @__PURE__ */ (0, import_jsx_runtime$76.jsx)("dt", { children: timeMeaning[observation.sourceTime.meaning] }),
+							/* @__PURE__ */ (0, import_jsx_runtime$76.jsxs)("dd", { children: [observation.sourceTime.value ?? "미확인", /* @__PURE__ */ (0, import_jsx_runtime$76.jsx)("span", { children: observation.sourceTime.timezone ?? "시간대 미확인" })] }),
+							/* @__PURE__ */ (0, import_jsx_runtime$76.jsx)("dt", { children: "관측 시각" }),
+							/* @__PURE__ */ (0, import_jsx_runtime$76.jsxs)("dd", { children: [observation.observedAt, /* @__PURE__ */ (0, import_jsx_runtime$76.jsx)("span", { children: "최신성·거래 완결을 보장하지 않음" })] })
 						] }),
 						selectedActions,
-						/* @__PURE__ */ (0, import_jsx_runtime$78.jsx)("button", {
+						/* @__PURE__ */ (0, import_jsx_runtime$76.jsx)("button", {
 							type: "button",
 							onClick: clearSelection,
 							children: "선택 취소"
 						})
-					] }) : /* @__PURE__ */ (0, import_jsx_runtime$78.jsx)("p", { children: "검토할 항목을 선택하세요." })]
+					] }) : /* @__PURE__ */ (0, import_jsx_runtime$76.jsx)("p", { children: "검토할 항목을 선택하세요." })]
 				})]
 			})
 		]
 	});
 }
-var import_react$65, import_jsx_runtime$78, fillLabel, timeMeaning, defaultLabels;
+var import_react$63, import_jsx_runtime$76, fillLabel, timeMeaning, defaultLabels;
 function init_TradeReviewPanel() {
 	return (init_TradeReviewPanel = __esmMin((() => {
-		import_react$65 = require_react();
+		import_react$63 = require_react();
 		init_style();
-		import_jsx_runtime$78 = require_jsx_runtime();
+		import_jsx_runtime$76 = require_jsx_runtime();
 		fillLabel = (trade) => trade.fillState === "unknown_fill" ? "수량 미확인" : trade.fillState === "no_fill" ? "체결 수량 0" : "양수 체결 수량";
 		timeMeaning = {
 			last_execution: "마지막 체결 시각",
@@ -1165,10 +1167,10 @@ function init_model() {
 		init_tradeProvenance();
 	})))();
 }
-function object$7(input) {
+function object$6(input) {
 	return input !== null && typeof input === "object" && !Array.isArray(input);
 }
-function exact$5(input, keys) {
+function exact$4(input, keys) {
 	return Object.keys(input).length === keys.length && keys.every((key) => Object.hasOwn(input, key));
 }
 function count$2(input, max) {
@@ -1177,7 +1179,7 @@ function count$2(input, max) {
 /** Validates a fixed worker projection, not broker provenance or current authorization. */
 function readPublication(input) {
 	const fail = { ok: false };
-	if (!object$7(input) || !exact$5(input, [
+	if (!object$6(input) || !exact$4(input, [
 		"runId",
 		"revision",
 		"phase",
@@ -1193,7 +1195,7 @@ function readPublication(input) {
 	let review = null;
 	if (input.review !== null) {
 		const value = input.review;
-		if (!object$7(value) || !exact$5(value, [
+		if (!object$6(value) || !exact$4(value, [
 			"pages",
 			"uniqueOrders",
 			"rangeExhausted"
@@ -1310,21 +1312,21 @@ function phaseText(publication) {
 }
 /** The parent supplies only its current validated publication. No IPC or run authority. */
 function TradePublicationPanel({ publication, privacy = false, renderSelectedActions }) {
-	return /* @__PURE__ */ (0, import_jsx_runtime$77.jsx)(PublicationWindow, {
+	return /* @__PURE__ */ (0, import_jsx_runtime$75.jsx)(PublicationWindow, {
 		publication,
 		privacy,
 		renderSelectedActions
 	}, publication.runId);
 }
 function PublicationWindow({ publication, privacy, renderSelectedActions }) {
-	const [view, setView] = (0, import_react$64.useState)({
+	const [view, setView] = (0, import_react$62.useState)({
 		input: publication,
 		offset: 0,
 		selectedId: null
 	});
 	const lastOffset = Math.max(0, Math.floor((publication.observations.length - 1) / WINDOW_SIZE) * WINDOW_SIZE);
 	const offset = Math.min(view.offset, lastOffset);
-	const window = (0, import_react$64.useMemo)(() => reviewWindow(publication, offset, WINDOW_SIZE), [publication, offset]);
+	const window = (0, import_react$62.useMemo)(() => reviewWindow(publication, offset, WINDOW_SIZE), [publication, offset]);
 	const selectedId = window.batch.rows.some((row) => row.trade.tradeId === view.selectedId) ? view.selectedId : null;
 	if (view.input !== publication) setView({
 		input: publication,
@@ -1346,7 +1348,7 @@ function PublicationWindow({ publication, privacy, renderSelectedActions }) {
 			selectedId: null
 		});
 	}
-	return /* @__PURE__ */ (0, import_jsx_runtime$77.jsx)(TradeReviewPanel, {
+	return /* @__PURE__ */ (0, import_jsx_runtime$75.jsx)(TradeReviewPanel, {
 		batch: window.batch,
 		privacy,
 		selectedId,
@@ -1362,8 +1364,8 @@ function PublicationWindow({ publication, privacy, renderSelectedActions }) {
 		}),
 		labels,
 		selectedActions: selected ? renderSelectedActions?.(selected) : void 0,
-		beforeContent: /* @__PURE__ */ (0, import_jsx_runtime$77.jsxs)(import_jsx_runtime$77.Fragment, { children: [
-			/* @__PURE__ */ (0, import_jsx_runtime$77.jsxs)("p", { children: [
+		beforeContent: /* @__PURE__ */ (0, import_jsx_runtime$75.jsxs)(import_jsx_runtime$75.Fragment, { children: [
+			/* @__PURE__ */ (0, import_jsx_runtime$75.jsxs)("p", { children: [
 				"수신 항목 ",
 				window.total,
 				"개 · 표시 ",
@@ -1371,16 +1373,16 @@ function PublicationWindow({ publication, privacy, renderSelectedActions }) {
 				"–",
 				window.end
 			] }),
-			/* @__PURE__ */ (0, import_jsx_runtime$77.jsx)("p", { children: "화면 내 이동이며 금융사에 요청하지 않습니다." }),
-			/* @__PURE__ */ (0, import_jsx_runtime$77.jsxs)("nav", {
+			/* @__PURE__ */ (0, import_jsx_runtime$75.jsx)("p", { children: "화면 내 이동이며 금융사에 요청하지 않습니다." }),
+			/* @__PURE__ */ (0, import_jsx_runtime$75.jsxs)("nav", {
 				className: "trade-review-samples",
 				"aria-label": "수신 항목 화면 이동",
-				children: [/* @__PURE__ */ (0, import_jsx_runtime$77.jsx)("button", {
+				children: [/* @__PURE__ */ (0, import_jsx_runtime$75.jsx)("button", {
 					type: "button",
 					disabled: !window.previous,
 					onClick: () => move(Math.max(0, offset - WINDOW_SIZE)),
 					children: "이전 100개 · 화면 이동"
-				}), /* @__PURE__ */ (0, import_jsx_runtime$77.jsx)("button", {
+				}), /* @__PURE__ */ (0, import_jsx_runtime$75.jsx)("button", {
 					type: "button",
 					disabled: !window.next,
 					onClick: () => move(offset + WINDOW_SIZE),
@@ -1390,40 +1392,40 @@ function PublicationWindow({ publication, privacy, renderSelectedActions }) {
 		] })
 	});
 }
-var import_react$64, import_jsx_runtime$77, WINDOW_SIZE;
+var import_react$62, import_jsx_runtime$75, WINDOW_SIZE;
 function init_TradePublicationPanel() {
 	return (init_TradePublicationPanel = __esmMin((() => {
-		import_react$64 = require_react();
+		import_react$62 = require_react();
 		init_TradeReviewPanel();
 		init_publication();
-		import_jsx_runtime$77 = require_jsx_runtime();
+		import_jsx_runtime$75 = require_jsx_runtime();
 		WINDOW_SIZE = 100;
 	})))();
 }
 function DiaryTradeNotice({ batch, onDismiss, renderSelectedActions }) {
-	const [expanded, setExpanded] = (0, import_react$63.useState)(false);
-	return /* @__PURE__ */ (0, import_jsx_runtime$76.jsxs)("aside", {
+	const [expanded, setExpanded] = (0, import_react$61.useState)(false);
+	return /* @__PURE__ */ (0, import_jsx_runtime$74.jsxs)("aside", {
 		className: "manual-trade-notice",
 		"aria-label": "최근 거래 안내",
-		children: [/* @__PURE__ */ (0, import_jsx_runtime$76.jsxs)("div", { children: [
-			/* @__PURE__ */ (0, import_jsx_runtime$76.jsxs)("span", { children: [
+		children: [/* @__PURE__ */ (0, import_jsx_runtime$74.jsxs)("div", { children: [
+			/* @__PURE__ */ (0, import_jsx_runtime$74.jsxs)("span", { children: [
 				"최근 조회한 거래 ",
 				batch.count,
 				"건"
 			] }),
-			/* @__PURE__ */ (0, import_jsx_runtime$76.jsx)("button", {
+			/* @__PURE__ */ (0, import_jsx_runtime$74.jsx)("button", {
 				type: "button",
 				"aria-expanded": expanded,
 				onClick: () => setExpanded(!expanded),
 				children: "보기"
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$76.jsx)("button", {
+			/* @__PURE__ */ (0, import_jsx_runtime$74.jsx)("button", {
 				type: "button",
 				"aria-label": "거래 안내 닫기",
 				onClick: onDismiss,
 				children: "×"
 			})
-		] }), expanded && /* @__PURE__ */ (0, import_jsx_runtime$76.jsx)(DiaryTradeItems, {
+		] }), expanded && /* @__PURE__ */ (0, import_jsx_runtime$74.jsx)(DiaryTradeItems, {
 			batch,
 			renderSelectedActions
 		}, batch.publication.runId + ":" + batch.publication.revision)]
@@ -1439,10 +1441,10 @@ function diaryTradeKeyOffset(key, offset, total) {
 }
 /** Local historical carousel. Selection never grants current authority. */
 function DiaryTradeItems({ batch, renderSelectedActions }) {
-	const [offset, setOffset] = (0, import_react$63.useState)(0), [selectedId, setSelectedId] = (0, import_react$63.useState)(null), [details, setDetails] = (0, import_react$63.useState)(false);
-	const opener = (0, import_react$63.useRef)(null);
+	const [offset, setOffset] = (0, import_react$61.useState)(0), [selectedId, setSelectedId] = (0, import_react$61.useState)(null), [details, setDetails] = (0, import_react$61.useState)(false);
+	const opener = (0, import_react$61.useRef)(null);
 	const safeOffset = Math.min(offset, Math.max(0, batch.publication.observations.length - 1));
-	const window = (0, import_react$63.useMemo)(() => reviewWindow(batch.publication, safeOffset, 1), [batch.publication, safeOffset]);
+	const window = (0, import_react$61.useMemo)(() => reviewWindow(batch.publication, safeOffset, 1), [batch.publication, safeOffset]);
 	const selected = window.batch.rows.find((r) => r.trade.tradeId === selectedId);
 	function move(next) {
 		if (next === safeOffset) return;
@@ -1450,7 +1452,7 @@ function DiaryTradeItems({ batch, renderSelectedActions }) {
 		setSelectedId(null);
 		setDetails(false);
 	}
-	return /* @__PURE__ */ (0, import_jsx_runtime$76.jsxs)("section", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$74.jsxs)("section", {
 		className: "diary-trade-carousel",
 		"aria-label": "조회 당시 거래",
 		"aria-roledescription": "carousel",
@@ -1463,35 +1465,35 @@ function DiaryTradeItems({ batch, renderSelectedActions }) {
 			}
 		},
 		children: [
-			window.total === 0 && /* @__PURE__ */ (0, import_jsx_runtime$76.jsx)("p", {
+			window.total === 0 && /* @__PURE__ */ (0, import_jsx_runtime$74.jsx)("p", {
 				role: "status",
 				children: "조회된 거래가 없습니다."
 			}),
-			window.batch.coverage === "error" ? /* @__PURE__ */ (0, import_jsx_runtime$76.jsx)("p", {
+			window.batch.coverage === "error" ? /* @__PURE__ */ (0, import_jsx_runtime$74.jsx)("p", {
 				role: "alert",
 				children: "조회 오류 · 상세에서 원인 확인"
-			}) : window.batch.coverage === "partial" ? /* @__PURE__ */ (0, import_jsx_runtime$76.jsx)("p", {
+			}) : window.batch.coverage === "partial" ? /* @__PURE__ */ (0, import_jsx_runtime$74.jsx)("p", {
 				role: "status",
 				children: "일부 조회"
 			}) : null,
-			/* @__PURE__ */ (0, import_jsx_runtime$76.jsxs)("div", {
+			/* @__PURE__ */ (0, import_jsx_runtime$74.jsxs)("div", {
 				className: "diary-trade-carousel-track",
 				children: [
-					/* @__PURE__ */ (0, import_jsx_runtime$76.jsx)("button", {
+					/* @__PURE__ */ (0, import_jsx_runtime$74.jsx)("button", {
 						type: "button",
 						"aria-label": "이전 거래",
 						disabled: !window.previous,
 						onClick: () => move(safeOffset - 1),
 						children: "‹"
 					}),
-					/* @__PURE__ */ (0, import_jsx_runtime$76.jsx)("div", {
+					/* @__PURE__ */ (0, import_jsx_runtime$74.jsx)("div", {
 						className: "diary-trade-carousel-card",
 						role: "group",
 						"aria-roledescription": "slide",
 						"aria-label": `${window.start} / ${window.total}`,
 						children: window.batch.rows.map((row) => {
 							const o = row.trade.observation;
-							return /* @__PURE__ */ (0, import_jsx_runtime$76.jsxs)("button", {
+							return /* @__PURE__ */ (0, import_jsx_runtime$74.jsxs)("button", {
 								ref: opener,
 								type: "button",
 								onKeyDown: (event) => {
@@ -1505,11 +1507,11 @@ function DiaryTradeItems({ batch, renderSelectedActions }) {
 								"aria-pressed": selectedId === row.trade.tradeId,
 								onClick: () => setSelectedId(selectedId === row.trade.tradeId ? null : row.trade.tradeId),
 								children: [
-									/* @__PURE__ */ (0, import_jsx_runtime$76.jsx)("span", { children: o.side === "BUY" ? "매수" : "매도" }),
+									/* @__PURE__ */ (0, import_jsx_runtime$74.jsx)("span", { children: o.side === "BUY" ? "매수" : "매도" }),
 									" ",
-									/* @__PURE__ */ (0, import_jsx_runtime$76.jsxs)("span", { children: ["수량 ", quantityPresentation(o.filledQuantity)] }),
+									/* @__PURE__ */ (0, import_jsx_runtime$74.jsxs)("span", { children: ["수량 ", quantityPresentation(o.filledQuantity)] }),
 									" ",
-									/* @__PURE__ */ (0, import_jsx_runtime$76.jsx)("span", { children: o.price === null ? /* @__PURE__ */ (0, import_jsx_runtime$76.jsx)("span", {
+									/* @__PURE__ */ (0, import_jsx_runtime$74.jsx)("span", { children: o.price === null ? /* @__PURE__ */ (0, import_jsx_runtime$74.jsx)("span", {
 										"aria-label": "가격 미조회",
 										children: "—"
 									}) : `${o.price} ${o.currency}` })
@@ -1517,14 +1519,14 @@ function DiaryTradeItems({ batch, renderSelectedActions }) {
 							}, "current");
 						})
 					}),
-					/* @__PURE__ */ (0, import_jsx_runtime$76.jsx)("button", {
+					/* @__PURE__ */ (0, import_jsx_runtime$74.jsx)("button", {
 						type: "button",
 						"aria-label": "다음 거래",
 						disabled: !window.next,
 						onClick: () => move(safeOffset + 1),
 						children: "›"
 					}),
-					/* @__PURE__ */ (0, import_jsx_runtime$76.jsxs)("span", {
+					/* @__PURE__ */ (0, import_jsx_runtime$74.jsxs)("span", {
 						"aria-live": "polite",
 						"aria-atomic": "true",
 						children: [
@@ -1533,7 +1535,7 @@ function DiaryTradeItems({ batch, renderSelectedActions }) {
 							window.total
 						]
 					}),
-					/* @__PURE__ */ (0, import_jsx_runtime$76.jsx)("button", {
+					/* @__PURE__ */ (0, import_jsx_runtime$74.jsx)("button", {
 						type: "button",
 						"aria-label": "거래 상세",
 						"aria-expanded": details,
@@ -1543,21 +1545,21 @@ function DiaryTradeItems({ batch, renderSelectedActions }) {
 				]
 			}),
 			selected && renderSelectedActions?.(selected),
-			details && /* @__PURE__ */ (0, import_jsx_runtime$76.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime$76.jsx)("p", { children: "조회 당시 주문별 집계 · 개별 체결 기록 아님 · 현재 상태와 다를 수 있습니다." }), /* @__PURE__ */ (0, import_jsx_runtime$76.jsx)(TradePublicationPanel, { publication: batch.publication })] })
+			details && /* @__PURE__ */ (0, import_jsx_runtime$74.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime$74.jsx)("p", { children: "조회 당시 주문별 집계 · 개별 체결 기록 아님 · 현재 상태와 다를 수 있습니다." }), /* @__PURE__ */ (0, import_jsx_runtime$74.jsx)(TradePublicationPanel, { publication: batch.publication })] })
 		]
 	});
 }
-var import_react$63, import_jsx_runtime$76;
+var import_react$61, import_jsx_runtime$74;
 function init_DiaryTradeNotice() {
 	return (init_DiaryTradeNotice = __esmMin((() => {
 		init_diary_trade_carousel();
-		import_react$63 = require_react();
+		import_react$61 = require_react();
 		init_TradePublicationPanel();
 		init_publication();
-		import_jsx_runtime$76 = require_jsx_runtime();
+		import_jsx_runtime$74 = require_jsx_runtime();
 	})))();
 }
-function object$6(value) {
+function object$5(value) {
 	return value !== null && typeof value === "object" && !Array.isArray(value);
 }
 function date$4(value) {
@@ -1565,7 +1567,7 @@ function date$4(value) {
 }
 function startRequest(input) {
 	try {
-		if (!object$6(input) || !Object.keys(input).every((key) => [
+		if (!object$5(input) || !Object.keys(input).every((key) => [
 			"connectionId",
 			"accountId",
 			"from",
@@ -1595,7 +1597,7 @@ function readCurrentRun(input) {
 			ok: true,
 			value: null
 		};
-		if (!object$6(input) || Object.keys(input).length !== 2 || !Object.hasOwn(input, "attemptId") || !Object.hasOwn(input, "worker") || typeof input.attemptId !== "string" || !uuid$10.test(input.attemptId)) return { ok: false };
+		if (!object$5(input) || Object.keys(input).length !== 2 || !Object.hasOwn(input, "attemptId") || !Object.hasOwn(input, "worker") || typeof input.attemptId !== "string" || !uuid$10.test(input.attemptId)) return { ok: false };
 		if (input.worker === null) return {
 			ok: true,
 			value: Object.freeze({
@@ -1896,10 +1898,10 @@ function init_runController() {
 		};
 	})))();
 }
-function object$5(value) {
+function object$4(value) {
 	return value !== null && typeof value === "object" && !Array.isArray(value);
 }
-function exact$4(value, keys) {
+function exact$3(value, keys) {
 	return Object.keys(value).length === keys.length && keys.every((key) => Object.hasOwn(value, key));
 }
 /** Explicit field order; decimal spelling, null, source time and observation time stay exact. */
@@ -1967,11 +1969,11 @@ function select(current, recordRef, userDate) {
 }
 function accept(value, selection) {
 	try {
-		if (!object$5(value) || !exact$4(value, [
+		if (!object$4(value) || !exact$3(value, [
 			"tradeId",
 			"observation",
 			"recordDate"
-		]) || !object$5(value.recordDate) || !exact$4(value.recordDate, ["value", "basis"]) || value.recordDate.basis !== "user_selected" || value.recordDate.value !== selection.request.userDate) return null;
+		]) || !object$4(value.recordDate) || !exact$3(value.recordDate, ["value", "basis"]) || value.recordDate.basis !== "user_selected" || value.recordDate.value !== selection.request.userDate) return null;
 		const checked = assessTradeObservation(value.observation);
 		if (!checked.ok || checked.value.tradeId !== value.tradeId) return null;
 		const normalized = prepareDraftCandidate({
@@ -2176,17 +2178,17 @@ function catalogKey(c) {
 }
 /** Historical rows never authorize a draft. Explicit current check, then exact live snapshot. */
 function DiaryTradeActions({ session, history, recordRef, catalog, prepareDraft, onOpenNote, onWriteDraft }) {
-	const snapshot = (0, import_react$62.useSyncExternalStore)(session.subscribe, session.getSnapshot, session.getSnapshot);
-	const [checked, setChecked] = (0, import_react$62.useState)(null), [message, setMessage] = (0, import_react$62.useState)(""), [busy, setBusy] = (0, import_react$62.useState)(false);
-	const lifetime = (0, import_react$62.useRef)({
+	const snapshot = (0, import_react$60.useSyncExternalStore)(session.subscribe, session.getSnapshot, session.getSnapshot);
+	const [checked, setChecked] = (0, import_react$60.useState)(null), [message, setMessage] = (0, import_react$60.useState)(""), [busy, setBusy] = (0, import_react$60.useState)(false);
+	const lifetime = (0, import_react$60.useRef)({
 		live: false,
 		epoch: 0,
 		pending: false
-	}), latestCatalog = (0, import_react$62.useRef)(catalog);
-	const [date, setDate] = (0, import_react$62.useState)("");
-	const receiver = (0, import_react$62.useRef)(null), action = (0, import_react$62.useRef)(null), input = (0, import_react$62.useRef)(null);
-	const dateId = (0, import_react$62.useId)();
-	(0, import_react$62.useLayoutEffect)(() => {
+	}), latestCatalog = (0, import_react$60.useRef)(catalog);
+	const [date, setDate] = (0, import_react$60.useState)("");
+	const receiver = (0, import_react$60.useRef)(null), action = (0, import_react$60.useRef)(null), input = (0, import_react$60.useRef)(null);
+	const dateId = (0, import_react$60.useId)();
+	(0, import_react$60.useLayoutEffect)(() => {
 		const owned = new ServerDraftReceiver(prepareDraft);
 		receiver.current = owned;
 		return () => {
@@ -2194,10 +2196,10 @@ function DiaryTradeActions({ session, history, recordRef, catalog, prepareDraft,
 			if (receiver.current === owned) receiver.current = null;
 		};
 	}, [prepareDraft]);
-	(0, import_react$62.useLayoutEffect)(() => {
+	(0, import_react$60.useLayoutEffect)(() => {
 		latestCatalog.current = catalog;
 	}, [catalog]);
-	(0, import_react$62.useLayoutEffect)(() => {
+	(0, import_react$60.useLayoutEffect)(() => {
 		const life = lifetime.current;
 		life.live = true;
 		return () => {
@@ -2211,7 +2213,7 @@ function DiaryTradeActions({ session, history, recordRef, catalog, prepareDraft,
 		recordRef
 	]);
 	const key = catalogKey(catalog);
-	(0, import_react$62.useLayoutEffect)(() => {
+	(0, import_react$60.useLayoutEffect)(() => {
 		const life = lifetime.current;
 		life.epoch++;
 		life.pending = false;
@@ -2274,11 +2276,11 @@ function DiaryTradeActions({ session, history, recordRef, catalog, prepareDraft,
 	const intent = prior.ok ? diaryTradeDestination(catalog, prior.value.tradeId) : { kind: "unavailable" };
 	const permit = () => checked !== null && allowed(checked);
 	const choosingDate = !!selected && checked?.confirmed === true && destination.kind === "new";
-	(0, import_react$62.useLayoutEffect)(() => {
+	(0, import_react$60.useLayoutEffect)(() => {
 		if (choosingDate) input.current?.focus();
 	}, [choosingDate]);
-	const returnFocus = (0, import_react$62.useRef)(null);
-	(0, import_react$62.useLayoutEffect)(() => () => {
+	const returnFocus = (0, import_react$60.useRef)(null);
+	(0, import_react$60.useLayoutEffect)(() => () => {
 		returnFocus.current?.cancel();
 		returnFocus.current = null;
 	}, [
@@ -2288,7 +2290,7 @@ function DiaryTradeActions({ session, history, recordRef, catalog, prepareDraft,
 		history,
 		recordRef
 	]);
-	(0, import_react$62.useLayoutEffect)(() => {
+	(0, import_react$60.useLayoutEffect)(() => {
 		const intent = returnFocus.current;
 		if (!intent || choosingDate) return;
 		returnFocus.current = null;
@@ -2444,10 +2446,10 @@ function DiaryTradeActions({ session, history, recordRef, catalog, prepareDraft,
 			after.recordRef
 		]
 	].filter(([, a, b]) => a !== b) : [];
-	return /* @__PURE__ */ (0, import_jsx_runtime$75.jsxs)("section", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$73.jsxs)("section", {
 		"aria-label": "거래 기록 연결",
 		children: [
-			/* @__PURE__ */ (0, import_jsx_runtime$75.jsx)("button", {
+			/* @__PURE__ */ (0, import_jsx_runtime$73.jsx)("button", {
 				ref: action,
 				type: "button",
 				disabled: busy || snapshot.pending !== null || choosingDate && !validRecordDate(date),
@@ -2457,19 +2459,19 @@ function DiaryTradeActions({ session, history, recordRef, catalog, prepareDraft,
 				},
 				children: busy ? "확인 중…" : choosingDate ? "작성" : message ? "다시 시도" : intent.kind === "existing" ? "기록 보기" : "기록하기"
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$75.jsx)("p", {
+			/* @__PURE__ */ (0, import_jsx_runtime$73.jsx)("p", {
 				role: "status",
 				style: { margin: message ? "8px 0" : 0 },
 				children: !checked || checked.snapshot === snapshot ? message : ""
 			}),
-			selected && checked && !checked.confirmed && /* @__PURE__ */ (0, import_jsx_runtime$75.jsxs)("div", { children: [
-				/* @__PURE__ */ (0, import_jsx_runtime$75.jsx)("p", { children: "조회 이후 거래 정보가 바뀌었습니다." }),
-				/* @__PURE__ */ (0, import_jsx_runtime$75.jsx)("dl", { children: changes.map(([label, a, b]) => /* @__PURE__ */ (0, import_jsx_runtime$75.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime$75.jsx)("dt", { children: label }), /* @__PURE__ */ (0, import_jsx_runtime$75.jsxs)("dd", { children: [
+			selected && checked && !checked.confirmed && /* @__PURE__ */ (0, import_jsx_runtime$73.jsxs)("div", { children: [
+				/* @__PURE__ */ (0, import_jsx_runtime$73.jsx)("p", { children: "조회 이후 거래 정보가 바뀌었습니다." }),
+				/* @__PURE__ */ (0, import_jsx_runtime$73.jsx)("dl", { children: changes.map(([label, a, b]) => /* @__PURE__ */ (0, import_jsx_runtime$73.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime$73.jsx)("dt", { children: label }), /* @__PURE__ */ (0, import_jsx_runtime$73.jsxs)("dd", { children: [
 					a ?? "미제공",
 					" → ",
 					b ?? "미제공"
 				] })] }, label)) }),
-				/* @__PURE__ */ (0, import_jsx_runtime$75.jsx)("button", {
+				/* @__PURE__ */ (0, import_jsx_runtime$73.jsx)("button", {
 					type: "button",
 					onClick: (event) => {
 						const value = {
@@ -2485,16 +2487,16 @@ function DiaryTradeActions({ session, history, recordRef, catalog, prepareDraft,
 					children: "변경 내용 사용"
 				})
 			] }),
-			selected && checked?.confirmed && /* @__PURE__ */ (0, import_jsx_runtime$75.jsxs)(import_jsx_runtime$75.Fragment, { children: [
-				destination.kind === "unavailable" && /* @__PURE__ */ (0, import_jsx_runtime$75.jsx)("p", {
+			selected && checked?.confirmed && /* @__PURE__ */ (0, import_jsx_runtime$73.jsxs)(import_jsx_runtime$73.Fragment, { children: [
+				destination.kind === "unavailable" && /* @__PURE__ */ (0, import_jsx_runtime$73.jsx)("p", {
 					role: "status",
 					children: "기록 보관을 먼저 열어 주세요."
 				}),
-				destination.kind === "ambiguous" && /* @__PURE__ */ (0, import_jsx_runtime$75.jsx)("p", {
+				destination.kind === "ambiguous" && /* @__PURE__ */ (0, import_jsx_runtime$73.jsx)("p", {
 					role: "status",
 					children: "연결된 기록이 여러 개입니다. 달력에서 확인해 주세요."
 				}),
-				choosingDate && /* @__PURE__ */ (0, import_jsx_runtime$75.jsxs)("form", {
+				choosingDate && /* @__PURE__ */ (0, import_jsx_runtime$73.jsxs)("form", {
 					className: "diary-trade-date",
 					onSubmit: (event) => {
 						event.preventDefault();
@@ -2508,11 +2510,11 @@ function DiaryTradeActions({ session, history, recordRef, catalog, prepareDraft,
 						}
 					},
 					children: [
-						/* @__PURE__ */ (0, import_jsx_runtime$75.jsx)("label", {
+						/* @__PURE__ */ (0, import_jsx_runtime$73.jsx)("label", {
 							htmlFor: dateId,
 							children: "기록 날짜"
 						}),
-						/* @__PURE__ */ (0, import_jsx_runtime$75.jsx)("input", {
+						/* @__PURE__ */ (0, import_jsx_runtime$73.jsx)("input", {
 							ref: input,
 							id: dateId,
 							type: "text",
@@ -2529,11 +2531,11 @@ function DiaryTradeActions({ session, history, recordRef, catalog, prepareDraft,
 								setDate(event.target.value);
 							}
 						}),
-						date.length > 0 && !validRecordDate(date) && /* @__PURE__ */ (0, import_jsx_runtime$75.jsx)("p", {
+						date.length > 0 && !validRecordDate(date) && /* @__PURE__ */ (0, import_jsx_runtime$73.jsx)("p", {
 							id: `${dateId}-error`,
 							children: "유효한 날짜를 YYYY-MM-DD 형식으로 입력하세요."
 						}),
-						/* @__PURE__ */ (0, import_jsx_runtime$75.jsx)("button", {
+						/* @__PURE__ */ (0, import_jsx_runtime$73.jsx)("button", {
 							type: "button",
 							onClick: back,
 							children: "돌아가기"
@@ -2544,15 +2546,15 @@ function DiaryTradeActions({ session, history, recordRef, catalog, prepareDraft,
 		]
 	});
 }
-var import_react$62, import_jsx_runtime$75;
+var import_react$60, import_jsx_runtime$73;
 function init_DiaryTradeActions() {
 	return (init_DiaryTradeActions = __esmMin((() => {
-		import_react$62 = require_react();
+		import_react$60 = require_react();
 		init_draft();
 		init_serverDraft();
 		init_diaryTradeSelection();
 		init_tradeProvenance();
-		import_jsx_runtime$75 = require_jsx_runtime();
+		import_jsx_runtime$73 = require_jsx_runtime();
 	})))();
 }
 /** Historical display only: this never grants authority to write or refresh. */
@@ -2594,7 +2596,7 @@ function TradeServerDraftPreparation(props) {
 		props.current.worker?.revision,
 		props.row
 	]);
-	return /* @__PURE__ */ (0, import_jsx_runtime$74.jsx)(DraftForm, { ...props }, key);
+	return /* @__PURE__ */ (0, import_jsx_runtime$72.jsx)(DraftForm, { ...props }, key);
 }
 function createSession$1(prepare) {
 	let receiver = new ServerDraftReceiver(prepare);
@@ -2620,17 +2622,17 @@ function createSession$1(prepare) {
 	};
 }
 function DraftForm({ current, row, prepareDraft, onWriteDraft, compact = false }) {
-	const session = (0, import_react$61.useMemo)(() => createSession$1(prepareDraft), [prepareDraft]);
-	const state = (0, import_react$61.useSyncExternalStore)(session.subscribe, session.getSnapshot, session.getSnapshot);
-	const [open, setOpen] = (0, import_react$61.useState)(false), [date, setDate] = (0, import_react$61.useState)("");
-	const opener = (0, import_react$61.useRef)(null), input = (0, import_react$61.useRef)(null), backButton = (0, import_react$61.useRef)(null);
-	const moved = (0, import_react$61.useRef)(false);
-	const id = (0, import_react$61.useId)();
+	const session = (0, import_react$59.useMemo)(() => createSession$1(prepareDraft), [prepareDraft]);
+	const state = (0, import_react$59.useSyncExternalStore)(session.subscribe, session.getSnapshot, session.getSnapshot);
+	const [open, setOpen] = (0, import_react$59.useState)(false), [date, setDate] = (0, import_react$59.useState)("");
+	const opener = (0, import_react$59.useRef)(null), input = (0, import_react$59.useRef)(null), backButton = (0, import_react$59.useRef)(null);
+	const moved = (0, import_react$59.useRef)(false);
+	const id = (0, import_react$59.useId)();
 	const blocked = draftBlock(row, {
 		coverage: "partial",
 		linkedTradeIds: []
 	});
-	(0, import_react$61.useLayoutEffect)(() => {
+	(0, import_react$59.useLayoutEffect)(() => {
 		session.update(current, row.trade.observation.recordRef, date);
 	}, [
 		session,
@@ -2638,8 +2640,8 @@ function DraftForm({ current, row, prepareDraft, onWriteDraft, compact = false }
 		row.trade.observation.recordRef,
 		date
 	]);
-	(0, import_react$61.useLayoutEffect)(() => () => session.cancel(), [session]);
-	(0, import_react$61.useLayoutEffect)(() => {
+	(0, import_react$59.useLayoutEffect)(() => () => session.cancel(), [session]);
+	(0, import_react$59.useLayoutEffect)(() => {
 		if (moved.current) (open ? input : opener).current?.focus();
 	}, [open]);
 	function back() {
@@ -2653,7 +2655,7 @@ function DraftForm({ current, row, prepareDraft, onWriteDraft, compact = false }
 		backButton.current?.focus();
 		session.prepare();
 	}
-	return /* @__PURE__ */ (0, import_jsx_runtime$74.jsxs)("section", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$72.jsxs)("section", {
 		className: "trade-review-draft",
 		"aria-label": "일지 초안 준비",
 		onKeyDown: (event) => {
@@ -2664,12 +2666,12 @@ function DraftForm({ current, row, prepareDraft, onWriteDraft, compact = false }
 			}
 		},
 		children: [
-			!compact && /* @__PURE__ */ (0, import_jsx_runtime$74.jsxs)(import_jsx_runtime$74.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$74.jsx)("h3", { children: "일지 초안 준비" }), /* @__PURE__ */ (0, import_jsx_runtime$74.jsx)("p", { children: "기록 날짜를 직접 정해 메모리 초안을 준비합니다." })] }),
-			blocked ? /* @__PURE__ */ (0, import_jsx_runtime$74.jsx)("p", {
+			!compact && /* @__PURE__ */ (0, import_jsx_runtime$72.jsxs)(import_jsx_runtime$72.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$72.jsx)("h3", { children: "일지 초안 준비" }), /* @__PURE__ */ (0, import_jsx_runtime$72.jsx)("p", { children: "기록 날짜를 직접 정해 메모리 초안을 준비합니다." })] }),
+			blocked ? /* @__PURE__ */ (0, import_jsx_runtime$72.jsx)("p", {
 				className: "trade-review-status",
 				children: "양수 체결 수량이 확인된 항목만 준비할 수 있습니다."
 			}) : null,
-			!open ? /* @__PURE__ */ (0, import_jsx_runtime$74.jsx)("button", {
+			!open ? /* @__PURE__ */ (0, import_jsx_runtime$72.jsx)("button", {
 				ref: opener,
 				type: "button",
 				disabled: blocked !== null,
@@ -2679,17 +2681,17 @@ function DraftForm({ current, row, prepareDraft, onWriteDraft, compact = false }
 					setOpen(true);
 				},
 				children: "기록 날짜 정하기"
-			}) : /* @__PURE__ */ (0, import_jsx_runtime$74.jsxs)("form", {
+			}) : /* @__PURE__ */ (0, import_jsx_runtime$72.jsxs)("form", {
 				onSubmit: (event) => {
 					event.preventDefault();
 					prepare();
 				},
 				children: [
-					/* @__PURE__ */ (0, import_jsx_runtime$74.jsx)("label", {
+					/* @__PURE__ */ (0, import_jsx_runtime$72.jsx)("label", {
 						htmlFor: id,
 						children: "기록 날짜"
 					}),
-					/* @__PURE__ */ (0, import_jsx_runtime$74.jsx)("input", {
+					/* @__PURE__ */ (0, import_jsx_runtime$72.jsx)("input", {
 						ref: input,
 						id,
 						type: "text",
@@ -2705,35 +2707,35 @@ function DraftForm({ current, row, prepareDraft, onWriteDraft, compact = false }
 							setDate(event.target.value);
 						}
 					}),
-					/* @__PURE__ */ (0, import_jsx_runtime$74.jsx)("p", {
+					/* @__PURE__ */ (0, import_jsx_runtime$72.jsx)("p", {
 						id: `${id}-hint`,
 						className: "trade-review-caption",
 						children: "원천 날짜를 자동으로 추정하지 않습니다."
 					}),
-					date.length > 0 && !validRecordDate(date) ? /* @__PURE__ */ (0, import_jsx_runtime$74.jsx)("p", {
+					date.length > 0 && !validRecordDate(date) ? /* @__PURE__ */ (0, import_jsx_runtime$72.jsx)("p", {
 						className: "trade-review-status",
 						children: "유효한 날짜를 YYYY-MM-DD 형식으로 입력하세요."
 					}) : null,
-					state.status === "preparing" ? /* @__PURE__ */ (0, import_jsx_runtime$74.jsx)("p", {
+					state.status === "preparing" ? /* @__PURE__ */ (0, import_jsx_runtime$72.jsx)("p", {
 						role: "status",
 						children: "초안 준비 중 · 저장 요청 없음"
 					}) : null,
-					state.status === "prepared" && state.candidate ? /* @__PURE__ */ (0, import_jsx_runtime$74.jsxs)("div", {
+					state.status === "prepared" && state.candidate ? /* @__PURE__ */ (0, import_jsx_runtime$72.jsxs)("div", {
 						role: "status",
-						children: [/* @__PURE__ */ (0, import_jsx_runtime$74.jsx)("p", { children: "메모리 초안 준비됨 · 저장되지 않음" }), /* @__PURE__ */ (0, import_jsx_runtime$74.jsxs)("p", { children: [
+						children: [/* @__PURE__ */ (0, import_jsx_runtime$72.jsx)("p", { children: "메모리 초안 준비됨 · 저장되지 않음" }), /* @__PURE__ */ (0, import_jsx_runtime$72.jsxs)("p", { children: [
 							"기록 날짜: ",
 							state.candidate.recordDate.value,
 							" · 직접 지정"
 						] })]
 					}) : null,
-					state.status === "rejected" ? /* @__PURE__ */ (0, import_jsx_runtime$74.jsx)("p", {
+					state.status === "rejected" ? /* @__PURE__ */ (0, import_jsx_runtime$72.jsx)("p", {
 						role: "alert",
 						children: "초안을 준비하지 못했습니다. 날짜 입력은 유지됩니다."
 					}) : null,
-					/* @__PURE__ */ (0, import_jsx_runtime$74.jsxs)("div", {
+					/* @__PURE__ */ (0, import_jsx_runtime$72.jsxs)("div", {
 						className: "trade-review-draft-actions",
 						children: [
-							state.status === "prepared" && state.candidate && onWriteDraft && /* @__PURE__ */ (0, import_jsx_runtime$74.jsx)("button", {
+							state.status === "prepared" && state.candidate && onWriteDraft && /* @__PURE__ */ (0, import_jsx_runtime$72.jsx)("button", {
 								type: "button",
 								onClick: (event) => {
 									if (!state.candidate || !current.worker) return;
@@ -2750,12 +2752,12 @@ function DraftForm({ current, row, prepareDraft, onWriteDraft, compact = false }
 								},
 								children: "이 거래로 일지 작성"
 							}),
-							/* @__PURE__ */ (0, import_jsx_runtime$74.jsx)("button", {
+							/* @__PURE__ */ (0, import_jsx_runtime$72.jsx)("button", {
 								type: "submit",
 								disabled: blocked !== null || !validRecordDate(date) || !state.canPrepare,
 								children: state.status === "rejected" ? "다시 준비" : "초안 준비"
 							}),
-							/* @__PURE__ */ (0, import_jsx_runtime$74.jsx)("button", {
+							/* @__PURE__ */ (0, import_jsx_runtime$72.jsx)("button", {
 								ref: backButton,
 								type: "button",
 								onClick: back,
@@ -2768,13 +2770,13 @@ function DraftForm({ current, row, prepareDraft, onWriteDraft, compact = false }
 		]
 	});
 }
-var import_react$61, import_jsx_runtime$74;
+var import_react$59, import_jsx_runtime$72;
 function init_TradeServerDraftPreparation() {
 	return (init_TradeServerDraftPreparation = __esmMin((() => {
-		import_react$61 = require_react();
+		import_react$59 = require_react();
 		init_draft();
 		init_serverDraft();
-		import_jsx_runtime$74 = require_jsx_runtime();
+		import_jsx_runtime$72 = require_jsx_runtime();
 	})))();
 }
 function eligible$1(value) {
@@ -2782,11 +2784,11 @@ function eligible$1(value) {
 }
 /** Only the parent can establish current authenticated official selection. No account labels/IDs are rendered. */
 function TradeRunPanel({ selection, command, cleanup, privacy = false, prepareDraft, onWriteDraft, onCurrentChange, session: ownedSession }) {
-	if (!eligible$1(selection) || ownedSession && !ownedSession.matchesSelection(selection)) return /* @__PURE__ */ (0, import_jsx_runtime$73.jsx)("p", {
+	if (!eligible$1(selection) || ownedSession && !ownedSession.matchesSelection(selection)) return /* @__PURE__ */ (0, import_jsx_runtime$71.jsx)("p", {
 		role: "status",
 		children: "인증된 토스 실전 계좌를 선택한 뒤 검토할 수 있습니다."
 	});
-	return /* @__PURE__ */ (0, import_jsx_runtime$73.jsx)(ScopedRun, {
+	return /* @__PURE__ */ (0, import_jsx_runtime$71.jsx)(ScopedRun, {
 		selection,
 		session: ownedSession,
 		command,
@@ -2838,17 +2840,17 @@ function statusText$1(state) {
 	}
 }
 function ScopedRun({ selection, command, cleanup, privacy, prepareDraft, onWriteDraft, onCurrentChange, session: ownedSession }) {
-	const session = (0, import_react$60.useMemo)(() => ownedSession ?? createSession(command, cleanup), [
+	const session = (0, import_react$58.useMemo)(() => ownedSession ?? createSession(command, cleanup), [
 		ownedSession,
 		command,
 		cleanup
 	]);
-	const cleanupState = (0, import_react$60.useSyncExternalStore)(cleanup?.subscribe ?? subscribeNoCleanup, cleanup?.getSnapshot ?? getNoCleanup, cleanup?.getSnapshot ?? getNoCleanup);
-	const state = (0, import_react$60.useSyncExternalStore)(session.subscribe, session.getSnapshot, session.getSnapshot);
-	const [storage, setStorage] = (0, import_react$60.useState)(null);
-	const [confirmed, setConfirmed] = (0, import_react$60.useState)(false);
-	const [from, setFrom] = (0, import_react$60.useState)("");
-	const [to, setTo] = (0, import_react$60.useState)("");
+	const cleanupState = (0, import_react$58.useSyncExternalStore)(cleanup?.subscribe ?? subscribeNoCleanup, cleanup?.getSnapshot ?? getNoCleanup, cleanup?.getSnapshot ?? getNoCleanup);
+	const state = (0, import_react$58.useSyncExternalStore)(session.subscribe, session.getSnapshot, session.getSnapshot);
+	const [storage, setStorage] = (0, import_react$58.useState)(null);
+	const [confirmed, setConfirmed] = (0, import_react$58.useState)(false);
+	const [from, setFrom] = (0, import_react$58.useState)("");
+	const [to, setTo] = (0, import_react$58.useState)("");
 	const worker = state.current?.worker;
 	const inactive = [
 		"idle",
@@ -2862,7 +2864,7 @@ function ScopedRun({ selection, command, cleanup, privacy, prepareDraft, onWrite
 	const canRead = available && worker?.phase === "needs_read";
 	const canCancel = state.canCancel;
 	const draftCurrent = available && state.error === null && worker?.phase === "review" && worker.error === null ? state.current : null;
-	(0, import_react$60.useLayoutEffect)(() => {
+	(0, import_react$58.useLayoutEffect)(() => {
 		onCurrentChange?.(draftCurrent);
 		return () => onCurrentChange?.(null);
 	}, [draftCurrent, onCurrentChange]);
@@ -2870,22 +2872,22 @@ function ScopedRun({ selection, command, cleanup, privacy, prepareDraft, onWrite
 		setStorage(value);
 		setConfirmed(false);
 	}
-	return /* @__PURE__ */ (0, import_jsx_runtime$73.jsxs)("section", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$71.jsxs)("section", {
 		"aria-label": "거래 검토 작업",
 		children: [
-			/* @__PURE__ */ (0, import_jsx_runtime$73.jsx)("h2", { children: "선택한 토스 계좌의 거래 검토" }),
-			/* @__PURE__ */ (0, import_jsx_runtime$73.jsx)("p", {
+			/* @__PURE__ */ (0, import_jsx_runtime$71.jsx)("h2", { children: "선택한 토스 계좌의 거래 검토" }),
+			/* @__PURE__ */ (0, import_jsx_runtime$71.jsx)("p", {
 				className: "trade-review-caption",
 				children: "주문별 집계 · 개별 체결 복원 아님"
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$73.jsxs)("div", {
+			/* @__PURE__ */ (0, import_jsx_runtime$71.jsxs)("div", {
 				className: "trade-review-draft",
 				children: [
-					/* @__PURE__ */ (0, import_jsx_runtime$73.jsxs)("div", {
+					/* @__PURE__ */ (0, import_jsx_runtime$71.jsxs)("div", {
 						className: "trade-review-draft-actions",
 						role: "group",
 						"aria-label": "조회 범위",
-						children: [/* @__PURE__ */ (0, import_jsx_runtime$73.jsxs)("label", { children: ["시작일 · 선택", /* @__PURE__ */ (0, import_jsx_runtime$73.jsx)("input", {
+						children: [/* @__PURE__ */ (0, import_jsx_runtime$71.jsxs)("label", { children: ["시작일 · 선택", /* @__PURE__ */ (0, import_jsx_runtime$71.jsx)("input", {
 							"aria-label": "시작일 · 선택",
 							type: "date",
 							value: from,
@@ -2894,7 +2896,7 @@ function ScopedRun({ selection, command, cleanup, privacy, prepareDraft, onWrite
 								setFrom(event.target.value);
 								setConfirmed(false);
 							}
-						})] }), /* @__PURE__ */ (0, import_jsx_runtime$73.jsxs)("label", { children: ["종료일 · 선택", /* @__PURE__ */ (0, import_jsx_runtime$73.jsx)("input", {
+						})] }), /* @__PURE__ */ (0, import_jsx_runtime$71.jsxs)("label", { children: ["종료일 · 선택", /* @__PURE__ */ (0, import_jsx_runtime$71.jsx)("input", {
 							"aria-label": "종료일 · 선택",
 							type: "date",
 							value: to,
@@ -2905,17 +2907,17 @@ function ScopedRun({ selection, command, cleanup, privacy, prepareDraft, onWrite
 							}
 						})] })]
 					}),
-					/* @__PURE__ */ (0, import_jsx_runtime$73.jsxs)("div", {
+					/* @__PURE__ */ (0, import_jsx_runtime$71.jsxs)("div", {
 						role: "group",
 						"aria-label": "로컬 보관 선택",
 						className: "trade-review-draft-actions",
-						children: [/* @__PURE__ */ (0, import_jsx_runtime$73.jsx)("button", {
+						children: [/* @__PURE__ */ (0, import_jsx_runtime$71.jsx)("button", {
 							type: "button",
 							disabled: !inactive,
 							"aria-pressed": storage === "open_existing",
 							onClick: () => choose("open_existing"),
 							children: "기존 보관 열기"
-						}), /* @__PURE__ */ (0, import_jsx_runtime$73.jsx)("button", {
+						}), /* @__PURE__ */ (0, import_jsx_runtime$71.jsx)("button", {
 							type: "button",
 							disabled: !inactive,
 							"aria-pressed": storage === "create_new",
@@ -2923,7 +2925,7 @@ function ScopedRun({ selection, command, cleanup, privacy, prepareDraft, onWrite
 							children: "새 보관 준비"
 						})]
 					}),
-					storage ? /* @__PURE__ */ (0, import_jsx_runtime$73.jsxs)("p", {
+					storage ? /* @__PURE__ */ (0, import_jsx_runtime$71.jsxs)("p", {
 						className: "trade-review-caption",
 						children: [
 							storage === "create_new" ? "새 암호화 보관과 저장키를 준비합니다. 기존 보관은 덮어쓰지 않습니다." : "기존 암호화 보관과 저장키를 읽습니다. 없거나 확인할 수 없으면 중단합니다.",
@@ -2931,7 +2933,7 @@ function ScopedRun({ selection, command, cleanup, privacy, prepareDraft, onWrite
 							"OS 승인이 나타날 수 있습니다."
 						]
 					}) : null,
-					/* @__PURE__ */ (0, import_jsx_runtime$73.jsxs)("button", {
+					/* @__PURE__ */ (0, import_jsx_runtime$71.jsxs)("button", {
 						type: "button",
 						role: "checkbox",
 						"aria-checked": confirmed,
@@ -2942,11 +2944,11 @@ function ScopedRun({ selection, command, cleanup, privacy, prepareDraft, onWrite
 					})
 				]
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$73.jsxs)("nav", {
+			/* @__PURE__ */ (0, import_jsx_runtime$71.jsxs)("nav", {
 				className: "trade-review-samples",
 				"aria-label": "거래 작업 제어",
 				children: [
-					/* @__PURE__ */ (0, import_jsx_runtime$73.jsx)("button", {
+					/* @__PURE__ */ (0, import_jsx_runtime$71.jsx)("button", {
 						type: "button",
 						disabled: !canPrepare,
 						onClick: () => {
@@ -2963,25 +2965,25 @@ function ScopedRun({ selection, command, cleanup, privacy, prepareDraft, onWrite
 						},
 						children: "조회 준비"
 					}),
-					/* @__PURE__ */ (0, import_jsx_runtime$73.jsx)("button", {
+					/* @__PURE__ */ (0, import_jsx_runtime$71.jsx)("button", {
 						type: "button",
 						disabled: !canCheck,
 						onClick: () => void session.current(),
 						children: "현재 상태 확인"
 					}),
-					/* @__PURE__ */ (0, import_jsx_runtime$73.jsx)("button", {
+					/* @__PURE__ */ (0, import_jsx_runtime$71.jsx)("button", {
 						type: "button",
 						disabled: !canPage,
 						onClick: () => void session.page(),
 						children: worker?.review ? "다음 1페이지 조회" : "첫 1페이지 조회"
 					}),
-					/* @__PURE__ */ (0, import_jsx_runtime$73.jsx)("button", {
+					/* @__PURE__ */ (0, import_jsx_runtime$71.jsx)("button", {
 						type: "button",
 						disabled: !canRead,
 						onClick: () => void session.read(),
 						children: "저장 상태 다시 읽기"
 					}),
-					/* @__PURE__ */ (0, import_jsx_runtime$73.jsx)("button", {
+					/* @__PURE__ */ (0, import_jsx_runtime$71.jsx)("button", {
 						type: "button",
 						disabled: !canCancel,
 						onClick: () => {
@@ -2992,20 +2994,20 @@ function ScopedRun({ selection, command, cleanup, privacy, prepareDraft, onWrite
 					})
 				]
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$73.jsx)("p", {
+			/* @__PURE__ */ (0, import_jsx_runtime$71.jsx)("p", {
 				role: "status",
 				"aria-label": "검토 작업 상태",
 				className: "trade-review-status",
 				children: statusText$1(state)
 			}),
-			state.error ? /* @__PURE__ */ (0, import_jsx_runtime$73.jsx)("p", {
+			state.error ? /* @__PURE__ */ (0, import_jsx_runtime$71.jsx)("p", {
 				role: "alert",
 				children: errors[state.error]
 			}) : null,
-			worker ? /* @__PURE__ */ (0, import_jsx_runtime$73.jsx)(TradePublicationPanel, {
+			worker ? /* @__PURE__ */ (0, import_jsx_runtime$71.jsx)(TradePublicationPanel, {
 				publication: worker,
 				privacy,
-				renderSelectedActions: prepareDraft && draftCurrent ? (row) => /* @__PURE__ */ (0, import_jsx_runtime$73.jsx)(TradeServerDraftPreparation, {
+				renderSelectedActions: prepareDraft && draftCurrent ? (row) => /* @__PURE__ */ (0, import_jsx_runtime$71.jsx)(TradeServerDraftPreparation, {
 					current: draftCurrent,
 					row,
 					prepareDraft,
@@ -3015,14 +3017,14 @@ function ScopedRun({ selection, command, cleanup, privacy, prepareDraft, onWrite
 		]
 	});
 }
-var import_react$60, import_jsx_runtime$73, noCleanup, getNoCleanup, subscribeNoCleanup, uuid$9, errors;
+var import_react$58, import_jsx_runtime$71, noCleanup, getNoCleanup, subscribeNoCleanup, uuid$9, errors;
 function init_TradeRunPanel() {
 	return (init_TradeRunPanel = __esmMin((() => {
-		import_react$60 = require_react();
+		import_react$58 = require_react();
 		init_runController();
 		init_TradePublicationPanel();
 		init_TradeServerDraftPreparation();
-		import_jsx_runtime$73 = require_jsx_runtime();
+		import_jsx_runtime$71 = require_jsx_runtime();
 		noCleanup = Object.freeze({
 			status: "idle",
 			canRetry: false,
@@ -3300,21 +3302,21 @@ function init_cleanup() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/trade-review/cleanup.css?v=source-build-r99";
+			l.href = "/local/app/css-source/src/trade-review/cleanup.css?v=source-build-r102";
 			document.head.appendChild(l);
 		}
 	})))();
 }
 /** App-owned state. Mounting or leaving this notice never issues or owns cleanup. */
 function TradeCleanupNotice({ cleanup }) {
-	const region = (0, import_react$59.useRef)(null);
-	const focusReturn = (0, import_react$59.useRef)(null);
-	const subscribe = (0, import_react$59.useCallback)((notify) => cleanup.subscribe(() => {
+	const region = (0, import_react$57.useRef)(null);
+	const focusReturn = (0, import_react$57.useRef)(null);
+	const subscribe = (0, import_react$57.useCallback)((notify) => cleanup.subscribe(() => {
 		if (region.current?.contains(document.activeElement)) focusReturn.current = region.current.closest("main");
 		notify();
 	}), [cleanup]);
-	const state = (0, import_react$59.useSyncExternalStore)(subscribe, cleanup.getSnapshot, cleanup.getSnapshot);
-	(0, import_react$59.useLayoutEffect)(() => {
+	const state = (0, import_react$57.useSyncExternalStore)(subscribe, cleanup.getSnapshot, cleanup.getSnapshot);
+	(0, import_react$57.useLayoutEffect)(() => {
 		const movedOutside = (event) => {
 			if (event.target instanceof Node && event.target !== document.body && event.target !== document.documentElement && !region.current?.contains(event.target)) focusReturn.current = null;
 		};
@@ -3326,7 +3328,7 @@ function TradeCleanupNotice({ cleanup }) {
 			focusReturn.current = null;
 		};
 	}, [cleanup]);
-	(0, import_react$59.useLayoutEffect)(() => {
+	(0, import_react$57.useLayoutEffect)(() => {
 		if (state.status !== "idle") return;
 		const target = focusReturn.current;
 		focusReturn.current = null;
@@ -3334,26 +3336,26 @@ function TradeCleanupNotice({ cleanup }) {
 	}, [state.status]);
 	if (state.status === "idle") return null;
 	const message = state.status === "waiting" ? "이전 거래 작업의 응답을 기다리고 있습니다." : state.status === "cancelling" ? "이전 거래 작업의 취소를 요청하고 있습니다." : state.status === "checking" ? "이전 거래 작업의 상태를 확인하고 있습니다." : "이전 거래 작업 정리를 확인하지 못했습니다.";
-	return /* @__PURE__ */ (0, import_jsx_runtime$72.jsxs)("section", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$70.jsxs)("section", {
 		ref: region,
 		className: "trade-cleanup-notice",
 		"aria-label": "이전 거래 작업 정리",
 		children: [
-			/* @__PURE__ */ (0, import_jsx_runtime$72.jsx)("p", {
+			/* @__PURE__ */ (0, import_jsx_runtime$70.jsx)("p", {
 				role: "status",
 				children: message
 			}),
-			state.status === "unknown" && /* @__PURE__ */ (0, import_jsx_runtime$72.jsx)("p", { children: state.canRetry ? "이전 작업의 취소를 다시 요청할 수 있습니다." : "작업 번호를 확인하지 못해 취소할 수 없습니다." }),
-			/* @__PURE__ */ (0, import_jsx_runtime$72.jsx)("p", { children: "새 조회 준비 전에 확인하세요. 취소 접수는 진행 중인 OS 작업의 완료를 뜻하지 않습니다." }),
-			/* @__PURE__ */ (0, import_jsx_runtime$72.jsxs)("div", {
+			state.status === "unknown" && /* @__PURE__ */ (0, import_jsx_runtime$70.jsx)("p", { children: state.canRetry ? "이전 작업의 취소를 다시 요청할 수 있습니다." : "작업 번호를 확인하지 못해 취소할 수 없습니다." }),
+			/* @__PURE__ */ (0, import_jsx_runtime$70.jsx)("p", { children: "새 조회 준비 전에 확인하세요. 취소 접수는 진행 중인 OS 작업의 완료를 뜻하지 않습니다." }),
+			/* @__PURE__ */ (0, import_jsx_runtime$70.jsxs)("div", {
 				className: "trade-cleanup-actions",
-				children: [/* @__PURE__ */ (0, import_jsx_runtime$72.jsx)("button", {
+				children: [/* @__PURE__ */ (0, import_jsx_runtime$70.jsx)("button", {
 					type: "button",
 					className: "text-button",
 					disabled: !state.canRetry,
 					onClick: () => void cleanup.retry(),
 					children: "이전 검토 취소 다시 요청"
-				}), /* @__PURE__ */ (0, import_jsx_runtime$72.jsx)("button", {
+				}), /* @__PURE__ */ (0, import_jsx_runtime$70.jsx)("button", {
 					type: "button",
 					className: "text-button",
 					disabled: !state.canCheck,
@@ -3364,12 +3366,12 @@ function TradeCleanupNotice({ cleanup }) {
 		]
 	});
 }
-var import_react$59, import_jsx_runtime$72;
+var import_react$57, import_jsx_runtime$70;
 function init_TradeCleanupNotice() {
 	return (init_TradeCleanupNotice = __esmMin((() => {
-		import_react$59 = require_react();
+		import_react$57 = require_react();
 		init_cleanup();
-		import_jsx_runtime$72 = require_jsx_runtime();
+		import_jsx_runtime$70 = require_jsx_runtime();
 	})))();
 }
 /******************************************************************************
@@ -3660,11 +3662,11 @@ function init_draftCommand() {
 		};
 	})))();
 }
-function object$4(value) {
+function object$3(value) {
 	if (!value || typeof value !== "object" || Array.isArray(value)) throw new Error("document object");
 	return value;
 }
-function exact$3(value, keys) {
+function exact$2(value, keys) {
 	if (Object.keys(value).length !== keys.length || keys.some((key) => !Object.hasOwn(value, key))) throw new Error("document fields");
 }
 function wellFormed(value) {
@@ -3679,8 +3681,8 @@ function identity(value) {
 }
 /** Pure validation/copy: never normalizes text, fetches assets or migrates stored notes. */
 function parseRichDocument(value, assetIds) {
-	const doc = object$4(value);
-	exact$3(doc, doc.version === 2 ? [
+	const doc = object$3(value);
+	exact$2(doc, doc.version === 2 ? [
 		"version",
 		"blocks",
 		"rows"
@@ -3691,11 +3693,11 @@ function parseRichDocument(value, assetIds) {
 	const ids = /* @__PURE__ */ new Set();
 	let textLength = 0;
 	const blocks = doc.blocks.map((value) => {
-		const block = object$4(value), id = identity(block.id);
+		const block = object$3(value), id = identity(block.id);
 		if (ids.has(id)) throw new Error("duplicate block");
 		ids.add(id);
 		if (block.type === "text") {
-			exact$3(block, [
+			exact$2(block, [
 				"id",
 				"type",
 				"text"
@@ -3709,7 +3711,7 @@ function parseRichDocument(value, assetIds) {
 			};
 		}
 		if (block.type === "image") {
-			exact$3(block, [
+			exact$2(block, [
 				"id",
 				"type",
 				"assetId",
@@ -3743,8 +3745,8 @@ function parseRichDocument(value, assetIds) {
 		version: 2,
 		blocks,
 		rows: doc.rows.map((value) => {
-			const row = object$4(value);
-			exact$3(row, [
+			const row = object$3(value);
+			exact$2(row, [
 				"id",
 				"type",
 				"columns"
@@ -3754,8 +3756,8 @@ function parseRichDocument(value, assetIds) {
 			ids.add(rowId);
 			if (!Array.isArray(row.columns) || row.columns.length !== 2) throw Error("column count");
 			const columns = row.columns.map((value) => {
-				const column = object$4(value);
-				exact$3(column, [
+				const column = object$3(value);
+				exact$2(column, [
 					"id",
 					"type",
 					"blockIds"
@@ -3965,7 +3967,7 @@ function readLinkedRichSaveResponse(request, response, before, expectedLink) {
 	const baseline = readManualResponse(before);
 	const link = readManualTradeLink(expectedLink);
 	const sent = JSON.parse(linkedRichSaveWire(request));
-	const r = exact$2(response, [
+	const r = exact$1(response, [
 		"kind",
 		"storeId",
 		"revision",
@@ -4011,7 +4013,7 @@ function canonical(value) {
 	if (value && typeof value === "object") return `{${Object.entries(value).sort(([a], [b]) => a < b ? -1 : a > b ? 1 : 0).map(([key, item]) => `${JSON.stringify(key)}:${canonical(item)}`).join(",")}}`;
 	return JSON.stringify(value);
 }
-function exact$2(value, keys) {
+function exact$1(value, keys) {
 	if (!value || typeof value !== "object" || Array.isArray(value) || Object.keys(value).length !== keys.length || keys.some((k) => !Object.hasOwn(value, k))) throw Error("invalid_linked_rich");
 	return value;
 }
@@ -4023,7 +4025,7 @@ function revision$3(value) {
 }
 /** Pure wire boundary; no transport or runtime registration. */
 function linkedRichSaveWire(value) {
-	const r = exact$2(value, [
+	const r = exact$1(value, [
 		"op",
 		"storeId",
 		"expectedRevision",
@@ -4063,10 +4065,10 @@ function init_linkedRichCommand() {
 }
 function readTemporaryBackupResult(v) {
 	if (v && typeof v === "object" && "kind" in v && v.kind === "draft_backup_cancelled") {
-		object$3(v, ["kind"]);
+		object$2(v, ["kind"]);
 		return { kind: "draft_backup_cancelled" };
 	}
-	const r = object$3(v, [
+	const r = object$2(v, [
 		"kind",
 		"draftCount",
 		"draftRevision",
@@ -4082,23 +4084,23 @@ function readTemporaryBackupResult(v) {
 }
 function readTemporaryArchiveResponse(v) {
 	if (v && typeof v === "object" && "kind" in v && v.kind === "draft_backup_read_cancelled") {
-		object$3(v, ["kind"]);
+		object$2(v, ["kind"]);
 		return { kind: "draft_backup_read_cancelled" };
 	}
-	const r = object$3(v, ["kind", "entries"]);
+	const r = object$2(v, ["kind", "entries"]);
 	if (r.kind !== "draft_backup_view" || !Array.isArray(r.entries) || r.entries.length > 16 || new TextEncoder().encode(JSON.stringify(v)).length > 16779264) return invalid$2();
 	const seen = /* @__PURE__ */ new Set();
 	return {
 		kind: "draft_backup_view",
 		entries: r.entries.map((value) => {
-			const e = object$3(value, ["source", "data"]), s = object$3(e.source, [
+			const e = object$2(value, ["source", "data"]), s = object$2(e.source, [
 				"draftId",
 				"noteId",
 				"baseRevision",
 				"editRevision",
 				"savedAt"
 			]);
-			const id = uuid$4(s.draftId), savedAt = text$3(s.savedAt, 40);
+			const id = uuid$4(s.draftId), savedAt = text$2(s.savedAt, 40);
 			if (seen.has(id) || !/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(\.\d{1,9})?(Z|[+-]\d{2}:\d{2})$/.test(savedAt) || !Number.isFinite(Date.parse(savedAt))) return invalid$2();
 			seen.add(id);
 			return {
@@ -4114,26 +4116,26 @@ function readTemporaryArchiveResponse(v) {
 		})
 	};
 }
-function object$3(v, keys) {
+function object$2(v, keys) {
 	if (!v || typeof v !== "object" || Array.isArray(v) || Object.keys(v).length !== keys.length || keys.some((k) => !Object.hasOwn(v, k))) return invalid$2();
 	return v;
 }
-function text$3(v, max) {
+function text$2(v, max) {
 	if (typeof v !== "string" || v.length > max || new TextEncoder().encode(v).length > max) return invalid$2();
 	return v;
 }
 function uuid$4(v) {
-	const s = text$3(v, 36);
+	const s = text$2(v, 36);
 	if (!/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/.test(s)) return invalid$2();
 	return s;
 }
 function revision$2(v) {
-	const s = text$3(v, 20);
+	const s = text$2(v, 20);
 	if (!/^(0|[1-9][0-9]{0,19})$/.test(s) || BigInt(s) > 18446744073709551615n) return invalid$2();
 	return s;
 }
 function readTemporaryData(v) {
-	const r = object$3(v, [
+	const r = object$2(v, [
 		"title",
 		"body",
 		"recordDate",
@@ -4150,7 +4152,7 @@ function readTemporaryData(v) {
 	const calendarLink = r.calendarLink === null ? null : readCalendarLink(r.calendarLink);
 	let tradeContext = null;
 	if (r.tradeContext !== null) {
-		const c = object$3(r.tradeContext, [
+		const c = object$2(r.tradeContext, [
 			"attemptId",
 			"runId",
 			"revision",
@@ -4165,9 +4167,9 @@ function readTemporaryData(v) {
 	}
 	if (calendarLink && tradeContext) return invalid$2();
 	return {
-		title: text$3(r.title, 640),
-		body: text$3(r.body, 8e4),
-		recordDate: text$3(r.recordDate, 64),
+		title: text$2(r.title, 640),
+		body: text$2(r.body, 8e4),
+		recordDate: text$2(r.recordDate, 64),
 		attachments,
 		pdfs,
 		content,
@@ -4176,7 +4178,7 @@ function readTemporaryData(v) {
 	};
 }
 function readTemporaryRecords(v) {
-	const r = object$3(v, [
+	const r = object$2(v, [
 		"kind",
 		"storeId",
 		"revision",
@@ -4186,7 +4188,7 @@ function readTemporaryRecords(v) {
 	if (r.kind !== "drafts" || !Array.isArray(r.drafts) || r.drafts.length > 16) return invalid$2();
 	const ids = /* @__PURE__ */ new Set();
 	const drafts = r.drafts.map((v) => {
-		const d = object$3(v, [
+		const d = object$2(v, [
 			"draftId",
 			"noteId",
 			"baseRevision",
@@ -4197,7 +4199,7 @@ function readTemporaryRecords(v) {
 		const id = uuid$4(d.draftId);
 		if (ids.has(id)) return invalid$2();
 		ids.add(id);
-		const at = text$3(d.savedAt, 40);
+		const at = text$2(d.savedAt, 40);
 		if (!/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(\.\d{1,9})?Z$/.test(at) || !Number.isFinite(Date.parse(at))) return invalid$2();
 		return {
 			draftId: id,
@@ -4222,24 +4224,24 @@ function temporaryRequestWire(value) {
 	const op = value.op;
 	let checked;
 	if (op === "draft_probe") {
-		object$3(value, ["op"]);
+		object$2(value, ["op"]);
 		checked = { op };
 	} else if (op === "draft_backup_read") {
-		const password = text$3(object$3(value, ["op", "password"]).password, 1024);
+		const password = text$2(object$2(value, ["op", "password"]).password, 1024);
 		if ([...password].length < 12 || /\p{Cc}/u.test(password)) return invalid$2();
 		checked = {
 			op,
 			password
 		};
 	} else if (op === "draft_export") {
-		const r = object$3(value, [
+		const r = object$2(value, [
 			"op",
 			"storeId",
 			"expectedDraftRevision",
 			"expectedCanonicalRevision",
 			"password"
 		]);
-		const password = text$3(r.password, 1024);
+		const password = text$2(r.password, 1024);
 		if ([...password].length < 12 || /\p{Cc}/u.test(password)) return invalid$2();
 		checked = {
 			op,
@@ -4250,10 +4252,10 @@ function temporaryRequestWire(value) {
 		};
 	} else if (op === "draft_load") checked = {
 		op,
-		storeId: uuid$4(object$3(value, ["op", "storeId"]).storeId)
+		storeId: uuid$4(object$2(value, ["op", "storeId"]).storeId)
 	};
 	else if (op === "draft_cleanup") {
-		const r = object$3(value, [
+		const r = object$2(value, [
 			"op",
 			"storeId",
 			"expectedRevision",
@@ -4272,7 +4274,7 @@ function temporaryRequestWire(value) {
 			expectedEditRevision: revision$2(r.expectedEditRevision)
 		};
 	} else if (op === "draft_discard") {
-		const r = object$3(value, [
+		const r = object$2(value, [
 			"op",
 			"storeId",
 			"expectedRevision",
@@ -4289,7 +4291,7 @@ function temporaryRequestWire(value) {
 			expectedEditRevision: revision$2(r.expectedEditRevision)
 		};
 	} else if (op === "draft_write") {
-		const r = object$3(value, [
+		const r = object$2(value, [
 			"op",
 			"storeId",
 			"expectedRevision",
@@ -4317,7 +4319,7 @@ function temporaryRequestWire(value) {
 	return wire;
 }
 function readTemporaryContext(v) {
-	const r = object$3(v, [
+	const r = object$2(v, [
 		"kind",
 		"store",
 		"drafts"
@@ -5576,7 +5578,7 @@ function init_rich_columns() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/journal/editor/rich-columns.css?v=source-build-r99";
+			l.href = "/local/app/css-source/src/journal/editor/rich-columns.css?v=source-build-r102";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -5588,36 +5590,36 @@ function RichColumnLayout({ document, renderBlock, renderRowTools }) {
 		block,
 		index
 	}]));
-	return /* @__PURE__ */ (0, import_jsx_runtime$71.jsx)("div", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$69.jsx)("div", {
 		className: "rich-document-layout",
 		children: document.blocks.map((block, index) => {
 			const row = document.rows?.find((row) => row.columns[0].blockIds[0] === block.id);
-			if (row) return /* @__PURE__ */ (0, import_jsx_runtime$71.jsxs)("div", {
+			if (row) return /* @__PURE__ */ (0, import_jsx_runtime$69.jsxs)("div", {
 				className: "rich-column-row",
 				"data-row-id": row.id,
 				role: "group",
 				"aria-label": "2열 배치",
-				children: [renderRowTools?.(row), row.columns.map((column, i) => /* @__PURE__ */ (0, import_jsx_runtime$71.jsx)("div", {
+				children: [renderRowTools?.(row), row.columns.map((column, i) => /* @__PURE__ */ (0, import_jsx_runtime$69.jsx)("div", {
 					className: "rich-column",
 					"data-column-id": column.id,
 					role: "group",
 					"aria-label": i === 0 ? "왼쪽 열" : "오른쪽 열",
 					children: column.blockIds.map((id) => {
 						const entry = lookup.get(id);
-						return /* @__PURE__ */ (0, import_jsx_runtime$71.jsx)(import_react$58.Fragment, { children: renderBlock(entry.block, entry.index) }, id);
+						return /* @__PURE__ */ (0, import_jsx_runtime$69.jsx)(import_react$56.Fragment, { children: renderBlock(entry.block, entry.index) }, id);
 					})
 				}, column.id))]
 			}, row.id);
-			return grouped.has(block.id) ? null : /* @__PURE__ */ (0, import_jsx_runtime$71.jsx)(import_react$58.Fragment, { children: renderBlock(block, index) }, block.id);
+			return grouped.has(block.id) ? null : /* @__PURE__ */ (0, import_jsx_runtime$69.jsx)(import_react$56.Fragment, { children: renderBlock(block, index) }, block.id);
 		})
 	});
 }
-var import_react$58, import_jsx_runtime$71;
+var import_react$56, import_jsx_runtime$69;
 function init_RichColumnLayout() {
 	return (init_RichColumnLayout = __esmMin((() => {
-		import_react$58 = require_react();
+		import_react$56 = require_react();
 		init_rich_columns();
-		import_jsx_runtime$71 = require_jsx_runtime();
+		import_jsx_runtime$69 = require_jsx_runtime();
 	})))();
 }
 function columnFor(document, id) {
@@ -5677,13 +5679,13 @@ function init_richColumns() {
 }
 /** A named action opens a floating panel, not an in-flow accordion. */
 function EditorPopover({ label, tooltipLabel, kind = "block", className = "", children, disabled = false, onOpen, triggerRef }) {
-	const [open, setOpen] = (0, import_react$57.useState)(false);
-	const root = (0, import_react$57.useRef)(null);
-	const ownTrigger = (0, import_react$57.useRef)(null);
+	const [open, setOpen] = (0, import_react$55.useState)(false);
+	const root = (0, import_react$55.useRef)(null);
+	const ownTrigger = (0, import_react$55.useRef)(null);
 	const trigger = triggerRef ?? ownTrigger;
-	const id = (0, import_react$57.useId)();
-	const panel = (0, import_react$57.useRef)(null);
-	(0, import_react$57.useEffect)(() => {
+	const id = (0, import_react$55.useId)();
+	const panel = (0, import_react$55.useRef)(null);
+	(0, import_react$55.useEffect)(() => {
 		if (!open) return;
 		const outside = (e) => {
 			if (!root.current?.contains(e.target)) setOpen(false);
@@ -5691,7 +5693,7 @@ function EditorPopover({ label, tooltipLabel, kind = "block", className = "", ch
 		document.addEventListener("pointerdown", outside);
 		return () => document.removeEventListener("pointerdown", outside);
 	}, [open]);
-	(0, import_react$57.useLayoutEffect)(() => {
+	(0, import_react$55.useLayoutEffect)(() => {
 		if (!open) return;
 		const measure = () => {
 			const box = panel.current, anchor = trigger.current, host = root.current;
@@ -5714,7 +5716,7 @@ function EditorPopover({ label, tooltipLabel, kind = "block", className = "", ch
 		trigger,
 		children
 	]);
-	return /* @__PURE__ */ (0, import_jsx_runtime$70.jsxs)("div", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$68.jsxs)("div", {
 		ref: root,
 		className: `journal-popover ${className}`,
 		onKeyDown: (e) => {
@@ -5727,7 +5729,7 @@ function EditorPopover({ label, tooltipLabel, kind = "block", className = "", ch
 		onBlur: (e) => {
 			if (!e.currentTarget.contains(e.relatedTarget) && !e.currentTarget.querySelector("dialog[open]")) setOpen(false);
 		},
-		children: [/* @__PURE__ */ (0, import_jsx_runtime$70.jsxs)("button", {
+		children: [/* @__PURE__ */ (0, import_jsx_runtime$68.jsxs)("button", {
 			ref: trigger,
 			type: "button",
 			className: "editor-popover-trigger",
@@ -5746,66 +5748,66 @@ function EditorPopover({ label, tooltipLabel, kind = "block", className = "", ch
 				if (!open) onOpen?.();
 				setOpen((v) => !v);
 			},
-			children: [kind === "block" ? /* @__PURE__ */ (0, import_jsx_runtime$70.jsx)("svg", {
+			children: [kind === "block" ? /* @__PURE__ */ (0, import_jsx_runtime$68.jsx)("svg", {
 				viewBox: "0 0 24 24",
 				"aria-hidden": "true",
-				children: /* @__PURE__ */ (0, import_jsx_runtime$70.jsx)("g", {
+				children: /* @__PURE__ */ (0, import_jsx_runtime$68.jsx)("g", {
 					fill: "currentColor",
 					stroke: "none",
 					children: [
 						6,
 						12,
 						18
-					].flatMap((y) => [9, 15].map((x) => /* @__PURE__ */ (0, import_jsx_runtime$70.jsx)("circle", {
+					].flatMap((y) => [9, 15].map((x) => /* @__PURE__ */ (0, import_jsx_runtime$68.jsx)("circle", {
 						cx: x,
 						cy: y,
 						r: "1.3"
 					}, `${x}-${y}`)))
 				})
-			}) : kind === "more" ? /* @__PURE__ */ (0, import_jsx_runtime$70.jsx)("svg", {
+			}) : kind === "more" ? /* @__PURE__ */ (0, import_jsx_runtime$68.jsx)("svg", {
 				viewBox: "0 0 24 24",
 				"aria-hidden": "true",
-				children: /* @__PURE__ */ (0, import_jsx_runtime$70.jsx)("g", {
+				children: /* @__PURE__ */ (0, import_jsx_runtime$68.jsx)("g", {
 					fill: "currentColor",
 					stroke: "none",
 					children: [
 						6,
 						12,
 						18
-					].map((x) => /* @__PURE__ */ (0, import_jsx_runtime$70.jsx)("circle", {
+					].map((x) => /* @__PURE__ */ (0, import_jsx_runtime$68.jsx)("circle", {
 						cx: x,
 						cy: "12",
 						r: "1.4"
 					}, x))
 				})
-			}) : kind === "columns" ? /* @__PURE__ */ (0, import_jsx_runtime$70.jsxs)("svg", {
+			}) : kind === "columns" ? /* @__PURE__ */ (0, import_jsx_runtime$68.jsxs)("svg", {
 				viewBox: "0 0 24 24",
 				"aria-hidden": "true",
-				children: [/* @__PURE__ */ (0, import_jsx_runtime$70.jsx)("rect", {
+				children: [/* @__PURE__ */ (0, import_jsx_runtime$68.jsx)("rect", {
 					x: "4",
 					y: "5",
 					width: "6",
 					height: "14",
 					rx: "1"
-				}), /* @__PURE__ */ (0, import_jsx_runtime$70.jsx)("rect", {
+				}), /* @__PURE__ */ (0, import_jsx_runtime$68.jsx)("rect", {
 					x: "14",
 					y: "5",
 					width: "6",
 					height: "14",
 					rx: "1"
 				})]
-			}) : kind === "text" ? /* @__PURE__ */ (0, import_jsx_runtime$70.jsx)("span", {
+			}) : kind === "text" ? /* @__PURE__ */ (0, import_jsx_runtime$68.jsx)("span", {
 				"aria-hidden": "true",
 				children: "Aa"
-			}) : /* @__PURE__ */ (0, import_jsx_runtime$70.jsx)("svg", {
+			}) : /* @__PURE__ */ (0, import_jsx_runtime$68.jsx)("svg", {
 				viewBox: "0 0 24 24",
 				"aria-hidden": "true",
-				children: /* @__PURE__ */ (0, import_jsx_runtime$70.jsx)("path", { d: kind === "image" ? "M4 4h16v16H4Zm0 12 5-5 4 4 3-3 4 4" : kind === "file" ? "m8 12 5-5a3 3 0 0 1 4 4l-7 7a5 5 0 0 1-7-7l8-8" : "M5 6h14M5 12h14M5 18h14M9 4v4M15 10v4M10 16v4" })
-			}), /* @__PURE__ */ (0, import_jsx_runtime$70.jsx)("span", {
+				children: /* @__PURE__ */ (0, import_jsx_runtime$68.jsx)("path", { d: kind === "image" ? "M4 4h16v16H4Zm0 12 5-5 4 4 3-3 4 4" : kind === "file" ? "m8 12 5-5a3 3 0 0 1 4 4l-7 7a5 5 0 0 1-7-7l8-8" : "M5 6h14M5 12h14M5 18h14M9 4v4M15 10v4M10 16v4" })
+			}), /* @__PURE__ */ (0, import_jsx_runtime$68.jsx)("span", {
 				className: "journal-action-tooltip",
 				children: tooltipLabel ?? label
 			})]
-		}), open && /* @__PURE__ */ (0, import_jsx_runtime$70.jsx)("div", {
+		}), open && /* @__PURE__ */ (0, import_jsx_runtime$68.jsx)("div", {
 			ref: panel,
 			id,
 			role: "dialog",
@@ -5823,11 +5825,11 @@ function EditorPopover({ label, tooltipLabel, kind = "block", className = "", ch
 		})]
 	});
 }
-var import_react$57, import_jsx_runtime$70;
+var import_react$55, import_jsx_runtime$68;
 function init_EditorPopover() {
 	return (init_EditorPopover = __esmMin((() => {
-		import_react$57 = require_react();
-		import_jsx_runtime$70 = require_jsx_runtime();
+		import_react$55 = require_react();
+		import_jsx_runtime$68 = require_jsx_runtime();
 	})))();
 }
 /** Pure staged edit. Caller owns history/persistence; never re-encodes image bytes. */
@@ -5959,7 +5961,7 @@ function init_editor() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/journal/editor/editor.css?v=source-build-r99";
+			l.href = "/local/app/css-source/src/journal/editor/editor.css?v=source-build-r102";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -6170,7 +6172,7 @@ function formatSelection(body, start, end, kind) {
 	return result;
 }
 function CommandIcon({ kind }) {
-	if (/^h[123]$/.test(kind)) return /* @__PURE__ */ (0, import_jsx_runtime$69.jsx)("span", {
+	if (/^h[123]$/.test(kind)) return /* @__PURE__ */ (0, import_jsx_runtime$67.jsx)("span", {
 		className: "writing-command-icon",
 		"aria-hidden": "true",
 		children: kind.toUpperCase()
@@ -6182,17 +6184,17 @@ function CommandIcon({ kind }) {
 		quote: "M3 8h6v6H5l-2 4V8Zm12 0h6v6h-4l-2 4V8Z",
 		callout: "M4 4h16v16H4ZM12 8v5M12 16h.1"
 	};
-	if (symbols[kind]) return /* @__PURE__ */ (0, import_jsx_runtime$69.jsx)("svg", {
+	if (symbols[kind]) return /* @__PURE__ */ (0, import_jsx_runtime$67.jsx)("svg", {
 		className: "writing-command-icon",
 		viewBox: "0 0 24 24",
 		"aria-hidden": "true",
-		children: /* @__PURE__ */ (0, import_jsx_runtime$69.jsx)("path", { d: symbols[kind] })
+		children: /* @__PURE__ */ (0, import_jsx_runtime$67.jsx)("path", { d: symbols[kind] })
 	});
-	return /* @__PURE__ */ (0, import_jsx_runtime$69.jsx)("svg", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$67.jsx)("svg", {
 		className: "writing-command-icon",
 		viewBox: "0 0 24 24",
 		"aria-hidden": "true",
-		children: /* @__PURE__ */ (0, import_jsx_runtime$69.jsx)("path", { d: kind === "image" ? "M4 4h16v16H4Zm0 12 5-5 4 4 3-3 4 4" : kind === "news" ? "M4 4h16v16H4Zm4 4h8M8 12h8M8 16h5" : kind === "decision" ? "m4 12 5 5L20 6" : kind === "p" ? "M4 5h16M12 5v16" : kind === "code" ? "m8 6-5 6 5 6m8-12 5 6-5 6" : "M8 6h12M8 12h12M8 18h12M3 6h1M3 12h1M3 18h1" })
+		children: /* @__PURE__ */ (0, import_jsx_runtime$67.jsx)("path", { d: kind === "image" ? "M4 4h16v16H4Zm0 12 5-5 4 4 3-3 4 4" : kind === "news" ? "M4 4h16v16H4Zm4 4h8M8 12h8M8 16h5" : kind === "decision" ? "m4 12 5 5L20 6" : kind === "p" ? "M4 5h16M12 5v16" : kind === "code" ? "m8 6-5 6 5 6m8-12 5 6-5 6" : "M8 6h12M8 12h12M8 18h12M3 6h1M3 12h1M3 18h1" })
 	});
 }
 function rawOffset(text, offset) {
@@ -6215,20 +6217,20 @@ function inputText(raw, next, newline) {
 }
 /** Local block UX: existing encrypted body stays a lossless string, never HTML. */
 function BlockEditor({ id, value, readOnly = false, invalid, describedBy, onMenuIntentChange, onAddImages, onGroupColumns, showBlockTools = true, showEmptyHint = true, initialMenuOpen = false, firstLabel = "본문", onChange }) {
-	const [source, setSource] = (0, import_react$56.useState)(false);
-	const [active, setActive] = (0, import_react$56.useState)(0);
+	const [source, setSource] = (0, import_react$54.useState)(false);
+	const [active, setActive] = (0, import_react$54.useState)(0);
 	const isMac = typeof navigator !== "undefined" && /Mac|iPhone|iPad|iPod/.test(navigator.platform);
-	const [commandIndex, setCommandIndex] = (0, import_react$56.useState)(0);
-	const [selectedBlock, setSelectedBlock] = (0, import_react$56.useState)(null);
-	const [dismissed, setDismissed] = (0, import_react$56.useState)(null);
-	const [menu, setMenu] = (0, import_react$56.useState)(initialMenuOpen ? 0 : null);
-	const [insertAfter, setInsertAfter] = (0, import_react$56.useState)(null);
-	const [childMenuIntent, setChildMenuIntent] = (0, import_react$56.useState)(false);
-	const [history, setHistory] = (0, import_react$56.useState)([]);
-	const [future, setFuture] = (0, import_react$56.useState)([]);
-	const editorRoot = (0, import_react$56.useRef)(null);
-	const refs = (0, import_react$56.useRef)(/* @__PURE__ */ new Map());
-	(0, import_react$56.useLayoutEffect)(() => {
+	const [commandIndex, setCommandIndex] = (0, import_react$54.useState)(0);
+	const [selectedBlock, setSelectedBlock] = (0, import_react$54.useState)(null);
+	const [dismissed, setDismissed] = (0, import_react$54.useState)(null);
+	const [menu, setMenu] = (0, import_react$54.useState)(initialMenuOpen ? 0 : null);
+	const [insertAfter, setInsertAfter] = (0, import_react$54.useState)(null);
+	const [childMenuIntent, setChildMenuIntent] = (0, import_react$54.useState)(false);
+	const [history, setHistory] = (0, import_react$54.useState)([]);
+	const [future, setFuture] = (0, import_react$54.useState)([]);
+	const editorRoot = (0, import_react$54.useRef)(null);
+	const refs = (0, import_react$54.useRef)(/* @__PURE__ */ new Map());
+	(0, import_react$54.useLayoutEffect)(() => {
 		const root = editorRoot.current;
 		if (!root) return;
 		const widths = /* @__PURE__ */ new Map();
@@ -6259,10 +6261,10 @@ function BlockEditor({ id, value, readOnly = false, invalid, describedBy, onMenu
 			window.removeEventListener("resize", resize);
 		};
 	});
-	const focusNext = (0, import_react$56.useRef)(null);
-	const selectionNext = (0, import_react$56.useRef)(null);
-	const [formatError, setFormatError] = (0, import_react$56.useState)("");
-	(0, import_react$56.useLayoutEffect)(() => {
+	const focusNext = (0, import_react$54.useRef)(null);
+	const selectionNext = (0, import_react$54.useRef)(null);
+	const [formatError, setFormatError] = (0, import_react$54.useState)("");
+	(0, import_react$54.useLayoutEffect)(() => {
 		if (selectionNext.current) {
 			const { index, start, end } = selectionNext.current;
 			const target = refs.current.get(index);
@@ -6275,12 +6277,12 @@ function BlockEditor({ id, value, readOnly = false, invalid, describedBy, onMenu
 			focusNext.current = null;
 		}
 	}, [value]);
-	(0, import_react$56.useLayoutEffect)(() => {
+	(0, import_react$54.useLayoutEffect)(() => {
 		if (initialMenuOpen) refs.current.get(0)?.focus();
 	}, [initialMenuOpen]);
 	const blocks = parseBlocks(value);
 	const menuIntent = !source && blocks.some((block, index) => menu === index || blockText(block.raw).text.startsWith("/") && active === index && dismissed !== `${index}:${blockText(block.raw).text}`);
-	(0, import_react$56.useLayoutEffect)(() => {
+	(0, import_react$54.useLayoutEffect)(() => {
 		onMenuIntentChange?.(menuIntent || childMenuIntent);
 		return () => onMenuIntentChange?.(false);
 	}, [
@@ -6288,7 +6290,7 @@ function BlockEditor({ id, value, readOnly = false, invalid, describedBy, onMenu
 		childMenuIntent,
 		onMenuIntentChange
 	]);
-	(0, import_react$56.useEffect)(() => {
+	(0, import_react$54.useEffect)(() => {
 		if (!menuIntent) return;
 		const outside = (e) => {
 			if (!editorRoot.current?.contains(e.target)) {
@@ -6303,7 +6305,7 @@ function BlockEditor({ id, value, readOnly = false, invalid, describedBy, onMenu
 		active,
 		value
 	]);
-	(0, import_react$56.useLayoutEffect)(() => {
+	(0, import_react$54.useLayoutEffect)(() => {
 		const menuBox = editorRoot.current?.querySelector(".writing-menu");
 		if (!menuBox) return;
 		menuBox.querySelectorAll("button").forEach((button, i) => button.dataset.commandSelected = String(i === commandIndex));
@@ -6398,7 +6400,7 @@ function BlockEditor({ id, value, readOnly = false, invalid, describedBy, onMenu
 		}
 		onChange(next.after);
 	};
-	return /* @__PURE__ */ (0, import_jsx_runtime$69.jsxs)("section", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$67.jsxs)("section", {
 		ref: editorRoot,
 		className: "writing-editor",
 		"aria-label": "블록 본문 편집기",
@@ -6418,15 +6420,15 @@ function BlockEditor({ id, value, readOnly = false, invalid, describedBy, onMenu
 			else undo();
 		},
 		children: [
-			/* @__PURE__ */ (0, import_jsx_runtime$69.jsx)(EditorPopover, {
+			/* @__PURE__ */ (0, import_jsx_runtime$67.jsx)(EditorPopover, {
 				className: "writing-editor-options",
 				kind: "text",
 				label: "편집 도구",
-				children: /* @__PURE__ */ (0, import_jsx_runtime$69.jsxs)("div", {
+				children: /* @__PURE__ */ (0, import_jsx_runtime$67.jsxs)("div", {
 					className: "writing-toolbar",
 					"aria-label": "본문 편집 도구",
 					children: [
-						/* @__PURE__ */ (0, import_jsx_runtime$69.jsx)("button", {
+						/* @__PURE__ */ (0, import_jsx_runtime$67.jsx)("button", {
 							type: "button",
 							onClick: () => {
 								setSource(!source);
@@ -6434,13 +6436,13 @@ function BlockEditor({ id, value, readOnly = false, invalid, describedBy, onMenu
 							},
 							children: source ? "블록 편집" : "원문 편집"
 						}),
-						/* @__PURE__ */ (0, import_jsx_runtime$69.jsx)("button", {
+						/* @__PURE__ */ (0, import_jsx_runtime$67.jsx)("button", {
 							type: "button",
 							disabled: readOnly || history.at(-1)?.after !== value,
 							onClick: undo,
 							children: "실행 취소"
 						}),
-						/* @__PURE__ */ (0, import_jsx_runtime$69.jsx)("button", {
+						/* @__PURE__ */ (0, import_jsx_runtime$67.jsx)("button", {
 							type: "button",
 							disabled: readOnly || future.at(-1)?.before !== value,
 							onClick: redo,
@@ -6449,11 +6451,11 @@ function BlockEditor({ id, value, readOnly = false, invalid, describedBy, onMenu
 					]
 				})
 			}),
-			formatError && /* @__PURE__ */ (0, import_jsx_runtime$69.jsx)("p", {
+			formatError && /* @__PURE__ */ (0, import_jsx_runtime$67.jsx)("p", {
 				role: "alert",
 				children: formatError
 			}),
-			source ? /* @__PURE__ */ (0, import_jsx_runtime$69.jsx)("textarea", {
+			source ? /* @__PURE__ */ (0, import_jsx_runtime$67.jsx)("textarea", {
 				spellCheck: false,
 				autoComplete: "off",
 				id,
@@ -6463,7 +6465,7 @@ function BlockEditor({ id, value, readOnly = false, invalid, describedBy, onMenu
 				"aria-invalid": invalid,
 				"aria-describedby": describedBy,
 				onChange: (e) => commit(e.target.value)
-			}) : /* @__PURE__ */ (0, import_jsx_runtime$69.jsxs)(import_jsx_runtime$69.Fragment, { children: [blocks.map((block, index) => {
+			}) : /* @__PURE__ */ (0, import_jsx_runtime$67.jsxs)(import_jsx_runtime$67.Fragment, { children: [blocks.map((block, index) => {
 				const parsed = blockText(block.raw);
 				const extraSeparator = blocks[index + 1]?.separator.match(/^(?:\r?\n)([\s\S]*)$/)?.[1] ?? "";
 				const parts = index === blocks.length - 1 && parsed.ending ? {
@@ -6478,11 +6480,11 @@ function BlockEditor({ id, value, readOnly = false, invalid, describedBy, onMenu
 				const showMenu = !readOnly && (menu === index || slash);
 				const filter = slash ? parts.text.slice(1).toLowerCase().trim() : "";
 				const matches = (...terms) => !filter || terms.some((term) => term.toLowerCase().split(/\s+/).some((word) => word.startsWith(filter)) || term.toLowerCase().replace(/\s+/g, "").startsWith(filter.replace(/\s+/g, "")));
-				return /* @__PURE__ */ (0, import_jsx_runtime$69.jsxs)("div", {
+				return /* @__PURE__ */ (0, import_jsx_runtime$67.jsxs)("div", {
 					className: `writing-block writing-block-${parts.type}`,
 					"data-block-selected": selectedBlock === index,
 					children: [
-						showBlockTools && /* @__PURE__ */ (0, import_jsx_runtime$69.jsxs)(import_jsx_runtime$69.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$69.jsx)("button", {
+						showBlockTools && /* @__PURE__ */ (0, import_jsx_runtime$67.jsxs)(import_jsx_runtime$67.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$67.jsx)("button", {
 							type: "button",
 							className: "writing-block-add",
 							"aria-label": `${index + 1}번 블록 아래 추가`,
@@ -6498,12 +6500,12 @@ function BlockEditor({ id, value, readOnly = false, invalid, describedBy, onMenu
 									setInsertAfter(index);
 								}
 							},
-							children: /* @__PURE__ */ (0, import_jsx_runtime$69.jsx)("svg", {
+							children: /* @__PURE__ */ (0, import_jsx_runtime$67.jsx)("svg", {
 								viewBox: "0 0 24 24",
 								"aria-hidden": "true",
-								children: /* @__PURE__ */ (0, import_jsx_runtime$69.jsx)("path", { d: "M12 4v16M4 12h16" })
+								children: /* @__PURE__ */ (0, import_jsx_runtime$67.jsx)("path", { d: "M12 4v16M4 12h16" })
 							})
-						}), /* @__PURE__ */ (0, import_jsx_runtime$69.jsxs)(EditorPopover, {
+						}), /* @__PURE__ */ (0, import_jsx_runtime$67.jsxs)(EditorPopover, {
 							className: "writing-block-tools",
 							label: `${index + 1}번 블록 관리`,
 							tooltipLabel: "블록",
@@ -6513,12 +6515,12 @@ function BlockEditor({ id, value, readOnly = false, invalid, describedBy, onMenu
 								setSelectedBlock(index);
 							},
 							children: [
-								index === 0 && onGroupColumns && /* @__PURE__ */ (0, import_jsx_runtime$69.jsx)("button", {
+								index === 0 && onGroupColumns && /* @__PURE__ */ (0, import_jsx_runtime$67.jsx)("button", {
 									type: "button",
 									onClick: onGroupColumns,
 									children: "다음 블록과 나란히"
 								}),
-								/* @__PURE__ */ (0, import_jsx_runtime$69.jsx)("button", {
+								/* @__PURE__ */ (0, import_jsx_runtime$67.jsx)("button", {
 									type: "button",
 									onClick: () => {
 										setActive(index);
@@ -6528,16 +6530,16 @@ function BlockEditor({ id, value, readOnly = false, invalid, describedBy, onMenu
 									},
 									children: "블록 종류"
 								}),
-								/* @__PURE__ */ (0, import_jsx_runtime$69.jsxs)("button", {
+								/* @__PURE__ */ (0, import_jsx_runtime$67.jsxs)("button", {
 									type: "button",
 									"aria-keyshortcuts": isMac ? "Meta+Shift+D" : "Control+Shift+D",
 									onClick: () => duplicate(index),
-									children: ["복제 ", /* @__PURE__ */ (0, import_jsx_runtime$69.jsx)("kbd", {
+									children: ["복제 ", /* @__PURE__ */ (0, import_jsx_runtime$67.jsx)("kbd", {
 										"aria-hidden": "true",
 										children: isMac ? "⌘⇧D" : "Ctrl+Shift+D"
 									})]
 								}),
-								/* @__PURE__ */ (0, import_jsx_runtime$69.jsxs)("button", {
+								/* @__PURE__ */ (0, import_jsx_runtime$67.jsxs)("button", {
 									type: "button",
 									"aria-keyshortcuts": "Alt+ArrowUp",
 									disabled: index === 0,
@@ -6549,12 +6551,12 @@ function BlockEditor({ id, value, readOnly = false, invalid, describedBy, onMenu
 										};
 										commit(serializeBlocks(moveBlock(blocks, index, index - 1)));
 									},
-									children: ["위로 이동 ", /* @__PURE__ */ (0, import_jsx_runtime$69.jsx)("kbd", {
+									children: ["위로 이동 ", /* @__PURE__ */ (0, import_jsx_runtime$67.jsx)("kbd", {
 										"aria-hidden": "true",
 										children: isMac ? "⌥↑" : "Alt+↑"
 									})]
 								}),
-								/* @__PURE__ */ (0, import_jsx_runtime$69.jsxs)("button", {
+								/* @__PURE__ */ (0, import_jsx_runtime$67.jsxs)("button", {
 									type: "button",
 									"aria-keyshortcuts": "Alt+ArrowDown",
 									disabled: index === blocks.length - 1,
@@ -6566,12 +6568,12 @@ function BlockEditor({ id, value, readOnly = false, invalid, describedBy, onMenu
 										};
 										commit(serializeBlocks(moveBlock(blocks, index, index + 1)));
 									},
-									children: ["아래로 이동 ", /* @__PURE__ */ (0, import_jsx_runtime$69.jsx)("kbd", {
+									children: ["아래로 이동 ", /* @__PURE__ */ (0, import_jsx_runtime$67.jsx)("kbd", {
 										"aria-hidden": "true",
 										children: isMac ? "⌥↓" : "Alt+↓"
 									})]
 								}),
-								/* @__PURE__ */ (0, import_jsx_runtime$69.jsx)("button", {
+								/* @__PURE__ */ (0, import_jsx_runtime$67.jsx)("button", {
 									type: "button",
 									onClick: () => {
 										const next = blocks.filter((_, i) => i !== index);
@@ -6590,9 +6592,9 @@ function BlockEditor({ id, value, readOnly = false, invalid, describedBy, onMenu
 								})
 							]
 						})] }),
-						parts.type === "checklist" && /* @__PURE__ */ (0, import_jsx_runtime$69.jsx)("label", {
+						parts.type === "checklist" && /* @__PURE__ */ (0, import_jsx_runtime$67.jsx)("label", {
 							className: "writing-check",
-							children: /* @__PURE__ */ (0, import_jsx_runtime$69.jsx)("input", {
+							children: /* @__PURE__ */ (0, import_jsx_runtime$67.jsx)("input", {
 								type: "checkbox",
 								"aria-label": `${index + 1}번 항목 완료`,
 								checked: /^[-*] \[[xX]\]/.test(parts.prefix),
@@ -6603,7 +6605,7 @@ function BlockEditor({ id, value, readOnly = false, invalid, describedBy, onMenu
 								})
 							})
 						}),
-						/* @__PURE__ */ (0, import_jsx_runtime$69.jsx)("textarea", {
+						/* @__PURE__ */ (0, import_jsx_runtime$67.jsx)("textarea", {
 							spellCheck: false,
 							autoComplete: "off",
 							ref: (node) => {
@@ -6772,18 +6774,18 @@ function BlockEditor({ id, value, readOnly = false, invalid, describedBy, onMenu
 								}
 							}
 						}),
-						showMenu && slash && !filter && /* @__PURE__ */ (0, import_jsx_runtime$69.jsx)("span", {
+						showMenu && slash && !filter && /* @__PURE__ */ (0, import_jsx_runtime$67.jsx)("span", {
 							"aria-hidden": "true",
 							className: "writing-slash-placeholder",
 							children: "명령어 검색"
 						}),
-						showMenu && /* @__PURE__ */ (0, import_jsx_runtime$69.jsxs)("div", {
+						showMenu && /* @__PURE__ */ (0, import_jsx_runtime$67.jsxs)("div", {
 							className: "writing-menu",
 							"data-command-index": commandIndex,
 							role: "dialog",
 							"aria-label": "블록 종류 선택",
 							children: [
-								onAddImages && matches("사진", "이미지", "그림", "image", "photo", "picture", "p") && /* @__PURE__ */ (0, import_jsx_runtime$69.jsxs)("button", {
+								onAddImages && matches("사진", "이미지", "그림", "image", "photo", "picture", "p") && /* @__PURE__ */ (0, import_jsx_runtime$67.jsxs)("button", {
 									type: "button",
 									title: "검색 힌트: /image — 키보드 단축키가 아닙니다",
 									onClick: () => {
@@ -6796,15 +6798,15 @@ function BlockEditor({ id, value, readOnly = false, invalid, describedBy, onMenu
 										} : { offset: start + block.raw.length });
 									},
 									children: [
-										/* @__PURE__ */ (0, import_jsx_runtime$69.jsx)(CommandIcon, { kind: "image" }),
+										/* @__PURE__ */ (0, import_jsx_runtime$67.jsx)(CommandIcon, { kind: "image" }),
 										"사진",
-										/* @__PURE__ */ (0, import_jsx_runtime$69.jsx)("kbd", {
+										/* @__PURE__ */ (0, import_jsx_runtime$67.jsx)("kbd", {
 											"aria-hidden": "true",
 											children: "/image"
 										})
 									]
 								}),
-								evidenceTemplates.filter((t) => matches(t.label, t.id)).map((t) => /* @__PURE__ */ (0, import_jsx_runtime$69.jsxs)("button", {
+								evidenceTemplates.filter((t) => matches(t.label, t.id)).map((t) => /* @__PURE__ */ (0, import_jsx_runtime$67.jsxs)("button", {
 									type: "button",
 									onClick: () => {
 										if (readOnly) return;
@@ -6812,21 +6814,21 @@ function BlockEditor({ id, value, readOnly = false, invalid, describedBy, onMenu
 										setMenu(null);
 										focusNext.current = index;
 									},
-									children: [/* @__PURE__ */ (0, import_jsx_runtime$69.jsx)(CommandIcon, { kind: t.id }), t.label]
+									children: [/* @__PURE__ */ (0, import_jsx_runtime$67.jsx)(CommandIcon, { kind: t.id }), t.label]
 								}, t.id)),
 								blockCommands.filter((c) => filter !== "p" && matches(c.label, c.type, ...c.type === "p" ? [
 									"text",
 									"paragraph",
 									"문단",
 									"t"
-								] : [])).map((c) => /* @__PURE__ */ (0, import_jsx_runtime$69.jsxs)("button", {
+								] : [])).map((c) => /* @__PURE__ */ (0, import_jsx_runtime$67.jsxs)("button", {
 									type: "button",
 									title: `${c.prefix.trim() ? `저장 서식: ${c.prefix.trim()}` : "검색 힌트: /text"} — 키보드 단축키가 아닙니다`,
 									onClick: () => choose(index, c.type, slash && menu !== index),
 									children: [
-										/* @__PURE__ */ (0, import_jsx_runtime$69.jsx)(CommandIcon, { kind: c.type }),
+										/* @__PURE__ */ (0, import_jsx_runtime$67.jsx)(CommandIcon, { kind: c.type }),
 										c.label,
-										/* @__PURE__ */ (0, import_jsx_runtime$69.jsx)("kbd", {
+										/* @__PURE__ */ (0, import_jsx_runtime$67.jsx)("kbd", {
 											"aria-hidden": "true",
 											children: c.prefix.trim() || "/text"
 										})
@@ -6834,9 +6836,9 @@ function BlockEditor({ id, value, readOnly = false, invalid, describedBy, onMenu
 								}, c.type))
 							]
 						}),
-						insertAfter === index && /* @__PURE__ */ (0, import_jsx_runtime$69.jsx)("div", {
+						insertAfter === index && /* @__PURE__ */ (0, import_jsx_runtime$67.jsx)("div", {
 							className: "writing-insertion",
-							children: /* @__PURE__ */ (0, import_jsx_runtime$69.jsx)(BlockEditor, {
+							children: /* @__PURE__ */ (0, import_jsx_runtime$67.jsx)(BlockEditor, {
 								id: `${id}-insert-${index}`,
 								value: "",
 								readOnly,
@@ -6871,7 +6873,7 @@ function BlockEditor({ id, value, readOnly = false, invalid, describedBy, onMenu
 						})
 					]
 				}, index);
-			}), /* @__PURE__ */ (0, import_jsx_runtime$69.jsx)("button", {
+			}), /* @__PURE__ */ (0, import_jsx_runtime$67.jsx)("button", {
 				type: "button",
 				className: "writing-add",
 				disabled: readOnly,
@@ -6881,15 +6883,15 @@ function BlockEditor({ id, value, readOnly = false, invalid, describedBy, onMenu
 		]
 	});
 }
-var import_react$56, import_jsx_runtime$69;
+var import_react$54, import_jsx_runtime$67;
 function init_BlockEditor() {
 	return (init_BlockEditor = __esmMin((() => {
 		init_EditorPopover();
-		import_react$56 = require_react();
+		import_react$54 = require_react();
 		init_blocks();
 		init_editor();
 		init_evidenceTemplates();
-		import_jsx_runtime$69 = require_jsx_runtime();
+		import_jsx_runtime$67 = require_jsx_runtime();
 	})))();
 }
 function init_rich_image_editor() {
@@ -6897,7 +6899,7 @@ function init_rich_image_editor() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/journal/editor/rich-image-editor.css?v=source-build-r99";
+			l.href = "/local/app/css-source/src/journal/editor/rich-image-editor.css?v=source-build-r102";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -6907,21 +6909,21 @@ function init_photo_display() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/journal/editor/photo-display.css?v=source-build-r99";
+			l.href = "/local/app/css-source/src/journal/editor/photo-display.css?v=source-build-r102";
 			document.head.appendChild(l);
 		}
 	})))();
 }
 /** Display only: reuse the exact source, never decode/re-encode or save dimensions. */
 function PhotoOriginalView({ src, alt }) {
-	const dialog = (0, import_react$55.useRef)(null);
-	const trigger = (0, import_react$55.useRef)(null);
-	const [original, setOriginal] = (0, import_react$55.useState)(false);
+	const dialog = (0, import_react$53.useRef)(null);
+	const trigger = (0, import_react$53.useRef)(null);
+	const [original, setOriginal] = (0, import_react$53.useState)(false);
 	const close = () => {
 		dialog.current?.close();
 		trigger.current?.focus({ preventScroll: true });
 	};
-	return /* @__PURE__ */ (0, import_jsx_runtime$68.jsxs)(import_jsx_runtime$68.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$68.jsx)("button", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$66.jsxs)(import_jsx_runtime$66.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$66.jsx)("button", {
 		ref: trigger,
 		type: "button",
 		className: "photo-expand",
@@ -6931,7 +6933,7 @@ function PhotoOriginalView({ src, alt }) {
 			dialog.current?.showModal();
 		},
 		children: "사진 확대"
-	}), /* @__PURE__ */ (0, import_jsx_runtime$68.jsxs)("dialog", {
+	}), /* @__PURE__ */ (0, import_jsx_runtime$66.jsxs)("dialog", {
 		ref: dialog,
 		className: "photo-original-dialog",
 		"aria-label": `사진 확대: ${alt}`,
@@ -6947,25 +6949,25 @@ function PhotoOriginalView({ src, alt }) {
 				close();
 			}
 		},
-		children: [/* @__PURE__ */ (0, import_jsx_runtime$68.jsxs)("div", {
+		children: [/* @__PURE__ */ (0, import_jsx_runtime$66.jsxs)("div", {
 			className: "photo-original-actions",
-			children: [/* @__PURE__ */ (0, import_jsx_runtime$68.jsx)("button", {
+			children: [/* @__PURE__ */ (0, import_jsx_runtime$66.jsx)("button", {
 				type: "button",
 				autoFocus: true,
 				onClick: close,
 				children: "닫기"
-			}), /* @__PURE__ */ (0, import_jsx_runtime$68.jsx)("button", {
+			}), /* @__PURE__ */ (0, import_jsx_runtime$66.jsx)("button", {
 				type: "button",
 				"aria-pressed": original,
 				onClick: () => setOriginal((v) => !v),
 				children: original ? "화면에 맞추기" : "원본 크기"
 			})]
-		}), /* @__PURE__ */ (0, import_jsx_runtime$68.jsx)("div", {
+		}), /* @__PURE__ */ (0, import_jsx_runtime$66.jsx)("div", {
 			className: "photo-original-scroll",
 			tabIndex: 0,
 			"aria-label": "확대 사진",
 			"data-original": original,
-			children: /* @__PURE__ */ (0, import_jsx_runtime$68.jsx)("img", {
+			children: /* @__PURE__ */ (0, import_jsx_runtime$66.jsx)("img", {
 				src,
 				alt,
 				draggable: false
@@ -6975,22 +6977,22 @@ function PhotoOriginalView({ src, alt }) {
 }
 /** Reader integration retains the caller's figure width/alignment/caption. */
 function PhotoReadImage({ src, alt }) {
-	return /* @__PURE__ */ (0, import_jsx_runtime$68.jsxs)(import_jsx_runtime$68.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$68.jsx)("img", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$66.jsxs)(import_jsx_runtime$66.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$66.jsx)("img", {
 		className: "photo-bounded-image",
 		src,
 		alt,
 		draggable: false
-	}), /* @__PURE__ */ (0, import_jsx_runtime$68.jsx)(PhotoOriginalView, {
+	}), /* @__PURE__ */ (0, import_jsx_runtime$66.jsx)(PhotoOriginalView, {
 		src,
 		alt
 	})] });
 }
-var import_react$55, import_jsx_runtime$68;
+var import_react$53, import_jsx_runtime$66;
 function init_photo_original_view() {
 	return (init_photo_original_view = __esmMin((() => {
-		import_react$55 = require_react();
+		import_react$53 = require_react();
 		init_photo_display();
-		import_jsx_runtime$68 = require_jsx_runtime();
+		import_jsx_runtime$66 = require_jsx_runtime();
 	})))();
 }
 /** Each text editor owns its contribution; closing one cannot clear another. */
@@ -7025,36 +7027,36 @@ function createRichMenuIntent() {
 	};
 }
 function RichMenuBlockEditor({ reportMenu, ...props }) {
-	const identity = (0, import_react$54.useRef)({});
-	const report = (0, import_react$54.useCallback)((open) => reportMenu(identity.current, open), [reportMenu]);
-	(0, import_react$54.useLayoutEffect)(() => {
+	const identity = (0, import_react$52.useRef)({});
+	const report = (0, import_react$52.useCallback)((open) => reportMenu(identity.current, open), [reportMenu]);
+	(0, import_react$52.useLayoutEffect)(() => {
 		const owner = identity.current;
 		return () => reportMenu(owner, false);
 	}, [reportMenu]);
-	return /* @__PURE__ */ (0, import_jsx_runtime$67.jsx)(BlockEditor, {
+	return /* @__PURE__ */ (0, import_jsx_runtime$65.jsx)(BlockEditor, {
 		...props,
 		onMenuIntentChange: report
 	});
 }
 /** Controlled image layout surface. Storage integration is intentionally separate. */
 function RichImageEditor({ value, onChange: emitChange, readOnly = false, onBusyChange, onMenuIntentChange, initialPhotoInsertion, onPhotoCancel }) {
-	const [menuIntent] = (0, import_react$54.useState)(createRichMenuIntent);
-	(0, import_react$54.useLayoutEffect)(() => menuIntent.bind(onMenuIntentChange), [menuIntent, onMenuIntentChange]);
-	(0, import_react$54.useLayoutEffect)(() => () => menuIntent.clear(), [menuIntent]);
-	const [busy, setBusy] = (0, import_react$54.useState)(false);
-	const [error, setError] = (0, import_react$54.useState)("");
-	const [resizing, setResizing] = (0, import_react$54.useState)(null);
-	const resizeRef = (0, import_react$54.useRef)(null);
+	const [menuIntent] = (0, import_react$52.useState)(createRichMenuIntent);
+	(0, import_react$52.useLayoutEffect)(() => menuIntent.bind(onMenuIntentChange), [menuIntent, onMenuIntentChange]);
+	(0, import_react$52.useLayoutEffect)(() => () => menuIntent.clear(), [menuIntent]);
+	const [busy, setBusy] = (0, import_react$52.useState)(false);
+	const [error, setError] = (0, import_react$52.useState)("");
+	const [resizing, setResizing] = (0, import_react$52.useState)(null);
+	const resizeRef = (0, import_react$52.useRef)(null);
 	const interactionBusy = busy || resizing !== null;
-	(0, import_react$54.useLayoutEffect)(() => {
+	(0, import_react$52.useLayoutEffect)(() => {
 		onBusyChange?.(interactionBusy);
 		return () => onBusyChange?.(false);
 	}, [interactionBusy, onBusyChange]);
-	const generation = (0, import_react$54.useRef)(0);
-	const decoding = (0, import_react$54.useRef)(false);
-	const photoInput = (0, import_react$54.useRef)(null);
-	const insertion = (0, import_react$54.useRef)(null);
-	(0, import_react$54.useLayoutEffect)(() => {
+	const generation = (0, import_react$52.useRef)(0);
+	const decoding = (0, import_react$52.useRef)(false);
+	const photoInput = (0, import_react$52.useRef)(null);
+	const insertion = (0, import_react$52.useRef)(null);
+	(0, import_react$52.useLayoutEffect)(() => {
 		const input = photoInput.current;
 		if (!input) return;
 		const cancel = () => {
@@ -7065,11 +7067,11 @@ function RichImageEditor({ value, onChange: emitChange, readOnly = false, onBusy
 		input.addEventListener("cancel", cancel);
 		return () => input.removeEventListener("cancel", cancel);
 	}, [onPhotoCancel]);
-	const focusNext = (0, import_react$54.useRef)(null);
-	const root = (0, import_react$54.useRef)(null);
-	const [past, setPast] = (0, import_react$54.useState)([]);
-	const [future, setFuture] = (0, import_react$54.useState)([]);
-	const restoreSelection = (0, import_react$54.useRef)(void 0);
+	const focusNext = (0, import_react$52.useRef)(null);
+	const root = (0, import_react$52.useRef)(null);
+	const [past, setPast] = (0, import_react$52.useState)([]);
+	const [future, setFuture] = (0, import_react$52.useState)([]);
+	const restoreSelection = (0, import_react$52.useRef)(void 0);
 	const snapshot = () => {
 		const input = document.activeElement;
 		return {
@@ -7112,7 +7114,7 @@ function RichImageEditor({ value, onChange: emitChange, readOnly = false, onBusy
 		focusNext.current = step.selection ? null : step.value.document.blocks.find((block) => block.type === "text")?.id ?? "";
 		emitChange(step.value);
 	};
-	(0, import_react$54.useLayoutEffect)(() => {
+	(0, import_react$52.useLayoutEffect)(() => {
 		const selection = restoreSelection.current;
 		if (selection) {
 			const input = document.getElementById(selection.id);
@@ -7133,7 +7135,7 @@ function RichImageEditor({ value, onChange: emitChange, readOnly = false, onBusy
 		focusNext.current = id;
 		onChange(next);
 	};
-	(0, import_react$54.useLayoutEffect)(() => {
+	(0, import_react$52.useLayoutEffect)(() => {
 		++generation.current;
 		return () => {
 			++generation.current;
@@ -7169,7 +7171,7 @@ function RichImageEditor({ value, onChange: emitChange, readOnly = false, onBusy
 			setBusy(false);
 		}
 	}
-	return /* @__PURE__ */ (0, import_jsx_runtime$67.jsxs)("div", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$65.jsxs)("div", {
 		ref: root,
 		tabIndex: -1,
 		className: "writing-editor rich-image-editor",
@@ -7189,7 +7191,7 @@ function RichImageEditor({ value, onChange: emitChange, readOnly = false, onBusy
 			travel(event.shiftKey);
 		},
 		children: [
-			/* @__PURE__ */ (0, import_jsx_runtime$67.jsx)("input", {
+			/* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("input", {
 				className: "rich-photo-input",
 				hidden: true,
 				ref: photoInput,
@@ -7202,28 +7204,28 @@ function RichImageEditor({ value, onChange: emitChange, readOnly = false, onBusy
 					addPhoto(file);
 				}
 			}),
-			busy && /* @__PURE__ */ (0, import_jsx_runtime$67.jsx)("p", {
+			busy && /* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("p", {
 				role: "status",
 				children: "사진 처리 중"
 			}),
-			error && /* @__PURE__ */ (0, import_jsx_runtime$67.jsx)("p", {
+			error && /* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("p", {
 				role: "alert",
 				children: error
 			}),
-			value.document.blocks.length === 0 && /* @__PURE__ */ (0, import_jsx_runtime$67.jsx)("button", {
+			value.document.blocks.length === 0 && /* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("button", {
 				type: "button",
 				disabled: readOnly || busy,
 				onClick: () => addParagraph(0),
 				children: "문단 추가"
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$67.jsx)(RichColumnLayout, {
+			/* @__PURE__ */ (0, import_jsx_runtime$65.jsx)(RichColumnLayout, {
 				document: value.document,
-				renderRowTools: (row) => /* @__PURE__ */ (0, import_jsx_runtime$67.jsx)(EditorPopover, {
+				renderRowTools: (row) => /* @__PURE__ */ (0, import_jsx_runtime$65.jsx)(EditorPopover, {
 					className: "rich-row-tools",
 					label: "열 배치",
 					kind: "columns",
 					disabled: readOnly || interactionBusy,
-					children: /* @__PURE__ */ (0, import_jsx_runtime$67.jsx)("button", {
+					children: /* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("button", {
 						type: "button",
 						disabled: readOnly || interactionBusy,
 						onClick: () => {
@@ -7233,10 +7235,10 @@ function RichImageEditor({ value, onChange: emitChange, readOnly = false, onBusy
 						children: "세로로 되돌리기"
 					})
 				}),
-				renderBlock: (block, index) => block.type === "text" ? /* @__PURE__ */ (0, import_jsx_runtime$67.jsxs)("div", {
+				renderBlock: (block, index) => block.type === "text" ? /* @__PURE__ */ (0, import_jsx_runtime$65.jsxs)("div", {
 					"data-block-id": block.id,
 					className: "writing-block",
-					children: [/* @__PURE__ */ (0, import_jsx_runtime$67.jsx)(RichMenuBlockEditor, {
+					children: [/* @__PURE__ */ (0, import_jsx_runtime$65.jsx)(RichMenuBlockEditor, {
 						reportMenu: menuIntent.report,
 						showBlockTools: true,
 						showEmptyHint: index === value.document.blocks.length - 1,
@@ -7265,27 +7267,27 @@ function RichImageEditor({ value, onChange: emitChange, readOnly = false, onBusy
 							};
 							photoInput.current?.click();
 						}
-					}), /* @__PURE__ */ (0, import_jsx_runtime$67.jsxs)(EditorPopover, {
+					}), /* @__PURE__ */ (0, import_jsx_runtime$65.jsxs)(EditorPopover, {
 						className: "writing-block-tools rich-paragraph-tools",
 						label: "문단 관리",
-						children: [/* @__PURE__ */ (0, import_jsx_runtime$67.jsx)("button", {
+						children: [/* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("button", {
 							type: "button",
 							disabled: readOnly || busy || value.document.blocks.length >= 256,
 							onClick: () => addParagraph(index + 1),
 							children: "아래에 문단 추가"
-						}), /* @__PURE__ */ (0, import_jsx_runtime$67.jsx)("button", {
+						}), /* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("button", {
 							type: "button",
 							disabled: readOnly || busy,
 							onClick: () => onChange(deleteRichBlock(value, block.id)),
 							children: "문단 삭제"
 						})]
 					})]
-				}, block.id) : /* @__PURE__ */ (0, import_jsx_runtime$67.jsx)("div", {
+				}, block.id) : /* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("div", {
 					"data-block-id": block.id,
 					role: "group",
 					"aria-label": `사진 ${value.document.blocks.filter((item) => item.type === "image").findIndex((item) => item.id === block.id) + 1}`,
 					className: "writing-block",
-					children: /* @__PURE__ */ (0, import_jsx_runtime$67.jsxs)("figure", {
+					children: /* @__PURE__ */ (0, import_jsx_runtime$65.jsxs)("figure", {
 						className: "photo-bounded-figure",
 						style: {
 							"--photo-display-scale": (resizing?.id === block.id ? resizing.current : block.width) / 100,
@@ -7295,7 +7297,7 @@ function RichImageEditor({ value, onChange: emitChange, readOnly = false, onBusy
 							marginRight: block.align === "right" ? 0 : "auto"
 						},
 						children: [
-							/* @__PURE__ */ (0, import_jsx_runtime$67.jsxs)("div", {
+							/* @__PURE__ */ (0, import_jsx_runtime$65.jsxs)("div", {
 								className: "rich-photo-frame",
 								"data-photo-align": block.align,
 								tabIndex: 0,
@@ -7304,11 +7306,11 @@ function RichImageEditor({ value, onChange: emitChange, readOnly = false, onBusy
 									if (event.target === event.currentTarget || event.target instanceof HTMLImageElement) event.currentTarget.focus({ preventScroll: true });
 								},
 								"data-resizing": resizing?.id === block.id,
-								children: [/* @__PURE__ */ (0, import_jsx_runtime$67.jsx)("img", {
+								children: [/* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("img", {
 									draggable: false,
 									src: imageSource(value.assets.find((a) => a.id === block.assetId)),
 									alt: block.caption || "첨부 사진"
-								}), /* @__PURE__ */ (0, import_jsx_runtime$67.jsx)("button", {
+								}), /* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("button", {
 									type: "button",
 									className: "rich-photo-resize",
 									"data-align": block.align,
@@ -7357,18 +7359,18 @@ function RichImageEditor({ value, onChange: emitChange, readOnly = false, onBusy
 										const width = Math.max(Math.min(25, block.width), Math.min(100, block.width + (event.key === "ArrowRight" ? 5 : -5)));
 										onChange(editRichImage(value, block.id, { width }));
 									},
-									children: /* @__PURE__ */ (0, import_jsx_runtime$67.jsx)("svg", {
+									children: /* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("svg", {
 										viewBox: "0 0 20 20",
 										"aria-hidden": "true",
-										children: /* @__PURE__ */ (0, import_jsx_runtime$67.jsx)("path", { d: "M5 17h9a3 3 0 0 0 3-3V5" })
+										children: /* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("path", { d: "M5 17h9a3 3 0 0 0 3-3V5" })
 									})
 								})]
 							}),
-							/* @__PURE__ */ (0, import_jsx_runtime$67.jsx)(PhotoOriginalView, {
+							/* @__PURE__ */ (0, import_jsx_runtime$65.jsx)(PhotoOriginalView, {
 								src: imageSource(value.assets.find((a) => a.id === block.assetId)),
 								alt: block.caption || "첨부 사진"
 							}),
-							/* @__PURE__ */ (0, import_jsx_runtime$67.jsx)("figcaption", { children: /* @__PURE__ */ (0, import_jsx_runtime$67.jsx)("textarea", {
+							/* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("figcaption", { children: /* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("textarea", {
 								id: `rich-caption-${block.id}`,
 								className: "rich-photo-caption",
 								"aria-label": "사진 설명",
@@ -7385,19 +7387,19 @@ function RichImageEditor({ value, onChange: emitChange, readOnly = false, onBusy
 								maxLength: Math.min(1e3, 2e4 - value.document.blocks.reduce((total, item) => total + (item.id === block.id ? 0 : item.type === "text" ? item.text.length : item.caption.length), 0)),
 								onChange: (event) => onChange(editRichImage(value, block.id, { caption: event.target.value }))
 							}) }),
-							/* @__PURE__ */ (0, import_jsx_runtime$67.jsx)(EditorPopover, {
+							/* @__PURE__ */ (0, import_jsx_runtime$65.jsx)(EditorPopover, {
 								className: "rich-photo-tools",
 								kind: "more",
 								disabled: readOnly || interactionBusy,
 								label: "사진 편집",
-								children: /* @__PURE__ */ (0, import_jsx_runtime$67.jsxs)("fieldset", {
+								children: /* @__PURE__ */ (0, import_jsx_runtime$65.jsxs)("fieldset", {
 									disabled: readOnly || interactionBusy,
 									children: [
-										/* @__PURE__ */ (0, import_jsx_runtime$67.jsx)("legend", { children: "사진" }),
-										/* @__PURE__ */ (0, import_jsx_runtime$67.jsxs)("div", {
+										/* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("legend", { children: "사진" }),
+										/* @__PURE__ */ (0, import_jsx_runtime$65.jsxs)("div", {
 											className: "rich-photo-actions",
 											children: [
-												/* @__PURE__ */ (0, import_jsx_runtime$67.jsx)("button", {
+												/* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("button", {
 													type: "button",
 													disabled: !canGroupRichColumns(value, block.id),
 													onClick: () => {
@@ -7406,13 +7408,13 @@ function RichImageEditor({ value, onChange: emitChange, readOnly = false, onBusy
 													},
 													children: "다음 블록과 나란히"
 												}),
-												/* @__PURE__ */ (0, import_jsx_runtime$67.jsx)("button", {
+												/* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("button", {
 													type: "button",
 													"aria-label": "사진 설명 편집",
 													onClick: () => document.getElementById(`rich-caption-${block.id}`)?.focus(),
 													children: block.caption ? "설명 수정" : "설명 추가"
 												}),
-												/* @__PURE__ */ (0, import_jsx_runtime$67.jsx)("button", {
+												/* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("button", {
 													type: "button",
 													disabled: value.document.blocks.length >= 256,
 													onClick: () => addParagraph(index + 1),
@@ -7420,9 +7422,9 @@ function RichImageEditor({ value, onChange: emitChange, readOnly = false, onBusy
 												})
 											]
 										}),
-										/* @__PURE__ */ (0, import_jsx_runtime$67.jsxs)("div", {
+										/* @__PURE__ */ (0, import_jsx_runtime$65.jsxs)("div", {
 											className: "rich-photo-settings",
-											children: [/* @__PURE__ */ (0, import_jsx_runtime$67.jsxs)("label", { children: ["사진 크기", /* @__PURE__ */ (0, import_jsx_runtime$67.jsx)("select", {
+											children: [/* @__PURE__ */ (0, import_jsx_runtime$65.jsxs)("label", { children: ["사진 크기", /* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("select", {
 												"aria-label": "사진 크기",
 												value: block.width,
 												onChange: (e) => onChange(editRichImage(value, block.id, { width: Number(e.target.value) })),
@@ -7432,7 +7434,7 @@ function RichImageEditor({ value, onChange: emitChange, readOnly = false, onBusy
 													75,
 													100,
 													block.width
-												])).sort((a, b) => a - b).map((w) => /* @__PURE__ */ (0, import_jsx_runtime$67.jsxs)("option", {
+												])).sort((a, b) => a - b).map((w) => /* @__PURE__ */ (0, import_jsx_runtime$65.jsxs)("option", {
 													value: w,
 													children: [
 														{
@@ -7446,42 +7448,42 @@ function RichImageEditor({ value, onChange: emitChange, readOnly = false, onBusy
 														"%)"
 													]
 												}, w))
-											})] }), /* @__PURE__ */ (0, import_jsx_runtime$67.jsxs)("label", { children: ["사진 정렬", /* @__PURE__ */ (0, import_jsx_runtime$67.jsxs)("select", {
+											})] }), /* @__PURE__ */ (0, import_jsx_runtime$65.jsxs)("label", { children: ["사진 정렬", /* @__PURE__ */ (0, import_jsx_runtime$65.jsxs)("select", {
 												value: block.align,
 												onChange: (e) => onChange(editRichImage(value, block.id, { align: e.target.value })),
 												children: [
-													/* @__PURE__ */ (0, import_jsx_runtime$67.jsx)("option", {
+													/* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("option", {
 														value: "left",
 														children: "왼쪽"
 													}),
-													/* @__PURE__ */ (0, import_jsx_runtime$67.jsx)("option", {
+													/* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("option", {
 														value: "center",
 														children: "가운데"
 													}),
-													/* @__PURE__ */ (0, import_jsx_runtime$67.jsx)("option", {
+													/* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("option", {
 														value: "right",
 														children: "오른쪽"
 													})
 												]
 											})] })]
 										}),
-										/* @__PURE__ */ (0, import_jsx_runtime$67.jsxs)("div", {
+										/* @__PURE__ */ (0, import_jsx_runtime$65.jsxs)("div", {
 											className: "rich-photo-movement",
-											children: [/* @__PURE__ */ (0, import_jsx_runtime$67.jsx)("button", {
+											children: [/* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("button", {
 												type: "button",
 												disabled: index === 0 || !!columnFor(value.document, block.id) || !!columnFor(value.document, value.document.blocks[index - 1]?.id ?? ""),
 												onClick: () => onChange(moveRichBlock(value, block.id, index - 1)),
 												children: "위로"
-											}), /* @__PURE__ */ (0, import_jsx_runtime$67.jsx)("button", {
+											}), /* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("button", {
 												type: "button",
 												disabled: index === value.document.blocks.length - 1 || !!columnFor(value.document, block.id) || !!columnFor(value.document, value.document.blocks[index + 1]?.id ?? ""),
 												onClick: () => onChange(moveRichBlock(value, block.id, index + 1)),
 												children: "아래로"
 											})]
 										}),
-										/* @__PURE__ */ (0, import_jsx_runtime$67.jsx)("div", {
+										/* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("div", {
 											className: "rich-photo-danger",
-											children: /* @__PURE__ */ (0, import_jsx_runtime$67.jsx)("button", {
+											children: /* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("button", {
 												type: "button",
 												onClick: () => onChange(deleteRichBlock(value, block.id)),
 												children: "사진 삭제"
@@ -7497,10 +7499,10 @@ function RichImageEditor({ value, onChange: emitChange, readOnly = false, onBusy
 		]
 	});
 }
-var import_react$54, import_jsx_runtime$67;
+var import_react$52, import_jsx_runtime$65;
 function init_RichImageEditor() {
 	return (init_RichImageEditor = __esmMin((() => {
-		import_react$54 = require_react();
+		import_react$52 = require_react();
 		init_RichColumnLayout();
 		init_richColumns();
 		init_EditorPopover();
@@ -7510,7 +7512,7 @@ function init_RichImageEditor() {
 		init_BlockEditor();
 		init_rich_image_editor();
 		init_photo_original_view();
-		import_jsx_runtime$67 = require_jsx_runtime();
+		import_jsx_runtime$65 = require_jsx_runtime();
 	})))();
 }
 /** Display-only validation; never rewrites the stored date or date input. */
@@ -7535,7 +7537,7 @@ function journalSavedClock(at) {
 function JournalSavedTime({ updatedAt }) {
 	const formatted = journalSavedClock(updatedAt);
 	if (!formatted) return null;
-	return /* @__PURE__ */ (0, import_jsx_runtime$66.jsxs)("time", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$64.jsxs)("time", {
 		dateTime: updatedAt,
 		"aria-label": "마지막 저장",
 		title: updatedAt,
@@ -7549,7 +7551,7 @@ function JournalRecordWeekday({ recordDate }) {
 		timeZone: "UTC",
 		weekday: "long"
 	}).format(date);
-	return /* @__PURE__ */ (0, import_jsx_runtime$66.jsxs)("span", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$64.jsxs)("span", {
 		className: "journal-record-weekday",
 		"aria-label": weekday,
 		children: [
@@ -7564,9 +7566,9 @@ function JournalRecordWeekday({ recordDate }) {
 }
 function JournalNoteMetadata({ recordDate }) {
 	if (!recordDay(recordDate)) return null;
-	return /* @__PURE__ */ (0, import_jsx_runtime$66.jsx)("div", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$64.jsx)("div", {
 		className: "journal-note-metadata",
-		children: /* @__PURE__ */ (0, import_jsx_runtime$66.jsxs)("time", {
+		children: /* @__PURE__ */ (0, import_jsx_runtime$64.jsxs)("time", {
 			className: "journal-read-date",
 			dateTime: recordDate,
 			title: `기록 날짜 ${recordDate}`,
@@ -7575,15 +7577,15 @@ function JournalNoteMetadata({ recordDate }) {
 				"월 ",
 				Number(recordDate.slice(8)),
 				"일 ",
-				/* @__PURE__ */ (0, import_jsx_runtime$66.jsx)(JournalRecordWeekday, { recordDate })
+				/* @__PURE__ */ (0, import_jsx_runtime$64.jsx)(JournalRecordWeekday, { recordDate })
 			]
 		})
 	});
 }
-var import_jsx_runtime$66;
+var import_jsx_runtime$64;
 function init_JournalNoteMetadata() {
 	return (init_JournalNoteMetadata = __esmMin((() => {
-		import_jsx_runtime$66 = require_jsx_runtime();
+		import_jsx_runtime$64 = require_jsx_runtime();
 	})))();
 }
 /** Presentation only. Preserve saved source and render HTML as escaped text. */
@@ -7593,7 +7595,7 @@ function renderBlock(raw, extraEnding = "") {
 		const full = value + extraEnding;
 		const trailing = full.match(/(?:\r?\n)+$/)?.[0] ?? "";
 		if (full && !trailing) return full;
-		return /* @__PURE__ */ (0, import_jsx_runtime$65.jsxs)(import_jsx_runtime$65.Fragment, { children: [full.slice(0, full.length - trailing.length), Array.from({ length: (trailing.match(/\n/g)?.length ?? 0) + 1 }, (_, i) => /* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("br", {}, i))] });
+		return /* @__PURE__ */ (0, import_jsx_runtime$63.jsxs)(import_jsx_runtime$63.Fragment, { children: [full.slice(0, full.length - trailing.length), Array.from({ length: (trailing.match(/\n/g)?.length ?? 0) + 1 }, (_, i) => /* @__PURE__ */ (0, import_jsx_runtime$63.jsx)("br", {}, i))] });
 	};
 	const lines = raw.match(/[^\n]*\n|[^\n]+$/g) ?? [];
 	const fence = lines[0]?.match(/^ {0,3}(`{3,}|~{3,})/)?.[1];
@@ -7604,117 +7606,117 @@ function renderBlock(raw, extraEnding = "") {
 		});
 		if (closing > 0 && closing === lines.length - 1) {
 			const body = lines.slice(1, closing).join("").replace(/\r?\n$/, "");
-			return /* @__PURE__ */ (0, import_jsx_runtime$65.jsxs)(import_jsx_runtime$65.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("pre", {
+			return /* @__PURE__ */ (0, import_jsx_runtime$63.jsxs)(import_jsx_runtime$63.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$63.jsx)("pre", {
 				style: {
 					whiteSpace: "pre-wrap",
 					overflowWrap: "anywhere"
 				},
-				children: /* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("code", { children: body })
-			}), extraEnding && /* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("p", { children: Array.from({ length: extraEnding.match(/\n/g)?.length ?? 0 }, (_, i) => /* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("br", {}, i)) })] });
+				children: /* @__PURE__ */ (0, import_jsx_runtime$63.jsx)("code", { children: body })
+			}), extraEnding && /* @__PURE__ */ (0, import_jsx_runtime$63.jsx)("p", { children: Array.from({ length: extraEnding.match(/\n/g)?.length ?? 0 }, (_, i) => /* @__PURE__ */ (0, import_jsx_runtime$63.jsx)("br", {}, i)) })] });
 		}
 	}
 	if ((type === "h1" || type === "h2" || type === "h3") && text.includes("\n")) {
 		const [first, ...lines] = raw.replace(/\r?\n$/, "").split(/\r?\n/), rest = lines.join("\n");
-		return /* @__PURE__ */ (0, import_jsx_runtime$65.jsxs)(import_jsx_runtime$65.Fragment, { children: [renderBlock(first), renderBlock(rest, extraEnding)] });
+		return /* @__PURE__ */ (0, import_jsx_runtime$63.jsxs)(import_jsx_runtime$63.Fragment, { children: [renderBlock(first), renderBlock(rest, extraEnding)] });
 	}
 	switch (type) {
-		case "h1": return /* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("h2", { children: content(text) });
-		case "h2": return /* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("h3", { children: content(text) });
-		case "h3": return /* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("h4", { children: content(text) });
-		case "list": return /* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("ul", { children: raw.replace(/\r?\n$/, "").split(/\r?\n/).map((line, i, lines) => /* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("li", { children: i === lines.length - 1 ? content(line.replace(/^[-*] /, "")) : line.replace(/^[-*] /, "") }, i)) });
-		case "numbered": return /* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("ol", {
+		case "h1": return /* @__PURE__ */ (0, import_jsx_runtime$63.jsx)("h2", { children: content(text) });
+		case "h2": return /* @__PURE__ */ (0, import_jsx_runtime$63.jsx)("h3", { children: content(text) });
+		case "h3": return /* @__PURE__ */ (0, import_jsx_runtime$63.jsx)("h4", { children: content(text) });
+		case "list": return /* @__PURE__ */ (0, import_jsx_runtime$63.jsx)("ul", { children: raw.replace(/\r?\n$/, "").split(/\r?\n/).map((line, i, lines) => /* @__PURE__ */ (0, import_jsx_runtime$63.jsx)("li", { children: i === lines.length - 1 ? content(line.replace(/^[-*] /, "")) : line.replace(/^[-*] /, "") }, i)) });
+		case "numbered": return /* @__PURE__ */ (0, import_jsx_runtime$63.jsx)("ol", {
 			start: Number(prefix.slice(0, -2)),
-			children: raw.replace(/\r?\n$/, "").split(/\r?\n/).map((line, i, lines) => /* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("li", { children: i === lines.length - 1 ? content(line.replace(/^\d+\. /, "")) : line.replace(/^\d+\. /, "") }, i))
+			children: raw.replace(/\r?\n$/, "").split(/\r?\n/).map((line, i, lines) => /* @__PURE__ */ (0, import_jsx_runtime$63.jsx)("li", { children: i === lines.length - 1 ? content(line.replace(/^\d+\. /, "")) : line.replace(/^\d+\. /, "") }, i))
 		});
-		case "quote": return /* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("blockquote", { children: content(text) });
-		case "callout": return /* @__PURE__ */ (0, import_jsx_runtime$65.jsxs)("aside", { children: ["💡 ", content(text)] });
-		case "checklist": return /* @__PURE__ */ (0, import_jsx_runtime$65.jsxs)("p", { children: [
+		case "quote": return /* @__PURE__ */ (0, import_jsx_runtime$63.jsx)("blockquote", { children: content(text) });
+		case "callout": return /* @__PURE__ */ (0, import_jsx_runtime$63.jsxs)("aside", { children: ["💡 ", content(text)] });
+		case "checklist": return /* @__PURE__ */ (0, import_jsx_runtime$63.jsxs)("p", { children: [
 			/[xX]/.test(prefix) ? "☑" : "☐",
 			" ",
 			content(text)
 		] });
-		default: return /* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("p", { children: content(raw.replace(/\r?\n$/, "")) });
+		default: return /* @__PURE__ */ (0, import_jsx_runtime$63.jsx)("p", { children: content(raw.replace(/\r?\n$/, "")) });
 	}
 }
 function WritingReadView({ value }) {
 	const blocks = parseBlocks(value);
-	return /* @__PURE__ */ (0, import_jsx_runtime$65.jsx)("div", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$63.jsx)("div", {
 		className: "writing-read-view",
 		children: blocks.map((block, index) => {
 			const extraEnding = index === blocks.length - 1 ? blockText(block.raw).ending : blocks[index + 1].separator.replace(/^\r?\n/, "");
-			return /* @__PURE__ */ (0, import_jsx_runtime$65.jsx)(import_react$53.Fragment, { children: renderBlock(block.raw, extraEnding) }, index);
+			return /* @__PURE__ */ (0, import_jsx_runtime$63.jsx)(import_react$51.Fragment, { children: renderBlock(block.raw, extraEnding) }, index);
 		})
 	});
 }
-var import_react$53, import_jsx_runtime$65;
+var import_react$51, import_jsx_runtime$63;
 function init_WritingReadView() {
 	return (init_WritingReadView = __esmMin((() => {
-		import_react$53 = require_react();
+		import_react$51 = require_react();
 		init_blocks();
 		init_photo_display();
-		import_jsx_runtime$65 = require_jsx_runtime();
+		import_jsx_runtime$63 = require_jsx_runtime();
 	})))();
 }
 /** Verified rich content stays rich; no editing or persistence projection. */
 function RichNoteView({ note, active }) {
-	const heading = (0, import_react$52.useRef)(null);
-	(0, import_react$52.useLayoutEffect)(() => {
+	const heading = (0, import_react$50.useRef)(null);
+	(0, import_react$50.useLayoutEffect)(() => {
 		if (!active) return;
 		heading.current?.focus({ preventScroll: true });
 		heading.current?.scrollIntoView({ block: "center" });
 	}, [note.id, active]);
-	return /* @__PURE__ */ (0, import_jsx_runtime$64.jsxs)("section", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$62.jsxs)("section", {
 		"aria-label": "사진 근거 기록",
 		children: [
-			/* @__PURE__ */ (0, import_jsx_runtime$64.jsx)("h2", {
+			/* @__PURE__ */ (0, import_jsx_runtime$62.jsx)("h2", {
 				ref: heading,
 				tabIndex: -1,
 				children: note.title || "제목 없음"
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$64.jsx)(JournalNoteMetadata, {
+			/* @__PURE__ */ (0, import_jsx_runtime$62.jsx)(JournalNoteMetadata, {
 				recordDate: note.recordDate.value,
 				updatedAt: note.updatedAt
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$64.jsx)(RichColumnLayout, {
+			/* @__PURE__ */ (0, import_jsx_runtime$62.jsx)(RichColumnLayout, {
 				document: note.content.document,
 				renderBlock: (block) => {
-					if (block.type === "text") return /* @__PURE__ */ (0, import_jsx_runtime$64.jsx)(WritingReadView, { value: block.text }, block.id);
+					if (block.type === "text") return /* @__PURE__ */ (0, import_jsx_runtime$62.jsx)(WritingReadView, { value: block.text }, block.id);
 					const asset = note.content.assets.find((a) => a.id === block.assetId);
-					return /* @__PURE__ */ (0, import_jsx_runtime$64.jsxs)("figure", {
+					return /* @__PURE__ */ (0, import_jsx_runtime$62.jsxs)("figure", {
 						style: {
 							"--photo-display-scale": block.width / 100,
 							width: `${block.width}%`,
 							marginLeft: block.align === "left" ? 0 : "auto",
 							marginRight: block.align === "right" ? 0 : "auto"
 						},
-						children: [/* @__PURE__ */ (0, import_jsx_runtime$64.jsx)(PhotoReadImage, {
+						children: [/* @__PURE__ */ (0, import_jsx_runtime$62.jsx)(PhotoReadImage, {
 							src: imageSource(asset),
 							alt: block.caption || asset.name
-						}), block.caption && /* @__PURE__ */ (0, import_jsx_runtime$64.jsx)("figcaption", { children: block.caption })]
+						}), block.caption && /* @__PURE__ */ (0, import_jsx_runtime$62.jsx)("figcaption", { children: block.caption })]
 					}, block.id);
 				}
 			})
 		]
 	});
 }
-var import_react$52, import_jsx_runtime$64;
+var import_react$50, import_jsx_runtime$62;
 function init_RichNoteView() {
 	return (init_RichNoteView = __esmMin((() => {
 		init_RichColumnLayout();
 		init_JournalNoteMetadata();
-		import_react$52 = require_react();
+		import_react$50 = require_react();
 		init_manualAttachments();
 		init_WritingReadView();
 		init_photo_original_view();
-		import_jsx_runtime$64 = require_jsx_runtime();
+		import_jsx_runtime$62 = require_jsx_runtime();
 	})))();
 }
 /** App-owned confirmation: no dependency on a WebView implementing JS dialogs. */
 function useJournalNavigationGuard(dirtyCount, busy, registerHostGuard) {
-	const [prompt, setPrompt] = (0, import_react$51.useState)(null);
-	const pending = (0, import_react$51.useRef)(null);
-	const approvedAnchor = (0, import_react$51.useRef)(null);
-	const requestLeave = (0, import_react$51.useCallback)((approve, restore, destination) => {
+	const [prompt, setPrompt] = (0, import_react$49.useState)(null);
+	const pending = (0, import_react$49.useRef)(null);
+	const approvedAnchor = (0, import_react$49.useRef)(null);
+	const requestLeave = (0, import_react$49.useCallback)((approve, restore, destination) => {
 		if (pending.current) {
 			restore?.();
 			return;
@@ -7736,14 +7738,14 @@ function useJournalNavigationGuard(dirtyCount, busy, registerHostGuard) {
 			destination
 		});
 	}, [dirtyCount, busy]);
-	const cancel = (0, import_react$51.useCallback)(() => {
+	const cancel = (0, import_react$49.useCallback)(() => {
 		if (pending.current?.inFlight) return;
 		const previous = pending.current;
 		pending.current = null;
 		setPrompt(null);
 		previous?.cancel();
 	}, []);
-	const approve = (0, import_react$51.useCallback)(() => {
+	const approve = (0, import_react$49.useCallback)(() => {
 		if (!pending.current || pending.current.inFlight || prompt?.kind !== "discard") return;
 		if (busy) {
 			setPrompt({
@@ -7783,14 +7785,14 @@ function useJournalNavigationGuard(dirtyCount, busy, registerHostGuard) {
 		dirtyCount,
 		prompt
 	]);
-	(0, import_react$51.useLayoutEffect)(() => {
+	(0, import_react$49.useLayoutEffect)(() => {
 		registerHostGuard?.(requestLeave);
 		return () => registerHostGuard?.(null);
 	}, [requestLeave, registerHostGuard]);
-	(0, import_react$51.useLayoutEffect)(() => () => {
+	(0, import_react$49.useLayoutEffect)(() => () => {
 		pending.current = null;
 	}, []);
-	(0, import_react$51.useLayoutEffect)(() => {
+	(0, import_react$49.useLayoutEffect)(() => {
 		if (!dirtyCount && !busy) return;
 		const unload = (event) => {
 			event.preventDefault();
@@ -7834,24 +7836,24 @@ function useJournalNavigationGuard(dirtyCount, busy, registerHostGuard) {
 		approve
 	};
 }
-var import_react$51;
+var import_react$49;
 function init_navigation() {
 	return (init_navigation = __esmMin((() => {
-		import_react$51 = require_react();
+		import_react$49 = require_react();
 	})))();
 }
 function JournalLeaveDialog({ prompt, onCancel, onApprove, discardDescription, onPreserve, canPreserve = false }) {
-	const dialog = (0, import_react$50.useRef)(null);
-	const cancelButton = (0, import_react$50.useRef)(null);
-	const id = (0, import_react$50.useId)();
-	(0, import_react$50.useLayoutEffect)(() => {
+	const dialog = (0, import_react$48.useRef)(null);
+	const cancelButton = (0, import_react$48.useRef)(null);
+	const id = (0, import_react$48.useId)();
+	(0, import_react$48.useLayoutEffect)(() => {
 		const element = dialog.current;
 		element.showModal();
 		return () => {
 			if (element.open) element.close();
 		};
 	}, []);
-	(0, import_react$50.useLayoutEffect)(() => {
+	(0, import_react$48.useLayoutEffect)(() => {
 		if (prompt.submitting) dialog.current?.focus({ preventScroll: true });
 		else cancelButton.current?.focus({ preventScroll: true });
 	}, [prompt.kind, prompt.submitting]);
@@ -7859,7 +7861,7 @@ function JournalLeaveDialog({ prompt, onCancel, onApprove, discardDescription, o
 		dialog.current?.close();
 		action();
 	};
-	return /* @__PURE__ */ (0, import_jsx_runtime$63.jsxs)("dialog", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$61.jsxs)("dialog", {
 		ref: dialog,
 		className: "journal-leave-dialog",
 		"aria-labelledby": `${id}-title`,
@@ -7878,31 +7880,31 @@ function JournalLeaveDialog({ prompt, onCancel, onApprove, discardDescription, o
 			controls[(controls.indexOf(document.activeElement) + (event.shiftKey ? controls.length - 1 : 1)) % controls.length]?.focus();
 		},
 		children: [
-			/* @__PURE__ */ (0, import_jsx_runtime$63.jsx)("h2", {
+			/* @__PURE__ */ (0, import_jsx_runtime$61.jsx)("h2", {
 				id: `${id}-title`,
 				children: prompt.kind === "busy" ? "로컬 작업 중입니다" : prompt.destination === "close" ? "미저장 초안을 버리고 창을 닫을까요?" : prompt.destination === "quit" ? "미저장 초안을 버리고 앱을 종료할까요?" : onPreserve ? "작성 중인 글에서 이동할까요?" : "미저장 초안을 버리고 이동할까요?"
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$63.jsx)("p", {
+			/* @__PURE__ */ (0, import_jsx_runtime$61.jsx)("p", {
 				id: `${id}-description`,
 				children: prompt.submitting ? "종료 확인 중입니다. 입력은 유지됩니다." : prompt.kind === "busy" ? `작업이 끝난 뒤 다시 ${prompt.destination ? "닫기를 선택하세요" : "이동하세요"}. 현재 화면과 입력은 유지됩니다.` : onPreserve && !prompt.destination ? "임시저장이 끝난 내용만 이 기기에 남습니다. 정식 저장은 하지 않습니다." : discardDescription ?? `미저장 거래 초안 ${prompt.dirtyCount}개를 버립니다. 저장된 기록은 유지됩니다.`
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$63.jsxs)("div", {
+			/* @__PURE__ */ (0, import_jsx_runtime$61.jsxs)("div", {
 				className: "journal-leave-actions",
 				children: [
-					/* @__PURE__ */ (0, import_jsx_runtime$63.jsx)("button", {
+					/* @__PURE__ */ (0, import_jsx_runtime$61.jsx)("button", {
 						ref: cancelButton,
 						type: "button",
 						disabled: prompt.submitting,
 						onClick: () => close(onCancel),
 						children: prompt.kind === "busy" ? "일지로 돌아가기" : "계속 작성"
 					}),
-					prompt.kind === "discard" && !prompt.destination && onPreserve && /* @__PURE__ */ (0, import_jsx_runtime$63.jsx)("button", {
+					prompt.kind === "discard" && !prompt.destination && onPreserve && /* @__PURE__ */ (0, import_jsx_runtime$61.jsx)("button", {
 						type: "button",
 						disabled: !canPreserve || prompt.submitting,
 						onClick: onPreserve,
 						children: "임시본 남기고 이동"
 					}, "preserve-copy"),
-					prompt.kind === "discard" && /* @__PURE__ */ (0, import_jsx_runtime$63.jsx)("button", {
+					prompt.kind === "discard" && /* @__PURE__ */ (0, import_jsx_runtime$61.jsx)("button", {
 						type: "button",
 						onClick: onApprove,
 						disabled: prompt.submitting,
@@ -7913,11 +7915,11 @@ function JournalLeaveDialog({ prompt, onCancel, onApprove, discardDescription, o
 		]
 	});
 }
-var import_react$50, import_jsx_runtime$63;
+var import_react$48, import_jsx_runtime$61;
 function init_JournalLeaveDialog() {
 	return (init_JournalLeaveDialog = __esmMin((() => {
-		import_react$50 = require_react();
-		import_jsx_runtime$63 = require_jsx_runtime();
+		import_react$48 = require_react();
+		import_jsx_runtime$61 = require_jsx_runtime();
 	})))();
 }
 function init_style$1() {
@@ -7925,7 +7927,7 @@ function init_style$1() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/synthetic-journal/style.css?v=source-build-r99";
+			l.href = "/local/app/css-source/src/synthetic-journal/style.css?v=source-build-r102";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -7935,7 +7937,7 @@ function init_journal() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/journal/journal.css?v=source-build-r99";
+			l.href = "/local/app/css-source/src/journal/journal.css?v=source-build-r102";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -7945,7 +7947,7 @@ function init_manual_draft() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/journal/manual-draft.css?v=source-build-r99";
+			l.href = "/local/app/css-source/src/journal/manual-draft.css?v=source-build-r102";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -7955,15 +7957,15 @@ function init_linked_writing() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/trade-review/linked-writing.css?v=source-build-r99";
+			l.href = "/local/app/css-source/src/trade-review/linked-writing.css?v=source-build-r102";
 			document.head.appendChild(l);
 		}
 	})))();
 }
 /** A decrypted temporary snapshot, never a canonical note or restoration grant. */
 function TemporaryJournalPreview({ entry, onClose }) {
-	const dialog = (0, import_react$49.useRef)(null), closeButton = (0, import_react$49.useRef)(null), id = (0, import_react$49.useId)(), data = entry.data;
-	(0, import_react$49.useLayoutEffect)(() => {
+	const dialog = (0, import_react$47.useRef)(null), closeButton = (0, import_react$47.useRef)(null), id = (0, import_react$47.useId)(), data = entry.data;
+	(0, import_react$47.useLayoutEffect)(() => {
 		const el = dialog.current;
 		el.showModal();
 		closeButton.current?.focus();
@@ -7975,7 +7977,7 @@ function TemporaryJournalPreview({ entry, onClose }) {
 		dialog.current?.close();
 		onClose();
 	};
-	return /* @__PURE__ */ (0, import_jsx_runtime$62.jsxs)("dialog", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$60.jsxs)("dialog", {
 		ref: dialog,
 		className: "journal-leave-dialog temporary-journal-preview",
 		"aria-labelledby": id,
@@ -7997,14 +7999,14 @@ function TemporaryJournalPreview({ entry, onClose }) {
 			}
 		},
 		children: [
-			/* @__PURE__ */ (0, import_jsx_runtime$62.jsx)("h2", {
+			/* @__PURE__ */ (0, import_jsx_runtime$60.jsx)("h2", {
 				id,
 				children: "임시본 내용 확인"
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$62.jsx)("p", { children: "내용 확인만 하며, 작성 중인 글은 바꾸지 않습니다." }),
-			/* @__PURE__ */ (0, import_jsx_runtime$62.jsxs)("p", {
+			/* @__PURE__ */ (0, import_jsx_runtime$60.jsx)("p", { children: "내용 확인만 하며, 작성 중인 글은 바꾸지 않습니다." }),
+			/* @__PURE__ */ (0, import_jsx_runtime$60.jsxs)("p", {
 				className: "temporary-preview-time",
-				children: ["임시보관 · ", /* @__PURE__ */ (0, import_jsx_runtime$62.jsx)("time", {
+				children: ["임시보관 · ", /* @__PURE__ */ (0, import_jsx_runtime$60.jsx)("time", {
 					dateTime: entry.savedAt,
 					children: new Intl.DateTimeFormat("ko-KR", {
 						timeZone: "Asia/Seoul",
@@ -8018,44 +8020,44 @@ function TemporaryJournalPreview({ entry, onClose }) {
 					}).format(new Date(entry.savedAt))
 				})]
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$62.jsxs)("div", {
+			/* @__PURE__ */ (0, import_jsx_runtime$60.jsxs)("div", {
 				className: "temporary-preview-body",
 				tabIndex: 0,
 				"aria-label": "임시본 본문",
 				children: [
-					/* @__PURE__ */ (0, import_jsx_runtime$62.jsx)("h3", { children: data.title || "제목 없는 임시본" }),
-					/* @__PURE__ */ (0, import_jsx_runtime$62.jsxs)("p", { children: ["기록 날짜 · ", data.recordDate || "날짜 미입력"] }),
-					data.content ? /* @__PURE__ */ (0, import_jsx_runtime$62.jsx)(RichColumnLayout, {
+					/* @__PURE__ */ (0, import_jsx_runtime$60.jsx)("h3", { children: data.title || "제목 없는 임시본" }),
+					/* @__PURE__ */ (0, import_jsx_runtime$60.jsxs)("p", { children: ["기록 날짜 · ", data.recordDate || "날짜 미입력"] }),
+					data.content ? /* @__PURE__ */ (0, import_jsx_runtime$60.jsx)(RichColumnLayout, {
 						document: data.content.document,
 						renderBlock: (block) => {
-							if (block.type === "text") return /* @__PURE__ */ (0, import_jsx_runtime$62.jsx)(WritingReadView, { value: block.text }, block.id);
+							if (block.type === "text") return /* @__PURE__ */ (0, import_jsx_runtime$60.jsx)(WritingReadView, { value: block.text }, block.id);
 							const asset = data.content.assets.find((a) => a.id === block.assetId);
-							return /* @__PURE__ */ (0, import_jsx_runtime$62.jsxs)("figure", {
+							return /* @__PURE__ */ (0, import_jsx_runtime$60.jsxs)("figure", {
 								style: {
 									width: `${block.width}%`,
 									"--photo-display-scale": block.width / 100,
 									marginLeft: block.align === "left" ? 0 : "auto",
 									marginRight: block.align === "right" ? 0 : "auto"
 								},
-								children: [/* @__PURE__ */ (0, import_jsx_runtime$62.jsx)(PhotoReadImage, {
+								children: [/* @__PURE__ */ (0, import_jsx_runtime$60.jsx)(PhotoReadImage, {
 									src: imageSource(asset),
 									alt: block.caption || asset.name
-								}), block.caption && /* @__PURE__ */ (0, import_jsx_runtime$62.jsx)("figcaption", { children: block.caption })]
+								}), block.caption && /* @__PURE__ */ (0, import_jsx_runtime$60.jsx)("figcaption", { children: block.caption })]
 							}, block.id);
 						}
-					}) : /* @__PURE__ */ (0, import_jsx_runtime$62.jsxs)(import_jsx_runtime$62.Fragment, { children: [
-						/* @__PURE__ */ (0, import_jsx_runtime$62.jsx)(WritingReadView, { value: data.body }),
-						data.attachments.map((a, i) => /* @__PURE__ */ (0, import_jsx_runtime$62.jsx)("figure", { children: /* @__PURE__ */ (0, import_jsx_runtime$62.jsx)(PhotoReadImage, {
+					}) : /* @__PURE__ */ (0, import_jsx_runtime$60.jsxs)(import_jsx_runtime$60.Fragment, { children: [
+						/* @__PURE__ */ (0, import_jsx_runtime$60.jsx)(WritingReadView, { value: data.body }),
+						data.attachments.map((a, i) => /* @__PURE__ */ (0, import_jsx_runtime$60.jsx)("figure", { children: /* @__PURE__ */ (0, import_jsx_runtime$60.jsx)(PhotoReadImage, {
 							src: imageSource(a),
 							alt: a.name
 						}) }, i)),
-						data.pdfs.map((a, i) => /* @__PURE__ */ (0, import_jsx_runtime$62.jsxs)("p", { children: ["PDF · ", a.name] }, i))
+						data.pdfs.map((a, i) => /* @__PURE__ */ (0, import_jsx_runtime$60.jsxs)("p", { children: ["PDF · ", a.name] }, i))
 					] })
 				]
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$62.jsx)("div", {
+			/* @__PURE__ */ (0, import_jsx_runtime$60.jsx)("div", {
 				className: "journal-leave-actions",
-				children: /* @__PURE__ */ (0, import_jsx_runtime$62.jsx)("button", {
+				children: /* @__PURE__ */ (0, import_jsx_runtime$60.jsx)("button", {
 					ref: closeButton,
 					type: "button",
 					"aria-label": "임시본 내용 닫기",
@@ -8066,26 +8068,26 @@ function TemporaryJournalPreview({ entry, onClose }) {
 		]
 	});
 }
-var import_react$49, import_jsx_runtime$62;
+var import_react$47, import_jsx_runtime$60;
 function init_TemporaryJournalPreview() {
 	return (init_TemporaryJournalPreview = __esmMin((() => {
-		import_react$49 = require_react();
+		import_react$47 = require_react();
 		init_photo_original_view();
 		init_RichColumnLayout();
 		init_WritingReadView();
 		init_manualAttachments();
-		import_jsx_runtime$62 = require_jsx_runtime();
+		import_jsx_runtime$60 = require_jsx_runtime();
 	})))();
 }
 function TemporaryBackupReader({ busy, onRead }) {
-	const [open, setOpen] = (0, import_react$48.useState)(false), opener = (0, import_react$48.useRef)(null);
-	return /* @__PURE__ */ (0, import_jsx_runtime$61.jsxs)(import_jsx_runtime$61.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$61.jsx)("button", {
+	const [open, setOpen] = (0, import_react$46.useState)(false), opener = (0, import_react$46.useRef)(null);
+	return /* @__PURE__ */ (0, import_jsx_runtime$59.jsxs)(import_jsx_runtime$59.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$59.jsx)("button", {
 		ref: opener,
 		type: "button",
 		disabled: busy,
 		onClick: () => setOpen(true),
 		children: "임시본 백업 보기"
-	}), open && /* @__PURE__ */ (0, import_jsx_runtime$61.jsx)(ArchiveDialog, {
+	}), open && /* @__PURE__ */ (0, import_jsx_runtime$59.jsx)(ArchiveDialog, {
 		onRead,
 		onClose: () => {
 			setOpen(false);
@@ -8094,9 +8096,9 @@ function TemporaryBackupReader({ busy, onRead }) {
 	})] });
 }
 function ArchiveDialog({ onRead, onClose }) {
-	const dialog = (0, import_react$48.useRef)(null), input = (0, import_react$48.useRef)(null), live = (0, import_react$48.useRef)(true), previewOpener = (0, import_react$48.useRef)(null), id = (0, import_react$48.useId)();
-	const [password, setPassword] = (0, import_react$48.useState)(""), [pending, setPending] = (0, import_react$48.useState)(false), [error, setError] = (0, import_react$48.useState)(""), [message, setMessage] = (0, import_react$48.useState)(""), [entries, setEntries] = (0, import_react$48.useState)(null), [preview, setPreview] = (0, import_react$48.useState)(null);
-	(0, import_react$48.useLayoutEffect)(() => {
+	const dialog = (0, import_react$46.useRef)(null), input = (0, import_react$46.useRef)(null), live = (0, import_react$46.useRef)(true), previewOpener = (0, import_react$46.useRef)(null), id = (0, import_react$46.useId)();
+	const [password, setPassword] = (0, import_react$46.useState)(""), [pending, setPending] = (0, import_react$46.useState)(false), [error, setError] = (0, import_react$46.useState)(""), [message, setMessage] = (0, import_react$46.useState)(""), [entries, setEntries] = (0, import_react$46.useState)(null), [preview, setPreview] = (0, import_react$46.useState)(null);
+	(0, import_react$46.useLayoutEffect)(() => {
 		live.current = true;
 		const el = dialog.current;
 		el.showModal();
@@ -8134,7 +8136,7 @@ function ArchiveDialog({ onRead, onClose }) {
 			if (live.current) setPending(false);
 		}
 	};
-	return /* @__PURE__ */ (0, import_jsx_runtime$61.jsxs)(import_jsx_runtime$61.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$61.jsxs)("dialog", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$59.jsxs)(import_jsx_runtime$59.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$59.jsxs)("dialog", {
 		ref: dialog,
 		className: "journal-leave-dialog temporary-backup-dialog",
 		"aria-labelledby": id,
@@ -8163,12 +8165,12 @@ function ArchiveDialog({ onRead, onClose }) {
 			}
 		},
 		children: [
-			/* @__PURE__ */ (0, import_jsx_runtime$61.jsx)("h2", {
+			/* @__PURE__ */ (0, import_jsx_runtime$59.jsx)("h2", {
 				id,
 				children: "임시본 백업 파일 보기"
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$61.jsx)("p", { children: "파일 내용만 확인합니다. 이 기기의 기록·임시본을 바꾸거나 거래 연결을 복원하지 않습니다." }),
-			/* @__PURE__ */ (0, import_jsx_runtime$61.jsxs)("label", { children: ["백업 암호", /* @__PURE__ */ (0, import_jsx_runtime$61.jsx)("input", {
+			/* @__PURE__ */ (0, import_jsx_runtime$59.jsx)("p", { children: "파일 내용만 확인합니다. 이 기기의 기록·임시본을 바꾸거나 거래 연결을 복원하지 않습니다." }),
+			/* @__PURE__ */ (0, import_jsx_runtime$59.jsxs)("label", { children: ["백업 암호", /* @__PURE__ */ (0, import_jsx_runtime$59.jsx)("input", {
 				ref: input,
 				type: "password",
 				autoComplete: "off",
@@ -8178,36 +8180,36 @@ function ArchiveDialog({ onRead, onClose }) {
 				value: password,
 				onChange: (e) => setPassword(e.target.value)
 			})] }),
-			entries !== null && /* @__PURE__ */ (0, import_jsx_runtime$61.jsxs)("div", {
+			entries !== null && /* @__PURE__ */ (0, import_jsx_runtime$59.jsxs)("div", {
 				className: "temporary-archive-entries",
-				children: [/* @__PURE__ */ (0, import_jsx_runtime$61.jsx)("p", {
+				children: [/* @__PURE__ */ (0, import_jsx_runtime$59.jsx)("p", {
 					role: "status",
 					children: entries.length ? `파일에 보관된 임시본 ${entries.length}개 · 읽기 전용` : "파일에 보관된 임시본이 없습니다."
-				}), /* @__PURE__ */ (0, import_jsx_runtime$61.jsx)("ul", { children: entries.map((entry) => /* @__PURE__ */ (0, import_jsx_runtime$61.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime$61.jsxs)("button", {
+				}), /* @__PURE__ */ (0, import_jsx_runtime$59.jsx)("ul", { children: entries.map((entry) => /* @__PURE__ */ (0, import_jsx_runtime$59.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime$59.jsxs)("button", {
 					type: "button",
 					onClick: (e) => {
 						previewOpener.current = e.currentTarget;
 						setPreview(entry);
 					},
-					children: [/* @__PURE__ */ (0, import_jsx_runtime$61.jsx)("span", { children: entry.data.title || "제목 없는 임시본" }), /* @__PURE__ */ (0, import_jsx_runtime$61.jsx)("small", { children: entry.data.recordDate || "날짜 미입력" })]
+					children: [/* @__PURE__ */ (0, import_jsx_runtime$59.jsx)("span", { children: entry.data.title || "제목 없는 임시본" }), /* @__PURE__ */ (0, import_jsx_runtime$59.jsx)("small", { children: entry.data.recordDate || "날짜 미입력" })]
 				}) }, entry.source.draftId)) })]
 			}),
-			error && /* @__PURE__ */ (0, import_jsx_runtime$61.jsx)("p", {
+			error && /* @__PURE__ */ (0, import_jsx_runtime$59.jsx)("p", {
 				role: "alert",
 				children: error
 			}),
-			message && /* @__PURE__ */ (0, import_jsx_runtime$61.jsx)("p", {
+			message && /* @__PURE__ */ (0, import_jsx_runtime$59.jsx)("p", {
 				role: "status",
 				children: message
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$61.jsxs)("div", {
+			/* @__PURE__ */ (0, import_jsx_runtime$59.jsxs)("div", {
 				className: "journal-leave-actions",
-				children: [/* @__PURE__ */ (0, import_jsx_runtime$61.jsx)("button", {
+				children: [/* @__PURE__ */ (0, import_jsx_runtime$59.jsx)("button", {
 					type: "button",
 					disabled: pending,
 					onClick: close,
 					children: "닫기"
-				}), /* @__PURE__ */ (0, import_jsx_runtime$61.jsx)("button", {
+				}), /* @__PURE__ */ (0, import_jsx_runtime$59.jsx)("button", {
 					type: "button",
 					disabled: pending || !valid,
 					onClick: () => void read(),
@@ -8215,7 +8217,7 @@ function ArchiveDialog({ onRead, onClose }) {
 				})]
 			})
 		]
-	}), preview && /* @__PURE__ */ (0, import_jsx_runtime$61.jsx)(TemporaryJournalPreview, {
+	}), preview && /* @__PURE__ */ (0, import_jsx_runtime$59.jsx)(TemporaryJournalPreview, {
 		entry: {
 			data: preview.data,
 			savedAt: preview.source.savedAt
@@ -8226,24 +8228,24 @@ function ArchiveDialog({ onRead, onClose }) {
 		}
 	})] });
 }
-var import_react$48, import_jsx_runtime$61;
+var import_react$46, import_jsx_runtime$59;
 function init_TemporaryBackupReader() {
 	return (init_TemporaryBackupReader = __esmMin((() => {
-		import_react$48 = require_react();
+		import_react$46 = require_react();
 		init_TemporaryJournalPreview();
-		import_jsx_runtime$61 = require_jsx_runtime();
+		import_jsx_runtime$59 = require_jsx_runtime();
 	})))();
 }
 function TemporaryBackupExport({ enabled, busy, onExport }) {
-	const [open, setOpen] = (0, import_react$47.useState)(false), opener = (0, import_react$47.useRef)(null);
-	return /* @__PURE__ */ (0, import_jsx_runtime$60.jsxs)(import_jsx_runtime$60.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$60.jsx)("button", {
+	const [open, setOpen] = (0, import_react$45.useState)(false), opener = (0, import_react$45.useRef)(null);
+	return /* @__PURE__ */ (0, import_jsx_runtime$58.jsxs)(import_jsx_runtime$58.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$58.jsx)("button", {
 		ref: opener,
 		hidden: !enabled,
 		type: "button",
 		disabled: busy,
 		onClick: () => setOpen(true),
 		children: "임시본 내보내기"
-	}), open && /* @__PURE__ */ (0, import_jsx_runtime$60.jsx)(ExportDialog, {
+	}), open && /* @__PURE__ */ (0, import_jsx_runtime$58.jsx)(ExportDialog, {
 		onExport,
 		onClose: () => {
 			setOpen(false);
@@ -8252,9 +8254,9 @@ function TemporaryBackupExport({ enabled, busy, onExport }) {
 	})] });
 }
 function ExportDialog({ onExport, onClose }) {
-	const dialog = (0, import_react$47.useRef)(null), first = (0, import_react$47.useRef)(null), live = (0, import_react$47.useRef)(true), id = (0, import_react$47.useId)();
-	const [password, setPassword] = (0, import_react$47.useState)(""), [confirmation, setConfirmation] = (0, import_react$47.useState)(""), [pending, setPending] = (0, import_react$47.useState)(false), [error, setError] = (0, import_react$47.useState)(""), [message, setMessage] = (0, import_react$47.useState)("");
-	(0, import_react$47.useLayoutEffect)(() => {
+	const dialog = (0, import_react$45.useRef)(null), first = (0, import_react$45.useRef)(null), live = (0, import_react$45.useRef)(true), id = (0, import_react$45.useId)();
+	const [password, setPassword] = (0, import_react$45.useState)(""), [confirmation, setConfirmation] = (0, import_react$45.useState)(""), [pending, setPending] = (0, import_react$45.useState)(false), [error, setError] = (0, import_react$45.useState)(""), [message, setMessage] = (0, import_react$45.useState)("");
+	(0, import_react$45.useLayoutEffect)(() => {
 		live.current = true;
 		const el = dialog.current;
 		el.showModal();
@@ -8292,7 +8294,7 @@ function ExportDialog({ onExport, onClose }) {
 			if (live.current) setPending(false);
 		}
 	};
-	return /* @__PURE__ */ (0, import_jsx_runtime$60.jsxs)("dialog", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$58.jsxs)("dialog", {
 		ref: dialog,
 		className: "journal-leave-dialog temporary-backup-dialog",
 		"aria-labelledby": id,
@@ -8321,13 +8323,13 @@ function ExportDialog({ onExport, onClose }) {
 			}
 		},
 		children: [
-			/* @__PURE__ */ (0, import_jsx_runtime$60.jsx)("h2", {
+			/* @__PURE__ */ (0, import_jsx_runtime$58.jsx)("h2", {
 				id,
 				children: "임시본 암호화 내보내기"
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$60.jsx)("p", { children: "현재 보관함의 임시본 전체를 담습니다. 아직 임시저장되지 않은 입력은 포함하지 않습니다." }),
-			/* @__PURE__ */ (0, import_jsx_runtime$60.jsx)("p", { children: "기기 저장용 키는 담지 않으며, 원본은 바꾸지 않습니다. 이 파일의 가져오기는 아직 지원하지 않습니다." }),
-			/* @__PURE__ */ (0, import_jsx_runtime$60.jsxs)("label", { children: ["백업 암호", /* @__PURE__ */ (0, import_jsx_runtime$60.jsx)("input", {
+			/* @__PURE__ */ (0, import_jsx_runtime$58.jsx)("p", { children: "현재 보관함의 임시본 전체를 담습니다. 아직 임시저장되지 않은 입력은 포함하지 않습니다." }),
+			/* @__PURE__ */ (0, import_jsx_runtime$58.jsx)("p", { children: "기기 저장용 키는 담지 않으며, 원본은 바꾸지 않습니다. 이 파일의 가져오기는 아직 지원하지 않습니다." }),
+			/* @__PURE__ */ (0, import_jsx_runtime$58.jsxs)("label", { children: ["백업 암호", /* @__PURE__ */ (0, import_jsx_runtime$58.jsx)("input", {
 				ref: first,
 				type: "password",
 				autoComplete: "new-password",
@@ -8337,7 +8339,7 @@ function ExportDialog({ onExport, onClose }) {
 				disabled: pending,
 				onChange: (e) => setPassword(e.target.value)
 			})] }),
-			/* @__PURE__ */ (0, import_jsx_runtime$60.jsxs)("label", { children: ["암호 확인", /* @__PURE__ */ (0, import_jsx_runtime$60.jsx)("input", {
+			/* @__PURE__ */ (0, import_jsx_runtime$58.jsxs)("label", { children: ["암호 확인", /* @__PURE__ */ (0, import_jsx_runtime$58.jsx)("input", {
 				type: "password",
 				autoComplete: "new-password",
 				maxLength: 1024,
@@ -8345,22 +8347,22 @@ function ExportDialog({ onExport, onClose }) {
 				disabled: pending,
 				onChange: (e) => setConfirmation(e.target.value)
 			})] }),
-			error && /* @__PURE__ */ (0, import_jsx_runtime$60.jsx)("p", {
+			error && /* @__PURE__ */ (0, import_jsx_runtime$58.jsx)("p", {
 				role: "alert",
 				children: error
 			}),
-			message && /* @__PURE__ */ (0, import_jsx_runtime$60.jsx)("p", {
+			message && /* @__PURE__ */ (0, import_jsx_runtime$58.jsx)("p", {
 				role: "status",
 				children: message
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$60.jsxs)("div", {
+			/* @__PURE__ */ (0, import_jsx_runtime$58.jsxs)("div", {
 				className: "journal-leave-actions",
-				children: [/* @__PURE__ */ (0, import_jsx_runtime$60.jsx)("button", {
+				children: [/* @__PURE__ */ (0, import_jsx_runtime$58.jsx)("button", {
 					type: "button",
 					disabled: pending,
 					onClick: close,
 					children: "닫기"
-				}), /* @__PURE__ */ (0, import_jsx_runtime$60.jsx)("button", {
+				}), /* @__PURE__ */ (0, import_jsx_runtime$58.jsx)("button", {
 					type: "button",
 					disabled: pending || !valid,
 					onClick: () => void submit(),
@@ -8370,11 +8372,11 @@ function ExportDialog({ onExport, onClose }) {
 		]
 	});
 }
-var import_react$47, import_jsx_runtime$60;
+var import_react$45, import_jsx_runtime$58;
 function init_TemporaryBackupExport() {
 	return (init_TemporaryBackupExport = __esmMin((() => {
-		import_react$47 = require_react();
-		import_jsx_runtime$60 = require_jsx_runtime();
+		import_react$45 = require_react();
+		import_jsx_runtime$58 = require_jsx_runtime();
 	})))();
 }
 function matchingTemporaryPreview(selected, entries) {
@@ -8389,7 +8391,7 @@ function init_temporary_journal() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/journal/temporary-journal.css?v=source-build-r99";
+			l.href = "/local/app/css-source/src/journal/temporary-journal.css?v=source-build-r102";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -8397,44 +8399,44 @@ function init_temporary_journal() {
 function TemporaryJournalStatus({ value, showStatus, busy, onRetry, onOpen, onExport, onReadBackup, toolsInMenu = false }) {
 	const savedClock = value.kind === "saved" ? journalSavedClock(value.savedAt) : null;
 	const candidate = [...value.recovered].sort((a, b) => Date.parse(b.savedAt) - Date.parse(a.savedAt) || a.draftId.localeCompare(b.draftId))[0];
-	const [preview, setPreview] = (0, import_react$46.useState)(null);
-	const previewOpener = (0, import_react$46.useRef)(null);
+	const [preview, setPreview] = (0, import_react$44.useState)(null);
+	const previewOpener = (0, import_react$44.useRef)(null);
 	const currentPreview = matchingTemporaryPreview(preview, value.recovered);
 	const label = value.kind === "saving" ? "임시저장 중…" : value.kind === "pending" ? "임시저장 대기" : value.kind === "unavailable" ? "기기에 임시저장되지 않음" : value.kind === "error" ? value.error?.includes("temporary_discard") ? "삭제 결과 확인 필요 · 현재 입력 유지" : value.error?.includes("temporary_cleanup") ? "일지 저장됨 · 임시본 정리 확인 필요" : value.error?.includes("restore_requires_review") ? "저장본이 달라 자동 복원 보류 · 임시본 보존됨" : "임시저장 확인 필요 · 입력은 유지됨" : "";
-	const backupTools = /* @__PURE__ */ (0, import_jsx_runtime$59.jsxs)(import_jsx_runtime$59.Fragment, { children: [onReadBackup && /* @__PURE__ */ (0, import_jsx_runtime$59.jsx)(TemporaryBackupReader, {
+	const backupTools = /* @__PURE__ */ (0, import_jsx_runtime$57.jsxs)(import_jsx_runtime$57.Fragment, { children: [onReadBackup && /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)(TemporaryBackupReader, {
 		busy,
 		onRead: onReadBackup
-	}), onExport && /* @__PURE__ */ (0, import_jsx_runtime$59.jsx)(TemporaryBackupExport, {
+	}), onExport && /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)(TemporaryBackupExport, {
 		enabled: value.kind === "saved" || value.recovered.length > 0,
 		busy,
 		onExport
 	})] });
-	return /* @__PURE__ */ (0, import_jsx_runtime$59.jsxs)("div", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$57.jsxs)("div", {
 		className: "manual-temporary-controls",
 		children: [
-			showStatus && /* @__PURE__ */ (0, import_jsx_runtime$59.jsx)("p", {
+			showStatus && /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("p", {
 				className: "manual-save-status",
 				role: "status",
 				"aria-label": "임시저장 상태",
-				children: value.kind === "saved" && value.savedAt && savedClock ? /* @__PURE__ */ (0, import_jsx_runtime$59.jsxs)(import_jsx_runtime$59.Fragment, { children: ["자동 저장 ", /* @__PURE__ */ (0, import_jsx_runtime$59.jsx)("time", {
+				children: value.kind === "saved" && value.savedAt && savedClock ? /* @__PURE__ */ (0, import_jsx_runtime$57.jsxs)(import_jsx_runtime$57.Fragment, { children: ["자동 저장 ", /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("time", {
 					dateTime: value.savedAt,
 					title: "이 기기에 임시본을 보존한 시각",
 					children: savedClock
 				})] }) : label
 			}),
-			showStatus && value.kind === "unavailable" && /* @__PURE__ */ (0, import_jsx_runtime$59.jsx)("button", {
+			showStatus && value.kind === "unavailable" && /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("button", {
 				type: "button",
 				disabled: busy,
 				onClick: () => void onOpen(),
 				children: "보관 열기"
 			}),
-			showStatus && value.kind === "error" && /* @__PURE__ */ (0, import_jsx_runtime$59.jsx)("button", {
+			showStatus && value.kind === "error" && /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("button", {
 				type: "button",
 				disabled: busy,
 				onClick: () => void onRetry(),
 				children: "다시 확인"
 			}),
-			showStatus && candidate && value.kind === "error" && value.error?.includes("restore_requires_review") && /* @__PURE__ */ (0, import_jsx_runtime$59.jsx)("button", {
+			showStatus && candidate && value.kind === "error" && value.error?.includes("restore_requires_review") && /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("button", {
 				type: "button",
 				disabled: busy,
 				onClick: (event) => {
@@ -8443,16 +8445,16 @@ function TemporaryJournalStatus({ value, showStatus, busy, onRetry, onOpen, onEx
 				},
 				children: "이전 글 내용 확인"
 			}),
-			toolsInMenu ? (onReadBackup || onExport) && /* @__PURE__ */ (0, import_jsx_runtime$59.jsx)(EditorPopover, {
+			toolsInMenu ? (onReadBackup || onExport) && /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)(EditorPopover, {
 				label: "임시본 도구",
 				kind: "more",
 				disabled: busy,
-				children: /* @__PURE__ */ (0, import_jsx_runtime$59.jsx)("div", {
+				children: /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("div", {
 					onClick: (event) => event.stopPropagation(),
 					children: backupTools
 				})
 			}) : backupTools,
-			currentPreview && /* @__PURE__ */ (0, import_jsx_runtime$59.jsx)(TemporaryJournalPreview, {
+			currentPreview && /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)(TemporaryJournalPreview, {
 				entry: currentPreview,
 				onClose: () => {
 					setPreview(null);
@@ -8462,17 +8464,17 @@ function TemporaryJournalStatus({ value, showStatus, busy, onRetry, onOpen, onEx
 		]
 	});
 }
-var import_react$46, import_jsx_runtime$59;
+var import_react$44, import_jsx_runtime$57;
 function init_TemporaryJournalStatus() {
 	return (init_TemporaryJournalStatus = __esmMin((() => {
-		import_react$46 = require_react();
+		import_react$44 = require_react();
 		init_TemporaryBackupReader();
 		init_TemporaryBackupExport();
 		init_TemporaryJournalPreview();
 		init_temporary_journal();
 		init_EditorPopover();
 		init_JournalNoteMetadata();
-		import_jsx_runtime$59 = require_jsx_runtime();
+		import_jsx_runtime$57 = require_jsx_runtime();
 	})))();
 }
 /** Strict saved-note presentation or explicitly labelled draft preview. Neither is a live observation or write authority. */
@@ -8546,19 +8548,19 @@ function init_historical_details() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/trade-review/historical-details.css?v=source-build-r99";
+			l.href = "/local/app/css-source/src/trade-review/historical-details.css?v=source-build-r102";
 			document.head.appendChild(l);
 		}
 	})))();
 }
 /** Owned saved-link or explicitly labelled draft-link presentation. No I/O or write authority. */
 function HistoricalTradeDetails({ note, privacy, compact = false, preview = false }) {
-	const [expanded, setExpanded] = (0, import_react$45.useState)(false);
-	const opener = (0, import_react$45.useRef)(null);
-	const id = (0, import_react$45.useId)();
+	const [expanded, setExpanded] = (0, import_react$43.useState)(false);
+	const opener = (0, import_react$43.useRef)(null);
+	const id = (0, import_react$43.useId)();
 	const details = historicalTradeDetails(note, privacy, preview);
 	if (!details) return null;
-	return /* @__PURE__ */ (0, import_jsx_runtime$58.jsxs)("div", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$56.jsxs)("div", {
 		className: "historical-trade-details",
 		onKeyDown: (event) => {
 			if (event.key === "Escape" && expanded) {
@@ -8568,7 +8570,7 @@ function HistoricalTradeDetails({ note, privacy, compact = false, preview = fals
 				opener.current?.focus({ preventScroll: true });
 			}
 		},
-		children: [/* @__PURE__ */ (0, import_jsx_runtime$58.jsx)("button", {
+		children: [/* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("button", {
 			ref: opener,
 			type: "button",
 			className: compact ? "journal-icon-action" : void 0,
@@ -8576,38 +8578,38 @@ function HistoricalTradeDetails({ note, privacy, compact = false, preview = fals
 			"aria-expanded": expanded,
 			"aria-controls": id,
 			onClick: () => setExpanded(!expanded),
-			children: compact ? /* @__PURE__ */ (0, import_jsx_runtime$58.jsxs)("svg", {
+			children: compact ? /* @__PURE__ */ (0, import_jsx_runtime$56.jsxs)("svg", {
 				"aria-hidden": "true",
 				viewBox: "0 0 24 24",
-				children: [/* @__PURE__ */ (0, import_jsx_runtime$58.jsx)("path", { d: "M12 17v-5m0-5v1" }), /* @__PURE__ */ (0, import_jsx_runtime$58.jsx)("circle", {
+				children: [/* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("path", { d: "M12 17v-5m0-5v1" }), /* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("circle", {
 					cx: "12",
 					cy: "12",
 					r: "9"
 				})]
 			}) : "저장된 거래 상세"
-		}), expanded && /* @__PURE__ */ (0, import_jsx_runtime$58.jsxs)("div", {
+		}), expanded && /* @__PURE__ */ (0, import_jsx_runtime$56.jsxs)("div", {
 			id,
 			role: "region",
 			"aria-label": preview ? "연결할 거래 사실" : "저장된 거래 사실",
-			children: [/* @__PURE__ */ (0, import_jsx_runtime$58.jsxs)("p", {
+			children: [/* @__PURE__ */ (0, import_jsx_runtime$56.jsxs)("p", {
 				className: "manual-save-hint",
 				children: [preview && "저장 전 연결 대상입니다. ", "현재 잔고나 개별 체결 내역이 아닙니다."]
-			}), /* @__PURE__ */ (0, import_jsx_runtime$58.jsx)("dl", { children: details.rows.map((row) => /* @__PURE__ */ (0, import_jsx_runtime$58.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime$58.jsx)("dt", { children: row.label }), /* @__PURE__ */ (0, import_jsx_runtime$58.jsx)("dd", { children: row.value })] }, row.label)) })]
+			}), /* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("dl", { children: details.rows.map((row) => /* @__PURE__ */ (0, import_jsx_runtime$56.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("dt", { children: row.label }), /* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("dd", { children: row.value })] }, row.label)) })]
 		})]
 	});
 }
-var import_react$45, import_jsx_runtime$58;
+var import_react$43, import_jsx_runtime$56;
 function init_HistoricalTradeDetails() {
 	return (init_HistoricalTradeDetails = __esmMin((() => {
-		import_react$45 = require_react();
+		import_react$43 = require_react();
 		init_historicalDetails();
 		init_historical_details();
-		import_jsx_runtime$58 = require_jsx_runtime();
+		import_jsx_runtime$56 = require_jsx_runtime();
 	})))();
 }
 function SavedCopyReview({ review, onCancel, onChoose }) {
-	const dialog = (0, import_react$44.useRef)(null), cancel = (0, import_react$44.useRef)(null), id = (0, import_react$44.useId)();
-	(0, import_react$44.useLayoutEffect)(() => {
+	const dialog = (0, import_react$42.useRef)(null), cancel = (0, import_react$42.useRef)(null), id = (0, import_react$42.useId)();
+	(0, import_react$42.useLayoutEffect)(() => {
 		const el = dialog.current;
 		el.showModal();
 		cancel.current?.focus();
@@ -8630,7 +8632,7 @@ function SavedCopyReview({ review, onCancel, onChoose }) {
 		dialog.current?.close();
 		action();
 	};
-	return /* @__PURE__ */ (0, import_jsx_runtime$57.jsxs)("dialog", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$55.jsxs)("dialog", {
 		ref: dialog,
 		className: "journal-leave-dialog linked-reconcile-dialog",
 		"aria-labelledby": `${id}-title`,
@@ -8652,29 +8654,29 @@ function SavedCopyReview({ review, onCancel, onChoose }) {
 			}
 		},
 		children: [
-			/* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("h2", {
+			/* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("h2", {
 				id: `${id}-title`,
 				children: "저장된 글과 비교"
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("p", {
+			/* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("p", {
 				id: `${id}-description`,
 				children: "작성 내용은 아직 바꾸지 않았습니다. 저장된 글로 전환하면 현재 입력은 교체됩니다. 임시저장되지 않은 수정은 남지 않을 수 있습니다. 저장된 임시본은 삭제하지 않습니다."
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("div", {
+			/* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("div", {
 				className: "linked-reconcile-columns",
-				children: copies.map((c) => /* @__PURE__ */ (0, import_jsx_runtime$57.jsxs)("section", {
+				children: copies.map((c) => /* @__PURE__ */ (0, import_jsx_runtime$55.jsxs)("section", {
 					"aria-label": c.label,
 					children: [
-						/* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("h3", { children: c.label }),
-						/* @__PURE__ */ (0, import_jsx_runtime$57.jsxs)("p", {
+						/* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("h3", { children: c.label }),
+						/* @__PURE__ */ (0, import_jsx_runtime$55.jsxs)("p", {
 							className: "linked-reconcile-date",
 							children: ["기록 날짜 · ", c.recordDate]
 						}),
-						/* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("h4", { children: c.title || "제목 없음" }),
-						/* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("div", {
+						/* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("h4", { children: c.title || "제목 없음" }),
+						/* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("div", {
 							tabIndex: 0,
 							"aria-label": `${c.label} 본문`,
-							children: c.content ? /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)(RichNoteView, {
+							children: c.content ? /* @__PURE__ */ (0, import_jsx_runtime$55.jsx)(RichNoteView, {
 								note: {
 									...review.note,
 									title: c.title,
@@ -8685,19 +8687,19 @@ function SavedCopyReview({ review, onCancel, onChoose }) {
 									content: c.content
 								},
 								active: false
-							}) : /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("pre", { children: c.body })
+							}) : /* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("pre", { children: c.body })
 						})
 					]
 				}, c.label))
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$57.jsxs)("div", {
+			/* @__PURE__ */ (0, import_jsx_runtime$55.jsxs)("div", {
 				className: "journal-leave-actions",
-				children: [/* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("button", {
+				children: [/* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("button", {
 					ref: cancel,
 					type: "button",
 					onClick: () => close(onCancel),
 					children: "작성 내용 유지"
-				}), /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("button", {
+				}), /* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("button", {
 					type: "button",
 					onClick: () => close(onChoose),
 					children: "저장된 글로 전환"
@@ -8708,16 +8710,16 @@ function SavedCopyReview({ review, onCancel, onChoose }) {
 }
 /** App owns this controller beyond unmount. Mount probes only an already prepared draft store; never opens/initializes keys. */
 function TradeLinkedJournalEditor({ controller, registerHostGuard, onTitleChange, privacy = false, onBack }) {
-	const state = (0, import_react$44.useSyncExternalStore)(controller.subscribe, controller.getSnapshot, controller.getSnapshot);
-	(0, import_react$44.useEffect)(() => {
+	const state = (0, import_react$42.useSyncExternalStore)(controller.subscribe, controller.getSnapshot, controller.getSnapshot);
+	(0, import_react$42.useEffect)(() => {
 		controller.startTemporarySave();
 	}, [controller]);
-	const [showList, setShowList] = (0, import_react$44.useState)(false);
-	const [richEditing, setRichEditing] = (0, import_react$44.useState)(false);
-	const surface = (0, import_react$44.useRef)(null);
-	const title = (0, import_react$44.useRef)(null), lastFocus = (0, import_react$44.useRef)(null), live = (0, import_react$44.useRef)(false), ownGuard = (0, import_react$44.useRef)(null), reviewOpener = (0, import_react$44.useRef)(null);
-	const id = (0, import_react$44.useId)(), errors = manualDraftErrors(state.draft);
-	(0, import_react$44.useLayoutEffect)(() => {
+	const [showList, setShowList] = (0, import_react$42.useState)(false);
+	const [richEditing, setRichEditing] = (0, import_react$42.useState)(false);
+	const surface = (0, import_react$42.useRef)(null);
+	const title = (0, import_react$42.useRef)(null), lastFocus = (0, import_react$42.useRef)(null), live = (0, import_react$42.useRef)(false), ownGuard = (0, import_react$42.useRef)(null), reviewOpener = (0, import_react$42.useRef)(null);
+	const id = (0, import_react$42.useId)(), errors = manualDraftErrors(state.draft);
+	(0, import_react$42.useLayoutEffect)(() => {
 		live.current = true;
 		title.current?.focus({ preventScroll: true });
 		return () => {
@@ -8725,10 +8727,10 @@ function TradeLinkedJournalEditor({ controller, registerHostGuard, onTitleChange
 			ownGuard.current = null;
 		};
 	}, []);
-	(0, import_react$44.useLayoutEffect)(() => {
+	(0, import_react$42.useLayoutEffect)(() => {
 		if (richEditing) title.current?.focus({ preventScroll: true });
 	}, [richEditing]);
-	const register = (0, import_react$44.useCallback)((guard) => {
+	const register = (0, import_react$42.useCallback)((guard) => {
 		ownGuard.current = guard;
 		registerHostGuard?.(guard ? (approve, cancel, destination) => {
 			if (!live.current || ownGuard.current !== guard) {
@@ -8742,10 +8744,10 @@ function TradeLinkedJournalEditor({ controller, registerHostGuard, onTitleChange
 		} : null);
 	}, [registerHostGuard]);
 	const leave = useJournalNavigationGuard(state.dirty ? 1 : 0, state.pending !== null || state.composing || state.editorMenuActive || state.richBusy, register);
-	(0, import_react$44.useLayoutEffect)(() => {
+	(0, import_react$42.useLayoutEffect)(() => {
 		onTitleChange?.(state.draft.title);
 	}, [state.draft.title, onTitleChange]);
-	(0, import_react$44.useLayoutEffect)(() => () => onTitleChange?.(""), [onTitleChange]);
+	(0, import_react$42.useLayoutEffect)(() => () => onTitleChange?.(""), [onTitleChange]);
 	const replace = (opener, action) => ownGuard.current?.(action, () => {
 		if (opener.isConnected) opener.focus({ preventScroll: true });
 	});
@@ -8754,7 +8756,7 @@ function TradeLinkedJournalEditor({ controller, registerHostGuard, onTitleChange
 	const status = state.pending === "saving" ? "저장 중…" : state.pending ? "불러오는 중…" : state.needsRead ? "저장 상태 확인 필요" : state.status === "saved" && !state.dirty ? state.contextChanged ? "저장됨 · 현재 거래 문맥은 변경됨" : "저장됨" : state.status === "read" && !state.dirty ? "저장된 일지" : "저장되지 않은 초안";
 	const canSave = !state.pending && !state.needsRead && !state.composing && !state.editorMenuActive && !state.richBusy && (state.content ? validLinkedRichDraft(state.draft, state.content) : validManualSave(state.draft)) && (!state.note ? state.authorized : state.dirty);
 	const notes = state.store?.notes.filter((n) => n.tradeLink?.tradeId === state.link?.tradeId) ?? [];
-	return /* @__PURE__ */ (0, import_jsx_runtime$57.jsxs)("section", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$55.jsxs)("section", {
 		ref: surface,
 		className: "journal-surface manual-journal-draft linked-journal-editor",
 		"aria-label": "거래 연결 일지",
@@ -8779,29 +8781,29 @@ function TradeLinkedJournalEditor({ controller, registerHostGuard, onTitleChange
 			}
 		},
 		children: [
-			/* @__PURE__ */ (0, import_jsx_runtime$57.jsxs)("div", {
+			/* @__PURE__ */ (0, import_jsx_runtime$55.jsxs)("div", {
 				className: "manual-draft-commands linked-writing-toolbar",
-				children: [/* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("div", {
+				children: [/* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("div", {
 					className: "manual-draft-toolbar",
-					children: /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("button", {
+					children: /* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("button", {
 						type: "button",
 						className: "journal-icon-action",
 						"aria-label": "돌아가기",
 						onClick: (event) => back(event.currentTarget),
-						children: /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("svg", {
+						children: /* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("svg", {
 							"aria-hidden": "true",
 							viewBox: "0 0 24 24",
-							children: /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("path", { d: "M20 12H4m7-7-7 7 7 7" })
+							children: /* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("path", { d: "M20 12H4m7-7-7 7 7 7" })
 						})
 					})
-				}), /* @__PURE__ */ (0, import_jsx_runtime$57.jsxs)("div", {
+				}), /* @__PURE__ */ (0, import_jsx_runtime$55.jsxs)("div", {
 					className: "manual-save-actions linked-writing-actions",
 					children: [
-						(state.pending || state.needsRead) && /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("p", {
+						(state.pending || state.needsRead) && /* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("p", {
 							role: "status",
 							children: status
 						}),
-						/* @__PURE__ */ (0, import_jsx_runtime$57.jsx)(TemporaryJournalStatus, {
+						/* @__PURE__ */ (0, import_jsx_runtime$55.jsx)(TemporaryJournalStatus, {
 							toolsInMenu: true,
 							onReadBackup: controller.readTemporaryBackup,
 							onExport: controller.exportTemporaryBackup,
@@ -8819,22 +8821,22 @@ function TradeLinkedJournalEditor({ controller, registerHostGuard, onTitleChange
 							},
 							onRestore: (draftId) => controller.restoreTemporaryDraft(draftId)
 						}),
-						state.note && "content" in state.note && !state.dirty && !richEditing && /* @__PURE__ */ (0, import_jsx_runtime$57.jsxs)("button", {
+						state.note && "content" in state.note && !state.dirty && !richEditing && /* @__PURE__ */ (0, import_jsx_runtime$55.jsxs)("button", {
 							type: "button",
 							className: "journal-icon-action",
 							"aria-label": "일지 수정",
 							disabled: !!state.pending || state.needsRead || state.composing || state.richBusy || state.editorMenuActive,
 							onClick: () => setRichEditing(true),
-							children: [/* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("svg", {
+							children: [/* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("svg", {
 								"aria-hidden": "true",
 								viewBox: "0 0 24 24",
-								children: /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("path", { d: "m15 4 5 5M4 20l5-1L21 7a2 2 0 0 0-5-5L4 14Z" })
-							}), /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("span", {
+								children: /* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("path", { d: "m15 4 5 5M4 20l5-1L21 7a2 2 0 0 0-5-5L4 14Z" })
+							}), /* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("span", {
 								className: "journal-action-tooltip",
 								children: "수정"
 							})]
 						}),
-						/* @__PURE__ */ (0, import_jsx_runtime$57.jsxs)("button", {
+						/* @__PURE__ */ (0, import_jsx_runtime$55.jsxs)("button", {
 							type: "button",
 							className: "journal-icon-action",
 							"aria-label": "일지 저장",
@@ -8845,16 +8847,16 @@ function TradeLinkedJournalEditor({ controller, registerHostGuard, onTitleChange
 								setRichEditing(false);
 								controller.save();
 							},
-							children: [/* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("svg", {
+							children: [/* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("svg", {
 								"aria-hidden": "true",
 								viewBox: "0 0 24 24",
-								children: /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("path", { d: "M20 12a8 8 0 1 1-5-7M8 11l4 4 9-10" })
-							}), /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("span", {
+								children: /* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("path", { d: "M20 12a8 8 0 1 1-5-7M8 11l4 4 9-10" })
+							}), /* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("span", {
 								className: "journal-action-tooltip",
 								children: "저장 ⌘S"
 							})]
 						}),
-						(state.note || state.needsRead) && /* @__PURE__ */ (0, import_jsx_runtime$57.jsxs)("button", {
+						(state.note || state.needsRead) && /* @__PURE__ */ (0, import_jsx_runtime$55.jsxs)("button", {
 							type: "button",
 							className: state.needsRead ? "text-button" : "journal-icon-action",
 							"aria-label": state.needsRead ? "상태 다시 확인" : "저장된 일지 보기",
@@ -8862,11 +8864,11 @@ function TradeLinkedJournalEditor({ controller, registerHostGuard, onTitleChange
 							onClick: () => void controller.open().then(() => {
 								if (live.current && !controller.getSnapshot().error) setShowList(true);
 							}),
-							children: [state.needsRead ? "상태 다시 확인" : /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("svg", {
+							children: [state.needsRead ? "상태 다시 확인" : /* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("svg", {
 								"aria-hidden": "true",
 								viewBox: "0 0 24 24",
-								children: /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("path", { d: "M4 4h6a3 3 0 0 1 2 1 3 3 0 0 1 2-1h6v15h-6a3 3 0 0 0-2 1 3 3 0 0 0-2-1H4Zm8 1v15" })
-							}), !state.needsRead && /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("span", {
+								children: /* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("path", { d: "M4 4h6a3 3 0 0 1 2 1 3 3 0 0 1 2-1h6v15h-6a3 3 0 0 0-2 1 3 3 0 0 0-2-1H4Zm8 1v15" })
+							}), !state.needsRead && /* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("span", {
 								className: "journal-action-tooltip",
 								children: "저장된 글 보기"
 							})]
@@ -8874,7 +8876,7 @@ function TradeLinkedJournalEditor({ controller, registerHostGuard, onTitleChange
 					]
 				})]
 			}),
-			(state.note || state.link) && /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)(HistoricalTradeDetails, {
+			(state.note || state.link) && /* @__PURE__ */ (0, import_jsx_runtime$55.jsx)(HistoricalTradeDetails, {
 				note: state.note ?? {
 					tradeLink: state.link ?? void 0,
 					recordDate: {
@@ -8886,32 +8888,32 @@ function TradeLinkedJournalEditor({ controller, registerHostGuard, onTitleChange
 				compact: true,
 				preview: !state.note
 			}, state.note?.id ?? "link-preview"),
-			!state.note && !state.authorized && /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("p", {
+			!state.note && !state.authorized && /* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("p", {
 				role: "alert",
 				children: "현재 거래 문맥을 확인할 수 없어 저장할 수 없습니다. 작성한 글은 유지됩니다."
 			}),
-			state.error && /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("p", {
+			state.error && /* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("p", {
 				role: "alert",
 				children: manualErrorMessage(state.error)
 			}),
-			state.canResolveAbsent && /* @__PURE__ */ (0, import_jsx_runtime$57.jsxs)(import_jsx_runtime$57.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("p", {
+			state.canResolveAbsent && /* @__PURE__ */ (0, import_jsx_runtime$55.jsxs)(import_jsx_runtime$55.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("p", {
 				className: "manual-save-hint",
 				children: "다시 확인한 저장소에 이 거래의 일지가 없습니다. 작성한 글은 유지됩니다."
-			}), /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("button", {
+			}), /* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("button", {
 				type: "button",
 				disabled: !!state.pending || state.composing || state.editorMenuActive || state.richBusy,
 				onClick: () => controller.resolveAbsent(),
 				children: "미저장 확인 후 다시 작성"
 			})] }),
-			showList && state.listAbsent && !state.store && /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("p", { children: "저장된 일지가 없습니다. 저장할 때 보관소를 준비합니다." }),
-			showList && state.store && /* @__PURE__ */ (0, import_jsx_runtime$57.jsxs)("section", {
+			showList && state.listAbsent && !state.store && /* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("p", { children: "저장된 일지가 없습니다. 저장할 때 보관소를 준비합니다." }),
+			showList && state.store && /* @__PURE__ */ (0, import_jsx_runtime$55.jsxs)("section", {
 				className: "manual-note-list",
 				"aria-label": "연결된 일지 목록",
-				children: [/* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("button", {
+				children: [/* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("button", {
 					type: "button",
 					onClick: () => setShowList(false),
 					children: "목록 닫기"
-				}), notes.length === 0 ? /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("p", { children: "이 거래에 연결된 일지가 없습니다." }) : /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("ul", { children: notes.map((n) => /* @__PURE__ */ (0, import_jsx_runtime$57.jsxs)("li", { children: [/* @__PURE__ */ (0, import_jsx_runtime$57.jsxs)("button", {
+				}), notes.length === 0 ? /* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("p", { children: "이 거래에 연결된 일지가 없습니다." }) : /* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("ul", { children: notes.map((n) => /* @__PURE__ */ (0, import_jsx_runtime$55.jsxs)("li", { children: [/* @__PURE__ */ (0, import_jsx_runtime$55.jsxs)("button", {
 					type: "button",
 					disabled: !!state.pending || state.composing || state.editorMenuActive || state.richBusy,
 					onClick: (event) => {
@@ -8935,25 +8937,25 @@ function TradeLinkedJournalEditor({ controller, registerHostGuard, onTitleChange
 						" ",
 						n.title || "제목 없음"
 					]
-				}), /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("span", { children: n.recordDate.value })] }, n.id)) })]
+				}), /* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("span", { children: n.recordDate.value })] }, n.id)) })]
 			}),
-			state.note && "content" in state.note && !state.dirty && !richEditing ? /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("div", {
+			state.note && "content" in state.note && !state.dirty && !richEditing ? /* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("div", {
 				className: "manual-editor-content",
-				children: /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)(RichNoteView, {
+				children: /* @__PURE__ */ (0, import_jsx_runtime$55.jsx)(RichNoteView, {
 					note: state.note,
 					active: true
 				})
-			}) : /* @__PURE__ */ (0, import_jsx_runtime$57.jsxs)("div", {
+			}) : /* @__PURE__ */ (0, import_jsx_runtime$55.jsxs)("div", {
 				className: "manual-editor-content",
 				children: [
-					/* @__PURE__ */ (0, import_jsx_runtime$57.jsxs)("div", {
+					/* @__PURE__ */ (0, import_jsx_runtime$55.jsxs)("div", {
 						className: "manual-draft-fields",
-						children: [/* @__PURE__ */ (0, import_jsx_runtime$57.jsxs)("div", { children: [
-							/* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("label", {
+						children: [/* @__PURE__ */ (0, import_jsx_runtime$55.jsxs)("div", { children: [
+							/* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("label", {
 								htmlFor: `${id}-title`,
 								children: "제목"
 							}),
-							/* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("input", {
+							/* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("input", {
 								ref: title,
 								id: `${id}-title`,
 								value: state.draft.title,
@@ -8963,17 +8965,17 @@ function TradeLinkedJournalEditor({ controller, registerHostGuard, onTitleChange
 								"aria-invalid": !!errors.title,
 								"aria-describedby": errors.title ? `${id}-title-error` : void 0
 							}),
-							errors.title && /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("p", {
+							errors.title && /* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("p", {
 								id: `${id}-title-error`,
 								role: "alert",
 								children: errors.title
 							})
-						] }), /* @__PURE__ */ (0, import_jsx_runtime$57.jsxs)("div", { children: [
-							/* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("label", {
+						] }), /* @__PURE__ */ (0, import_jsx_runtime$55.jsxs)("div", { children: [
+							/* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("label", {
 								htmlFor: `${id}-date`,
 								children: "기록 날짜"
 							}),
-							/* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("input", {
+							/* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("input", {
 								id: `${id}-date`,
 								value: state.draft.recordDate,
 								readOnly: !!state.pending,
@@ -8986,25 +8988,25 @@ function TradeLinkedJournalEditor({ controller, registerHostGuard, onTitleChange
 								"aria-invalid": !!errors.recordDate,
 								"aria-describedby": errors.recordDate ? `${id}-date-error` : void 0
 							}),
-							errors.recordDate && /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("p", {
+							errors.recordDate && /* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("p", {
 								id: `${id}-date-error`,
 								role: "alert",
 								children: errors.recordDate
 							}),
-							/* @__PURE__ */ (0, import_jsx_runtime$57.jsx)(JournalSavedTime, { updatedAt: state.note?.updatedAt })
+							/* @__PURE__ */ (0, import_jsx_runtime$55.jsx)(JournalSavedTime, { updatedAt: state.note?.updatedAt })
 						] })]
 					}),
-					/* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("label", {
+					/* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("label", {
 						htmlFor: `${id}-body`,
 						children: "본문"
 					}),
-					state.content ? /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)(RichImageEditor, {
+					state.content ? /* @__PURE__ */ (0, import_jsx_runtime$55.jsx)(RichImageEditor, {
 						value: state.content,
 						onChange: controller.editRich,
 						readOnly: !!state.pending || state.needsRead,
 						onBusyChange: controller.setRichBusy,
 						onMenuIntentChange: controller.setEditorMenu
-					}, state.editorEpoch) : /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)(BlockEditor, {
+					}, state.editorEpoch) : /* @__PURE__ */ (0, import_jsx_runtime$55.jsx)(BlockEditor, {
 						onAddImages: () => {
 							(0, import_react_dom$4.flushSync)(() => {
 								controller.beginRichDraft();
@@ -9019,14 +9021,14 @@ function TradeLinkedJournalEditor({ controller, registerHostGuard, onTitleChange
 						invalid: !!errors.body,
 						describedBy: errors.body ? `${id}-body-error` : void 0
 					}, state.editorEpoch),
-					!state.content && errors.body && /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)("p", {
+					!state.content && errors.body && /* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("p", {
 						id: `${id}-body-error`,
 						role: "alert",
 						children: errors.body
 					})
 				]
 			}),
-			state.review && /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)(SavedCopyReview, {
+			state.review && /* @__PURE__ */ (0, import_jsx_runtime$55.jsx)(SavedCopyReview, {
 				review: state.review,
 				onCancel: () => {
 					controller.dismissReview();
@@ -9039,7 +9041,7 @@ function TradeLinkedJournalEditor({ controller, registerHostGuard, onTitleChange
 					}
 				}
 			}),
-			leave.prompt && /* @__PURE__ */ (0, import_jsx_runtime$57.jsx)(JournalLeaveDialog, {
+			leave.prompt && /* @__PURE__ */ (0, import_jsx_runtime$55.jsx)(JournalLeaveDialog, {
 				prompt: leave.prompt,
 				onCancel: leave.cancel,
 				onApprove: leave.approve,
@@ -9052,10 +9054,10 @@ function TradeLinkedJournalEditor({ controller, registerHostGuard, onTitleChange
 		]
 	});
 }
-var import_react$44, import_react_dom$4, import_jsx_runtime$57;
+var import_react$42, import_react_dom$4, import_jsx_runtime$55;
 function init_TradeLinkedJournalEditor() {
 	return (init_TradeLinkedJournalEditor = __esmMin((() => {
-		import_react$44 = require_react();
+		import_react$42 = require_react();
 		init_linkedJournal();
 		import_react_dom$4 = require_react_dom();
 		init_RichImageEditor();
@@ -9072,7 +9074,7 @@ function init_TradeLinkedJournalEditor() {
 		init_TemporaryJournalStatus();
 		init_HistoricalTradeDetails();
 		init_BlockEditor();
-		import_jsx_runtime$57 = require_jsx_runtime();
+		import_jsx_runtime$55 = require_jsx_runtime();
 	})))();
 }
 /** A UI observation only: not an epoch, lease, token or backend permission proof. */
@@ -9106,77 +9108,77 @@ function init_tradeReviewEntry() {
 	})))();
 }
 function PortfolioChart({ visible, demo, hidden, connected = false }) {
-	if (hidden) return /* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("div", {
+	if (hidden) return /* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("div", {
 		className: "empty-chart",
-		children: /* @__PURE__ */ (0, import_jsx_runtime$56.jsxs)("div", { children: [
-			/* @__PURE__ */ (0, import_jsx_runtime$56.jsx)(AppIcon, {
+		children: /* @__PURE__ */ (0, import_jsx_runtime$54.jsxs)("div", { children: [
+			/* @__PURE__ */ (0, import_jsx_runtime$54.jsx)(AppIcon, {
 				icon: EyeOff,
 				size: 24
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("strong", { children: "금액 숨김 모드" }),
-			/* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("span", { children: "자산평가액 추이와 금액 축을 가렸습니다." })
+			/* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("strong", { children: "금액 숨김 모드" }),
+			/* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("span", { children: "자산평가액 추이와 금액 축을 가렸습니다." })
 		] })
 	});
-	if (!visible) return /* @__PURE__ */ (0, import_jsx_runtime$56.jsxs)("div", {
+	if (!visible) return /* @__PURE__ */ (0, import_jsx_runtime$54.jsxs)("div", {
 		className: "empty-chart",
-		children: [/* @__PURE__ */ (0, import_jsx_runtime$56.jsxs)("div", {
+		children: [/* @__PURE__ */ (0, import_jsx_runtime$54.jsxs)("div", {
 			className: "grid-lines",
 			children: [
-				/* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("i", {}),
-				/* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("i", {}),
-				/* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("i", {})
+				/* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("i", {}),
+				/* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("i", {}),
+				/* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("i", {})
 			]
-		}), /* @__PURE__ */ (0, import_jsx_runtime$56.jsxs)("div", { children: [
-			/* @__PURE__ */ (0, import_jsx_runtime$56.jsx)(AppIcon, {
+		}), /* @__PURE__ */ (0, import_jsx_runtime$54.jsxs)("div", { children: [
+			/* @__PURE__ */ (0, import_jsx_runtime$54.jsx)(AppIcon, {
 				icon: ChartColumn,
 				size: 24
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("strong", { children: demo ? "이 조건의 추이 기록이 없습니다" : connected ? "실제 자산 이력 저장은 꺼져 있습니다" : "자산 이력 저장은 꺼져 있습니다" }),
-			/* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("span", { children: demo ? "전체 계좌 · KRW · 정상 조회에서 합성 추이를 확인하세요." : connected ? "현재 조회는 메모리에만 유지합니다. 암호화 이력이 준비되기 전 기록하지 않습니다." : "현재 조회값만 표시합니다. 과거 이력은 기록하지 않습니다." })
+			/* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("strong", { children: demo ? "이 조건의 추이 기록이 없습니다" : connected ? "실제 자산 이력 저장은 꺼져 있습니다" : "자산 이력 저장은 꺼져 있습니다" }),
+			/* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("span", { children: demo ? "전체 계좌 · KRW · 정상 조회에서 합성 추이를 확인하세요." : connected ? "현재 조회는 메모리에만 유지합니다. 암호화 이력이 준비되기 전 기록하지 않습니다." : "현재 조회값만 표시합니다. 과거 이력은 기록하지 않습니다." })
 		] })]
 	});
-	return /* @__PURE__ */ (0, import_jsx_runtime$56.jsxs)("div", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$54.jsxs)("div", {
 		className: "portfolio-chart",
 		children: [
-			/* @__PURE__ */ (0, import_jsx_runtime$56.jsxs)("div", {
+			/* @__PURE__ */ (0, import_jsx_runtime$54.jsxs)("div", {
 				className: "chart-axis",
 				children: [
-					/* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("span", { children: "5,000만" }),
-					/* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("span", { children: "4,000만" }),
-					/* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("span", { children: "3,000만" })
+					/* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("span", { children: "5,000만" }),
+					/* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("span", { children: "4,000만" }),
+					/* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("span", { children: "3,000만" })
 				]
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$56.jsxs)("svg", {
+			/* @__PURE__ */ (0, import_jsx_runtime$54.jsxs)("svg", {
 				viewBox: "0 0 660 180",
 				role: "img",
 				"aria-label": "합성 자산평가액 추이. 투자수익률이 아닙니다.",
 				preserveAspectRatio: "none",
 				children: [
-					/* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("defs", { children: /* @__PURE__ */ (0, import_jsx_runtime$56.jsxs)("linearGradient", {
+					/* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("defs", { children: /* @__PURE__ */ (0, import_jsx_runtime$54.jsxs)("linearGradient", {
 						id: "chart-fill",
 						x1: "0",
 						y1: "0",
 						x2: "0",
 						y2: "1",
-						children: [/* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("stop", {
+						children: [/* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("stop", {
 							offset: "0%",
 							stopColor: "#2bbf4a",
 							stopOpacity: ".16"
-						}), /* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("stop", {
+						}), /* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("stop", {
 							offset: "100%",
 							stopColor: "#2bbf4a",
 							stopOpacity: "0"
 						})]
 					}) }),
-					/* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("path", {
+					/* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("path", {
 						className: "chart-grid",
 						d: "M0 15H660M0 83H660M0 151H660"
 					}),
-					/* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("path", {
+					/* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("path", {
 						d: "M0 147L24 143L49 149L75 128L100 131L125 119L150 125L176 99L201 106L226 110L251 85L277 89L302 65L327 72L352 62L377 75L402 58L427 65L453 43L478 50L503 35L528 44L554 28L579 33L604 16L630 23L660 19V180H0Z",
 						fill: "url(#chart-fill)"
 					}),
-					/* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("path", {
+					/* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("path", {
 						d: "M0 147L24 143L49 149L75 128L100 131L125 119L150 125L176 99L201 106L226 110L251 85L277 89L302 65L327 72L352 62L377 75L402 58L427 65L453 43L478 50L503 35L528 44L554 28L579 33L604 16L630 23L660 19",
 						fill: "none",
 						stroke: "#2bbf4a",
@@ -9185,25 +9187,25 @@ function PortfolioChart({ visible, demo, hidden, connected = false }) {
 					})
 				]
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$56.jsxs)("div", {
+			/* @__PURE__ */ (0, import_jsx_runtime$54.jsxs)("div", {
 				className: "chart-dates",
 				children: [
-					/* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("span", { children: "09. 21" }),
-					/* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("span", { children: "09. 28" }),
-					/* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("span", { children: "10. 05" }),
-					/* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("span", { children: "10. 12" }),
-					/* @__PURE__ */ (0, import_jsx_runtime$56.jsx)("span", { children: "10. 20" })
+					/* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("span", { children: "09. 21" }),
+					/* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("span", { children: "09. 28" }),
+					/* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("span", { children: "10. 05" }),
+					/* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("span", { children: "10. 12" }),
+					/* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("span", { children: "10. 20" })
 				]
 			})
 		]
 	});
 }
-var import_jsx_runtime$56;
+var import_jsx_runtime$54;
 function init_PortfolioChart() {
 	return (init_PortfolioChart = __esmMin((() => {
 		init_chart_column(), init_eye_off();
 		init_AppIcon();
-		import_jsx_runtime$56 = require_jsx_runtime();
+		import_jsx_runtime$54 = require_jsx_runtime();
 	})))();
 }
 function init_holdings_responsive() {
@@ -9211,7 +9213,7 @@ function init_holdings_responsive() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/components/portfolio/holdings-responsive.css?v=source-build-r99";
+			l.href = "/local/app/css-source/src/components/portfolio/holdings-responsive.css?v=source-build-r102";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -9263,15 +9265,15 @@ function init_holding_details() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/components/portfolio/holding-details.css?v=source-build-r99";
+			l.href = "/local/app/css-source/src/components/portfolio/holding-details.css?v=source-build-r102";
 			document.head.appendChild(l);
 		}
 	})))();
 }
 function HoldingDetails({ position, accountLabel, privacy, onClose, renderInstrument }) {
-	const id = (0, import_react$43.useId)();
-	const dialog = (0, import_react$43.useRef)(null);
-	(0, import_react$43.useLayoutEffect)(() => {
+	const id = (0, import_react$41.useId)();
+	const dialog = (0, import_react$41.useRef)(null);
+	(0, import_react$41.useLayoutEffect)(() => {
 		const root = dialog.current;
 		if (!root) return;
 		const doc = root.ownerDocument;
@@ -9324,28 +9326,28 @@ function HoldingDetails({ position, accountLabel, privacy, onClose, renderInstru
 		현재가: "holding-price holding-current",
 		수량: "holding-size"
 	};
-	const holding = /* @__PURE__ */ (0, import_jsx_runtime$55.jsxs)(import_jsx_runtime$55.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("dl", { children: values.map(([label, value]) => /* @__PURE__ */ (0, import_jsx_runtime$55.jsxs)("div", {
+	const holding = /* @__PURE__ */ (0, import_jsx_runtime$53.jsxs)(import_jsx_runtime$53.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$53.jsx)("dl", { children: values.map(([label, value]) => /* @__PURE__ */ (0, import_jsx_runtime$53.jsxs)("div", {
 		className: fieldClasses[label] ?? "holding-metadata",
-		children: [/* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("dt", { children: label }), /* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("dd", { children: value })]
-	}, label)) }), /* @__PURE__ */ (0, import_jsx_runtime$55.jsxs)("details", {
+		children: [/* @__PURE__ */ (0, import_jsx_runtime$53.jsx)("dt", { children: label }), /* @__PURE__ */ (0, import_jsx_runtime$53.jsx)("dd", { children: value })]
+	}, label)) }), /* @__PURE__ */ (0, import_jsx_runtime$53.jsxs)("details", {
 		className: "holding-additional",
-		children: [/* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("summary", { children: "추가 정보" }), /* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("dl", { children: metadata.map(([label, value]) => /* @__PURE__ */ (0, import_jsx_runtime$55.jsxs)("div", {
+		children: [/* @__PURE__ */ (0, import_jsx_runtime$53.jsx)("summary", { children: "추가 정보" }), /* @__PURE__ */ (0, import_jsx_runtime$53.jsx)("dl", { children: metadata.map(([label, value]) => /* @__PURE__ */ (0, import_jsx_runtime$53.jsxs)("div", {
 			className: "holding-metadata",
-			children: [/* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("dt", { children: label }), /* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("dd", { children: value })]
+			children: [/* @__PURE__ */ (0, import_jsx_runtime$53.jsx)("dt", { children: label }), /* @__PURE__ */ (0, import_jsx_runtime$53.jsx)("dd", { children: value })]
 		}, label)) })]
 	})] });
-	return /* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("div", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$53.jsx)("div", {
 		className: "holding-details-backdrop",
-		children: /* @__PURE__ */ (0, import_jsx_runtime$55.jsxs)("section", {
+		children: /* @__PURE__ */ (0, import_jsx_runtime$53.jsxs)("section", {
 			ref: dialog,
 			className: `holding-details${renderInstrument ? " company-instrument-details" : ""}`,
 			role: "dialog",
 			"aria-modal": "true",
 			"aria-labelledby": id,
-			children: [/* @__PURE__ */ (0, import_jsx_runtime$55.jsxs)("header", { children: [/* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("h2", {
+			children: [/* @__PURE__ */ (0, import_jsx_runtime$53.jsxs)("header", { children: [/* @__PURE__ */ (0, import_jsx_runtime$53.jsx)("h2", {
 				id,
 				children: renderInstrument ? "종목 상세" : "내 보유"
-			}), /* @__PURE__ */ (0, import_jsx_runtime$55.jsx)("button", {
+			}), /* @__PURE__ */ (0, import_jsx_runtime$53.jsx)("button", {
 				type: "button",
 				onClick: onClose,
 				children: "닫기"
@@ -9353,25 +9355,25 @@ function HoldingDetails({ position, accountLabel, privacy, onClose, renderInstru
 		})
 	});
 }
-var import_react$43, import_jsx_runtime$55;
+var import_react$41, import_jsx_runtime$53;
 function init_HoldingDetails() {
 	return (init_HoldingDetails = __esmMin((() => {
-		import_react$43 = require_react();
+		import_react$41 = require_react();
 		init_holding_details();
-		import_jsx_runtime$55 = require_jsx_runtime();
+		import_jsx_runtime$53 = require_jsx_runtime();
 	})))();
 }
 function HoldingsTable({ positions, demo, privacy, compact = false, accountLabels = {}, countLabel, renderInstrument }) {
-	const [sort, setSort] = (0, import_react$42.useState)("value");
-	const [selection, setSelection] = (0, import_react$42.useState)(null);
-	const region = (0, import_react$42.useRef)(null);
-	const committedSelection = (0, import_react$42.useRef)(null);
-	const closeDetails = (0, import_react$42.useCallback)(() => setSelection(null), []);
+	const [sort, setSort] = (0, import_react$40.useState)("value");
+	const [selection, setSelection] = (0, import_react$40.useState)(null);
+	const region = (0, import_react$40.useRef)(null);
+	const committedSelection = (0, import_react$40.useRef)(null);
+	const closeDetails = (0, import_react$40.useCallback)(() => setSelection(null), []);
 	const accounts = JSON.stringify(accountLabels);
 	const selectionCurrent = selection?.positions === positions && selection.accounts === accounts && selection.demo === demo;
 	const selected = selectionCurrent ? selection.position : null;
 	if (selection && !selectionCurrent) setSelection(null);
-	(0, import_react$42.useLayoutEffect)(() => {
+	(0, import_react$40.useLayoutEffect)(() => {
 		const previous = committedSelection.current;
 		committedSelection.current = selectionCurrent ? selection : null;
 		if (selected || !previous) return;
@@ -9387,73 +9389,73 @@ function HoldingsTable({ positions, demo, privacy, compact = false, accountLabel
 	const sortScope = mixedCurrencies ? "통화별 " : "";
 	const sorted = [...positions].sort((a, b) => a.currency !== b.currency ? a.currency.localeCompare(b.currency) : sort === "name" ? a.name.localeCompare(b.name, "ko") : a.marketValue == null ? b.marketValue == null ? 0 : 1 : b.marketValue == null ? -1 : compareDecimalStrings(b.marketValue.amount, a.marketValue.amount));
 	const money = (value, signed = false) => privacy && value ? "••••••" : formatMoney(value, signed, positions.some((p) => "originalCurrency" in p) ? value?.currency === "KRW" ? 0 : 2 : void 0);
-	return /* @__PURE__ */ (0, import_jsx_runtime$54.jsxs)(import_jsx_runtime$54.Fragment, { children: [
-		countLabel && /* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("p", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$52.jsxs)(import_jsx_runtime$52.Fragment, { children: [
+		countLabel && /* @__PURE__ */ (0, import_jsx_runtime$52.jsx)("p", {
 			className: "table-count",
 			children: countLabel
 		}),
-		/* @__PURE__ */ (0, import_jsx_runtime$54.jsxs)("div", {
+		/* @__PURE__ */ (0, import_jsx_runtime$52.jsxs)("div", {
 			ref: region,
 			className: "table-scroll holdings-responsive",
 			role: "region",
 			"aria-label": "보유종목 표",
 			tabIndex: 0,
-			children: [/* @__PURE__ */ (0, import_jsx_runtime$54.jsxs)("table", {
+			children: [/* @__PURE__ */ (0, import_jsx_runtime$52.jsxs)("table", {
 				role: "table",
 				className: compact ? "holdings-compact" : void 0,
-				children: [/* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("thead", {
+				children: [/* @__PURE__ */ (0, import_jsx_runtime$52.jsx)("thead", {
 					role: "rowgroup",
-					children: /* @__PURE__ */ (0, import_jsx_runtime$54.jsxs)("tr", {
+					children: /* @__PURE__ */ (0, import_jsx_runtime$52.jsxs)("tr", {
 						role: "row",
 						children: [
-							/* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("th", {
+							/* @__PURE__ */ (0, import_jsx_runtime$52.jsx)("th", {
 								"aria-sort": sort === "name" ? mixedCurrencies ? "other" : "ascending" : void 0,
-								children: /* @__PURE__ */ (0, import_jsx_runtime$54.jsxs)("button", {
+								children: /* @__PURE__ */ (0, import_jsx_runtime$52.jsxs)("button", {
 									type: "button",
 									className: "table-sort",
 									"aria-label": `${sortScope}종목명 순으로 정렬`,
 									"aria-pressed": sort === "name",
 									onClick: () => setSort("name"),
-									children: ["종목 ", /* @__PURE__ */ (0, import_jsx_runtime$54.jsx)(AppIcon, {
+									children: ["종목 ", /* @__PURE__ */ (0, import_jsx_runtime$52.jsx)(AppIcon, {
 										icon: ArrowDownAZ,
 										size: 13
 									})]
 								})
 							}),
-							!compact && /* @__PURE__ */ (0, import_jsx_runtime$54.jsxs)(import_jsx_runtime$54.Fragment, { children: [
-								/* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("th", { children: "수량" }),
-								/* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("th", { children: "평균매입가" }),
-								/* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("th", { children: "현재가" })
+							!compact && /* @__PURE__ */ (0, import_jsx_runtime$52.jsxs)(import_jsx_runtime$52.Fragment, { children: [
+								/* @__PURE__ */ (0, import_jsx_runtime$52.jsx)("th", { children: "수량" }),
+								/* @__PURE__ */ (0, import_jsx_runtime$52.jsx)("th", { children: "평균매입가" }),
+								/* @__PURE__ */ (0, import_jsx_runtime$52.jsx)("th", { children: "현재가" })
 							] }),
-							/* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("th", {
+							/* @__PURE__ */ (0, import_jsx_runtime$52.jsx)("th", {
 								"aria-sort": sort === "value" ? mixedCurrencies ? "other" : "descending" : void 0,
-								children: /* @__PURE__ */ (0, import_jsx_runtime$54.jsxs)("button", {
+								children: /* @__PURE__ */ (0, import_jsx_runtime$52.jsxs)("button", {
 									type: "button",
 									className: "table-sort",
 									"aria-label": `${sortScope}평가액 높은 순으로 정렬`,
 									"aria-pressed": sort === "value",
 									onClick: () => setSort("value"),
-									children: ["평가액 ", /* @__PURE__ */ (0, import_jsx_runtime$54.jsx)(AppIcon, {
+									children: ["평가액 ", /* @__PURE__ */ (0, import_jsx_runtime$52.jsx)(AppIcon, {
 										icon: ArrowDownWideNarrow,
 										size: 13
 									})]
 								})
 							}),
-							/* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("th", { children: "평가손익" })
+							/* @__PURE__ */ (0, import_jsx_runtime$52.jsx)("th", { children: "평가손익" })
 						]
 					})
-				}), /* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("tbody", {
+				}), /* @__PURE__ */ (0, import_jsx_runtime$52.jsx)("tbody", {
 					role: "rowgroup",
-					children: sorted.map((position) => /* @__PURE__ */ (0, import_jsx_runtime$54.jsxs)("tr", {
+					children: sorted.map((position) => /* @__PURE__ */ (0, import_jsx_runtime$52.jsxs)("tr", {
 						role: "row",
 						children: [
-							/* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("td", {
+							/* @__PURE__ */ (0, import_jsx_runtime$52.jsx)("td", {
 								className: "holding-identity",
 								role: "cell",
-								children: /* @__PURE__ */ (0, import_jsx_runtime$54.jsxs)("div", {
+								children: /* @__PURE__ */ (0, import_jsx_runtime$52.jsxs)("div", {
 									className: "instrument",
-									children: [/* @__PURE__ */ (0, import_jsx_runtime$54.jsx)(StockLogo, { position }), /* @__PURE__ */ (0, import_jsx_runtime$54.jsxs)("div", { children: [
-										/* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("button", {
+									children: [/* @__PURE__ */ (0, import_jsx_runtime$52.jsx)(StockLogo, { position }), /* @__PURE__ */ (0, import_jsx_runtime$52.jsxs)("div", { children: [
+										/* @__PURE__ */ (0, import_jsx_runtime$52.jsx)("button", {
 											type: "button",
 											className: "holding-detail-trigger",
 											"aria-haspopup": "dialog",
@@ -9467,46 +9469,46 @@ function HoldingsTable({ positions, demo, privacy, compact = false, accountLabel
 													trigger: event.currentTarget
 												});
 											},
-											children: /* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("strong", { children: position.name })
+											children: /* @__PURE__ */ (0, import_jsx_runtime$52.jsx)("strong", { children: position.name })
 										}),
-										/* @__PURE__ */ (0, import_jsx_runtime$54.jsxs)("span", {
+										/* @__PURE__ */ (0, import_jsx_runtime$52.jsxs)("span", {
 											className: "holding-inline-quantity",
 											children: [formatDecimal(position.quantity), "주"]
 										}),
-										duplicateInstrument(position) && /* @__PURE__ */ (0, import_jsx_runtime$54.jsxs)("span", {
+										duplicateInstrument(position) && /* @__PURE__ */ (0, import_jsx_runtime$52.jsxs)("span", {
 											className: "holding-account",
 											children: ["계좌 ", accountOrder.indexOf(position.accountId) + 1]
 										})
 									] })]
 								})
 							}),
-							!compact && /* @__PURE__ */ (0, import_jsx_runtime$54.jsxs)(import_jsx_runtime$54.Fragment, { children: [
-								/* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("td", {
+							!compact && /* @__PURE__ */ (0, import_jsx_runtime$52.jsxs)(import_jsx_runtime$52.Fragment, { children: [
+								/* @__PURE__ */ (0, import_jsx_runtime$52.jsx)("td", {
 									role: "cell",
 									className: "holding-quantity",
 									"data-label": "수량",
 									children: formatDecimal(position.quantity)
 								}),
-								/* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("td", {
+								/* @__PURE__ */ (0, import_jsx_runtime$52.jsx)("td", {
 									role: "cell",
 									className: "holding-average",
 									"data-label": "평균매입가",
 									children: money(position.avgCost)
 								}),
-								/* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("td", {
+								/* @__PURE__ */ (0, import_jsx_runtime$52.jsx)("td", {
 									role: "cell",
 									className: "holding-current",
 									"data-label": "현재가",
 									children: money(position.currentPrice)
 								})
 							] }),
-							/* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("td", {
+							/* @__PURE__ */ (0, import_jsx_runtime$52.jsx)("td", {
 								role: "cell",
 								className: "holding-value",
 								"data-label": "평가액",
 								children: money(position.marketValue)
 							}),
-							/* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("td", {
+							/* @__PURE__ */ (0, import_jsx_runtime$52.jsx)("td", {
 								role: "cell",
 								"data-label": "평가손익",
 								className: !position.unrealizedPnl || compareDecimalStrings(position.unrealizedPnl.amount, "0") === 0 ? void 0 : position.unrealizedPnl.amount.startsWith("-") ? "loss" : "gain",
@@ -9515,19 +9517,19 @@ function HoldingsTable({ positions, demo, privacy, compact = false, accountLabel
 						]
 					}, `${position.accountId}:${position.instrumentId}:${position.market}:${position.currency}`))
 				})]
-			}), sorted.length === 0 && /* @__PURE__ */ (0, import_jsx_runtime$54.jsxs)("div", {
+			}), sorted.length === 0 && /* @__PURE__ */ (0, import_jsx_runtime$52.jsxs)("div", {
 				className: "empty-table",
 				children: [
-					/* @__PURE__ */ (0, import_jsx_runtime$54.jsx)(AppIcon, {
+					/* @__PURE__ */ (0, import_jsx_runtime$52.jsx)(AppIcon, {
 						icon: Wallet,
 						size: 23
 					}),
-					/* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("strong", { children: demo ? "표시할 보유종목이 없습니다" : "표시할 조회 종목이 없습니다" }),
-					/* @__PURE__ */ (0, import_jsx_runtime$54.jsx)("span", { children: demo ? "계좌·통화·조회 상태를 확인하세요. 실패는 빈 계좌와 구분됩니다." : "계좌·통화·조회 상태를 확인하세요. 실패를 빈 계좌로 판단하지 않습니다." })
+					/* @__PURE__ */ (0, import_jsx_runtime$52.jsx)("strong", { children: demo ? "표시할 보유종목이 없습니다" : "표시할 조회 종목이 없습니다" }),
+					/* @__PURE__ */ (0, import_jsx_runtime$52.jsx)("span", { children: demo ? "계좌·통화·조회 상태를 확인하세요. 실패는 빈 계좌와 구분됩니다." : "계좌·통화·조회 상태를 확인하세요. 실패를 빈 계좌로 판단하지 않습니다." })
 				]
 			})]
 		}),
-		selected && /* @__PURE__ */ (0, import_jsx_runtime$54.jsx)(HoldingDetails, {
+		selected && /* @__PURE__ */ (0, import_jsx_runtime$52.jsx)(HoldingDetails, {
 			renderInstrument,
 			privacy,
 			position: selected,
@@ -9536,17 +9538,17 @@ function HoldingsTable({ positions, demo, privacy, compact = false, accountLabel
 		})
 	] });
 }
-var import_react$42, import_jsx_runtime$54;
+var import_react$40, import_jsx_runtime$52;
 function init_HoldingsTable() {
 	return (init_HoldingsTable = __esmMin((() => {
-		import_react$42 = require_react();
+		import_react$40 = require_react();
 		init_holdings_responsive();
 		init_StockLogo();
 		init_HoldingDetails();
 		init_AppIcon();
 		init_wallet(), init_arrow_down_wide_narrow(), init_arrow_down_a_z();
 		init_portfolio();
-		import_jsx_runtime$54 = require_jsx_runtime();
+		import_jsx_runtime$52 = require_jsx_runtime();
 	})))();
 }
 function init_asset_headline() {
@@ -9554,7 +9556,7 @@ function init_asset_headline() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/components/portfolio/asset-headline.css?v=source-build-r99";
+			l.href = "/local/app/css-source/src/components/portfolio/asset-headline.css?v=source-build-r102";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -9563,24 +9565,24 @@ function init_asset_headline() {
 function AssetHeadline({ totalLabel, totalValue, totalTestId, pnlLabel, pnlValue, pnlTestId, pnlDirection, pnlRate }) {
 	const validRate = pnlRate && /^-?(?:0|[1-9]\d*)(?:\.\d+)?$/.test(pnlRate.percentage) ? pnlRate : void 0;
 	const signedRate = validRate && !validRate.percentage.startsWith("-") && !/^0(?:\.0+)?$/.test(validRate.percentage) ? `+${validRate.percentage}` : validRate?.percentage;
-	return /* @__PURE__ */ (0, import_jsx_runtime$53.jsxs)("div", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$51.jsxs)("div", {
 		className: "asset-headline",
-		children: [/* @__PURE__ */ (0, import_jsx_runtime$53.jsxs)("div", {
+		children: [/* @__PURE__ */ (0, import_jsx_runtime$51.jsxs)("div", {
 			className: "asset-headline-total",
-			children: [/* @__PURE__ */ (0, import_jsx_runtime$53.jsx)("div", {
+			children: [/* @__PURE__ */ (0, import_jsx_runtime$51.jsx)("div", {
 				className: "total-label",
 				children: totalLabel
-			}), /* @__PURE__ */ (0, import_jsx_runtime$53.jsx)("div", {
+			}), /* @__PURE__ */ (0, import_jsx_runtime$51.jsx)("div", {
 				className: "total-value",
 				"data-testid": totalTestId,
 				children: totalValue
 			})]
-		}), /* @__PURE__ */ (0, import_jsx_runtime$53.jsxs)("div", {
+		}), /* @__PURE__ */ (0, import_jsx_runtime$51.jsxs)("div", {
 			className: "asset-headline-pnl",
-			children: [/* @__PURE__ */ (0, import_jsx_runtime$53.jsx)("span", { children: pnlLabel }), /* @__PURE__ */ (0, import_jsx_runtime$53.jsxs)("strong", {
+			children: [/* @__PURE__ */ (0, import_jsx_runtime$51.jsx)("span", { children: pnlLabel }), /* @__PURE__ */ (0, import_jsx_runtime$51.jsxs)("strong", {
 				className: pnlDirection,
 				"data-testid": pnlTestId,
-				children: [pnlValue, validRate && /* @__PURE__ */ (0, import_jsx_runtime$53.jsxs)("span", {
+				children: [pnlValue, validRate && /* @__PURE__ */ (0, import_jsx_runtime$51.jsxs)("span", {
 					className: "asset-headline-rate",
 					tabIndex: 0,
 					title: validRate.description,
@@ -9595,30 +9597,30 @@ function AssetHeadline({ totalLabel, totalValue, totalTestId, pnlLabel, pnlValue
 		})]
 	});
 }
-var import_jsx_runtime$53;
+var import_jsx_runtime$51;
 function init_AssetHeadline() {
 	return (init_AssetHeadline = __esmMin((() => {
 		init_asset_headline();
-		import_jsx_runtime$53 = require_jsx_runtime();
+		import_jsx_runtime$51 = require_jsx_runtime();
 	})))();
 }
 /** Original settled cash, after account selection but before any display FX conversion. */
 function CashBreakdown({ snapshot, hidden }) {
 	const totals = summarizePortfolio(snapshot).totalsByCurrency;
-	return /* @__PURE__ */ (0, import_jsx_runtime$52.jsx)("div", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("div", {
 		className: "cash-breakdown",
 		"aria-label": "통화별 현금",
-		children: totals.map((total) => /* @__PURE__ */ (0, import_jsx_runtime$52.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime$52.jsx)("span", {
+		children: totals.map((total) => /* @__PURE__ */ (0, import_jsx_runtime$50.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("span", {
 			title: "확인된 결제 완료 현금입니다. 매수가능금액·미결제금액은 제외합니다.",
 			children: total.currency === "KRW" ? "원화 현금" : total.currency === "USD" ? "달러 현금" : `${total.currency} 현금`
-		}), /* @__PURE__ */ (0, import_jsx_runtime$52.jsx)("strong", { children: hidden ? "••••" : formatMoney(total.cash, false, total.currency === "KRW" ? 0 : 2) })] }, total.currency))
+		}), /* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("strong", { children: hidden ? "••••" : formatMoney(total.cash, false, total.currency === "KRW" ? 0 : 2) })] }, total.currency))
 	});
 }
-var import_jsx_runtime$52;
+var import_jsx_runtime$50;
 function init_CashBreakdown() {
 	return (init_CashBreakdown = __esmMin((() => {
 		init_portfolio();
-		import_jsx_runtime$52 = require_jsx_runtime();
+		import_jsx_runtime$50 = require_jsx_runtime();
 	})))();
 }
 /** Fixed-example price return only. Not broker performance, TWR/IRR or realized return. */
@@ -9686,7 +9688,7 @@ function init_legacy_quote_radar() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/components/portfolio/legacy-quote-radar.css?v=source-build-r99";
+			l.href = "/local/app/css-source/src/components/portfolio/legacy-quote-radar.css?v=source-build-r102";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -9710,23 +9712,23 @@ function nextLegacyQuoteIndex(index) {
 }
 function LegacyQuoteView({ index, dayLabel, onNext }) {
 	const safeIndex = Number.isInteger(index) && index >= 0 && index < LEGACY_QUOTES.length ? index : 0;
-	return /* @__PURE__ */ (0, import_jsx_runtime$51.jsxs)("section", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$49.jsxs)("section", {
 		className: "legacy-quote-radar legacy-quote-radar-quote",
 		"aria-label": "오늘의 투자 격언",
 		children: [
-			/* @__PURE__ */ (0, import_jsx_runtime$51.jsxs)("header", { children: [/* @__PURE__ */ (0, import_jsx_runtime$51.jsx)("h3", { children: "오늘의 투자 격언" }), dayLabel && /* @__PURE__ */ (0, import_jsx_runtime$51.jsx)("span", {
+			/* @__PURE__ */ (0, import_jsx_runtime$49.jsxs)("header", { children: [/* @__PURE__ */ (0, import_jsx_runtime$49.jsx)("h3", { children: "오늘의 투자 격언" }), dayLabel && /* @__PURE__ */ (0, import_jsx_runtime$49.jsx)("span", {
 				className: "legacy-quote-radar-meta",
 				children: dayLabel
 			})] }),
-			/* @__PURE__ */ (0, import_jsx_runtime$51.jsx)("p", {
+			/* @__PURE__ */ (0, import_jsx_runtime$49.jsx)("p", {
 				"aria-live": "polite",
 				className: "legacy-quote-radar-text",
 				children: LEGACY_QUOTES[safeIndex]
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$51.jsxs)("footer", { children: [/* @__PURE__ */ (0, import_jsx_runtime$51.jsx)("span", {
+			/* @__PURE__ */ (0, import_jsx_runtime$49.jsxs)("footer", { children: [/* @__PURE__ */ (0, import_jsx_runtime$49.jsx)("span", {
 				className: "legacy-quote-radar-meta",
 				children: "레거시 수록 · 원출처 미확인"
-			}), onNext && /* @__PURE__ */ (0, import_jsx_runtime$51.jsx)("button", {
+			}), onNext && /* @__PURE__ */ (0, import_jsx_runtime$49.jsx)("button", {
 				type: "button",
 				onClick: onNext,
 				children: "다음 문구"
@@ -9735,17 +9737,17 @@ function LegacyQuoteView({ index, dayLabel, onNext }) {
 	});
 }
 function DailyQuoteSelection({ initialIndex, dayLabel }) {
-	const [index, setIndex] = (0, import_react$41.useState)(initialIndex);
-	return /* @__PURE__ */ (0, import_jsx_runtime$51.jsx)(LegacyQuoteView, {
+	const [index, setIndex] = (0, import_react$39.useState)(initialIndex);
+	return /* @__PURE__ */ (0, import_jsx_runtime$49.jsx)(LegacyQuoteView, {
 		index,
 		dayLabel,
 		onNext: () => setIndex(nextLegacyQuoteIndex)
 	});
 }
 function LegacyDailyQuote({ instant, timeZone = "Asia/Seoul", preview = false, previewIndex = 0 }) {
-	if (preview) return /* @__PURE__ */ (0, import_jsx_runtime$51.jsx)(LegacyQuoteView, { index: previewIndex });
+	if (preview) return /* @__PURE__ */ (0, import_jsx_runtime$49.jsx)(LegacyQuoteView, { index: previewIndex });
 	const day = quoteDay(instant, timeZone);
-	return /* @__PURE__ */ (0, import_jsx_runtime$51.jsx)(DailyQuoteSelection, {
+	return /* @__PURE__ */ (0, import_jsx_runtime$49.jsx)(DailyQuoteSelection, {
 		initialIndex: legacyQuoteIndex(instant, timeZone),
 		dayLabel: `${day} ${timeZone === "Asia/Seoul" ? "KST" : "UTC"}`
 	}, `${timeZone}:${day}`);
@@ -9768,32 +9770,32 @@ function LegacyPortfolioRadar({ payload, preview = false } = {}) {
 		const p = point(index, score);
 		return `${p.x},${p.y}`;
 	}).join(" ");
-	return /* @__PURE__ */ (0, import_jsx_runtime$51.jsxs)("section", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$49.jsxs)("section", {
 		className: "legacy-quote-radar",
 		"aria-label": "포트폴리오 레이더",
 		"data-preview": preview || void 0,
 		children: [
-			/* @__PURE__ */ (0, import_jsx_runtime$51.jsxs)("div", {
+			/* @__PURE__ */ (0, import_jsx_runtime$49.jsxs)("div", {
 				className: "widget-metric-heading",
-				children: [/* @__PURE__ */ (0, import_jsx_runtime$51.jsx)("h3", { children: "포트폴리오 레이더" }), /* @__PURE__ */ (0, import_jsx_runtime$51.jsxs)(WidgetMetricHelp, {
+				children: [/* @__PURE__ */ (0, import_jsx_runtime$49.jsx)("h3", { children: "포트폴리오 레이더" }), /* @__PURE__ */ (0, import_jsx_runtime$49.jsxs)(WidgetMetricHelp, {
 					disabled: preview,
 					label: "포트폴리오 레이더",
 					children: [
-						/* @__PURE__ */ (0, import_jsx_runtime$51.jsx)("p", { children: "0–100점 · 레거시 기준의 참고 점수이며 투자 등급·추천이 아닙니다." }),
-						LEGACY_RADAR_AXES.map((axis) => /* @__PURE__ */ (0, import_jsx_runtime$51.jsxs)("p", { children: [
-							/* @__PURE__ */ (0, import_jsx_runtime$51.jsx)("strong", { children: axis.label }),
+						/* @__PURE__ */ (0, import_jsx_runtime$49.jsx)("p", { children: "0–100점 · 레거시 기준의 참고 점수이며 투자 등급·추천이 아닙니다." }),
+						LEGACY_RADAR_AXES.map((axis) => /* @__PURE__ */ (0, import_jsx_runtime$49.jsxs)("p", { children: [
+							/* @__PURE__ */ (0, import_jsx_runtime$49.jsx)("strong", { children: axis.label }),
 							" · ",
 							axis.meaning
 						] }, axis.key)),
-						/* @__PURE__ */ (0, import_jsx_runtime$51.jsx)("p", { children: admitted ? `${payload?.source} · 기준일 ${payload?.asOf}` : "공급 미연결 · 출처·기준일 미확인" })
+						/* @__PURE__ */ (0, import_jsx_runtime$49.jsx)("p", { children: admitted ? `${payload?.source} · 기준일 ${payload?.asOf}` : "공급 미연결 · 출처·기준일 미확인" })
 					]
 				})]
 			}),
-			!complete && /* @__PURE__ */ (0, import_jsx_runtime$51.jsx)("p", {
+			!complete && /* @__PURE__ */ (0, import_jsx_runtime$49.jsx)("p", {
 				className: "legacy-quote-radar-meta",
 				children: !admitted ? "공급 미연결" : "일부 자료 부족"
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$51.jsxs)("svg", {
+			/* @__PURE__ */ (0, import_jsx_runtime$49.jsxs)("svg", {
 				viewBox: "0 0 300 270",
 				role: "img",
 				"aria-label": `포트폴리오 레이더 · ${complete ? "5개 항목 점수" : "자료 부족, 연결 다각형 없음"}`,
@@ -9804,14 +9806,14 @@ function LegacyPortfolioRadar({ payload, preview = false } = {}) {
 						60,
 						80,
 						100
-					].map((level) => /* @__PURE__ */ (0, import_jsx_runtime$51.jsx)("polygon", {
+					].map((level) => /* @__PURE__ */ (0, import_jsx_runtime$49.jsx)("polygon", {
 						points: points(values.map(() => level)),
 						className: "legacy-quote-radar-grid"
 					}, level)),
 					LEGACY_RADAR_AXES.map((axis, index) => {
 						const end = point(index, 100), label = point(index, 128), value = values[index];
-						return /* @__PURE__ */ (0, import_jsx_runtime$51.jsxs)("g", { children: [
-							/* @__PURE__ */ (0, import_jsx_runtime$51.jsx)("line", {
+						return /* @__PURE__ */ (0, import_jsx_runtime$49.jsxs)("g", { children: [
+							/* @__PURE__ */ (0, import_jsx_runtime$49.jsx)("line", {
 								"data-radar-axis": axis.key,
 								x1: "150",
 								y1: "140",
@@ -9819,30 +9821,30 @@ function LegacyPortfolioRadar({ payload, preview = false } = {}) {
 								y2: end.y,
 								className: "legacy-quote-radar-grid"
 							}),
-							/* @__PURE__ */ (0, import_jsx_runtime$51.jsxs)("text", {
+							/* @__PURE__ */ (0, import_jsx_runtime$49.jsxs)("text", {
 								x: label.x,
 								y: label.y,
 								textAnchor: "middle",
-								children: [/* @__PURE__ */ (0, import_jsx_runtime$51.jsx)("tspan", {
+								children: [/* @__PURE__ */ (0, import_jsx_runtime$49.jsx)("tspan", {
 									x: label.x,
 									children: axis.label
-								}), /* @__PURE__ */ (0, import_jsx_runtime$51.jsx)("tspan", {
+								}), /* @__PURE__ */ (0, import_jsx_runtime$49.jsx)("tspan", {
 									"data-radar-score": axis.key,
 									x: label.x,
 									dy: "16",
 									children: value === null ? "—" : `${value}점`
 								})]
 							}),
-							value !== null && /* @__PURE__ */ (0, import_jsx_runtime$51.jsx)("circle", {
+							value !== null && /* @__PURE__ */ (0, import_jsx_runtime$49.jsx)("circle", {
 								"data-radar-value": axis.key,
 								cx: point(index, value).x,
 								cy: point(index, value).y,
 								r: "3",
-								children: /* @__PURE__ */ (0, import_jsx_runtime$51.jsx)("title", { children: `${axis.label} ${value}점` })
+								children: /* @__PURE__ */ (0, import_jsx_runtime$49.jsx)("title", { children: `${axis.label} ${value}점` })
 							})
 						] }, axis.key);
 					}),
-					complete && /* @__PURE__ */ (0, import_jsx_runtime$51.jsx)("polygon", {
+					complete && /* @__PURE__ */ (0, import_jsx_runtime$49.jsx)("polygon", {
 						"data-radar-polygon": "true",
 						points: points(values),
 						className: "legacy-quote-radar-data"
@@ -9852,13 +9854,13 @@ function LegacyPortfolioRadar({ payload, preview = false } = {}) {
 		]
 	});
 }
-var import_react$41, import_jsx_runtime$51, LEGACY_RADAR_AXES, LEGACY_QUOTES;
+var import_react$39, import_jsx_runtime$49, LEGACY_RADAR_AXES, LEGACY_QUOTES;
 function init_legacy_quote_radar$1() {
 	return (init_legacy_quote_radar$1 = __esmMin((() => {
-		import_react$41 = /* @__PURE__ */ __toESM(require_react(), 1);
+		import_react$39 = /* @__PURE__ */ __toESM(require_react(), 1);
 		init_legacy_quote_radar();
 		init_WidgetMetricHelp();
-		import_jsx_runtime$51 = require_jsx_runtime();
+		import_jsx_runtime$49 = require_jsx_runtime();
 		LEGACY_RADAR_AXES = [
 			{
 				key: "return",
@@ -9899,7 +9901,7 @@ function init_legacy_widget_host() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/components/portfolio/legacy-widget-host.css?v=source-build-r99";
+			l.href = "/local/app/css-source/src/components/portfolio/legacy-widget-host.css?v=source-build-r102";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -9964,14 +9966,14 @@ function init_legacy_performance_widgets() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/components/portfolio/legacy-performance-widgets.css?v=source-build-r99";
+			l.href = "/local/app/css-source/src/components/portfolio/legacy-performance-widgets.css?v=source-build-r102";
 			document.head.appendChild(l);
 		}
 	})))();
 }
 function LegacyCorrelationWidget({ series, minimumSamples = 20, preview = false }) {
-	const [selection, setSelection] = (0, import_react$40.useState)(null);
-	const origin = (0, import_react$40.useRef)(null);
+	const [selection, setSelection] = (0, import_react$38.useState)(null);
+	const origin = (0, import_react$38.useRef)(null);
 	const close = () => {
 		setSelection(null);
 		if (origin.current?.isConnected) origin.current.focus();
@@ -9979,11 +9981,11 @@ function LegacyCorrelationWidget({ series, minimumSamples = 20, preview = false 
 	const selected = selection && series?.includes(selection.a) && series.includes(selection.b) ? selection : null;
 	const detail = selected ? correlate$1(selected.a, selected.b, minimumSamples) : null;
 	const invalid = series && (series.length > 10 || new Set(series.map((s) => s.id)).size !== series.length || series.some((s) => !s.id || !s.name || !validPerformance(s)));
-	const [pairIds, setPairIds] = (0, import_react$40.useState)(["", ""]);
+	const [pairIds, setPairIds] = (0, import_react$38.useState)(["", ""]);
 	const pairA = series?.find((s) => s.id === pairIds[0]) ?? series?.[0];
 	const pairB = series?.find((s) => s.id === pairIds[1]) ?? series?.[1];
 	const pairResult = !invalid && pairA && pairB ? correlate$1(pairA, pairB, minimumSamples) : null;
-	return /* @__PURE__ */ (0, import_jsx_runtime$50.jsxs)("section", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$48.jsxs)("section", {
 		className: "legacy-performance",
 		"aria-label": "종목 간 상관계수",
 		onKeyDown: (event) => {
@@ -9993,58 +9995,58 @@ function LegacyCorrelationWidget({ series, minimumSamples = 20, preview = false 
 			}
 		},
 		children: [
-			/* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("header", { children: /* @__PURE__ */ (0, import_jsx_runtime$50.jsxs)("div", {
+			/* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("header", { children: /* @__PURE__ */ (0, import_jsx_runtime$48.jsxs)("div", {
 				className: "widget-metric-heading",
-				children: [/* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("h3", { children: "종목 간 상관계수" }), /* @__PURE__ */ (0, import_jsx_runtime$50.jsxs)(WidgetMetricHelp, {
+				children: [/* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("h3", { children: "종목 간 상관계수" }), /* @__PURE__ */ (0, import_jsx_runtime$48.jsxs)(WidgetMetricHelp, {
 					disabled: preview,
 					label: "종목 간 상관계수",
 					children: [
-						/* @__PURE__ */ (0, import_jsx_runtime$50.jsxs)("p", { children: [
+						/* @__PURE__ */ (0, import_jsx_runtime$48.jsxs)("p", { children: [
 							"일간 수익률의 Pearson 상관계수 · 공통 거래일 ",
 							minimumSamples,
 							"개 이상. −1은 반대 방향, +1은 같은 방향, 0은 선형 상관 없음입니다. —는 0이 아닌 계산 불가입니다."
 						] }),
-						/* @__PURE__ */ (0, import_jsx_runtime$50.jsxs)("p", { children: [[...new Set(series?.map((s) => s.currency))].join(" / "), " 원통화 · 동일 현지 거래일 비교, 동시 시점 아님"] }),
-						/* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("p", { children: "날짜를 맞춘 공통 관측만 비교 · 결측일 제외 · 상수열 계산 불가 · 환율 환산 없음. 상관은 미래 수익을 보장하지 않습니다." }),
-						/* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("p", { children: "종목을 선택하면 전체 이름·표본·기간·출처·계산 기준을 상세에서 확인할 수 있습니다." })
+						/* @__PURE__ */ (0, import_jsx_runtime$48.jsxs)("p", { children: [[...new Set(series?.map((s) => s.currency))].join(" / "), " 원통화 · 동일 현지 거래일 비교, 동시 시점 아님"] }),
+						/* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("p", { children: "날짜를 맞춘 공통 관측만 비교 · 결측일 제외 · 상수열 계산 불가 · 환율 환산 없음. 상관은 미래 수익을 보장하지 않습니다." }),
+						/* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("p", { children: "종목을 선택하면 전체 이름·표본·기간·출처·계산 기준을 상세에서 확인할 수 있습니다." })
 					]
 				})]
 			}) }),
-			!series?.length ? /* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("p", {
+			!series?.length ? /* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("p", {
 				role: "status",
 				children: "수익률 시계열 공급 미연결"
-			}) : invalid ? /* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("p", {
+			}) : invalid ? /* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("p", {
 				role: "status",
 				children: "수익률 자료 확인 필요 · 최대 10종목"
-			}) : series.length < 2 ? /* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("p", {
+			}) : series.length < 2 ? /* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("p", {
 				role: "status",
 				children: "비교할 종목이 2개 이상 필요합니다"
-			}) : /* @__PURE__ */ (0, import_jsx_runtime$50.jsxs)(import_jsx_runtime$50.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("div", {
+			}) : /* @__PURE__ */ (0, import_jsx_runtime$48.jsxs)(import_jsx_runtime$48.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("div", {
 				className: "legacy-performance-matrix-scroll",
 				tabIndex: preview ? -1 : 0,
 				"aria-label": "상관계수 표 가로 탐색",
-				children: /* @__PURE__ */ (0, import_jsx_runtime$50.jsxs)("table", {
+				children: /* @__PURE__ */ (0, import_jsx_runtime$48.jsxs)("table", {
 					className: "legacy-performance-matrix",
 					"aria-label": "상관계수 행렬",
-					children: [/* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("thead", { children: /* @__PURE__ */ (0, import_jsx_runtime$50.jsxs)("tr", { children: [/* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("th", {
+					children: [/* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("thead", { children: /* @__PURE__ */ (0, import_jsx_runtime$48.jsxs)("tr", { children: [/* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("th", {
 						scope: "col",
 						children: "종목"
-					}), series.map((s) => /* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("th", {
+					}), series.map((s) => /* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("th", {
 						scope: "col",
-						children: /* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("span", {
+						children: /* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("span", {
 							title: s.name,
 							children: s.name
 						})
-					}, s.id))] }) }), /* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("tbody", { children: series.map((a) => /* @__PURE__ */ (0, import_jsx_runtime$50.jsxs)("tr", { children: [/* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("th", {
+					}, s.id))] }) }), /* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("tbody", { children: series.map((a) => /* @__PURE__ */ (0, import_jsx_runtime$48.jsxs)("tr", { children: [/* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("th", {
 						scope: "row",
-						children: /* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("span", {
+						children: /* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("span", {
 							title: a.name,
 							children: a.name
 						})
 					}), series.map((b) => {
 						const result = correlate$1(a, b, minimumSamples), value = result.value === null ? "—" : result.value.toFixed(2);
 						const label = `${a.name} × ${b.name} · ${result.value === null ? correlationStatus[result.status] : value}`;
-						return /* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("td", { children: /* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("button", {
+						return /* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("td", { children: /* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("button", {
 							type: "button",
 							title: label,
 							"aria-label": label,
@@ -10062,10 +10064,10 @@ function LegacyCorrelationWidget({ series, minimumSamples = 20, preview = false 
 						}) }, b.id);
 					})] }, a.id)) })]
 				})
-			}), pairA && pairB && pairResult && /* @__PURE__ */ (0, import_jsx_runtime$50.jsxs)("div", {
+			}), pairA && pairB && pairResult && /* @__PURE__ */ (0, import_jsx_runtime$48.jsxs)("div", {
 				className: "legacy-performance-pair",
 				children: [
-					/* @__PURE__ */ (0, import_jsx_runtime$50.jsxs)("label", { children: ["종목 A", /* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("select", {
+					/* @__PURE__ */ (0, import_jsx_runtime$48.jsxs)("label", { children: ["종목 A", /* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("select", {
 						"aria-label": "첫 번째 비교 종목",
 						value: pairA.id,
 						disabled: preview,
@@ -10073,12 +10075,12 @@ function LegacyCorrelationWidget({ series, minimumSamples = 20, preview = false 
 							setPairIds([event.currentTarget.value, pairB.id]);
 							setSelection(null);
 						},
-						children: series.map((s) => /* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("option", {
+						children: series.map((s) => /* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("option", {
 							value: s.id,
 							children: s.name
 						}, s.id))
 					})] }),
-					/* @__PURE__ */ (0, import_jsx_runtime$50.jsxs)("label", { children: ["종목 B", /* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("select", {
+					/* @__PURE__ */ (0, import_jsx_runtime$48.jsxs)("label", { children: ["종목 B", /* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("select", {
 						"aria-label": "두 번째 비교 종목",
 						value: pairB.id,
 						disabled: preview,
@@ -10086,22 +10088,22 @@ function LegacyCorrelationWidget({ series, minimumSamples = 20, preview = false 
 							setPairIds([pairA.id, event.currentTarget.value]);
 							setSelection(null);
 						},
-						children: series.map((s) => /* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("option", {
+						children: series.map((s) => /* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("option", {
 							value: s.id,
 							children: s.name
 						}, s.id))
 					})] }),
-					/* @__PURE__ */ (0, import_jsx_runtime$50.jsxs)("div", {
+					/* @__PURE__ */ (0, import_jsx_runtime$48.jsxs)("div", {
 						className: "legacy-performance-pair-result",
 						"aria-live": "polite",
 						children: [
-							/* @__PURE__ */ (0, import_jsx_runtime$50.jsxs)("span", { children: [
+							/* @__PURE__ */ (0, import_jsx_runtime$48.jsxs)("span", { children: [
 								pairA.name,
 								" × ",
 								pairB.name
 							] }),
-							/* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("strong", { children: pairResult.value === null ? "—" : pairResult.value.toFixed(2) }),
-							/* @__PURE__ */ (0, import_jsx_runtime$50.jsxs)("span", { children: [
+							/* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("strong", { children: pairResult.value === null ? "—" : pairResult.value.toFixed(2) }),
+							/* @__PURE__ */ (0, import_jsx_runtime$48.jsxs)("span", { children: [
 								correlationStatus[pairResult.status],
 								" · 공통 ",
 								pairResult.count,
@@ -10109,7 +10111,7 @@ function LegacyCorrelationWidget({ series, minimumSamples = 20, preview = false 
 							] })
 						]
 					}),
-					/* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("button", {
+					/* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("button", {
 						type: "button",
 						disabled: preview,
 						onClick: (event) => {
@@ -10123,31 +10125,31 @@ function LegacyCorrelationWidget({ series, minimumSamples = 20, preview = false 
 					})
 				]
 			})] }),
-			selected && detail && !invalid && /* @__PURE__ */ (0, import_jsx_runtime$50.jsxs)("div", {
+			selected && detail && !invalid && /* @__PURE__ */ (0, import_jsx_runtime$48.jsxs)("div", {
 				className: "legacy-performance-detail",
 				role: "region",
 				"aria-label": "상관계수 상세",
 				"aria-live": "polite",
 				children: [
-					/* @__PURE__ */ (0, import_jsx_runtime$50.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime$50.jsxs)("span", { children: [
+					/* @__PURE__ */ (0, import_jsx_runtime$48.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime$48.jsxs)("span", { children: [
 						selected.a.name,
 						" × ",
 						selected.b.name
-					] }), /* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("strong", { children: detail.value === null ? "—" : detail.value.toFixed(2) })] }),
-					/* @__PURE__ */ (0, import_jsx_runtime$50.jsxs)("p", { children: [
+					] }), /* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("strong", { children: detail.value === null ? "—" : detail.value.toFixed(2) })] }),
+					/* @__PURE__ */ (0, import_jsx_runtime$48.jsxs)("p", { children: [
 						correlationStatus[detail.status],
 						" · 공통 ",
 						detail.count,
 						"일",
 						detail.dates.length > 0 ? ` · ${detail.dates[0]} ~ ${detail.dates.at(-1)}` : ""
 					] }),
-					/* @__PURE__ */ (0, import_jsx_runtime$50.jsxs)("p", { children: [
+					/* @__PURE__ */ (0, import_jsx_runtime$48.jsxs)("p", { children: [
 						selected.a.currency,
 						" / ",
 						selected.b.currency,
 						" · ",
 						selected.a.dateBasis,
-						/* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("br", {}),
+						/* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("br", {}),
 						selected.a.source,
 						" / ",
 						selected.b.source,
@@ -10155,8 +10157,8 @@ function LegacyCorrelationWidget({ series, minimumSamples = 20, preview = false 
 						selected.a.method,
 						selected.a.provenance === "fixed-demo" ? " · 고정 가상 자료" : ""
 					] }),
-					/* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("p", { children: "결측일 제외 · 환율 환산 없음 · 상관은 미래 수익을 보장하지 않습니다." }),
-					/* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("button", {
+					/* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("p", { children: "결측일 제외 · 환율 환산 없음 · 상관은 미래 수익을 보장하지 않습니다." }),
+					/* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("button", {
 						type: "button",
 						onClick: close,
 						children: "행렬로 돌아가기"
@@ -10167,9 +10169,9 @@ function LegacyCorrelationWidget({ series, minimumSamples = 20, preview = false 
 	});
 }
 function LegacyDailyReturnWidget({ initialMonth, data, preview = false }) {
-	const [month, setMonth] = (0, import_react$40.useState)(initialMonth);
-	const [selected, setSelected] = (0, import_react$40.useState)(null);
-	const origin = (0, import_react$40.useRef)(null);
+	const [month, setMonth] = (0, import_react$38.useState)(initialMonth);
+	const [selected, setSelected] = (0, import_react$38.useState)(null);
+	const origin = (0, import_react$38.useRef)(null);
 	const valid = validPerformance(data);
 	const close = () => {
 		setSelected(null);
@@ -10184,7 +10186,7 @@ function LegacyDailyReturnWidget({ initialMonth, data, preview = false }) {
 		setMonth(next);
 		setSelected(null);
 	};
-	return /* @__PURE__ */ (0, import_jsx_runtime$50.jsxs)("section", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$48.jsxs)("section", {
 		className: "legacy-performance",
 		"aria-label": "일간 수익률",
 		onKeyDown: (event) => {
@@ -10194,28 +10196,28 @@ function LegacyDailyReturnWidget({ initialMonth, data, preview = false }) {
 			}
 		},
 		children: [
-			/* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("header", { children: /* @__PURE__ */ (0, import_jsx_runtime$50.jsxs)("div", {
+			/* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("header", { children: /* @__PURE__ */ (0, import_jsx_runtime$48.jsxs)("div", {
 				className: "widget-metric-heading",
 				children: [
-					/* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("h3", { children: "일간 수익률" }),
-					/* @__PURE__ */ (0, import_jsx_runtime$50.jsxs)(WidgetMetricHelp, {
+					/* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("h3", { children: "일간 수익률" }),
+					/* @__PURE__ */ (0, import_jsx_runtime$48.jsxs)(WidgetMetricHelp, {
 						disabled: preview,
 						label: "일간 수익률",
-						children: [/* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("p", { children: "날짜별 확인된 일간 성과입니다. —는 미확인으로 0%나 휴장일을 뜻하지 않습니다. 날짜를 선택하면 상세를 볼 수 있습니다." }), valid ? /* @__PURE__ */ (0, import_jsx_runtime$50.jsxs)("p", { children: [
+						children: [/* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("p", { children: "날짜별 확인된 일간 성과입니다. —는 미확인으로 0%나 휴장일을 뜻하지 않습니다. 날짜를 선택하면 상세를 볼 수 있습니다." }), valid ? /* @__PURE__ */ (0, import_jsx_runtime$48.jsxs)("p", { children: [
 							data.currency,
 							" · ",
 							data.dateBasis,
-							/* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("br", {}),
+							/* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("br", {}),
 							data.source,
 							" · ",
 							data.method,
 							data.provenance === "fixed-demo" ? " · 고정 가상 자료" : ""
-						] }) : /* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("p", { children: data ? "일간 성과 자료 확인 필요" : "일간 성과 공급 미연결" })]
+						] }) : /* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("p", { children: data ? "일간 성과 자료 확인 필요" : "일간 성과 공급 미연결" })]
 					}),
-					/* @__PURE__ */ (0, import_jsx_runtime$50.jsxs)("nav", {
+					/* @__PURE__ */ (0, import_jsx_runtime$48.jsxs)("nav", {
 						"aria-label": "성과 달력 월 이동",
 						children: [
-							/* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("button", {
+							/* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("button", {
 								type: "button",
 								"aria-label": "이전 달",
 								title: "이전 달",
@@ -10223,11 +10225,11 @@ function LegacyDailyReturnWidget({ initialMonth, data, preview = false }) {
 								onClick: () => move(-1),
 								children: "‹"
 							}),
-							/* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("span", {
+							/* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("span", {
 								"aria-live": "polite",
 								children: month
 							}),
-							/* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("button", {
+							/* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("button", {
 								type: "button",
 								"aria-label": "다음 달",
 								title: "다음 달",
@@ -10239,11 +10241,11 @@ function LegacyDailyReturnWidget({ initialMonth, data, preview = false }) {
 					})
 				]
 			}) }),
-			!valid && /* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("p", {
+			!valid && /* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("p", {
 				role: "status",
 				children: data ? "일간 성과 자료 확인 필요" : "일간 성과 공급 미연결"
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$50.jsxs)("div", {
+			/* @__PURE__ */ (0, import_jsx_runtime$48.jsxs)("div", {
 				className: "legacy-performance-calendar",
 				"aria-label": `${month} 일간 성과`,
 				children: [[
@@ -10254,13 +10256,13 @@ function LegacyDailyReturnWidget({ initialMonth, data, preview = false }) {
 					"목",
 					"금",
 					"토"
-				].map((day) => /* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("span", {
+				].map((day) => /* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("span", {
 					className: "legacy-performance-weekday",
 					children: day
 				}, day)), calendarMonth(month).map((date, index) => {
-					if (!date) return /* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("span", { "aria-hidden": "true" }, `blank-${index}`);
+					if (!date) return /* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("span", { "aria-hidden": "true" }, `blank-${index}`);
 					const value = dailyValue(data, date), label = `${date} · ${pct(value)}`;
-					return /* @__PURE__ */ (0, import_jsx_runtime$50.jsxs)("button", {
+					return /* @__PURE__ */ (0, import_jsx_runtime$48.jsxs)("button", {
 						type: "button",
 						"aria-label": label,
 						title: label,
@@ -10271,32 +10273,32 @@ function LegacyDailyReturnWidget({ initialMonth, data, preview = false }) {
 							origin.current = event.currentTarget;
 							setSelected(selected === date ? null : date);
 						},
-						children: [/* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("span", { children: Number(date.slice(-2)) }), /* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("small", { children: value === null ? "—" : pct(value) })]
+						children: [/* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("span", { children: Number(date.slice(-2)) }), /* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("small", { children: value === null ? "—" : pct(value) })]
 					}, date);
 				})]
 			}),
-			selected && /* @__PURE__ */ (0, import_jsx_runtime$50.jsxs)("div", {
+			selected && /* @__PURE__ */ (0, import_jsx_runtime$48.jsxs)("div", {
 				className: "legacy-performance-detail",
 				role: "region",
 				"aria-label": "선택 날짜 상세",
 				"aria-live": "polite",
 				children: [
-					/* @__PURE__ */ (0, import_jsx_runtime$50.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("time", {
+					/* @__PURE__ */ (0, import_jsx_runtime$48.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("time", {
 						dateTime: selected,
 						children: selected
-					}), /* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("strong", { children: pct(dailyValue(data, selected)) })] }),
-					dailyValue(data, selected) === null && /* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("p", { children: "확인된 일간 성과 없음 · 휴장 여부 미확인" }),
-					valid && /* @__PURE__ */ (0, import_jsx_runtime$50.jsxs)("p", { children: [
+					}), /* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("strong", { children: pct(dailyValue(data, selected)) })] }),
+					dailyValue(data, selected) === null && /* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("p", { children: "확인된 일간 성과 없음 · 휴장 여부 미확인" }),
+					valid && /* @__PURE__ */ (0, import_jsx_runtime$48.jsxs)("p", { children: [
 						data.currency,
 						" · ",
 						data.dateBasis,
-						/* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("br", {}),
+						/* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("br", {}),
 						data.source,
 						" · ",
 						data.method,
 						data.provenance === "fixed-demo" ? " · 고정 가상 자료" : ""
 					] }),
-					/* @__PURE__ */ (0, import_jsx_runtime$50.jsx)("button", {
+					/* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("button", {
 						type: "button",
 						onClick: close,
 						children: "달력으로 돌아가기"
@@ -10306,13 +10308,13 @@ function LegacyDailyReturnWidget({ initialMonth, data, preview = false }) {
 		]
 	});
 }
-var import_react$40, import_jsx_runtime$50, correlationStatus, pct;
+var import_react$38, import_jsx_runtime$48, correlationStatus, pct;
 function init_legacy_performance_widgets$1() {
 	return (init_legacy_performance_widgets$1 = __esmMin((() => {
-		import_react$40 = require_react();
+		import_react$38 = require_react();
 		init_legacy_performance_widgets();
 		init_WidgetMetricHelp();
-		import_jsx_runtime$50 = require_jsx_runtime();
+		import_jsx_runtime$48 = require_jsx_runtime();
 		correlationStatus = {
 			ready: "확인됨",
 			invalid: "자료 확인 필요",
@@ -10328,37 +10330,37 @@ function isLegacyPortfolioWidgetId(id) {
 }
 /** Presentation only. Missing upstream data stays missing; gallery/demo payloads must be explicit. */
 function LegacyPortfolioWidget({ id, presentation, quoteInstant, preview = false, privacy = false }) {
-	return /* @__PURE__ */ (0, import_jsx_runtime$49.jsx)("div", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$47.jsx)("div", {
 		"data-legacy-widget": id,
-		children: privacy && id !== "investment-quote" ? /* @__PURE__ */ (0, import_jsx_runtime$49.jsxs)("section", {
+		children: privacy && id !== "investment-quote" ? /* @__PURE__ */ (0, import_jsx_runtime$47.jsxs)("section", {
 			"aria-label": names$1[id],
-			children: [/* @__PURE__ */ (0, import_jsx_runtime$49.jsx)("h3", { children: names$1[id] }), /* @__PURE__ */ (0, import_jsx_runtime$49.jsx)("p", {
+			children: [/* @__PURE__ */ (0, import_jsx_runtime$47.jsx)("h3", { children: names$1[id] }), /* @__PURE__ */ (0, import_jsx_runtime$47.jsx)("p", {
 				className: "scope-copy",
 				children: "분석 숨김"
 			})]
-		}) : id === "investment-quote" ? /* @__PURE__ */ (0, import_jsx_runtime$49.jsx)(LegacyDailyQuote, {
+		}) : id === "investment-quote" ? /* @__PURE__ */ (0, import_jsx_runtime$47.jsx)(LegacyDailyQuote, {
 			instant: quoteInstant,
 			preview
-		}) : id === "portfolio-radar" ? /* @__PURE__ */ (0, import_jsx_runtime$49.jsx)(LegacyPortfolioRadar, {
+		}) : id === "portfolio-radar" ? /* @__PURE__ */ (0, import_jsx_runtime$47.jsx)(LegacyPortfolioRadar, {
 			payload: presentation?.radar,
 			preview
-		}) : id === "daily-return" ? /* @__PURE__ */ (0, import_jsx_runtime$49.jsx)(LegacyDailyReturnWidget, {
+		}) : id === "daily-return" ? /* @__PURE__ */ (0, import_jsx_runtime$47.jsx)(LegacyDailyReturnWidget, {
 			initialMonth: presentation?.initialMonth ?? quoteDay(quoteInstant, "Asia/Seoul").slice(0, 7),
 			data: presentation?.daily,
 			preview
-		}) : /* @__PURE__ */ (0, import_jsx_runtime$49.jsx)(LegacyCorrelationWidget, {
+		}) : /* @__PURE__ */ (0, import_jsx_runtime$47.jsx)(LegacyCorrelationWidget, {
 			series: presentation?.series,
 			preview
 		})
 	});
 }
-var import_jsx_runtime$49, names$1;
+var import_jsx_runtime$47, names$1;
 function init_LegacyPortfolioWidget() {
 	return (init_LegacyPortfolioWidget = __esmMin((() => {
 		init_legacy_quote_radar$1();
 		init_legacy_widget_host();
 		init_legacy_performance_widgets$1();
-		import_jsx_runtime$49 = require_jsx_runtime();
+		import_jsx_runtime$47 = require_jsx_runtime();
 		names$1 = {
 			"investment-quote": "오늘의 투자 격언",
 			"portfolio-radar": "포트폴리오 레이더",
@@ -10395,15 +10397,15 @@ function projectHoldingsObserverReference(reference) {
 	};
 }
 function SectionLabel({ children, aside }) {
-	return /* @__PURE__ */ (0, import_jsx_runtime$48.jsxs)("div", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$46.jsxs)("div", {
 		className: "section-heading",
-		children: [/* @__PURE__ */ (0, import_jsx_runtime$48.jsxs)("h2", { children: [/* @__PURE__ */ (0, import_jsx_runtime$48.jsx)("i", { "aria-hidden": "true" }), children] }), aside]
+		children: [/* @__PURE__ */ (0, import_jsx_runtime$46.jsxs)("h2", { children: [/* @__PURE__ */ (0, import_jsx_runtime$46.jsx)("i", { "aria-hidden": "true" }), children] }), aside]
 	});
 }
-var import_jsx_runtime$48;
+var import_jsx_runtime$46;
 function init_SectionLabel() {
 	return (init_SectionLabel = __esmMin((() => {
-		import_jsx_runtime$48 = require_jsx_runtime();
+		import_jsx_runtime$46 = require_jsx_runtime();
 	})))();
 }
 function statusText(state) {
@@ -10422,36 +10424,36 @@ function statusText(state) {
 	}
 }
 function ReferenceProvenance({ view }) {
-	const dialog = (0, import_react$39.useRef)(null);
-	const title = (0, import_react$39.useId)();
-	return /* @__PURE__ */ (0, import_jsx_runtime$47.jsxs)(import_jsx_runtime$47.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$47.jsx)("button", {
+	const dialog = (0, import_react$37.useRef)(null);
+	const title = (0, import_react$37.useId)();
+	return /* @__PURE__ */ (0, import_jsx_runtime$45.jsxs)(import_jsx_runtime$45.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("button", {
 		className: "text-button",
 		type: "button",
 		"aria-label": "참고 시세 기준·범위",
 		onClick: () => dialog.current?.showModal(),
 		children: "기준·범위"
-	}), /* @__PURE__ */ (0, import_jsx_runtime$47.jsxs)("dialog", {
+	}), /* @__PURE__ */ (0, import_jsx_runtime$45.jsxs)("dialog", {
 		className: "portfolio-info-dialog",
 		ref: dialog,
 		"aria-labelledby": title,
 		children: [
-			/* @__PURE__ */ (0, import_jsx_runtime$47.jsxs)("header", { children: [/* @__PURE__ */ (0, import_jsx_runtime$47.jsx)("h2", {
+			/* @__PURE__ */ (0, import_jsx_runtime$45.jsxs)("header", { children: [/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("h2", {
 				id: title,
 				children: "참고 시세 기준·범위"
-			}), /* @__PURE__ */ (0, import_jsx_runtime$47.jsx)("button", {
+			}), /* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("button", {
 				className: "text-button",
 				type: "button",
 				onClick: () => dialog.current?.close(),
 				children: "닫기"
 			})] }),
-			/* @__PURE__ */ (0, import_jsx_runtime$47.jsxs)("p", { children: [
+			/* @__PURE__ */ (0, import_jsx_runtime$45.jsxs)("p", { children: [
 				"원조회 ",
 				view.snapshot.fetchedAt,
 				" · ",
 				view.snapshot.completeness === "partial" ? "일부 범위" : "조회 범위"
 			] }),
-			view.snapshot.errors.map((error, index) => /* @__PURE__ */ (0, import_jsx_runtime$47.jsx)("p", { children: error.message }, index)),
-			view.rows.map(({ position, reference }) => reference && /* @__PURE__ */ (0, import_jsx_runtime$47.jsxs)("p", { children: [
+			view.snapshot.errors.map((error, index) => /* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("p", { children: error.message }, index)),
+			view.rows.map(({ position, reference }) => reference && /* @__PURE__ */ (0, import_jsx_runtime$45.jsxs)("p", { children: [
 				position.name,
 				" · ",
 				position.instrumentId.includes(":credit:00:") ? "현금" : `신용 · ${position.instrumentId.split(":loan:")[1]}`,
@@ -10466,7 +10468,7 @@ function ReferenceProvenance({ view }) {
 				position.market,
 				position.currency
 			]))),
-			/* @__PURE__ */ (0, import_jsx_runtime$47.jsx)("p", { children: "날짜와 원천 시각은 미확인입니다. 로컬 수신 값은 원천 시각이 아니며 평가액에 반영하지 않습니다." })
+			/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("p", { children: "날짜와 원천 시각은 미확인입니다. 로컬 수신 값은 원천 시각이 아니며 평가액에 반영하지 않습니다." })
 		]
 	})] });
 }
@@ -10475,59 +10477,59 @@ function HoldingsReferenceView({ state, eligible, privacy, onStart, onRead, onSt
 	const active = state.phase === "Preparing" || state.phase === "Starting" || state.phase === "Observing";
 	const view = state.reference ? projectHoldingsObserverReference(state.reference) : null;
 	const money = (value) => value && privacy ? "••••••" : formatMoney(value);
-	return /* @__PURE__ */ (0, import_jsx_runtime$47.jsxs)("section", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$45.jsxs)("section", {
 		"aria-label": "참고 시세 관측",
 		children: [
-			/* @__PURE__ */ (0, import_jsx_runtime$47.jsx)(SectionLabel, { children: "참고 시세" }),
-			/* @__PURE__ */ (0, import_jsx_runtime$47.jsxs)("div", {
+			/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)(SectionLabel, { children: "참고 시세" }),
+			/* @__PURE__ */ (0, import_jsx_runtime$45.jsxs)("div", {
 				className: "connection-actions",
 				children: [
-					/* @__PURE__ */ (0, import_jsx_runtime$47.jsx)("button", {
+					/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("button", {
 						className: "text-button",
 						type: "button",
 						disabled: state.busy || active || state.phase === "Disposed",
 						onClick: onStart,
 						children: "참고 시세 관측"
 					}),
-					/* @__PURE__ */ (0, import_jsx_runtime$47.jsx)("button", {
+					/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("button", {
 						className: "text-button",
 						type: "button",
 						disabled: state.busy || !active || state.phase === "Preparing",
 						onClick: onRead,
 						children: "관측값 다시 읽기"
 					}),
-					/* @__PURE__ */ (0, import_jsx_runtime$47.jsx)("button", {
+					/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("button", {
 						className: "text-button",
 						type: "button",
 						disabled: state.phase === "Disposed" || !active && !state.busy,
 						onClick: onStop,
 						children: "관측 중지"
 					}),
-					view && /* @__PURE__ */ (0, import_jsx_runtime$47.jsx)(ReferenceProvenance, { view })
+					view && /* @__PURE__ */ (0, import_jsx_runtime$45.jsx)(ReferenceProvenance, { view })
 				]
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$47.jsx)("p", {
+			/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("p", {
 				className: "table-count",
 				role: "status",
 				children: statusText(state)
 			}),
-			view && /* @__PURE__ */ (0, import_jsx_runtime$47.jsxs)(import_jsx_runtime$47.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$47.jsx)("p", {
+			view && /* @__PURE__ */ (0, import_jsx_runtime$45.jsxs)(import_jsx_runtime$45.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("p", {
 				className: "table-count",
 				children: "참고값 신선도 미확인 · 평가액 미반영"
-			}), /* @__PURE__ */ (0, import_jsx_runtime$47.jsx)("div", {
+			}), /* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("div", {
 				className: "table-scroll",
 				role: "region",
 				"aria-label": "보유종목 참고 가격",
 				tabIndex: 0,
-				children: /* @__PURE__ */ (0, import_jsx_runtime$47.jsxs)("table", { children: [/* @__PURE__ */ (0, import_jsx_runtime$47.jsx)("thead", { children: /* @__PURE__ */ (0, import_jsx_runtime$47.jsxs)("tr", { children: [
-					/* @__PURE__ */ (0, import_jsx_runtime$47.jsx)("th", { children: "종목 / 구분" }),
-					/* @__PURE__ */ (0, import_jsx_runtime$47.jsx)("th", { children: "조회 가격" }),
-					/* @__PURE__ */ (0, import_jsx_runtime$47.jsx)("th", { children: "참고 가격" }),
-					/* @__PURE__ */ (0, import_jsx_runtime$47.jsx)("th", { children: "관측 시각" })
-				] }) }), /* @__PURE__ */ (0, import_jsx_runtime$47.jsx)("tbody", { children: view.rows.map(({ position, reference }) => /* @__PURE__ */ (0, import_jsx_runtime$47.jsxs)("tr", { children: [
-					/* @__PURE__ */ (0, import_jsx_runtime$47.jsx)("td", { children: /* @__PURE__ */ (0, import_jsx_runtime$47.jsx)("div", {
+				children: /* @__PURE__ */ (0, import_jsx_runtime$45.jsxs)("table", { children: [/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("thead", { children: /* @__PURE__ */ (0, import_jsx_runtime$45.jsxs)("tr", { children: [
+					/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("th", { children: "종목 / 구분" }),
+					/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("th", { children: "조회 가격" }),
+					/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("th", { children: "참고 가격" }),
+					/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("th", { children: "관측 시각" })
+				] }) }), /* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("tbody", { children: view.rows.map(({ position, reference }) => /* @__PURE__ */ (0, import_jsx_runtime$45.jsxs)("tr", { children: [
+					/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("td", { children: /* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("div", {
 						className: "instrument",
-						children: /* @__PURE__ */ (0, import_jsx_runtime$47.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime$47.jsx)("strong", { children: position.name }), /* @__PURE__ */ (0, import_jsx_runtime$47.jsxs)("span", { children: [
+						children: /* @__PURE__ */ (0, import_jsx_runtime$45.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("strong", { children: position.name }), /* @__PURE__ */ (0, import_jsx_runtime$45.jsxs)("span", { children: [
 							position.market,
 							" · ",
 							position.currency,
@@ -10535,12 +10537,12 @@ function HoldingsReferenceView({ state, eligible, privacy, onStart, onRead, onSt
 							position.instrumentId.includes(":credit:00:") ? "현금" : `신용 · ${position.instrumentId.split(":loan:")[1]}`
 						] })] })
 					}) }),
-					/* @__PURE__ */ (0, import_jsx_runtime$47.jsx)("td", { children: money(position.currentPrice) }),
-					/* @__PURE__ */ (0, import_jsx_runtime$47.jsx)("td", { children: reference ? money({
+					/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("td", { children: money(position.currentPrice) }),
+					/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("td", { children: reference ? money({
 						amount: reference.priceDecimalText,
 						currency: reference.positionKey.currency
 					}) : "미관측" }),
-					/* @__PURE__ */ (0, import_jsx_runtime$47.jsx)("td", { children: reference ? /* @__PURE__ */ (0, import_jsx_runtime$47.jsxs)("span", { children: [reference.rawTime.replace(/^(\d{2})(\d{2})(\d{2})$/, "$1:$2:$3"), " · 날짜 미확인"] }) : "—" })
+					/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("td", { children: reference ? /* @__PURE__ */ (0, import_jsx_runtime$45.jsxs)("span", { children: [reference.rawTime.replace(/^(\d{2})(\d{2})(\d{2})$/, "$1:$2:$3"), " · 날짜 미확인"] }) : "—" })
 				] }, JSON.stringify([
 					position.provider,
 					position.accountId,
@@ -10552,46 +10554,46 @@ function HoldingsReferenceView({ state, eligible, privacy, onStart, onRead, onSt
 		]
 	});
 }
-var import_react$39, import_jsx_runtime$47;
+var import_react$37, import_jsx_runtime$45;
 function init_HoldingsReferenceView() {
 	return (init_HoldingsReferenceView = __esmMin((() => {
-		import_react$39 = require_react();
+		import_react$37 = require_react();
 		init_SectionLabel();
-		import_jsx_runtime$47 = require_jsx_runtime();
+		import_jsx_runtime$45 = require_jsx_runtime();
 	})))();
 }
-function fail$3() {
+function fail$2() {
 	throw new ObserverProtocolError("InvalidWire");
 }
-function object$2(shape) {
+function object$1(shape) {
 	return (value) => {
-		if (!value || typeof value !== "object" || Array.isArray(value)) return fail$3();
+		if (!value || typeof value !== "object" || Array.isArray(value)) return fail$2();
 		const row = value;
 		const keys = Object.keys(row);
-		if (keys.length !== Object.keys(shape).length || keys.some((k) => !Object.hasOwn(shape, k))) return fail$3();
+		if (keys.length !== Object.keys(shape).length || keys.some((k) => !Object.hasOwn(shape, k))) return fail$2();
 		const result = {};
 		for (const k of Object.keys(shape)) {
-			if (!Object.hasOwn(row, k)) return fail$3();
+			if (!Object.hasOwn(row, k)) return fail$2();
 			result[k] = shape[k](row[k]);
 		}
 		return result;
 	};
 }
 function literal(expected) {
-	return (v) => v === expected ? expected : fail$3();
+	return (v) => v === expected ? expected : fail$2();
 }
 function oneOf(...values) {
-	return (v) => typeof v === "string" && values.includes(v) ? v : fail$3();
+	return (v) => typeof v === "string" && values.includes(v) ? v : fail$2();
 }
 function nullable(read) {
 	return (v) => v === null ? null : read(v);
 }
 function unsigned(positive) {
 	return (v) => {
-		const s = text$2(v);
-		if (!/^(0|[1-9][0-9]*)$/.test(s) || s.length > 20) return fail$3();
+		const s = text$1(v);
+		if (!/^(0|[1-9][0-9]*)$/.test(s) || s.length > 20) return fail$2();
 		const n = BigInt(s);
-		return n <= 18446744073709551615n && (!positive || n > 0n) ? s : fail$3();
+		return n <= 18446744073709551615n && (!positive || n > 0n) ? s : fail$2();
 	};
 }
 /** Detect duplicate decoded keys at every level BEFORE JSON.parse can erase them.
@@ -10609,10 +10611,10 @@ function strictJson(raw) {
 			if (c === "\\") i++;
 			else if (c === "\"") return JSON.parse(raw.slice(start, i));
 		}
-		return fail$3();
+		return fail$2();
 	};
 	const value = (depth) => {
-		if (depth > 64) return fail$3();
+		if (depth > 64) return fail$2();
 		space();
 		const c = raw[i];
 		if (c === "\"") {
@@ -10630,12 +10632,12 @@ function strictJson(raw) {
 			}
 			while (i < raw.length) {
 				if (c === "{") {
-					if (raw[i] !== "\"") return fail$3();
+					if (raw[i] !== "\"") return fail$2();
 					const k = string();
-					if (keys.has(k)) return fail$3();
+					if (keys.has(k)) return fail$2();
 					keys.add(k);
 					space();
-					if (raw[i++] !== ":") return fail$3();
+					if (raw[i++] !== ":") return fail$2();
 				}
 				value(depth + 1);
 				space();
@@ -10643,39 +10645,39 @@ function strictJson(raw) {
 					i++;
 					return;
 				}
-				if (raw[i++] !== ",") return fail$3();
+				if (raw[i++] !== ",") return fail$2();
 				space();
 			}
-			return fail$3();
+			return fail$2();
 		}
 		const match = /^(?:null|true|false|-?(?:0|[1-9][0-9]*)(?:\.[0-9]+)?(?:[eE][+-]?[0-9]+)?)/.exec(raw.slice(i));
-		if (!match) return fail$3();
+		if (!match) return fail$2();
 		const token = match[0];
 		i += token.length;
-		if (/^-?[0-9]/.test(token) && (!/^-?(?:0|[1-9][0-9]*)$/.test(token) || !Number.isSafeInteger(Number(token)) || Object.is(Number(token), -0))) fail$3();
+		if (/^-?[0-9]/.test(token) && (!/^-?(?:0|[1-9][0-9]*)$/.test(token) || !Number.isSafeInteger(Number(token)) || Object.is(Number(token), -0))) fail$2();
 	};
 	value(0);
 	space();
-	if (i !== raw.length) return fail$3();
+	if (i !== raw.length) return fail$2();
 	return JSON.parse(raw);
 }
 function wire(input, limit) {
 	try {
 		const check = (v, depth) => {
-			if (depth > 64) fail$3();
+			if (depth > 64) fail$2();
 			if (v === null || typeof v === "string" || typeof v === "boolean") return;
 			if (typeof v === "number") {
-				if (!Number.isSafeInteger(v) || Object.is(v, -0)) fail$3();
+				if (!Number.isSafeInteger(v) || Object.is(v, -0)) fail$2();
 				return;
 			}
-			if (typeof v !== "object") return fail$3();
-			if (!Array.isArray(v) && Object.getPrototypeOf(v) !== Object.prototype && Object.getPrototypeOf(v) !== null) fail$3();
+			if (typeof v !== "object") return fail$2();
+			if (!Array.isArray(v) && Object.getPrototypeOf(v) !== Object.prototype && Object.getPrototypeOf(v) !== null) fail$2();
 			const descriptors = Object.getOwnPropertyDescriptors(v);
-			if (Reflect.ownKeys(v).some((k) => typeof k !== "string")) fail$3();
-			if (Array.isArray(v) && Object.keys(v).length !== v.length) fail$3();
+			if (Reflect.ownKeys(v).some((k) => typeof k !== "string")) fail$2();
+			if (Array.isArray(v) && Object.keys(v).length !== v.length) fail$2();
 			for (const [k, d] of Object.entries(descriptors)) {
 				if (Array.isArray(v) && k === "length") continue;
-				if (!d.enumerable || !("value" in d)) fail$3();
+				if (!d.enumerable || !("value" in d)) fail$2();
 				check(d.value, depth + 1);
 			}
 		};
@@ -10685,14 +10687,14 @@ function wire(input, limit) {
 		return strictJson(raw);
 	} catch (error) {
 		if (error instanceof ObserverProtocolError) throw error;
-		return fail$3();
+		return fail$2();
 	}
 }
 function array(read, max = OBSERVER_RESPONSE_LIMIT) {
-	return (v) => Array.isArray(v) && v.length <= max ? v.map(read) : fail$3();
+	return (v) => Array.isArray(v) && v.length <= max ? v.map(read) : fail$2();
 }
 function integer(max) {
-	return (v) => typeof v === "number" && Number.isSafeInteger(v) && v >= 0 && v <= max ? v : fail$3();
+	return (v) => typeof v === "number" && Number.isSafeInteger(v) && v >= 0 && v <= max ? v : fail$2();
 }
 function fullKey(p) {
 	return JSON.stringify([
@@ -10705,24 +10707,24 @@ function fullKey(p) {
 }
 function validateComposite(c, expectedAccount) {
 	const s = c.snapshot;
-	if (s.accounts.length !== 1 || s.accounts[0].id !== expectedAccount || !s.positions.length) fail$3();
+	if (s.accounts.length !== 1 || s.accounts[0].id !== expectedAccount || !s.positions.length) fail$2();
 	const currencies = s.accounts[0].supportedCurrencies;
-	if (new Set(currencies).size !== currencies.length) fail$3();
+	if (new Set(currencies).size !== currencies.length) fail$2();
 	const positions = /* @__PURE__ */ new Set(), balances = /* @__PURE__ */ new Set(), observations = /* @__PURE__ */ new Set();
 	const scoped = (id) => {
-		if (id !== expectedAccount) fail$3();
+		if (id !== expectedAccount) fail$2();
 	};
 	const checkMoney = (value, currency) => {
-		if (value !== null && value.currency !== currency) fail$3();
+		if (value !== null && value.currency !== currency) fail$2();
 	};
 	for (const p of s.positions) {
 		scoped(p.accountId);
-		if (!currencies.includes(p.currency)) fail$3();
+		if (!currencies.includes(p.currency)) fail$2();
 		const k = fullKey(p);
-		if (positions.has(k)) fail$3();
+		if (positions.has(k)) fail$2();
 		positions.add(k);
 		const match = /^A[0-9]{6}:credit:(?:00:loan:|03:loan:([0-9]{8}))$/.exec(p.instrumentId);
-		if (!match) fail$3();
+		if (!match) fail$2();
 		if (match[1]) {
 			const d = match[1], year = Number(d.slice(0, 4)), month = Number(d.slice(4, 6)), day = Number(d.slice(6));
 			const days = [
@@ -10739,7 +10741,7 @@ function validateComposite(c, expectedAccount) {
 				30,
 				31
 			];
-			if (!year || month < 1 || month > 12 || day < 1 || day > days[month - 1]) fail$3();
+			if (!year || month < 1 || month > 12 || day < 1 || day > days[month - 1]) fail$2();
 		}
 		for (const v of [
 			p.avgCost,
@@ -10750,7 +10752,7 @@ function validateComposite(c, expectedAccount) {
 	}
 	for (const b of s.balances) {
 		scoped(b.accountId);
-		if (!currencies.includes(b.currency) || balances.has(b.currency)) fail$3();
+		if (!currencies.includes(b.currency) || balances.has(b.currency)) fail$2();
 		balances.add(b.currency);
 		for (const v of [
 			b.settledCash,
@@ -10761,7 +10763,7 @@ function validateComposite(c, expectedAccount) {
 	}
 	for (const o of s.accountObservations) {
 		scoped(o.accountId);
-		if (observations.has(o.accountId)) fail$3();
+		if (observations.has(o.accountId)) fail$2();
 		observations.add(o.accountId);
 	}
 	for (const t of s.holdingTraces) scoped(t.accountId);
@@ -10769,7 +10771,7 @@ function validateComposite(c, expectedAccount) {
 	const seen = /* @__PURE__ */ new Set(), symbols = /* @__PURE__ */ new Map();
 	for (const r of c.references) {
 		const k = fullKey(r.positionKey);
-		if (!positions.has(k) || seen.has(k) || r.sourceRevision !== c.sourceRevision || r.attemptId !== c.attemptId) fail$3();
+		if (!positions.has(k) || seen.has(k) || r.sourceRevision !== c.sourceRevision || r.attemptId !== c.attemptId) fail$2();
 		seen.add(k);
 		const symbol = r.positionKey.instrumentId.slice(1, 7), quote = JSON.stringify([
 			r.priceDecimalText,
@@ -10777,7 +10779,7 @@ function validateComposite(c, expectedAccount) {
 			r.rawDate,
 			r.receivedAt
 		]);
-		if (symbols.has(symbol) && symbols.get(symbol) !== quote) fail$3();
+		if (symbols.has(symbol) && symbols.get(symbol) !== quote) fail$2();
 		symbols.set(symbol, quote);
 	}
 }
@@ -10789,27 +10791,27 @@ function readObserverRequest(command, input) {
 		case "holdings_observer_stop": return stopRequestReader(value);
 		case "holdings_observer_reference_read": {
 			const result = referenceRequestReader(value);
-			if (result.expectedSourceRevision === null !== (result.expectedAttemptId === null)) fail$3();
+			if (result.expectedSourceRevision === null !== (result.expectedAttemptId === null)) fail$2();
 			return result;
 		}
-		default: return fail$3();
+		default: return fail$2();
 	}
 }
 function readObserverResponse(input) {
 	const value = wire(input, OBSERVER_RESPONSE_LIMIT);
-	if (!value || typeof value !== "object" || !("type" in value) || typeof value.type !== "string" || !Object.hasOwn(bodyReaders, value.type)) return fail$3();
+	if (!value || typeof value !== "object" || !("type" in value) || typeof value.type !== "string" || !Object.hasOwn(bodyReaders, value.type)) return fail$2();
 	const result = bodyReaders[value.type](value);
 	if (result.type === "CurrentReference") validateComposite(result.composite, result.expectedAccountId);
 	if (result.type === "Status") {
-		if (result.sourceRevision === null !== (result.attemptId === null)) fail$3();
-		if (result.phase === "Running" && result.sourceRevision === null) fail$3();
+		if (result.sourceRevision === null !== (result.attemptId === null)) fail$2();
+		if (result.phase === "Running" && result.sourceRevision === null) fail$2();
 		const terminal = result.phase === "Stopped" || result.phase === "FailedUnjoined";
-		if (terminal !== (result.completion !== null) || terminal !== (result.end !== null)) fail$3();
-		if (result.phase === "FailedUnjoined" && (result.completion !== "JoinUnproven" || result.end !== "JoinUnproven")) fail$3();
-		if (result.phase === "Stopped" && result.completion === "JoinUnproven") fail$3();
+		if (terminal !== (result.completion !== null) || terminal !== (result.end !== null)) fail$2();
+		if (result.phase === "FailedUnjoined" && (result.completion !== "JoinUnproven" || result.end !== "JoinUnproven")) fail$2();
+		if (result.phase === "Stopped" && result.completion === "JoinUnproven") fail$2();
 	}
-	if (result.type === "Rejected" && result.requestId === null && result.code !== "InvalidRequest") fail$3();
-	if (result.type === "Bootstrap" && BigInt(result.cancelFloor) > BigInt(result.highestStartOrdinal)) fail$3();
+	if (result.type === "Rejected" && result.requestId === null && result.code !== "InvalidRequest") fail$2();
+	if (result.type === "Bootstrap" && BigInt(result.cancelFloor) > BigInt(result.highestStartOrdinal)) fail$2();
 	return result;
 }
 function correlate(request, response) {
@@ -10867,7 +10869,7 @@ function createHoldingsObserverClient(invoke) {
 		])
 	};
 }
-var OBSERVER_REQUEST_LIMIT, OBSERVER_RESPONSE_LIMIT, ObserverProtocolError, text$2, uuid$1, account, ordinal, counter$1, keyReader, phase, end, completion, envelope, targetFields, statusReader, nonempty, decimal$1, money, completeness, freshness, positionKey, positionReader, operation, errorReader, snapshotReader, referencePrice, receivedAt, rawTime, compositeReader, currentReader, startRequestReader, bootstrapRequestReader, targetRequestReader, stopRequestReader, referenceRequestReader, rejectCode, bodyReaders;
+var OBSERVER_REQUEST_LIMIT, OBSERVER_RESPONSE_LIMIT, ObserverProtocolError, text$1, uuid$1, account, ordinal, counter$1, keyReader, phase, end, completion, envelope, targetFields, statusReader, nonempty, decimal$1, money, completeness, freshness, positionKey, positionReader, operation, errorReader, snapshotReader, referencePrice, receivedAt, rawTime, compositeReader, currentReader, startRequestReader, bootstrapRequestReader, targetRequestReader, stopRequestReader, referenceRequestReader, rejectCode, bodyReaders;
 function init_holdingsObserverProtocol() {
 	return (init_holdingsObserverProtocol = __esmMin((() => {
 		OBSERVER_REQUEST_LIMIT = 4096;
@@ -10880,20 +10882,20 @@ function init_holdingsObserverProtocol() {
 				this.name = "ObserverProtocolError";
 			}
 		};
-		text$2 = (v) => typeof v === "string" ? v : fail$3();
+		text$1 = (v) => typeof v === "string" ? v : fail$2();
 		uuid$1 = (v) => {
-			const s = text$2(v);
-			return /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/.test(s) && s !== "00000000-0000-0000-0000-000000000000" ? s : fail$3();
+			const s = text$1(v);
+			return /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/.test(s) && s !== "00000000-0000-0000-0000-000000000000" ? s : fail$2();
 		};
 		account = (v) => {
-			const s = text$2(v);
-			if (!s.startsWith("kiwoom-")) return fail$3();
+			const s = text$1(v);
+			if (!s.startsWith("kiwoom-")) return fail$2();
 			uuid$1(s.slice(7));
 			return s;
 		};
 		ordinal = unsigned(true);
 		counter$1 = unsigned(false);
-		keyReader = object$2({
+		keyReader = object$1({
 			connectionId: uuid$1,
 			generation: uuid$1
 		});
@@ -10909,7 +10911,7 @@ function init_holdingsObserverProtocol() {
 			startOrdinal: ordinal,
 			key: keyReader
 		};
-		statusReader = object$2({
+		statusReader = object$1({
 			...envelope,
 			type: literal("Status"),
 			...targetFields,
@@ -10923,14 +10925,14 @@ function init_holdingsObserverProtocol() {
 			appliedBatches: counter$1
 		});
 		nonempty = (v) => {
-			const s = text$2(v);
-			return s.length ? s : fail$3();
+			const s = text$1(v);
+			return s.length ? s : fail$2();
 		};
 		decimal$1 = (v) => {
-			const s = text$2(v);
-			return /^-?[0-9]+(?:\.[0-9]+)?$/.test(s) ? s : fail$3();
+			const s = text$1(v);
+			return /^-?[0-9]+(?:\.[0-9]+)?$/.test(s) ? s : fail$2();
 		};
-		money = nullable(object$2({
+		money = nullable(object$1({
 			amount: decimal$1,
 			currency: nonempty
 		}));
@@ -10943,41 +10945,41 @@ function init_holdingsObserverProtocol() {
 			market: literal("KRX"),
 			currency: literal("KRW")
 		};
-		positionReader = object$2({
+		positionReader = object$1({
 			...positionKey,
-			name: text$2,
+			name: text$1,
 			quantity: decimal$1,
 			avgCost: money,
 			currentPrice: money,
 			marketValue: money,
 			unrealizedPnl: money,
-			sourceAsOf: nullable(text$2)
+			sourceAsOf: nullable(text$1)
 		});
 		operation = oneOf("toss_token", "toss_accounts", "toss_closed_orders", "toss_holdings", "toss_buying_power_krw", "toss_buying_power_usd", "kiwoom_token", "kiwoom_account", "kiwoom_domestic_cash", "kiwoom_domestic_holdings", "kiwoom_executions", "kiwoom_us_holdings", "kiwoom_us_cash");
-		errorReader = object$2({
+		errorReader = object$1({
 			code: oneOf("auth_required", "ip_blocked", "permission_denied", "rate_limited", "network", "timeout", "invalid_response", "unsupported", "cancelled", "busy", "storage", "terms_required"),
 			provider: nullable(oneOf("toss", "kiwoom")),
 			accountId: nullable(account),
-			message: text$2,
+			message: text$1,
 			stage: nullable(oneOf("storage", "authentication", "accounts", "selection", "portfolio")),
 			phase: nullable(oneOf("local_validation", "session_read", "session_write", "session_decode", "session_missing", "session_delete", "session_metadata", "session_binding", "session_expired", "session_clock", "credential_read", "credential_write", "credential_decode", "credential_missing", "credential_verify", "credential_delete", "connection_metadata", "application_state", "transport", "http", "response_json", "response_schema", "broker_rejected")),
 			httpStatus: nullable(integer(65535)),
 			operation: nullable(operation),
 			providerCode: nullable(oneOf("1501", "1504", "1505", "1511", "1512", "1513", "1514", "1515", "1516", "1517", "1687", "1700", "1701", "1702", "1901", "1902", "1903", "1999", "8001", "8002", "8003", "8005", "8006", "8009", "8010", "8011", "8012", "8015", "8016", "8020", "8030", "8031", "8040", "8050", "8103", "8104", "8200", "invalid_client", "access_denied", "invalid_request", "unsupported_grant_type", "token-revoked", "edge-blocked"))
 		});
-		snapshotReader = object$2({
+		snapshotReader = object$1({
 			mode: literal("live"),
-			fetchedAt: text$2,
-			sourceAsOf: nullable(text$2),
+			fetchedAt: text$1,
+			sourceAsOf: nullable(text$1),
 			completeness,
 			freshness,
-			accounts: array(object$2({
+			accounts: array(object$1({
 				id: account,
 				provider: literal("kiwoom"),
-				maskedLabel: text$2,
+				maskedLabel: text$1,
 				supportedCurrencies: array(nonempty)
 			}), 1),
-			balances: array(object$2({
+			balances: array(object$1({
 				accountId: account,
 				currency: nonempty,
 				settledCash: money,
@@ -10987,13 +10989,13 @@ function init_holdingsObserverProtocol() {
 			})),
 			positions: array(positionReader, 200),
 			errors: array(errorReader),
-			accountObservations: array(object$2({
+			accountObservations: array(object$1({
 				accountId: account,
 				completeness,
 				freshness,
-				sourceAsOf: nullable(text$2)
+				sourceAsOf: nullable(text$1)
 			})),
-			holdingTraces: array(object$2({
+			holdingTraces: array(object$1({
 				accountId: account,
 				operation: oneOf("kiwoom_domestic_holdings", "kiwoom_us_holdings"),
 				httpStatus: nullable(integer(65535)),
@@ -11005,23 +11007,23 @@ function init_holdingsObserverProtocol() {
 			}))
 		});
 		referencePrice = (v) => {
-			const s = text$2(v);
-			return s.length <= 40 && /^[0-9]+(?:\.[0-9]+)?$/.test(s) && /[1-9]/.test(s) ? s : fail$3();
+			const s = text$1(v);
+			return s.length <= 40 && /^[0-9]+(?:\.[0-9]+)?$/.test(s) && /[1-9]/.test(s) ? s : fail$2();
 		};
 		receivedAt = (v) => {
 			const s = ordinal(v);
-			return BigInt(s) <= 9223372036854775807n ? s : fail$3();
+			return BigInt(s) <= 9223372036854775807n ? s : fail$2();
 		};
 		rawTime = (v) => {
-			const s = text$2(v);
-			return /^(?:[01][0-9]|2[0-3])[0-5][0-9][0-5][0-9]$/.test(s) ? s : fail$3();
+			const s = text$1(v);
+			return /^(?:[01][0-9]|2[0-3])[0-5][0-9][0-5][0-9]$/.test(s) ? s : fail$2();
 		};
-		compositeReader = object$2({
+		compositeReader = object$1({
 			sourceRevision: uuid$1,
 			attemptId: uuid$1,
 			snapshot: snapshotReader,
-			references: array(object$2({
-				positionKey: object$2(positionKey),
+			references: array(object$1({
+				positionKey: object$1(positionKey),
 				priceDecimalText: referencePrice,
 				rawTime,
 				rawDate: literal(null),
@@ -11030,7 +11032,7 @@ function init_holdingsObserverProtocol() {
 				attemptId: uuid$1
 			}), 200)
 		});
-		currentReader = object$2({
+		currentReader = object$1({
 			...envelope,
 			type: literal("CurrentReference"),
 			...targetFields,
@@ -11040,29 +11042,29 @@ function init_holdingsObserverProtocol() {
 			sourceInstant: literal(null),
 			composite: compositeReader
 		});
-		startRequestReader = object$2({
+		startRequestReader = object$1({
 			...envelope,
 			nativeViewEpoch: uuid$1,
 			startOrdinal: ordinal,
 			connectionId: uuid$1,
 			expectedAccountId: account
 		});
-		bootstrapRequestReader = object$2({
+		bootstrapRequestReader = object$1({
 			...envelope,
 			mode: literal("bootstrap")
 		});
-		targetRequestReader = object$2({
+		targetRequestReader = object$1({
 			...envelope,
 			mode: literal("target"),
 			nativeViewEpoch: uuid$1,
 			startOrdinal: ordinal
 		});
-		stopRequestReader = object$2({
+		stopRequestReader = object$1({
 			...envelope,
 			nativeViewEpoch: uuid$1,
 			cancelThrough: ordinal
 		});
-		referenceRequestReader = object$2({
+		referenceRequestReader = object$1({
 			...envelope,
 			nativeViewEpoch: uuid$1,
 			startOrdinal: ordinal,
@@ -11073,22 +11075,22 @@ function init_holdingsObserverProtocol() {
 		});
 		rejectCode = oneOf("InvalidRequest", "ForbiddenCaller", "ViewNotReady", "ViewExpired", "CancelledBeforeStart", "Superseded", "Conflict", "Busy", "JoinUnproven", "NotCurrent", "ExpectedIdentityMismatch", "SourceChanged", "AuthRequired", "Unsupported", "Unavailable", "ResponseTooLarge");
 		bodyReaders = {
-			Bootstrap: object$2({
+			Bootstrap: object$1({
 				...envelope,
 				type: literal("Bootstrap"),
 				nativeViewEpoch: uuid$1,
 				highestStartOrdinal: counter$1,
 				cancelFloor: counter$1,
-				occupied: (v) => typeof v === "boolean" ? v : fail$3()
+				occupied: (v) => typeof v === "boolean" ? v : fail$2()
 			}),
-			StartAccepted: object$2({
+			StartAccepted: object$1({
 				...envelope,
 				type: literal("StartAccepted"),
 				...targetFields,
 				phase: literal("Starting")
 			}),
 			Status: statusReader,
-			StopAccepted: object$2({
+			StopAccepted: object$1({
 				...envelope,
 				type: literal("StopAccepted"),
 				nativeViewEpoch: uuid$1,
@@ -11096,20 +11098,20 @@ function init_holdingsObserverProtocol() {
 				disposition: oneOf("NoMatchingEntry", "StopRequested", "AlreadyTerminal", "JoinUnproven")
 			}),
 			CurrentReference: currentReader,
-			NotReady: object$2({
+			NotReady: object$1({
 				...envelope,
 				type: literal("NotReady"),
 				...targetFields,
 				phase: oneOf("Starting", "Stopping")
 			}),
-			Terminal: object$2({
+			Terminal: object$1({
 				...envelope,
 				type: literal("Terminal"),
 				...targetFields,
 				end: nullable(end),
 				completion
 			}),
-			Rejected: object$2({
+			Rejected: object$1({
 				schemaVersion: literal(1),
 				requestId: nullable(uuid$1),
 				type: literal("Rejected"),
@@ -11367,14 +11369,14 @@ function init_holdingsObserverOwner() {
 }
 /** Explicit-only React host. Local retirement/StopAccepted does not prove native join. */
 function useHoldingsObserver({ scope, visible, online = true, clientFactory = createNativeHoldingsObserverClient, requestId = randomRequestId }) {
-	const current = (0, import_react$38.useRef)(null);
-	const [publication, setPublication] = (0, import_react$38.useState)(null);
+	const current = (0, import_react$36.useRef)(null);
+	const [publication, setPublication] = (0, import_react$36.useState)(null);
 	const connectionId = scope?.connectionId;
 	const expectedAccountId = scope?.expectedAccountId;
 	const ownerIdentity = scope?.ownerIdentity;
 	const eligible = scope !== null && visible && online;
 	const matches = (controller) => eligible && !controller.disposed && controller.scope.connectionId === connectionId && controller.scope.expectedAccountId === expectedAccountId && controller.scope.ownerIdentity === ownerIdentity && controller.clientFactory === clientFactory && controller.requestId === requestId;
-	(0, import_react$38.useLayoutEffect)(() => {
+	(0, import_react$36.useLayoutEffect)(() => {
 		if (!eligible || connectionId === void 0 || expectedAccountId === void 0 || ownerIdentity === void 0) return;
 		const controller = {
 			owner: new HoldingsObserverOwner({
@@ -11442,10 +11444,10 @@ function useHoldingsObserver({ scope, visible, online = true, clientFactory = cr
 		retire
 	};
 }
-var import_react$38, randomRequestId, idle;
+var import_react$36, randomRequestId, idle;
 function init_useHoldingsObserver() {
 	return (init_useHoldingsObserver = __esmMin((() => {
-		import_react$38 = require_react();
+		import_react$36 = require_react();
 		init_holdingsObserverNative();
 		init_holdingsObserverOwner();
 		randomRequestId = () => crypto.randomUUID();
@@ -11502,11 +11504,11 @@ function hasPaperAccounts(connections) {
 }
 function PortfolioModeTabs({ visible, value, onChange }) {
 	if (!visible) return null;
-	return /* @__PURE__ */ (0, import_jsx_runtime$46.jsx)("div", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$44.jsx)("div", {
 		className: "portfolio-mode-tabs",
 		role: "group",
 		"aria-label": "투자 구분",
-		children: ["live", "paper"].map((mode) => /* @__PURE__ */ (0, import_jsx_runtime$46.jsx)("button", {
+		children: ["live", "paper"].map((mode) => /* @__PURE__ */ (0, import_jsx_runtime$44.jsx)("button", {
 			className: "text-button",
 			type: "button",
 			"aria-pressed": value === mode,
@@ -11515,52 +11517,52 @@ function PortfolioModeTabs({ visible, value, onChange }) {
 		}, mode))
 	});
 }
-var import_jsx_runtime$46;
+var import_jsx_runtime$44;
 function init_PortfolioModeTabs() {
 	return (init_PortfolioModeTabs = __esmMin((() => {
-		import_jsx_runtime$46 = require_jsx_runtime();
+		import_jsx_runtime$44 = require_jsx_runtime();
 	})))();
 }
 function PortfolioInfo({ children }) {
-	const dialog = (0, import_react$37.useRef)(null);
-	return /* @__PURE__ */ (0, import_jsx_runtime$45.jsxs)(import_jsx_runtime$45.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("button", {
+	const dialog = (0, import_react$35.useRef)(null);
+	return /* @__PURE__ */ (0, import_jsx_runtime$43.jsxs)(import_jsx_runtime$43.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$43.jsx)("button", {
 		type: "button",
 		className: "icon-button",
 		"aria-label": "금액과 환율 안내",
 		onClick: () => dialog.current?.showModal(),
-		children: /* @__PURE__ */ (0, import_jsx_runtime$45.jsx)(AppIcon, {
+		children: /* @__PURE__ */ (0, import_jsx_runtime$43.jsx)(AppIcon, {
 			icon: Info,
 			size: 17
 		})
-	}), /* @__PURE__ */ (0, import_jsx_runtime$45.jsxs)("dialog", {
+	}), /* @__PURE__ */ (0, import_jsx_runtime$43.jsxs)("dialog", {
 		className: "portfolio-info-dialog",
 		ref: dialog,
 		"aria-labelledby": "portfolio-info-title",
 		onClick: (event) => {
 			if (event.target === event.currentTarget) event.currentTarget.close();
 		},
-		children: [/* @__PURE__ */ (0, import_jsx_runtime$45.jsxs)("header", { children: [/* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("h2", {
+		children: [/* @__PURE__ */ (0, import_jsx_runtime$43.jsxs)("header", { children: [/* @__PURE__ */ (0, import_jsx_runtime$43.jsx)("h2", {
 			id: "portfolio-info-title",
 			children: "금액과 환율"
-		}), /* @__PURE__ */ (0, import_jsx_runtime$45.jsx)("button", {
+		}), /* @__PURE__ */ (0, import_jsx_runtime$43.jsx)("button", {
 			type: "button",
 			className: "icon-button",
 			"aria-label": "안내 닫기",
 			onClick: () => dialog.current?.close(),
-			children: /* @__PURE__ */ (0, import_jsx_runtime$45.jsx)(AppIcon, {
+			children: /* @__PURE__ */ (0, import_jsx_runtime$43.jsx)(AppIcon, {
 				icon: X,
 				size: 18
 			})
 		})] }), children]
 	})] });
 }
-var import_react$37, import_jsx_runtime$45;
+var import_react$35, import_jsx_runtime$43;
 function init_PortfolioInfo() {
 	return (init_PortfolioInfo = __esmMin((() => {
-		import_react$37 = require_react();
+		import_react$35 = require_react();
 		init_info(), init_x();
 		init_AppIcon();
-		import_jsx_runtime$45 = require_jsx_runtime();
+		import_jsx_runtime$43 = require_jsx_runtime();
 	})))();
 }
 function init_portfolio_clean() {
@@ -11568,7 +11570,7 @@ function init_portfolio_clean() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/components/portfolio/portfolio-clean.css?v=source-build-r99";
+			l.href = "/local/app/css-source/src/components/portfolio/portfolio-clean.css?v=source-build-r102";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -11621,7 +11623,7 @@ function init_currency_display() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/components/portfolio/currency-display.css?v=source-build-r99";
+			l.href = "/local/app/css-source/src/components/portfolio/currency-display.css?v=source-build-r102";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -11629,27 +11631,27 @@ function init_currency_display() {
 function OriginalSummary({ snapshot, hidden }) {
 	const summary = summarizePortfolio(snapshot);
 	const currencies = [.../* @__PURE__ */ new Set([...snapshot.positions.map((p) => p.currency), ...snapshot.balances.map((b) => b.currency)])];
-	return /* @__PURE__ */ (0, import_jsx_runtime$44.jsx)("div", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$42.jsx)("div", {
 		className: "original-summary",
 		children: currencies.map((currency) => {
 			const total = summary.totalsByCurrency.find((t) => t.currency === currency);
 			const holdings = summarizeKnownHoldings(snapshot, currency);
 			const money = (value) => value == null ? "미확인" : hidden ? "••••••" : formatMoney(value);
-			return /* @__PURE__ */ (0, import_jsx_runtime$44.jsxs)("section", { children: [
-				/* @__PURE__ */ (0, import_jsx_runtime$44.jsx)("h3", { children: currency === "KRW" ? "원화" : currency === "USD" ? "달러" : currency }),
-				/* @__PURE__ */ (0, import_jsx_runtime$44.jsx)("div", {
+			return /* @__PURE__ */ (0, import_jsx_runtime$42.jsxs)("section", { children: [
+				/* @__PURE__ */ (0, import_jsx_runtime$42.jsx)("h3", { children: currency === "KRW" ? "원화" : currency === "USD" ? "달러" : currency }),
+				/* @__PURE__ */ (0, import_jsx_runtime$42.jsx)("div", {
 					className: "total-value",
 					children: money(total?.totalAssets ?? holdings.marketValue)
 				}),
-				/* @__PURE__ */ (0, import_jsx_runtime$44.jsxs)("div", {
+				/* @__PURE__ */ (0, import_jsx_runtime$42.jsxs)("div", {
 					className: "metrics-row",
 					children: [
-						/* @__PURE__ */ (0, import_jsx_runtime$44.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime$44.jsx)("span", { children: "주식" }), /* @__PURE__ */ (0, import_jsx_runtime$44.jsx)("strong", { children: money(holdings.marketValue) })] }),
-						/* @__PURE__ */ (0, import_jsx_runtime$44.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime$44.jsx)("span", { children: "현금" }), /* @__PURE__ */ (0, import_jsx_runtime$44.jsx)("strong", { children: money(total?.cash) })] }),
-						/* @__PURE__ */ (0, import_jsx_runtime$44.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime$44.jsx)("span", { children: "평가손익" }), /* @__PURE__ */ (0, import_jsx_runtime$44.jsx)("strong", { children: money(holdings.unrealizedPnl) })] })
+						/* @__PURE__ */ (0, import_jsx_runtime$42.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime$42.jsx)("span", { children: "주식" }), /* @__PURE__ */ (0, import_jsx_runtime$42.jsx)("strong", { children: money(holdings.marketValue) })] }),
+						/* @__PURE__ */ (0, import_jsx_runtime$42.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime$42.jsx)("span", { children: "현금" }), /* @__PURE__ */ (0, import_jsx_runtime$42.jsx)("strong", { children: money(total?.cash) })] }),
+						/* @__PURE__ */ (0, import_jsx_runtime$42.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime$42.jsx)("span", { children: "평가손익" }), /* @__PURE__ */ (0, import_jsx_runtime$42.jsx)("strong", { children: money(holdings.unrealizedPnl) })] })
 					]
 				}),
-				total?.totalAssets == null && /* @__PURE__ */ (0, import_jsx_runtime$44.jsx)("small", {
+				total?.totalAssets == null && /* @__PURE__ */ (0, import_jsx_runtime$42.jsx)("small", {
 					className: "subtle",
 					children: "일부 조회"
 				})
@@ -11657,12 +11659,12 @@ function OriginalSummary({ snapshot, hidden }) {
 		})
 	});
 }
-var import_jsx_runtime$44;
+var import_jsx_runtime$42;
 function init_OriginalSummary() {
 	return (init_OriginalSummary = __esmMin((() => {
 		init_currency_display();
 		init_portfolio();
-		import_jsx_runtime$44 = require_jsx_runtime();
+		import_jsx_runtime$42 = require_jsx_runtime();
 	})))();
 }
 function QueryStatus({ fetchedAt, autoMinutes = 0, now = (/* @__PURE__ */ new Date()).toISOString() }) {
@@ -11685,7 +11687,7 @@ function QueryStatus({ fetchedAt, autoMinutes = 0, now = (/* @__PURE__ */ new Da
 		month: "2-digit",
 		day: "2-digit"
 	}).format(date) + " " : "";
-	return /* @__PURE__ */ (0, import_jsx_runtime$43.jsxs)("small", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$41.jsxs)("small", {
 		className: "refresh-status",
 		title: autoMinutes ? "앱이 보이는 동안 인증된 지원 연결만 갱신합니다. 만료 인증을 자동 발급하지 않습니다. 실패 시 간격을 늘립니다." : "계좌별 마지막 조회 시각은 연결 상세에서 확인할 수 있습니다. 자동 갱신은 꺼져 있거나 현재 연결에서 사용할 수 없습니다.",
 		children: [
@@ -11696,10 +11698,10 @@ function QueryStatus({ fetchedAt, autoMinutes = 0, now = (/* @__PURE__ */ new Da
 		]
 	});
 }
-var import_jsx_runtime$43;
+var import_jsx_runtime$41;
 function init_QueryStatus() {
 	return (init_QueryStatus = __esmMin((() => {
-		import_jsx_runtime$43 = require_jsx_runtime();
+		import_jsx_runtime$41 = require_jsx_runtime();
 	})))();
 }
 function marketGroup(market) {
@@ -11864,14 +11866,14 @@ function init_assetGroups() {
 		]);
 	})))();
 }
-function exact$1(value, keys) {
+function exact(value, keys) {
 	return !!value && typeof value === "object" && !Array.isArray(value) && Object.keys(value).sort().join("|") === [...keys].sort().join("|");
 }
 function parseAssetGroupPreferences(raw) {
 	try {
 		if (raw.length > 25e4) return null;
 		const p = JSON.parse(raw);
-		if (!exact$1(p, [
+		if (!exact(p, [
 			"version",
 			"mode",
 			"groups",
@@ -11884,7 +11886,7 @@ function parseAssetGroupPreferences(raw) {
 		].includes(p.mode) || !Array.isArray(p.groups) || !Array.isArray(p.assignments) || p.assignments.length > 2e3) return null;
 		let result = emptyAssetGroups();
 		for (const g of p.groups) {
-			if (!exact$1(g, ["id", "name"]) || typeof g.id !== "string" || typeof g.name !== "string") return null;
+			if (!exact(g, ["id", "name"]) || typeof g.id !== "string" || typeof g.name !== "string") return null;
 			result = editAssetGroups(result, {
 				type: "create",
 				id: g.id,
@@ -11894,7 +11896,7 @@ function parseAssetGroupPreferences(raw) {
 		}
 		const seen = /* @__PURE__ */ new Set();
 		for (const a of p.assignments) {
-			if (!exact$1(a, ["key", "groupId"]) || typeof a.key !== "string" || typeof a.groupId !== "string" || a.key.length > 2048 || seen.has(a.key)) return null;
+			if (!exact(a, ["key", "groupId"]) || typeof a.key !== "string" || typeof a.groupId !== "string" || a.key.length > 2048 || seen.has(a.key)) return null;
 			const identity = JSON.parse(a.key);
 			if (!Array.isArray(identity) || identity.length !== 4 || identity.some((v) => typeof v !== "string" || !v) || !["toss", "kiwoom"].includes(identity[0]) || JSON.stringify(identity) !== a.key) return null;
 			seen.add(a.key);
@@ -11971,12 +11973,12 @@ function initialGrouping() {
 }
 function Allocation({ positions, currency, available, source, quote = null, fixedGrouping, readOnly = false }) {
 	const locked = readOnly || fixedGrouping !== void 0;
-	const [session, setSession] = (0, import_react$36.useState)(() => openAssetGroupPreferences(void 0, locked));
-	const [prefs, setPrefs] = (0, import_react$36.useState)(() => ({
+	const [session, setSession] = (0, import_react$34.useState)(() => openAssetGroupPreferences(void 0, locked));
+	const [prefs, setPrefs] = (0, import_react$34.useState)(() => ({
 		...session.value,
 		mode: !locked && !session.present && !session.blocked ? initialGrouping() : session.value.mode
 	}));
-	const [error, setError] = (0, import_react$36.useState)(session.blocked && !locked ? "설정을 읽지 못했습니다. 원본은 유지됩니다." : ""), [editing, setEditing] = (0, import_react$36.useState)(false), [name, setName] = (0, import_react$36.useState)(""), [selected, setSelected] = (0, import_react$36.useState)("");
+	const [error, setError] = (0, import_react$34.useState)(session.blocked && !locked ? "설정을 읽지 못했습니다. 원본은 유지됩니다." : ""), [editing, setEditing] = (0, import_react$34.useState)(false), [name, setName] = (0, import_react$34.useState)(""), [selected, setSelected] = (0, import_react$34.useState)("");
 	const grouping = fixedGrouping ?? prefs.mode;
 	const { groups, cashMissing } = grouping === "custom" ? projectAssetGroups(positions, currency, prefs, source, quote) : allocationGroups(positions, grouping, currency, source, quote);
 	const shares = allocationBasisPoints(groups.map((group) => group.value), currency);
@@ -12011,12 +12013,12 @@ function Allocation({ positions, currency, available, source, quote = null, fixe
 		}
 		setError(next.blocked ? "설정을 읽지 못했습니다. 원본은 유지됩니다." : "");
 	}
-	return /* @__PURE__ */ (0, import_jsx_runtime$42.jsxs)(import_jsx_runtime$42.Fragment, { children: [
-		/* @__PURE__ */ (0, import_jsx_runtime$42.jsxs)("div", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$40.jsxs)(import_jsx_runtime$40.Fragment, { children: [
+		/* @__PURE__ */ (0, import_jsx_runtime$40.jsxs)("div", {
 			className: "allocation-modes",
 			role: "group",
 			"aria-label": "자산 비중 분류",
-			children: [Object.keys(labels).map((key) => /* @__PURE__ */ (0, import_jsx_runtime$42.jsx)("button", {
+			children: [Object.keys(labels).map((key) => /* @__PURE__ */ (0, import_jsx_runtime$40.jsx)("button", {
 				type: "button",
 				className: "text-button",
 				"aria-pressed": grouping === key,
@@ -12026,7 +12028,7 @@ function Allocation({ positions, currency, available, source, quote = null, fixe
 					mode: key
 				}),
 				children: labels[key]
-			}, key)), !locked && /* @__PURE__ */ (0, import_jsx_runtime$42.jsx)("button", {
+			}, key)), !locked && /* @__PURE__ */ (0, import_jsx_runtime$40.jsx)("button", {
 				type: "button",
 				className: "text-button",
 				"aria-label": "자산 그룹 설정",
@@ -12036,7 +12038,7 @@ function Allocation({ positions, currency, available, source, quote = null, fixe
 				children: "⚙"
 			})]
 		}),
-		editing && !locked && /* @__PURE__ */ (0, import_jsx_runtime$42.jsxs)("section", {
+		editing && !locked && /* @__PURE__ */ (0, import_jsx_runtime$40.jsxs)("section", {
 			className: "allocation-group-editor",
 			"aria-label": "자산 그룹 편집",
 			onKeyDown: (e) => {
@@ -12046,23 +12048,23 @@ function Allocation({ positions, currency, available, source, quote = null, fixe
 				}
 			},
 			children: [
-				/* @__PURE__ */ (0, import_jsx_runtime$42.jsxs)("div", {
+				/* @__PURE__ */ (0, import_jsx_runtime$40.jsxs)("div", {
 					className: "allocation-group-edit-row",
-					children: [/* @__PURE__ */ (0, import_jsx_runtime$42.jsxs)("select", {
+					children: [/* @__PURE__ */ (0, import_jsx_runtime$40.jsxs)("select", {
 						"aria-label": "편집할 그룹",
 						value: selected,
 						onChange: (e) => {
 							setSelected(e.target.value);
 							setName(prefs.groups.find((g) => g.id === e.target.value)?.name ?? "");
 						},
-						children: [/* @__PURE__ */ (0, import_jsx_runtime$42.jsx)("option", {
+						children: [/* @__PURE__ */ (0, import_jsx_runtime$40.jsx)("option", {
 							value: "",
 							children: "새 그룹"
-						}), prefs.groups.map((g) => /* @__PURE__ */ (0, import_jsx_runtime$42.jsx)("option", {
+						}), prefs.groups.map((g) => /* @__PURE__ */ (0, import_jsx_runtime$40.jsx)("option", {
 							value: g.id,
 							children: g.name
 						}, g.id))]
-					}), /* @__PURE__ */ (0, import_jsx_runtime$42.jsx)("input", {
+					}), /* @__PURE__ */ (0, import_jsx_runtime$40.jsx)("input", {
 						"aria-label": "그룹 이름",
 						placeholder: "그룹 이름",
 						maxLength: 40,
@@ -12070,10 +12072,10 @@ function Allocation({ positions, currency, available, source, quote = null, fixe
 						onChange: (e) => setName(e.target.value)
 					})]
 				}),
-				/* @__PURE__ */ (0, import_jsx_runtime$42.jsxs)("div", {
+				/* @__PURE__ */ (0, import_jsx_runtime$40.jsxs)("div", {
 					className: "allocation-group-edit-row",
 					children: [
-						/* @__PURE__ */ (0, import_jsx_runtime$42.jsx)("button", {
+						/* @__PURE__ */ (0, import_jsx_runtime$40.jsx)("button", {
 							type: "button",
 							className: "text-button",
 							onClick: () => edit({
@@ -12083,7 +12085,7 @@ function Allocation({ positions, currency, available, source, quote = null, fixe
 							}),
 							children: "그룹 만들기"
 						}),
-						/* @__PURE__ */ (0, import_jsx_runtime$42.jsx)("button", {
+						/* @__PURE__ */ (0, import_jsx_runtime$40.jsx)("button", {
 							type: "button",
 							className: "text-button",
 							disabled: !selected,
@@ -12094,7 +12096,7 @@ function Allocation({ positions, currency, available, source, quote = null, fixe
 							}),
 							children: "이름 변경"
 						}),
-						/* @__PURE__ */ (0, import_jsx_runtime$42.jsx)("button", {
+						/* @__PURE__ */ (0, import_jsx_runtime$40.jsx)("button", {
 							type: "button",
 							className: "text-button",
 							disabled: !selected,
@@ -12110,15 +12112,15 @@ function Allocation({ positions, currency, available, source, quote = null, fixe
 						})
 					]
 				}),
-				/* @__PURE__ */ (0, import_jsx_runtime$42.jsx)("div", {
+				/* @__PURE__ */ (0, import_jsx_runtime$40.jsx)("div", {
 					className: "allocation-group-members",
-					children: positions.map((p) => /* @__PURE__ */ (0, import_jsx_runtime$42.jsxs)("label", { children: [/* @__PURE__ */ (0, import_jsx_runtime$42.jsxs)("span", { children: [p.name, /* @__PURE__ */ (0, import_jsx_runtime$42.jsxs)("small", { children: [
+					children: positions.map((p) => /* @__PURE__ */ (0, import_jsx_runtime$40.jsxs)("label", { children: [/* @__PURE__ */ (0, import_jsx_runtime$40.jsxs)("span", { children: [p.name, /* @__PURE__ */ (0, import_jsx_runtime$40.jsxs)("small", { children: [
 						p.market,
 						" · ",
 						source?.accounts.find((a) => a.id === p.accountId)?.maskedLabel ?? `계좌 ${[...new Set(positions.map((row) => row.accountId))].indexOf(p.accountId) + 1}`,
 						" · ",
 						p.instrumentId
-					] })] }), /* @__PURE__ */ (0, import_jsx_runtime$42.jsxs)("select", {
+					] })] }), /* @__PURE__ */ (0, import_jsx_runtime$40.jsxs)("select", {
 						"aria-label": `${p.name} 그룹`,
 						value: prefs.assignments.find((a) => a.key === assetIdentity(p))?.groupId ?? "",
 						onChange: (e) => edit({
@@ -12126,23 +12128,23 @@ function Allocation({ positions, currency, available, source, quote = null, fixe
 							key: assetIdentity(p),
 							groupId: e.target.value || null
 						}),
-						children: [/* @__PURE__ */ (0, import_jsx_runtime$42.jsx)("option", {
+						children: [/* @__PURE__ */ (0, import_jsx_runtime$40.jsx)("option", {
 							value: "",
 							children: "자동 분류"
-						}), prefs.groups.map((g) => /* @__PURE__ */ (0, import_jsx_runtime$42.jsx)("option", {
+						}), prefs.groups.map((g) => /* @__PURE__ */ (0, import_jsx_runtime$40.jsx)("option", {
 							value: g.id,
 							children: g.name
 						}, g.id))]
 					})] }, assetIdentity(p)))
 				}),
-				/* @__PURE__ */ (0, import_jsx_runtime$42.jsxs)("div", {
+				/* @__PURE__ */ (0, import_jsx_runtime$40.jsxs)("div", {
 					className: "allocation-group-edit-row",
-					children: [/* @__PURE__ */ (0, import_jsx_runtime$42.jsx)("button", {
+					children: [/* @__PURE__ */ (0, import_jsx_runtime$40.jsx)("button", {
 						type: "button",
 						className: "text-button",
 						onClick: () => edit({ type: "reset" }),
 						children: "자동 분류로 복귀"
-					}), /* @__PURE__ */ (0, import_jsx_runtime$42.jsx)("button", {
+					}), /* @__PURE__ */ (0, import_jsx_runtime$40.jsx)("button", {
 						type: "button",
 						className: "text-button",
 						onClick: (e) => closeEditor(e.currentTarget),
@@ -12151,34 +12153,34 @@ function Allocation({ positions, currency, available, source, quote = null, fixe
 				})
 			]
 		}),
-		!available || !shares ? /* @__PURE__ */ (0, import_jsx_runtime$42.jsxs)("div", {
+		!available || !shares ? /* @__PURE__ */ (0, import_jsx_runtime$40.jsxs)("div", {
 			className: "allocation-empty",
-			children: [/* @__PURE__ */ (0, import_jsx_runtime$42.jsx)("div", { className: "donut empty" }), /* @__PURE__ */ (0, import_jsx_runtime$42.jsx)("span", { children: "비중을 확인할 수 없습니다." })]
-		}) : /* @__PURE__ */ (0, import_jsx_runtime$42.jsxs)(import_jsx_runtime$42.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$42.jsx)("div", {
+			children: [/* @__PURE__ */ (0, import_jsx_runtime$40.jsx)("div", { className: "donut empty" }), /* @__PURE__ */ (0, import_jsx_runtime$40.jsx)("span", { children: "비중을 확인할 수 없습니다." })]
+		}) : /* @__PURE__ */ (0, import_jsx_runtime$40.jsxs)(import_jsx_runtime$40.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$40.jsx)("div", {
 			className: "donut",
 			role: "img",
 			"aria-label": `${labels[grouping]} 자산 비중`,
 			style: { background: `conic-gradient(${stops})` },
-			children: /* @__PURE__ */ (0, import_jsx_runtime$42.jsxs)("div", { children: [
-				/* @__PURE__ */ (0, import_jsx_runtime$42.jsx)("span", { children: grouping === "assets" || grouping === "custom" ? "확인한 자산" : "조회된 주식" }),
-				/* @__PURE__ */ (0, import_jsx_runtime$42.jsxs)("strong", { children: [grouping === "holdings" ? groups.length : positions.length, /* @__PURE__ */ (0, import_jsx_runtime$42.jsx)("small", { children: grouping === "assets" || grouping === "custom" ? "보유종목" : "종목" })] }),
-				/* @__PURE__ */ (0, import_jsx_runtime$42.jsx)("span", { children: currency })
+			children: /* @__PURE__ */ (0, import_jsx_runtime$40.jsxs)("div", { children: [
+				/* @__PURE__ */ (0, import_jsx_runtime$40.jsx)("span", { children: grouping === "assets" || grouping === "custom" ? "확인한 자산" : "조회된 주식" }),
+				/* @__PURE__ */ (0, import_jsx_runtime$40.jsxs)("strong", { children: [grouping === "holdings" ? groups.length : positions.length, /* @__PURE__ */ (0, import_jsx_runtime$40.jsx)("small", { children: grouping === "assets" || grouping === "custom" ? "보유종목" : "종목" })] }),
+				/* @__PURE__ */ (0, import_jsx_runtime$40.jsx)("span", { children: currency })
 			] })
-		}), /* @__PURE__ */ (0, import_jsx_runtime$42.jsx)("div", {
+		}), /* @__PURE__ */ (0, import_jsx_runtime$40.jsx)("div", {
 			className: "allocation-legend",
-			children: groups.map((group, index) => /* @__PURE__ */ (0, import_jsx_runtime$42.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime$42.jsxs)("span", { children: [/* @__PURE__ */ (0, import_jsx_runtime$42.jsx)("i", { style: { background: colors[index % colors.length] } }), group.label] }), /* @__PURE__ */ (0, import_jsx_runtime$42.jsxs)("strong", { children: [(shares[index] / 100).toFixed(1), "%"] })] }, group.id))
+			children: groups.map((group, index) => /* @__PURE__ */ (0, import_jsx_runtime$40.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime$40.jsxs)("span", { children: [/* @__PURE__ */ (0, import_jsx_runtime$40.jsx)("i", { style: { background: colors[index % colors.length] } }), group.label] }), /* @__PURE__ */ (0, import_jsx_runtime$40.jsxs)("strong", { children: [(shares[index] / 100).toFixed(1), "%"] })] }, group.id))
 		})] }),
-		(grouping === "assets" || grouping === "custom") && cashMissing && /* @__PURE__ */ (0, import_jsx_runtime$42.jsx)("p", {
+		(grouping === "assets" || grouping === "custom") && cashMissing && /* @__PURE__ */ (0, import_jsx_runtime$40.jsx)("p", {
 			className: "summary-scope",
 			children: "미조회 현금은 제외"
 		}),
-		error && /* @__PURE__ */ (0, import_jsx_runtime$42.jsxs)("p", {
+		error && /* @__PURE__ */ (0, import_jsx_runtime$40.jsxs)("p", {
 			className: "scope-copy",
 			role: "status",
 			children: [
 				error,
 				" ",
-				!locked && /* @__PURE__ */ (0, import_jsx_runtime$42.jsx)("button", {
+				!locked && /* @__PURE__ */ (0, import_jsx_runtime$40.jsx)("button", {
 					type: "button",
 					className: "text-button",
 					onClick: reread,
@@ -12188,15 +12190,15 @@ function Allocation({ positions, currency, available, source, quote = null, fixe
 		})
 	] });
 }
-var import_react$36, import_jsx_runtime$42, labels, colors, preference;
+var import_react$34, import_jsx_runtime$40, labels, colors, preference;
 function init_Allocation() {
 	return (init_Allocation = __esmMin((() => {
-		import_react$36 = require_react();
+		import_react$34 = require_react();
 		init_portfolio();
 		init_allocationGroups();
 		init_assetGroups();
 		init_assetGroupPreferences();
-		import_jsx_runtime$42 = require_jsx_runtime();
+		import_jsx_runtime$40 = require_jsx_runtime();
 		labels = {
 			holdings: "종목별",
 			market: "국가별",
@@ -12232,24 +12234,24 @@ function receivedCount(traces) {
 	return `${known.reduce((sum, trace) => sum + trace.rowsReceived, 0)}건${known.length !== traces.length || traces.some((trace) => trace.state !== "complete") ? "(일부)" : ""}`;
 }
 function AccountTraceGroup({ account, label, traces, cached, technical, grouped }) {
-	const content = traces.length === 0 ? /* @__PURE__ */ (0, import_jsx_runtime$41.jsx)("p", {
+	const content = traces.length === 0 ? /* @__PURE__ */ (0, import_jsx_runtime$39.jsx)("p", {
 		className: "chart-note",
 		children: "이 계좌의 단계별 진단 기록이 없습니다."
-	}) : /* @__PURE__ */ (0, import_jsx_runtime$41.jsx)("ul", {
+	}) : /* @__PURE__ */ (0, import_jsx_runtime$39.jsx)("ul", {
 		className: "holding-trace-list",
 		children: traces.map((trace) => {
 			const operation = operations[trace.operation];
 			const cachedRows = cached.filter((position) => position.accountId === account.id && position.currency === operation.currency).length;
-			return /* @__PURE__ */ (0, import_jsx_runtime$41.jsxs)("li", { children: [/* @__PURE__ */ (0, import_jsx_runtime$41.jsx)("strong", { children: operation.label }), technical ? /* @__PURE__ */ (0, import_jsx_runtime$41.jsxs)(import_jsx_runtime$41.Fragment, { children: [
-				/* @__PURE__ */ (0, import_jsx_runtime$41.jsx)("p", { children: trace.state === "complete" ? phases[trace.phase] : `${states[trace.state]} · ${phases[trace.phase]}` }),
-				/* @__PURE__ */ (0, import_jsx_runtime$41.jsxs)("p", { children: [
+			return /* @__PURE__ */ (0, import_jsx_runtime$39.jsxs)("li", { children: [/* @__PURE__ */ (0, import_jsx_runtime$39.jsx)("strong", { children: operation.label }), technical ? /* @__PURE__ */ (0, import_jsx_runtime$39.jsxs)(import_jsx_runtime$39.Fragment, { children: [
+				/* @__PURE__ */ (0, import_jsx_runtime$39.jsx)("p", { children: trace.state === "complete" ? phases[trace.phase] : `${states[trace.state]} · ${phases[trace.phase]}` }),
+				/* @__PURE__ */ (0, import_jsx_runtime$39.jsxs)("p", { children: [
 					"마지막 수신 HTTP ",
 					trace.httpStatus ?? "미확인",
 					" · 수신 페이지 ",
 					trace.pagesReceived,
 					"개"
 				] }),
-				/* @__PURE__ */ (0, import_jsx_runtime$41.jsxs)("p", { children: [
+				/* @__PURE__ */ (0, import_jsx_runtime$39.jsxs)("p", { children: [
 					"응답 배열",
 					" ",
 					trace.rowsReceived === null ? "미확인" : `${trace.rowsReceived}건`,
@@ -12262,7 +12264,7 @@ function AccountTraceGroup({ account, label, traces, cached, technical, grouped 
 					cachedRows,
 					"건"
 				] })
-			] }) : /* @__PURE__ */ (0, import_jsx_runtime$41.jsxs)(import_jsx_runtime$41.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$41.jsx)("p", { children: states[trace.state] }), /* @__PURE__ */ (0, import_jsx_runtime$41.jsxs)("p", { children: [
+			] }) : /* @__PURE__ */ (0, import_jsx_runtime$39.jsxs)(import_jsx_runtime$39.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$39.jsx)("p", { children: states[trace.state] }), /* @__PURE__ */ (0, import_jsx_runtime$39.jsxs)("p", { children: [
 				"수신",
 				" ",
 				trace.rowsReceived === null ? "미확인" : `${trace.rowsReceived}건`,
@@ -12273,11 +12275,11 @@ function AccountTraceGroup({ account, label, traces, cached, technical, grouped 
 			] })] })] }, trace.operation);
 		})
 	});
-	return grouped ? /* @__PURE__ */ (0, import_jsx_runtime$41.jsxs)("section", {
+	return grouped ? /* @__PURE__ */ (0, import_jsx_runtime$39.jsxs)("section", {
 		className: "holding-account-group",
 		role: "group",
 		"aria-label": label,
-		children: [/* @__PURE__ */ (0, import_jsx_runtime$41.jsx)("h4", { children: label }), content]
+		children: [/* @__PURE__ */ (0, import_jsx_runtime$39.jsx)("h4", { children: label }), content]
 	}) : content;
 }
 function HoldingDiagnostics({ snapshot, currency }) {
@@ -12291,7 +12293,7 @@ function HoldingDiagnostics({ snapshot, currency }) {
 	const groups = (technical) => snapshot.accounts.map((account, index) => {
 		const label = account.maskedLabel || `계좌 ${index + 1}`;
 		const uniqueLabel = snapshot.accounts.filter((other) => other.maskedLabel === account.maskedLabel).length > 1 ? `계좌 ${index + 1} · ${label}` : label;
-		return /* @__PURE__ */ (0, import_jsx_runtime$41.jsx)(AccountTraceGroup, {
+		return /* @__PURE__ */ (0, import_jsx_runtime$39.jsx)(AccountTraceGroup, {
 			account,
 			label: uniqueLabel,
 			traces: traces.filter((trace) => trace.accountId === account.id),
@@ -12300,13 +12302,13 @@ function HoldingDiagnostics({ snapshot, currency }) {
 			grouped: snapshot.accounts.length > 1
 		}, account.id);
 	});
-	return /* @__PURE__ */ (0, import_jsx_runtime$41.jsxs)("details", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$39.jsxs)("details", {
 		className: "holding-diagnostics",
-		children: [/* @__PURE__ */ (0, import_jsx_runtime$41.jsx)("summary", { children: "보유종목 조회 경로" }), /* @__PURE__ */ (0, import_jsx_runtime$41.jsxs)("div", {
+		children: [/* @__PURE__ */ (0, import_jsx_runtime$39.jsx)("summary", { children: "보유종목 조회 경로" }), /* @__PURE__ */ (0, import_jsx_runtime$39.jsxs)("div", {
 			role: "region",
 			"aria-label": "보유종목 조회 경로",
 			children: [
-				/* @__PURE__ */ (0, import_jsx_runtime$41.jsxs)("p", {
+				/* @__PURE__ */ (0, import_jsx_runtime$39.jsxs)("p", {
 					className: "holding-count-summary",
 					children: [
 						"최근 수신 ",
@@ -12321,7 +12323,7 @@ function HoldingDiagnostics({ snapshot, currency }) {
 						"건"
 					]
 				}),
-				hasPrevious ? /* @__PURE__ */ (0, import_jsx_runtime$41.jsxs)("p", {
+				hasPrevious ? /* @__PURE__ */ (0, import_jsx_runtime$39.jsxs)("p", {
 					className: "chart-note holding-diagnostic-warning",
 					children: [
 						"현재 보관된 값은 이전 조회 기준입니다. 최근",
@@ -12329,25 +12331,25 @@ function HoldingDiagnostics({ snapshot, currency }) {
 						hasFailure ? "실패 " : "",
 						"진단의 수신 건수와 현재 보관 건수는 다를 수 있습니다."
 					]
-				}) : hasFailure && /* @__PURE__ */ (0, import_jsx_runtime$41.jsx)("p", {
+				}) : hasFailure && /* @__PURE__ */ (0, import_jsx_runtime$39.jsx)("p", {
 					className: "chart-note holding-diagnostic-warning",
 					children: "실패한 조회의 수신 건수는 일부 페이지일 수 있으며 전체 보유 건수가 아닙니다."
 				}),
-				hasEmptyScope && /* @__PURE__ */ (0, import_jsx_runtime$41.jsx)("p", {
+				hasEmptyScope && /* @__PURE__ */ (0, import_jsx_runtime$39.jsx)("p", {
 					className: "chart-note holding-diagnostic-warning",
 					children: "지원 조회 범위에서 빈 배열 확인 · 실제 계좌 전체의 보유 없음이 확정된 것은 아닙니다."
 				}),
-				traces.length === 0 ? /* @__PURE__ */ (0, import_jsx_runtime$41.jsx)("p", {
+				traces.length === 0 ? /* @__PURE__ */ (0, import_jsx_runtime$39.jsx)("p", {
 					className: "chart-note",
 					children: "이 캐시에는 단계별 진단 기록이 없습니다. 기록 없음은 미실행이나 보유 없음을 뜻하지 않습니다."
 				}) : groups(false),
-				/* @__PURE__ */ (0, import_jsx_runtime$41.jsx)("p", {
+				/* @__PURE__ */ (0, import_jsx_runtime$39.jsx)("p", {
 					className: "chart-note",
 					children: "원통화 필터로 다른 통화의 행은 보이지 않습니다. 금액 숨김은 종목 행을 제거하지 않습니다."
 				}),
-				traces.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime$41.jsxs)("details", {
+				traces.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime$39.jsxs)("details", {
 					className: "holding-technical-details",
-					children: [/* @__PURE__ */ (0, import_jsx_runtime$41.jsx)("summary", { children: "기술 상세" }), /* @__PURE__ */ (0, import_jsx_runtime$41.jsx)("div", {
+					children: [/* @__PURE__ */ (0, import_jsx_runtime$39.jsx)("summary", { children: "기술 상세" }), /* @__PURE__ */ (0, import_jsx_runtime$39.jsx)("div", {
 						role: "region",
 						"aria-label": "보유종목 기술 상세",
 						children: groups(true)
@@ -12357,10 +12359,10 @@ function HoldingDiagnostics({ snapshot, currency }) {
 		})]
 	});
 }
-var import_jsx_runtime$41, phases, states, operations;
+var import_jsx_runtime$39, phases, states, operations;
 function init_HoldingDiagnostics() {
 	return (init_HoldingDiagnostics = __esmMin((() => {
-		import_jsx_runtime$41 = require_jsx_runtime();
+		import_jsx_runtime$39 = require_jsx_runtime();
 		phases = {
 			not_run: "완료 단계 미확인",
 			response: "응답 수신까지 완료",
@@ -12388,19 +12390,19 @@ function init_HoldingDiagnostics() {
 	})))();
 }
 function PrivacyToggle({ hidden, onToggle, compact = true }) {
-	return /* @__PURE__ */ (0, import_jsx_runtime$40.jsxs)("button", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$38.jsxs)("button", {
 		type: "button",
 		className: `privacy-toggle ${compact ? "icon-button" : "secondary-button small"}`,
 		"aria-label": hidden ? "금액 숨기기 · 현재 숨김 · 누르면 표시" : "금액 숨기기 · 현재 표시 · 누르면 숨김",
 		"aria-pressed": hidden,
 		onClick: onToggle,
 		children: [
-			/* @__PURE__ */ (0, import_jsx_runtime$40.jsx)(AppIcon, {
+			/* @__PURE__ */ (0, import_jsx_runtime$38.jsx)(AppIcon, {
 				icon: hidden ? EyeOff : Eye,
 				size: compact ? 20 : 18
 			}),
-			!compact && /* @__PURE__ */ (0, import_jsx_runtime$40.jsxs)("span", { children: ["금액 숨김 ", hidden ? "켬" : "끔"] }),
-			/* @__PURE__ */ (0, import_jsx_runtime$40.jsx)("span", {
+			!compact && /* @__PURE__ */ (0, import_jsx_runtime$38.jsxs)("span", { children: ["금액 숨김 ", hidden ? "켬" : "끔"] }),
+			/* @__PURE__ */ (0, import_jsx_runtime$38.jsx)("span", {
 				className: "icon-tooltip",
 				"aria-hidden": "true",
 				children: hidden ? "금액 표시" : "금액 숨기기"
@@ -12408,12 +12410,12 @@ function PrivacyToggle({ hidden, onToggle, compact = true }) {
 		]
 	});
 }
-var import_jsx_runtime$40;
+var import_jsx_runtime$38;
 function init_PrivacyToggle() {
 	return (init_PrivacyToggle = __esmMin((() => {
 		init_eye(), init_eye_off();
 		init_AppIcon();
-		import_jsx_runtime$40 = require_jsx_runtime();
+		import_jsx_runtime$38 = require_jsx_runtime();
 	})))();
 }
 function defaultMarketPrefs() {
@@ -12499,10 +12501,10 @@ function load$2() {
 	}
 }
 function useReferenceFx() {
-	const [state, setState] = (0, import_react$35.useState)(load$2);
-	const [busy, setBusy] = (0, import_react$35.useState)(false);
-	const active = (0, import_react$35.useRef)(false), epoch = (0, import_react$35.useRef)(0);
-	(0, import_react$35.useLayoutEffect)(() => {
+	const [state, setState] = (0, import_react$33.useState)(load$2);
+	const [busy, setBusy] = (0, import_react$33.useState)(false);
+	const active = (0, import_react$33.useRef)(false), epoch = (0, import_react$33.useRef)(0);
+	(0, import_react$33.useLayoutEffect)(() => {
 		const current = ++epoch.current;
 		return () => {
 			epoch.current = current + 1;
@@ -12541,7 +12543,7 @@ function useReferenceFx() {
 	};
 }
 function ReferenceFxCaption({ quote }) {
-	return /* @__PURE__ */ (0, import_jsx_runtime$39.jsxs)("small", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$37.jsxs)("small", {
 		className: "market-fx-caption",
 		title: `출처: ECB ${quote.sourceUrl}\n1 EUR = ${quote.eurUsd} USD / ${quote.eurKrw} KRW\nKRW/EUR ÷ USD/EUR로 계산, 소수 8자리 반올림\n불러온 시각: ${quote.observedAt}\n실시간·거래용 환율이 아니며 자산 환산에 자동 적용하지 않습니다.`,
 		children: [
@@ -12552,28 +12554,28 @@ function ReferenceFxCaption({ quote }) {
 		]
 	});
 }
-var import_react$35, import_jsx_runtime$39;
+var import_react$33, import_jsx_runtime$37;
 function init_ReferenceFxView() {
 	return (init_ReferenceFxView = __esmMin((() => {
-		import_react$35 = require_react();
+		import_react$33 = require_react();
 		init_core();
 		init_referenceFx();
-		import_jsx_runtime$39 = require_jsx_runtime();
+		import_jsx_runtime$37 = require_jsx_runtime();
 	})))();
 }
 function date$1(raw) {
-	if (!/^\d{2}\/\d{2}\/\d{4}$/.test(raw)) throw fail$2();
+	if (!/^\d{2}\/\d{2}\/\d{4}$/.test(raw)) throw fail$1();
 	const [m, d, y] = raw.split("/").map(Number);
-	if (y < 1990) throw fail$2();
+	if (y < 1990) throw fail$1();
 	const t = new Date(Date.UTC(y, m - 1, d));
-	if (t.getUTCFullYear() !== y || t.getUTCMonth() !== m - 1 || t.getUTCDate() !== d) throw fail$2();
+	if (t.getUTCFullYear() !== y || t.getUTCMonth() !== m - 1 || t.getUTCDate() !== d) throw fail$1();
 	return `${raw.slice(6)}-${raw.slice(0, 2)}-${raw.slice(3, 5)}`;
 }
 function price(raw) {
 	return typeof raw === "string" && raw.length <= 64 && /^(?:0|[1-9]\d*)(?:\.\d{1,8})?$/.test(raw);
 }
 function day(now) {
-	if (!/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}Z$/.test(now) || new Date(now).toISOString() !== now) throw fail$2();
+	if (!/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}Z$/.test(now) || new Date(now).toISOString() !== now) throw fail$1();
 	const parts = new Intl.DateTimeFormat("en-US", {
 		timeZone: "America/New_York",
 		year: "numeric",
@@ -12585,16 +12587,16 @@ function day(now) {
 }
 function parseVixFile(text, importedAt) {
 	const today = day(importedAt);
-	if (new TextEncoder().encode(text).length > 2097152) throw fail$2();
+	if (new TextEncoder().encode(text).length > 2097152) throw fail$1();
 	const rows = text.replace(/^\uFEFF/, "").split(/\r?\n/);
 	while (rows.at(-1) === "") rows.pop();
-	if (rows.shift() !== "DATE,OPEN,HIGH,LOW,CLOSE" || !rows.length || rows.length > 2e4) throw fail$2();
+	if (rows.shift() !== "DATE,OPEN,HIGH,LOW,CLOSE" || !rows.length || rows.length > 2e4) throw fail$1();
 	let latest = null, previous = null;
 	for (const line of rows) {
 		const parts = line.split(",");
-		if (parts.length !== 5 || !parts.slice(1).every(price)) throw fail$2();
+		if (parts.length !== 5 || !parts.slice(1).every(price)) throw fail$1();
 		const [raw, open, high, low, close] = parts, sourceDate = date$1(raw);
-		if (sourceDate > today || latest && sourceDate <= latest.sourceDate || compareDecimalStrings(low, high) > 0 || [open, close].some((v) => compareDecimalStrings(v, low) < 0 || compareDecimalStrings(v, high) > 0)) throw fail$2();
+		if (sourceDate > today || latest && sourceDate <= latest.sourceDate || compareDecimalStrings(low, high) > 0 || [open, close].some((v) => compareDecimalStrings(v, low) < 0 || compareDecimalStrings(v, high) > 0)) throw fail$1();
 		previous = latest;
 		latest = {
 			sourceDate,
@@ -12611,16 +12613,16 @@ function parseVixFile(text, importedAt) {
 	};
 }
 function checked$2(value, now) {
-	if (!value || typeof value !== "object" || Array.isArray(value)) throw fail$2();
+	if (!value || typeof value !== "object" || Array.isArray(value)) throw fail$1();
 	const p = value;
-	if (Object.keys(p).sort().join(",") !== "importedAt,kind,latest,previous,sourceVerified" || p.kind !== "user_vix_csv_v1" || p.sourceVerified !== false || typeof p.importedAt !== "string") throw fail$2();
+	if (Object.keys(p).sort().join(",") !== "importedAt,kind,latest,previous,sourceVerified" || p.kind !== "user_vix_csv_v1" || p.sourceVerified !== false || typeof p.importedAt !== "string") throw fail$1();
 	day(p.importedAt);
-	if (p.importedAt > now) throw fail$2();
+	if (p.importedAt > now) throw fail$1();
 	const today = day(now);
 	function row(value) {
-		if (!value || typeof value !== "object" || Array.isArray(value)) throw fail$2();
+		if (!value || typeof value !== "object" || Array.isArray(value)) throw fail$1();
 		const r = value;
-		if (Object.keys(r).sort().join(",") !== "close,sourceDate,sourceDateRaw" || !price(r.close) || typeof r.sourceDateRaw !== "string" || r.sourceDate !== date$1(r.sourceDateRaw) || String(r.sourceDate) > today) throw fail$2();
+		if (Object.keys(r).sort().join(",") !== "close,sourceDate,sourceDateRaw" || !price(r.close) || typeof r.sourceDateRaw !== "string" || r.sourceDate !== date$1(r.sourceDateRaw) || String(r.sourceDate) > today) throw fail$1();
 		return {
 			sourceDate: String(r.sourceDate),
 			sourceDateRaw: r.sourceDateRaw,
@@ -12628,7 +12630,7 @@ function checked$2(value, now) {
 		};
 	}
 	const latest = row(p.latest), previous = p.previous === null ? null : row(p.previous);
-	if (previous && previous.sourceDate >= latest.sourceDate) throw fail$2();
+	if (previous && previous.sourceDate >= latest.sourceDate) throw fail$1();
 	return {
 		kind: "user_vix_csv_v1",
 		sourceVerified: false,
@@ -12640,21 +12642,21 @@ function checked$2(value, now) {
 function readVixFile(storage, now) {
 	const raw = storage.getItem(VIX_FILE_KEY);
 	if (raw === null) return null;
-	if (raw.length > 8192) throw fail$2();
+	if (raw.length > 8192) throw fail$1();
 	return checked$2(JSON.parse(raw), now);
 }
 function writeVixFile(storage, quote, now) {
 	const value = checked$2(quote, now), previous = readVixFile(storage, now);
-	if (previous && previous.latest.sourceDate > value.latest.sourceDate) throw fail$2();
+	if (previous && previous.latest.sourceDate > value.latest.sourceDate) throw fail$1();
 	storage.setItem(VIX_FILE_KEY, JSON.stringify(value));
 	return value;
 }
-var VIX_FILE_KEY, fail$2;
+var VIX_FILE_KEY, fail$1;
 function init_vixFile() {
 	return (init_vixFile = __esmMin((() => {
 		init_portfolio();
 		VIX_FILE_KEY = "stockpin:vix-file:v1";
-		fail$2 = () => /* @__PURE__ */ new Error("VIX 파일 형식을 확인해 주세요.");
+		fail$1 = () => /* @__PURE__ */ new Error("VIX 파일 형식을 확인해 주세요.");
 	})))();
 }
 function init_vix_file() {
@@ -12662,7 +12664,7 @@ function init_vix_file() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/features/market/vix-file.css?v=source-build-r99";
+			l.href = "/local/app/css-source/src/features/market/vix-file.css?v=source-build-r102";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -12683,9 +12685,9 @@ function load$1() {
 	}
 }
 function VixFileQuoteView() {
-	const [state, setState] = (0, import_react$34.useState)(load$1), [busy, setBusy] = (0, import_react$34.useState)(false), [clock, setClock] = (0, import_react$34.useState)(() => Date.now());
-	const input = (0, import_react$34.useRef)(null), epoch = (0, import_react$34.useRef)(0), active = (0, import_react$34.useRef)(false);
-	(0, import_react$34.useLayoutEffect)(() => {
+	const [state, setState] = (0, import_react$32.useState)(load$1), [busy, setBusy] = (0, import_react$32.useState)(false), [clock, setClock] = (0, import_react$32.useState)(() => Date.now());
+	const input = (0, import_react$32.useRef)(null), epoch = (0, import_react$32.useRef)(0), active = (0, import_react$32.useRef)(false);
+	(0, import_react$32.useLayoutEffect)(() => {
 		const lifetime = epoch;
 		lifetime.current++;
 		const timer = setInterval(() => setClock(Date.now()), 6e4);
@@ -12722,19 +12724,19 @@ function VixFileQuoteView() {
 		}
 	}
 	const old = state.quote && clock - Date.parse(state.quote.latest.sourceDate + "T00:00:00Z") > 6048e5;
-	return /* @__PURE__ */ (0, import_jsx_runtime$38.jsxs)(import_jsx_runtime$38.Fragment, { children: [
-		/* @__PURE__ */ (0, import_jsx_runtime$38.jsx)("p", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$36.jsxs)(import_jsx_runtime$36.Fragment, { children: [
+		/* @__PURE__ */ (0, import_jsx_runtime$36.jsx)("p", {
 			className: "market-vix-meaning",
 			children: "S&P 500 옵션 · 약 30일 예상 변동성 (연율 %)"
 		}),
-		/* @__PURE__ */ (0, import_jsx_runtime$38.jsx)("strong", {
+		/* @__PURE__ */ (0, import_jsx_runtime$36.jsx)("strong", {
 			"data-market-value": true,
 			children: state.quote ? formatMoney({
 				amount: state.quote.latest.close,
 				currency: "INDEX"
 			}, false, 2) : "—"
 		}),
-		state.quote && /* @__PURE__ */ (0, import_jsx_runtime$38.jsxs)("small", {
+		state.quote && /* @__PURE__ */ (0, import_jsx_runtime$36.jsxs)("small", {
 			className: "market-vix-caption",
 			title: `사용자가 VIX로 지정해 가져온 파일입니다. 원본의 출처·진위를 검증하지 않았습니다.\n파일 날짜 원문: ${state.quote.latest.sourceDateRaw}\n가져온 시각: ${state.quote.importedAt}\n종가의 확정 시각을 추정하지 않으며 실시간 지수가 아닙니다.`,
 			children: [
@@ -12743,7 +12745,7 @@ function VixFileQuoteView() {
 				" · 파일 종가 · 출처 미검증"
 			]
 		}),
-		/* @__PURE__ */ (0, import_jsx_runtime$38.jsx)("input", {
+		/* @__PURE__ */ (0, import_jsx_runtime$36.jsx)("input", {
 			ref: input,
 			className: "market-vix-input",
 			type: "file",
@@ -12756,32 +12758,32 @@ function VixFileQuoteView() {
 				if (file) importFile(file);
 			}
 		}),
-		/* @__PURE__ */ (0, import_jsx_runtime$38.jsx)("button", {
+		/* @__PURE__ */ (0, import_jsx_runtime$36.jsx)("button", {
 			type: "button",
 			className: "market-vix-import",
 			disabled: busy || state.blocked,
 			onClick: () => input.current?.click(),
 			children: busy ? "파일 읽는 중" : "VIX 파일 가져오기"
 		}),
-		state.error && /* @__PURE__ */ (0, import_jsx_runtime$38.jsx)("p", {
+		state.error && /* @__PURE__ */ (0, import_jsx_runtime$36.jsx)("p", {
 			role: "alert",
 			className: "market-vix-error",
 			children: state.error
 		}),
-		state.blocked && /* @__PURE__ */ (0, import_jsx_runtime$38.jsx)("button", {
+		state.blocked && /* @__PURE__ */ (0, import_jsx_runtime$36.jsx)("button", {
 			type: "button",
 			onClick: () => setState(load$1()),
 			children: "VIX 저장값 다시 읽기"
 		})
 	] });
 }
-var import_react$34, import_jsx_runtime$38;
+var import_react$32, import_jsx_runtime$36;
 function init_VixFileQuoteView() {
 	return (init_VixFileQuoteView = __esmMin((() => {
-		import_react$34 = require_react();
+		import_react$32 = require_react();
 		init_vixFile();
 		init_vix_file();
-		import_jsx_runtime$38 = require_jsx_runtime();
+		import_jsx_runtime$36 = require_jsx_runtime();
 	})))();
 }
 function MarketWidgetStrip({ prefs }) {
@@ -12789,42 +12791,42 @@ function MarketWidgetStrip({ prefs }) {
 	const visible = prefs.order.filter((id) => prefs.enabled.includes(id));
 	if (!visible.length) return null;
 	const hasFx = visible.includes("usdkrw");
-	return /* @__PURE__ */ (0, import_jsx_runtime$37.jsxs)("section", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$35.jsxs)("section", {
 		className: "market-indicators",
 		"aria-label": "시장 지표",
 		children: [
-			/* @__PURE__ */ (0, import_jsx_runtime$37.jsxs)("header", { children: [
-				/* @__PURE__ */ (0, import_jsx_runtime$37.jsx)("h2", { children: "시장 지표" }),
-				/* @__PURE__ */ (0, import_jsx_runtime$37.jsx)("span", { children: hasFx && fx.quote ? visible.some((id) => id !== "usdkrw") ? "일부 공급 미연결" : "ECB 참고환율" : "공급 미연결" }),
-				hasFx && fx.native && /* @__PURE__ */ (0, import_jsx_runtime$37.jsx)("button", {
+			/* @__PURE__ */ (0, import_jsx_runtime$35.jsxs)("header", { children: [
+				/* @__PURE__ */ (0, import_jsx_runtime$35.jsx)("h2", { children: "시장 지표" }),
+				/* @__PURE__ */ (0, import_jsx_runtime$35.jsx)("span", { children: hasFx && fx.quote ? visible.some((id) => id !== "usdkrw") ? "일부 공급 미연결" : "ECB 참고환율" : "공급 미연결" }),
+				hasFx && fx.native && /* @__PURE__ */ (0, import_jsx_runtime$35.jsx)("button", {
 					disabled: fx.busy || fx.blocked,
 					onClick: () => void fx.refresh(),
 					children: fx.busy ? "참고환율 불러오는 중" : "ECB 참고환율 불러오기"
 				})
 			] }),
-			/* @__PURE__ */ (0, import_jsx_runtime$37.jsx)("div", {
+			/* @__PURE__ */ (0, import_jsx_runtime$35.jsx)("div", {
 				className: "market-indicator-values",
-				children: visible.map((id) => /* @__PURE__ */ (0, import_jsx_runtime$37.jsxs)("div", {
+				children: visible.map((id) => /* @__PURE__ */ (0, import_jsx_runtime$35.jsxs)("div", {
 					"data-market-id": id,
 					children: [
-						/* @__PURE__ */ (0, import_jsx_runtime$37.jsx)("span", { children: MARKET_WIDGETS.find((w) => w.id === id).label }),
-						id === "vix" ? /* @__PURE__ */ (0, import_jsx_runtime$37.jsx)(VixFileQuoteView, {}) : /* @__PURE__ */ (0, import_jsx_runtime$37.jsx)("strong", {
+						/* @__PURE__ */ (0, import_jsx_runtime$35.jsx)("span", { children: MARKET_WIDGETS.find((w) => w.id === id).label }),
+						id === "vix" ? /* @__PURE__ */ (0, import_jsx_runtime$35.jsx)(VixFileQuoteView, {}) : /* @__PURE__ */ (0, import_jsx_runtime$35.jsx)("strong", {
 							"data-market-value": true,
 							children: id === "usdkrw" && fx.quote ? new Intl.NumberFormat("ko-KR", {
 								minimumFractionDigits: 2,
 								maximumFractionDigits: 2
 							}).format(Number(fx.quote.krwPerUsd)) : "—"
 						}),
-						id === "usdkrw" && fx.quote && /* @__PURE__ */ (0, import_jsx_runtime$37.jsx)(ReferenceFxCaption, { quote: fx.quote })
+						id === "usdkrw" && fx.quote && /* @__PURE__ */ (0, import_jsx_runtime$35.jsx)(ReferenceFxCaption, { quote: fx.quote })
 					]
 				}, id))
 			}),
-			hasFx && fx.error && /* @__PURE__ */ (0, import_jsx_runtime$37.jsx)("p", {
+			hasFx && fx.error && /* @__PURE__ */ (0, import_jsx_runtime$35.jsx)("p", {
 				role: "alert",
 				className: "market-fx-error",
 				children: fx.error
 			}),
-			hasFx && fx.blocked && /* @__PURE__ */ (0, import_jsx_runtime$37.jsx)("button", {
+			hasFx && fx.blocked && /* @__PURE__ */ (0, import_jsx_runtime$35.jsx)("button", {
 				onClick: fx.reload,
 				children: "참고환율 저장값 다시 읽기"
 			})
@@ -12833,44 +12835,44 @@ function MarketWidgetStrip({ prefs }) {
 }
 function MarketWidgetCard({ id }) {
 	const fx = useReferenceFx(), label = MARKET_WIDGETS.find((w) => w.id === id).label, hasFx = id === "usdkrw";
-	return /* @__PURE__ */ (0, import_jsx_runtime$37.jsxs)("section", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$35.jsxs)("section", {
 		className: "market-indicators",
 		"aria-label": label,
 		children: [
-			/* @__PURE__ */ (0, import_jsx_runtime$37.jsxs)("header", { children: [/* @__PURE__ */ (0, import_jsx_runtime$37.jsx)("h3", { children: label }), hasFx && fx.native && /* @__PURE__ */ (0, import_jsx_runtime$37.jsx)("button", {
+			/* @__PURE__ */ (0, import_jsx_runtime$35.jsxs)("header", { children: [/* @__PURE__ */ (0, import_jsx_runtime$35.jsx)("h3", { children: label }), hasFx && fx.native && /* @__PURE__ */ (0, import_jsx_runtime$35.jsx)("button", {
 				disabled: fx.busy || fx.blocked,
 				onClick: () => void fx.refresh(),
 				children: fx.busy ? "참고환율 불러오는 중" : "ECB 참고환율 불러오기"
 			})] }),
-			/* @__PURE__ */ (0, import_jsx_runtime$37.jsx)("div", {
+			/* @__PURE__ */ (0, import_jsx_runtime$35.jsx)("div", {
 				className: "market-indicator-values",
-				children: /* @__PURE__ */ (0, import_jsx_runtime$37.jsxs)("div", {
+				children: /* @__PURE__ */ (0, import_jsx_runtime$35.jsxs)("div", {
 					"data-market-id": id,
-					children: [id === "vix" ? /* @__PURE__ */ (0, import_jsx_runtime$37.jsx)(VixFileQuoteView, {}) : /* @__PURE__ */ (0, import_jsx_runtime$37.jsx)("strong", {
+					children: [id === "vix" ? /* @__PURE__ */ (0, import_jsx_runtime$35.jsx)(VixFileQuoteView, {}) : /* @__PURE__ */ (0, import_jsx_runtime$35.jsx)("strong", {
 						"data-market-value": true,
 						children: hasFx && fx.quote ? new Intl.NumberFormat("ko-KR", {
 							minimumFractionDigits: 2,
 							maximumFractionDigits: 2
 						}).format(Number(fx.quote.krwPerUsd)) : "—"
-					}), hasFx && fx.quote ? /* @__PURE__ */ (0, import_jsx_runtime$37.jsx)(ReferenceFxCaption, { quote: fx.quote }) : id !== "vix" && /* @__PURE__ */ (0, import_jsx_runtime$37.jsx)("small", {
+					}), hasFx && fx.quote ? /* @__PURE__ */ (0, import_jsx_runtime$35.jsx)(ReferenceFxCaption, { quote: fx.quote }) : id !== "vix" && /* @__PURE__ */ (0, import_jsx_runtime$35.jsx)("small", {
 						className: "scope-copy",
 						children: "공급 미연결"
 					})]
 				})
 			}),
-			hasFx && fx.error && /* @__PURE__ */ (0, import_jsx_runtime$37.jsx)("p", {
+			hasFx && fx.error && /* @__PURE__ */ (0, import_jsx_runtime$35.jsx)("p", {
 				role: "alert",
 				className: "market-fx-error",
 				children: fx.error
 			}),
-			hasFx && fx.blocked && /* @__PURE__ */ (0, import_jsx_runtime$37.jsx)("button", {
+			hasFx && fx.blocked && /* @__PURE__ */ (0, import_jsx_runtime$35.jsx)("button", {
 				onClick: fx.reload,
 				children: "참고환율 저장값 다시 읽기"
 			})
 		]
 	});
 }
-var import_jsx_runtime$37;
+var import_jsx_runtime$35;
 function init_MarketWidgets() {
 	return (init_MarketWidgets = __esmMin((() => {
 		require_react();
@@ -12879,7 +12881,7 @@ function init_MarketWidgets() {
 		init_market_widgets();
 		init_ReferenceFxView();
 		init_VixFileQuoteView();
-		import_jsx_runtime$37 = require_jsx_runtime();
+		import_jsx_runtime$35 = require_jsx_runtime();
 	})))();
 }
 var WIDGET_PURPOSE;
@@ -13164,7 +13166,7 @@ function init_portfolio_widgets() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/features/market/portfolio-widgets.css?v=source-build-r99";
+			l.href = "/local/app/css-source/src/features/market/portfolio-widgets.css?v=source-build-r102";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -13285,7 +13287,7 @@ function init_profit_contribution() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/components/portfolio/profit-contribution.css?v=source-build-r99";
+			l.href = "/local/app/css-source/src/components/portfolio/profit-contribution.css?v=source-build-r102";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -13298,8 +13300,8 @@ function readSettings() {
 	}
 }
 function ProfitContribution({ positions, privacy, preview = false }) {
-	const [settings, setSettings] = (0, import_react$32.useState)(() => preview ? temporary : readSettings());
-	const [saveFailed, setSaveFailed] = (0, import_react$32.useState)(false);
+	const [settings, setSettings] = (0, import_react$30.useState)(() => preview ? temporary : readSettings());
+	const [saveFailed, setSaveFailed] = (0, import_react$30.useState)(false);
 	const alignment = preview ? "left" : settings.alignment;
 	const select = (next) => {
 		if (preview || next === settings.alignment) return;
@@ -13323,12 +13325,12 @@ function ProfitContribution({ positions, privacy, preview = false }) {
 	};
 	const currencies = [...new Set(positions.map((p) => p.currency))];
 	if (!positions.length) return null;
-	return /* @__PURE__ */ (0, import_jsx_runtime$36.jsxs)("section", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$34.jsxs)("section", {
 		className: "profit-contribution",
 		"aria-label": "평가손익 기여도",
 		"data-alignment": alignment,
 		children: [
-			/* @__PURE__ */ (0, import_jsx_runtime$36.jsxs)("header", { children: [/* @__PURE__ */ (0, import_jsx_runtime$36.jsx)("h3", { children: "평가손익 기여도" }), !preview && /* @__PURE__ */ (0, import_jsx_runtime$36.jsxs)("details", {
+			/* @__PURE__ */ (0, import_jsx_runtime$34.jsxs)("header", { children: [/* @__PURE__ */ (0, import_jsx_runtime$34.jsx)("h3", { children: "평가손익 기여도" }), !preview && /* @__PURE__ */ (0, import_jsx_runtime$34.jsxs)("details", {
 				className: "contribution-settings",
 				onKeyDown: (event) => {
 					if (event.key === "Escape") {
@@ -13336,34 +13338,34 @@ function ProfitContribution({ positions, privacy, preview = false }) {
 						event.currentTarget.querySelector("summary")?.focus();
 					}
 				},
-				children: [/* @__PURE__ */ (0, import_jsx_runtime$36.jsx)("summary", {
+				children: [/* @__PURE__ */ (0, import_jsx_runtime$34.jsx)("summary", {
 					"aria-label": "평가손익 기여도 설정",
 					title: "평가손익 기여도 설정",
 					children: "설정"
-				}), /* @__PURE__ */ (0, import_jsx_runtime$36.jsxs)("div", {
+				}), /* @__PURE__ */ (0, import_jsx_runtime$34.jsxs)("div", {
 					className: "contribution-settings-panel",
 					children: [
-						/* @__PURE__ */ (0, import_jsx_runtime$36.jsx)("span", { children: "기준선 정렬" }),
-						/* @__PURE__ */ (0, import_jsx_runtime$36.jsxs)("div", {
+						/* @__PURE__ */ (0, import_jsx_runtime$34.jsx)("span", { children: "기준선 정렬" }),
+						/* @__PURE__ */ (0, import_jsx_runtime$34.jsxs)("div", {
 							role: "group",
 							"aria-label": "기준선 정렬",
-							children: [/* @__PURE__ */ (0, import_jsx_runtime$36.jsx)("button", {
+							children: [/* @__PURE__ */ (0, import_jsx_runtime$34.jsx)("button", {
 								type: "button",
 								"aria-pressed": alignment === "left",
 								onClick: () => select("left"),
 								children: "왼쪽"
-							}), /* @__PURE__ */ (0, import_jsx_runtime$36.jsx)("button", {
+							}), /* @__PURE__ */ (0, import_jsx_runtime$34.jsx)("button", {
 								type: "button",
 								"aria-pressed": alignment === "center",
 								onClick: () => select("center"),
 								children: "중앙"
 							})]
 						}),
-						/* @__PURE__ */ (0, import_jsx_runtime$36.jsx)("small", { children: "손실 ← 0 → 이익" }),
-						/* @__PURE__ */ (0, import_jsx_runtime$36.jsx)("small", { children: "왼쪽 정렬도 손실 공간은 유지합니다." }),
-						(saveFailed || !settings.writable) && /* @__PURE__ */ (0, import_jsx_runtime$36.jsxs)("div", {
+						/* @__PURE__ */ (0, import_jsx_runtime$34.jsx)("small", { children: "손실 ← 0 → 이익" }),
+						/* @__PURE__ */ (0, import_jsx_runtime$34.jsx)("small", { children: "왼쪽 정렬도 손실 공간은 유지합니다." }),
+						(saveFailed || !settings.writable) && /* @__PURE__ */ (0, import_jsx_runtime$34.jsxs)("div", {
 							role: "status",
-							children: [/* @__PURE__ */ (0, import_jsx_runtime$36.jsx)("small", { children: "이번 화면에만 적용됩니다. 저장된 설정은 유지됩니다." }), /* @__PURE__ */ (0, import_jsx_runtime$36.jsx)("button", {
+							children: [/* @__PURE__ */ (0, import_jsx_runtime$34.jsx)("small", { children: "이번 화면에만 적용됩니다. 저장된 설정은 유지됩니다." }), /* @__PURE__ */ (0, import_jsx_runtime$34.jsx)("button", {
 								type: "button",
 								onClick: () => {
 									setSettings(readSettings());
@@ -13377,23 +13379,23 @@ function ProfitContribution({ positions, privacy, preview = false }) {
 			})] }),
 			currencies.map((currency) => {
 				const { rows, partial } = profitContributions(positions, currency);
-				return /* @__PURE__ */ (0, import_jsx_runtime$36.jsxs)("div", { children: [
-					currencies.length > 1 && /* @__PURE__ */ (0, import_jsx_runtime$36.jsx)("h4", { children: currency }),
-					privacy ? /* @__PURE__ */ (0, import_jsx_runtime$36.jsx)("p", {
+				return /* @__PURE__ */ (0, import_jsx_runtime$34.jsxs)("div", { children: [
+					currencies.length > 1 && /* @__PURE__ */ (0, import_jsx_runtime$34.jsx)("h4", { children: currency }),
+					privacy ? /* @__PURE__ */ (0, import_jsx_runtime$34.jsx)("p", {
 						className: "scope-copy",
 						children: "금액 숨김"
 					}) : rows.map((row) => {
 						const geometry = contributionBarGeometry(rows, row, alignment);
-						return /* @__PURE__ */ (0, import_jsx_runtime$36.jsxs)("div", {
+						return /* @__PURE__ */ (0, import_jsx_runtime$34.jsxs)("div", {
 							className: "profit-contribution-row",
 							"data-direction": row.direction ?? "unknown",
 							children: [
-								/* @__PURE__ */ (0, import_jsx_runtime$36.jsx)("span", { children: row.name }),
-								/* @__PURE__ */ (0, import_jsx_runtime$36.jsx)("strong", { children: formatMoney(row.pnl, true, currency === "KRW" ? 0 : 2) }),
-								/* @__PURE__ */ (0, import_jsx_runtime$36.jsxs)("div", {
+								/* @__PURE__ */ (0, import_jsx_runtime$34.jsx)("span", { children: row.name }),
+								/* @__PURE__ */ (0, import_jsx_runtime$34.jsx)("strong", { children: formatMoney(row.pnl, true, currency === "KRW" ? 0 : 2) }),
+								/* @__PURE__ */ (0, import_jsx_runtime$34.jsxs)("div", {
 									className: "profit-contribution-track",
 									"aria-hidden": "true",
-									children: [/* @__PURE__ */ (0, import_jsx_runtime$36.jsx)("b", { style: { left: `${geometry.baseline}%` } }), /* @__PURE__ */ (0, import_jsx_runtime$36.jsx)("i", { style: {
+									children: [/* @__PURE__ */ (0, import_jsx_runtime$34.jsx)("b", { style: { left: `${geometry.baseline}%` } }), /* @__PURE__ */ (0, import_jsx_runtime$34.jsx)("i", { style: {
 										left: `${geometry.start}%`,
 										width: `${geometry.width}%`
 									} })]
@@ -13401,24 +13403,24 @@ function ProfitContribution({ positions, privacy, preview = false }) {
 							]
 						}, row.id);
 					}),
-					partial && /* @__PURE__ */ (0, import_jsx_runtime$36.jsx)("small", { children: "일부 평가손익 미조회" })
+					partial && /* @__PURE__ */ (0, import_jsx_runtime$34.jsx)("small", { children: "일부 평가손익 미조회" })
 				] }, currency);
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$36.jsx)("p", {
+			/* @__PURE__ */ (0, import_jsx_runtime$34.jsx)("p", {
 				className: "scope-copy",
 				children: "실현손익·당일 수익률과 다릅니다."
 			})
 		]
 	});
 }
-var import_react$32, import_jsx_runtime$36, temporary;
+var import_react$30, import_jsx_runtime$34, temporary;
 function init_ProfitContribution() {
 	return (init_ProfitContribution = __esmMin((() => {
-		import_react$32 = require_react();
+		import_react$30 = require_react();
 		init_profitContributions();
 		init_contribution_display_settings();
 		init_profit_contribution();
-		import_jsx_runtime$36 = require_jsx_runtime();
+		import_jsx_runtime$34 = require_jsx_runtime();
 		temporary = {
 			alignment: "left",
 			raw: null,
@@ -13471,7 +13473,7 @@ function init_weight_return() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/components/portfolio/weight-return.css?v=source-build-r99";
+			l.href = "/local/app/css-source/src/components/portfolio/weight-return.css?v=source-build-r102";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -13519,7 +13521,7 @@ function heatmapRectangles(input) {
 }
 function PriceReturnHeatmap({ points, selected, select }) {
 	const rectangles = heatmapRectangles(points), byId = new Map(points.map((p) => [p.id, p]));
-	return /* @__PURE__ */ (0, import_jsx_runtime$35.jsx)("svg", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$33.jsx)("svg", {
 		viewBox: "0 0 320 240",
 		className: "price-return-heatmap",
 		role: "img",
@@ -13528,26 +13530,26 @@ function PriceReturnHeatmap({ points, selected, select }) {
 			const p = byId.get(r.id), x = r.x * 3.2, y = r.y * 2.4, width = r.width * 3.2, height = r.height * 2.4;
 			const rate = p ? (p.returnPct === "0" ? "" : p.returnPct.startsWith("-") ? "" : "+") + p.returnPct + "%" : "가격 미조회";
 			const state = !p ? "unknown" : p.returnPct === "0" ? "flat" : p.returnPct.startsWith("-") ? "loss" : "gain";
-			return /* @__PURE__ */ (0, import_jsx_runtime$35.jsxs)("g", {
+			return /* @__PURE__ */ (0, import_jsx_runtime$33.jsxs)("g", {
 				"data-heatmap-tile": r.id,
 				onClick: () => {
 					if (p) select(p.id);
 				},
 				className: state + (selected === r.id ? " is-selected" : ""),
 				children: [
-					/* @__PURE__ */ (0, import_jsx_runtime$35.jsx)("title", { children: p ? `${p.name}: 비중 ${(p.weight / 100).toFixed(2)}%, 가격수익률 ${rate}` : "가격 미조회 — 비중 분모에서 제외하지 않음" }),
-					/* @__PURE__ */ (0, import_jsx_runtime$35.jsx)("rect", {
+					/* @__PURE__ */ (0, import_jsx_runtime$33.jsx)("title", { children: p ? `${p.name}: 비중 ${(p.weight / 100).toFixed(2)}%, 가격수익률 ${rate}` : "가격 미조회 — 비중 분모에서 제외하지 않음" }),
+					/* @__PURE__ */ (0, import_jsx_runtime$33.jsx)("rect", {
 						x: x + 1,
 						y: y + 1,
 						width: Math.max(0, width - 2),
 						height: Math.max(0, height - 2)
 					}),
-					width > 60 && height > 45 && /* @__PURE__ */ (0, import_jsx_runtime$35.jsxs)(import_jsx_runtime$35.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$35.jsx)("text", {
+					width > 60 && height > 45 && /* @__PURE__ */ (0, import_jsx_runtime$33.jsxs)(import_jsx_runtime$33.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$33.jsx)("text", {
 						x: x + width / 2,
 						y: y + height / 2 - 5,
 						textAnchor: "middle",
 						children: p ? Array.from(p.name).length > 9 ? Array.from(p.name).slice(0, 8).join("") + "…" : p.name : "가격 미조회"
-					}), p && /* @__PURE__ */ (0, import_jsx_runtime$35.jsx)("text", {
+					}), p && /* @__PURE__ */ (0, import_jsx_runtime$33.jsx)("text", {
 						x: x + width / 2,
 						y: y + height / 2 + 14,
 						textAnchor: "middle",
@@ -13558,46 +13560,46 @@ function PriceReturnHeatmap({ points, selected, select }) {
 		})
 	});
 }
-var import_jsx_runtime$35;
+var import_jsx_runtime$33;
 function init_PriceReturnHeatmap() {
 	return (init_PriceReturnHeatmap = __esmMin((() => {
-		import_jsx_runtime$35 = require_jsx_runtime();
+		import_jsx_runtime$33 = require_jsx_runtime();
 	})))();
 }
 function WeightReturn({ positions, privacy, view: controlledView, onViewChange, selected: controlledSelected, onSelectionChange }) {
-	const [ownSelected, setOwnSelected] = (0, import_react$31.useState)(null);
-	const [ownView, setOwnView] = (0, import_react$31.useState)("bubble");
+	const [ownSelected, setOwnSelected] = (0, import_react$29.useState)(null);
+	const [ownView, setOwnView] = (0, import_react$29.useState)("bubble");
 	const view = controlledView ?? ownView, selected = controlledSelected === void 0 ? ownSelected : controlledSelected;
 	const setView = (v) => onViewChange ? onViewChange(v) : setOwnView(v);
 	const setSelected = (v) => onSelectionChange ? onSelectionChange(v) : setOwnSelected(v);
 	if (!positions.length) return null;
 	const currencies = [...new Set(positions.map((p) => p.currency))];
-	return /* @__PURE__ */ (0, import_jsx_runtime$34.jsxs)("section", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$32.jsxs)("section", {
 		className: "weight-return",
 		"aria-label": "비중과 가격수익률",
 		children: [
-			/* @__PURE__ */ (0, import_jsx_runtime$34.jsxs)("header", { children: [/* @__PURE__ */ (0, import_jsx_runtime$34.jsx)("h3", { children: "비중 × 가격수익률" }), /* @__PURE__ */ (0, import_jsx_runtime$34.jsxs)("div", {
+			/* @__PURE__ */ (0, import_jsx_runtime$32.jsxs)("header", { children: [/* @__PURE__ */ (0, import_jsx_runtime$32.jsx)("h3", { children: "비중 × 가격수익률" }), /* @__PURE__ */ (0, import_jsx_runtime$32.jsxs)("div", {
 				className: "price-return-views",
 				role: "group",
 				"aria-label": "가격수익률 보기",
-				children: [/* @__PURE__ */ (0, import_jsx_runtime$34.jsx)("button", {
+				children: [/* @__PURE__ */ (0, import_jsx_runtime$32.jsx)("button", {
 					type: "button",
 					"aria-pressed": view === "bubble",
 					onClick: () => setView("bubble"),
 					children: "버블"
-				}), /* @__PURE__ */ (0, import_jsx_runtime$34.jsx)("button", {
+				}), /* @__PURE__ */ (0, import_jsx_runtime$32.jsx)("button", {
 					type: "button",
 					"aria-pressed": view === "heatmap",
 					onClick: () => setView("heatmap"),
 					children: "히트맵"
 				})]
 			})] }),
-			privacy ? /* @__PURE__ */ (0, import_jsx_runtime$34.jsx)("p", {
+			privacy ? /* @__PURE__ */ (0, import_jsx_runtime$32.jsx)("p", {
 				className: "scope-copy",
 				children: "금액 숨김"
 			}) : currencies.map((currency) => {
 				const { points, excluded, unavailable } = weightReturnPoints(positions, currency);
-				if (unavailable || !points.length) return /* @__PURE__ */ (0, import_jsx_runtime$34.jsx)("p", {
+				if (unavailable || !points.length) return /* @__PURE__ */ (0, import_jsx_runtime$32.jsx)("p", {
 					className: "scope-copy",
 					children: "평가액·현재가·평균매입가가 조회되면 표시합니다."
 				}, currency);
@@ -13609,110 +13611,110 @@ function WeightReturn({ positions, privacy, view: controlledView, onViewChange, 
 					notation: Math.abs(value) > 1e5 ? "scientific" : "standard"
 				}).format(value) + "%";
 				const chosen = points.find((p) => p.id === selected) ?? points[0];
-				return /* @__PURE__ */ (0, import_jsx_runtime$34.jsxs)("div", { children: [
-					currencies.length > 1 && /* @__PURE__ */ (0, import_jsx_runtime$34.jsx)("h4", { children: currency }),
-					view === "heatmap" ? /* @__PURE__ */ (0, import_jsx_runtime$34.jsx)(PriceReturnHeatmap, {
+				return /* @__PURE__ */ (0, import_jsx_runtime$32.jsxs)("div", { children: [
+					currencies.length > 1 && /* @__PURE__ */ (0, import_jsx_runtime$32.jsx)("h4", { children: currency }),
+					view === "heatmap" ? /* @__PURE__ */ (0, import_jsx_runtime$32.jsx)(PriceReturnHeatmap, {
 						points,
 						selected: chosen.id,
 						select: setSelected
-					}) : /* @__PURE__ */ (0, import_jsx_runtime$34.jsxs)("svg", {
+					}) : /* @__PURE__ */ (0, import_jsx_runtime$32.jsxs)("svg", {
 						viewBox: "0 0 300 235",
 						role: "img",
 						"aria-label": "조회된 주식 비중과 평균매입가 대비 가격수익률",
 						children: [
-							/* @__PURE__ */ (0, import_jsx_runtime$34.jsx)("line", {
+							/* @__PURE__ */ (0, import_jsx_runtime$32.jsx)("line", {
 								x1: "45",
 								x2: "280",
 								y1: "190",
 								y2: "190"
 							}),
-							/* @__PURE__ */ (0, import_jsx_runtime$34.jsx)("line", {
+							/* @__PURE__ */ (0, import_jsx_runtime$32.jsx)("line", {
 								x1: "45",
 								x2: "45",
 								y1: "20",
 								y2: "190"
 							}),
-							/* @__PURE__ */ (0, import_jsx_runtime$34.jsx)("line", {
+							/* @__PURE__ */ (0, import_jsx_runtime$32.jsx)("line", {
 								className: "weight-return-zero",
 								x1: "45",
 								x2: "280",
 								y1: y(0),
 								y2: y(0)
 							}),
-							/* @__PURE__ */ (0, import_jsx_runtime$34.jsx)("text", {
+							/* @__PURE__ */ (0, import_jsx_runtime$32.jsx)("text", {
 								x: "40",
 								y: "24",
 								textAnchor: "end",
 								children: tick(high)
 							}),
-							/* @__PURE__ */ (0, import_jsx_runtime$34.jsx)("text", {
+							/* @__PURE__ */ (0, import_jsx_runtime$32.jsx)("text", {
 								x: "40",
 								y: "190",
 								textAnchor: "end",
 								children: tick(low)
 							}),
-							/* @__PURE__ */ (0, import_jsx_runtime$34.jsx)("text", {
+							/* @__PURE__ */ (0, import_jsx_runtime$32.jsx)("text", {
 								x: "45",
 								y: "209",
 								children: "0%"
 							}),
-							/* @__PURE__ */ (0, import_jsx_runtime$34.jsxs)("text", {
+							/* @__PURE__ */ (0, import_jsx_runtime$32.jsxs)("text", {
 								x: "280",
 								y: "209",
 								textAnchor: "end",
 								children: [maxWeight, "%"]
 							}),
-							/* @__PURE__ */ (0, import_jsx_runtime$34.jsx)("text", {
+							/* @__PURE__ */ (0, import_jsx_runtime$32.jsx)("text", {
 								x: "162",
 								y: "229",
 								textAnchor: "middle",
 								children: "조회된 주식 비중"
 							}),
-							points.map((point) => /* @__PURE__ */ (0, import_jsx_runtime$34.jsx)("circle", {
+							points.map((point) => /* @__PURE__ */ (0, import_jsx_runtime$32.jsx)("circle", {
 								"data-weight-return-point": point.id,
 								cx: 45 + point.weight / (maxWeight * 100) * 235,
 								cy: y(Number(point.returnPct)),
 								r: Math.max(4, Math.sqrt(point.weight / 100) * 2),
 								className: (point.returnPct === "0" ? "flat" : point.returnPct.startsWith("-") ? "loss" : "gain") + (chosen.id === point.id ? " is-selected" : ""),
 								onClick: () => setSelected(point.id),
-								children: /* @__PURE__ */ (0, import_jsx_runtime$34.jsx)("title", { children: `${point.name}: 비중 ${(point.weight / 100).toFixed(2)}%, 가격수익률 ${signed(point.returnPct)}` })
+								children: /* @__PURE__ */ (0, import_jsx_runtime$32.jsx)("title", { children: `${point.name}: 비중 ${(point.weight / 100).toFixed(2)}%, 가격수익률 ${signed(point.returnPct)}` })
 							}, point.id))
 						]
 					}),
-					/* @__PURE__ */ (0, import_jsx_runtime$34.jsxs)("div", {
+					/* @__PURE__ */ (0, import_jsx_runtime$32.jsxs)("div", {
 						className: "weight-return-legend",
-						children: [/* @__PURE__ */ (0, import_jsx_runtime$34.jsxs)("div", {
+						children: [/* @__PURE__ */ (0, import_jsx_runtime$32.jsxs)("div", {
 							className: "weight-return-legend-heading",
 							"aria-hidden": "true",
 							children: [
-								/* @__PURE__ */ (0, import_jsx_runtime$34.jsx)("span", { children: "종목" }),
-								/* @__PURE__ */ (0, import_jsx_runtime$34.jsx)("span", { children: "주식 비중" }),
-								/* @__PURE__ */ (0, import_jsx_runtime$34.jsx)("span", { children: "가격수익률" })
+								/* @__PURE__ */ (0, import_jsx_runtime$32.jsx)("span", { children: "종목" }),
+								/* @__PURE__ */ (0, import_jsx_runtime$32.jsx)("span", { children: "주식 비중" }),
+								/* @__PURE__ */ (0, import_jsx_runtime$32.jsx)("span", { children: "가격수익률" })
 							]
-						}), points.map((point) => /* @__PURE__ */ (0, import_jsx_runtime$34.jsxs)("button", {
+						}), points.map((point) => /* @__PURE__ */ (0, import_jsx_runtime$32.jsxs)("button", {
 							type: "button",
 							"aria-pressed": chosen.id === point.id,
 							onClick: () => setSelected(point.id),
 							children: [
-								/* @__PURE__ */ (0, import_jsx_runtime$34.jsx)("span", {
+								/* @__PURE__ */ (0, import_jsx_runtime$32.jsx)("span", {
 									className: "weight-return-name",
 									children: point.name
 								}),
-								/* @__PURE__ */ (0, import_jsx_runtime$34.jsxs)("span", {
+								/* @__PURE__ */ (0, import_jsx_runtime$32.jsxs)("span", {
 									className: "weight-return-weight",
 									children: [(point.weight / 100).toFixed(2), "%"]
 								}),
-								/* @__PURE__ */ (0, import_jsx_runtime$34.jsx)("strong", {
+								/* @__PURE__ */ (0, import_jsx_runtime$32.jsx)("strong", {
 									className: "weight-return-rate " + (point.returnPct === "0" ? "flat" : point.returnPct.startsWith("-") ? "loss" : "gain"),
 									children: signed(point.returnPct)
 								})
 							]
 						}, point.id))]
 					}),
-					excluded > 0 && /* @__PURE__ */ (0, import_jsx_runtime$34.jsx)("small", { children: "일부 가격·매입가 미조회" })
+					excluded > 0 && /* @__PURE__ */ (0, import_jsx_runtime$32.jsx)("small", { children: "일부 가격·매입가 미조회" })
 				] }, currency);
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$34.jsx)("p", {
+			/* @__PURE__ */ (0, import_jsx_runtime$32.jsx)("p", {
 				className: "scope-copy",
 				title: "현재가와 평균매입가로 계산한 가격수익률입니다. 배당·환율손익 등을 포함한 총수익률과 다를 수 있습니다.",
 				children: "종목·계좌별 · 평균매입가 대비"
@@ -13720,46 +13722,46 @@ function WeightReturn({ positions, privacy, view: controlledView, onViewChange, 
 		]
 	});
 }
-var import_react$31, import_jsx_runtime$34, signed;
+var import_react$29, import_jsx_runtime$32, signed;
 function init_WeightReturn() {
 	return (init_WeightReturn = __esmMin((() => {
-		import_react$31 = require_react();
+		import_react$29 = require_react();
 		init_weightReturn();
 		init_weight_return();
 		init_PriceReturnHeatmap();
-		import_jsx_runtime$34 = require_jsx_runtime();
+		import_jsx_runtime$32 = require_jsx_runtime();
 		signed = (s) => (s.startsWith("-") || s === "0" ? "" : "+") + s + "%";
 	})))();
 }
 function PortfolioWidgetPreview({ id }) {
 	const label = PORTFOLIO_WIDGETS.find((w) => w.id === id).label;
-	return /* @__PURE__ */ (0, import_jsx_runtime$33.jsxs)("div", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$31.jsxs)("div", {
 		className: "portfolio-widget-preview",
 		"data-preview-source": "fixed-fictional",
 		"aria-label": `${label} · 고정 가상 데이터 미리보기`,
-		children: [/* @__PURE__ */ (0, import_jsx_runtime$33.jsx)("div", {
+		children: [/* @__PURE__ */ (0, import_jsx_runtime$31.jsx)("div", {
 			inert: true,
 			className: `portfolio-widget-preview-content${id === "allocation" || id === "profit-contribution" || id === "weight-return" || isLegacyPortfolioWidgetId(id) ? "" : " reference-rates-table"}`,
-			children: id === "allocation" ? /* @__PURE__ */ (0, import_jsx_runtime$33.jsx)(Allocation, {
+			children: id === "allocation" ? /* @__PURE__ */ (0, import_jsx_runtime$31.jsx)(Allocation, {
 				positions,
 				currency: "KRW",
 				available: true,
 				fixedGrouping: "holdings",
 				readOnly: true
-			}) : id === "profit-contribution" ? /* @__PURE__ */ (0, import_jsx_runtime$33.jsx)(ProfitContribution, {
+			}) : id === "profit-contribution" ? /* @__PURE__ */ (0, import_jsx_runtime$31.jsx)(ProfitContribution, {
 				positions,
 				privacy: false,
 				preview: true
-			}) : id === "weight-return" ? /* @__PURE__ */ (0, import_jsx_runtime$33.jsx)(WeightReturn, {
+			}) : id === "weight-return" ? /* @__PURE__ */ (0, import_jsx_runtime$31.jsx)(WeightReturn, {
 				positions,
 				privacy: false,
 				view: "bubble"
-			}) : isLegacyPortfolioWidgetId(id) ? /* @__PURE__ */ (0, import_jsx_runtime$33.jsx)(LegacyPortfolioWidget, {
+			}) : isLegacyPortfolioWidgetId(id) ? /* @__PURE__ */ (0, import_jsx_runtime$31.jsx)(LegacyPortfolioWidget, {
 				id,
 				presentation: legacyPresentation,
 				quoteInstant: legacyPresentation.instant,
 				preview: true
-			}) : /* @__PURE__ */ (0, import_jsx_runtime$33.jsx)(ReferenceRateRows, {
+			}) : /* @__PURE__ */ (0, import_jsx_runtime$31.jsx)(ReferenceRateRows, {
 				rows: [{
 					id,
 					label,
@@ -13782,15 +13784,15 @@ function PortfolioWidgetPreview({ id }) {
 				}],
 				onOpen: () => {}
 			})
-		}), id === "vix" && /* @__PURE__ */ (0, import_jsx_runtime$33.jsx)("small", { children: "변동성 지수 · 0–100 점수 아님" })]
+		}), id === "vix" && /* @__PURE__ */ (0, import_jsx_runtime$31.jsx)("small", { children: "변동성 지수 · 0–100 점수 아님" })]
 	});
 }
-var import_jsx_runtime$33, legacyPresentation, positions, quotes;
+var import_jsx_runtime$31, legacyPresentation, positions, quotes;
 function init_PortfolioWidgetPreview() {
 	return (init_PortfolioWidgetPreview = __esmMin((() => {
 		init_Allocation();
 		init_LegacyPortfolioWidget();
-		import_jsx_runtime$33 = require_jsx_runtime();
+		import_jsx_runtime$31 = require_jsx_runtime();
 		init_ProfitContribution();
 		init_WeightReturn();
 		init_ReferenceRatesTable();
@@ -13882,18 +13884,18 @@ function load() {
 	}
 }
 function usePortfolioWidgets() {
-	const [state, setState] = (0, import_react$30.useState)(load), [gesture, setGesture] = (0, import_react$30.useState)(null), [menu, setMenu] = (0, import_react$30.useState)(null), [announcement, setAnnouncement] = (0, import_react$30.useState)("");
-	const session = (0, import_react$30.useRef)(null), focusEpoch = (0, import_react$30.useRef)(0), owner = (0, import_react$30.useId)();
-	const [nodes] = (0, import_react$30.useState)(() => typeof document === "undefined" ? null : Object.fromEntries(ids.map((id) => {
+	const [state, setState] = (0, import_react$28.useState)(load), [gesture, setGesture] = (0, import_react$28.useState)(null), [menu, setMenu] = (0, import_react$28.useState)(null), [announcement, setAnnouncement] = (0, import_react$28.useState)("");
+	const session = (0, import_react$28.useRef)(null), focusEpoch = (0, import_react$28.useRef)(0), owner = (0, import_react$28.useId)();
+	const [nodes] = (0, import_react$28.useState)(() => typeof document === "undefined" ? null : Object.fromEntries(ids.map((id) => {
 		const n = document.createElement("div");
 		n.dataset.portfolioHost = id;
 		return [id, n];
 	})));
-	const cancel = (0, import_react$30.useCallback)(() => {
+	const cancel = (0, import_react$28.useCallback)(() => {
 		session.current = null;
 		setGesture(null);
 	}, []);
-	const deactivate = (0, import_react$30.useCallback)(() => {
+	const deactivate = (0, import_react$28.useCallback)(() => {
 		focusEpoch.current++;
 		session.current = null;
 		setGesture(null);
@@ -13906,7 +13908,7 @@ function usePortfolioWidgets() {
 		});
 	};
 	const focus = (id) => deferFocus(() => nodes?.[id].querySelector("[data-portfolio-grip]"));
-	(0, import_react$30.useEffect)(() => {
+	(0, import_react$28.useEffect)(() => {
 		const generation = focusEpoch;
 		const invalidate = () => {
 			generation.current++;
@@ -14070,7 +14072,7 @@ function usePortfolioWidgets() {
 			before: visible[at + 2] ?? null
 		});
 	};
-	(0, import_react$30.useEffect)(() => {
+	(0, import_react$28.useEffect)(() => {
 		if (!menu) return;
 		const close = (e) => {
 			const n = e.target;
@@ -14079,7 +14081,7 @@ function usePortfolioWidgets() {
 		document.addEventListener("pointerdown", close, true);
 		return () => document.removeEventListener("pointerdown", close, true);
 	}, [menu]);
-	(0, import_react$30.useLayoutEffect)(() => {
+	(0, import_react$28.useLayoutEffect)(() => {
 		if (menu) nodes?.[menu].querySelector("[role=\"menu\"] button:not(:disabled)")?.focus();
 	}, [menu, nodes]);
 	const hide = (id, on) => {
@@ -14115,7 +14117,7 @@ function usePortfolioWidgets() {
 	};
 }
 function PortfolioWidgetAddButton({ open, toggle }) {
-	return /* @__PURE__ */ (0, import_jsx_runtime$32.jsx)("button", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$30.jsx)("button", {
 		type: "button",
 		className: "portfolio-widget-add",
 		"data-portfolio-add": "true",
@@ -14127,32 +14129,32 @@ function PortfolioWidgetAddButton({ open, toggle }) {
 			e.currentTarget.focus({ preventScroll: true });
 			toggle();
 		},
-		children: /* @__PURE__ */ (0, import_jsx_runtime$32.jsx)(AppIcon, { icon: LayoutGrid })
+		children: /* @__PURE__ */ (0, import_jsx_runtime$30.jsx)(AppIcon, { icon: LayoutGrid })
 	});
 }
 function PortfolioWidgetSettings({ widgets }) {
-	return /* @__PURE__ */ (0, import_jsx_runtime$32.jsxs)("section", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$30.jsxs)("section", {
 		className: "portfolio-widget-settings",
 		"aria-label": "포트폴리오 위젯 표시 설정",
 		children: [
-			/* @__PURE__ */ (0, import_jsx_runtime$32.jsx)("h3", { children: "표시할 위젯" }),
-			widgets.error && /* @__PURE__ */ (0, import_jsx_runtime$32.jsx)("p", {
+			/* @__PURE__ */ (0, import_jsx_runtime$30.jsx)("h3", { children: "표시할 위젯" }),
+			widgets.error && /* @__PURE__ */ (0, import_jsx_runtime$30.jsx)("p", {
 				role: "alert",
 				children: widgets.error
 			}),
-			PORTFOLIO_WIDGETS.map((w) => /* @__PURE__ */ (0, import_jsx_runtime$32.jsxs)("label", { children: [/* @__PURE__ */ (0, import_jsx_runtime$32.jsx)("input", {
+			PORTFOLIO_WIDGETS.map((w) => /* @__PURE__ */ (0, import_jsx_runtime$30.jsxs)("label", { children: [/* @__PURE__ */ (0, import_jsx_runtime$30.jsx)("input", {
 				type: "checkbox",
 				"data-portfolio-option": w.id,
 				disabled: !!widgets.error,
 				checked: !widgets.value.hidden.includes(w.id),
 				onChange: (e) => widgets.hide(w.id, !e.target.checked)
-			}), /* @__PURE__ */ (0, import_jsx_runtime$32.jsx)("span", { children: w.label })] }, w.id))
+			}), /* @__PURE__ */ (0, import_jsx_runtime$30.jsx)("span", { children: w.label })] }, w.id))
 		]
 	});
 }
 function PortfolioWidgetToolbar({ widgets, open, toggle }) {
-	const title = (0, import_react$30.useId)(), dialog = (0, import_react$30.useRef)(null);
-	(0, import_react$30.useLayoutEffect)(() => {
+	const title = (0, import_react$28.useId)(), dialog = (0, import_react$28.useRef)(null);
+	(0, import_react$28.useLayoutEffect)(() => {
 		const node = dialog.current;
 		if (!open || !node) return;
 		const opener = node.ownerDocument.activeElement;
@@ -14178,20 +14180,20 @@ function PortfolioWidgetToolbar({ widgets, open, toggle }) {
 		(dialog.current?.querySelector("[aria-label=\"위젯 갤러리 닫기\"]") ?? (typeof document !== "undefined" ? document.querySelector("[data-portfolio-add]") : null))?.focus({ preventScroll: true });
 		widgets.reload();
 	};
-	const errors = widgets.error && /* @__PURE__ */ (0, import_jsx_runtime$32.jsxs)(import_jsx_runtime$32.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$32.jsx)("p", {
+	const errors = widgets.error && /* @__PURE__ */ (0, import_jsx_runtime$30.jsxs)(import_jsx_runtime$30.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$30.jsx)("p", {
 		role: "alert",
 		children: widgets.error
-	}), /* @__PURE__ */ (0, import_jsx_runtime$32.jsx)("button", {
+	}), /* @__PURE__ */ (0, import_jsx_runtime$30.jsx)("button", {
 		type: "button",
 		onClick: reload,
 		children: "배치 다시 읽기"
 	})] });
-	return /* @__PURE__ */ (0, import_jsx_runtime$32.jsxs)("section", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$30.jsxs)("section", {
 		className: "portfolio-widgets",
 		"aria-label": "포트폴리오 위젯",
 		children: [
 			!open && errors,
-			open && /* @__PURE__ */ (0, import_jsx_runtime$32.jsxs)("dialog", {
+			open && /* @__PURE__ */ (0, import_jsx_runtime$30.jsxs)("dialog", {
 				ref: dialog,
 				onKeyDown: trap,
 				onCancel: (e) => {
@@ -14202,45 +14204,45 @@ function PortfolioWidgetToolbar({ widgets, open, toggle }) {
 				"aria-labelledby": title,
 				"aria-describedby": `${title}-demo`,
 				children: [
-					/* @__PURE__ */ (0, import_jsx_runtime$32.jsxs)("header", {
+					/* @__PURE__ */ (0, import_jsx_runtime$30.jsxs)("header", {
 						className: "portfolio-widget-gallery-heading",
-						children: [/* @__PURE__ */ (0, import_jsx_runtime$32.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime$32.jsx)("h2", {
+						children: [/* @__PURE__ */ (0, import_jsx_runtime$30.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime$30.jsx)("h2", {
 							id: title,
 							children: "위젯 추가"
-						}), /* @__PURE__ */ (0, import_jsx_runtime$32.jsx)("p", {
+						}), /* @__PURE__ */ (0, import_jsx_runtime$30.jsx)("p", {
 							id: `${title}-demo`,
 							title: "사진이 아닌 실제 위젯 컴포넌트의 읽기 전용 예시입니다. 추가한 위젯은 화면의 공급 자료를 사용하며 미연결 상태일 수 있습니다.",
 							children: "미리보기 · 가상 데이터 (실제 자산·시세 아님)"
-						})] }), /* @__PURE__ */ (0, import_jsx_runtime$32.jsx)("button", {
+						})] }), /* @__PURE__ */ (0, import_jsx_runtime$30.jsx)("button", {
 							type: "button",
 							"aria-label": "위젯 갤러리 닫기",
 							onClick: toggle,
-							children: /* @__PURE__ */ (0, import_jsx_runtime$32.jsx)(AppIcon, { icon: X })
+							children: /* @__PURE__ */ (0, import_jsx_runtime$30.jsx)(AppIcon, { icon: X })
 						})]
 					}),
 					errors,
-					/* @__PURE__ */ (0, import_jsx_runtime$32.jsx)("div", {
+					/* @__PURE__ */ (0, import_jsx_runtime$30.jsx)("div", {
 						className: "portfolio-widget-gallery-grid",
 						children: PORTFOLIO_WIDGETS.map((w) => {
 							const shown = !widgets.value.hidden.includes(w.id);
-							return /* @__PURE__ */ (0, import_jsx_runtime$32.jsxs)("article", {
+							return /* @__PURE__ */ (0, import_jsx_runtime$30.jsxs)("article", {
 								className: "portfolio-widget-gallery-card",
 								"data-gallery-widget": w.id,
 								"data-selected": shown,
 								children: [
-									/* @__PURE__ */ (0, import_jsx_runtime$32.jsxs)("header", {
+									/* @__PURE__ */ (0, import_jsx_runtime$30.jsxs)("header", {
 										className: "portfolio-gallery-card-heading widget-metric-heading",
-										children: [/* @__PURE__ */ (0, import_jsx_runtime$32.jsx)("h3", { children: w.label }), /* @__PURE__ */ (0, import_jsx_runtime$32.jsx)("div", {
+										children: [/* @__PURE__ */ (0, import_jsx_runtime$30.jsx)("h3", { children: w.label }), /* @__PURE__ */ (0, import_jsx_runtime$30.jsx)("div", {
 											className: "portfolio-gallery-help",
 											"data-gallery-help": w.id,
-											children: /* @__PURE__ */ (0, import_jsx_runtime$32.jsx)(WidgetMetricHelp, {
+											children: /* @__PURE__ */ (0, import_jsx_runtime$30.jsx)(WidgetMetricHelp, {
 												label: w.label,
 												children: WIDGET_PURPOSE[w.id]
 											})
 										})]
 									}),
-									/* @__PURE__ */ (0, import_jsx_runtime$32.jsx)(PortfolioWidgetPreview, { id: w.id }),
-									/* @__PURE__ */ (0, import_jsx_runtime$32.jsxs)("button", {
+									/* @__PURE__ */ (0, import_jsx_runtime$30.jsx)(PortfolioWidgetPreview, { id: w.id }),
+									/* @__PURE__ */ (0, import_jsx_runtime$30.jsxs)("button", {
 										type: "button",
 										"data-gallery-action": w.id,
 										disabled: !!widgets.error,
@@ -14248,7 +14250,7 @@ function PortfolioWidgetToolbar({ widgets, open, toggle }) {
 										title: shown ? "표시 중 · 선택 해제" : "추가",
 										"data-gallery-shown": shown,
 										onClick: () => widgets.hide(w.id, shown),
-										children: [/* @__PURE__ */ (0, import_jsx_runtime$32.jsx)(AppIcon, { icon: shown ? Check : Plus }), /* @__PURE__ */ (0, import_jsx_runtime$32.jsx)("span", {
+										children: [/* @__PURE__ */ (0, import_jsx_runtime$30.jsx)(AppIcon, { icon: shown ? Check : Plus }), /* @__PURE__ */ (0, import_jsx_runtime$30.jsx)("span", {
 											className: "portfolio-widget-a11y",
 											children: shown ? "표시 중" : "추가"
 										})]
@@ -14257,7 +14259,7 @@ function PortfolioWidgetToolbar({ widgets, open, toggle }) {
 							}, w.id);
 						})
 					}),
-					/* @__PURE__ */ (0, import_jsx_runtime$32.jsx)("span", {
+					/* @__PURE__ */ (0, import_jsx_runtime$30.jsx)("span", {
 						role: "status",
 						"aria-live": "polite",
 						className: "portfolio-widget-a11y",
@@ -14265,12 +14267,12 @@ function PortfolioWidgetToolbar({ widgets, open, toggle }) {
 					})
 				]
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$32.jsx)("span", {
+			/* @__PURE__ */ (0, import_jsx_runtime$30.jsx)("span", {
 				id: widgets.helpId,
 				className: "portfolio-widget-a11y",
 				children: "손잡이를 클릭하면 위치 메뉴가 열립니다. Space로 이동 선택, 방향키로 위치 선택, Enter로 확정, Escape로 취소합니다."
 			}),
-			!open && /* @__PURE__ */ (0, import_jsx_runtime$32.jsx)("span", {
+			!open && /* @__PURE__ */ (0, import_jsx_runtime$30.jsx)("span", {
 				role: "status",
 				"aria-live": "polite",
 				className: "portfolio-widget-a11y",
@@ -14281,36 +14283,36 @@ function PortfolioWidgetToolbar({ widgets, open, toggle }) {
 }
 function PortfolioWidgetLane({ lane, widgets }) {
 	const visible = widgets.value.order.filter((id) => widgets.value.lanes[id] === lane && !widgets.value.hidden.includes(id));
-	return /* @__PURE__ */ (0, import_jsx_runtime$32.jsxs)("div", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$30.jsxs)("div", {
 		className: "portfolio-widget-lane",
 		"data-portfolio-lane": lane,
 		"data-portfolio-owner": widgets.owner,
 		"data-drag-active": !!widgets.gesture,
 		"aria-label": lane === "left" ? "왼쪽 위젯" : "오른쪽 위젯",
-		children: [visible.map((id) => /* @__PURE__ */ (0, import_jsx_runtime$32.jsxs)(import_react$30.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$32.jsx)("div", {
+		children: [visible.map((id) => /* @__PURE__ */ (0, import_jsx_runtime$30.jsxs)(import_react$28.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime$30.jsx)("div", {
 			className: "portfolio-widget-insertion",
 			"data-portfolio-drop": "insert",
 			"data-before": id,
 			"data-target": widgets.gesture?.target?.kind === "insert" && widgets.gesture.target.lane === lane && widgets.gesture.target.before === id
-		}), /* @__PURE__ */ (0, import_jsx_runtime$32.jsx)("div", {
+		}), /* @__PURE__ */ (0, import_jsx_runtime$30.jsx)("div", {
 			className: "portfolio-widget-slot",
 			ref: (el) => {
 				const node = widgets.nodes?.[id];
 				if (el && node && node.parentNode !== el) el.appendChild(node);
 			}
-		})] }, id)), /* @__PURE__ */ (0, import_jsx_runtime$32.jsx)("div", {
+		})] }, id)), /* @__PURE__ */ (0, import_jsx_runtime$30.jsx)("div", {
 			className: "portfolio-widget-insertion portfolio-widget-end",
 			"data-portfolio-drop": "insert",
 			"data-before": "",
 			"data-empty": !visible.length,
 			"data-target": widgets.gesture?.target?.kind === "insert" && widgets.gesture.target.lane === lane && widgets.gesture.target.before === null,
-			children: widgets.gesture && !visible.length && /* @__PURE__ */ (0, import_jsx_runtime$32.jsx)("span", { children: "여기에 놓기" })
+			children: widgets.gesture && !visible.length && /* @__PURE__ */ (0, import_jsx_runtime$30.jsx)("span", { children: "여기에 놓기" })
 		})]
 	});
 }
 function PositionMenu({ id, widgets }) {
-	const menu = (0, import_react$30.useRef)(null), lane = widgets.value.lanes[id], visible = widgets.value.order.filter((other) => widgets.value.lanes[other] === lane && !widgets.value.hidden.includes(other)), at = visible.indexOf(id);
-	return /* @__PURE__ */ (0, import_jsx_runtime$32.jsxs)("div", {
+	const menu = (0, import_react$28.useRef)(null), lane = widgets.value.lanes[id], visible = widgets.value.order.filter((other) => widgets.value.lanes[other] === lane && !widgets.value.hidden.includes(other)), at = visible.indexOf(id);
+	return /* @__PURE__ */ (0, import_jsx_runtime$30.jsxs)("div", {
 		ref: menu,
 		className: "portfolio-position-menu",
 		"data-portfolio-menu": "true",
@@ -14338,7 +14340,7 @@ function PositionMenu({ id, widgets }) {
 			}
 		},
 		children: [
-			/* @__PURE__ */ (0, import_jsx_runtime$32.jsx)("button", {
+			/* @__PURE__ */ (0, import_jsx_runtime$30.jsx)("button", {
 				type: "button",
 				role: "menuitem",
 				onClick: () => widgets.commit(id, {
@@ -14348,7 +14350,7 @@ function PositionMenu({ id, widgets }) {
 				}),
 				children: "왼쪽 맨 아래로"
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$32.jsx)("button", {
+			/* @__PURE__ */ (0, import_jsx_runtime$30.jsx)("button", {
 				type: "button",
 				role: "menuitem",
 				onClick: () => widgets.commit(id, {
@@ -14358,7 +14360,7 @@ function PositionMenu({ id, widgets }) {
 				}),
 				children: "오른쪽 맨 아래로"
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$32.jsx)("button", {
+			/* @__PURE__ */ (0, import_jsx_runtime$30.jsx)("button", {
 				type: "button",
 				role: "menuitem",
 				disabled: at <= 0,
@@ -14369,7 +14371,7 @@ function PositionMenu({ id, widgets }) {
 				}),
 				children: "위로"
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$32.jsx)("button", {
+			/* @__PURE__ */ (0, import_jsx_runtime$30.jsx)("button", {
 				type: "button",
 				role: "menuitem",
 				disabled: at === visible.length - 1,
@@ -14380,7 +14382,7 @@ function PositionMenu({ id, widgets }) {
 				}),
 				children: "아래로"
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$32.jsx)("button", {
+			/* @__PURE__ */ (0, import_jsx_runtime$30.jsx)("button", {
 				type: "button",
 				role: "menuitem",
 				onClick: () => widgets.hide(id, true),
@@ -14391,19 +14393,19 @@ function PositionMenu({ id, widgets }) {
 }
 function PortfolioWidgetPortals({ active, widgets, render }) {
 	const { deactivate } = widgets;
-	(0, import_react$30.useLayoutEffect)(() => {
+	(0, import_react$28.useLayoutEffect)(() => {
 		if (!active) deactivate();
 		return () => deactivate();
 	}, [active, deactivate]);
 	if (!widgets.nodes || !active) return null;
-	return /* @__PURE__ */ (0, import_jsx_runtime$32.jsx)(import_jsx_runtime$32.Fragment, { children: widgets.value.order.filter((id) => !widgets.value.hidden.includes(id)).map((id) => (0, import_react_dom$3.createPortal)(/* @__PURE__ */ (0, import_jsx_runtime$32.jsxs)("article", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$30.jsx)(import_jsx_runtime$30.Fragment, { children: widgets.value.order.filter((id) => !widgets.value.hidden.includes(id)).map((id) => (0, import_react_dom$3.createPortal)(/* @__PURE__ */ (0, import_jsx_runtime$30.jsxs)("article", {
 		className: "portfolio-widget-frame",
 		"data-portfolio-widget": id,
 		"data-selected": widgets.menu === id || widgets.gesture?.id === id,
 		"data-moving": widgets.gesture?.id === id,
 		"data-target": widgets.gesture?.target?.kind === "swap" && widgets.gesture.target.id === id,
 		children: [
-			/* @__PURE__ */ (0, import_jsx_runtime$32.jsx)("button", {
+			/* @__PURE__ */ (0, import_jsx_runtime$30.jsx)("button", {
 				type: "button",
 				className: "portfolio-widget-grip",
 				title: "드래그로 이동 · 클릭하면 위치 메뉴",
@@ -14427,20 +14429,20 @@ function PortfolioWidgetPortals({ active, widgets, render }) {
 				onClick: (e) => {
 					if (e.detail === 0) widgets.setMenu(id);
 				},
-				children: /* @__PURE__ */ (0, import_jsx_runtime$32.jsx)(AppIcon, { icon: GripVertical })
+				children: /* @__PURE__ */ (0, import_jsx_runtime$30.jsx)(AppIcon, { icon: GripVertical })
 			}),
 			render(id),
-			widgets.menu === id && /* @__PURE__ */ (0, import_jsx_runtime$32.jsx)(PositionMenu, {
+			widgets.menu === id && /* @__PURE__ */ (0, import_jsx_runtime$30.jsx)(PositionMenu, {
 				id,
 				widgets
 			})
 		]
 	}), widgets.nodes[id], id)) });
 }
-var import_react$30, import_react_dom$3, import_jsx_runtime$32, ids, name;
+var import_react$28, import_react_dom$3, import_jsx_runtime$30, ids, name;
 function init_PortfolioWidgets() {
 	return (init_PortfolioWidgets = __esmMin((() => {
-		import_react$30 = require_react();
+		import_react$28 = require_react();
 		import_react_dom$3 = require_react_dom();
 		init_check(), init_plus(), init_grip_vertical(), init_layout_grid(), init_x();
 		init_widget_purpose();
@@ -14449,7 +14451,7 @@ function init_PortfolioWidgets() {
 		init_portfolio_widgets();
 		init_PortfolioWidgetPreview();
 		init_WidgetMetricHelp();
-		import_jsx_runtime$32 = require_jsx_runtime();
+		import_jsx_runtime$30 = require_jsx_runtime();
 		ids = PORTFOLIO_WIDGETS.map((w) => w.id);
 		name = (id) => PORTFOLIO_WIDGETS.find((w) => w.id === id).label;
 	})))();
@@ -14602,26 +14604,26 @@ function init_webDemoCatalog() {
 		];
 	})))();
 }
-function object$1(input) {
-	if (!input || typeof input !== "object" || Array.isArray(input)) throw fail$1();
+function object(input) {
+	if (!input || typeof input !== "object" || Array.isArray(input)) throw fail();
 	return input;
 }
-function text$1(input) {
-	if (typeof input !== "string" || input.length > 160 || /[\u0000-\u001f]/.test(input)) throw fail$1();
+function text(input) {
+	if (typeof input !== "string" || input.length > 160 || /[\u0000-\u001f]/.test(input)) throw fail();
 	return input;
 }
 function decimal(input) {
-	if (typeof input !== "string" || !/^-?\d{1,18}(?:\.\d{1,12})?$/.test(input)) throw fail$1();
+	if (typeof input !== "string" || !/^-?\d{1,18}(?:\.\d{1,12})?$/.test(input)) throw fail();
 	return input;
 }
 function date(input) {
-	const s = text$1(input);
-	if (!/^\d{4}-\d{2}-\d{2}$/.test(s) || !Number.isFinite(Date.parse(s)) || new Date(s).toISOString().slice(0, 10) !== s || s > "2024-03-31") throw fail$1();
+	const s = text(input);
+	if (!/^\d{4}-\d{2}-\d{2}$/.test(s) || !Number.isFinite(Date.parse(s)) || new Date(s).toISOString().slice(0, 10) !== s || s > "2024-03-31") throw fail();
 	return s;
 }
 function provenance(input) {
-	const p = object$1(input);
-	if (p.kind !== "synthetic" || p.source !== "stockpin-web-demo-v1" || p.fixedAsOf !== "2024-03-31" || p.live !== false || p.observedAt !== null || p.nextUpdateAt !== null || p.label !== "데모 · 고정 가상 자료") throw fail$1();
+	const p = object(input);
+	if (p.kind !== "synthetic" || p.source !== "stockpin-web-demo-v1" || p.fixedAsOf !== "2024-03-31" || p.live !== false || p.observedAt !== null || p.nextUpdateAt !== null || p.label !== "데모 · 고정 가상 자료") throw fail();
 	return {
 		kind: "synthetic",
 		source: "stockpin-web-demo-v1",
@@ -14638,19 +14640,19 @@ function status(input) {
 		"empty",
 		"error",
 		"unqueried"
-	].includes(String(input))) throw fail$1();
+	].includes(String(input))) throw fail();
 	return input;
 }
 function chart(input, small = false) {
-	const c = object$1(input);
-	if (!Array.isArray(c.points) || c.points.length > 500 || !Array.isArray(c.segments) || c.segments.length > 500) throw fail$1();
+	const c = object(input);
+	if (!Array.isArray(c.points) || c.points.length > 500 || !Array.isArray(c.segments) || c.segments.length > 500) throw fail();
 	let previous = "";
 	return {
 		points: c.points.map((raw) => {
-			const p = object$1(raw), d = date(p.date);
-			if (d <= previous) throw fail$1();
+			const p = object(raw), d = date(p.date);
+			if (d <= previous) throw fail();
 			previous = d;
-			if (typeof p.x !== "number" || !Number.isFinite(p.x) || p.x < 0 || p.x > (small ? 96 : 640) || typeof p.y !== "number" || !Number.isFinite(p.y) || p.y < 0 || p.y > (small ? 32 : 280)) throw fail$1();
+			if (typeof p.x !== "number" || !Number.isFinite(p.x) || p.x < 0 || p.x > (small ? 96 : 640) || typeof p.y !== "number" || !Number.isFinite(p.y) || p.y < 0 || p.y > (small ? 32 : 280)) throw fail();
 			return {
 				date: d,
 				value: decimal(p.value),
@@ -14659,7 +14661,7 @@ function chart(input, small = false) {
 			};
 		}),
 		segments: c.segments.map((s) => {
-			if (typeof s !== "string" || s.length > 4e4 || !/^\d+(?:\.\d+)?,\d+(?:\.\d+)?(?: \d+(?:\.\d+)?,\d+(?:\.\d+)?)+$/.test(s)) throw fail$1();
+			if (typeof s !== "string" || s.length > 4e4 || !/^\d+(?:\.\d+)?,\d+(?:\.\d+)?(?: \d+(?:\.\d+)?,\d+(?:\.\d+)?)+$/.test(s)) throw fail();
 			return s;
 		}),
 		minimum: c.minimum === null ? null : decimal(c.minimum),
@@ -14667,29 +14669,29 @@ function chart(input, small = false) {
 	};
 }
 function row(input, id, expected) {
-	const r = object$1(input), spec = specs[id];
+	const r = object(input), spec = specs[id];
 	if (r.id !== id || JSON.stringify([
 		r.category,
 		r.base,
 		r.quote,
 		r.baseAmount,
 		r.unit
-	]) !== JSON.stringify(spec) || status(r.status) !== expected) throw fail$1();
-	if (id === "synthetic-stocks-fear-greed" && (r.label !== "주식 공포·탐욕 · 가상" || r.meaning !== "고정 가상 주식 심리 · 실제 주식 심리 아님 · 공급 미연결 · 매매 신호 아님")) throw fail$1();
+	]) !== JSON.stringify(spec) || status(r.status) !== expected) throw fail();
+	if (id === "synthetic-stocks-fear-greed" && (r.label !== "주식 공포·탐욕 · 가상" || r.meaning !== "고정 가상 주식 심리 · 실제 주식 심리 아님 · 공급 미연결 · 매매 신호 아님")) throw fail();
 	const comparisons = ["bitcoin-fear-greed", "synthetic-stocks-fear-greed"].includes(id) ? comparisonRows(r.comparisons, expected) : void 0;
 	const value = r.value === null ? null : decimal(r.value), mini = chart(r.mini, true);
-	if (expected === "ready" ? value === null || r.sourceDate !== "2024-03-31" || mini.points.at(-1)?.value !== value : value !== null || mini.points.length !== 0 || r.displayValue !== "—" || r.change !== null || r.percent !== null) throw fail$1();
-	if (["bitcoin-fear-greed", "synthetic-stocks-fear-greed"].includes(id) && value !== null && (!/^\d+$/.test(value) || Number(value) > 100)) throw fail$1();
+	if (expected === "ready" ? value === null || r.sourceDate !== "2024-03-31" || mini.points.at(-1)?.value !== value : value !== null || mini.points.length !== 0 || r.displayValue !== "—" || r.change !== null || r.percent !== null) throw fail();
+	if (["bitcoin-fear-greed", "synthetic-stocks-fear-greed"].includes(id) && value !== null && (!/^\d+$/.test(value) || Number(value) > 100)) throw fail();
 	if (![
 		"gain",
 		"loss",
 		"flat",
 		"unknown"
-	].includes(String(r.direction))) throw fail$1();
+	].includes(String(r.direction))) throw fail();
 	return {
 		id,
 		comparisons,
-		label: text$1(r.label),
+		label: text(r.label),
 		category: spec[0],
 		base: spec[1],
 		quote: spec[2],
@@ -14697,15 +14699,15 @@ function row(input, id, expected) {
 		unit: spec[4],
 		status: expected,
 		value,
-		displayValue: text$1(r.displayValue),
+		displayValue: text(r.displayValue),
 		sourceDate: r.sourceDate === null ? null : date(r.sourceDate),
 		comparisonDate: r.comparisonDate === null ? null : date(r.comparisonDate),
-		change: r.change === null ? null : text$1(r.change),
-		percent: r.percent === null ? null : text$1(r.percent),
+		change: r.change === null ? null : text(r.change),
+		percent: r.percent === null ? null : text(r.percent),
 		direction: r.direction,
 		mini,
 		provenance: provenance(r.provenance),
-		...r.meaning === void 0 ? {} : { meaning: text$1(r.meaning) }
+		...r.meaning === void 0 ? {} : { meaning: text(r.meaning) }
 	};
 }
 function comparisonRows(input, expected) {
@@ -14726,12 +14728,12 @@ function comparisonRows(input, expected) {
 			"2024-02-29"
 		]
 	];
-	if (!Array.isArray(input) || input.length !== specs.length) throw fail$1();
+	if (!Array.isArray(input) || input.length !== specs.length) throw fail();
 	return specs.map(([key, label, date], i) => {
-		const c = object$1(input[i]);
-		if (c.key !== key || c.label !== label || c.date !== date) throw fail$1();
+		const c = object(input[i]);
+		if (c.key !== key || c.label !== label || c.date !== date) throw fail();
 		const value = c.value === null ? null : decimal(c.value);
-		if (expected === "ready" ? value === null || Number(value) < 0 || Number(value) > 100 : value !== null) throw fail$1();
+		if (expected === "ready" ? value === null || Number(value) < 0 || Number(value) > 100 : value !== null) throw fail();
 		return {
 			key,
 			label,
@@ -14741,18 +14743,18 @@ function comparisonRows(input, expected) {
 	});
 }
 function decodeWebDemoMarket(input) {
-	const m = object$1(input.market), s = status(m.status), p = provenance(m.provenance);
+	const m = object(input.market), s = status(m.status), p = provenance(m.provenance);
 	for (const [market, raw] of Object.entries(input.snapshots ?? {})) {
-		const snapshot = object$1(raw);
+		const snapshot = object(raw);
 		if (![
 			"kospi",
 			"kosdaq",
 			"sp500",
 			"nasdaq"
-		].includes(market) || snapshot.market !== market || snapshot.asOf !== "2024-03-31T00:00:00Z" || !["데모 · 가상 4종목 범위 (실제 지수 구성 아님)", "데모 · 고정 가상 종목 (실제 지수 구성 아님)"].includes(snapshot.sourceLabel) || snapshot.sourceUrl !== "https://example.invalid/stockpin-web-demo") throw fail$1();
+		].includes(market) || snapshot.market !== market || snapshot.asOf !== "2024-03-31T00:00:00Z" || !["데모 · 가상 4종목 범위 (실제 지수 구성 아님)", "데모 · 고정 가상 종목 (실제 지수 구성 아님)"].includes(snapshot.sourceLabel) || snapshot.sourceUrl !== "https://example.invalid/stockpin-web-demo") throw fail();
 	}
 	function rows(raw, ids) {
-		if (!Array.isArray(raw) || raw.length !== ids.length) throw fail$1();
+		if (!Array.isArray(raw) || raw.length !== ids.length) throw fail();
 		return ids.map((id, i) => row(raw[i], id, s));
 	}
 	const fx = rows(m.fx, [
@@ -14778,14 +14780,14 @@ function decodeWebDemoMarket(input) {
 		bitcoinSentiment,
 		vix
 	]) {
-		const supplied = object$1(input.series[r.id]);
+		const supplied = object(input.series[r.id]);
 		const periods = {};
 		for (const [period] of WEB_DEMO_PERIODS) {
-			const raw = object$1(supplied[period]), c = chart(raw);
-			if (status(raw.status) !== s) throw fail$1();
-			const pair = raw.pair === null ? null : object$1(raw.pair);
-			if (pair && (pair.id !== r.id || pair.value !== r.value || pair.base !== r.base || pair.quote !== r.quote || pair.baseAmount !== r.baseAmount)) throw fail$1();
-			if (s === "ready" ? c.points.length === 0 || raw.end !== p.fixedAsOf || c.points.at(-1)?.value !== r.value : c.points.length !== 0 || c.segments.length !== 0) throw fail$1();
+			const raw = object(supplied[period]), c = chart(raw);
+			if (status(raw.status) !== s) throw fail();
+			const pair = raw.pair === null ? null : object(raw.pair);
+			if (pair && (pair.id !== r.id || pair.value !== r.value || pair.base !== r.base || pair.quote !== r.quote || pair.baseAmount !== r.baseAmount)) throw fail();
+			if (s === "ready" ? c.points.length === 0 || raw.end !== p.fixedAsOf || c.points.at(-1)?.value !== r.value : c.points.length !== 0 || c.segments.length !== 0) throw fail();
 			periods[period] = {
 				...c,
 				status: s,
@@ -14797,7 +14799,7 @@ function decodeWebDemoMarket(input) {
 			};
 		}
 		if (s === "ready") {
-			for (const comparison of r.comparisons ?? []) if (periods.all.points.find((point) => point.date === comparison.date)?.value !== comparison.value) throw fail$1();
+			for (const comparison of r.comparisons ?? []) if (periods.all.points.find((point) => point.date === comparison.date)?.value !== comparison.value) throw fail();
 		}
 		series[r.id] = periods;
 	}
@@ -14814,7 +14816,7 @@ function decodeWebDemoMarket(input) {
 		series
 	};
 }
-var WEB_DEMO_PERIODS, WEB_DEMO_CAPTION, fail$1, specs;
+var WEB_DEMO_PERIODS, WEB_DEMO_CAPTION, fail, specs;
 function init_WebDemoMarketModel() {
 	return (init_WebDemoMarketModel = __esmMin((() => {
 		WEB_DEMO_PERIODS = [
@@ -14825,7 +14827,7 @@ function init_WebDemoMarketModel() {
 			["all", "전체"]
 		];
 		WEB_DEMO_CAPTION = "데모 · 고정 가상 자료 · 2024-03-31 가상 기준일";
-		fail$1 = () => /* @__PURE__ */ new TypeError("가상 시장 자료 확인 필요");
+		fail = () => /* @__PURE__ */ new TypeError("가상 시장 자료 확인 필요");
 		specs = {
 			usdkrw: [
 				"fx",
@@ -14937,10 +14939,10 @@ function init_WebDemoMarketModel() {
 }
 /** Only supplied presentation values; no source-bound decoder or request. */
 function WebDemoMarketDetails({ row, series, onClose }) {
-	const dialog = (0, import_react$29.useRef)(null), id = (0, import_react$29.useId)();
-	const [period, setPeriod] = (0, import_react$29.useState)("7d");
+	const dialog = (0, import_react$27.useRef)(null), id = (0, import_react$27.useId)();
+	const [period, setPeriod] = (0, import_react$27.useState)("7d");
 	const chart = series[period];
-	(0, import_react$29.useEffect)(() => {
+	(0, import_react$27.useEffect)(() => {
 		const node = dialog.current;
 		if (node && !node.open) node.showModal();
 		return () => {
@@ -14955,7 +14957,7 @@ function WebDemoMarketDetails({ row, series, onClose }) {
 	const unit = row.category === "fx" ? `${row.baseAmount} ${row.base}당 ${row.quote}` : displayUnit;
 	const maximum = chart.maximum === null ? "" : displayReferenceRate(chart.maximum), minimum = chart.minimum === null ? "" : displayReferenceRate(chart.minimum);
 	const collision = chart.maximum !== chart.minimum && maximum === minimum;
-	return /* @__PURE__ */ (0, import_jsx_runtime$31.jsxs)("dialog", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$29.jsxs)("dialog", {
 		ref: dialog,
 		className: "reference-rate-details web-demo-market-details",
 		"aria-labelledby": id,
@@ -14964,17 +14966,17 @@ function WebDemoMarketDetails({ row, series, onClose }) {
 			close();
 		},
 		children: [
-			/* @__PURE__ */ (0, import_jsx_runtime$31.jsxs)("header", { children: [/* @__PURE__ */ (0, import_jsx_runtime$31.jsxs)("h2", {
+			/* @__PURE__ */ (0, import_jsx_runtime$29.jsxs)("header", { children: [/* @__PURE__ */ (0, import_jsx_runtime$29.jsxs)("h2", {
 				id,
 				children: [row.label, " 상세 추이"]
-			}), /* @__PURE__ */ (0, import_jsx_runtime$31.jsx)("button", {
+			}), /* @__PURE__ */ (0, import_jsx_runtime$29.jsx)("button", {
 				type: "button",
 				autoFocus: true,
 				onClick: close,
 				"aria-label": `${row.label} 상세 닫기`,
 				children: "닫기"
 			})] }),
-			/* @__PURE__ */ (0, import_jsx_runtime$31.jsxs)("p", {
+			/* @__PURE__ */ (0, import_jsx_runtime$29.jsxs)("p", {
 				className: "reference-detail-meta",
 				children: [
 					WEB_DEMO_CAPTION,
@@ -14982,15 +14984,15 @@ function WebDemoMarketDetails({ row, series, onClose }) {
 					row.provenance.source
 				]
 			}),
-			row.meaning && /* @__PURE__ */ (0, import_jsx_runtime$31.jsx)("p", {
+			row.meaning && /* @__PURE__ */ (0, import_jsx_runtime$29.jsx)("p", {
 				className: "reference-detail-meta",
 				children: row.meaning
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$31.jsxs)("details", {
+			/* @__PURE__ */ (0, import_jsx_runtime$29.jsxs)("details", {
 				className: "reference-detail-values",
 				children: [
-					/* @__PURE__ */ (0, import_jsx_runtime$31.jsx)("summary", { children: "차트 기준" }),
-					/* @__PURE__ */ (0, import_jsx_runtime$31.jsxs)("p", { children: [
+					/* @__PURE__ */ (0, import_jsx_runtime$29.jsx)("summary", { children: "차트 기준" }),
+					/* @__PURE__ */ (0, import_jsx_runtime$29.jsxs)("p", { children: [
 						"목록의 작은 차트: ",
 						row.mini.points[0]?.date ?? "미확인",
 						"–",
@@ -14999,52 +15001,52 @@ function WebDemoMarketDetails({ row, series, onClose }) {
 						row.mini.points.length,
 						"개 일별 가상 표본. 실제 전일 종가가 아닌 고정 가상 자료로, 실시간 변동을 나타내지 않습니다."
 					] }),
-					/* @__PURE__ */ (0, import_jsx_runtime$31.jsx)("p", { children: "아래 기간 선택은 상세 차트의 실제 제공 범위를 보여줍니다." })
+					/* @__PURE__ */ (0, import_jsx_runtime$29.jsx)("p", { children: "아래 기간 선택은 상세 차트의 실제 제공 범위를 보여줍니다." })
 				]
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$31.jsx)("div", {
+			/* @__PURE__ */ (0, import_jsx_runtime$29.jsx)("div", {
 				className: "reference-rate-periods",
 				role: "group",
 				"aria-label": `${row.label} 추이 기간`,
-				children: WEB_DEMO_PERIODS.map(([value, label]) => /* @__PURE__ */ (0, import_jsx_runtime$31.jsx)("button", {
+				children: WEB_DEMO_PERIODS.map(([value, label]) => /* @__PURE__ */ (0, import_jsx_runtime$29.jsx)("button", {
 					type: "button",
 					"aria-pressed": period === value,
 					onClick: () => setPeriod(value),
 					children: label
 				}, value))
 			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$31.jsx)("p", {
+			/* @__PURE__ */ (0, import_jsx_runtime$29.jsx)("p", {
 				className: "reference-detail-unit",
 				children: unit
 			}),
-			chart.status !== "ready" ? /* @__PURE__ */ (0, import_jsx_runtime$31.jsx)("p", {
+			chart.status !== "ready" ? /* @__PURE__ */ (0, import_jsx_runtime$29.jsx)("p", {
 				role: "status",
 				children: chart.status === "error" ? "가상 자료 확인 실패" : chart.status === "unqueried" ? "가상 자료 미조회" : "선택한 기간의 가상 자료가 없습니다."
-			}) : /* @__PURE__ */ (0, import_jsx_runtime$31.jsxs)(import_jsx_runtime$31.Fragment, { children: [
-				/* @__PURE__ */ (0, import_jsx_runtime$31.jsxs)("p", {
+			}) : /* @__PURE__ */ (0, import_jsx_runtime$29.jsxs)(import_jsx_runtime$29.Fragment, { children: [
+				/* @__PURE__ */ (0, import_jsx_runtime$29.jsxs)("p", {
 					className: "reference-detail-meta",
 					children: [
-						/* @__PURE__ */ (0, import_jsx_runtime$31.jsx)("time", {
+						/* @__PURE__ */ (0, import_jsx_runtime$29.jsx)("time", {
 							dateTime: chart.start,
 							children: chart.start
 						}),
 						"–",
-						/* @__PURE__ */ (0, import_jsx_runtime$31.jsx)("time", {
+						/* @__PURE__ */ (0, import_jsx_runtime$29.jsx)("time", {
 							dateTime: chart.end,
 							children: chart.end
 						}),
 						" · UTC"
 					]
 				}),
-				/* @__PURE__ */ (0, import_jsx_runtime$31.jsxs)("svg", {
+				/* @__PURE__ */ (0, import_jsx_runtime$29.jsxs)("svg", {
 					className: "reference-rate-detail-chart",
 					"data-direction": row.direction,
 					viewBox: "0 0 640 280",
 					role: "img",
 					"aria-label": `${row.label} 일별 추이`,
 					children: [
-						/* @__PURE__ */ (0, import_jsx_runtime$31.jsx)("title", { children: `${row.label} · ${unit} · ${chart.start}–${chart.end} · ${WEB_DEMO_CAPTION}` }),
-						/* @__PURE__ */ (0, import_jsx_runtime$31.jsxs)("text", {
+						/* @__PURE__ */ (0, import_jsx_runtime$29.jsx)("title", { children: `${row.label} · ${unit} · ${chart.start}–${chart.end} · ${WEB_DEMO_CAPTION}` }),
+						/* @__PURE__ */ (0, import_jsx_runtime$29.jsxs)("text", {
 							x: "24",
 							y: "18",
 							children: [
@@ -15053,7 +15055,7 @@ function WebDemoMarketDetails({ row, series, onClose }) {
 								displayUnit
 							]
 						}),
-						/* @__PURE__ */ (0, import_jsx_runtime$31.jsxs)("text", {
+						/* @__PURE__ */ (0, import_jsx_runtime$29.jsxs)("text", {
 							x: "24",
 							y: "274",
 							children: [
@@ -15062,21 +15064,21 @@ function WebDemoMarketDetails({ row, series, onClose }) {
 								displayUnit
 							]
 						}),
-						chart.segments.map((points, i) => /* @__PURE__ */ (0, import_jsx_runtime$31.jsx)("polyline", { points }, i)),
-						chart.points.map((point) => /* @__PURE__ */ (0, import_jsx_runtime$31.jsx)("circle", {
+						chart.segments.map((points, i) => /* @__PURE__ */ (0, import_jsx_runtime$29.jsx)("polyline", { points }, i)),
+						chart.points.map((point) => /* @__PURE__ */ (0, import_jsx_runtime$29.jsx)("circle", {
 							cx: point.x,
 							cy: point.y,
 							r: "2.5",
-							children: /* @__PURE__ */ (0, import_jsx_runtime$31.jsx)("title", { children: `${point.date} · ${point.value} ${row.unit} · 가상` })
+							children: /* @__PURE__ */ (0, import_jsx_runtime$29.jsx)("title", { children: `${point.date} · ${point.value} ${row.unit} · 가상` })
 						}, point.date))
 					]
 				}),
-				/* @__PURE__ */ (0, import_jsx_runtime$31.jsxs)("details", {
+				/* @__PURE__ */ (0, import_jsx_runtime$29.jsxs)("details", {
 					className: "reference-detail-values",
-					children: [/* @__PURE__ */ (0, import_jsx_runtime$31.jsx)("summary", { children: "날짜별 값" }), /* @__PURE__ */ (0, import_jsx_runtime$31.jsx)("ul", { children: chart.points.map((point) => /* @__PURE__ */ (0, import_jsx_runtime$31.jsxs)("li", { children: [/* @__PURE__ */ (0, import_jsx_runtime$31.jsx)("time", {
+					children: [/* @__PURE__ */ (0, import_jsx_runtime$29.jsx)("summary", { children: "날짜별 값" }), /* @__PURE__ */ (0, import_jsx_runtime$29.jsx)("ul", { children: chart.points.map((point) => /* @__PURE__ */ (0, import_jsx_runtime$29.jsxs)("li", { children: [/* @__PURE__ */ (0, import_jsx_runtime$29.jsx)("time", {
 						dateTime: point.date,
 						children: point.date
-					}), /* @__PURE__ */ (0, import_jsx_runtime$31.jsxs)("span", { children: [
+					}), /* @__PURE__ */ (0, import_jsx_runtime$29.jsxs)("span", { children: [
 						point.value,
 						" ",
 						displayUnit
@@ -15086,13 +15088,13 @@ function WebDemoMarketDetails({ row, series, onClose }) {
 		]
 	});
 }
-var import_react$29, import_jsx_runtime$31;
+var import_react$27, import_jsx_runtime$29;
 function init_WebDemoMarketDetails() {
 	return (init_WebDemoMarketDetails = __esmMin((() => {
-		import_react$29 = require_react();
+		import_react$27 = require_react();
 		init_WebDemoMarketModel();
 		init_reference_rate_details();
-		import_jsx_runtime$31 = require_jsx_runtime();
+		import_jsx_runtime$29 = require_jsx_runtime();
 	})))();
 }
 function init_WebDemoMarket() {
@@ -15100,7 +15102,7 @@ function init_WebDemoMarket() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/features/market/WebDemoMarket.css?v=source-build-r99";
+			l.href = "/local/app/css-source/src/features/market/WebDemoMarket.css?v=source-build-r102";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -15122,7 +15124,7 @@ function presentation(row) {
 }
 /** Index hierarchy is deliberately separate from the left-trend/right-value FX rows. */
 function WebDemoIndexRows({ rows, onOpen }) {
-	return /* @__PURE__ */ (0, import_jsx_runtime$30.jsx)("dl", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$28.jsx)("dl", {
 		className: "web-demo-index-rows",
 		children: rows.map((row) => {
 			const known = row.status === "ready" && row.value !== null;
@@ -15132,10 +15134,10 @@ function WebDemoIndexRows({ rows, onOpen }) {
 			const valueTitle = `${provenance} · ${row.value ?? "미확인"} ${row.unit}`;
 			const comparisonTitle = `${provenance} · ${row.comparisonDate ?? "미확인"} 대비 · ${compared ? `${row.change} ${row.unit} (${row.percent})` : "등락 미확인"}`;
 			const trendTitle = `${provenance} · ${row.mini.points.map((point) => `${point.date}: ${point.value} ${row.unit}`).join(" · ")}`;
-			return /* @__PURE__ */ (0, import_jsx_runtime$30.jsxs)("div", {
+			return /* @__PURE__ */ (0, import_jsx_runtime$28.jsxs)("div", {
 				"data-index-id": row.id,
 				children: [
-					/* @__PURE__ */ (0, import_jsx_runtime$30.jsx)("dt", { children: /* @__PURE__ */ (0, import_jsx_runtime$30.jsx)("button", {
+					/* @__PURE__ */ (0, import_jsx_runtime$28.jsx)("dt", { children: /* @__PURE__ */ (0, import_jsx_runtime$28.jsx)("button", {
 						type: "button",
 						"aria-haspopup": "dialog",
 						"aria-label": `${row.label} 상세 추이`,
@@ -15143,28 +15145,28 @@ function WebDemoIndexRows({ rows, onOpen }) {
 						onClick: (event) => onOpen(row.id, event.currentTarget),
 						children: row.id === "nasdaq" ? "나스닥" : row.label
 					}) }),
-					/* @__PURE__ */ (0, import_jsx_runtime$30.jsxs)("dd", {
+					/* @__PURE__ */ (0, import_jsx_runtime$28.jsxs)("dd", {
 						className: "web-demo-index-quote",
-						children: [/* @__PURE__ */ (0, import_jsx_runtime$30.jsx)("strong", {
+						children: [/* @__PURE__ */ (0, import_jsx_runtime$28.jsx)("strong", {
 							"data-direction": direction,
 							title: valueTitle,
 							children: known ? row.displayValue : "미확인"
-						}), /* @__PURE__ */ (0, import_jsx_runtime$30.jsx)("span", {
+						}), /* @__PURE__ */ (0, import_jsx_runtime$28.jsx)("span", {
 							className: "web-demo-index-change",
 							"data-direction": direction,
 							title: comparisonTitle,
 							children: compared ? `${row.change} (${row.percent})` : "등락 미확인"
 						})]
 					}),
-					/* @__PURE__ */ (0, import_jsx_runtime$30.jsx)("dd", {
+					/* @__PURE__ */ (0, import_jsx_runtime$28.jsx)("dd", {
 						className: "web-demo-index-trend",
 						"data-direction": direction,
-						children: known && row.mini.segments.length ? /* @__PURE__ */ (0, import_jsx_runtime$30.jsxs)("svg", {
+						children: known && row.mini.segments.length ? /* @__PURE__ */ (0, import_jsx_runtime$28.jsxs)("svg", {
 							viewBox: "0 0 96 32",
 							role: "img",
 							"aria-label": `${row.label} 일별 추이`,
-							children: [/* @__PURE__ */ (0, import_jsx_runtime$30.jsx)("title", { children: trendTitle }), row.mini.segments.map((points, i) => /* @__PURE__ */ (0, import_jsx_runtime$30.jsx)("polyline", { points }, i))]
-						}) : /* @__PURE__ */ (0, import_jsx_runtime$30.jsx)("span", { children: "추이 미확인" })
+							children: [/* @__PURE__ */ (0, import_jsx_runtime$28.jsx)("title", { children: trendTitle }), row.mini.segments.map((points, i) => /* @__PURE__ */ (0, import_jsx_runtime$28.jsx)("polyline", { points }, i))]
+						}) : /* @__PURE__ */ (0, import_jsx_runtime$28.jsx)("span", { children: "추이 미확인" })
 					})
 				]
 			}, row.id);
@@ -15176,43 +15178,43 @@ function WebDemoMarketGauge({ row, onOpen }) {
 	const stocks = row.category === "stocksSentiment", vix = row.category === "volatility";
 	const label = stocks ? "CNN 공포·탐욕" : vix ? "VIX" : "비트코인 심리";
 	const provenance = `${row.provenance.label} · ${row.provenance.source} · 기준일 ${row.sourceDate ?? "미확인"}`;
-	return /* @__PURE__ */ (0, import_jsx_runtime$30.jsxs)("div", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$28.jsxs)("div", {
 		className: "web-demo-gauge",
 		"data-metric": row.id,
-		children: [/* @__PURE__ */ (0, import_jsx_runtime$30.jsxs)("header", {
+		children: [/* @__PURE__ */ (0, import_jsx_runtime$28.jsxs)("header", {
 			className: "market-metric-heading",
-			children: [/* @__PURE__ */ (0, import_jsx_runtime$30.jsx)("h2", { children: /* @__PURE__ */ (0, import_jsx_runtime$30.jsx)("button", {
+			children: [/* @__PURE__ */ (0, import_jsx_runtime$28.jsx)("h2", { children: /* @__PURE__ */ (0, import_jsx_runtime$28.jsx)("button", {
 				type: "button",
 				"aria-haspopup": "dialog",
 				"aria-label": `${label} 상세 추이`,
 				title: "시계열 추이 보기",
 				onClick: (event) => onOpen(row.id, event.currentTarget),
 				children: label
-			}) }), /* @__PURE__ */ (0, import_jsx_runtime$30.jsxs)(WidgetMetricHelp, {
+			}) }), /* @__PURE__ */ (0, import_jsx_runtime$28.jsxs)(WidgetMetricHelp, {
 				label,
 				children: [
-					/* @__PURE__ */ (0, import_jsx_runtime$30.jsx)("p", { children: stocks ? "CNN 공포·탐욕은 주식시장 심리를 0–100으로 나타내는 지표 유형입니다. 이 화면은 고정 가상 주식 심리이며 CNN 공식 현재 수치가 아닙니다." : vix ? "VIX는 S&P 500 옵션 가격에 반영된 향후 30일 기대 변동성 지수입니다. 원시 값을 표시하며 심리 점수로 정규화하지 않습니다." : "비트코인 공포·탐욕은 암호화폐 시장 심리를 나타내는 0–100 점수입니다." }),
-					/* @__PURE__ */ (0, import_jsx_runtime$30.jsx)("p", { children: vix ? "표시 척도 0–80. 80을 넘으면 바늘만 끝에 머물며 원래 값과 척도 초과 상태를 유지합니다. 색은 위치 구분용이며 공식 공포 분류나 매매 신호가 아닙니다." : "척도 0–100: 0은 공포, 100은 탐욕. 상태는 예시 구간(0–25 미만 극도 공포, 25–45 미만 공포, 45–55 중립, 55 초과–75 미만 탐욕, 75–100 극도 탐욕)이며 공급자의 공식 분류가 아닙니다." }),
-					/* @__PURE__ */ (0, import_jsx_runtime$30.jsx)("p", { children: row.meaning }),
-					/* @__PURE__ */ (0, import_jsx_runtime$30.jsxs)("p", { children: [provenance, " · 실제 공급 미연결 · 매매 신호 아님"] }),
-					row.comparisons && /* @__PURE__ */ (0, import_jsx_runtime$30.jsx)("dl", {
+					/* @__PURE__ */ (0, import_jsx_runtime$28.jsx)("p", { children: stocks ? "CNN 공포·탐욕은 주식시장 심리를 0–100으로 나타내는 지표 유형입니다. 이 화면은 고정 가상 주식 심리이며 CNN 공식 현재 수치가 아닙니다." : vix ? "VIX는 S&P 500 옵션 가격에 반영된 향후 30일 기대 변동성 지수입니다. 원시 값을 표시하며 심리 점수로 정규화하지 않습니다." : "비트코인 공포·탐욕은 암호화폐 시장 심리를 나타내는 0–100 점수입니다." }),
+					/* @__PURE__ */ (0, import_jsx_runtime$28.jsx)("p", { children: vix ? "표시 척도 0–80. 80을 넘으면 바늘만 끝에 머물며 원래 값과 척도 초과 상태를 유지합니다. 색은 위치 구분용이며 공식 공포 분류나 매매 신호가 아닙니다." : "척도 0–100: 0은 공포, 100은 탐욕. 상태는 예시 구간(0–25 미만 극도 공포, 25–45 미만 공포, 45–55 중립, 55 초과–75 미만 탐욕, 75–100 극도 탐욕)이며 공급자의 공식 분류가 아닙니다." }),
+					/* @__PURE__ */ (0, import_jsx_runtime$28.jsx)("p", { children: row.meaning }),
+					/* @__PURE__ */ (0, import_jsx_runtime$28.jsxs)("p", { children: [provenance, " · 실제 공급 미연결 · 매매 신호 아님"] }),
+					row.comparisons && /* @__PURE__ */ (0, import_jsx_runtime$28.jsx)("dl", {
 						className: "web-demo-sentiment-comparisons",
-						children: row.comparisons.map((comparison) => /* @__PURE__ */ (0, import_jsx_runtime$30.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime$30.jsx)("dt", { children: comparison.label }), /* @__PURE__ */ (0, import_jsx_runtime$30.jsxs)("dd", {
+						children: row.comparisons.map((comparison) => /* @__PURE__ */ (0, import_jsx_runtime$28.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime$28.jsx)("dt", { children: comparison.label }), /* @__PURE__ */ (0, import_jsx_runtime$28.jsxs)("dd", {
 							title: comparison.value === null ? "미확인" : `${comparison.value}점`,
-							children: [comparison.value === null ? "미확인" : `${displayReferenceRate(comparison.value)}점`, /* @__PURE__ */ (0, import_jsx_runtime$30.jsx)("time", {
+							children: [comparison.value === null ? "미확인" : `${displayReferenceRate(comparison.value)}점`, /* @__PURE__ */ (0, import_jsx_runtime$28.jsx)("time", {
 								dateTime: comparison.date,
 								children: comparison.date
 							})]
 						})] }, comparison.key))
 					}),
-					vix && /* @__PURE__ */ (0, import_jsx_runtime$30.jsx)("p", { children: row.comparisonDate !== null && row.change !== null && row.percent !== null ? `${row.change} (${row.percent}) · ${row.comparisonDate ?? "미확인"} 대비` : "등락 미확인" }),
-					/* @__PURE__ */ (0, import_jsx_runtime$30.jsx)("p", { children: "제목을 누르면 기간별 추이와 날짜별 원문값을 볼 수 있습니다." })
+					vix && /* @__PURE__ */ (0, import_jsx_runtime$28.jsx)("p", { children: row.comparisonDate !== null && row.change !== null && row.percent !== null ? `${row.change} (${row.percent}) · ${row.comparisonDate ?? "미확인"} 대비` : "등락 미확인" }),
+					/* @__PURE__ */ (0, import_jsx_runtime$28.jsx)("p", { children: "제목을 누르면 기간별 추이와 날짜별 원문값을 볼 수 있습니다." })
 				]
 			})]
-		}), vix ? /* @__PURE__ */ (0, import_jsx_runtime$30.jsx)(VolatilityDial, {
+		}), vix ? /* @__PURE__ */ (0, import_jsx_runtime$28.jsx)(VolatilityDial, {
 			value: row.value === null ? null : Number(row.value),
 			label: `${label} · ${provenance}`
-		}) : /* @__PURE__ */ (0, import_jsx_runtime$30.jsx)(SentimentDial, {
+		}) : /* @__PURE__ */ (0, import_jsx_runtime$28.jsx)(SentimentDial, {
 			syntheticClassification: true,
 			value: row.value === null ? null : Number(row.value),
 			label: `${label} · ${provenance}${stocks ? " · CNN 공식 현재 수치 아님" : ""}`
@@ -15220,8 +15222,8 @@ function WebDemoMarketGauge({ row, onOpen }) {
 	});
 }
 function WebDemoMarketPanels({ view, group, tab = "indices", filters, regionControls }) {
-	const [detail, setDetail] = (0, import_react$28.useState)(null), opener = (0, import_react$28.useRef)(null);
-	(0, import_react$28.useEffect)(() => {
+	const [detail, setDetail] = (0, import_react$26.useState)(null), opener = (0, import_react$26.useRef)(null);
+	(0, import_react$26.useEffect)(() => {
 		setDetail(null);
 	}, [group, tab]);
 	const catalog = webDemoCatalog(view);
@@ -15249,50 +15251,50 @@ function WebDemoMarketPanels({ view, group, tab = "indices", filters, regionCont
 		name: "원자재",
 		rows: catalog.commodities
 	}];
-	return /* @__PURE__ */ (0, import_jsx_runtime$30.jsxs)(import_jsx_runtime$30.Fragment, { children: [
-		market.status !== "ready" && /* @__PURE__ */ (0, import_jsx_runtime$30.jsx)("p", {
+	return /* @__PURE__ */ (0, import_jsx_runtime$28.jsxs)(import_jsx_runtime$28.Fragment, { children: [
+		market.status !== "ready" && /* @__PURE__ */ (0, import_jsx_runtime$28.jsx)("p", {
 			role: market.status === "error" ? "alert" : "status",
 			children: market.status === "error" ? "가상 자료 확인 실패" : market.status === "empty" ? "가상 자료 없음" : "가상 자료 미조회"
 		}),
-		/* @__PURE__ */ (0, import_jsx_runtime$30.jsx)("section", {
+		/* @__PURE__ */ (0, import_jsx_runtime$28.jsx)("section", {
 			className: "web-demo-market-overview",
 			"aria-label": "시장 심리 요약",
 			children: [
 				market.stocksSentiment,
 				market.vix,
 				market.bitcoinSentiment
-			].map((row) => /* @__PURE__ */ (0, import_jsx_runtime$30.jsx)(WebDemoMarketGauge, {
+			].map((row) => /* @__PURE__ */ (0, import_jsx_runtime$28.jsx)(WebDemoMarketGauge, {
 				row,
 				onOpen: open
 			}, row.id))
 		}),
 		filters,
-		group !== "fx" && /* @__PURE__ */ (0, import_jsx_runtime$30.jsxs)("section", {
+		group !== "fx" && /* @__PURE__ */ (0, import_jsx_runtime$28.jsxs)("section", {
 			className: "market-indicators reference-rates-table web-demo-market-indices",
 			"aria-label": tab === "indices" ? "가상 시장 지수" : tab === "bonds" ? "가상 채권" : "가상 원자재",
-			children: [/* @__PURE__ */ (0, import_jsx_runtime$30.jsxs)("header", {
+			children: [/* @__PURE__ */ (0, import_jsx_runtime$28.jsxs)("header", {
 				className: "reference-rates-heading",
-				children: [/* @__PURE__ */ (0, import_jsx_runtime$30.jsx)("h2", { children: tab === "indices" ? "지수 · 환율" : tab === "bonds" ? "채권" : "원자재" }), tab === "indices" && regionControls]
-			}), /* @__PURE__ */ (0, import_jsx_runtime$30.jsx)("div", {
+				children: [/* @__PURE__ */ (0, import_jsx_runtime$28.jsx)("h2", { children: tab === "indices" ? "지수 · 환율" : tab === "bonds" ? "채권" : "원자재" }), tab === "indices" && regionControls]
+			}), /* @__PURE__ */ (0, import_jsx_runtime$28.jsx)("div", {
 				className: "reference-rate-groups",
-				children: indexGroups.map((item) => /* @__PURE__ */ (0, import_jsx_runtime$30.jsxs)("div", {
+				children: indexGroups.map((item) => /* @__PURE__ */ (0, import_jsx_runtime$28.jsxs)("div", {
 					className: "reference-rate-group",
 					role: "group",
 					"aria-label": item.name,
-					children: [/* @__PURE__ */ (0, import_jsx_runtime$30.jsx)("h3", { children: item.name }), /* @__PURE__ */ (0, import_jsx_runtime$30.jsx)(WebDemoIndexRows, {
+					children: [/* @__PURE__ */ (0, import_jsx_runtime$28.jsx)("h3", { children: item.name }), /* @__PURE__ */ (0, import_jsx_runtime$28.jsx)(WebDemoIndexRows, {
 						rows: item.rows,
 						onOpen: open
 					})]
 				}, item.name))
 			})]
 		}),
-		group === "fx" && /* @__PURE__ */ (0, import_jsx_runtime$30.jsxs)("section", {
+		group === "fx" && /* @__PURE__ */ (0, import_jsx_runtime$28.jsxs)("section", {
 			className: "market-indicators reference-rates-table web-demo-market-fx",
 			"aria-label": "가상 환율",
-			children: [/* @__PURE__ */ (0, import_jsx_runtime$30.jsx)("header", {
+			children: [/* @__PURE__ */ (0, import_jsx_runtime$28.jsx)("header", {
 				className: "reference-rates-heading",
-				children: /* @__PURE__ */ (0, import_jsx_runtime$30.jsx)("h2", { children: "환율" })
-			}), /* @__PURE__ */ (0, import_jsx_runtime$30.jsx)("div", {
+				children: /* @__PURE__ */ (0, import_jsx_runtime$28.jsx)("h2", { children: "환율" })
+			}), /* @__PURE__ */ (0, import_jsx_runtime$28.jsx)("div", {
 				className: "reference-rate-groups",
 				children: [{
 					name: "원화 기준",
@@ -15300,28 +15302,28 @@ function WebDemoMarketPanels({ view, group, tab = "indices", filters, regionCont
 				}, {
 					name: "교차환율",
 					rows: market.fx.filter((row) => row.quote !== "KRW")
-				}].map((item) => /* @__PURE__ */ (0, import_jsx_runtime$30.jsxs)("div", {
+				}].map((item) => /* @__PURE__ */ (0, import_jsx_runtime$28.jsxs)("div", {
 					className: "reference-rate-group",
 					role: "group",
 					"aria-label": item.name,
-					children: [/* @__PURE__ */ (0, import_jsx_runtime$30.jsx)("h3", { children: item.name }), /* @__PURE__ */ (0, import_jsx_runtime$30.jsx)(ReferenceRateRows, {
+					children: [/* @__PURE__ */ (0, import_jsx_runtime$28.jsx)("h3", { children: item.name }), /* @__PURE__ */ (0, import_jsx_runtime$28.jsx)(ReferenceRateRows, {
 						rows: item.rows.map(presentation),
 						onOpen: open
 					})]
 				}, item.name))
 			})]
 		}),
-		selected && /* @__PURE__ */ (0, import_jsx_runtime$30.jsx)(WebDemoMarketDetails, {
+		selected && /* @__PURE__ */ (0, import_jsx_runtime$28.jsx)(WebDemoMarketDetails, {
 			row: selected,
 			series: catalog.series[selected.id],
 			onClose: close
 		}, selected.id)
 	] });
 }
-var import_react$28, import_jsx_runtime$30;
+var import_react$26, import_jsx_runtime$28;
 function init_WebDemoMarketPanels() {
 	return (init_WebDemoMarketPanels = __esmMin((() => {
-		import_react$28 = require_react();
+		import_react$26 = require_react();
 		init_WidgetMetricHelp();
 		init_webDemoCatalog();
 		init_SentimentDial();
@@ -15330,480 +15332,14 @@ function init_WebDemoMarketPanels() {
 		init_WebDemoMarketModel();
 		init_fear_greed_details();
 		init_WebDemoMarket();
-		import_jsx_runtime$30 = require_jsx_runtime();
+		import_jsx_runtime$28 = require_jsx_runtime();
 	})))();
 }
-var import_react$27, MarketDataContext;
+var import_react$25, MarketDataContext;
 function init_marketDataContext() {
 	return (init_marketDataContext = __esmMin((() => {
-		import_react$27 = require_react();
-		MarketDataContext = (0, import_react$27.createContext)({});
-	})))();
-}
-function exact(v, keys) {
-	if (Object.keys(v).sort().join(",") !== keys.sort().join(",")) throw fail();
-}
-function text(v, max) {
-	if (typeof v !== "string" || !v.trim() || v.length > max || [...v].some((c) => c.charCodeAt(0) < 32 || c.charCodeAt(0) === 127)) throw fail();
-	return v;
-}
-/** Structural admission only; a provider must separately verify universe membership and data rights. */
-function parseMarketSnapshot(input, market, now) {
-	const v = object(input);
-	exact(v, [
-		"market",
-		"asOf",
-		"sourceLabel",
-		"sourceUrl",
-		"universeSize",
-		"rows"
-	]);
-	if (![
-		"kospi",
-		"kosdaq",
-		"sp500",
-		"nasdaq"
-	].includes(market) || v.market !== market) throw fail();
-	const asOf = text(v.asOf, 40), date = Date.parse(asOf), clock = Date.parse(now);
-	if (!/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d{3})?Z$/.test(asOf) || !Number.isFinite(date) || !Number.isFinite(clock) || date > clock || new Date(date).toISOString().slice(0, 19) !== asOf.slice(0, 19)) throw fail();
-	const sourceLabel = text(v.sourceLabel, 100), sourceUrl = text(v.sourceUrl, 600);
-	let url;
-	try {
-		url = new URL(sourceUrl);
-	} catch {
-		throw fail();
-	}
-	if (url.protocol !== "https:" || url.username || url.password || url.search || url.hash) throw fail();
-	if (!Number.isSafeInteger(v.universeSize) || Number(v.universeSize) < 1 || Number(v.universeSize) > 5e3 || !Array.isArray(v.rows) || v.rows.length > Number(v.universeSize)) throw fail();
-	const seen = /* @__PURE__ */ new Set();
-	const rows = v.rows.map((raw) => {
-		const row = object(raw);
-		exact(row, [
-			"symbol",
-			"name",
-			"sector",
-			"marketCap",
-			"changePct"
-		]);
-		const symbol = text(row.symbol, 24);
-		if (!/^[A-Z0-9^._-]+$/.test(symbol) || seen.has(symbol)) throw fail();
-		seen.add(symbol);
-		if (row.marketCap !== null && (typeof row.marketCap !== "string" || !/^[1-9]\d{0,29}$/.test(row.marketCap))) throw fail();
-		if (row.changePct !== null && (typeof row.changePct !== "string" || !/^-?(?:0|[1-9]\d{0,5})(?:\.\d{1,12})?$/.test(row.changePct))) throw fail();
-		return {
-			symbol,
-			name: text(row.name, 120),
-			sector: text(row.sector, 80),
-			marketCap: row.marketCap,
-			changePct: row.changePct
-		};
-	});
-	return {
-		market,
-		asOf,
-		sourceLabel,
-		sourceUrl,
-		universeSize: Number(v.universeSize),
-		rows
-	};
-}
-function marketBreadth(snapshot) {
-	let up = 0, down = 0, flat = 0;
-	for (const row of snapshot.rows) {
-		if (row.changePct === null) continue;
-		const sign = compareDecimalStrings(row.changePct, "0");
-		if (sign > 0) up++;
-		else if (sign < 0) down++;
-		else flat++;
-	}
-	const unknown = snapshot.universeSize - up - down - flat;
-	return {
-		up,
-		down,
-		flat,
-		unknown,
-		advancePct: unknown === 0 ? decimalRatioPercent(String(up), String(snapshot.universeSize)) : null
-	};
-}
-/** Floating point is used for geometry only. Original monetary strings are never rounded. */
-function marketRectangles(rows) {
-	const sorted = rows.filter((row) => row.marketCap !== null).slice().sort((a, b) => {
-		const ac = BigInt(a.marketCap), bc = BigInt(b.marketCap);
-		return ac === bc ? a.symbol.localeCompare(b.symbol) : ac > bc ? -1 : 1;
-	});
-	const rectangles = [];
-	function split(items, x, y, width, height) {
-		if (!items.length) return;
-		if (items.length === 1) {
-			rectangles.push({
-				row: items[0],
-				x,
-				y,
-				width,
-				height
-			});
-			return;
-		}
-		const total = items.reduce((sum, row) => sum + BigInt(row.marketCap), 0n);
-		let amount = 0n, at = 0;
-		while (at < items.length - 1 && amount * 2n < total) {
-			amount += BigInt(items[at].marketCap);
-			at++;
-		}
-		const fraction = Number(amount) / Number(total);
-		if (width >= height) {
-			const first = width * fraction;
-			split(items.slice(0, at), x, y, first, height);
-			split(items.slice(at), x + first, y, width - first, height);
-		} else {
-			const first = height * fraction;
-			split(items.slice(0, at), x, y, width, first);
-			split(items.slice(at), x, y + first, width, height - first);
-		}
-	}
-	split(sorted, 0, 0, 100, 100);
-	return rectangles;
-}
-var fail, object;
-function init_marketSnapshot() {
-	return (init_marketSnapshot = __esmMin((() => {
-		init_portfolio();
-		fail = () => Error("시장 자료 형식 또는 범위를 확인할 수 없습니다.");
-		object = (v) => {
-			if (!v || typeof v !== "object" || Array.isArray(v)) throw fail();
-			return v;
-		};
-	})))();
-}
-/** Sector weights share one admitted market/currency/time. Never merges indices. */
-function heatmapSectors(rows) {
-	const groups = /* @__PURE__ */ new Map();
-	for (const row of rows) {
-		const group = groups.get(row.sector) ?? [];
-		group.push(row);
-		groups.set(row.sector, group);
-	}
-	return marketRectangles([...groups].map(([sector, members], i) => ({
-		symbol: String(i),
-		name: sector,
-		sector,
-		changePct: null,
-		marketCap: members.reduce((sum, row) => sum + BigInt(row.marketCap ?? "0"), 0n).toString()
-	})).filter((row) => row.marketCap !== "0")).map((rect) => ({
-		...rect,
-		sector: rect.row.sector,
-		tiles: marketRectangles(groups.get(rect.row.sector))
-	}));
-}
-function init_heatmapSectors() {
-	return (init_heatmapSectors = __esmMin((() => {
-		init_marketSnapshot();
-	})))();
-}
-function init_heatmap_sectors() {
-	return (init_heatmap_sectors = __esmMin((() => {
-		{
-			const l = document.createElement("link");
-			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/features/market/heatmap-sectors.css?v=source-build-r99";
-			document.head.appendChild(l);
-		}
-	})))();
-}
-function MarketHeatmap({ market, input }) {
-	const [now, setNow] = (0, import_react$26.useState)(() => (/* @__PURE__ */ new Date()).toISOString());
-	(0, import_react$26.useEffect)(() => {
-		const timer = setInterval(() => setNow((/* @__PURE__ */ new Date()).toISOString()), 6e4);
-		return () => clearInterval(timer);
-	}, []);
-	const [sectorChoice, setSector] = (0, import_react$26.useState)(null);
-	const [selected, setSelected] = (0, import_react$26.useState)(null), [focused, setFocused] = (0, import_react$26.useState)(null);
-	let data;
-	try {
-		data = input == null ? null : parseMarketSnapshot(input, market, now);
-	} catch {
-		return /* @__PURE__ */ (0, import_jsx_runtime$29.jsx)("p", {
-			role: "alert",
-			children: "시장 자료를 확인할 수 없습니다. 수치는 표시하지 않습니다."
-		});
-	}
-	if (!data) return /* @__PURE__ */ (0, import_jsx_runtime$29.jsx)("p", {
-		className: "market-empty",
-		children: "시장 자료 미연결"
-	});
-	const breadth = marketBreadth(data), sectors = [...new Set(data.rows.map((row) => row.sector))].sort();
-	const sector = sectorChoice?.market === market && sectors.includes(sectorChoice.value) ? sectorChoice.value : null;
-	const rows = sector ? data.rows.filter((row) => row.sector === sector) : data.rows, blocks = heatmapSectors(rows), rects = blocks.flatMap((block) => block.tiles);
-	function zoom(value) {
-		setSelected(null);
-		setFocused(null);
-		setSector(value ? {
-			market,
-			value
-		} : null);
-	}
-	const key = (symbol) => market + ":" + symbol, detail = rows.find((row) => key(row.symbol) === selected), tab = rects.find((rect) => key(rect.row.symbol) === focused)?.row.symbol ?? rects[0]?.row.symbol;
-	function keyboard(event) {
-		const buttons = [...event.currentTarget.closest(".market-sector-map").querySelectorAll("[data-heatmap-symbol]")], i = buttons.indexOf(event.currentTarget);
-		if (event.key === "Escape") {
-			setSelected(null);
-			return;
-		}
-		const next = event.key === "Home" ? 0 : event.key === "End" ? buttons.length - 1 : event.key === "ArrowRight" || event.key === "ArrowDown" ? (i + 1) % buttons.length : event.key === "ArrowLeft" || event.key === "ArrowUp" ? (i + buttons.length - 1) % buttons.length : null;
-		if (next !== null) {
-			event.preventDefault();
-			buttons[next]?.focus({ preventScroll: true });
-		}
-	}
-	return /* @__PURE__ */ (0, import_jsx_runtime$29.jsxs)(import_jsx_runtime$29.Fragment, { children: [
-		/* @__PURE__ */ (0, import_jsx_runtime$29.jsxs)("div", {
-			className: "market-breadth",
-			"aria-label": "시장 전체 등락",
-			children: [
-				/* @__PURE__ */ (0, import_jsx_runtime$29.jsxs)("span", { children: ["상승 ", /* @__PURE__ */ (0, import_jsx_runtime$29.jsx)("b", { children: breadth.up })] }),
-				/* @__PURE__ */ (0, import_jsx_runtime$29.jsxs)("span", { children: ["하락 ", /* @__PURE__ */ (0, import_jsx_runtime$29.jsx)("b", { children: breadth.down })] }),
-				/* @__PURE__ */ (0, import_jsx_runtime$29.jsxs)("span", { children: ["보합 ", /* @__PURE__ */ (0, import_jsx_runtime$29.jsx)("b", { children: breadth.flat })] }),
-				breadth.unknown > 0 && /* @__PURE__ */ (0, import_jsx_runtime$29.jsxs)("span", { children: ["미확인 ", /* @__PURE__ */ (0, import_jsx_runtime$29.jsx)("b", { children: breadth.unknown })] }),
-				/* @__PURE__ */ (0, import_jsx_runtime$29.jsx)("span", { children: breadth.advancePct === null ? "전체 상승 비율 미확인" : `상승 비율 ${breadth.advancePct}%` })
-			]
-		}),
-		/* @__PURE__ */ (0, import_jsx_runtime$29.jsxs)("div", {
-			className: "market-sector-choices",
-			role: "group",
-			"aria-label": "히트맵 업종 확대",
-			children: [/* @__PURE__ */ (0, import_jsx_runtime$29.jsx)("button", {
-				type: "button",
-				"aria-pressed": !sector,
-				onClick: () => zoom(null),
-				children: sector ? "전체 보기" : "전체"
-			}), sectors.map((value) => /* @__PURE__ */ (0, import_jsx_runtime$29.jsx)("button", {
-				type: "button",
-				"aria-pressed": sector === value,
-				onClick: () => zoom(value),
-				children: value
-			}, value))]
-		}),
-		/* @__PURE__ */ (0, import_jsx_runtime$29.jsxs)("p", {
-			className: "market-map-key",
-			children: ["면적 · 시가총액 / 색 · 전일 대비", sector && ` · ${sector}`]
-		}),
-		rects.length > 0 ? /* @__PURE__ */ (0, import_jsx_runtime$29.jsx)("div", {
-			className: "market-sector-map",
-			role: "group",
-			"aria-label": `${MARKET_UNIVERSES.find((u) => u.id === market).label} 시가총액 히트맵`,
-			children: blocks.map((block) => /* @__PURE__ */ (0, import_jsx_runtime$29.jsxs)("section", {
-				"data-heatmap-sector": block.sector,
-				className: "market-sector-block",
-				style: {
-					left: `${block.x}%`,
-					top: `${block.y}%`,
-					width: `${block.width}%`,
-					height: `${block.height}%`
-				},
-				children: [/* @__PURE__ */ (0, import_jsx_runtime$29.jsxs)("header", { children: [/* @__PURE__ */ (0, import_jsx_runtime$29.jsx)("h3", {
-					title: block.sector,
-					children: block.sector
-				}), /* @__PURE__ */ (0, import_jsx_runtime$29.jsx)("button", {
-					type: "button",
-					"aria-label": `${block.sector} ${sector ? "전체 보기" : "확대"}`,
-					onClick: () => zoom(sector ? null : block.sector),
-					children: sector ? "↙" : "확대 ↗"
-				})] }), /* @__PURE__ */ (0, import_jsx_runtime$29.jsx)("div", {
-					className: "market-treemap",
-					children: block.tiles.map((rect) => {
-						const row = rect.row, sign = row.changePct === null ? null : compareDecimalStrings(row.changePct, "0");
-						const change = row.changePct === null ? "등락 미확인" : `${sign === 1 ? "+" : ""}${row.changePct}%`;
-						return /* @__PURE__ */ (0, import_jsx_runtime$29.jsxs)("button", {
-							type: "button",
-							"data-heatmap-symbol": row.symbol,
-							"data-direction": sign === null ? "unknown" : sign === 1 ? "up" : sign === -1 ? "down" : "flat",
-							"aria-pressed": selected === key(row.symbol),
-							"aria-label": `${row.name} · ${row.sector} · ${change}`,
-							title: `${row.name} (${row.symbol})\n${row.sector}\n전일 대비 ${change}`,
-							tabIndex: tab === row.symbol ? 0 : -1,
-							onFocus: () => setFocused(key(row.symbol)),
-							onKeyDown: keyboard,
-							onClick: () => setSelected(key(row.symbol)),
-							style: {
-								left: `${rect.x}%`,
-								top: `${rect.y}%`,
-								width: `${rect.width}%`,
-								height: `${rect.height}%`
-							},
-							children: [/* @__PURE__ */ (0, import_jsx_runtime$29.jsx)("strong", { children: row.symbol }), /* @__PURE__ */ (0, import_jsx_runtime$29.jsx)("span", { children: change })]
-						}, row.symbol);
-					})
-				})]
-			}, block.sector))
-		}) : /* @__PURE__ */ (0, import_jsx_runtime$29.jsx)("p", {
-			className: "market-empty",
-			children: "표시할 시가총액 자료가 없습니다."
-		}),
-		rows.some((row) => row.marketCap === null) && /* @__PURE__ */ (0, import_jsx_runtime$29.jsxs)("p", {
-			className: "market-map-missing",
-			children: [
-				"시가총액 미확인 ",
-				rows.filter((row) => row.marketCap === null).length,
-				"종목은 면적에서 제외"
-			]
-		}),
-		detail && /* @__PURE__ */ (0, import_jsx_runtime$29.jsxs)("section", {
-			className: "market-stock-detail",
-			"aria-label": "선택 종목 정보",
-			children: [
-				/* @__PURE__ */ (0, import_jsx_runtime$29.jsxs)("h3", { children: [
-					detail.name,
-					" ",
-					/* @__PURE__ */ (0, import_jsx_runtime$29.jsx)("span", { children: detail.symbol })
-				] }),
-				/* @__PURE__ */ (0, import_jsx_runtime$29.jsx)("span", { children: detail.sector }),
-				/* @__PURE__ */ (0, import_jsx_runtime$29.jsxs)("span", { children: ["시가총액 ", detail.marketCap === null ? "미확인" : `${BigInt(detail.marketCap).toLocaleString("ko-KR")} ${market === "kospi" || market === "kosdaq" ? "KRW" : "USD"}`] }),
-				/* @__PURE__ */ (0, import_jsx_runtime$29.jsxs)("span", { children: ["전일 대비 ", detail.changePct === null ? "미확인" : detail.changePct + "%"] })
-			]
-		}),
-		/* @__PURE__ */ (0, import_jsx_runtime$29.jsxs)("p", {
-			className: "market-source",
-			children: [
-				/* @__PURE__ */ (0, import_jsx_runtime$29.jsx)("a", {
-					href: data.sourceUrl,
-					target: "_blank",
-					rel: "noopener noreferrer",
-					children: data.sourceLabel
-				}),
-				" · ",
-				/* @__PURE__ */ (0, import_jsx_runtime$29.jsxs)("time", {
-					dateTime: data.asOf,
-					children: [new Intl.DateTimeFormat("ko-KR", {
-						timeZone: "Asia/Seoul",
-						year: "numeric",
-						month: "2-digit",
-						day: "2-digit",
-						hour: "2-digit",
-						minute: "2-digit",
-						hourCycle: "h23"
-					}).format(new Date(data.asOf)), " KST"]
-				}),
-				" · 구성 ",
-				data.rows.length,
-				"/",
-				data.universeSize,
-				"종목",
-				Date.parse(now) - Date.parse(data.asOf) > 1296e5 && " · 기준시각 36시간 경과"
-			]
-		})
-	] });
-}
-var import_react$26, import_jsx_runtime$29, MARKET_UNIVERSES;
-function init_MarketHeatmap() {
-	return (init_MarketHeatmap = __esmMin((() => {
-		import_react$26 = require_react();
-		init_portfolio();
-		init_marketSnapshot();
-		init_heatmapSectors();
-		init_heatmap_sectors();
-		import_jsx_runtime$29 = require_jsx_runtime();
-		MARKET_UNIVERSES = [
-			{
-				id: "kospi",
-				label: "코스피"
-			},
-			{
-				id: "kosdaq",
-				label: "코스닥"
-			},
-			{
-				id: "sp500",
-				label: "S&P 500"
-			},
-			{
-				id: "nasdaq",
-				label: "나스닥 종합"
-			}
-		];
-	})))();
-}
-function HeatmapExplorer({ available, sources }) {
-	const [choice, setChoice] = (0, import_react$25.useState)("kospi");
-	const [kr, setKr] = (0, import_react$25.useState)("kospi"), [us, setUs] = (0, import_react$25.useState)("sp500");
-	const canCompare = available.some((u) => u.id === "kospi") && available.some((u) => u.id === "sp500");
-	const compare = choice === "compare" && canCompare;
-	const selected = available.find((u) => u.id === choice)?.id ?? available[0].id;
-	return /* @__PURE__ */ (0, import_jsx_runtime$28.jsxs)("div", {
-		className: "market-heatmap-explorer",
-		children: [
-			/* @__PURE__ */ (0, import_jsx_runtime$28.jsxs)("div", {
-				className: "market-universe-choices",
-				role: "group",
-				"aria-label": "히트맵 시장 선택",
-				children: [canCompare && /* @__PURE__ */ (0, import_jsx_runtime$28.jsx)("button", {
-					type: "button",
-					"aria-pressed": compare,
-					onClick: () => setChoice("compare"),
-					children: "전체 · 한국/미국 비교"
-				}), available.map((u) => /* @__PURE__ */ (0, import_jsx_runtime$28.jsx)("button", {
-					type: "button",
-					"aria-pressed": !compare && selected === u.id,
-					"aria-label": u.label,
-					onClick: () => setChoice(u.id),
-					children: u.id === "nasdaq" ? "나스닥" : u.label
-				}, u.id))]
-			}),
-			/* @__PURE__ */ (0, import_jsx_runtime$28.jsxs)("details", {
-				className: "market-heatmap-help",
-				children: [
-					/* @__PURE__ */ (0, import_jsx_runtime$28.jsx)("summary", { children: "히트맵 도움말" }),
-					/* @__PURE__ */ (0, import_jsx_runtime$28.jsx)("p", { children: "면적은 시가총액, 색은 전일 대비 등락입니다. 미확인 값은 상승·하락으로 해석하지 않습니다." }),
-					/* @__PURE__ */ (0, import_jsx_runtime$28.jsx)("p", { children: "한국/미국 비교는 동일 면적이며 국가별 시총 비중이 아닙니다." }),
-					/* @__PURE__ */ (0, import_jsx_runtime$28.jsx)("p", { children: "나스닥은 나스닥 종합(Nasdaq Composite)을 뜻하며 나스닥 100과 다릅니다. 실제 구성 여부와 기준시각은 각 자료 출처를 확인하세요." })
-				]
-			}),
-			compare ? /* @__PURE__ */ (0, import_jsx_runtime$28.jsx)(import_jsx_runtime$28.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime$28.jsx)("div", {
-				className: "market-heatmap-comparison",
-				children: [{
-					country: "한국",
-					market: kr,
-					options: ["kospi", "kosdaq"],
-					set: setKr
-				}, {
-					country: "미국",
-					market: us,
-					options: ["sp500", "nasdaq"],
-					set: setUs
-				}].map((panel) => /* @__PURE__ */ (0, import_jsx_runtime$28.jsxs)("section", {
-					"aria-label": `${panel.country} 히트맵 비교`,
-					children: [
-						/* @__PURE__ */ (0, import_jsx_runtime$28.jsx)("h3", { children: panel.country }),
-						/* @__PURE__ */ (0, import_jsx_runtime$28.jsx)("div", {
-							className: "market-universe-choices",
-							role: "group",
-							"aria-label": `${panel.country} 비교 지수`,
-							children: MARKET_UNIVERSES.filter((u) => panel.options.includes(u.id)).map((u) => /* @__PURE__ */ (0, import_jsx_runtime$28.jsx)("button", {
-								type: "button",
-								"aria-pressed": panel.market === u.id,
-								"aria-label": u.label,
-								onClick: () => panel.set(u.id),
-								children: u.id === "nasdaq" ? "나스닥" : u.label
-							}, u.id))
-						}),
-						/* @__PURE__ */ (0, import_jsx_runtime$28.jsx)(MarketHeatmap, {
-							market: panel.market,
-							input: sources[panel.market]
-						}, panel.market)
-					]
-				}, panel.country))
-			}) }) : /* @__PURE__ */ (0, import_jsx_runtime$28.jsx)(MarketHeatmap, {
-				market: selected,
-				input: sources[selected]
-			}, selected)
-		]
-	});
-}
-var import_react$25, import_jsx_runtime$28;
-function init_HeatmapExplorer() {
-	return (init_HeatmapExplorer = __esmMin((() => {
 		import_react$25 = require_react();
-		init_MarketHeatmap();
-		import_jsx_runtime$28 = require_jsx_runtime();
+		MarketDataContext = (0, import_react$25.createContext)({});
 	})))();
 }
 /** Web heatmap-only provenance contract. Does not admit or alter indicator DTOs. */
@@ -16769,7 +16305,7 @@ function init_settings_dialog() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/features/settings/settings-dialog.css?v=source-build-r99";
+			l.href = "/local/app/css-source/src/features/settings/settings-dialog.css?v=source-build-r102";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -18577,7 +18113,7 @@ function init_backup$1() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/journal/backup.css?v=source-build-r99";
+			l.href = "/local/app/css-source/src/journal/backup.css?v=source-build-r102";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -18678,7 +18214,7 @@ function init_panel() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/journal/preservation/panel.css?v=source-build-r99";
+			l.href = "/local/app/css-source/src/journal/preservation/panel.css?v=source-build-r102";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -19526,7 +19062,7 @@ function init_writing_feedback() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/journal/writing-feedback.css?v=source-build-r99";
+			l.href = "/local/app/css-source/src/journal/writing-feedback.css?v=source-build-r102";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -20995,7 +20531,7 @@ function init_manual_note_calendar() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/journal/manual-note-calendar.css?v=source-build-r99";
+			l.href = "/local/app/css-source/src/journal/manual-note-calendar.css?v=source-build-r102";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -21871,7 +21407,7 @@ function init_chart() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/journal/chart/chart.css?v=source-build-r99";
+			l.href = "/local/app/css-source/src/journal/chart/chart.css?v=source-build-r102";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -23324,7 +22860,7 @@ function init_manual_entry() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/journal/manual-entry.css?v=source-build-r99";
+			l.href = "/local/app/css-source/src/journal/manual-entry.css?v=source-build-r102";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -26723,7 +26259,7 @@ function init_portfolio_history() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/features/connections/portfolio-history.css?v=source-build-r99";
+			l.href = "/local/app/css-source/src/features/connections/portfolio-history.css?v=source-build-r102";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -27310,7 +26846,7 @@ function init_connection_resolution() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/features/connections/connection-resolution.css?v=source-build-r99";
+			l.href = "/local/app/css-source/src/features/connections/connection-resolution.css?v=source-build-r102";
 			document.head.appendChild(l);
 		}
 	})))();

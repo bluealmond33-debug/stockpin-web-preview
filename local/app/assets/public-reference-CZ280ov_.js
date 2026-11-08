@@ -1,5 +1,5 @@
 import { n as __esmMin } from "./rolldown-runtime-CnFjIZqj.js";
-import { d as init_contract, n as PublicReferenceMarket, r as init_PublicReferenceMarket } from "./PublicReferenceMarket-BNFd0XT3.js";
+import { d as init_contract, n as PublicReferenceMarket, r as init_PublicReferenceMarket } from "./PublicReferenceMarket-B14SSsuL.js";
 var ecb_public_release_default;
 function init_ecb_public_release() {
 	return (init_ecb_public_release = __esmMin((() => {
