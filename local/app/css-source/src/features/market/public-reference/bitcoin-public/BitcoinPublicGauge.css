@@ -18,3 +18,21 @@
 .bitcoin-public-details .fear-comparisons { min-width: 0; }
 .bitcoin-public-gauge a:focus-visible,
 .bitcoin-public-details > summary:focus-visible { outline: 2px solid var(--green, #49ae78); outline-offset: 3px; }
+
+/* r133 density: preserve reading order, source and every disclosure. */
+.market-page[data-market-mode="public"] .bitcoin-public-gauge { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: center; justify-items: center; gap: 4px 8px; }
+.market-page[data-market-mode="public"] .bitcoin-public-reading { display: contents; }
+.market-page[data-market-mode="public"] .bitcoin-public-gauge > header,
+.market-page[data-market-mode="public"] .bitcoin-public-reading > .sentiment-dial-control,
+.market-page[data-market-mode="public"] .bitcoin-public-summary,
+.market-page[data-market-mode="public"] .bitcoin-public-gauge > [role="alert"],
+.market-page[data-market-mode="public"] .bitcoin-public-gauge > [role="status"],
+.market-page[data-market-mode="public"] .bitcoin-public-gauge > .market-restoration-comparisons,
+.market-page[data-market-mode="public"] .bitcoin-public-details { grid-column: 1 / -1; }
+.market-page[data-market-mode="public"] .bitcoin-public-gauge > header { width: 100%; }
+.market-page[data-market-mode="public"] .bitcoin-public-reading > a { justify-self: end; font-size: 13px; }
+.market-page[data-market-mode="public"] .bitcoin-public-classification { justify-self: start; font-size: 13px; }
+.market-page[data-market-mode="public"] .bitcoin-public-details > summary { padding-block: 4px; font-size: 13px; }
+@container public-market (max-width: 600px) {
+ .market-page[data-market-mode="public"] .bitcoin-public-gauge { column-gap: 12px; }
+}

@@ -80,3 +80,18 @@
  .market-page[data-market-mode="public"] .market-restoration-index-groups { grid-template-columns: minmax(0, 1fr); gap: 16px; }
  .market-page[data-market-mode="public"] .reference-rate-current strong { font-size: 21px; }
 }
+
+/* r133 density: current gauge first; comparisons keep exact source dates. */
+.market-page[data-market-mode="public"] .public-market-overview { margin-bottom: 16px; }
+.market-page[data-market-mode="public"] .bitcoin-public-gauge .market-restoration-comparisons { gap: 6px 12px; margin-top: 2px; }
+.market-page[data-market-mode="public"] .bitcoin-public-gauge .market-restoration-comparisons dt,
+.market-page[data-market-mode="public"] .bitcoin-public-gauge .market-restoration-comparisons dd { display: inline; }
+.market-page[data-market-mode="public"] .bitcoin-public-gauge .market-restoration-comparisons dt { margin-right: 4px; }
+.market-page[data-market-mode="public"] .bitcoin-public-gauge .market-restoration-comparisons time { font-size: 12px; }
+.reference-rate-details .reference-rate-averages { margin-block: 16px; font-size: 13px; line-height: 1.5; }
+.reference-rate-details .reference-rate-averages > dl { display: grid; grid-template-columns: minmax(0,1fr); gap: 16px 24px; margin: 0 0 8px; }
+.reference-rate-details .reference-rate-averages > p { margin: 8px 0; }
+@media (min-width: 760px) { .reference-rate-details .reference-rate-averages > dl { grid-template-columns: repeat(2,minmax(0,1fr)); } }
+.reference-rate-details .reference-rate-averages dt { font-weight: 500; }
+.reference-rate-details .reference-rate-averages dd { margin: 4px 0 0; overflow-wrap: anywhere; }
+.reference-rate-details .reference-rate-averages strong { font-size: 16px; font-variant-numeric: tabular-nums; }
