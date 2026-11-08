@@ -19,3 +19,22 @@
 .instrument-facts small { display:block; opacity:.65; font-size:.72rem; }
 .instrument-holding { margin-top:24px; }
 .instrument-holding summary { cursor:pointer; font-size:.85rem; }
+.instrument-chart { position:relative; }
+.instrument-chart > .instrument-toolbar { padding-right:42px; }
+.instrument-expand { position:absolute; top:0; right:0; }
+.instrument-expand,.instrument-expanded header button { border:0; background:transparent; color:inherit; font:inherit; font-size:1.25rem; padding:8px; cursor:pointer; }
+.instrument-expand:focus-visible,.instrument-expanded header button:focus-visible { outline:2px solid #21a37a; outline-offset:2px; }
+.instrument-expanded { box-sizing:border-box; border:0; padding:clamp(12px,3vw,32px); width:calc(100vw - 24px); max-width:1440px; height:calc(100dvh - 24px); max-height:calc(100dvh - 24px); background:var(--bg,#fff); color:var(--text,#263238); overflow:auto; }
+.instrument-expanded[data-theme=light] { background:#fff; color:#263238; }
+.instrument-expanded[data-theme=dark] { background:#141719; color:#c5cbd0; }
+.instrument-expanded:not([open]) { display:none; }
+.instrument-expanded[open] { display:flex; flex-direction:column; gap:12px; }
+.instrument-expanded::backdrop { background:rgb(0 0 0 / .35); }
+.instrument-expanded header { display:flex; align-items:center; justify-content:space-between; gap:12px; flex:none; }
+.instrument-expanded h2 { margin:0; font-size:1.2rem; overflow-wrap:anywhere; }
+.instrument-expanded h2 small { font-size:.8rem; font-weight:400; }
+.instrument-expanded-content { display:flex; flex-direction:column; flex:1; min-height:0; min-width:0; }
+.instrument-expanded-content .instrument-chart-canvas { flex:1; height:0; min-height:100px; }
+.instrument-expanded-content .instrument-chart-empty { flex:1; min-height:100px; }
+.instrument-expanded-content > :not(.instrument-chart-canvas):not(.instrument-chart-empty) { flex-shrink:0; }
+

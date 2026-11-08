@@ -18,4 +18,20 @@
 .connections-web-demo .widget-metric-help-trigger { display: inline-grid; place-items: center; flex: 0 0 28px; width: 28px; height: 28px; min-height: 28px; padding: 0; border: 0; background: transparent; color: var(--secondary, inherit); cursor: pointer; }
 .connections-web-demo .connection-account-editor { display: grid; gap: 8px; padding: 12px 0; min-width: 0; }
 .connections-web-demo .connection-account-editor input[type="text"] { display: block; box-sizing: border-box; width: 100%; max-width: 100%; min-width: 0; margin-top: 6px; }
+.connections-web-demo .connection-service-hub { display:grid; grid-template-columns:minmax(0, 2fr) minmax(0, 1fr) minmax(0, 1fr); gap:24px; }
+.connections-web-demo .connection-hub-group { min-width:0; }
+.connections-web-demo .connection-hub-group ul { display:grid; gap:8px 20px; margin:0; padding:0; list-style:none; }
+.connections-web-demo .connection-hub-group:first-child ul { grid-template-columns:repeat(2, minmax(0, 1fr)); }
+.connections-web-demo .connection-hub-service { display:flex; flex-direction:column; align-items:flex-start; justify-content:center; gap:4px; width:100%; min-height:52px; padding:4px 0; border:0; border-radius:0; background:transparent; color:var(--bright, #e8e8e8); text-align:left; font:inherit; cursor:pointer; overflow-wrap:anywhere; }
+.connections-web-demo .connection-hub-service small { font-size:12px; line-height:1.5; color:var(--secondary, #c1c1c1); }
+.connections-web-demo .connection-hub-service:is(:hover, :focus-visible) { color:var(--interaction-emphasis, #35ad79); background:transparent; }
+.connections-web-demo .connection-hub-service:focus-visible { outline:2px solid var(--interaction-emphasis, #35ad79); outline-offset:4px; }
+.connections-web-demo .connection-service-requirement { flex-basis:100%; margin:8px 0; color:var(--secondary, #c1c1c1); font-size:14px; line-height:1.6; overflow-wrap:anywhere; }
+@media (max-width:800px) {
+  .connections-web-demo .connection-service-hub { grid-template-columns:repeat(2, minmax(0, 1fr)); }
+  .connections-web-demo .connection-hub-group:first-child { grid-column:1 / -1; }
+}
+@media (max-width:420px) {
+  .connections-web-demo .connection-service-hub { grid-template-columns:minmax(0, 1fr); }
+}
 @media (pointer: coarse) { .connections-web-demo .widget-metric-help-trigger { flex-basis: 44px; width: 44px; height: 44px; } }
