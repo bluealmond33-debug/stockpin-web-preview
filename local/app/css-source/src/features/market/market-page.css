@@ -17,10 +17,16 @@
 .market-page[data-market-mode="public"] .reference-rates > div:has([data-direction="down"]) .reference-rate-trend { color: var(--loss, #5a7fe0); }
 .market-page[data-market-mode="public"] .bitcoin-public-gauge > .bitcoin-public-summary { font-size: 14px; line-height: 1.5; }
 
-/* Empty indices remain a two-region list, not tall quote placeholders.
-   The real daily reference rates follow sooner; no unavailable value is hidden. */
-.market-page[data-market-mode="public"] .public-market-index-groups dl > div { display: flex; flex-direction: row; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 4px 16px; padding: 8px 0; }
-.market-page[data-market-mode="public"] .public-market-index-groups dd { margin: 0; font-size: 14px; line-height: 1.5; }
+/* r145: r59 WebDemoMarket.css rows 28–32, adapted to the public host.
+   Keep the named-row/quote hierarchy even when the supply is unavailable.
+   The reserved trend column has no fake SVG or invented observations. */
+.market-page[data-market-mode="public"] .public-market-index-groups dl > div { display: grid; grid-template-columns: minmax(0, 1fr) 80px; grid-template-areas: "name trend" "quote trend"; align-items: center; gap: 8px 16px; min-width: 0; padding: 22px 0; }
+.market-page[data-market-mode="public"] .public-market-index-groups dt { grid-area: name; min-width: 0; font-size: 16px; }
+.market-page[data-market-mode="public"] .public-market-index-groups dd { grid-area: quote; display: flex; flex-direction: row; justify-content: flex-start; align-items: baseline; flex-wrap: wrap; gap: 4px 8px; margin: 0; text-align: left; }
+.market-page[data-market-mode="public"] .public-market-index-groups dd strong { font-size: 24px; font-weight: 600; white-space: nowrap; font-variant-numeric: tabular-nums; color: var(--muted, #aaa); }
+@container public-market (max-width: 400px) {
+ .market-page[data-market-mode="public"] .public-market-index-groups dl > div { grid-template-columns: minmax(0, 1fr) 56px; column-gap: 8px; }
+}
 .market-page[data-market-mode="public"] .public-market-panel > .reference-rates-table { margin-top: 20px; }
 
 /* Public headings do not use .widget-metric-heading: bind the actual help trigger.

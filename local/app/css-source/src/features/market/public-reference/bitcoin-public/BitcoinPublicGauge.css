@@ -20,7 +20,7 @@
 .bitcoin-public-details > summary:focus-visible { outline: 2px solid var(--green, #49ae78); outline-offset: 3px; }
 
 /* r133 density: preserve reading order, source and every disclosure. */
-.market-page[data-market-mode="public"] .bitcoin-public-gauge { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: center; justify-items: center; gap: 4px 8px; }
+.market-page[data-market-mode="public"] .bitcoin-public-gauge { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: center; justify-items: center; gap: 8px 8px; }
 .market-page[data-market-mode="public"] .bitcoin-public-reading { display: contents; }
 .market-page[data-market-mode="public"] .bitcoin-public-gauge > header,
 .market-page[data-market-mode="public"] .bitcoin-public-reading > .sentiment-dial-control,

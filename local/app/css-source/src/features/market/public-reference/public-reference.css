@@ -11,14 +11,22 @@
 
 /* Public-only hierarchy. Shared dials receive null; no fabricated readings. */
 .market-page[data-market-mode="public"] { container: public-market / inline-size; }
-.market-page .public-market-overview { display:grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 180px), 1fr)); gap:20px 24px; align-items:start; margin-bottom:24px; }
+.market-page .public-market-overview { display:grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); gap:20px 24px; align-items:start; margin-bottom:24px; }
 .public-market-gauge { display:flex; flex-direction:column; align-items:center; gap:8px; min-width:0; background:none; border:0; }
 .market-page .public-market-gauge h2 { font-size:15px; }
-.public-market-gauge > header { align-self:stretch; justify-content:center; }
+.public-market-gauge > header { align-self:stretch; justify-content:center; min-height:32px; }
+/* r145: reuse r59 180px dial geometry for all three public gauges.
+   Only presentation changes: null dials stay gray, with no needle. */
+.market-page[data-market-mode="public"] .public-market-overview .sentiment-dial-control { width: 180px; max-width: 100%; flex-shrink: 0; }
+.market-page[data-market-mode="public"] .public-market-overview .sentiment-dial__value { display: block; margin-top: -12px; font-size: 28px; line-height: 1.2; }
+.market-page[data-market-mode="public"] .public-market-overview .public-reference-heading-title { flex-direction: row; flex-wrap: wrap; gap: 6px; }
+.market-page[data-market-mode="public"] .public-market-overview .widget-metric-help-panel { flex: 1 0 100%; max-width: 100%; overflow-wrap: anywhere; }
+.market-page[data-market-mode="public"] .market-restoration-history { grid-column: 1 / -1; min-width: 0; width: 100%; }
+.market-page[data-market-mode="public"] .market-restoration-history > summary { text-align: center; cursor: pointer; padding: 4px 0; font-size: 12px; }
+.market-page[data-market-mode="public"] .market-restoration-history > summary:focus-visible { outline: 2px solid var(--green, #49ae78); outline-offset: 3px; }
 .public-market-overview .sentiment-dial__arc { stroke: var(--muted, #999); }
 .public-market-overview .sentiment-dial__scale,
 .public-market-overview .sentiment-dial__tick,
-.public-market-overview .sentiment-dial__value,
 .public-market-overview .sentiment-dial-state { display:none; }
 .public-market-status { margin:0; font-size:13px; color:var(--muted, #aaa); }
 .market-page .public-market-tabs { gap:16px; margin:0 0 20px; border-bottom:1px solid var(--line, #303030); }
@@ -38,7 +46,14 @@
 .public-market-index-groups dd { margin:6px 0 0; font-size:13px; color:var(--muted, #aaa); }
 .public-market-disclosures > summary { cursor:pointer; padding:12px 0; }
 .public-market-disclosures > .public-disclosures { margin-top:12px; }
+/* r59 section title / right-aligned region controls, adapted to sibling markup. */
+.market-page[data-market-mode="public"] .public-market-indices { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 16px 24px; align-items: start; }
+.market-page[data-market-mode="public"] .public-market-indices > .public-reference-heading-title { min-height: 32px; }
+.market-page[data-market-mode="public"] .public-market-indices > .market-restoration-regions { margin: 0; align-items: center; }
+.market-page[data-market-mode="public"] .public-market-indices > .public-market-index-groups { grid-column: 1 / -1; }
 @container public-market (max-width: 480px) {
+ .market-page[data-market-mode="public"] .public-market-indices { grid-template-columns: minmax(0, 1fr); gap: 8px; }
+ .market-page[data-market-mode="public"] .public-market-indices > .market-restoration-regions { justify-content: flex-start; }
  .public-market-index-groups { grid-template-columns:minmax(0, 1fr); gap:12px; }
  .market-page .public-market-tabs { gap:4px; }
  .public-market-tabs button { padding-inline:8px; }
