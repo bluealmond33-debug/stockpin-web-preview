@@ -6,9 +6,9 @@
 .web-demo-trade-notice .web-trade-toolbar button:disabled{opacity:.3;cursor:default}
 .web-demo-trade-notice .web-trade-viewport{display:flex;gap:0;overflow-x:auto;overscroll-behavior-inline:contain;scroll-snap-type:x mandatory;scrollbar-width:thin;scroll-padding-inline:2px;padding:3px 2px 4px;min-width:0}
 .web-demo-trade-notice.web-demo-trade-notice .web-trade-card{box-sizing:border-box;flex:0 0 280px;min-width:0;max-width:100%;display:flex;flex-direction:column;gap:4px;scroll-snap-align:start;align-items:stretch;padding:6px 12px;min-height:0;border:0;border-radius:0;background:transparent;box-shadow:none;color:var(--text);font:inherit;text-align:left;cursor:pointer;white-space:normal;position:relative}
-.web-demo-trade-notice.web-demo-trade-notice .web-trade-card+.web-trade-card{border-inline-start:1px solid var(--border)}
-.web-demo-trade-notice.web-demo-trade-notice .web-trade-card:is(:hover,:focus-visible){border-color:var(--muted);color:var(--text)}
-.web-demo-trade-notice .web-trade-card:is(:hover,:focus-visible) .web-trade-write{color:var(--green)}
+.web-demo-trade-notice.web-demo-trade-notice .web-trade-card+.web-trade-card::before{content:"";position:absolute;inset-block:20%;inset-inline-start:0;border-inline-start:1px solid var(--border)}
+.web-demo-trade-notice.web-demo-trade-notice .web-trade-card:hover{background:transparent;box-shadow:none;border:0;color:var(--text)}
+.web-demo-trade-notice .web-trade-side{font-size:16px;font-weight:500}
 .web-demo-trade-notice button:focus-visible{outline:1px solid var(--green);outline-offset:1px}
 .web-demo-trade-notice .web-trade-identity{display:flex;align-items:center;gap:8px;min-width:0}
 .web-demo-trade-notice .web-trade-identity img{flex:none;width:28px;height:28px;object-fit:contain;border-radius:50%}
@@ -20,7 +20,7 @@
 .web-demo-trade-notice small{font-size:11px;color:var(--muted);font-weight:400}
 .web-demo-trade-notice .web-trade-result{display:flex;flex-direction:row;align-items:baseline;flex-wrap:wrap;gap:6px;font-variant-numeric:tabular-nums}
 .web-demo-trade-notice .web-trade-result>span{display:flex;align-items:baseline;flex-wrap:wrap;gap:6px}
-.web-demo-trade-notice .web-trade-result strong{font-size:14px;font-weight:400;line-height:1.2;white-space:nowrap;letter-spacing:-.025em}
+.web-demo-trade-notice .web-trade-result strong,.web-demo-trade-notice .web-trade-percent{font-size:12px;font-weight:400;line-height:1.2;white-space:nowrap;letter-spacing:-.025em}
 .web-demo-trade-notice .web-trade-percent{font-size:12px;font-weight:400;white-space:nowrap}
 .web-demo-trade-notice .web-trade-result.gain,.web-demo-trade-notice .web-trade-result.gain small{color:var(--gain)}
 .web-demo-trade-notice .web-trade-result.loss,.web-demo-trade-notice .web-trade-result.loss small{color:var(--loss)}
@@ -28,7 +28,7 @@
 .web-demo-trade-notice .web-trade-footer{display:flex;align-items:center;justify-content:space-between;gap:8px}
 .web-demo-trade-notice .web-trade-write{font-size:11px;color:var(--muted);white-space:nowrap}
 .web-demo-trade-notice .web-trade-detail{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
-@container(max-width:620px){.web-demo-trade-notice.web-demo-trade-notice .web-trade-card{flex-basis:min(280px,88%);min-width:0;padding:6px 12px}.web-demo-trade-notice .web-trade-result strong{font-size:14px}}
+@container(max-width:620px){.web-demo-trade-notice.web-demo-trade-notice .web-trade-card{flex-basis:min(280px,88%);min-width:0;padding:6px 12px}.web-demo-trade-notice .web-trade-result strong,.web-demo-trade-notice .web-trade-percent{font-size:12px}}
 .web-demo-trade-notice .web-trade-toolbar{flex-wrap:wrap;gap:4px 12px}
 .web-demo-trade-notice .web-trade-heading.widget-metric-heading{width:auto;min-width:0;flex:1 1 160px;flex-wrap:wrap}
 .web-demo-trade-notice .web-trade-toolbar .widget-metric-help-trigger{display:inline-grid;place-items:center;flex:0 0 28px;width:28px;min-height:28px}
@@ -38,3 +38,6 @@
 .web-demo-trade-notice .web-trade-privacy{display:inline-flex;align-items:center;justify-content:center}
 .web-demo-trade-notice .web-trade-currency-status{font-size:12px;color:var(--muted);margin:0 0 6px}
 @media(prefers-reduced-motion:reduce){.web-demo-trade-notice .web-trade-viewport{scroll-behavior:auto}}
+
+.web-demo-trade-notice .web-trade-toolbar .web-trade-selection{width:auto;min-height:32px;padding:0 6px;font-size:12px;white-space:nowrap}
+.web-demo-trade-notice .web-trade-selection-mark{font-size:12px;color:var(--muted)}

@@ -1,0 +1,5 @@
+.portfolio-info{position:relative;display:inline-flex;align-items:center;flex:0 0 auto}
+.portfolio-info .widget-metric-help-trigger{display:inline-grid;place-items:center;width:28px;height:28px;min-height:28px;border:0;padding:0;background:transparent;color:var(--muted)}
+.portfolio-info .widget-metric-help-panel{position:absolute;right:0;top:calc(100% + 4px);z-index:30;width:min(320px,calc(100vw - 96px));padding:12px;background:var(--bg);color:var(--text);border:1px solid var(--green);border-radius:6px;font-size:13px;line-height:1.6}
+.portfolio-info .widget-metric-help-panel[hidden]{display:none}
+.portfolio-info .widget-metric-help-trigger:is(:hover,:focus-visible){color:var(--green)}

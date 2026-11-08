@@ -56,3 +56,27 @@
 .market-page .market-metric-help-panel p { margin: 0 0 10px; }
 .market-page .market-metric-help-panel p:last-child { margin-bottom: 0; }
 .market-page .market-metric-help-trigger:focus-visible, .market-page .market-metric-heading h2 button:focus-visible { outline: 2px solid var(--green, #49ae78); outline-offset: 3px; }
+
+/* r127 public restoration: r59 hierarchy, never its synthetic readings. */
+.market-page[data-market-mode="public"] .market-restoration-comparisons { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 16px; margin: 4px 0 0; font-size: 12px; line-height: 1.5; }
+.market-page[data-market-mode="public"] .market-restoration-comparisons dt { color: var(--muted, #aaa); }
+.market-page[data-market-mode="public"] .market-restoration-comparisons dd { margin: 0; font-variant-numeric: tabular-nums; }
+.market-page[data-market-mode="public"] .market-restoration-comparisons time { display: block; color: var(--muted, #aaa); font-size: 11px; }
+.market-page[data-market-mode="public"] .market-restoration-regions { justify-content: flex-end; flex-wrap: wrap; margin: 4px 0 8px; }
+.market-page[data-market-mode="public"] .market-restoration-regions button:focus-visible { outline: 2px solid var(--green, #49ae78); outline-offset: 3px; }
+.market-page[data-market-mode="public"] .market-restoration-index-groups { gap: 32px; }
+.market-page[data-market-mode="public"] .market-restoration-index-groups > :only-child { grid-column: 1 / -1; }
+.market-page[data-market-mode="public"] .market-restoration-index-groups dl > div { display: flex; flex-direction: column; align-items: flex-start; gap: 6px; padding: 14px 0; }
+.market-page[data-market-mode="public"] .market-restoration-index-groups dt { font-size: 16px; }
+.market-page[data-market-mode="public"] .market-restoration-index-groups dd { margin: 0; font-size: 13px; }
+.market-page[data-market-mode="public"] .reference-rate-groups { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px; }
+.market-page[data-market-mode="public"] .reference-rate-current strong { font-size: 24px; font-weight: 600; }
+.market-page[data-market-mode="public"] .reference-rates > div:has([data-direction="up"]) .reference-rate-current strong { color: var(--gain, #e05a5a); }
+.market-page[data-market-mode="public"] .reference-rates > div:has([data-direction="down"]) .reference-rate-current strong { color: var(--loss, #5a7fe0); }
+.market-page[data-market-mode="public"] .reference-rate-comparison { font-size: 12px; line-height: 1.5; white-space: normal; }
+.market-page[data-market-mode="public"] .reference-rate-change { font-size: 13px; white-space: normal; }
+@container public-market (max-width: 600px) {
+ .market-page[data-market-mode="public"] .reference-rate-groups,
+ .market-page[data-market-mode="public"] .market-restoration-index-groups { grid-template-columns: minmax(0, 1fr); gap: 16px; }
+ .market-page[data-market-mode="public"] .reference-rate-current strong { font-size: 21px; }
+}
