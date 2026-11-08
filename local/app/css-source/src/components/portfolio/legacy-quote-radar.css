@@ -16,12 +16,8 @@
 .legacy-quote-radar svg circle { fill: var(--accent, #60967a); }
 .legacy-quote-radar .legacy-quote-radar-grid { stroke: currentColor; stroke-opacity: .16; fill: none; }
 .legacy-quote-radar .legacy-quote-radar-data { fill: var(--accent, #60967a); fill-opacity: .12; stroke: var(--accent, #60967a); stroke-width: 1.5; }
-.legacy-quote-radar dl { margin: 0; }
-.legacy-quote-radar dl > div { display: flex; flex-direction: row; justify-content: space-between; gap: 12px; }
-.legacy-quote-radar dd { margin: 0; font-variant-numeric: tabular-nums; text-align: right; }
-.legacy-quote-radar details { margin-top: 10px; }
-.legacy-quote-radar summary { cursor: pointer; font-size: 12px; }
-.legacy-quote-radar details p { font-size: 12px; }
+.legacy-quote-radar .widget-metric-heading h3 { margin: 0; }
+.legacy-quote-radar [data-radar-score] { font-size: 12px; font-variant-numeric: tabular-nums; }
 .legacy-quote-radar header, .legacy-quote-radar footer { display: flex; flex-direction: row; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 6px 12px; }
 .legacy-quote-radar .legacy-quote-radar-text { font-size: 15px; line-height: 1.8; margin: 14px 0; }
 .legacy-quote-radar button { appearance: none; background: transparent; border: 0; border-radius: 0; color: inherit; font: inherit; padding: 6px 0; cursor: pointer; }

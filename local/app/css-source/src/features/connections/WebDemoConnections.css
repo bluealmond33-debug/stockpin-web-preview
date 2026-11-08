@@ -1,0 +1,21 @@
+.connections-web-demo input[type="checkbox"] { accent-color:var(--interaction-emphasis); }
+.connections-web-demo .connection-credential-preview { display:grid; gap:16px; margin:16px 0; min-width:0; }
+.connections-web-demo .connection-credential-preview label { display:grid; gap:6px; font-size:13px; }
+.connections-web-demo .connection-credential-preview input { box-sizing:border-box; width:100%; min-width:0; padding:8px 0; border:0; border-bottom:1px solid var(--border,#555); border-radius:0; background:transparent; color:var(--text); opacity:1; }
+.connections-web-demo .provider-actions > button { width:auto; flex:0 0 auto; }
+.connections-web-demo .connection-credential-preview small { color:var(--muted); }
+.connections-web-demo .connection-service-list { list-style: none; padding: 0; margin: 12px 0; }
+.connections-web-demo .connection-service-row { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; padding: 10px 0; border-bottom: 1px solid var(--border, #555); }
+.connections-web-demo .connection-service-choose,
+.connections-web-demo .connection-service-identity { display: flex; align-items: center; flex-wrap: wrap; gap: 10px; flex: 1; min-width: 0; color: inherit; text-align: left; }
+.connections-web-demo .connection-service-choose { border: 0; background: transparent; padding: 4px 0; cursor: pointer; }
+.connections-web-demo .connection-service-choose:hover { color: var(--accent, #35ad79); }
+.connections-web-demo .connection-service-choose:focus-visible { outline: 2px solid var(--accent, #35ad79); outline-offset: 3px; }
+.connections-web-demo .connection-service-status,
+.connections-web-demo .connection-service-choose small { font-size: 12px; color: var(--secondary, inherit); }
+.connections-web-demo .connection-service-symbol { display: grid; place-items: center; width: 32px; height: 32px; color: var(--secondary, inherit); }
+.connections-web-demo .connection-service-row .widget-metric-help-panel { flex-basis: 100%; width: 100%; min-width: 0; }
+.connections-web-demo .widget-metric-help-trigger { display: inline-grid; place-items: center; flex: 0 0 28px; width: 28px; height: 28px; min-height: 28px; padding: 0; border: 0; background: transparent; color: var(--secondary, inherit); cursor: pointer; }
+.connections-web-demo .connection-account-editor { display: grid; gap: 8px; padding: 12px 0; min-width: 0; }
+.connections-web-demo .connection-account-editor input[type="text"] { display: block; box-sizing: border-box; width: 100%; max-width: 100%; min-width: 0; margin-top: 6px; }
+@media (pointer: coarse) { .connections-web-demo .widget-metric-help-trigger { flex-basis: 44px; width: 44px; height: 44px; } }

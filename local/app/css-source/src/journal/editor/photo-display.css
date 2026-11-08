@@ -1,0 +1,50 @@
+/* Display limits never replace the stored figure width or original bytes.
+   Contain preserves all pixels even when max-height bounds a wide image box. */
+.rich-image-editor .photo-bounded-figure > .rich-photo-frame > img,
+.rich-document-layout figure > img,
+img.photo-bounded-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: min(calc(520px * var(--photo-display-scale, 1)), calc(60vh * var(--photo-display-scale, 1)));
+  object-fit: contain;
+}
+.rich-image-editor .rich-photo-frame[data-photo-align="left"] > img { object-position: left center; }
+.rich-image-editor .rich-photo-frame[data-photo-align="right"] > img { object-position: right center; }
+.photo-original-dialog.photo-original-dialog {
+  box-sizing: border-box;
+  width: min(1200px, calc(100vw - 32px));
+  max-width: calc(100vw - 32px);
+  max-height: calc(100vh - 32px);
+  padding: 16px;
+  color: var(--text);
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+/* Specificity beats later writing-feedback.css, including its touch rule.
+   Opacity (not visibility/display) keeps controls keyboard reachable. */
+.rich-image-editor.rich-image-editor .photo-bounded-figure .rich-photo-tools > .editor-popover-trigger,
+.rich-image-editor.rich-image-editor .photo-bounded-figure .rich-photo-resize {
+  opacity: 0;
+  pointer-events: none;
+}
+.rich-image-editor.rich-image-editor .photo-bounded-figure:hover .rich-photo-tools > .editor-popover-trigger,
+.rich-image-editor.rich-image-editor .photo-bounded-figure:focus-within .rich-photo-tools > .editor-popover-trigger,
+.rich-image-editor.rich-image-editor .photo-bounded-figure .rich-photo-tools > .editor-popover-trigger[aria-expanded="true"],
+.rich-image-editor.rich-image-editor .photo-bounded-figure:hover .rich-photo-resize,
+.rich-image-editor.rich-image-editor .photo-bounded-figure:focus-within .rich-photo-resize,
+.rich-image-editor.rich-image-editor .photo-bounded-figure .rich-photo-frame[data-resizing="true"] > .rich-photo-resize {
+  opacity: 1;
+  pointer-events: auto;
+}
+.rich-image-editor .photo-bounded-figure > .rich-photo-frame:focus-visible { outline: 2px solid var(--border); outline-offset: 2px; }
+.photo-original-dialog::backdrop { background: rgb(0 0 0 / 65%); }
+.photo-original-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 12px; }
+.photo-original-scroll { overflow: auto; max-height: calc(100vh - 132px); }
+.photo-original-dialog .photo-original-scroll > img {
+  display: block; width: auto; height: auto; max-width: 100%; max-height: calc(100vh - 132px); object-fit: contain; margin: auto;
+}
+.photo-original-dialog .photo-original-scroll[data-original="true"] > img { max-width: none; max-height: none; margin: 0; }
+.journal-surface.manual-journal-draft .photo-expand,
+.photo-expand { min-height: 32px; padding: 4px 8px; border: 0; background: transparent; color: var(--muted); font: inherit; font-size: 12px; cursor: zoom-in; }
+.photo-original-dialog .photo-original-actions > button { min-height: 44px; padding: 8px 12px; color: var(--text); background: var(--surface); border: 1px solid var(--border); font: inherit; }

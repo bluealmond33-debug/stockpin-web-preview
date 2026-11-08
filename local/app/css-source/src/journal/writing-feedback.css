@@ -114,6 +114,8 @@
 .manual-journal-draft .manual-more-menu > label { display:flex; align-items:center; gap:8px; font-size:13px; }
 .manual-more-menu .manual-save-hint { margin:12px 0 0; }
 .manual-journal-draft .journal-record-weekday { font:inherit; color:inherit; white-space:nowrap; }
+.journal-surface.manual-journal-draft .manual-draft-fields > div.writing-edit-metadata input { width:10ch; flex:0 0 auto; min-width:0; padding-inline:0; font-variant-numeric:tabular-nums; }
+.journal-surface.manual-journal-draft .manual-draft-fields > div.writing-edit-metadata input:placeholder-shown { width:12ch; }
 .journal-surface.manual-journal-draft .writing-edit-metadata { font-size:14px; gap:6px; }
 .journal-surface.manual-journal-draft .manual-draft-fields > div:nth-child(2) { font-size:14px; gap:6px; }
 .manual-journal-draft .journal-read-date { font-size:13px; color:var(--muted); }

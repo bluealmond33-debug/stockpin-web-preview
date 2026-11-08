@@ -1,0 +1,15 @@
+.connections-layout.connections-web-demo { grid-template-columns: minmax(0, 1fr); }
+.connections-web-demo .connections-hub { grid-column: 1 / -1; min-width: 0; }
+.connections-web-demo .connections-hub h2 { margin: 0 0 16px; color: var(--bright, #e8e8e8); font-size: 1rem; font-weight: 500; }
+.connections-web-demo .connections-hub-categories { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 12rem), 1fr)); gap: 16px 24px; margin: 0; }
+.connections-web-demo .connections-hub-categories dt,
+.connections-web-demo .connections-catalog-group dt { color: var(--bright, #e8e8e8); font-weight: 500; }
+.connections-web-demo .connections-hub-categories dd,
+.connections-web-demo .connections-catalog-group dd { margin: 6px 0 0; color: var(--secondary, #c1c1c1); font-size: .875rem; line-height: 1.6; overflow-wrap: anywhere; }
+.connections-web-demo .connections-picker h3 { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: baseline; margin: 24px 0 12px; color: var(--bright, #e8e8e8); font-size: 1rem; font-weight: 500; }
+.connections-web-demo .connections-picker h3 span { color: var(--secondary, #c1c1c1); font-size: .8125rem; font-weight: 400; }
+.connections-web-demo .connections-picker .provider-grid-card { min-height: 64px; }
+.connections-web-demo .connections-support-note { font-size: .875rem; line-height: 1.6; color: var(--secondary, #c1c1c1); }
+.connections-web-demo .connections-catalog-group { margin-top: 24px; }
+.connections-web-demo .connections-catalog-group h4 { color: var(--muted, #a7a7a7); font-size: .8125rem; font-weight: 500; margin: 0 0 12px; }
+.connections-web-demo .connections-catalog-group dl { display: grid; gap: 16px; margin: 0; }

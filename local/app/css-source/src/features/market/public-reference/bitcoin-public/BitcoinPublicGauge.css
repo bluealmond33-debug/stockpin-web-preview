@@ -1,0 +1,20 @@
+/* Scoped exception to the public overview's intentionally empty CNN/VIX dials. */
+.public-market-overview .bitcoin-public-gauge[data-has-quote="true"] .sentiment-dial__value { display: block; }
+.public-market-overview .bitcoin-public-gauge[data-has-quote="true"] .sentiment-dial__scale,
+.public-market-overview .bitcoin-public-gauge[data-has-quote="true"] .sentiment-dial__tick { display: inline; }
+/* Provider thresholds are not verified; do not mislabel score 25 by illustrative bands. */
+.public-market-overview .bitcoin-public-gauge[data-has-quote="true"] .sentiment-dial__arc { stroke: var(--muted, #aaa); }
+.public-market-overview .bitcoin-public-gauge[data-has-quote="true"] .sentiment-dial__needle { stroke: var(--bright, #e5e7eb); }
+.bitcoin-public-gauge { overflow-wrap: anywhere; }
+.bitcoin-public-gauge > p { margin: 0; font-size: 12px; text-align: center; }
+.bitcoin-public-reading { display: flex; flex-direction: column; align-items: center; gap: 4px; max-width: 100%; }
+.bitcoin-public-reading a { font-weight: 700; font-size: 14px; text-decoration: underline; color: var(--bright, #e5e7eb); }
+.bitcoin-public-fixed { font-weight: 600; }
+.bitcoin-public-receipt { color: var(--muted, #aaa); }
+.bitcoin-public-details { width: 100%; min-width: 0; }
+.bitcoin-public-details > summary { cursor: pointer; padding-block: 8px; text-align: center; }
+.bitcoin-public-details > a { display: block; font-weight: 700; margin-block: 8px; }
+.bitcoin-public-details .fear-overview { flex-wrap: wrap; }
+.bitcoin-public-details .fear-comparisons { min-width: 0; }
+.bitcoin-public-gauge a:focus-visible,
+.bitcoin-public-details > summary:focus-visible { outline: 2px solid var(--green, #49ae78); outline-offset: 3px; }

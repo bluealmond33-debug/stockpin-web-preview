@@ -1,0 +1,11 @@
+.widget-metric-heading { display: flex; align-items: center; flex-wrap: wrap; gap: 4px; min-width: 0; width: 100%; }
+.widget-metric-help { display: contents; }
+/* Small visible circle, with a larger pointer/touch target. */
+.widget-metric-heading .widget-metric-help-trigger { display: inline-grid; place-items: center; flex: 0 0 28px; width: 28px; height: 28px; min-height: 28px; padding: 0; border: 0; background: transparent; color: var(--muted, inherit); cursor: pointer; }
+.widget-metric-help-trigger span { display: grid; place-items: center; width: 1em; height: 1em; border: 1px solid currentColor; border-radius: 50%; font: 600 11px/1 sans-serif; }
+.widget-metric-help-trigger:focus-visible, .widget-metric-help-panel:focus-visible { outline: 2px solid var(--interaction-emphasis, currentColor); outline-offset: 2px; }
+/* In-flow expansion cannot be clipped by a widget's scroll/stacking ancestor. */
+.widget-metric-help-panel { flex: 1 0 100%; order: 3; box-sizing: border-box; min-width: 0; max-width: 100%; padding: 8px 0; font-size: 12px; line-height: 1.6; overflow-wrap: anywhere; }
+.widget-metric-help-panel[hidden] { display: none; }
+.widget-metric-help-panel p { margin: 4px 0; }
+@media (pointer: coarse) { .widget-metric-heading .widget-metric-help-trigger { flex-basis: 44px; width: 44px; height: 44px; } }

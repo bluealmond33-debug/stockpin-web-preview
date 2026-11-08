@@ -1,6 +1,6 @@
 import { n as __esmMin, r as __toESM, t as __commonJSMin } from "./rolldown-runtime-CnFjIZqj.js";
-import { n as require_react, t as require_jsx_runtime } from "./jsx-runtime-D3ER87f6.js";
-import { i as require_react_dom, n as init_ThemeControl, r as initializeTheme } from "./ThemeControl-BPhnSu9B.js";
+import { n as require_react, t as require_jsx_runtime } from "./jsx-runtime-DGHTPpxp.js";
+import { i as require_react_dom, n as init_ThemeControl, r as initializeTheme } from "./ThemeControl-D108JMQi.js";
 /**
 * @license React
 * scheduler.production.js
@@ -10847,7 +10847,7 @@ function init_styles() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/styles.css?v=source-build-r59";
+			l.href = "/local/app/css-source/src/styles.css?v=source-build-r99";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -10888,48 +10888,7 @@ function BackupDownloadControls() {
 		]
 	});
 }
-function DemoMarketWidget({ id }) {
-	const presentation = widgetPresentations.get(id);
-	if (!presentation) return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
-		className: "market-indicators",
-		role: "status",
-		children: "가상 위젯 자료 미확인"
-	});
-	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(WebDemoMarketWidget, {
-		row: presentation.row,
-		series: presentation.series
-	});
-}
-function DemoMarket() {
-	const fixture = "ready";
-	const presentation = import_react.useMemo(() => {
-		const market = createMarketDemo({ fixture });
-		const series = Object.fromEntries([
-			...market.fx,
-			...market.indices,
-			market.stocksSentiment,
-			market.bitcoinSentiment,
-			market.vix
-		].map((row) => [row.id, Object.fromEntries([
-			"7d",
-			"1m",
-			"3m",
-			"1y",
-			"all"
-		].map((period) => [period, getSeries(row.id, {
-			period,
-			fixture
-		})]))]));
-		const maps = getComponentData("MarketPage.snapshots", { fixture });
-		return {
-			market,
-			series,
-			snapshots: maps.status === "ready" ? maps.data : {}
-		};
-	}, [fixture]);
-	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(MarketPage, { demoPresentation: presentation });
-}
-var import_react, import_client, import_jsx_runtime, deny, App, createDemoSnapshot, createPortfolioWidgetDemo, createWebPortfolio, WEB_DEMO_FX, createJournalCommand, createInitializedBrowserJournal, createIndexedDBRepository, validateJournalState, readManualResponse, createBackupSchema, createDisplayPreferences, createBrowserBackupCommand, createBrowserFileTransport, createMarketDemo, getSeries, getComponentData, MarketPage, WebDemoConnections, WebDemoTradeNotice, WebDemoMarketWidget, repository, storage, displayPreferences, backupTransport, backupStorage, widgetMarket, widgetRows, widgetPresentations, preview;
+var import_react, import_client, import_jsx_runtime, deny, App, InstrumentDetails, createDemoSnapshot, createPortfolioWidgetDemo, createWebPortfolio, WEB_DEMO_FX, createJournalCommand, createInitializedBrowserJournal, createIndexedDBRepository, validateJournalState, readManualResponse, createBackupSchema, createDisplayPreferences, createBrowserBackupCommand, createBrowserFileTransport, WebDemoConnections, WebDemoTradeNotice, PublicReferenceMarket, verifiedEcbPublicRelease, PublicMarketWidget, repository, storage, displayPreferences, backupTransport, backupStorage, instrumentView, preview, BrandDisplayProvider;
 function init_web_entry() {
 	return (init_web_entry = __esmMin((async () => {
 		import_react = /* @__PURE__ */ __toESM(require_react(), 1);
@@ -10957,24 +10916,24 @@ function init_web_entry() {
 		};
 		navigator.sendBeacon = () => false;
 		initializeTheme();
-		({default: App} = await import("./App-CHCaUypI.js"));
-		({createDemoSnapshot} = await import("./portfolio-DoIosU5a.js"));
-		({createPortfolioWidgetDemo} = await import("./portfolioWidgetPresentation-B6Ka0lD-.js"));
-		({createWebPortfolio, WEB_DEMO_FX} = await import("./portfolio-lNo72ms8.js"));
-		({createJournalCommand} = await import("./journal-DxPinSit.js"));
-		({createInitializedBrowserJournal} = await import("./initialize-on-open-C1H9l9gP.js"));
-		({createIndexedDBRepository} = await import("./indexeddb-WS-utGsh.js"));
-		({validateState: validateJournalState} = await import("./state-CJxT_1f9.js"));
-		({readManualResponse} = await import("./manualPersistence-Ee5l4RI8.js"));
-		({createBackupSchema} = await import("./backup-codec-BaorBYFO.js"));
-		({createDisplayPreferences} = await import("./display-preferences-Baa7xZNu.js"));
-		({createBrowserBackupCommand} = await import("./backup-BvvGVjwn.js"));
-		({createBrowserFileTransport} = await import("./transport-DF72AaYa.js"));
-		({createMarketDemo, getSeries, getComponentData} = await import("./market-tG52U6fD.js"));
-		({MarketPage} = await import("./MarketPage-D6eS2ptf.js"));
-		({WebDemoConnections} = await import("./WebDemoConnections-DZ9XSVoY.js"));
-		({WebDemoTradeNotice} = await import("./WebDemoTradeNotice-B8POSyxx.js"));
-		({WebDemoMarketWidget} = await import("./WebDemoMarketWidget-CrUKEw_m.js"));
+		({default: App} = await import("./App-Da3s3Ojo.js"));
+		({InstrumentDetails} = await import("./InstrumentDetails-DeRdCtb9.js"));
+		({createDemoSnapshot} = await import("./portfolio-fWzgjB0G.js"));
+		({createPortfolioWidgetDemo} = await import("./portfolioWidgetPresentation-D7EwljFK.js"));
+		({createWebPortfolio, WEB_DEMO_FX} = await import("./portfolio-BIQ8cSV9.js"));
+		({createJournalCommand} = await import("./journal-DCW8icnT.js"));
+		({createInitializedBrowserJournal} = await import("./initialize-on-open-CVECxJ4X.js"));
+		({createIndexedDBRepository} = await import("./indexeddb-Ci0ZHZ9J.js"));
+		({validateState: validateJournalState} = await import("./state-Cl9xOgbU.js"));
+		({readManualResponse} = await import("./manualPersistence-C-C7i3wH.js"));
+		({createBackupSchema} = await import("./backup-codec-CwHq6sLe.js"));
+		({createDisplayPreferences} = await import("./display-preferences-D8dUsk3L.js"));
+		({createBrowserBackupCommand} = await import("./backup-D0bvYwy1.js"));
+		({createBrowserFileTransport} = await import("./transport-B9y11Ezk.js"));
+		({WebDemoConnections} = await import("./WebDemoConnections-Dq83v-TW.js"));
+		({WebDemoTradeNotice} = await import("./WebDemoTradeNotice-B_A42Tm8.js"));
+		({PublicReferenceMarket, verifiedEcbPublicRelease} = await import("./public-reference-CAYNJh9w.js"));
+		({PublicMarketWidget} = await import("./PublicMarketWidget-DUlPBF5B.js"));
 		repository = createIndexedDBRepository();
 		storage = createInitializedBrowserJournal(createJournalCommand({ repository }));
 		displayPreferences = createDisplayPreferences((() => {
@@ -10999,23 +10958,18 @@ function init_web_entry() {
 				backupTransport.dispose();
 			}
 		});
-		widgetMarket = createMarketDemo();
-		widgetRows = [
-			...widgetMarket.fx,
-			...widgetMarket.indices,
-			widgetMarket.vix
-		];
-		widgetPresentations = new Map(widgetRows.map((row) => [row.id, {
-			row,
-			series: Object.fromEntries([
-				"7d",
-				"1m",
-				"3m",
-				"1y",
-				"all"
-			].map((period) => [period, getSeries(row.id, { period })]))
-		}]));
+		instrumentView = (position, holding) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(InstrumentDetails, {
+			instrument: {
+				id: position.market + ":" + position.instrumentId,
+				name: position.name,
+				ticker: position.instrumentId,
+				market: position.market,
+				currency: typeof position.originalCurrency === "string" ? position.originalCurrency : position.currency
+			},
+			holding
+		});
 		preview = Object.freeze({
+			instrumentView,
 			portfolioWidgets: createPortfolioWidgetDemo(),
 			fxQuote: WEB_DEMO_FX,
 			portfolio: createWebPortfolio(createDemoSnapshot),
@@ -11023,12 +10977,26 @@ function init_web_entry() {
 			backupStorage,
 			backupControls: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(BackupDownloadControls, {}),
 			displayPreferences,
-			tradeExamples: (onRecord) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(WebDemoTradeNotice, { onRecord }),
-			marketView: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(DemoMarket, {}),
-			marketWidgetView: (id) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(DemoMarketWidget, { id }),
+			tradeExamples: (onRecord, display) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(WebDemoTradeNotice, {
+				onRecord,
+				hideProfit: display?.privacy,
+				onHideProfitChange: display?.onPrivacyChange,
+				currencyDisplay: display?.currency,
+				onCurrencyDisplayChange: display?.onCurrencyChange,
+				fxQuote: display?.fxQuote
+			}),
+			marketView: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(PublicReferenceMarket, { release: verifiedEcbPublicRelease }),
+			marketWidgetView: (id) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(PublicMarketWidget, {
+				id,
+				release: verifiedEcbPublicRelease
+			}),
 			connectionsView: (refreshMinutes) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(WebDemoConnections, { refreshMinutes })
 		});
-		(0, import_client.createRoot)(document.getElementById("root")).render(/* @__PURE__ */ (0, import_jsx_runtime.jsx)(import_react.StrictMode, { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(App, { preview }) }));
+		({BrandDisplayProvider} = await import("./BrandDisplayContext-C6AgJYgb.js"));
+		(0, import_client.createRoot)(document.getElementById("root")).render(/* @__PURE__ */ (0, import_jsx_runtime.jsx)(import_react.StrictMode, { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(BrandDisplayProvider, {
+			mode: document.documentElement.dataset.brandDisplay === "text-only" ? "text-only" : "original",
+			children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(App, { preview })
+		}) }));
 	})))();
 }
 await init_web_entry();

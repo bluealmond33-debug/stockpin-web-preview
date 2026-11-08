@@ -22,6 +22,9 @@
 .holding-details .holding-additional { margin-top: 20px; font-size: 13px; }
 .holding-details summary { cursor: pointer; color: var(--muted); }
 .holding-details summary:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
+.holding-details.company-instrument-details { width: min(960px, 100%); }
+.company-instrument-details > header > h2 { position:absolute; width:1px; height:1px; padding:0; overflow:hidden; clip-path:inset(50%); white-space:nowrap; }
+.company-instrument-details > header > button { margin-left:auto; }
 @media (max-width: 400px) {
   .holding-details-backdrop { padding: 12px; }
   .holding-details { padding: 16px; max-height: calc(100dvh - 24px); }

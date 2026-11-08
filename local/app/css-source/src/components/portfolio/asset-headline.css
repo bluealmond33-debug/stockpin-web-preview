@@ -3,4 +3,10 @@
 .summary-section .asset-headline .total-label,.summary-section .asset-headline-pnl>span{display:block;margin:0 0 6px;color:var(--muted);font-size:12px;line-height:1.5}
 .summary-section .asset-headline .total-value{font-size:24px;line-height:1.35;font-weight:500;overflow-wrap:anywhere;letter-spacing:-.4px}
 .summary-section .asset-headline-pnl>strong{display:block;font-size:17px;line-height:1.5;font-weight:500;overflow-wrap:anywhere;font-variant-numeric:tabular-nums}
+.summary-section .asset-headline-rate{display:inline-block;margin-left:7px;font-size:14px;font-weight:400;white-space:nowrap}
+.summary-section .asset-headline-rate:focus-visible{outline:2px solid var(--green);outline-offset:3px}
+.summary-section .cash-breakdown{display:flex;flex-wrap:wrap;gap:10px 28px;margin-top:18px}
+.summary-section .cash-breakdown>div{display:flex;align-items:baseline;flex-wrap:wrap;gap:6px 10px}
+.summary-section .cash-breakdown>div>span{color:var(--muted);font-size:12px}
+.summary-section .cash-breakdown strong{font-weight:400;font-size:15px;font-variant-numeric:tabular-nums}
 @media(max-width:480px){.summary-section .asset-headline{gap:10px 16px}.summary-section .asset-headline .total-value{font-size:22px}}

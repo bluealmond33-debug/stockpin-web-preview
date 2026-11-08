@@ -108,7 +108,7 @@
 /* Compact web cards only; native/default grid keeps its existing presentation. */
 .provider-grid-compact[data-state="connected"] .provider-grid-connection { color: var(--accent, #2bbf4a); }
 .provider-grid-compact[data-state="error"] .provider-grid-connection { color: var(--danger, #ef4444); }
-.connections-web-demo .connections-heading h2,
+.connections-web-demo .connections-heading h2 { color: var(--bright, #e8e8e8); }
 .connections-web-demo .connections-heading h2 span { color: var(--accent, #2bbf4a); }
 .provider-grid-compact .provider-grid-accounts,
 .provider-grid-compact .provider-grid-query,
