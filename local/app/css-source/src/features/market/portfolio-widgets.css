@@ -22,8 +22,8 @@
 .portfolio-widget-gallery-heading>button{display:grid;place-items:center;min-width:36px;min-height:36px;flex-shrink:0}
 .portfolio-widget-gallery-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));grid-auto-rows:auto;align-items:start;gap:16px;padding:16px 24px 24px}
 .portfolio-widget-gallery-card{min-width:0;padding:16px;border:0;border-bottom:1px solid var(--line);border-radius:0;display:flex;flex-direction:column;align-items:stretch;gap:12px}
-.portfolio-widget-preview{min-width:0;color:var(--text);font-size:13px}
-.portfolio-widget-preview-content{pointer-events:none}
+.portfolio-widget-preview{box-sizing:border-box;min-width:0;height:240px;overflow:auto;color:var(--text);font-size:13px}
+.portfolio-widget-preview-content{min-height:100%;display:flex;flex-direction:column;justify-content:center;gap:8px;pointer-events:none}
 .portfolio-widget-preview .allocation-modes,.portfolio-widget-preview .price-return-views,.portfolio-widget-preview .profit-contribution header,.portfolio-widget-preview .weight-return header{display:none}
 .portfolio-widget-preview .donut{width:144px;height:144px;margin:8px auto 16px}
 .portfolio-widget-preview .donut>div{width:108px;height:108px}
@@ -37,18 +37,18 @@
 .portfolio-widget-preview .reference-rate-current strong{font-size:24px}
 .portfolio-widget-preview .reference-rate-trend{width:96px}
 .portfolio-widget-preview .reference-rates button{border:0;padding:0;min-height:0;color:var(--text)}
-.portfolio-widget-preview .scope-copy,.portfolio-widget-preview>small{font-size:12px;line-height:1.5}
-.portfolio-widget-gallery-card>.portfolio-widget-preview{flex:1}
+.portfolio-widget-preview .scope-copy,.portfolio-widget-preview-content>small{font-size:12px;line-height:1.5}
+.portfolio-widget-gallery-card>.portfolio-widget-preview{flex:0 0 240px}
 .portfolio-widget-gallery-card>h3{color:var(--bright)}
 .portfolio-widget-gallery-card h3{margin:0;font-size:14px;font-weight:600;overflow-wrap:anywhere}
 .portfolio-widget-gallery-card>button{margin-top:auto;min-height:36px;border:1px solid var(--line);border-radius:6px;font-size:12px;color:var(--green)}
 .portfolio-widget-gallery-card button[data-gallery-shown=true]{color:var(--muted)}.portfolio-widget-gallery-card button:disabled{opacity:.5;cursor:not-allowed}
 .portfolio-widget-gallery button:focus-visible,.portfolio-widget-add:focus-visible{outline:2px solid var(--green);outline-offset:3px}
 @media(max-width:480px){.portfolio-widget-gallery{padding:0}.portfolio-widget-gallery-grid{gap:12px;padding:12px 16px 16px}.portfolio-widget-gallery-heading{padding:12px 16px}}
-/* Intrinsic equal-height cards: no scaled or cropped widget body. */
+/* Fixed display frame; the non-inert outer owner can scroll any excess, not crop it. */
 .portfolio-widget-gallery-card{position:relative}
 .portfolio-widget-gallery-card:hover,.portfolio-widget-gallery-card:focus-within,.portfolio-widget-gallery-card[data-selected=true]{border-color:var(--green)}
-.portfolio-gallery-card-heading{display:flex;align-items:center;justify-content:space-between;gap:8px;color:var(--bright)}
+.portfolio-gallery-card-heading{display:flex;align-items:center;justify-content:space-between;gap:8px;min-height:28px;color:var(--bright)}
 .portfolio-gallery-help{display:contents}
 /* Keep the common click/focus/Escape owner without moving the add action. */
 .portfolio-gallery-help .widget-metric-help-panel{position:absolute;z-index:4;left:12px;right:12px;top:52px;padding:12px;background:var(--bg);border:1px solid var(--line);border-radius:8px;box-shadow:0 8px 24px #0003;color:var(--text);font-size:13px;line-height:1.6;overflow-wrap:anywhere}
@@ -57,6 +57,21 @@
 /* Remove duplicated titles only; source, missing-data and method notes stay readable. */
 .portfolio-widget-preview .legacy-quote-radar h3,.portfolio-widget-preview .legacy-performance h3{display:none}
 .portfolio-widget-preview .legacy-quote-radar,.portfolio-widget-preview .legacy-performance{margin:0}
+/* Only redundant titles and non-operable controls; the outer metric help stays live. */
+.portfolio-widget-preview .legacy-performance-pair,.portfolio-widget-preview .widget-metric-help,.portfolio-widget-preview .legacy-performance nav button,.portfolio-widget-preview .legacy-quote-radar-quote header{display:none}
+.portfolio-widget-preview [data-legacy-widget=correlation] .legacy-performance header{display:none}
+.portfolio-widget-preview .legacy-performance header{margin-bottom:4px}
+.portfolio-widget-preview .legacy-performance .widget-metric-heading{width:100%}
+.portfolio-widget-preview .legacy-performance nav{margin:0 auto}
+.portfolio-widget-preview .legacy-performance-calendar{gap:2px}
+.portfolio-widget-preview .legacy-performance-calendar button{min-height:30px;gap:0;padding:0;line-height:1.25}
+.portfolio-widget-preview .legacy-performance-calendar small{font-size:11px}
+.portfolio-widget-preview .legacy-performance-weekday{padding:0;line-height:18px}
+.portfolio-widget-preview .legacy-quote-radar>svg{width:220px;max-width:100%;height:auto}
+/* Keep rendered SVG labels readable at this gallery-only drawing size. */
+.portfolio-widget-preview .legacy-quote-radar svg text{font-size:18px}
+.portfolio-widget-preview .legacy-quote-radar [data-radar-score]{font-size:17px}
+.portfolio-widget-preview .portfolio-widget-preview-note{margin:0;font-size:12px;line-height:1.4;color:var(--muted);overflow-wrap:anywhere}
 /* Only an active drag marks a whole widget; ordinary hover stays open. */
 .portfolio-widget-frame[data-moving=true]{outline:2px solid var(--green);outline-offset:6px}
 .portfolio-widget-frame[data-moving=true]{box-shadow:0 0 0 6px color-mix(in srgb,var(--green) 12%,transparent)}
