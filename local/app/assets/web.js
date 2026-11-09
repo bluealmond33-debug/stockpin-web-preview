@@ -1,7 +1,7 @@
 import { n as __esmMin, r as __toESM, t as __commonJSMin } from "./rolldown-runtime-CnFjIZqj.js";
 import { n as require_react, t as require_jsx_runtime } from "./jsx-runtime-CSsnt-5j.js";
 import { t as require_react_dom } from "./react-dom-DCTmYP8a.js";
-import { n as init_ThemeControl, r as initializeTheme } from "./ThemeControl-D6XKbuQ1.js";
+import { n as init_ThemeControl, r as initializeTheme } from "./ThemeControl-DSjUlgyG.js";
 /**
 * @license React
 * scheduler.production.js
@@ -10848,7 +10848,7 @@ function init_styles() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/styles.css?v=source-build-r159";
+			l.href = "/local/app/css-source/src/styles.css?v=source-build-r160";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -10917,22 +10917,22 @@ function init_web_entry() {
 		};
 		navigator.sendBeacon = () => false;
 		initializeTheme();
-		({default: App} = await import("./App-CeKKaAS_.js"));
-		({InstrumentDetails} = await import("./InstrumentDetails-BWzSCnTn.js"));
-		({createDemoSnapshot} = await import("./portfolio-BntitGA3.js"));
-		({createPortfolioWidgetDemo} = await import("./portfolioWidgetPresentation-wi7avau9.js"));
-		({createWebPortfolio, WEB_DEMO_FX, WEB_DEMO_ACCOUNT_ALIAS_IDS, WEB_DEMO_ACCOUNT_LABELS} = await import("./portfolio-FlK8DYWD.js"));
-		({createJournalCommand} = await import("./journal-73j7PJyI.js"));
-		({createInitializedBrowserJournal} = await import("./initialize-on-open-BioCDPiu.js"));
-		({createIndexedDBRepository} = await import("./indexeddb-COfwx8Gw.js"));
-		({validateState: validateJournalState} = await import("./state-CJ1DDcZ_.js"));
-		({readManualResponse} = await import("./manualPersistence-GNEN_KwE.js"));
-		({createBackupSchema} = await import("./backup-codec-Pqzo7SfK.js"));
-		({createDisplayPreferences} = await import("./display-preferences-BRTBRRDj.js"));
-		({createBrowserBackupCommand} = await import("./backup-v9BxIVQS.js"));
-		({createBrowserFileTransport} = await import("./transport-BUVJdScK.js"));
-		({WebDemoConnections} = await import("./WebDemoConnections-ChS9xeHb.js"));
-		({createDemoAliasStore} = await import("./WebDemoConnectionsState-DEam7mHr.js"));
+		({default: App} = await import("./App-BYKHsJs0.js"));
+		({InstrumentDetails} = await import("./InstrumentDetails-DauMDuAX.js"));
+		({createDemoSnapshot} = await import("./portfolio-CjG-YLUs.js"));
+		({createPortfolioWidgetDemo} = await import("./portfolioWidgetPresentation-BjY1J4FZ.js"));
+		({createWebPortfolio, WEB_DEMO_FX, WEB_DEMO_ACCOUNT_ALIAS_IDS, WEB_DEMO_ACCOUNT_LABELS} = await import("./portfolio-Cp9fkEyz.js"));
+		({createJournalCommand} = await import("./journal-D3ujxFAA.js"));
+		({createInitializedBrowserJournal} = await import("./initialize-on-open-C8AK-vmt.js"));
+		({createIndexedDBRepository} = await import("./indexeddb-DWegV-Vz.js"));
+		({validateState: validateJournalState} = await import("./state-C2FsMNjO.js"));
+		({readManualResponse} = await import("./manualPersistence-CO_OkOX2.js"));
+		({createBackupSchema} = await import("./backup-codec-DE41Dt_m.js"));
+		({createDisplayPreferences} = await import("./display-preferences-Dj6abvxJ.js"));
+		({createBrowserBackupCommand} = await import("./backup-BxEtUpyR.js"));
+		({createBrowserFileTransport} = await import("./transport-0oNU_i5O.js"));
+		({WebDemoConnections} = await import("./WebDemoConnections-P7AjvoKG.js"));
+		({createDemoAliasStore} = await import("./WebDemoConnectionsState-BOIpDtvw.js"));
 		accountAliases = () => {
 			try {
 				return createDemoAliasStore(window.localStorage).aliases;
@@ -10945,10 +10945,10 @@ function init_web_entry() {
 			if (typeof label !== "string" || !label) throw Error("Missing demo account presentation");
 			return [aliasId, label];
 		}));
-		({WebDemoTradeNotice} = await import("./WebDemoTradeNotice-VGhp-8uQ.js"));
-		({PublicReferenceMarket, verifiedEcbPublicExtendedRelease} = await import("./public-reference-4u0ZLxva.js"));
-		({PublicMarketWidget} = await import("./PublicMarketWidget-BHi0S36C.js"));
-		({PublicHeatmapExplorer} = await import("./PublicHeatmapExplorer-BPuCddwr.js"));
+		({WebDemoTradeNotice} = await import("./WebDemoTradeNotice-MySN-uFL.js"));
+		({PublicReferenceMarket, verifiedEcbPublicExtendedRelease} = await import("./public-reference-Cn5eMIeR.js"));
+		({PublicMarketWidget} = await import("./PublicMarketWidget-BSkPlE_L.js"));
+		({PublicHeatmapExplorer} = await import("./PublicHeatmapExplorer-gMYvbVfI.js"));
 		repository = createIndexedDBRepository();
 		storage = createInitializedBrowserJournal(createJournalCommand({ repository }));
 		displayPreferences = createDisplayPreferences((() => {
@@ -11019,7 +11019,7 @@ function init_web_entry() {
 				onAccountAliasesChange: onAliasesChange
 			})
 		});
-		({BrandDisplayProvider} = await import("./BrandDisplayContext-DQWGrx1O.js"));
+		({BrandDisplayProvider} = await import("./BrandDisplayContext-B0U6rzco.js"));
 		(0, import_client.createRoot)(document.getElementById("root")).render(/* @__PURE__ */ (0, import_jsx_runtime.jsx)(import_react.StrictMode, { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(BrandDisplayProvider, {
 			mode: document.documentElement.dataset.brandDisplay === "text-only" ? "text-only" : "original",
 			children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(App, { preview })

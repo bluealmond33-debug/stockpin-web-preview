@@ -1,3 +1,7 @@
+.connections-web-demo .provider-grid-compact .provider-grid-accounts,
+.connections-web-demo .provider-grid-compact .provider-grid-query {
+  color: var(--muted, #c1c1c1);
+}
 .connections-web-demo .connection-service-row.is-unsupported { color:var(--secondary, #a3a3a3); background:transparent; }
 .connections-web-demo .connection-service-row.is-unsupported .connection-service-status { color:inherit; font-weight:400; }
 .connections-web-demo input[type="checkbox"] { accent-color:var(--interaction-emphasis); }
