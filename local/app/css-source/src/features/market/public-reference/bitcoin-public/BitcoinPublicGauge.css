@@ -1,10 +1,8 @@
-/* Scoped exception to the public overview's intentionally empty CNN/VIX dials. */
+/* Static arc colors are illustrative, never Alternative.me classification boundaries.
+   Keep the actual pointer neutral and use only the separately supplied source label. */
 .public-market-overview .bitcoin-public-gauge[data-has-quote="true"] .sentiment-dial__value { display: block; }
-.public-market-overview .bitcoin-public-gauge[data-has-quote="true"] .sentiment-dial__scale,
-.public-market-overview .bitcoin-public-gauge[data-has-quote="true"] .sentiment-dial__tick { display: inline; }
-/* Provider thresholds are not verified; do not mislabel score 25 by illustrative bands. */
-.public-market-overview .bitcoin-public-gauge[data-has-quote="true"] .sentiment-dial__arc { stroke: var(--muted, #aaa); }
 .public-market-overview .bitcoin-public-gauge[data-has-quote="true"] .sentiment-dial__needle { stroke: var(--bright, #e5e7eb); }
+.public-market-overview .bitcoin-public-gauge .sentiment-dial-state:empty { display: none; }
 .bitcoin-public-gauge { overflow-wrap: anywhere; }
 .bitcoin-public-gauge > p { margin: 0; font-size: 12px; text-align: center; }
 .bitcoin-public-reading { display: flex; flex-direction: column; align-items: center; gap: 4px; max-width: 100%; }
@@ -30,8 +28,9 @@
 .market-page[data-market-mode="public"] .bitcoin-public-gauge > .market-restoration-comparisons,
 .market-page[data-market-mode="public"] .bitcoin-public-details { grid-column: 1 / -1; }
 .market-page[data-market-mode="public"] .bitcoin-public-gauge > header { width: 100%; }
-.market-page[data-market-mode="public"] .bitcoin-public-reading > a { justify-self: end; font-size: 13px; }
-.market-page[data-market-mode="public"] .bitcoin-public-classification { justify-self: start; font-size: 13px; }
+/* The source label occupies the status line; attribution remains directly below it. */
+.market-page[data-market-mode="public"] .bitcoin-public-reading > a { grid-column: 1 / -1; grid-row: 4; justify-self: center; font-size: 12px; }
+.market-page[data-market-mode="public"] .bitcoin-public-classification { grid-column: 1 / -1; grid-row: 3; justify-self: center; margin-top: -2px; min-height: 22px; line-height: 22px; font-size: 14px; font-weight: 600; color: var(--bright, #e5e7eb); }
 .market-page[data-market-mode="public"] .bitcoin-public-details > summary { padding-block: 4px; font-size: 13px; }
 @container public-market (max-width: 600px) {
  .market-page[data-market-mode="public"] .bitcoin-public-gauge { column-gap: 12px; }

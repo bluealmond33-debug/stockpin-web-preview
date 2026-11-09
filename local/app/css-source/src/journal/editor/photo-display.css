@@ -38,6 +38,9 @@ img.photo-bounded-image {
   pointer-events: auto;
 }
 .rich-image-editor .photo-bounded-figure > .rich-photo-frame:focus-visible { outline: 2px solid var(--border); outline-offset: 2px; }
+/* Separate action centers without changing stored width or image bounds.
+   Host specificity must beat the later writing-feedback.css rule. */
+.journal-surface.manual-journal-draft .rich-image-editor .photo-bounded-figure .rich-photo-resize { right: -14px; }
 .photo-original-dialog::backdrop { background: rgb(0 0 0 / 65%); }
 .photo-original-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 12px; }
 .photo-original-scroll { overflow: auto; max-height: calc(100vh - 132px); }

@@ -19,6 +19,8 @@
 .reference-rates-table [data-direction="gain"] { color: var(--gain, #e05a5a); }
 .reference-rates-table [data-direction="loss"] { color: var(--loss, #5a7fe0); }
 .reference-rates-table .reference-rate-comparison { font-size: 12px; color: var(--muted, #a7a7a7); }
+.reference-rates-table .reference-rate-row-averages { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 2px 12px; max-width: 24ch; white-space: normal; font-size: 12px; line-height: 1.5; font-variant-numeric: tabular-nums; color: var(--muted, #a7a7a7); }
+.reference-rates-table .reference-rate-row-averages > span { white-space: nowrap; }
 @container reference-rates (max-width: 560px) {
  .reference-rates-table .reference-rate-groups { grid-template-columns: minmax(0, 1fr); gap: 20px; }
  .reference-rates-table .reference-rates-heading { justify-content: flex-start; gap: 6px 16px; }
