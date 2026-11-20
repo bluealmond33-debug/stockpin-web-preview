@@ -1,0 +1,52 @@
+.fear-details { color: var(--text, #c1c1c1); min-width: 0; }
+.fear-gauge { display: flex; align-items: center; gap: 12px; min-width: 0; text-align: left; }
+.fear-gauge-info { min-width: 0; overflow-wrap: anywhere; }
+.fear-gauge h3 { margin: 0; font-size: 14px; line-height: 1.5; font-weight: 500; }
+.fear-gauge svg { display: block; flex: 0 0 72px; width: 72px; height: 72px; }
+.fear-gauge text { fill: currentColor; font: inherit; }
+.fear-gauge .fear-gauge-score { font-size: 26px; font-weight: 500; fill: var(--bright, #e8e8e8); }
+.fear-gauge .fear-meta { margin: 4px 0 0; line-height: 1.5; }
+/* Provider classifications, not price direction or buy/sell recommendations. */
+.fear-gauge[data-sentiment="Extreme Fear"] { --sentiment-color: #5a7fe0; }
+.fear-gauge[data-sentiment="Fear"] { --sentiment-color: #91a8e6; }
+.fear-gauge[data-sentiment="Neutral"] { --sentiment-color: #c1c1c1; }
+.fear-gauge[data-sentiment="Greed"] { --sentiment-color: #d0b887; }
+.fear-gauge[data-sentiment="Extreme Greed"] { --sentiment-color: #e05a5a; }
+/* Light-only sentiment shades: readable on both theme background surfaces. */
+:root[data-theme="light"] .fear-gauge[data-sentiment="Extreme Fear"] { --sentiment-color: #274899; }
+:root[data-theme="light"] .fear-gauge[data-sentiment="Fear"] { --sentiment-color: #315bc1; }
+:root[data-theme="light"] .fear-gauge[data-sentiment="Neutral"] { --sentiment-color: #555555; }
+:root[data-theme="light"] .fear-gauge[data-sentiment="Greed"] { --sentiment-color: #765519; }
+:root[data-theme="light"] .fear-gauge[data-sentiment="Extreme Greed"] { --sentiment-color: #b52323; }
+.fear-gauge .fear-gauge-state { margin: 2px 0 0; font-size: 16px; line-height: 1.5; color: var(--sentiment-color, #c1c1c1); }
+.fear-gauge-track { fill: none; stroke: var(--line, #383838); stroke-width: 2; }
+.fear-gauge-progress { fill: none; stroke: var(--sentiment-color, #a7a7a7); stroke-width: 3; }
+.fear-overview { display: flex; flex-direction: column; align-items: flex-start; gap: 16px; }
+.fear-overview > .fear-gauge { flex: 0 1 auto; max-width: 100%; }
+.fear-comparisons { flex: 0 1 auto; min-width: 0; max-width: 100%; }
+.fear-summary { display: grid; grid-template-columns: max-content minmax(0, 1fr); align-items: baseline; gap: 4px 12px; margin: 0 0 8px; }
+.fear-summary > div { display: grid; grid-template-columns: subgrid; grid-column: 1 / -1; align-items: baseline; }
+.fear-summary dt { min-width: 6.5em; }
+.fear-summary dt, .fear-summary time, .fear-meta { color: var(--muted, #a7a7a7); font-size: 14px; }
+.fear-summary small { font: inherit; }
+.fear-summary dd { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 8px; margin: 0; }
+.fear-summary strong { font-size: 16px; font-weight: 500; color: var(--bright, #e8e8e8); }
+.fear-summary dd > span { font-size: 14px; }
+.fear-summary time { overflow-wrap: anywhere; }
+.fear-details button, .fear-history-values summary { min-height: 44px; cursor: pointer; }
+.fear-details button { color: inherit; font: inherit; background: none; border: 0; padding: 10px 12px; }
+.fear-details button:focus-visible, .fear-details a:focus-visible, .fear-history-values summary:focus-visible { outline: 2px solid var(--accent, #2bbf4a); outline-offset: 3px; }
+.fear-periods { display: flex; flex-wrap: wrap; gap: 4px; margin-block: 16px; }
+.fear-periods button[aria-pressed="true"] { color: var(--accent, #2bbf4a); text-decoration: underline; text-underline-offset: 6px; }
+.fear-history-chart { width: 100%; display: block; max-height: 240px; }
+.fear-history-chart polyline { fill: none; stroke: var(--accent, #2bbf4a); stroke-width: 1.5; }
+.fear-history-chart circle { fill: var(--bright, #e8e8e8); }
+.fear-history-chart text { fill: var(--muted, #a7a7a7); font: inherit; font-size: 14px; }
+.fear-history-values ul { list-style: none; padding: 0; max-height: 240px; overflow: auto; }
+.fear-history-values li { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; padding-block: 6px; font-size: 14px; }
+.fear-history-values time { overflow-wrap: anywhere; }
+.fear-details a { color: inherit; font-size: 14px; }
+.fear-history-plot { overflow-x: auto; }
+.fear-history-plot .fear-history-chart { min-width: 516px; }
+.fear-history-grid { stroke: var(--line, #383838); stroke-width: 1; }
+.fear-details [role=alert], .fear-details [role=status] { font-size: 14px; line-height: 1.5; }
