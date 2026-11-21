@@ -1,0 +1,19 @@
+.diary-trade-carousel { min-width: 0; margin-block: 8px 16px; }
+.diary-trade-carousel-track { display: grid; grid-template-columns: 44px minmax(0, 1fr) 44px auto 44px; align-items: center; gap: 8px; max-width: 640px; }
+.diary-trade-carousel-card { min-width: 0; }
+.diary-trade-carousel-card > button { display: flex; flex-wrap: wrap; gap: 8px 16px; width: 100%; text-align: left; }
+.journal-surface .manual-record-calendar .diary-trade-carousel button { border: 0; border-radius: 0; background: transparent; box-shadow: none; min-height: 44px; padding: 8px; color: var(--text); overflow-wrap: anywhere; }
+.journal-surface .manual-record-calendar .diary-trade-carousel button[aria-pressed="true"] { color: var(--green); text-decoration: underline; text-underline-offset: 4px; }
+.journal-surface .manual-record-calendar .diary-trade-carousel button:focus-visible { outline: 2px solid var(--text); outline-offset: 3px; }
+.diary-trade-carousel button:disabled { opacity: .45; }
+.diary-trade-carousel [aria-live], .diary-trade-carousel > p { color: var(--muted); font-size: 14px; }
+.diary-trade-carousel > section { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; }
+.diary-trade-carousel > section > div { flex-basis: 100%; }
+.diary-trade-date { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; min-width: 0; }
+.journal-surface .manual-record-calendar .diary-trade-date label { margin: 0; }
+.journal-surface .manual-record-calendar .diary-trade-date input { width: 12ch; max-width: 100%; min-width: 0; margin: 0; padding: 8px; color: var(--text); background: transparent; border: 0; border-bottom: 1px solid var(--muted); border-radius: 0; }
+.diary-trade-date > p { flex-basis: 100%; margin: 0; }
+@media (max-width: 600px) {
+ .diary-trade-carousel-track { grid-template-columns: 44px minmax(0, 1fr) 44px; }
+ .diary-trade-carousel-track > [aria-live] { grid-column: 2; text-align: center; }
+}
