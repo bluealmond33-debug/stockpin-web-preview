@@ -1,0 +1,154 @@
+.journal-surface .autosave-toggle input {
+  width: auto;
+  margin-right: 8px;
+}
+.journal-surface .journal-preview {
+  border: 0;
+  border-top: 1px solid #606060;
+  padding: 16px;
+  margin: 12px 0;
+  overflow-wrap: anywhere;
+  line-height: 1.7;
+}
+.journal-surface .journal-preview a {
+  color: #c1c1c1;
+  text-decoration: underline;
+}
+.journal-surface .journal-preview a:focus-visible {
+  outline: 2px solid #2bbf4a;
+  outline-offset: 3px;
+}
+.journal-surface .chart {
+  position: relative;
+  margin: 24px 0;
+  padding: 20px;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+}
+.journal-surface .chart svg {
+  display: block;
+  width: 100%;
+  height: 180px;
+}
+.journal-surface .marker {
+  position: absolute;
+  left: 29%;
+  top: 145px;
+}
+.journal-surface .calendar {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 4px;
+  margin-bottom: 18px;
+}
+.journal-surface .calendar > div {
+  min-height: 56px;
+  background: transparent;
+  border: 0;
+  border-top: 1px solid #3a3a3a;
+  padding: 4px;
+  overflow-wrap: anywhere;
+}
+.journal-surface .calendar button {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  font-size: 12px;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+.journal-surface .month-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: end;
+}
+.journal-surface .month-controls label {
+  flex: 1 1 160px;
+}
+.journal-surface .month-controls input,
+.journal-surface .month-controls select {
+  display: block;
+  width: 100%;
+  min-height: 44px;
+  margin-bottom: 0;
+  padding: 10px;
+  background: transparent;
+  color: #e8e8e8;
+  border: 0;
+  border-bottom: 1px solid #606060;
+  border-radius: 0;
+  font: inherit;
+}
+.journal-surface .month-controls select:focus-visible {
+  outline: 2px solid #2bbf4a;
+  outline-offset: 3px;
+}
+.journal-surface .journal-calendar {
+  margin-top: 32px;
+}
+.journal-surface .calendar > div {
+  min-height: 80px;
+}
+.journal-surface .calendar > strong {
+  text-align: center;
+  padding: 8px;
+}
+.journal-surface .backup {
+  margin-top: 32px;
+  padding-top: 20px;
+  border-top: 1px solid #3a3a3a;
+}
+.journal-surface .backup a {
+  display: inline-block;
+  margin: 12px;
+  color: #c1c1c1;
+}
+.journal-surface .backup input[type="checkbox"] {
+  width: auto;
+  margin-right: 8px;
+}
+.journal-surface .backup label {
+  display: block;
+  margin-top: 12px;
+}
+
+/* Embedded editor uses the app's main landmark and existing page gutter. */
+.journal-surface .journal-editor-embedded {
+  padding: 0;
+  margin: 0;
+  max-width: none;
+}
+
+.journal-surface .journal-leave-dialog {
+  position: fixed;
+  inset: 0;
+  width: min(30rem, calc(100vw - 40px));
+  max-height: calc(100dvh - 40px);
+  margin: auto;
+  padding: 24px;
+  overflow: auto;
+  color: var(--text-primary, #e0e0e0);
+  background: var(--bg-primary, #111);
+  border: 1px solid var(--border-color, #3a3a3a);
+}
+.journal-surface .journal-leave-dialog::backdrop {
+  background: #0009;
+}
+.journal-surface .journal-leave-dialog h2 {
+  margin: 0 0 16px;
+  font-size: 20px;
+}
+.journal-surface .journal-leave-dialog p {
+  line-height: 1.6;
+}
+.journal-surface .journal-leave-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 24px;
+}
+.journal-surface .journal-leave-actions button {
+  min-height: 44px;
+}
