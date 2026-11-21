@@ -1,0 +1,8 @@
+.market-metric-note { font-size:12px; line-height:1.6; font-weight:400; text-align:left; }
+.widget-metric-help-panel .market-metric-note-meaning { margin:0; font:inherit; color:var(--bright,#e8e8e8); text-wrap:pretty; }
+.market-metric-note-meaning + .market-metric-note-meta { margin-top:12px; }
+.market-metric-note .market-metric-note-meta { display:flex; align-items:baseline; flex-wrap:wrap; gap:6px; color:var(--muted,#aaa); font:inherit; }
+.market-metric-note .market-metric-note-meta :is(time,span,a) { font:inherit; color:inherit; }
+.market-metric-note .market-metric-note-meta a { text-decoration:underline; text-underline-offset:3px; }
+.market-metric-note .market-metric-note-meta a:is(:hover,:focus-visible) { color:inherit; }
+.market-page[data-market-mode="public"] .widget-metric-help-compact > .widget-metric-help-panel { max-width:calc(100vw - 32px); padding:12px 14px; border-radius:8px; }

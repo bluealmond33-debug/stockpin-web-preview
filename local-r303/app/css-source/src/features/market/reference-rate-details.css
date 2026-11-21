@@ -1,0 +1,22 @@
+.reference-rates-table dt > button[aria-haspopup="dialog"] { padding: 0; border: 0; background: transparent; color: inherit; font: inherit; text-align: left; cursor: pointer; }
+.reference-rates-table dt > button[aria-haspopup="dialog"]:is(:hover, :focus-visible) { text-decoration: underline; text-underline-offset: 4px; }
+.reference-rate-details { width: min(760px, calc(100vw - 40px)); max-height: calc(100dvh - 48px); box-sizing: border-box; margin: auto; padding: 28px; border: 0; color: var(--text); background: var(--bg); overflow: auto; }
+.reference-rate-details::backdrop { background: rgb(0 0 0 / 55%); }
+.reference-rate-details header { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+.reference-rate-details h2 { margin: 0; font-size: 20px; }
+.reference-rate-details button { border: 0; background: transparent; color: inherit; font: inherit; padding: 8px 4px; cursor: pointer; }
+.reference-rate-details button:focus-visible, .reference-rates-table dt > button:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
+.reference-rate-details button:disabled { opacity: .55; cursor: not-allowed; }
+.reference-rate-periods { display: flex; flex-wrap: wrap; gap: 8px 20px; margin-top: 24px; }
+.reference-rate-periods button[aria-pressed="true"] { text-decoration: underline; text-underline-offset: 6px; }
+.reference-rate-details .reference-detail-meta { margin: 12px 0; font-size: 12px; color: var(--muted); }
+.reference-detail-unit { margin: 24px 0 0; }
+.reference-rate-detail-chart { display: block; width: 100%; height: auto; margin-top: 16px; color: inherit; }
+.reference-rate-detail-chart polyline { fill: none; stroke: currentColor; stroke-width: 1.5; vector-effect: non-scaling-stroke; }
+.reference-rate-detail-chart circle { fill: currentColor; }
+.reference-rate-detail-chart text { fill: currentColor; font-size: 12px; }
+.reference-detail-values { margin-top: 20px; font-size: 12px; }
+.reference-detail-values summary { cursor: pointer; }
+.reference-detail-values ul { list-style: none; padding: 0; }
+.reference-detail-values li { display: flex; justify-content: space-between; gap: 12px; margin: 8px 0; font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+@media (max-width: 680px) { .reference-rate-details { padding: 20px; width: calc(100vw - 24px); } .reference-rate-periods { gap: 8px 16px; } }
