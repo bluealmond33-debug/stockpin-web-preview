@@ -1,0 +1,37 @@
+/* Static arc colors are illustrative, never Alternative.me classification boundaries.
+   Keep the actual pointer neutral and use only the separately supplied source label. */
+.public-market-overview .bitcoin-public-gauge[data-has-quote="true"] .sentiment-dial__value { display: block; }
+.public-market-overview .bitcoin-public-gauge[data-has-quote="true"] .sentiment-dial__needle { stroke: var(--bright, #e5e7eb); }
+.public-market-overview .bitcoin-public-gauge .sentiment-dial-state:empty { display: none; }
+.bitcoin-public-gauge { overflow-wrap: anywhere; }
+.bitcoin-public-gauge > p { margin: 0; font-size: 12px; text-align: center; }
+.bitcoin-public-reading { display: flex; flex-direction: column; align-items: center; gap: 4px; max-width: 100%; }
+.bitcoin-public-attribution { font-weight: 700; font-size: 11px; text-decoration: underline; color: var(--muted, #aaa); }
+.bitcoin-public-fixed { font-weight: 600; }
+.bitcoin-public-receipt { color: var(--muted, #aaa); }
+.bitcoin-public-details { width: 100%; min-width: 0; }
+.bitcoin-public-details > summary { cursor: pointer; padding-block: 8px; text-align: center; }
+.bitcoin-public-details > a { display: block; font-weight: 700; margin-block: 8px; }
+.bitcoin-public-details .fear-overview { flex-wrap: wrap; }
+.bitcoin-public-details .fear-comparisons { min-width: 0; }
+.bitcoin-public-gauge a:focus-visible,
+.bitcoin-public-details > summary:focus-visible { outline: 2px solid var(--green, #49ae78); outline-offset: 3px; }
+
+/* r133 density: preserve reading order, source and every disclosure. */
+.market-page[data-market-mode="public"] .bitcoin-public-gauge { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: center; justify-items: center; gap: 8px 8px; }
+.market-page[data-market-mode="public"] .bitcoin-public-reading { display: contents; }
+.market-page[data-market-mode="public"] .bitcoin-public-gauge > header,
+.market-page[data-market-mode="public"] .bitcoin-public-reading > .sentiment-dial-control,
+.market-page[data-market-mode="public"] .bitcoin-public-summary,
+.market-page[data-market-mode="public"] .bitcoin-public-gauge > [role="alert"],
+.market-page[data-market-mode="public"] .bitcoin-public-gauge > [role="status"],
+.market-page[data-market-mode="public"] .bitcoin-public-gauge > .market-restoration-comparisons,
+.market-page[data-market-mode="public"] .bitcoin-public-details { grid-column: 1 / -1; }
+.market-page[data-market-mode="public"] .bitcoin-public-gauge > header { width: 100%; }
+/* The source label occupies the status line; attribution remains directly below it. */
+.market-page[data-market-mode="public"] .bitcoin-public-reading > a { grid-column: 1 / -1; grid-row: 4; justify-self: center; font-size: 12px; }
+.market-page[data-market-mode="public"] .bitcoin-public-classification { grid-column: 1 / -1; grid-row: 3; justify-self: center; margin-top: -2px; min-height: 22px; line-height: 22px; font-size: 14px; font-weight: 600; color: var(--bright, #e5e7eb); }
+.market-page[data-market-mode="public"] .bitcoin-public-details > summary { padding-block: 4px; font-size: 13px; }
+@container public-market (max-width: 600px) {
+ .market-page[data-market-mode="public"] .bitcoin-public-gauge { column-gap: 12px; }
+}
