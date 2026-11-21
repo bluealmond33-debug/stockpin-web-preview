@@ -1,0 +1,54 @@
+.connection-resolution {
+  margin: 24px 0;
+  border-top: 1px solid var(--border-subtle);
+}
+.connection-resolution > summary {
+  cursor: pointer;
+  min-height: 44px;
+  padding: 12px 0;
+  color: var(--text);
+}
+.connection-resolution > section {
+  padding: 0 0 16px;
+  max-width: 760px;
+}
+.connection-resolution p,
+.connection-resolution li,
+.connection-resolution dd {
+  font-size: 14px;
+  line-height: 1.7;
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}
+.connection-resolution p {
+  margin: 12px 0;
+}
+.connection-resolution ol {
+  padding-left: 24px;
+}
+.connection-resolution li {
+  padding: 4px 0 4px 4px;
+}
+.connection-resolution-case + .connection-resolution-case,
+.connection-resolution-ip {
+  border-top: 1px solid var(--border-subtle);
+  margin-top: 20px;
+  padding-top: 4px;
+}
+.connection-resolution-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 24px;
+  margin: 16px 0;
+}
+.connection-resolution-links a {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.connection-resolution :is(summary, a, button):focus-visible {
+  outline: 2px solid var(--green);
+  outline-offset: 4px;
+}

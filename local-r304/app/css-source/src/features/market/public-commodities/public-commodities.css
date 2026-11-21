@@ -1,0 +1,7 @@
+.public-commodity-row { margin: 12px 0 0; }
+.public-commodity-row > div { display: flex; align-items: center; flex-wrap: wrap; gap: 12px 28px; padding: 12px 0; border-bottom: 1px solid var(--border); }
+.public-commodity-row dt { flex: 1 1 180px; }
+.public-commodity-row dt span { display: block; margin-top: 4px; font-size: .85em; color: var(--text-secondary); }
+.public-commodity-row dd { margin: 0; font-variant-numeric: tabular-nums; }
+.public-commodity-row strong { font-size: 1.3em; font-weight: 600; }
+.public-commodity-caption { font-size: .85em; color: var(--text-secondary); }
