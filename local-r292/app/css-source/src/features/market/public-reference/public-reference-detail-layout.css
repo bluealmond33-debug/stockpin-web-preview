@@ -1,0 +1,44 @@
+.reference-rate-details .reference-detail-layout {
+  display: grid;
+  grid-template-columns: minmax(180px, 1fr) minmax(0, 2.4fr);
+  gap: 24px;
+  align-items: start;
+  margin-top: 20px;
+}
+.reference-detail-layout > .reference-rate-averages,
+.reference-detail-layout > .reference-detail-trend { min-width: 0; }
+.reference-rate-details .reference-detail-layout > .reference-rate-averages {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.6;
+}
+.reference-rate-details .reference-detail-layout .reference-rate-averages > dl {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 24px;
+  margin: 0 0 12px;
+}
+.reference-rate-details .reference-detail-layout .reference-rate-averages dt { font-weight: 600; }
+.reference-rate-details .reference-detail-layout .reference-rate-averages dd {
+  margin: 6px 0 0;
+  overflow-wrap: anywhere;
+}
+.reference-rate-details .reference-detail-layout .reference-rate-averages strong,
+.reference-detail-layout .reference-detail-change strong {
+  display: block;
+  font-size: 22px;
+  line-height: 1.4;
+  font-variant-numeric: tabular-nums;
+}
+.reference-detail-layout .reference-detail-change { margin: 12px 0; font-size: 13px; }
+.reference-detail-layout .reference-rate-detail-chart { width: 100%; }
+@media (max-width: 680px) {
+  .reference-rate-details .reference-detail-layout { grid-template-columns: minmax(0, 1fr); }
+}
+
+.reference-rate-details .reference-average-meta > span { display: block; white-space: nowrap; }
+
+.reference-rate-details > header{position:sticky;top:0;z-index:5;background:var(--bg);padding-top:4px;padding-bottom:18px;gap:24px}
+.reference-rate-details > header button{display:grid;place-items:center;width:32px;height:32px;padding:6px;border:0;background:none;color:var(--muted);flex:none}
+.reference-rate-details .reference-detail-layout .reference-rate-averages dt{display:flex;align-items:center;gap:8px;font-weight:400}
+

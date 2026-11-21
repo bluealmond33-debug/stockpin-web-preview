@@ -1,0 +1,28 @@
+.public-treasury-curve { container: treasury-curve / inline-size; }
+.treasury-curve-quote { position:relative; padding-right:30px; }
+.treasury-curve-interest { position:absolute; right:0; top:50%; transform:translateY(-50%); display:inline-flex; align-items:center; justify-content:center; padding:5px; border:0; background:transparent; color:var(--muted,#aaa); cursor:pointer; }
+.treasury-curve-interest[aria-pressed="true"] { color:var(--accent,#e9d19b); }
+.treasury-curve-interest[aria-pressed="true"] svg { fill:currentColor; }
+.treasury-curve-interest:focus-visible { outline:2px solid var(--accent,#e9d19b); outline-offset:2px; border-radius:4px; }
+.public-treasury-curve-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); max-width: 824px; gap: 0 24px; margin: 8px 0 0; }
+.public-treasury-curve-list > div { display: grid; grid-template-columns: minmax(0,1fr) 96px minmax(90px,auto); max-width: 400px; min-width: 0; gap: 12px; align-items: center; padding: 16px 0; }
+.public-treasury-curve-list dt { font-size: 15px; }
+.public-treasury-curve-list dd { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; margin: 0; font-variant-numeric: tabular-nums; }
+.treasury-curve-value { color: var(--bright,#eee); font-size: 22px; font-weight: 600; }
+.treasury-curve-change { color: var(--muted,#aaa); font-size: 13px; }
+.treasury-curve-change[data-direction="up"] { color: var(--up,#ef625b); }
+.treasury-curve-change[data-direction="down"] { color: var(--down,#578be0); }
+
+.public-treasury-curve-list .treasury-curve-trend { width: 96px; display: block; color: var(--muted,#aaa); font-size: 11px; }
+.treasury-curve-trend svg { display: block; width: 96px; height: 32px; overflow: visible; }
+.treasury-curve-trend polyline { fill: none; stroke: currentColor; stroke-width: 1.6; }
+.treasury-curve-trend circle { fill: currentColor; }
+.treasury-curve-trend[data-direction="up"] { color: var(--up,#ef625b); }
+.treasury-curve-trend[data-direction="down"] { color: var(--down,#578be0); }
+@container treasury-curve (max-width: 400px){.public-treasury-curve-list > div { grid-template-columns: minmax(0,1fr) 72px minmax(80px,auto); gap: 8px; }.public-treasury-curve-list .treasury-curve-trend,.treasury-curve-trend svg { width: 72px; }}
+
+.public-treasury-curve > header { max-width:824px; }
+.treasury-live-actions { display:flex; align-items:center; gap:10px; margin-left:auto; font-size:12px; color:var(--muted,#aaa); }
+.treasury-live-actions > button { display:inline-flex; align-items:center; justify-content:center; width:28px; height:28px; padding:0; border:0; background:transparent; color:inherit; }
+.treasury-live-actions > .single-choice { width:74px; flex:none; }
+.treasury-live-actions [role=status] { font-size:12px; }
