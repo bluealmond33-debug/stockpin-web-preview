@@ -1,0 +1,28 @@
+/* Reuse the ordinary journal controls; no separate boxed writer surface. */
+.journal-surface.manual-journal-draft .manual-editor-content .manual-draft-fields input:focus-visible {
+  outline: none;
+  box-shadow: none;
+  border-bottom: 1px solid var(--muted, #999);
+  border-radius: 0;
+}
+.journal-surface.manual-journal-draft .journal-icon-action:focus-visible {
+  outline: 1px solid var(--text, #e8e8e8);
+  outline-offset: 3px;
+}
+.linked-journal-editor .manual-save-actions [hidden] { display: none; }
+.linked-journal-editor .linked-writing-actions { align-items: center; }
+/* Plain reader stays on the same continuous writing surface. */
+.linked-journal-editor .writing-saved-text { min-width: 0; overflow-wrap: anywhere; }
+.linked-journal-editor .writing-saved-text > h2 {
+  font-family: var(--title-font);
+  font-size: clamp(24px, 5vw, 32px);
+  font-weight: 650;
+  line-height: 1.4;
+  letter-spacing: -.025em;
+  margin: 16px 0 10px;
+}
+.linked-journal-editor .writing-saved-text > h2:focus-visible {
+  outline: 1px solid var(--muted, #999);
+  outline-offset: 4px;
+}
+.linked-journal-editor .writing-saved-text .writing-read-view { margin: 0; }

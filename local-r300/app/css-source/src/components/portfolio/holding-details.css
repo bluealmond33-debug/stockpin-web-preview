@@ -1,0 +1,34 @@
+.instrument .holding-detail-trigger { display: block; padding: 0; border: 0; background: transparent; color: inherit; font: inherit; text-align: left; cursor: pointer; }
+.holding-detail-trigger:is(:hover, :focus-visible) { text-decoration: underline; text-underline-offset: 4px; }
+.holding-detail-trigger:focus-visible, .holding-details button:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
+.holding-details-backdrop { position: fixed; inset: 0; z-index: 1000; display: grid; place-items: center; padding: 20px; background: rgb(0 0 0 / 55%); }
+.holding-details { width: min(480px, 100%); max-height: calc(100dvh - 40px); overflow: auto; box-sizing: border-box; padding: 24px; color: var(--text); background: var(--bg); }
+.holding-details header { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.holding-details h2 { margin: 0; font-size: 20px; }
+.holding-details button { border: 0; background: transparent; color: inherit; font: inherit; padding: 8px 4px; cursor: pointer; }
+.holding-details dl { margin: 20px 0 0; display: flex; flex-direction: column; }
+.holding-details dl > div { display: grid; grid-template-columns: minmax(0, 90px) minmax(0, 1fr); gap: 16px; padding: 8px 0; min-width: 0; }
+.holding-details dt { color: var(--muted); overflow-wrap: anywhere; }
+.holding-details dd { margin: 0; text-align: right; overflow-wrap: anywhere; font-variant-numeric: tabular-nums; }
+.holding-details .holding-name { grid-template-columns: minmax(0, 1fr); gap: 4px; }
+.holding-details .holding-name dd { text-align: left; font-size: 20px; font-weight: 600; }
+.holding-details .holding-name dt { font-size: 12px; }
+.holding-details .holding-summary-value { grid-template-columns: minmax(0, 1fr); gap: 6px; padding-top: 20px; }
+.holding-details .holding-summary-value dd { font-size: 28px; font-weight: 600; text-align: left; }
+.holding-details .holding-summary-pnl { grid-template-columns: minmax(0, 1fr); gap: 4px; padding-bottom: 24px; }
+.holding-details .holding-summary-pnl dd { text-align: left; font-size: 18px; }
+.holding-details .holding-size { padding-top: 12px; }
+.holding-details .holding-metadata { font-size: 13px; }
+.holding-details .holding-additional { margin-top: 20px; font-size: 13px; }
+.holding-details summary { cursor: pointer; color: var(--muted); }
+.holding-details summary:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
+.holding-details.company-instrument-details { width: min(960px, 100%); }
+.company-instrument-details > header > h2 { position:absolute; width:1px; height:1px; padding:0; overflow:hidden; clip-path:inset(50%); white-space:nowrap; }
+.company-instrument-details > header > button { margin-left:auto; }
+@media (max-width: 400px) {
+  .holding-details-backdrop { padding: 12px; }
+  .holding-details { padding: 16px; max-height: calc(100dvh - 24px); }
+  .holding-details header { gap: 8px; }
+  .holding-details h2 { font-size: 18px; }
+  .holding-details dl > div { column-gap: 10px; }
+}
