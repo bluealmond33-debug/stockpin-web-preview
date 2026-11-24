@@ -3,7 +3,7 @@ export function limits(viewport,captionReserve=64){
  const width=Math.max(0,viewport.width),height=Math.max(0,viewport.height);
  const left=Math.min(12,width/2),top=Math.min(12,height/2);
  const right=Math.max(left,width-left),bottom=Math.max(top,height-Math.min(captionReserve,height-top));
- return {left,top,right,bottom,minWidth:Math.min(720,right-left),minHeight:Math.min(420,bottom-top)};
+ return {left,top,right,bottom,minWidth:Math.min(720,right-left),minHeight:Math.min(240,bottom-top)};
 }
 export function clampRect(rect,viewport,reserve=64){
  const b=limits(viewport,reserve);
@@ -27,4 +27,8 @@ export function resizeRect(rect,direction,dx,dy,viewport,reserve=64){
  if(direction.includes('n'))top=bound(top+dy,b.top,bottom-b.minHeight);
  if(direction.includes('s'))bottom=bound(bottom+dy,top+b.minHeight,b.bottom);
  return {x:left,y:top,width:right-left,height:bottom-top};
+}
+
+export function centerRect(rect,viewport,reserve=64){
+ return clampRect({...rect,x:(viewport.width-rect.width)/2,y:(viewport.height-rect.height)/2},viewport,reserve);
 }

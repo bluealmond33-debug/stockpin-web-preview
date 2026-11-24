@@ -20,7 +20,13 @@ html,body{width:100%;height:100%;overflow:hidden}
 .desktop-resize-ne,.desktop-resize-nw,.desktop-resize-se,.desktop-resize-sw{width:14px;height:14px;z-index:6}
 .desktop-resize-ne{top:-5px;right:-5px;cursor:nesw-resize}.desktop-resize-nw{top:-5px;left:-5px;cursor:nwse-resize}
 .desktop-resize-se{bottom:-5px;right:-5px;cursor:nwse-resize}.desktop-resize-sw{bottom:-5px;left:-5px;cursor:nesw-resize}
-.desktop-resize-se::after{content:"";position:absolute;inset:4px;border-right:1px solid #999;border-bottom:1px solid #999;border-radius:0 0 2px 0}
+/* Resize hit areas remain; no decorative white corner mark. */
 .desktop-pointer-shield{position:fixed;inset:0;z-index:10000;background:transparent;touch-action:none}
 .desktop-manipulating,.desktop-manipulating *{user-select:none!important}
 @media(max-width:700px){.preview-stage{padding:0;min-height:0}.preview-window{min-height:0;aspect-ratio:auto}.preview-caption{padding:0 4px}.desktop-drag-strip{left:86px;right:28px}}
+
+/* Direct resize dimensions; animate only placement after release. */
+.preview-window,.preview-caption{transition:none}
+@media(prefers-reduced-motion:no-preference){
+ .desktop-settling .preview-window,.desktop-settling .preview-caption{transition:left 280ms cubic-bezier(.2,.8,.2,1),top 280ms cubic-bezier(.2,.8,.2,1)}
+}

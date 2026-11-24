@@ -1,7 +1,7 @@
 import { n as __esmMin, r as __toESM, t as __commonJSMin } from "./rolldown-runtime-CnFjIZqj.js";
 import { n as require_react, t as require_jsx_runtime } from "./jsx-runtime-D-QAa1jW.js";
 import { t as require_react_dom } from "./react-dom-Ci3FjRz5.js";
-import { n as init_ThemeControl, r as initializeTheme } from "./ThemeControl-BKErJGq8.js";
+import { n as init_ThemeControl, r as initializeTheme } from "./ThemeControl-DDJ_MpzM.js";
 /**
 * @license React
 * scheduler.production.js
@@ -10848,7 +10848,7 @@ function init_styles() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/styles.css?v=source-build-r50020";
+			l.href = "/local/app/css-source/src/styles.css?v=source-build-r50058";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -10918,21 +10918,21 @@ function init_web_entry() {
 		};
 		navigator.sendBeacon = () => false;
 		initializeTheme();
-		({default: App} = await import("./App-BWWTa39d.js"));
-		({InstrumentDetails} = await import("./InstrumentDetails-COLe21X9.js"));
-		({createDemoSnapshot} = await import("./portfolio-DEjl5HwT.js"));
-		({createPortfolioWidgetDemo} = await import("./portfolioWidgetPresentation-Odhw_zJk.js"));
-		({createWebPortfolio, WEB_DEMO_FX, WEB_DEMO_ACCOUNT_ALIAS_IDS, WEB_DEMO_ACCOUNT_LABELS} = await import("./portfolio-Drmj_t7t.js"));
-		({createJournalCommand, createMemoryRepository} = await import("./journal-BwMmp6Ds.js"));
-		({createInitializedBrowserJournal} = await import("./initialize-on-open-C3yNL8ra.js"));
-		({validateState: validateJournalState} = await import("./state-B4mhqoP0.js"));
-		({readManualResponse} = await import("./manualPersistence-rZc2lXRo.js"));
-		({createBackupSchema} = await import("./backup-codec-DY8AyrSy.js"));
-		({createDisplayPreferences} = await import("./display-preferences-Cwj3j58T.js"));
-		({createBrowserBackupCommand} = await import("./backup-DsxTJ0ge.js"));
-		({createBrowserFileTransport} = await import("./transport-CwyTOx_G.js"));
-		({WebDemoConnections} = await import("./WebDemoConnections-BgvPYbbI.js"));
-		({createDemoAliasStore, createWebDemoConnectionsStore} = await import("./WebDemoConnectionsState-Xi8SQP99.js"));
+		({default: App} = await import("./App-Bl8hr3Xe.js"));
+		({InstrumentDetails} = await import("./InstrumentDetails-BbmM4fnx.js"));
+		({createDemoSnapshot} = await import("./portfolio-B3R-J1Nw.js"));
+		({createPortfolioWidgetDemo} = await import("./portfolioWidgetPresentation-DeendpBn.js"));
+		({createWebPortfolio, WEB_DEMO_FX, WEB_DEMO_ACCOUNT_ALIAS_IDS, WEB_DEMO_ACCOUNT_LABELS} = await import("./portfolio-DjTM8umv.js"));
+		({createJournalCommand, createMemoryRepository} = await import("./journal-tP67z3RY.js"));
+		({createInitializedBrowserJournal} = await import("./initialize-on-open-Bu0u-99w.js"));
+		({validateState: validateJournalState} = await import("./state-DjCUfld6.js"));
+		({readManualResponse} = await import("./manualPersistence-DT1fkXHQ.js"));
+		({createBackupSchema} = await import("./backup-codec-ClPixqbw.js"));
+		({createDisplayPreferences} = await import("./display-preferences-WRLGSaNF.js"));
+		({createBrowserBackupCommand} = await import("./backup-duLTZp2s.js"));
+		({createBrowserFileTransport} = await import("./transport-Cdgnq9Pj.js"));
+		({WebDemoConnections} = await import("./WebDemoConnections-BjGYtB1m.js"));
+		({createDemoAliasStore, createWebDemoConnectionsStore} = await import("./WebDemoConnectionsState-DBWi4EKQ.js"));
 		connectionAliasStore = (() => {
 			try {
 				return createDemoAliasStore(window.localStorage);
@@ -10957,18 +10957,18 @@ function init_web_entry() {
 			if (typeof label !== "string" || !label) throw Error("Missing demo account presentation");
 			return [aliasId, label];
 		}));
-		({WebDemoTradeNotice} = await import("./WebDemoTradeNotice-BJYAbj4n.js"));
-		({PublicReferenceMarket, loadCapturedCurrentReference} = await import("./public-reference-CH4AIplv.js"));
-		({WebBitcoinGauge} = await import("./WebBitcoinGauge-D72w-EKK.js"));
-		({VixSnapshotGauge} = await import("./VixSnapshotGauge-Czq8k8RJ.js"));
-		({CnnArchiveGauge} = await import("./CnnArchiveGauge-Byv3yM7L.js"));
-		({PersonalIndexSnapshots} = await import("./PersonalIndexSnapshots-BxP0EK5q.js"));
+		({WebDemoTradeNotice} = await import("./WebDemoTradeNotice-DgakStP8.js"));
+		({PublicReferenceMarket, loadCapturedCurrentReference} = await import("./public-reference-B4clFXYp.js"));
+		({WebBitcoinGauge} = await import("./WebBitcoinGauge-DfwKdGvq.js"));
+		({VixSnapshotGauge} = await import("./VixSnapshotGauge-Ct81KKAR.js"));
+		({CnnArchiveGauge} = await import("./CnnArchiveGauge-OuVViM7E.js"));
+		({PersonalIndexSnapshots} = await import("./PersonalIndexSnapshots-DPUL-uld.js"));
 		currentPublicReference = null;
 		try {
 			currentPublicReference = await loadCapturedCurrentReference();
 		} catch {}
-		({PublicMarketWidget} = await import("./PublicMarketWidget-0MunZ2d6.js"));
-		({PublicHeatmapExplorer} = await import("./PublicHeatmapExplorer-2vuK6Glk.js"));
+		({PublicMarketWidget} = await import("./PublicMarketWidget-YNcTP2Mc.js"));
+		({PublicHeatmapExplorer} = await import("./PublicHeatmapExplorer-wj4og_OZ.js"));
 		repository = createMemoryRepository();
 		storage = createInitializedBrowserJournal(createJournalCommand({ repository }));
 		displayPreferences = createDisplayPreferences((() => {
@@ -11052,7 +11052,7 @@ function init_web_entry() {
 				onAccountAliasesChange: onAliasesChange
 			})
 		});
-		({BrandDisplayProvider} = await import("./BrandDisplayContext-C-_QaKtS.js"));
+		({BrandDisplayProvider} = await import("./BrandDisplayContext-DhqwoI30.js"));
 		(0, import_client.createRoot)(document.getElementById("root")).render(/* @__PURE__ */ (0, import_jsx_runtime.jsx)(import_react.StrictMode, { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(BrandDisplayProvider, {
 			mode: document.documentElement.dataset.brandDisplay === "text-only" ? "text-only" : "original",
 			children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(App, { preview })

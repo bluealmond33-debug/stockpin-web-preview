@@ -1,5 +1,5 @@
 import {transition} from './shell.mjs';
-import {initialRect,clampRect,expandedRect,moveRect,resizeRect} from './geometry.mjs';
+import {initialRect,clampRect,expandedRect,moveRect,resizeRect,centerRect} from './geometry.mjs';
 const frame=document.querySelector('.preview-window');
 frame.dataset.desktopEngine='20b';
 const restore=document.querySelector('.preview-restore');
@@ -7,7 +7,8 @@ const expand=document.querySelector('[data-action="expand"]');
 const caption=document.querySelector('.preview-caption');
 const viewport=()=>({width:document.documentElement.clientWidth,height:window.innerHeight});
 let state='open', normal=initialRect(viewport()), rect=normal, gesture=null;
-let reserve=64;
+let reserve=64, settleTimer;
+function stopSettling(){ clearTimeout(settleTimer); document.body.classList.remove("desktop-settling"); }
 // Only shell siblings are added. The existing iframe and its document stay untouched.
 const strip=document.createElement('button');
 strip.type='button';strip.className='desktop-drag-strip';
@@ -47,10 +48,15 @@ function finish(cancel=false){
  if(cancel)normal=clampRect(old.rect,viewport(),reserve);
  try{if(old.target.hasPointerCapture(old.id))old.target.releasePointerCapture(old.id);}catch{}
  shield.hidden=true;document.body.classList.remove('desktop-manipulating');
+ if(!cancel&&old.direction){
+  normal=centerRect(normal,viewport(),reserve);
+  document.body.classList.add('desktop-settling');
+  settleTimer=setTimeout(stopSettling,320);
+ }
  paint();
 }
 function action(name,button){
- finish();state=transition(state,name);paint();
+ finish();stopSettling();state=transition(state,name);paint();
  if(frame.hidden)restore.querySelector('button').focus();
  else if(name==='restore')expand.focus();
  else if(button&&button.hidden)expand.focus();
@@ -64,6 +70,7 @@ strip.addEventListener('dblclick',()=>action('expand'));
 function start(event,direction){
  if(event.button!==0||!event.isPrimary||state!=='open'||gesture)return;
  event.preventDefault();
+ if(document.body.classList.contains("desktop-settling")){ const shown=frame.getBoundingClientRect(); normal=clampRect({x:shown.left,y:shown.top,width:shown.width,height:shown.height},viewport(),reserve);stopSettling();paint(); }
  const target=event.currentTarget;
  gesture={id:event.pointerId,target,direction,x:event.clientX,y:event.clientY,rect:{...normal}};
  try{target.setPointerCapture(event.pointerId);}catch{gesture=null;return;}
