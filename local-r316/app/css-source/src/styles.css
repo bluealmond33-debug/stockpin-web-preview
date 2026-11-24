@@ -37,6 +37,10 @@ input:focus-visible,
 .saved-connections > h2:focus {
   outline: 2px solid var(--green);
 }
+/* Programmatic heading focus announces context; it is not an editable region. */
+:is(h1,h2,h3,h4,h5,h6)[tabindex="-1"]:focus {
+  outline: none;
+}
 button {
   cursor: pointer;
   border: 0;
