@@ -30,3 +30,8 @@ html,body{width:100%;height:100%;overflow:hidden}
 @media(prefers-reduced-motion:no-preference){
  .desktop-settling .preview-window,.desktop-settling .preview-caption{transition:left 280ms cubic-bezier(.2,.8,.2,1),top 280ms cubic-bezier(.2,.8,.2,1)}
 }
+
+/* Match window controls to the compact app chrome. */
+.preview-titlebar{height:44px}
+.preview-window,.preview-window iframe{background:#0d0d0d}
+.preview-caption{color:#aaa}
