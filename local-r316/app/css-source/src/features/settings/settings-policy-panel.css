@@ -1,0 +1,6 @@
+.settings-policy-panel { margin-top: var(--space-3); border-top: var(--hairline-width) solid var(--hairline-color); }
+.settings-policy-toggle { display: flex; align-items: center; justify-content: space-between; gap: var(--space-3); width: 100%; min-height: 44px; padding: var(--space-2) 0; border: 0; background: transparent; color: var(--text); font: inherit; text-align: left; cursor: pointer; }
+.settings-policy-action { flex: 0 0 auto; color: var(--green); }
+.settings-policy-toggle:focus-visible { outline: 1px solid var(--green); outline-offset: 2px; }
+.settings-policy-content[hidden] { display: none; }
+.settings-policy-content p { margin: var(--space-2) 0; color: var(--muted); font-size: 13px; line-height: 1.6; }

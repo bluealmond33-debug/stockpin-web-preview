@@ -1,0 +1,2 @@
+/* Shared static palette is illustrative, not CNN classification boundaries. */
+.public-market-overview [data-source="cnn-public-archive-snapshot"] .sentiment-dial-state:empty { display: none; }

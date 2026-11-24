@@ -118,7 +118,7 @@ select {
   left: 12px;
   right: 12px;
   bottom: 0;
-  border-bottom: 1px solid var(--border-subtle);
+  border-bottom: var(--hairline-width) solid var(--hairline-color);
   pointer-events: none;
 }
 .policy-details {
@@ -153,7 +153,7 @@ select {
 .sidebar {
   width: 200px;
   flex-shrink: 0;
-  border-right: 1px solid var(--border);
+  border-right: var(--hairline-width) solid var(--hairline-color);
   padding: 32px 16px 24px;
   position: fixed;
   inset: 0 auto 0 0;
@@ -298,13 +298,58 @@ select {
 main {
   --page-inline-gutter: var(--space-8);
   padding: 24px var(--page-inline-gutter) 0;
-  max-width: 1320px;
+  max-width: calc(var(--workspace-body-width, 1200px) + 2 * var(--page-inline-gutter));
   margin: auto;
   scroll-margin-top: calc(var(--window-toolbar-height) + 8px);
 }
 main.settings-page {
   max-width: calc(720px + 2 * var(--page-inline-gutter));
 }
+/* 1484: one spacing language, widths appropriate to the content's role.
+   Own the outer gutter once; children retain their existing internal spacing. */
+.workspace > :is(main[data-page], .workspace-breadcrumbs) {
+  --page-inline-gutter: clamp(var(--space-4), 3vw, var(--space-8));
+  --workspace-body-width: 960px;
+  width: 100%;
+  min-width: 0;
+  max-width: calc(var(--workspace-body-width) + 2 * var(--page-inline-gutter));
+  margin-inline: auto;
+}
+.workspace > main[data-page] { padding-inline: var(--page-inline-gutter); }
+.workspace > main:is([data-page="overview"], [data-page="holdings"], [data-page="market"]) {
+  --page-inline-gutter: clamp(var(--space-3), 2vw, var(--space-6));
+  --workspace-body-width: 1440px;
+}
+.workspace > .workspace-breadcrumbs {
+  padding-inline: max(0px, calc(var(--page-inline-gutter) - var(--space-1)));
+}
+/* Saved-reader only: match its centered prose box and symmetric tool gutters.
+   The first breadcrumb button contributes --space-1 of text inset itself. */
+.workspace:has(> main[data-page="journal"] .journal-workspace-reading[aria-label="저장된 기록 읽기"]) > .workspace-breadcrumbs {
+  max-width: min(
+    calc(var(--workspace-body-width) + 2 * var(--page-inline-gutter)),
+    calc(var(--journal-prose-width, 864px) + 112px + 2 * var(--page-inline-gutter))
+  );
+  padding-inline: max(0px, calc(var(--page-inline-gutter) + 56px - var(--space-1)));
+}
+
+/* ManualDraft has one existing left tool inset, unlike the symmetric saved
+   workspace reader. Bind its active, non-retained writer/content hooks only. */
+.workspace:has(> main:is([data-page="compose"], [data-page="journal"]) > .workspace-writer:not([hidden]):not([inert]) > .manual-journal-draft:not(.manual-calendar-browsing) > .manual-editor-content:not([hidden])) > .workspace-breadcrumbs {
+  max-width: min(
+    calc(var(--workspace-body-width) + 2 * var(--page-inline-gutter)),
+    calc(var(--journal-prose-width, 864px) + 56px + 2 * var(--page-inline-gutter))
+  );
+  padding-inline: max(0px, calc(var(--page-inline-gutter) + 56px - var(--space-1)));
+}
+
+/* Overview composition: one symmetric outer gutter for content and breadcrumb. */
+.workspace > main[data-page="overview"],
+.workspace:has(> main[data-page="overview"]) > .workspace-breadcrumbs {
+  --workspace-body-width: 1080px;
+  --page-inline-gutter: clamp(24px, 3vw, 48px);
+}
+
 .page-title {
   display: flex;
   align-items: center;
@@ -611,7 +656,7 @@ main.settings-page {
   flex-direction: column;
   gap: 8px;
   padding-bottom: 16px;
-  border-right: 1px solid var(--border);
+  border-right: var(--hairline-width) solid var(--hairline-color);
 }
 .metrics-row > div:last-child {
   border: 0;
@@ -686,7 +731,7 @@ th {
 td {
   padding: 8px 16px;
   height: 64px;
-  border-bottom: 1px solid var(--border-subtle);
+  border-bottom: var(--hairline-width) solid var(--hairline-color);
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
@@ -1963,7 +2008,7 @@ button:focus-visible > .icon-tooltip {
 }
 .brand-local {
   display: block;
-  margin-top: 4px;
+  margin-top: 2px;
   font-family: var(--title-font);
   font-size: 17px;
   color: var(--muted);
@@ -2016,8 +2061,8 @@ button:focus-visible > .icon-tooltip {
 .app-shell .nav-item.active {
   box-shadow: none;
   background: transparent;
-  color: var(--bright);
-  font-weight: 700;
+  color: var(--green);
+  font-weight: 400;
 }
 .app-shell .nav-item.active > .app-icon {
   color: var(--green);
@@ -2027,7 +2072,7 @@ button:focus-visible > .icon-tooltip {
   position: absolute;
   left: 12px;
   top: 14px;
-  width: 2px;
+  width: var(--hairline-strong-width);
   height: 20px;
   background: var(--green);
 }
@@ -2229,7 +2274,7 @@ button:focus-visible > .icon-tooltip {
   top: 0;
   bottom: 12px;
   right: 0;
-  border-right: 1px solid var(--border);
+  border-right: var(--hairline-width) solid var(--hairline-color);
   pointer-events: none;
 }
 .connections-mini {
@@ -2269,3 +2314,5 @@ button:focus-visible > .icon-tooltip {
 .summary-scope { margin:10px 0; color:var(--muted); font-size:14px; }
 
 .instrument .instrument-icon .stock-type-label {font-size:10px;font-weight:700;line-height:1;letter-spacing:-0.2px;color:var(--text);}
+
+.app-shell .nav-item.active:is(:hover, :focus-visible) { color:var(--green); font-weight:400; }

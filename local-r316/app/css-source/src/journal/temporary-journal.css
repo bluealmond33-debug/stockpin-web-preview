@@ -24,3 +24,4 @@
 .temporary-archive-entries{max-height:220px;overflow:auto}.temporary-archive-entries ul{list-style:none;padding:0;margin:8px 0}.temporary-archive-entries li button{display:flex;align-items:center;justify-content:space-between;gap:16px;width:100%;min-height:44px;text-align:left}.temporary-archive-entries li span{overflow-wrap:anywhere}.temporary-archive-entries small{white-space:nowrap;color:var(--muted)}
 
 .writing-resume-offer{display:flex;flex-wrap:wrap;align-items:center;gap:12px;font-size:13px}.writing-resume-offer>span{color:var(--muted);overflow-wrap:anywhere}.writing-resume-offer button{min-height:40px;white-space:nowrap}
+.journal-surface .journal-leave-actions button.journal-primary-action { color:var(--green); border:0; background:transparent; }

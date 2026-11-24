@@ -37,7 +37,7 @@
   font-display: swap;
 }
 :root {
-  --window-toolbar-height: 56px;
+  --window-toolbar-height: 48px;
   --window-traffic-space: 96px;
   color-scheme: dark;
   --bg: #111111;
@@ -65,6 +65,11 @@
   --space-4: 16px;
   --space-6: 24px;
   --space-8: 32px;
+  --workspace-body-width: 1200px;
+  --journal-prose-width: 864px;
+  --hairline-width: 1px;
+  --hairline-strong-width: 2px;
+  --hairline-color: var(--border);
 }
 
 :root[data-theme="light"] {

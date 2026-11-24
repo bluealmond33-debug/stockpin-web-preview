@@ -1,0 +1,12 @@
+.writing-read-view .writing-callout,.writing-editor .writing-block-callout[data-callout-kind] { position:relative; box-sizing:border-box; margin:8px 0; padding:6px 14px 6px 38px; border:0; border-radius:4px; color:var(--text); background:var(--callout-bg, rgba(157,112,230,.24)); line-height:1.6; white-space:pre-wrap; overflow-wrap:anywhere; }
+[data-callout-kind=info] { --callout-bg:rgba(68,143,255,.24); }
+[data-callout-kind=note] { --callout-bg:rgba(157,112,230,.24); }
+[data-callout-kind=success] { --callout-bg:rgba(51,190,113,.22); }
+[data-callout-kind=warning] { --callout-bg:rgba(246,190,66,.22); }
+[data-callout-kind=error] { --callout-bg:rgba(240,94,113,.22); }
+.writing-callout-icon { position:absolute; left:13px; top:6px; line-height:1.6; font-size:16px; pointer-events:none; user-select:none; }
+.writing-editor .writing-block-callout[data-callout-kind] textarea { background:transparent; color:inherit; line-height:1.6; }
+.writing-callout-types { display:flex; flex-wrap:wrap; gap:4px; padding:8px 0; border-bottom:1px solid var(--border); margin-bottom:6px; }
+.writing-callout-types>span { flex-basis:100%; color:var(--muted); font-size:12px; margin-bottom:4px; }
+.writing-callout-types button { display:inline-flex; align-items:center; justify-content:center; gap:5px; flex:1 1 30%; font-size:12px; padding:6px; min-height:34px; border:0; background:transparent; color:var(--text); }
+.writing-callout-types button[aria-pressed=true] { color:var(--green); background:var(--hover); }

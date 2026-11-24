@@ -20,6 +20,7 @@
 .holding-details .holding-size { padding-top: 12px; }
 .holding-details .holding-metadata { font-size: 13px; }
 .holding-details .holding-additional { margin-top: 20px; font-size: 13px; }
+.holding-details .holding-additional > h3 { margin:0 0 8px; font-size:13px; font-weight:500; color:var(--muted); }
 .holding-details summary { cursor: pointer; color: var(--muted); }
 .holding-details summary:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
 .holding-details.company-instrument-details { width: min(960px, 100%); }

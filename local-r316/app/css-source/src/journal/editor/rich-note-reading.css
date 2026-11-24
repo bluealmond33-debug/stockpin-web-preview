@@ -1,0 +1,77 @@
+/* Reuse the existing journal reading hierarchy in every rich-note host.
+   This component scope does not own workspace actions, storage or the app theme. */
+.journal-surface :is(.journal-rich-read-view,.writing-saved-text) > h2 {
+  font-family:var(--title-font);
+  font-size:36px;
+  font-weight:650;
+  line-height:1.3;
+  letter-spacing:-.025em;
+  margin:24px 0 12px;
+  overflow-wrap:anywhere;
+}
+.journal-surface :is(.journal-rich-read-view,.writing-saved-text) > .journal-note-metadata {
+  display:flex;
+  align-items:center;
+  flex-wrap:wrap;
+  gap:4px 16px;
+  min-height:36px;
+  margin:0 0 24px;
+  font-size:12px;
+  line-height:20px;
+  color:var(--muted);
+}
+.journal-surface :is(.journal-rich-read-view,.writing-saved-text) .writing-read-view {
+  white-space:pre-wrap;
+  line-height:1.8;
+}
+.journal-surface :is(.journal-rich-read-view,.writing-saved-text) .rich-document-layout > .writing-read-view {
+  margin:0 0 24px;
+}
+.journal-surface :is(.journal-rich-read-view,.writing-saved-text) .writing-read-view p { margin:0 0 12px; }
+.journal-surface :is(.journal-rich-read-view,.writing-saved-text) > .journal-note-metadata time { font-size:inherit; }
+.journal-surface :is(.journal-rich-read-view,.writing-saved-text) .writing-read-view h2 { font-size:24px; }
+.journal-surface :is(.journal-rich-read-view,.writing-saved-text) .writing-read-view h3 { font-size:21px; }
+.journal-surface :is(.journal-rich-read-view,.writing-saved-text) .writing-read-view h4 { font-size:18px; }
+.journal-surface :is(.journal-rich-read-view,.writing-saved-text) .writing-read-view ul { padding-left:24px; }
+.journal-surface :is(.journal-rich-read-view,.writing-saved-text) .writing-read-view blockquote { border-left:2px solid var(--border); padding-left:16px; }
+/* Match the writer's existing 56px block-tool gutter without applying editor
+   styles or changing the calendar/catalog. No storage or navigation owner. */
+.journal-surface.workspace-records.journal-workspace-reading[aria-label="저장된 기록 읽기"] {
+  box-sizing:border-box;
+  width:100%;
+  max-width:calc(var(--journal-prose-width,864px) + 112px);
+  padding-inline:56px;
+  font:inherit;
+  margin-inline:auto;
+  min-width:0;
+}
+.journal-workspace-reading > .journal-read-actions {
+  display:flex;
+  align-items:center;
+  justify-content:flex-end;
+  gap:12px;
+  min-height:40px;
+  padding:0;
+  margin:0 0 16px;
+  border:0;
+}
+.journal-read-actions > time { font-size:12px; line-height:20px; color:var(--muted); white-space:nowrap; }
+.journal-workspace-reading .journal-icon-action {
+  position:relative;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  flex:0 0 40px;
+  width:40px;
+  height:40px;
+  min-height:40px;
+  margin:0;
+  padding:8px;
+  border:0;
+  border-radius:0;
+  background:transparent;
+  text-decoration:none;
+  color:var(--text);
+  cursor:pointer;
+}
+

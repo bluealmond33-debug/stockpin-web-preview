@@ -129,9 +129,9 @@
   margin: auto;
   padding: 24px;
   overflow: auto;
-  color: var(--text-primary, #e0e0e0);
-  background: var(--bg-primary, #111);
-  border: 1px solid var(--border-color, #3a3a3a);
+  color: var(--text);
+  background: var(--bg);
+  border: 1px solid var(--green);
 }
 .journal-surface .journal-leave-dialog::backdrop {
   background: #0009;

@@ -10,7 +10,7 @@ th:not(:first-child) .table-sort { justify-content:flex-end; }
 .portfolio-info-dialog h2 { margin:0; font-size:20px; font-weight:500; }
 .portfolio-info-dialog p { line-height:1.6; color:var(--muted); }
 .portfolio-info-dialog a { color:var(--text); text-underline-offset:4px; }
-.allocation-modes{display:flex;justify-content:center;gap:16px;flex-wrap:wrap;margin:8px 0}
+.allocation-modes{display:flex;justify-content:center;gap:6px 10px;flex-wrap:wrap;margin:8px 0}
 .allocation-group-editor{padding:12px 0;min-width:0;border-block:1px solid var(--border)}
 .allocation-group-edit-row{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:8px 0}
 .allocation-group-editor input{min-width:0;max-width:100%;box-sizing:border-box;min-height:34px;border:1px solid var(--border);border-radius:7px;color:var(--text);background:var(--bg);font:inherit;font-size:13px;padding:6px 10px}

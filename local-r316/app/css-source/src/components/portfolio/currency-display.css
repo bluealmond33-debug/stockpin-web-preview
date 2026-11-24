@@ -3,10 +3,22 @@
 .original-summary h3 {font-size:13px;color:var(--text-secondary,#929292);font-weight:500;margin:0 0 8px;}
 .original-summary .total-value {font-size:28px;overflow-wrap:anywhere;}
 .original-summary .metrics-row {gap:12px;grid-template-columns:repeat(3,minmax(0,1fr));}
-.original-summary .metrics-row strong {font-size:14px;overflow-wrap:anywhere;}
-.portfolio-toolbar .currency-toggle {display:flex;gap:8px;}
-.portfolio-toolbar .currency-toggle button {min-width:44px;min-height:44px;border:0;background:none;color:var(--text-secondary,#929292);}
-.portfolio-toolbar .currency-toggle button[aria-pressed="true"] {color:var(--green,#2bbf4a);}
+.original-summary .metrics-row strong {font-size:14px;overflow-wrap:anywhere;white-space:normal;}
+/* Outline capsule / travelling text ink: selection never paints a filled thumb. */
+@property --portfolio-currency-ink {syntax:'<length>';inherits:true;initial-value:-60px;}
+.portfolio-toolbar .currency-toggle {--portfolio-currency-ink:-60px;display:inline-flex;flex:none;gap:0;padding:1px;border:1px solid var(--border);border-radius:999px;background:transparent;isolation:isolate;transition:--portfolio-currency-ink 260ms cubic-bezier(.22,.68,.18,1);}
+.portfolio-toolbar .currency-toggle:has(>button:first-child[aria-pressed="true"]) {--portfolio-currency-ink:0px;}
+.portfolio-toolbar .currency-toggle:has(>button:last-child[aria-pressed="true"]) {--portfolio-currency-ink:30px;}
+.portfolio-toolbar .currency-toggle >button {box-sizing:border-box;flex:0 0 30px;width:30px;min-width:30px;min-height:26px;margin:0;padding:0;border:0;border-radius:999px;background:transparent;color:var(--muted);font:inherit;font-size:14px;font-weight:400;cursor:pointer;}
+.portfolio-toolbar .currency-toggle >button[aria-pressed="true"] {color:var(--green);}
+.portfolio-toolbar .currency-toggle >button:focus-visible {outline:1px solid var(--green);outline-offset:3px;}
+@supports (background-clip:text) {
+ .portfolio-toolbar .currency-toggle >button,
+ .portfolio-toolbar .currency-toggle >button[aria-pressed="true"] {color:transparent;background-color:transparent;background-image:linear-gradient(90deg,var(--muted) calc(var(--portfolio-currency-ink) - 3px),var(--green) calc(var(--portfolio-currency-ink) + 3px),var(--green) calc(var(--portfolio-currency-ink) + 27px),var(--muted) calc(var(--portfolio-currency-ink) + 33px));background-size:60px 100%;background-position:0 0;background-repeat:no-repeat;background-clip:text;-webkit-background-clip:text;}
+ .portfolio-toolbar .currency-toggle >button:last-child {background-position:-30px 0;}
+}
+@media (prefers-reduced-motion:reduce) {.portfolio-toolbar .currency-toggle {transition:none;}}
+@media (forced-colors:active) {.portfolio-toolbar .currency-toggle >button {background:none;color:ButtonText;}.portfolio-toolbar .currency-toggle >button[aria-pressed="true"] {color:Highlight;outline:1px solid Highlight;}}
 .refresh-status,.fx-reference {font-size:12px;color:var(--text-secondary,#929292);}
 .portfolio-scope-details {font-size:12px;color:var(--text-secondary,#929292);margin:8px 0 16px;}
 .fx-reference summary,.portfolio-scope-details summary {cursor:pointer;}

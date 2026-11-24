@@ -1,5 +1,7 @@
 .account-scope-picker{position:relative;min-width:0}
-.account-scope-trigger{display:inline-flex;align-items:center;gap:8px;border:0;background:transparent;color:var(--text);padding:6px 0;font:inherit}
+.account-scope-trigger{display:inline-flex;align-items:center;gap:8px;border:0;border-radius:0;background:transparent;color:var(--text);padding:7px 0;font:inherit;font-size:13px;cursor:pointer}
+.account-scope-count{font-variant-numeric:tabular-nums;color:var(--green);font-size:12px}
+.account-scope-trigger .app-icon{color:var(--muted)}
 .account-scope-options{position:absolute;z-index:35;top:calc(100% + 4px);left:0;width:min(340px,calc(100vw - 96px));box-sizing:border-box;display:flex;flex-direction:column;gap:12px;margin:0;padding:16px;background:var(--bg);color:var(--text);border:1px solid var(--green);border-radius:6px}
 .account-scope-options legend{float:left;width:100%;font-size:13px;color:var(--muted);padding:0}
 .account-scope-options>button{align-self:flex-start;padding:0;background:transparent;border:0;color:var(--green);font-size:13px}

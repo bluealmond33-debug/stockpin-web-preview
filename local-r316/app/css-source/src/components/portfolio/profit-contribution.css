@@ -1,8 +1,9 @@
 .profit-contribution{margin:12px 0 16px}
 .profit-contribution .contribution-settings{margin-left:auto;max-width:210px;font-size:12px}
-.profit-contribution .contribution-settings summary{cursor:pointer;list-style:none;text-align:right;color:var(--muted);font-size:12px}
-.profit-contribution .contribution-settings summary::-webkit-details-marker{display:none}
-.profit-contribution .contribution-settings summary:focus-visible{outline:2px solid var(--interaction-emphasis);outline-offset:3px}
+.profit-contribution .contribution-settings-trigger{cursor:pointer;text-align:right;color:var(--muted);font:inherit;min-height:32px;padding:4px 0;border:0;background:transparent}
+.profit-contribution .contribution-settings-trigger[aria-expanded="true"]{color:var(--green)}
+.profit-contribution .contribution-settings-trigger:focus-visible{outline:2px solid var(--interaction-emphasis);outline-offset:3px}
+.profit-contribution .contribution-settings-panel[hidden]{display:none}
 .profit-contribution .contribution-settings-panel{display:grid;gap:8px;padding-top:10px}
 .profit-contribution .contribution-settings-panel [role="group"]{display:flex;gap:12px}
 .profit-contribution .contribution-settings-panel button{padding:3px 0;border:0;background:transparent;color:var(--muted);font-size:12px;cursor:pointer}

@@ -1,0 +1,16 @@
+/* Owned overview-only corrections; outrank the legacy -12px value offset. */
+.market-page[data-market-mode="public"] .public-market-overview .public-market-gauge .sentiment-dial__value { margin-top:12px; }
+.market-page[data-market-mode="public"] .public-market-overview .public-market-gauge .sentiment-dial-state { margin-top:0; }
+.market-page[data-market-mode="public"] .public-market-overview .bitcoin-public-gauge[data-supply-mode="web-auto"] { display:flex; flex-direction:column; gap:8px; }
+
+.public-market-overview .metric-history-help { display:contents; }
+.public-market-overview .sentiment-dial-state-row > .widget-metric-help { flex:none; }
+/* The text, not text plus i, owns the dial centre. */
+.market-page[data-market-mode="public"] .public-market-overview .sentiment-dial-state-row { --market-state-info-gap:8px; display:grid; grid-template-columns:1fr auto 1fr; align-items:center; column-gap:var(--market-state-info-gap); width:100%; }
+.market-page[data-market-mode="public"] .public-market-overview .sentiment-dial-state-row > .sentiment-dial-state { grid-column:2; justify-self:center; }
+.market-page[data-market-mode="public"] .public-market-overview .sentiment-dial-state-row > .widget-metric-help { grid-column:3; justify-self:start; }
+/* Keep the glyph 8px away; padding must not add an invisible second gap. */
+.market-page[data-market-mode="public"] .public-market-overview .sentiment-dial-state-row .widget-metric-help-floating { grid-column:3; justify-self:start; }
+.market-page[data-market-mode="public"] .public-market-overview .sentiment-dial-state-row .widget-metric-help-trigger { display:flex; align-items:center; justify-content:flex-start; width:28px; min-width:28px; height:28px; min-height:28px; padding:0; border:0; background:transparent; }
+.market-page[data-market-mode="public"] .public-market-overview { margin-bottom:32px; }
+@media (pointer:coarse) { .market-page[data-market-mode="public"] .public-market-overview .sentiment-dial-state-row .widget-metric-help-trigger { width:44px; min-width:44px; height:44px; min-height:44px; } }

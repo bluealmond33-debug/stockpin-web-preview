@@ -1,7 +1,19 @@
 .public-commodity-row { margin: 12px 0 0; }
 .public-commodity-row > div { display: flex; align-items: center; flex-wrap: wrap; gap: 12px 28px; padding: 12px 0; border-bottom: 1px solid var(--border); }
 .public-commodity-row dt { flex: 1 1 180px; }
-.public-commodity-row dt span { display: block; margin-top: 4px; font-size: .85em; color: var(--text-secondary); }
+.public-commodity-row dt > span { display: block; margin-top: 4px; font-size: .85em; color: var(--text-secondary); }
+.public-commodity-row dt > .commodity-row-name { display:flex; align-items:center; gap:6px; margin:0; font-size:inherit; color:inherit; }
+.public-commodity-row dt > .commodity-row-meta { margin-top:2px; font-size:11px; line-height:16px; }
 .public-commodity-row dd { margin: 0; font-variant-numeric: tabular-nums; }
 .public-commodity-row strong { font-size: 1.3em; font-weight: 600; }
 .public-commodity-caption { font-size: .85em; color: var(--text-secondary); }
+.public-commodity-interest { display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border: 0; border-radius: 8px; background: transparent; color: var(--text-secondary); cursor: pointer; }
+.public-commodity-interest[aria-pressed="true"] { color: var(--accent, #e4637d); }
+.public-commodity-interest[aria-pressed="true"] svg { fill: currentColor; }
+.public-commodity-interest:focus-visible { outline: 2px solid currentColor; outline-offset: 2px; }
+/* The commodity change shares the existing quote grid's second line. */
+.market-page[data-market-mode="public"] .public-market-panel .public-commodity-row .public-commodity-change { grid-area:change; justify-self:end; margin:0; font-size:13px; line-height:24px; text-align:right; }
+.public-commodity-change[data-direction="up"] { color:var(--gain,#e05a5a); }
+.public-commodity-change[data-direction="down"] { color:var(--loss,#5a7fe0); }
+.public-commodity-change[data-direction="flat"], .public-commodity-change[data-direction="unknown"] { color:var(--text-secondary); }
+

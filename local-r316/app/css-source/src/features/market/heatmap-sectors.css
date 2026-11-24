@@ -23,3 +23,13 @@
 .market-heatmap-comparison .market-sector-choices{gap:6px 12px;margin:12px 0}
 .market-heatmap-comparison .market-breadth{gap:6px 12px}
 @media(max-width:800px){.market-heatmap-comparison{grid-template-columns:1fr}.market-sector-map{height:480px}.market-sector-block>header{padding:0 12px}.market-sector-block>header h3{font-size:12px}}
+
+/* Tiny tiles retain full hover/focus names without clipped numeric fragments. */
+.market-sector-block .market-treemap>button { container: market-tile / size; }
+.market-sector-block .market-treemap>button>strong, .market-sector-block .market-treemap>button>span { display: none; }
+@container market-tile (min-width: 64px) and (min-height: 32px) {
+ .market-sector-block .market-treemap>button>span { display: block; font-size: 11px; line-height: 1.2; }
+}
+@container market-tile (min-width: 72px) and (min-height: 64px) {
+ .market-sector-block .market-treemap>button>strong { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; font-size: 13px; line-height: 1.2; white-space: normal; overflow-wrap: anywhere; }
+}

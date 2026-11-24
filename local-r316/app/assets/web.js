@@ -1,7 +1,7 @@
 import { n as __esmMin, r as __toESM, t as __commonJSMin } from "./rolldown-runtime-CnFjIZqj.js";
 import { n as require_react, t as require_jsx_runtime } from "./jsx-runtime-D-QAa1jW.js";
 import { t as require_react_dom } from "./react-dom-Ci3FjRz5.js";
-import { n as init_ThemeControl, r as initializeTheme } from "./ThemeControl-CU3lnbsG.js";
+import { n as init_ThemeControl, r as initializeTheme } from "./ThemeControl-BUGu6a4O.js";
 /**
 * @license React
 * scheduler.production.js
@@ -10848,7 +10848,7 @@ function init_styles() {
 		{
 			const l = document.createElement("link");
 			l.rel = "stylesheet";
-			l.href = "/local/app/css-source/src/styles.css?v=source-build-r316";
+			l.href = "/local/app/css-source/src/styles.css?v=source-build-r50015";
 			document.head.appendChild(l);
 		}
 	})))();
@@ -10889,7 +10889,7 @@ function BackupDownloadControls() {
 		]
 	});
 }
-var import_react, import_client, import_jsx_runtime, bitcoinFetch, deny, App, InstrumentDetails, createDemoSnapshot, createPortfolioWidgetDemo, createWebPortfolio, WEB_DEMO_FX, WEB_DEMO_ACCOUNT_ALIAS_IDS, WEB_DEMO_ACCOUNT_LABELS, createJournalCommand, createMemoryRepository, createInitializedBrowserJournal, validateJournalState, readManualResponse, createBackupSchema, createDisplayPreferences, createBrowserBackupCommand, createBrowserFileTransport, WebDemoConnections, createDemoAliasStore, createWebDemoConnectionsStore, connectionAliasStore, connectionStore, connectionCountStore, accountAliases, accountDefaultAliases, WebDemoTradeNotice, PublicReferenceMarket, loadCapturedCurrentReference, WebBitcoinGauge, currentPublicReference, PublicMarketWidget, PublicHeatmapExplorer, repository, storage, displayPreferences, backupTransport, backupStorage, instrumentView, preview, BrandDisplayProvider;
+var import_react, import_client, import_jsx_runtime, bitcoinFetch, deny, App, InstrumentDetails, createDemoSnapshot, createPortfolioWidgetDemo, createWebPortfolio, WEB_DEMO_FX, WEB_DEMO_ACCOUNT_ALIAS_IDS, WEB_DEMO_ACCOUNT_LABELS, createJournalCommand, createMemoryRepository, createInitializedBrowserJournal, validateJournalState, readManualResponse, createBackupSchema, createDisplayPreferences, createBrowserBackupCommand, createBrowserFileTransport, WebDemoConnections, createDemoAliasStore, createWebDemoConnectionsStore, connectionAliasStore, connectionStore, connectionCountStore, accountAliases, accountDefaultAliases, WebDemoTradeNotice, PublicReferenceMarket, loadCapturedCurrentReference, WebBitcoinGauge, VixSnapshotGauge, CnnArchiveGauge, PersonalIndexSnapshots, currentPublicReference, PublicMarketWidget, PublicHeatmapExplorer, repository, storage, displayPreferences, backupTransport, backupStorage, instrumentView, preview, BrandDisplayProvider;
 function init_web_entry() {
 	return (init_web_entry = __esmMin((async () => {
 		import_react = /* @__PURE__ */ __toESM(require_react(), 1);
@@ -10918,21 +10918,21 @@ function init_web_entry() {
 		};
 		navigator.sendBeacon = () => false;
 		initializeTheme();
-		({default: App} = await import("./App-CLDTQffq.js"));
-		({InstrumentDetails} = await import("./InstrumentDetails-DtMPbWKi.js"));
-		({createDemoSnapshot} = await import("./portfolio-JBXzGPjm.js"));
-		({createPortfolioWidgetDemo} = await import("./portfolioWidgetPresentation-D8KtO_g4.js"));
-		({createWebPortfolio, WEB_DEMO_FX, WEB_DEMO_ACCOUNT_ALIAS_IDS, WEB_DEMO_ACCOUNT_LABELS} = await import("./portfolio-BAt3JQ1T.js"));
-		({createJournalCommand, createMemoryRepository} = await import("./journal-D3xDhL46.js"));
-		({createInitializedBrowserJournal} = await import("./initialize-on-open-CtOhFTcL.js"));
-		({validateState: validateJournalState} = await import("./state-BKnRQ4L8.js"));
-		({readManualResponse} = await import("./manualPersistence-Dqnl3Yux.js"));
-		({createBackupSchema} = await import("./backup-codec-BY4UbD0P.js"));
-		({createDisplayPreferences} = await import("./display-preferences-BC0jXuQm.js"));
-		({createBrowserBackupCommand} = await import("./backup-B52RoamS.js"));
-		({createBrowserFileTransport} = await import("./transport-CAFa9Rax.js"));
-		({WebDemoConnections} = await import("./WebDemoConnections-BHdTreqP.js"));
-		({createDemoAliasStore, createWebDemoConnectionsStore} = await import("./WebDemoConnectionsState-D_lpPgcQ.js"));
+		({default: App} = await import("./App-GeaeIXpu.js"));
+		({InstrumentDetails} = await import("./InstrumentDetails-97VL38RV.js"));
+		({createDemoSnapshot} = await import("./portfolio-B6RFCQt8.js"));
+		({createPortfolioWidgetDemo} = await import("./portfolioWidgetPresentation-D06JKN5-.js"));
+		({createWebPortfolio, WEB_DEMO_FX, WEB_DEMO_ACCOUNT_ALIAS_IDS, WEB_DEMO_ACCOUNT_LABELS} = await import("./portfolio-Cl0JgzqF.js"));
+		({createJournalCommand, createMemoryRepository} = await import("./journal-7aBCiHj3.js"));
+		({createInitializedBrowserJournal} = await import("./initialize-on-open-BCaTyr0m.js"));
+		({validateState: validateJournalState} = await import("./state-DOmd5mLl.js"));
+		({readManualResponse} = await import("./manualPersistence-RqRqZKFD.js"));
+		({createBackupSchema} = await import("./backup-codec-CKT6p0GT.js"));
+		({createDisplayPreferences} = await import("./display-preferences-CzF_2oNk.js"));
+		({createBrowserBackupCommand} = await import("./backup-mkCjmH97.js"));
+		({createBrowserFileTransport} = await import("./transport-DVU3ZkUn.js"));
+		({WebDemoConnections} = await import("./WebDemoConnections-CssQc0TJ.js"));
+		({createDemoAliasStore, createWebDemoConnectionsStore} = await import("./WebDemoConnectionsState-BJ80Gzr-.js"));
 		connectionAliasStore = (() => {
 			try {
 				return createDemoAliasStore(window.localStorage);
@@ -10957,15 +10957,18 @@ function init_web_entry() {
 			if (typeof label !== "string" || !label) throw Error("Missing demo account presentation");
 			return [aliasId, label];
 		}));
-		({WebDemoTradeNotice} = await import("./WebDemoTradeNotice-b_rrmwNv.js"));
-		({PublicReferenceMarket, loadCapturedCurrentReference} = await import("./public-reference-D76G6N-Y.js"));
-		({WebBitcoinGauge} = await import("./WebBitcoinGauge-B6LBGfXi.js"));
+		({WebDemoTradeNotice} = await import("./WebDemoTradeNotice-DdsWGqcR.js"));
+		({PublicReferenceMarket, loadCapturedCurrentReference} = await import("./public-reference-BkmW_KlI.js"));
+		({WebBitcoinGauge} = await import("./WebBitcoinGauge-BHZBb4x4.js"));
+		({VixSnapshotGauge} = await import("./VixSnapshotGauge-BU10_BiC.js"));
+		({CnnArchiveGauge} = await import("./CnnArchiveGauge-DH6DJM9R.js"));
+		({PersonalIndexSnapshots} = await import("./PersonalIndexSnapshots-DOtKD_iC.js"));
 		currentPublicReference = null;
 		try {
 			currentPublicReference = await loadCapturedCurrentReference();
 		} catch {}
-		({PublicMarketWidget} = await import("./PublicMarketWidget-bxWAnZ7X.js"));
-		({PublicHeatmapExplorer} = await import("./PublicHeatmapExplorer-CFAOtDAI.js"));
+		({PublicMarketWidget} = await import("./PublicMarketWidget-B34yJ95V.js"));
+		({PublicHeatmapExplorer} = await import("./PublicHeatmapExplorer-6kplqFVi.js"));
 		repository = createMemoryRepository();
 		storage = createInitializedBrowserJournal(createJournalCommand({ repository }));
 		displayPreferences = createDisplayPreferences((() => {
@@ -11027,6 +11030,12 @@ function init_web_entry() {
 				active,
 				release: currentPublicReference,
 				heatmapView: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(PublicHeatmapExplorer, {}),
+				indexView: ({ interest, onlyInterest }) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(PersonalIndexSnapshots, {
+					interest,
+					onlyInterest
+				}),
+				vixView: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(VixSnapshotGauge, {}),
+				cnnView: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(CnnArchiveGauge, {}),
 				bitcoinView: (active) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(WebBitcoinGauge, {
 					request: bitcoinFetch,
 					active
@@ -11043,7 +11052,7 @@ function init_web_entry() {
 				onAccountAliasesChange: onAliasesChange
 			})
 		});
-		({BrandDisplayProvider} = await import("./BrandDisplayContext-1PeAaGm5.js"));
+		({BrandDisplayProvider} = await import("./BrandDisplayContext-BjANVcZ5.js"));
 		(0, import_client.createRoot)(document.getElementById("root")).render(/* @__PURE__ */ (0, import_jsx_runtime.jsx)(import_react.StrictMode, { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(BrandDisplayProvider, {
 			mode: document.documentElement.dataset.brandDisplay === "text-only" ? "text-only" : "original",
 			children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(App, { preview })

@@ -1,0 +1,6 @@
+.public-heatmap-layout .market-heatmap-add { margin-left:auto; }
+.public-heatmap-layout .market-heatmap-panel-heading { display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:12px; }
+.public-heatmap-layout .market-heatmap-panel-heading h3 { margin:0; }
+
+/* A single market uses the map area; extra maps keep the existing independent grid. */
+.public-heatmap-layout .market-heatmap-comparison > section:only-child { grid-column: 1 / -1; }

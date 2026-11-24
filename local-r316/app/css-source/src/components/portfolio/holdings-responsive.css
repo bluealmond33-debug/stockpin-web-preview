@@ -14,6 +14,8 @@
 .holdings-responsive .instrument strong { min-width: 0; }
 .holdings-responsive .instrument-icon { flex-shrink: 0; }
 .holdings-responsive .instrument .holding-inline-quantity { display: none; }
+.holdings-responsive .instrument .holding-market-price { display: none; }
+.holdings-responsive .holdings-compact .holding-market-price { display: block; font-size: 12px; color: var(--muted); }
 .holdings-responsive .holdings-compact .holding-inline-quantity { display: block; }
 .holdings-responsive .holding-account { font-size: 11px; color: var(--muted); }
 @container holdings (max-width: 900px) {
@@ -42,6 +44,7 @@
   .holdings-responsive td.holding-current,
   .holdings-responsive td.holding-quantity { display: none; }
   .holdings-responsive .instrument .holding-inline-quantity { display: block; font-size: 12px; color: var(--muted); }
+  .holdings-responsive .instrument .holding-market-price { display: block; font-size: 12px; color: var(--muted); }
   .holdings-responsive td.holding-identity { grid-area: identity; text-align: left; }
   .holdings-responsive .holding-value { grid-area: value; font-weight: 600; }
   .holdings-responsive td[data-label="평가손익"] { grid-area: pnl; font-size: 13px; }
@@ -50,3 +53,45 @@
   .holdings-responsive tbody tr { column-gap: 10px; }
   .holdings-responsive .instrument { gap: 8px; }
 }
+/* Source689: existing positions, formatters and detail owner; no invented history. */
+.holdings-view-controls {display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px 20px;margin:0 0 8px;}
+.holdings-view-controls > div {display:flex;align-items:center;gap:14px;}
+.holdings-view-controls button {display:inline-flex;align-items:center;gap:5px;border:0;background:none;padding:5px 0;font:inherit;font-size:12px;font-weight:400;color:var(--muted);cursor:pointer;}
+.holdings-view-controls button[aria-pressed="true"] {color:var(--green);}
+.holdings-view-controls button:focus-visible {outline:1px solid var(--green);outline-offset:4px;}
+.holdings-view-controls svg {flex-shrink:0;}
+.holdings-responsive .holdings-card-sort {display:flex;justify-content:flex-end;flex-wrap:wrap;gap:16px;padding:8px 0;}
+/* Keep spare width outside the items; a wider window must not inflate each card. */
+.holdings-responsive .holding-cards {display:grid;grid-template-columns:repeat(auto-fit,minmax(min(240px,100%),300px));gap:var(--space-8,32px);align-content:start;justify-content:start;list-style:none;margin:8px 0 0;padding:0;}
+.holdings-responsive .holding-card {min-width:0;padding:8px 0 12px;border-bottom:1px solid var(--border);}
+.holdings-responsive .holding-card .instrument {gap:10px;}
+.holdings-responsive .holding-card .instrument-icon {width:28px;height:28px;}
+.holdings-responsive .holding-card .holding-detail-trigger strong {font-size:14px;line-height:1.4;}
+/* Repeated labels remain in the reading tree, not as four competing headings. */
+.holding-card-values >div >span {position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;}
+.holdings-responsive .holding-card .holding-card-values {margin-top:10px;gap:8px;}
+.holdings-responsive .holding-card .holding-card-prices {margin-top:10px;gap:8px;}
+.holdings-responsive .holding-card .holding-card-values strong {font-size:14px;line-height:1.4;}
+.holdings-responsive .holding-card .holding-card-prices span {margin-bottom:2px;}
+.holdings-responsive .holding-card .holding-card-prices strong {font-size:12px;line-height:1.4;}
+.holdings-responsive .holding-card .instrument {align-items:flex-start;}
+.holdings-responsive .holding-card .instrument .holding-inline-quantity,
+.holdings-responsive .holding-card .instrument .holding-market-price {display:block;font-size:12px;color:var(--muted);}
+.holdings-responsive .holding-cards[data-information="expanded"] .holding-market-price {display:none;}
+.holding-card-values,.holding-card-prices {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:14px;}
+.holding-card-values >div,.holding-card-prices >div {min-width:0;}
+.holding-card-values >div:last-child,.holding-card-prices >div:last-child {text-align:right;}
+.holding-card-values span,.holding-card-prices span {display:block;font-size:11px;color:var(--muted);margin-bottom:4px;}
+.holding-card-values strong,.holding-card-prices strong {display:block;font-size:15px;line-height:1.5;font-weight:500;font-variant-numeric:tabular-nums;white-space:normal;overflow-wrap:anywhere;}
+.holding-card-prices strong {font-size:13px;font-weight:400;}
+@container holdings (max-width:900px) {
+  .holdings-responsive .holdings-expanded tbody tr {grid-template-areas:"identity value" "identity pnl" "average current";row-gap:12px;}
+  .holdings-responsive .holdings-expanded td.holding-average,
+  .holdings-responsive .holdings-expanded td.holding-current {display:block;margin-top:4px;}
+  .holdings-responsive .holdings-expanded td.holding-average {grid-area:average;text-align:left;}
+  .holdings-responsive .holdings-expanded td.holding-current {grid-area:current;}
+  .holdings-responsive .holdings-expanded td.holding-average::before,
+  .holdings-responsive .holdings-expanded td.holding-current::before {content:attr(data-label);display:block;color:var(--muted);font-size:11px;margin-bottom:4px;}
+  .holdings-responsive .holdings-expanded .instrument .holding-market-price {display:none;}
+}
+

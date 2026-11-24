@@ -4,8 +4,8 @@
 .treasury-curve-interest[aria-pressed="true"] { color:var(--accent,#e9d19b); }
 .treasury-curve-interest[aria-pressed="true"] svg { fill:currentColor; }
 .treasury-curve-interest:focus-visible { outline:2px solid var(--accent,#e9d19b); outline-offset:2px; border-radius:4px; }
-.public-treasury-curve-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); max-width: 824px; gap: 0 24px; margin: 8px 0 0; }
-.public-treasury-curve-list > div { display: grid; grid-template-columns: minmax(0,1fr) 96px minmax(90px,auto); max-width: 400px; min-width: 0; gap: 12px; align-items: center; padding: 16px 0; }
+.public-treasury-curve-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); width: 100%; max-width: none; gap: 0 24px; margin: 8px 0 0; }
+.public-treasury-curve-list > div { display: grid; grid-template-columns: minmax(0,1fr) 96px minmax(90px,auto); max-width: none; min-width: 0; gap: 12px; align-items: center; padding: 16px 0; }
 .public-treasury-curve-list dt { font-size: 15px; }
 .public-treasury-curve-list dd { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; margin: 0; font-variant-numeric: tabular-nums; }
 .treasury-curve-value { color: var(--bright,#eee); font-size: 18px; font-weight: 400; line-height: 1.4; }
@@ -21,7 +21,7 @@
 .treasury-curve-trend[data-direction="down"] { color: var(--down,#578be0); }
 @container treasury-curve (max-width: 400px){.public-treasury-curve-list > div { grid-template-columns: minmax(0,1fr) 72px minmax(80px,auto); gap: 8px; }.public-treasury-curve-list .treasury-curve-trend,.treasury-curve-trend svg { width: 72px; }}
 
-.public-treasury-curve > header { max-width:824px; }
+.public-treasury-curve > header { width:100%; max-width:none; }
 .treasury-live-actions { display:flex; align-items:center; gap:10px; margin-left:auto; font-size:12px; color:var(--muted,#aaa); }
 .treasury-live-actions > button { display:inline-flex; align-items:center; justify-content:center; width:28px; height:28px; padding:0; border:0; background:transparent; color:inherit; }
 .treasury-live-actions > .single-choice { width:74px; flex:none; }

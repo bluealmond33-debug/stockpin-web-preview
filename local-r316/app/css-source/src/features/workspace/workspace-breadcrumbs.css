@@ -1,0 +1,53 @@
+/* Preview-only host; no document or native layout overrides. */
+.workspace-breadcrumbs {
+ box-sizing: border-box;
+ min-width: 0;
+ max-width: 100%;
+ padding: var(--space-2) var(--space-4);
+ /* First spacing candidate: existing space-4 vertically, horizontal rules unchanged. */
+ padding-block: var(--space-4);
+}
+.workspace-breadcrumbs ol {
+ display: flex;
+ align-items: center;
+ gap: var(--space-2);
+ min-width: 0;
+ max-width: 100%;
+ margin: 0;
+ padding: 0;
+ list-style: none;
+}
+.workspace-breadcrumbs li {
+ display: flex;
+ align-items: center;
+ gap: var(--space-2);
+ min-width: 0;
+ flex: 0 1 auto;
+}
+.workspace-breadcrumbs li:last-child { flex: 0 1 auto; }
+.workspace-breadcrumb-separator { flex: 0 0 auto; opacity: .45; }
+.workspace-breadcrumb-label {
+ display: block;
+ min-width: 0;
+ max-width: 100%;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ white-space: nowrap;
+ border: 0;
+ background: transparent;
+ color: inherit;
+ font: inherit;
+ font-size: 13px;
+ padding: var(--space-1);
+ border-radius: var(--space-1);
+ text-align: left;
+ cursor: pointer;
+}
+.workspace-breadcrumb-label[aria-current="page"] { cursor: default; color: var(--bright); }
+.workspace-breadcrumb-label:not([aria-disabled="true"]):hover { text-decoration: underline; }
+.workspace-breadcrumb-label:focus-visible { outline: 2px solid var(--green); outline-offset: -2px; }
+@media (max-width: 480px) {
+ .workspace-breadcrumbs { padding-inline: var(--space-2); }
+ .workspace-breadcrumbs ol, .workspace-breadcrumbs li { gap: var(--space-1); }
+ .workspace-breadcrumbs li:not(:last-child) { flex-shrink: 0; }
+}

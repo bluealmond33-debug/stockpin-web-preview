@@ -95,6 +95,15 @@
 .settings-layout .settings-section {
   padding-right: 16px;
 }
+.settings-layout .setting-theme-row { display: grid; grid-template-columns: auto minmax(0, 1fr); align-items: center; gap: 0 24px; }
+.setting-theme-row > .theme-preference { display: contents; }
+.setting-theme-row .theme-control { grid-column: 2; grid-row: 1; justify-self: end; justify-content: flex-end; max-width: 100%; min-width: 0; }
+/* Keep visual action names beside the icons, not over the error/retry row. */
+.setting-theme-row .theme-control > button { flex: none; }
+.setting-theme-row .theme-choice-hint { position: static; border-color: var(--green); display: block; flex: 0 1 auto; min-width: 0; transform: none; opacity: 1; visibility: visible; white-space: normal; overflow-wrap: anywhere; margin-right: 4px; padding: 4px 6px; font-size: 13px; line-height: 16px; pointer-events: none; }
+.theme-save-status { grid-column: 2; grid-row: 2; min-width: 0; max-width: 100%; display: flex; flex-wrap: wrap; justify-content: flex-end; align-items: baseline; gap: 4px 12px; color: var(--muted); font-size: 13px; text-align: right; }
+.theme-save-status:not(:empty) { margin-top: 8px; }
+.theme-save-retry { padding: 0; min-height: 32px; border: 0; background: none; color: var(--text); font: inherit; text-decoration: underline; text-underline-offset: 4px; }
 .settings-layout kbd {
   white-space: nowrap;
   font: inherit;
@@ -129,4 +138,9 @@
     flex-wrap: wrap;
   }
 }
+/* Only this settings consumer owns the temporary preference disclosure. */
+.settings-layout .setting-refresh-row { display: grid; grid-template-columns: auto minmax(0, 1fr); align-items: center; gap: 0 24px; }
+.setting-refresh-row > .asset-refresh-preference { display: contents; }
+.setting-refresh-row .asset-refresh-choices { grid-column: 2; grid-row: 1; justify-self: end; }
+.setting-refresh-row .refresh-save-status { grid-column: 2; grid-row: 2; margin: 8px 0 0; min-width: 0; color: var(--muted); font-size: 13px; line-height: 1.5; text-align: right; overflow-wrap: anywhere; }
 .asset-refresh-choices{display:flex;align-items:center;gap:20px}.asset-refresh-choices button{min-width:32px;min-height:44px;border:0;background:none;box-shadow:none;color:var(--muted);font:inherit}.asset-refresh-choices button[aria-pressed=true]{color:var(--green)}

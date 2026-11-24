@@ -3,7 +3,9 @@
 .reference-rates-table .reference-rates-heading h2, .reference-rates-table .market-fx-caption { margin: 0; }
 .reference-rates-table .reference-rate-groups { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr); gap: 24px 48px; }
 .reference-rates-table .reference-rate-group { min-width: 0; }
-.reference-rates-table .reference-rate-group h3 { margin: 0 0 8px; color: var(--muted, #a7a7a7); font-size: 14px; font-weight: 400; line-height: 1.5; }
+.reference-rates-table .market-currency-flag { font-size:.85em; margin-inline-end:.35em; white-space:nowrap; }
+.reference-rates-table .reference-rate-group h3 { margin: 0 0 8px; padding-bottom:10px; border-bottom:1px solid var(--line, #303030); color: var(--muted, #a7a7a7); font-size: 14px; font-weight: 400; line-height: 1.5; }
+.market-page[data-market-mode="public"] .reference-rates-table .reference-rate-group h3 { border-bottom:var(--hairline-width,1px) solid var(--hairline-color,var(--border,#303030)); }
 .reference-rates-table .reference-rates { margin: 0; }
 .reference-rates-table .reference-rates > div { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 12px; padding: 8px 0; min-width: 0; }
 .reference-rates-table dt { font-size: 18px; line-height: 1.5; }

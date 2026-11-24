@@ -1,0 +1,7 @@
+/* Fixed presentation allowlist; never evaluate persisted CSS. Photo selectors untouched. */
+.writing-read-view .paragraph-align-left, .writing-editor .writing-block textarea.paragraph-align-left { text-align:left; }
+.writing-read-view .paragraph-align-center, .writing-editor .writing-block textarea.paragraph-align-center { text-align:center; }
+.writing-read-view .paragraph-align-right, .writing-editor .writing-block textarea.paragraph-align-right { text-align:right; }
+.writing-read-view .paragraph-align-left :is(p,h2,h3,h4,li,blockquote,aside,pre),
+.writing-read-view .paragraph-align-center :is(p,h2,h3,h4,li,blockquote,aside,pre),
+.writing-read-view .paragraph-align-right :is(p,h2,h3,h4,li,blockquote,aside,pre) { text-align:inherit; }

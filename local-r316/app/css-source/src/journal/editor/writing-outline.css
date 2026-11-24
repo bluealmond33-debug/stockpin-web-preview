@@ -1,0 +1,12 @@
+.writing-outline { margin: 0 0 28px; padding: 0 0 18px; border-bottom: 1px solid var(--border, #353535); color: var(--muted, #aaa); }
+.writing-outline .writing-outline-toggle { width:fit-content; cursor:pointer; font-size:13px; line-height:1.8; }
+.writing-outline ol[hidden] { display:none; }
+.writing-outline ol { list-style: none; margin: 8px 0 0; padding: 0; }
+.writing-outline li { position: relative; }
+.writing-outline-branch { position: absolute; top: 6px; width: 14px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; color: var(--muted); pointer-events: none; }
+.writing-outline button { display: block; max-width: 100%; background: transparent; border: 0; border-radius: 4px; padding: 5px 0; color: inherit; font: inherit; font-size: 14px; line-height: 1.5; text-align: left; overflow-wrap: anywhere; cursor: pointer; }
+.writing-outline button:hover, .writing-outline button:focus-visible { color: var(--text, #eee); }
+.writing-outline button:focus-visible { outline: 2px solid var(--accent, #75bc94); outline-offset: 3px; }
+.journal-surface .writing-outline button { text-decoration: none; min-height: 30px; padding-block: 4px; }
+.journal-surface .writing-outline li { margin: 0; }
+.writing-read-view :is(h2,h3,h4)[id] { scroll-margin-top: 24px; }

@@ -118,6 +118,8 @@
 
 /* Selection formatting is separate from block insertion/management tools. */
 .writing-editor .writing-selection-format {
+  flex-wrap: wrap;
+  box-sizing: border-box;
   position: absolute;
   z-index: 12;
   display: flex;
@@ -162,4 +164,48 @@
 .writing-editor .writing-selection-link input:focus-visible { outline: 2px solid var(--green); outline-offset: 2px; }
 .writing-editor .writing-selection-link button { width: auto; min-width: 56px; padding: 0 10px; }
 .writing-editor .writing-selection-link [role="alert"] { width: 100%; font-size: 0.875rem; }
+
+.writing-editor .writing-paragraph-alignment { display:grid; grid-template-columns:1fr 1fr; gap:4px; border-block:1px solid var(--border-subtle); padding-block:6px; }
+.writing-editor .writing-paragraph-alignment button { min-width:0; }
+.writing-editor .writing-paragraph-alignment button[aria-pressed="true"] { color:var(--green); border-color:var(--green); }
+
+/* Fixed palette shared by reader and swatches; no saved CSS is evaluated. */
+:root { --inline-red:#ffb4b0; --inline-blue:#a9ceff; --inline-green:#a1dfbb; --inline-yellow:#f1d78a;
+  --inline-bg-red:#4b2428; --inline-bg-blue:#20364d; --inline-bg-green:#203e30; --inline-bg-yellow:#43391f; }
+:root[data-theme="light"] { --inline-red:#8f1d28; --inline-blue:#154d8a; --inline-green:#165b37; --inline-yellow:#715300;
+  --inline-bg-red:#ffe2e1; --inline-bg-blue:#deecff; --inline-bg-green:#dcf3e4; --inline-bg-yellow:#fff0be; }
+.inline-color-text-red { color:var(--inline-red); }
+.inline-color-text-blue { color:var(--inline-blue); }
+.inline-color-text-green { color:var(--inline-green); }
+.inline-color-text-yellow { color:var(--inline-yellow); }
+.inline-color-highlight-red { background-color:var(--inline-bg-red); }
+.inline-color-highlight-blue { background-color:var(--inline-bg-blue); }
+.inline-color-highlight-green { background-color:var(--inline-bg-green); }
+.inline-color-highlight-yellow { background-color:var(--inline-bg-yellow); }
+.writing-editor .writing-inline-color-palette { display:flex; align-items:center; flex-wrap:wrap; width:100%; gap:2px; border-top:1px solid var(--border-subtle); }
+.writing-inline-color-label { width:46px; padding-left:4px; font-size:12px; color:var(--muted); }
+.writing-inline-color-palette button > span { display:grid; place-items:center; width:25px; height:25px; border-radius:3px; }
+.writing-editor .writing-selection-format:has(.writing-inline-color-palette) { width:282px; max-width:min(100%,calc(100vw - 32px)); }
+
+.writing-inline-code { font-family:ui-monospace,monospace; font-size:0.9em; padding:0.08em 0.3em; border-radius:3px; background:var(--border-subtle); color:inherit; }
+
+.writing-editor .writing-paste-suggestion { display:flex; flex-wrap:wrap; align-items:center; gap:8px; padding:6px 0; color:var(--muted); font-size:0.875rem; }
+.writing-editor .writing-paste-suggestion button { background:transparent; color:var(--text); border:0; padding:4px 6px; font:inherit; }
+.writing-editor .writing-paste-suggestion button:focus-visible { outline:2px solid var(--green); outline-offset:2px; }
+.writing-editor .writing-menu > button:has(> .writing-command-hint),
+.journal-surface.manual-journal-draft .writing-editor .writing-menu > button:has(> .writing-command-hint) { display:grid; grid-template-columns:20px minmax(0,1fr) auto; grid-template-rows:auto auto; flex:0 0 auto; height:auto; min-height:max-content; column-gap:8px; row-gap:2px; align-items:center; white-space:normal; }
+.writing-editor .writing-menu > button > .writing-command-icon { grid-column:1; grid-row:1; }
+.writing-editor .writing-menu > button > kbd { grid-column:3; grid-row:1; }
+.writing-editor .writing-menu .writing-command-hint { grid-column:2 / -1; grid-row:2; color:var(--muted); font:inherit; font-size:0.85em; line-height:1.4; overflow-wrap:anywhere; text-align:left; }
+/* Described commands keep their natural height inside the existing bounded menu. */
+.journal-surface.manual-journal-draft .writing-editor .writing-menu:has(> button > .writing-command-hint) { overflow-y:auto; scroll-padding-block:8px; }
+
+/* Inline script is presentation only; raw body and surrounding line height stay intact. */
+sup.writing-inline-script, sub.writing-inline-script,
+.writing-selection-format button sup, .writing-selection-format button sub {
+  font-size:0.75em; line-height:0; position:relative; vertical-align:baseline;
+}
+sup.writing-inline-script, .writing-selection-format button sup { top:-0.5em; }
+sub.writing-inline-script, .writing-selection-format button sub { bottom:-0.25em; }
+
 

@@ -1,0 +1,38 @@
+.index-comparison { min-width: 0; }
+.index-comparison-toolbar { display: flex; align-items: center; flex-wrap: wrap; gap: 10px; margin-block: 14px; }
+.index-comparison-primary { overflow-wrap: anywhere; }
+.index-comparison-toolbar .single-choice { min-width: 0; max-width: 100%; }
+.index-comparison-toolbar .single-choice-trigger { max-width: 100%; }
+.index-comparison-dates { color: var(--text-secondary, inherit); font-size: 13px; }
+.index-comparison-legend { display: flex; flex-wrap: wrap; gap: 12px 24px; list-style: none; padding: 0; margin: 12px 0; }
+.index-comparison-legend li { display: grid; grid-template-columns: 26px auto auto; align-items: center; gap: 5px 8px; }
+.index-comparison-legend small { grid-column: 2 / -1; color: var(--text-secondary, inherit); }
+.index-comparison-swatch { width: 24px; border-top: 2px solid currentColor; }
+.index-comparison-legend [data-line="1"] .index-comparison-swatch { border-top-style: dashed; }
+.index-comparison [data-direction="gain"] { color: var(--gain, #e05a5a); }
+.index-comparison [data-direction="loss"] { color: var(--loss, #5a7fe0); }
+.index-comparison [data-direction="flat"] { color: var(--text-secondary, inherit); }
+.index-comparison-tooltip { display: flex; flex-wrap: wrap; gap: 6px 18px; min-height: 44px; font-size: 13px; font-variant-numeric: tabular-nums; }
+.index-comparison-tooltip > time { flex-basis: 100%; }
+.index-comparison-plot { display: grid; grid-template-columns: minmax(0, 1fr) 12ch; gap: 8px; margin-top: 16px; font-size: 12px; }
+/* Only graphics scale. HTML ticks share the SVG box height, never its CTM. */
+.index-comparison .index-comparison-chart { display: block; width: 100%; height: auto; min-width: 0; min-height: 200px; margin: 0; aspect-ratio: 640 / 400; }
+.index-comparison-axis { position: relative; min-width: 0; color: var(--text-secondary, #89929c); font-size: 12px; line-height: 18px; font-variant-numeric: tabular-nums; }
+.index-comparison-axis-tick { position: absolute; right: 0; transform: translateY(-50%); white-space: nowrap; }
+/* Preserve exact y when zero nearly coincides with an extreme; use another lane. */
+.index-comparison-axis-tick[data-zero-crowded="true"] { left: 0; right: auto; }
+.index-comparison-chart path { vector-effect: non-scaling-stroke; }
+.index-comparison .index-comparison-chart circle,
+.personal-index-history-detail .index-comparison .index-comparison-chart circle { opacity: 0; }
+.index-comparison .index-comparison-chart circle[data-active="true"],
+.personal-index-history-detail .index-comparison .index-comparison-chart circle[data-active="true"] { opacity: 1; }
+.index-comparison-zero { stroke: var(--text-muted, #89929c); stroke-width: 1; stroke-dasharray: 2 5; opacity: .6; }
+.index-comparison-unavailable { margin-block: 8px; font-size: 13px; }
+.index-comparison-unavailable button { margin: 6px; }
+.index-comparison .reference-detail-values li { gap: 12px; overflow-wrap: anywhere; }
+@media (max-width: 520px) {
+ .index-comparison-primary { flex-basis: 100%; }
+ .index-comparison-legend { flex-direction: column; gap: 10px; }
+ .index-comparison-legend li { width: fit-content; max-width: 100%; }
+ .index-comparison-tooltip > span { flex-basis: 100%; }
+}

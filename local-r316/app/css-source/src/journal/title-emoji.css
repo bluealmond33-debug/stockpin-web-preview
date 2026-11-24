@@ -1,0 +1,25 @@
+.manual-title-actions { display:flex; flex-wrap:wrap; align-items:center; gap:12px; min-height:36px; margin:0 0 12px; font-size:13px; font-weight:400; line-height:1.4; }
+.journal-surface.manual-journal-draft .manual-title-actions .editor-popover-trigger,
+.journal-surface.manual-journal-draft .manual-title-actions .journal-help-labelled-trigger { display:inline-flex; align-items:center; justify-content:center; gap:6px; width:auto; min-width:0; min-height:36px; padding:4px 6px; border:0; border-radius:0; background:transparent; color:var(--text); font:inherit; font-weight:400; text-decoration:none; cursor:pointer; }
+.manual-title-actions .editor-trigger-text { font-size:13px; line-height:1.4; white-space:nowrap; }
+.journal-surface.manual-journal-draft .manual-title-actions .journal-help-labelled-trigger:hover:not(:disabled),
+.journal-surface.manual-journal-draft .manual-title-actions .editor-popover-trigger:hover:not(:disabled) { color:var(--green); }
+.manual-title-actions .journal-help-labelled-trigger:focus-visible { outline:1px solid var(--green); outline-offset:3px; }
+.manual-title-actions .journal-help-labelled-trigger:disabled { opacity:.45; cursor:default; }
+.manual-title-actions .journal-popover { flex:0 0 auto; }
+.journal-surface.manual-journal-draft .manual-title-emoji-remove { display:inline-flex; align-items:center; gap:6px; min-height:28px; padding:4px 0; border:0; background:transparent; color:var(--muted); font-size:12px; font-weight:400; text-decoration:none; }
+.manual-title-actions .editor-popover-panel { width:360px; max-width:min(360px,calc(100vw - 112px)); min-width:0; box-sizing:border-box; border-color:var(--green); }
+.manual-title-emoji-label { margin:0 0 8px; font-size:12px; font-weight:400; color:var(--muted); }
+.manual-title-emoji-choices { display:grid; grid-template-columns:repeat(8,minmax(0,1fr)); gap:4px; max-height:240px; overflow:auto; scrollbar-gutter:stable; }
+.journal-surface.manual-journal-draft .manual-title-emoji-choices button { padding:6px; min-height:38px; font-size:23px; line-height:1.2; border:0; background:transparent; }
+.journal-surface.manual-journal-draft .manual-title-emoji-choices button:hover { background:var(--hover); }
+.journal-surface.manual-journal-draft .manual-title-emoji-choices button[aria-pressed=true] { background:var(--hover); }
+.manual-title-emoji-categories { display:flex; flex-wrap:nowrap; gap:2px; margin-bottom:12px; }
+.journal-surface.manual-journal-draft .manual-title-actions .manual-title-emoji-categories button { position:relative; display:inline-flex; align-items:center; justify-content:center; width:30px; max-width:30px; min-width:22px; aspect-ratio:1; height:auto; min-height:22px; flex:1 1 0; padding:3px; text-align:center; border:0; border-radius:50%; background:transparent; color:var(--text); }
+.manual-title-emoji-categories svg { display:block; width:20px; height:20px; flex:none; }
+.journal-surface.manual-journal-draft .manual-title-actions .manual-title-emoji-categories button[aria-pressed=true] { color:var(--bright); background:var(--border); }
+.manual-title-emoji-categories button:hover .journal-action-tooltip,.manual-title-emoji-categories button:focus-visible .journal-action-tooltip { display:block; pointer-events:none; }
+.manual-title-emoji-categories button:first-child .journal-action-tooltip { right:auto; left:0; }
+.journal-surface.manual-journal-draft .manual-title-emoji-picker input[type=search] { width:100%; min-width:0; box-sizing:border-box; font-size:13px; font-weight:400; line-height:1.4; }
+
+.journal-surface.manual-journal-draft .manual-title-actions .manual-title-emoji-choices button { min-width:0; padding:5px 0; min-height:32px; font-size:22px; text-align:center; }

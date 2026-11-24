@@ -1,0 +1,6 @@
+.public-japan-treasury > .public-reference-heading-title { flex-wrap: wrap; }
+.public-japan-treasury .japan-treasury-source { display:inline-flex; align-items:center; min-height:28px; color:var(--muted,#aaa); font-size:12px; text-decoration:none; }
+.public-japan-treasury .japan-treasury-source:hover { color:var(--bright,#e8e8e8); text-decoration:underline; }
+.public-japan-treasury .japan-treasury-source:focus-visible { outline:1px solid var(--green,#49ae78); outline-offset:3px; }
+.public-japan-treasury .public-treasury-curve-list > div { grid-template-columns: minmax(0,1fr) minmax(110px,auto); }
+.public-japan-treasury .treasury-curve-change:not([data-direction="up"]):not([data-direction="down"]) { color: var(--muted,#aaa); }

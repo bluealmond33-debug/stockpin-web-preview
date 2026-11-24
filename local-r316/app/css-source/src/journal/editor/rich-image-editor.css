@@ -57,10 +57,10 @@
   max-height: min(520px, calc(100vh - 24px));
   padding: 12px;
   color: var(--text);
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  box-shadow: 0 8px 28px rgb(0 0 0 / 24%);
+  background: var(--bg);
+  border: 1px solid var(--green);
+  border-radius: 4px;
+  box-shadow: none;
 }
 .journal-surface.manual-journal-draft .rich-photo-tools .editor-popover-panel fieldset > legend {
   display: block;
@@ -88,6 +88,7 @@
 }
 .journal-surface.manual-journal-draft .rich-photo-tools .editor-popover-panel .rich-photo-actions {
   display: grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
   gap: 2px;
 }
 .journal-surface.manual-journal-draft .rich-photo-tools .editor-popover-panel .rich-photo-settings {
@@ -154,3 +155,5 @@
   outline: 2px solid var(--green);
   outline-offset: 2px;
 }
+.journal-surface.manual-journal-draft .rich-photo-tools .editor-popover-panel :is(.rich-photo-actions,.rich-photo-movement,.rich-photo-danger) button { display:flex; align-items:center; justify-content:center; }
+.rich-photo-tools :is(.rich-photo-actions,.rich-photo-movement,.rich-photo-danger) svg { width:20px; height:20px; flex:none; }

@@ -1,0 +1,41 @@
+.connections-layout.connections-normal { grid-template-columns:minmax(0,1fr); gap:24px; }
+.connections-normal .connections-heading { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:12px 24px; }
+.connections-normal .connections-heading h2 { margin:0; font-size:18px; font-weight:500; line-height:1.5; color:var(--bright,#e8e8e8); }
+.connections-normal .connections-heading h2 > span { margin-left:8px; font-size:14px; font-weight:400; color:var(--accent,#2bbf4a); }
+.connections-normal .connections-heading h2:focus { outline:none; }
+.connections-normal .saved-connections { margin:8px 0 0; }
+.connections-normal .provider-grid:empty { margin:0; }
+.connections-normal .connection-empty { margin:0; padding:28px 0; font-size:14px; line-height:1.6; }
+.connections-normal .connection-policies { margin-top:0; }
+.connections-normal .connection-management-surface[hidden] { display:none; }
+/* Detail-only internal rhythm; the shared host owns page gutters. */
+
+.connection-detail-dialog .normal-account-aliases { display:grid; gap:16px; margin-bottom:24px; }
+.connection-detail-dialog .normal-account-aliases > div { display:flex; align-items:center; justify-content:space-between; gap:16px; }
+.connection-detail-dialog .normal-account-aliases > div > span { min-width:0; overflow-wrap:anywhere; }
+.connection-detail-dialog .normal-account-aliases > div > button { flex-shrink:0; }
+.connection-detail-dialog .normal-account-aliases > section { display:grid; grid-template-columns:minmax(0,1fr); gap:12px; }
+.connection-detail-dialog .normal-account-aliases > section > :is(label,input,p) { margin:0; }
+.connection-detail-dialog .normal-account-aliases > section > input { width:100%; min-width:0; }
+.connection-detail-dialog .normal-account-aliases .provider-actions { display:flex; align-items:center; flex-wrap:wrap; gap:8px 16px; }
+.connection-detail-dialog .normal-account-aliases .provider-actions > button:first-child:not(:disabled) { color:var(--accent,#2bbf4a); }
+/* The existing Row header is portalled before the stable editor owner. */
+.connection-detail-dialog .connection-detail-header > .connection-row-title { margin-bottom:16px; }
+.connection-detail-dialog .connection-detail-content > .connection-row-embedded { margin:16px 0 0; padding:0; border:0; }
+.connection-detail-dialog .connection-detail-content > .normal-account-aliases { margin-bottom:0; }
+.connection-detail-dialog .connection-row-embedded > .connection-overview-line { display:none; }
+
+/* Explicit views replace native triangle disclosures. Owners remain mounted. */
+.connection-detail-dialog { width:min(600px,calc(100vw - 40px)); max-height:calc(100dvh - 48px); overflow-y:auto; }
+.connection-detail-dialog [hidden] { display:none !important; }
+.connection-detail-dialog .connection-paper-label { font-size:13px; color:var(--muted,#aaa); font-weight:400; }
+.connection-detail-navigation { display:flex; gap:24px; align-items:center; padding:0 0 12px; margin:24px 0 20px; border-bottom:1px solid var(--line,#303030); }
+.connection-detail-navigation > button { min-height:36px; padding:4px 0; font:inherit; color:var(--muted,#aaa); }
+.connection-detail-navigation > button[aria-pressed="true"] { color:var(--green,#2bbf4a); }
+.connection-detail-dialog .connection-info-view > section { margin:0 0 24px; padding:0; border:0; }
+.connection-detail-dialog .connection-info-view h4 { margin:0 0 12px; font-size:14px; font-weight:500; }
+.connection-detail-dialog .connection-info-view .connection-metadata { gap:8px 20px; }
+.connection-detail-dialog .normal-account-aliases > section > input { appearance:none; background:transparent; color:var(--bright,#e8e8e8); font:inherit; height:40px; line-height:1.5; padding:6px 0; border:0; border-bottom:1px solid var(--line,#444); border-radius:0; box-shadow:none; outline:none; }
+.connection-detail-dialog .normal-account-aliases > section > input:focus { border-bottom-color:var(--green,#2bbf4a); outline:none; box-shadow:none; }
+.connection-detail-dialog .normal-account-aliases .provider-actions { gap:8px 20px; }
+.connection-detail-dialog .account-selection { margin:16px 0 20px; }

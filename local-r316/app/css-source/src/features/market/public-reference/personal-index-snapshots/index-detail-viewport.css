@@ -1,0 +1,8 @@
+/* One existing dialog/chart owner; expansion does not reload or reset period/hover. */
+.personal-index-history-detail .index-history-chart-tools { display:flex; align-items:flex-start; justify-content:space-between; gap:16px; margin-bottom:24px; }
+.personal-index-history-detail .index-history-chart-tools > .reference-rate-periods { margin-bottom:0; min-width:0; }
+.personal-index-history-detail .index-history-chart-actions { display:flex; flex:none; align-items:center; gap:4px; }
+.reference-rate-details.personal-index-history-detail[data-expanded="true"] { box-sizing:border-box; width:calc(100vw - 24px); max-width:none; height:calc(100dvh - 24px); max-height:calc(100dvh - 24px); overflow:auto; }
+.reference-rate-details.personal-index-history-detail[data-expanded="true"] .reference-rate-detail-chart { width:100%; height:clamp(240px,calc(100dvh - 500px),800px); max-height:none; }
+.personal-index-history-detail .reference-rate-detail-chart path, .personal-index-history-detail .reference-rate-detail-chart line { vector-effect:non-scaling-stroke; }
+@media(max-width:680px) { .personal-index-history-detail .index-history-chart-tools { gap:8px; } }

@@ -1,0 +1,5 @@
+.market-named-panel { min-width:0; }
+.market-named-panel > .market-named-panel-toggle { appearance:none; display:inline-flex; align-items:center; max-width:100%; padding:4px 0; border:0; border-bottom:var(--hairline-width,1px) solid var(--hairline-color,var(--border)); border-radius:0; background:transparent; color:var(--text); font:inherit; text-align:start; cursor:pointer; }
+.market-named-panel > .market-named-panel-toggle:focus-visible { outline:2px solid var(--interaction-emphasis,var(--green)); outline-offset:3px; }
+.market-named-panel > .market-named-panel-content { margin-top:8px; min-width:0; }
+.market-named-panel > .market-named-panel-content[hidden] { display:none; }

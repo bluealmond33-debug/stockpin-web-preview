@@ -1,0 +1,4 @@
+.holding-diagnostics .holding-diagnostic-trigger{min-height:32px;padding:4px 0;border:0;background:transparent;color:var(--muted);font:inherit;text-align:left;cursor:pointer}
+.holding-diagnostics .holding-diagnostic-trigger[aria-expanded="true"]{color:var(--green)}
+.holding-diagnostics .holding-diagnostic-trigger:focus-visible{outline:2px solid var(--interaction-emphasis);outline-offset:3px}
+.holding-diagnostics [role="region"][hidden]{display:none}

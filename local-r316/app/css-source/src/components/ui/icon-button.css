@@ -1,0 +1,33 @@
+/* Shared geometry only; use the existing theme and AppIcon tokens. */
+button.shared-icon-button,
+.reference-rate-details > header button.shared-icon-button {
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+}
+button.shared-icon-button:is(:hover, :focus-visible) {
+  background: transparent;
+  color: var(--bright);
+}
+button.shared-icon-button:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
+}
+button.shared-icon-button:disabled {
+  cursor: not-allowed;
+  opacity: .55;
+}
+@media (max-width: 680px) {
+  button.shared-icon-button,
+.reference-rate-details > header button.shared-icon-button { width: 36px; height: 36px; }
+}

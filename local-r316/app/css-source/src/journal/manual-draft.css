@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: space-between;
   gap: 16px;
-  border-bottom: 1px solid var(--border-color, #3a3a3a);
+  border-bottom: 0;
 }
 .manual-journal-draft .manual-draft-toolbar p {
   margin: 0;

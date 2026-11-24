@@ -10,6 +10,10 @@
 .sentiment-dial-control:hover .sentiment-dial__scale,
 .sentiment-dial-control:focus-within .sentiment-dial__scale { opacity: 1; }
 .sentiment-dial__value { display: block; margin-top: 12px; font-size: 28px; line-height: 1.2; font-weight: 600; }
-.sentiment-dial-state { display: block; min-height: 22px; margin-top: 6px; font-size: 14px; font-weight: 600; }
+.sentiment-dial-state-row { display:flex; align-items:center; justify-content:center; gap:5px; margin-top:2px; min-height:22px; }
+.sentiment-dial-state { display: block; min-height: 22px; margin-top: 0; font-size: 14px; font-weight: 600; }
+.sentiment-dial-state-row .widget-metric-help-panel { text-align:left; font-weight:400; }
+.sentiment-dial-state[data-band="unconfirmed"] { color:var(--muted,#aaa); }
+.sentiment-dial__needle:not([stroke]) { stroke:var(--bright,#e5e7eb); }
 .sentiment-dial-state[data-band="unknown"] { color: var(--muted, #aaa); }
 @media (prefers-reduced-motion: reduce) { .sentiment-dial, .sentiment-dial * { animation: none; transition: none; } }

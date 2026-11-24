@@ -49,5 +49,9 @@ img.photo-bounded-image {
 }
 .photo-original-dialog .photo-original-scroll[data-original="true"] > img { max-width: none; max-height: none; margin: 0; }
 .journal-surface.manual-journal-draft .photo-expand,
-.photo-expand { min-height: 32px; padding: 4px 8px; border: 0; background: transparent; color: var(--muted); font: inherit; font-size: 12px; cursor: zoom-in; }
+.photo-expand { display:inline-flex; align-items:center; justify-content:center; width:32px; min-height:32px; padding:4px; border:0; background:transparent; color:var(--muted); font:inherit; cursor:zoom-in; }
+.journal-surface .photo-read-trigger,
+.rich-document-layout .photo-read-trigger { display:block; width:100%; min-width:0; min-height:0; margin:0; padding:0; border:0; border-radius:0; box-shadow:none; background:transparent; color:inherit; font:inherit; line-height:0; cursor:zoom-in; }
+.photo-read-trigger:focus-visible { outline:1px solid var(--green); outline-offset:4px; }
+.rich-image-editor .photo-bounded-figure[data-caption-empty="true"]:not(:focus-within)>figcaption{display:none}
 .photo-original-dialog .photo-original-actions > button { min-height: 44px; padding: 8px 12px; color: var(--text); background: var(--surface); border: 1px solid var(--border); font: inherit; }

@@ -1,0 +1,11 @@
+/* Use the real journal's font token; do not let its later textarea rule reset small to 16px. */
+.journal-surface.manual-journal-draft .writing-block.writing-block-small {
+  --writing-font: 14px;
+}
+/* Only the chosen body block shrinks; preserve normal size and full text contrast. */
+.writing-editor .writing-block.writing-block-small textarea,
+.writing-read-view p.writing-body-small {
+  font-size: .875em;
+  line-height: 1.8;
+  color: inherit;
+}

@@ -1,3 +1,4 @@
+/* Shared row geometry: market-unified-rows.css (imported by WebDemoMarketPanels). */
 .market-page .web-demo-market-caption { margin: 0 0 20px; color: var(--muted, #aaa); font-size: 13px; line-height: 1.5; }
 .market-page .web-demo-sentiment-comparisons { display: flex; flex-wrap: wrap; gap: 8px 20px; margin: 12px 0 0; font-size: 12px; line-height: 1.5; }
 .market-page .web-demo-sentiment-comparisons dt, .market-page .web-demo-sentiment-comparisons time { color: var(--muted, #aaa); }
@@ -107,6 +108,83 @@
 .market-session-dot { display: inline-block; width: 6px; height: 6px; border-radius: 50%; margin-right: 5px; background: #73849b; opacity: .45; }
 .market-session-dot[data-market-session="live"] { background: #ef625b; opacity: 1; }
 
-/* 6247: cap region/row stretch and wrap on actual section width. */
-.market-page[data-market-mode="public"] .public-market-indices .market-restoration-index-groups { grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); max-width: 824px; width: 100%; gap: 16px 24px; align-items: start; }
-.market-page[data-market-mode="public"] .public-market-indices .market-restoration-index-groups > div { max-width: 400px; min-width: 0; }
+/* One centered page frame; regions follow available content width, not viewport. */
+.market-page[data-market-mode="public"] { --market-row-min-height: 76px; }
+.market-page[data-market-mode="public"] .public-market-indices .market-restoration-index-groups { grid-template-columns: repeat(2, minmax(0, 1fr)); width: 100%; gap: 16px 32px; align-items: start; }
+.market-page[data-market-mode="public"] .public-market-indices .market-restoration-index-groups > div { min-width: 0; }
+@container public-market (max-width: 900px) {
+ .market-page[data-market-mode="public"] .public-market-indices .market-restoration-index-groups { grid-template-columns: minmax(0, 1fr); }
+}
+
+/* Shared row rhythm; minimum height may grow for readable wrapped content. */
+.market-page[data-market-mode="public"] .public-market-index-groups dl.web-demo-index-snapshots > div,
+.market-page[data-market-mode="public"] .reference-rates-table .reference-rates > div { box-sizing: border-box; min-height: var(--market-row-min-height); padding-block: 8px; row-gap: 4px; }
+.market-page[data-market-mode="public"] .public-market-index-groups .web-demo-index-snapshots dt { font-size: 16px; line-height: 24px; color: var(--bright, #e8e8e8); }
+.market-page[data-market-mode="public"] .public-market-index-groups .web-demo-index-snapshots dt > span { color: inherit; }
+.market-page[data-market-mode="public"] .public-market-index-groups .web-demo-index-snapshots .web-demo-index-quote { line-height: 24px; }
+.market-page[data-market-mode="public"] section.reference-rates-table .reference-rate-groups { grid-template-columns: repeat(2, minmax(0, 1fr)); max-width: none; gap: 20px 32px; }
+.market-page[data-market-mode="public"] .reference-rates-table .reference-rate-groups > .reference-rate-group { max-width: none; }
+.market-page[data-market-mode="public"] .reference-rates-table > .reference-rates-heading { margin-bottom: 24px; }
+@container public-market (max-width: 900px) {
+ .market-page[data-market-mode="public"] section.reference-rates-table .reference-rate-groups { grid-template-columns: minmax(0, 1fr); }
+}
+/* Rows without history reserve only the real favorite control. */
+.market-page[data-market-mode="public"] .public-market-index-groups dl.web-demo-index-snapshots > div { grid-template-columns: minmax(0, 1fr) auto; grid-template-areas: "name interest" "quote quote"; }
+.market-page[data-market-mode="public"] .public-market-index-groups .web-demo-index-snapshots .public-market-index-interest { grid-area: interest; }
+.market-page[data-market-mode="public"] .public-market-index-groups .web-demo-index-snapshots dd strong { font-size: 18px; font-weight: 400; color: var(--bright, #e8e8e8); }
+.market-page[data-market-mode="public"] .public-market-index-groups .web-demo-index-snapshots .web-demo-index-date { flex-basis: 100%; font-size: 13px; line-height: 1.5; white-space: normal; font-variant-numeric: tabular-nums; color: var(--muted, #a7a7a7); }
+
+/* Real-history rows alone opt into a mini chart; quote/date hierarchy stays full width. */
+.market-page[data-market-mode="public"] .public-market-index-groups dl.web-demo-index-snapshots > div:has(.personal-index-history-mini) { grid-template-columns: minmax(0, 1fr) 80px auto; grid-template-areas: "name trend interest" "quote quote quote"; column-gap: 8px; }
+.market-page[data-market-mode="public"] .public-market-index-groups .web-demo-index-snapshots dd.personal-index-history-mini { grid-area: trend; }
+.market-page[data-market-mode="public"] .web-demo-index-snapshots .personal-index-history-mini svg { height: 32px; }
+.market-page .personal-index-history-mini button { display: block; padding: 0; border: 0; background: transparent; color: inherit; cursor: pointer; }
+.market-page .personal-index-history-mini circle { fill: currentColor; }
+.personal-index-history-mini button:focus-visible, .personal-index-history-detail svg:focus-visible { outline: 2px solid var(--green, #49ae78); outline-offset: 3px; }
+.personal-index-history-detail .personal-index-history-baseline { stroke: var(--muted, #a7a7a7); stroke-width: 1; }
+.personal-index-history-detail .personal-index-history-tooltip { display: block; min-height: 24px; font-size: 14px; font-variant-numeric: tabular-nums; }
+.personal-index-history-detail .personal-index-history-axis { display: flex; justify-content: space-between; padding: 0 24px; font-size: 12px; color: var(--muted, #aaa); }
+.personal-index-history-detail [data-direction="gain"] { color: var(--gain, #e05a5a); }
+.personal-index-history-detail [data-direction="loss"] { color: var(--loss, #5a7fe0); }
+.personal-index-history-detail svg circle { fill: currentColor; }
+.personal-index-history-detail .reference-rate-periods { flex-wrap: wrap; }
+.personal-index-history-detail .reference-rate-periods button:disabled { opacity: .45; cursor: not-allowed; }
+
+/* Actual index histories only; never style the header X or FX canvas. */
+.market-page .personal-index-history-mini path.personal-index-history-curve,
+.market-page .personal-index-history-mini path.personal-index-history-bridge,
+.personal-index-history-detail .reference-rate-detail-chart path.personal-index-history-curve,
+.personal-index-history-detail .reference-rate-detail-chart path.personal-index-history-bridge { fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.personal-index-history-detail .reference-rate-detail-chart path.personal-index-history-curve { stroke-width: 2; }
+.market-page .personal-index-history-mini path.personal-index-history-bridge,
+.personal-index-history-detail .reference-rate-detail-chart path.personal-index-history-bridge { stroke-width: 1; stroke-dasharray: 3 4; }
+
+
+
+
+/* Legacy ticker hierarchy: quote first, generous plot, details in the existing help. */
+.reference-rate-details.personal-index-history-detail { box-sizing:border-box; width:min(980px,calc(100vw - 48px)); max-width:980px; max-height:calc(100dvh - 48px); padding:32px; }
+.reference-rate-details.personal-index-history-detail > header.index-history-header { display:grid; grid-template-columns:minmax(0,1fr) auto auto auto; align-items:start; gap:12px; margin-bottom:32px; }
+.personal-index-history-detail .index-history-name { min-width:0; }
+.personal-index-history-detail .index-history-name > span { color:var(--muted); font-size:14px; }
+.personal-index-history-detail .index-history-name h2 { font-size:30px; line-height:1.3; font-weight:400; margin:4px 0 0; }
+.personal-index-history-detail .index-history-quote { display:flex; flex-direction:column; align-items:flex-end; gap:6px; font-variant-numeric:tabular-nums; }
+.personal-index-history-detail .index-history-quote-value { font-size:36px; line-height:1.2; font-weight:400; color:var(--bright); }
+.personal-index-history-detail .index-history-period-change { font-size:16px; }
+.personal-index-history-detail .index-history-period-change > span { font-size:12px; color:var(--muted); }
+.personal-index-history-detail .index-history-quote small { font-size:13px; color:var(--muted); }
+.personal-index-history-detail .reference-rate-periods { margin:0 0 24px; }
+.personal-index-history-detail .index-history-range { display:flex; flex-direction:column; gap:4px; margin-bottom:16px; color:var(--muted); font-size:14px; }
+.personal-index-history-detail .index-history-range strong { color:var(--text); font-weight:500; }
+.personal-index-history-detail .reference-rate-detail-chart { display:block; width:100%; height:auto; max-height:none; }
+.personal-index-history-detail .reference-rate-detail-chart circle { opacity:0; }
+.personal-index-history-detail .reference-rate-detail-chart circle[data-active="true"] { opacity:1; }
+.personal-index-history-detail .personal-index-history-baseline { opacity:.45; }
+.personal-index-history-detail .reference-detail-values { margin-top:24px; }
+@media(max-width:680px) {
+ .reference-rate-details.personal-index-history-detail { width:calc(100vw - 24px); max-height:calc(100dvh - 24px); padding:16px; }
+ .reference-rate-details.personal-index-history-detail > header.index-history-header { grid-template-columns:minmax(0,1fr) auto auto; gap:8px; margin-bottom:24px; }
+ .personal-index-history-detail .index-history-quote { grid-row:2; grid-column:1/-1; align-items:flex-start; margin-top:8px; }
+ .personal-index-history-detail .index-history-name h2 { font-size:24px; }
+ .personal-index-history-detail .index-history-quote-value { font-size:30px; }
+}

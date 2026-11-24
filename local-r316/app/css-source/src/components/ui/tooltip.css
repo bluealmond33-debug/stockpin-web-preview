@@ -1,0 +1,12 @@
+/* Keep .icon-tooltip's existing colors, typography, border and padding. */
+.icon-tooltip.shared-icon-tooltip {
+  display: block;
+  position: fixed;
+  right: auto;
+  bottom: auto;
+  box-sizing: border-box;
+  width: max-content;
+  pointer-events: none;
+  border-color: var(--green);
+  overflow-wrap: anywhere;
+}

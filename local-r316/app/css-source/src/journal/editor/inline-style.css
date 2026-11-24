@@ -1,0 +1,3 @@
+/* The installed journal faces are upright-only. Permit synthesized italics
+   for explicit emphasis only; keep global synthetic weights disabled. */
+.writing-read-view em { font-synthesis: style; }
