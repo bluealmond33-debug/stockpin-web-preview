@@ -1,5 +1,5 @@
 import {transition} from './shell.mjs';
-import {initialRect,clampRect,expandedRect,moveRect,resizeRect,centerRect} from './geometry.mjs';
+import {initialRect,clampRect,expandedRect,moveRect,resizeRect,centerRect} from './geometry.mjs?v=guide-center-61';
 const frame=document.querySelector('.preview-window');
 frame.dataset.desktopEngine='20b';
 const restore=document.querySelector('.preview-restore');
