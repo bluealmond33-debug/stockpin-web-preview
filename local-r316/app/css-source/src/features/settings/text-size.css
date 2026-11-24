@@ -1,0 +1,12 @@
+html[data-ui-text-size]{--ui-font-scale:1}html[data-ui-text-size="small"]{--ui-font-scale:0.9285714285714286}html[data-ui-text-size="large"]{--ui-font-scale:1.1428571428571428}
+.currency-setting{display:flex;align-items:center;gap:8px}
+.text-size-choices{display:flex;align-items:center;gap:20px}
+.text-size-choices button{background:transparent;border:0;padding:4px 0;min-height:36px;color:var(--muted);font:inherit}
+.text-size-choices button[aria-pressed="true"]{color:var(--green)}
+.text-size-setting small{display:block;color:var(--muted);margin-top:6px}
+.app-shell :is(button,a[href],[role="button"]):not(:disabled):is(:hover,:focus-visible),.settings-dialog button:not(:disabled):is(:hover,:focus-visible){color:var(--green)}
+
+.app-shell :is(button,a[href],[role="button"]):not(:disabled),.settings-dialog button:not(:disabled){transition:color 140ms ease,border-color 140ms ease,opacity 140ms ease}
+:is(.window-toolbar,.sidebar) button>.app-icon{transition:transform 140ms ease,color 140ms ease}
+:is(.window-toolbar,.sidebar) button:not(:disabled):is(:hover,:focus-visible)>.app-icon{color:var(--green);transform:translateY(-1px)}
+@media(prefers-reduced-motion:reduce){.app-shell :is(button,a[href],[role="button"]),.settings-dialog button,:is(.window-toolbar,.sidebar) button>.app-icon{transition:none}:is(.window-toolbar,.sidebar) button:is(:hover,:focus-visible)>.app-icon{transform:none}}

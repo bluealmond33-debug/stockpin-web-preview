@@ -6,8 +6,9 @@
 .workspace-tab-strip{display:flex;align-items:stretch;align-self:stretch;min-width:0;overflow-x:auto;overflow-y:hidden;gap:0;scrollbar-width:none;overscroll-behavior-x:contain;}
 .workspace-tab-strip::-webkit-scrollbar{display:none;}
 .workspace-tab{position:relative;display:flex;align-items:center;flex:0 0 var(--workspace-tab-width);width:var(--workspace-tab-width);min-width:0;padding:0 8px 0 16px;gap:8px;border-bottom:var(--hairline-strong-width,2px) solid transparent;box-sizing:border-box;}
-.workspace-tab::before{content:"";position:absolute;inset:6px 0 -2px;pointer-events:none;border:var(--hairline-width,1px) solid var(--hairline-color);border-bottom:0;border-radius:8px 8px 0 0;background:transparent;opacity:1;}
-.workspace-tab[data-active=true]::before{opacity:1;background:var(--bg);}
+.workspace-tab::before{content:"";position:absolute;inset:0 0 -1px;pointer-events:none;border:var(--hairline-width,1px) solid var(--hairline-color);border-bottom:0;border-radius:8px 8px 0 0;background:transparent;opacity:1;}
+.workspace-tab:not([data-active=true])::before{content:none}
+.workspace-tab[data-active=true]::before{opacity:1;background:var(--workspace-tab-active,#080808);border:0}
 .workspace-tab>button{position:relative;z-index:1;}
 .workspace-tab::after{content:"";position:absolute;right:0;top:50%;height:16px;opacity:0;transform:translateY(-50%);border-right:var(--hairline-width,1px) solid var(--hairline-color);pointer-events:none;transition:opacity 140ms ease;}
 .workspace-tab:last-child::after,.workspace-tab[data-active=true]::after,.workspace-tab:has(+ .workspace-tab[data-active=true])::after,.workspace-tab:hover::after{opacity:0;}
@@ -16,7 +17,7 @@
 .workspace-tab-select>svg{flex-shrink:0;}
 .workspace-tab-select span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;transition:transform 140ms ease;}
 .workspace-tab[data-active=true] .workspace-tab-select{color:var(--green);font-weight:400;}
-.workspace-tab:not([data-active=true]):is(:hover,:focus-within) .workspace-tab-select{color:var(--bright);}
+.workspace-tab:not([data-active=true]):is(:hover,:focus-within) .workspace-tab-select{color:var(--green);}
 .workspace-tab .workspace-tab-select:is(:hover,:focus-visible) span{transform:translateY(-1px);}
 .workspace-tab .workspace-tab-select:focus-visible{outline:var(--hairline-strong-width,2px) solid var(--green);outline-offset:-5px;}
 .workspace-tab .shared-icon-button{flex:0 0 32px;width:32px;height:32px;min-height:32px;opacity:0;transition:opacity 140ms ease,color 140ms ease;}
@@ -30,3 +31,6 @@
 @media(max-width:680px){.workspace-tab{padding-left:12px;gap:4px;}.workspace-tab .workspace-tab-select{max-width:136px;gap:8px;}}
 @media(hover: none){.workspace-tab .shared-icon-button{opacity:1;}}
 @media(prefers-reduced-motion:reduce){.workspace-tab::after,.workspace-tab .workspace-tab-select,.workspace-tab-select span,.workspace-tab .shared-icon-button{transition:none;}.workspace-tab .workspace-tab-select:is(:hover,:focus-visible) span{transform:none;}}
+
+.workspace-tab[data-active=true]::after{inset:auto 1px -1px;height:2px;opacity:1;background:var(--workspace-tab-active,#080808);border:0;transform:none}
+:root[data-theme="light"]{--workspace-tab-active:var(--bg)}

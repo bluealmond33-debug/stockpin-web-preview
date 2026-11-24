@@ -1,5 +1,5 @@
 import {transition} from './shell.mjs';
-import {initialRect,clampRect,expandedRect,moveRect,resizeRect,centerRect} from './geometry.mjs?v=guide-center-61';
+import {initialRect,clampRect,expandedRect,moveRect,resizeRect,centerRect} from './geometry.mjs?v=app-system-69';
 const frame=document.querySelector('.preview-window');
 frame.dataset.desktopEngine='20b';
 const restore=document.querySelector('.preview-restore');
@@ -13,7 +13,7 @@ function stopSettling(){ clearTimeout(settleTimer); document.body.classList.remo
 const strip=document.createElement('button');
 strip.type='button';strip.className='desktop-drag-strip';
 strip.setAttribute('aria-label','앱 창 이동 · 방향키로 이동, 두 번 클릭하여 확대 또는 복귀');
-strip.title='창 이동 · 방향키 / 두 번 클릭하여 확대';
+strip.setAttribute('aria-description','방향키로 이동 · 두 번 클릭하여 확대');
 frame.append(strip);
 const handles=[];
 for(const direction of ['n','ne','e','se','s','sw','w','nw']){
@@ -22,7 +22,7 @@ for(const direction of ['n','ne','e','se','s','sw','w','nw']){
  if(direction==='se'){
   handle.type='button';handle.setAttribute('aria-label','앱 창 크기 조절');
   handle.setAttribute('aria-description','좌우 방향키: 너비, 위아래 방향키: 높이. Shift 키: 크게 조절.');
-  handle.title='창 크기 조절 · 방향키 (Shift: 크게)';
+  handle.setAttribute('aria-description','방향키로 크기 조절 · Shift로 크게 조절');
  }else handle.setAttribute('aria-hidden','true');
  frame.append(handle);handles.push(handle);
 }
@@ -34,7 +34,7 @@ function paint(){
  strip.disabled=state!=='open'&&state!=='expanded';
  for(const h of handles)h.hidden=state!=='open';
  expand.setAttribute('aria-pressed',String(state==='expanded'));
- expand.setAttribute('aria-label',state==='expanded'?'프리뷰 원래 크기':'프리뷰 확대');expand.title=expand.getAttribute('aria-label');
+ expand.setAttribute('aria-label',state==='expanded'?'프리뷰 원래 크기':'프리뷰 확대');
  caption.style.width=`${rect.width}px`;
  if(!hidden)reserve=Math.max(64,caption.getBoundingClientRect().height+24);
  normal=clampRect(normal,viewport(),reserve);

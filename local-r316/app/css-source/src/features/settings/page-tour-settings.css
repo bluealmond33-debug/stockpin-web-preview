@@ -20,3 +20,5 @@
 @media (max-width: 650px) {
   .settings-dialog .page-tour-settings { grid-template-columns: minmax(0, 1fr); gap: 8px; }
 }
+
+.page-tour-all{grid-column:1/-1;justify-self:start}
