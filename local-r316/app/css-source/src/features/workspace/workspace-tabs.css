@@ -4,7 +4,7 @@
 .window-toolbar:has(.workspace-tabs)::after{content:none}
 .window-toolbar:has(.workspace-tabs) .window-drag-region{flex:0 0 24px}
 .window-toolbar>.sidebar-toggle,.window-toolbar>.window-compose,.window-toolbar>.workspace-compose-menu>.window-compose{background:transparent;border:0;border-radius:0;box-shadow:none;flex-shrink:0}
-.workspace-tabs{--workspace-tab-width:clamp(136px,18cqw,190px);container-type:inline-size;display:flex;align-items:flex-end;align-self:stretch;flex:1 1 0;min-width:0;padding-top:4px;gap:0}
+.workspace-tabs{--workspace-tab-width:clamp(128px,16cqw,168px);container-type:inline-size;display:flex;align-items:flex-end;align-self:stretch;flex:1 1 0;min-width:0;padding-top:4px;gap:0}
 .workspace-tab-strip{display:flex;align-items:stretch;align-self:stretch;min-width:0;overflow-x:auto;overflow-y:hidden;gap:0;scrollbar-width:none;overscroll-behavior-x:contain;padding-inline:8px}
 .workspace-tab-strip::-webkit-scrollbar{display:none}
 .workspace-tab{position:relative;display:flex;align-items:center;flex:0 0 var(--workspace-tab-width);width:var(--workspace-tab-width);min-width:0;padding:0 8px 0 14px;gap:6px;border:0;border-radius:8px 8px 0 0;box-sizing:border-box;background:transparent}

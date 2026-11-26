@@ -102,3 +102,18 @@
 .connections-web-demo .connection-detail-account > .connection-account-edit { flex:none; min-height:36px; margin-left:12px; display:inline-flex; align-items:center; gap:6px; }
 .connections-web-demo .connection-error-examples > div[hidden] { display:none; }
 .connections-web-demo .connection-error-examples > button { min-height:36px; padding:4px 0; }
+
+
+/* Web presentation only: preserve brokerage words, full aliases and masks. */
+.connections-web-demo .provider-grid-compact .provider-grid-name,
+.connections-web-demo .connection-service-name,
+.connections-web-demo .connection-modal-provider {
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+  white-space: normal;
+}
+.connections-web-demo .provider-grid-compact .provider-grid-accounts {
+  white-space: normal;
+  overflow-wrap: anywhere;
+  text-overflow: clip;
+}

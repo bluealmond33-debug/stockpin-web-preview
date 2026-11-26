@@ -1,5 +1,13 @@
 @import url("./theme.css");
 
+/* Shared desktop geometry: text roles and explicit 44px hits stay independent. */
+:root {
+  --window-toolbar-height: 40px;
+  --app-sidebar-width: 156px;
+  --app-rail-width: 52px;
+  --app-nav-height: 40px;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -175,6 +183,7 @@ select {
   letter-spacing: -0.025em;
 }
 .nav-item {
+  font-size: 13px;
   display: flex;
   align-items: center;
   gap: 12px;
@@ -300,7 +309,7 @@ select {
 }
 main {
   --page-inline-gutter: var(--space-8);
-  padding: 24px var(--page-inline-gutter) 0;
+  padding: 12px var(--page-inline-gutter) 0;
   max-width: calc(var(--workspace-body-width, 1200px) + 2 * var(--page-inline-gutter));
   margin: auto;
   scroll-margin-top: calc(var(--window-toolbar-height) + 8px);
@@ -311,7 +320,7 @@ main.settings-page {
 /* 1484: one spacing language, widths appropriate to the content's role.
    Own the outer gutter once; children retain their existing internal spacing. */
 .workspace > :is(main[data-page], .workspace-breadcrumbs) {
-  --page-inline-gutter: clamp(var(--space-4), 3vw, var(--space-8));
+  --page-inline-gutter: clamp(var(--space-4), 2.5vw, var(--space-6));
   --workspace-body-width: 960px;
   width: 100%;
   min-width: 0;
@@ -350,7 +359,7 @@ main.settings-page {
 .workspace > main[data-page="overview"],
 .workspace:has(> main[data-page="overview"]) > .workspace-breadcrumbs {
   --workspace-body-width: 1080px;
-  --page-inline-gutter: clamp(24px, 3vw, 48px);
+  --page-inline-gutter: clamp(16px, 2vw, 24px);
 }
 
 .page-title {
@@ -358,11 +367,11 @@ main.settings-page {
   align-items: center;
   justify-content: flex-start;
   gap: 16px;
-  margin-bottom: 12px;
-  min-height: 48px;
+  margin-bottom: 4px;
+  min-height: 44px;
 }
 .page-title h1 {
-  font: 400 22px/1.3 var(--title-font);
+  font: 400 18px/1.3 var(--title-font);
   color: var(--bright);
   letter-spacing: -0.02em;
 }
@@ -542,7 +551,7 @@ main.settings-page {
   color: var(--muted);
   min-height: 36px;
   padding: 6px 0;
-  font-size: 14px;
+  font-size: 13px;
 }
 .text-button:is(:hover, :focus-visible) {
   color: var(--bright);
@@ -587,28 +596,28 @@ main.settings-page {
   font-size: 14px;
   white-space: nowrap;
 }
-.dashboard-grid {
+.dashboard-grid[data-read-error]:has(> .dashboard-main) {
   display: grid;
-  grid-template-columns: minmax(0, 2fr) minmax(260px, 1fr);
-  column-gap: 32px;
+  grid-template-columns: minmax(0, 1fr) 272px;
+  column-gap: 16px;
 }
 .dashboard-main,
 .dashboard-aside {
   min-width: 0;
 }
-.dashboard-aside {
+.dashboard-grid[data-read-error] > .dashboard-aside {
   border-left: 1px solid var(--border);
-  padding-left: 32px;
+  padding-left: 16px;
 }
 .section-heading {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 12px;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 .section-heading h2 {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   color: var(--bright);
   display: flex;
@@ -688,7 +697,7 @@ main.settings-page {
 .holdings-section {
   position: relative;
   border-top: 0;
-  padding: 24px 0;
+  padding: 12px 0;
 }
 .holdings-section .section-heading {
   margin-bottom: 8px;
@@ -721,7 +730,7 @@ table {
   width: 100%;
   border-collapse: collapse;
   white-space: nowrap;
-  font-size: 16px;
+  font-size: 13px;
 }
 th {
   font-size: 14px;
@@ -1670,31 +1679,24 @@ footer {
     transform: rotate(360deg);
   }
 }
-@media (max-width: 1360px) {
-  [data-web-preview="true"] .dashboard-grid {
+/* Overview only: preserve a readable main lane and 256px widget interior.
+   Below 801px use normal document flow; connections keep their 1100px rule. */
+@media (max-width: 800px) {
+  .dashboard-grid[data-read-error]:has(> .dashboard-main) {
     grid-template-columns: minmax(0, 1fr);
   }
-  [data-web-preview="true"] .dashboard-aside {
+  .dashboard-grid[data-read-error] > .dashboard-aside {
     border-left: 0;
     padding-left: 0;
     border-top: 1px solid var(--border);
   }
 }
 @media (max-width: 1100px) {
-  .dashboard-grid,
   .connections-layout {
     grid-template-columns: minmax(0, 1fr);
   }
   .connections-layout .provider-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-  .dashboard-aside {
-    border-left: 0;
-    padding-left: 0;
-    border-top: 1px solid var(--border);
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-    gap: 32px;
   }
   .connections-mini {
     border-top: 0;
@@ -1705,7 +1707,7 @@ footer {
 }
 @media (max-width: 850px) {
   .sidebar {
-    width: 72px;
+    width: var(--app-rail-width);
     padding: 24px 8px;
   }
   .nav-item > span,
@@ -1717,12 +1719,12 @@ footer {
     padding: 12px;
   }
   .workspace {
-    margin-left: 72px;
-    width: calc(100% - 72px);
+    margin-left: var(--app-rail-width);
+    width: calc(100% - var(--app-rail-width));
   }
   main {
     --page-inline-gutter: var(--space-6);
-    padding: 24px var(--page-inline-gutter) 0;
+    padding: 12px var(--page-inline-gutter) 0;
   }
   .demo-banner {
     padding: 8px 24px;
@@ -1735,7 +1737,7 @@ footer {
     font-size: 12px;
   }
   .page-title h1 {
-    font-size: 20px;
+    font-size: 18px;
   }
   .data-environment > span {
     display: none;
@@ -1764,7 +1766,7 @@ footer {
   }
   main {
     --page-inline-gutter: var(--space-4);
-    padding: 20px var(--page-inline-gutter) 0;
+    padding: 12px var(--page-inline-gutter) 0;
   }
   .page-title {
     align-items: flex-start;
@@ -1966,28 +1968,28 @@ button:focus-visible > .icon-tooltip {
   overflow: visible;
 }
 .app-shell.sidebar-expanded {
-  --sidebar-expanded-width: 176px;
+  --sidebar-expanded-width: var(--app-sidebar-width);
 }
 .app-shell.sidebar-expanded .sidebar {
   width: var(--sidebar-expanded-width);
 }
 .app-shell.sidebar-collapsed .sidebar {
-  width: 72px;
+  width: var(--app-rail-width);
 }
 .app-shell.sidebar-expanded .workspace {
   margin-left: var(--sidebar-expanded-width);
   width: calc(100% - var(--sidebar-expanded-width));
 }
 .app-shell.sidebar-collapsed .workspace {
-  margin-left: 72px;
-  width: calc(100% - 72px);
+  margin-left: var(--app-rail-width);
+  width: calc(100% - var(--app-rail-width));
 }
 .app-shell .sidebar .brand {
   position: absolute;
-  top: 28px;
-  left: 24px;
+  top: 20px;
+  left: 20px;
   padding: 0;
-  width: 160px;
+  width: 124px;
 }
 .sidebar-toggle {
   /* Reset asymmetric WebKit native padding while keeping the 44px hit area. */
@@ -2007,7 +2009,7 @@ button:focus-visible > .icon-tooltip {
 }
 .app-shell .sidebar nav {
   display: block;
-  margin-top: 64px;
+  margin-top: 52px;
 }
 .brand-local {
   display: block;
@@ -2031,15 +2033,17 @@ button:focus-visible > .icon-tooltip {
 .app-shell .nav-item {
   position: relative;
   display: grid;
-  grid-template-columns: 72px max-content minmax(0, 1fr);
+  grid-template-columns: var(--app-rail-width) max-content minmax(0, 1fr);
   align-items: center;
   justify-content: initial;
   gap: 0;
-  min-height: 44px;
+  min-height: var(--app-nav-height);
   padding: 0;
   margin: 0;
 }
 .app-shell .nav-item > .app-icon {
+  width: 18px;
+  height: 18px;
   justify-self: center;
 }
 .app-shell .nav-item > .nav-label {
@@ -2073,8 +2077,8 @@ button:focus-visible > .icon-tooltip {
 .app-shell .nav-item.active::before {
   content: "";
   position: absolute;
-  left: 12px;
-  top: 14px;
+  left: 8px;
+  top: calc((var(--app-nav-height) - 20px) / 2);
   width: var(--hairline-strong-width);
   height: 20px;
   background: var(--green);
@@ -2119,7 +2123,7 @@ button:focus-visible > .icon-tooltip {
 .local-settings-trigger {
   position: relative;
   display: grid;
-  grid-template-columns: 72px 1fr;
+  grid-template-columns: var(--app-rail-width) 1fr;
   align-items: center;
   width: 100%;
   min-height: 44px;
@@ -2128,6 +2132,8 @@ button:focus-visible > .icon-tooltip {
   color: var(--muted);
 }
 .local-settings-trigger > .app-icon {
+  width: 18px;
+  height: 18px;
   justify-self: center;
 }
 .local-settings-trigger:is(:hover, :focus-visible) {
@@ -2202,8 +2208,8 @@ button:focus-visible > .icon-tooltip {
 @media (max-width: 600px) {
   /* Supplemental browser width; native minimum remains 800px. */
   .app-shell.sidebar-expanded .workspace {
-    margin-left: 72px;
-    width: calc(100% - 72px);
+    margin-left: var(--app-rail-width);
+    width: calc(100% - var(--app-rail-width));
   }
 }
 
@@ -2319,3 +2325,15 @@ button:focus-visible > .icon-tooltip {
 .instrument .instrument-icon .stock-type-label {font-size:10px;font-weight:700;line-height:1;letter-spacing:-0.2px;color:var(--text);}
 
 .app-shell .nav-item.active:is(:hover, :focus-visible) { color:var(--green); font-weight:400; }
+
+/* 낮은 창에서 메뉴만 스크롤하고 설정의 기존 hit 영역을 보존한다. */
+@media (max-height: 400px) {
+  .app-shell .sidebar nav {
+    min-height: 0;
+    flex: 0 1 auto;
+    overflow-y: auto;
+  }
+  .app-shell .sidebar .sidebar-local {
+    flex-shrink: 0;
+  }
+}

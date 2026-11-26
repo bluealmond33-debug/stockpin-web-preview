@@ -1,21 +1,21 @@
 /* Writing is the primary surface; storage tools stay available on demand. */
 .journal-surface.manual-journal-draft .journal-note-metadata { display:flex; align-items:center; flex-wrap:wrap; gap:4px 16px; min-height:36px; margin:0 0 12px; font-size:12px; line-height:20px; color:var(--muted); }
 .journal-surface.manual-journal-draft .journal-note-metadata time { font-size:inherit; }
-.journal-surface.manual-journal-draft :is(.writing-saved-text,[aria-label="사진 근거 기록"]) > h2 { font-family:var(--title-font); font-size:36px; font-weight:650; line-height:1.3; letter-spacing:-.025em; margin:24px 0 12px; }
-.journal-surface.manual-journal-draft .manual-draft-fields > div:first-child > input { font-family:var(--title-font); font-size:36px; font-weight:650; line-height:1.3; letter-spacing:-.025em; }
+.journal-surface.manual-journal-draft :is(.writing-saved-text,[aria-label="사진 근거 기록"]) > h2 { font-family:var(--title-font); font-size:24px; font-weight:650; line-height:1.4; letter-spacing:-.025em; margin:8px 0; min-width:0; overflow-wrap:anywhere; white-space:pre-wrap; }
+.journal-surface.manual-journal-draft .manual-draft-fields > div:first-child > input { font-family:var(--title-font); font-size:24px; font-weight:650; line-height:1.4; letter-spacing:-.025em; }
 .journal-surface.manual-journal-draft :is(.writing-saved-text,[aria-label="사진 근거 기록"]) .writing-read-view { margin:0; }
 .journal-surface.manual-journal-draft [aria-label="사진 근거 기록"] .rich-document-layout > .writing-read-view { margin-bottom:24px; }
 .journal-surface.manual-journal-draft .writing-read-view p { margin:0 0 12px; }
 .journal-surface.manual-journal-draft [aria-label="사진 근거 기록"] > figure { margin-block:24px; }
 
 .journal-surface.manual-journal-draft:not(.manual-calendar-browsing) { max-width: calc(var(--journal-prose-width, 864px) + 56px); margin-inline:auto; }
-.manual-journal-draft .manual-draft-commands { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:8px; margin-bottom:16px; padding-inline-start:56px; box-sizing:border-box; }
+.manual-journal-draft .manual-draft-commands { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:6px; margin-bottom:8px; padding-inline-start:56px; box-sizing:border-box; }
 .manual-journal-draft .manual-draft-toolbar { display:flex; align-items:center; gap:8px; margin:0; border:0; }
 .manual-journal-draft .manual-draft-toolbar p { margin:0; font-size:13px; color:var(--muted); }
 .manual-journal-draft .manual-save-actions { display:flex; align-items:center; justify-content:flex-end; flex:1; min-width:0; gap:12px; }
 .manual-journal-draft .manual-save-actions > time { font-size:12px; line-height:20px; color:var(--muted); white-space:nowrap; }
-.journal-surface.manual-journal-draft .writing-edit-metadata { margin-bottom:24px; column-gap:8px; }
-.journal-surface.manual-journal-draft .journal-note-metadata { margin-bottom:24px; }
+.journal-surface.manual-journal-draft .writing-edit-metadata { margin-bottom:8px; column-gap:8px; }
+.journal-surface.manual-journal-draft .journal-note-metadata { margin-bottom:8px; }
 .manual-journal-draft .manual-save-actions > .journal-icon-action,.manual-journal-draft .manual-save-actions > .manual-journal-menu { flex:0 0 40px; }
 .manual-journal-draft .manual-journal-menu > .editor-popover-trigger { width:40px; height:40px; min-height:40px; }
 .manual-journal-draft .manual-menu-help { margin:8px 0 0; color:var(--muted); font-size:12px; line-height:1.6; }
@@ -30,7 +30,7 @@
 .manual-journal-draft .manual-editor-content[hidden], .journal-surface.manual-calendar-browsing .manual-draft-commands { display:none; }
 .manual-journal-draft .writing-menu { flex-wrap:nowrap; }
 .manual-journal-draft .writing-block textarea:focus-visible { outline:0; box-shadow:none; }
-.manual-journal-draft [aria-label="사진 근거 기록"] > h2, .manual-journal-draft .writing-saved-text > h2 { font-size:32px; line-height:1.4; margin:16px 0 10px; }
+.manual-journal-draft [aria-label="사진 근거 기록"] > h2, .manual-journal-draft .writing-saved-text > h2 { font-size:24px; line-height:1.4; margin:8px 0; }
 .manual-journal-draft .writing-read-view { white-space:pre-wrap; line-height:1.8; margin:24px 0; }
 .manual-journal-draft .writing-read-view p { margin:0 0 14px; }
 .manual-journal-draft .writing-read-view h2 { font-size:24px; }
@@ -47,7 +47,7 @@
 .manual-journal-draft .manual-draft-fields > div:first-child { margin:24px 0 4px; }
 .manual-journal-draft .manual-draft-fields > div:first-child > label,
 .manual-journal-draft .manual-editor-content > label { position:absolute; width:1px; height:1px; overflow:hidden; clip-path:inset(50%); }
-.journal-surface.manual-journal-draft .manual-draft-fields > div:first-child > input { border:0; border-radius:0; background:transparent; padding:0; font-size:36px; line-height:1.3; min-height:0; height:1.3em; }
+.journal-surface.manual-journal-draft .manual-draft-fields > div:first-child > input { border:0; border-radius:0; background:transparent; padding:0; font-size:24px; line-height:1.4; min-height:0; height:1.5em; }
 .manual-journal-draft .manual-draft-fields > div:nth-child(2) { display:flex; align-items:center; gap:12px; margin-bottom:12px; }
 .manual-journal-draft .manual-draft-fields > div:nth-child(2) label { margin:0; font-size:13px; color:var(--muted); }
 .journal-surface.manual-journal-draft .manual-draft-fields > div:nth-child(2) input { width:130px; min-height:36px; padding:4px 0; border:0; background:transparent; font-size:14px; }
@@ -170,3 +170,17 @@
 
 /* Reading and editing use the same prose measure; the viewport supplies the gutters. */
 .journal-surface.workspace-records[aria-label="저장된 기록 읽기"] { width:100%; max-width:var(--journal-prose-width, 864px); margin-inline:auto; min-width:0; }
+
+/* Compact title chrome; the existing input and commands keep their semantics. */
+.journal-surface.manual-journal-draft .manual-draft-fields > .manual-title-field { position:relative; display:grid; grid-template-columns:minmax(0,1fr) auto; align-items:start; gap:4px 8px; min-width:0; margin:8px 0 0; }
+.journal-surface.manual-journal-draft .manual-title-field > input { grid-column:1; grid-row:1; box-sizing:border-box; min-width:0; width:100%; font-size:24px; }
+.journal-surface.manual-journal-draft .manual-title-field > .manual-title-actions { grid-column:2; grid-row:1; display:flex; flex-wrap:wrap; justify-content:flex-end; align-items:center; gap:2px; min-height:28px; margin:0; }
+.journal-surface.manual-journal-draft .manual-title-field > .manual-title-actions .editor-popover-trigger,
+.journal-surface.manual-journal-draft .manual-title-field > .manual-title-actions .journal-help-labelled-trigger { width:28px; min-width:28px; height:28px; min-height:28px; padding:4px; }
+.manual-title-field > .manual-title-actions .editor-trigger-text,
+.manual-title-field > .manual-title-actions .journal-help-labelled-trigger > span,
+.manual-title-field > .manual-title-actions .manual-title-emoji-remove > span { display:none; }
+.journal-surface.manual-journal-draft .manual-title-full { grid-column:1 / -1; min-width:0; margin:0; font-size:14px; line-height:1.45; color:var(--muted); white-space:pre-wrap; overflow-wrap:anywhere; }
+.manual-title-field > [role="alert"] { grid-column:1 / -1; }
+.manual-journal-draft .manual-draft-commands .journal-icon-action { width:32px; height:32px; min-height:32px; padding:6px; }
+.manual-journal-draft .manual-draft-toolbar { min-height:32px; }

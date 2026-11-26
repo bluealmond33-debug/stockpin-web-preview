@@ -3,13 +3,13 @@
 .journal-surface .manual-record-calendar button:focus-visible,.manual-record-calendar select:focus-visible { outline:2px solid var(--green); outline-offset:3px; }
 .journal-surface .manual-record-calendar button:hover:not(:disabled),.journal-surface .manual-record-calendar button:focus-visible,.journal-surface .manual-record-calendar button[aria-pressed="true"] { color:var(--green); }
 .manual-record-calendar svg { width:20px; height:20px; fill:none; stroke:currentColor; stroke-width:1.75; flex-shrink:0; }
-.journal-surface .manual-record-calendar .diary-toolbar { display:flex; align-items:center; flex-wrap:wrap; gap:8px; margin:0; padding:4px 0; justify-content:flex-start; }
+.journal-surface .manual-record-calendar .diary-toolbar { display:flex; align-items:center; flex-wrap:wrap; gap:8px; margin:0; padding:0; justify-content:flex-start; }
 .diary-month-navigation { display:flex; align-items:center; flex-wrap:wrap; flex:0 1 auto; min-width:0; max-width:100%; gap:4px; }
-.journal-surface .diary-month-navigation > button { width:44px; height:44px; padding:8px; }
-.diary-month-navigation svg { width:26px; height:26px; }
+.journal-surface .diary-month-navigation > button { width:36px; height:36px; padding:6px; }
+.diary-month-navigation svg { width:20px; height:20px; }
 .journal-surface .manual-record-calendar select { font:inherit; background:var(--bg); color:var(--text); border:0; border-radius:0; padding:8px; min-height:44px; }
 .journal-surface .diary-month-navigation select { font-size:16px; font-weight:400; }
-.journal-surface .diary-toolbar > button { display:inline-flex; align-items:center; justify-content:center; min-width:44px; min-height:44px; gap:8px; padding:8px; }
+.journal-surface .diary-toolbar > button { display:inline-flex; align-items:center; justify-content:center; min-width:36px; min-height:36px; gap:6px; padding:6px; }
 .journal-surface .diary-toolbar .manual-diary-search { margin:0; display:flex; align-items:center; gap:8px; width:168px; border-bottom:1px solid var(--border); color:var(--muted); }
 .journal-surface .diary-toolbar .manual-diary-search input { border:0; margin:0; padding:4px 0; min-width:0; width:100%; }
 .manual-diary-search svg { color:var(--muted); }
@@ -25,8 +25,8 @@
 .diary-controls p { max-width:46ch; }
 .journal-surface .diary-controls button[data-unavailable] { color:var(--muted); }
 .journal-surface .diary-controls .diary-help { flex:0 0 100%; max-width:none; margin:0; }
-.manual-record-month { display:grid; grid-template-columns:repeat(7,minmax(0,1fr)); grid-template-rows:36px; grid-auto-rows:128px; margin-top:8px; user-select:none; }
-.manual-record-weekday { padding:8px; color:var(--muted); border-bottom:1px solid var(--border); font-size:14px; }
+.manual-record-month { display:grid; grid-template-columns:repeat(7,minmax(0,1fr)); grid-template-rows:28px; grid-auto-rows:128px; margin-top:4px; user-select:none; }
+.manual-record-weekday { padding:4px 8px; color:var(--muted); border-bottom:1px solid var(--border); font-size:14px; }
 .manual-record-weekday:first-child, .journal-surface .manual-record-day[data-sunday="true"] .diary-date { color:#dc7070; }
 .diary-month-navigation select { margin:0; }
 .journal-surface .diary-month-navigation .single-choice { width:max-content;max-width:none;flex:0 0 auto; }
@@ -61,7 +61,7 @@
 .diary-legend { display:flex; flex-wrap:wrap; gap:16px; margin:12px 0; color:var(--muted); font-size:13px; }
 .diary-legend span { display:flex; align-items:center; gap:6px; }
 .diary-source-status { margin:12px 0; }
-.diary-reading { display:grid; grid-template-columns:48px minmax(0,1fr); gap:16px; margin-top:20px; align-items:start; }
+.diary-reading { display:grid; grid-template-columns:48px minmax(0,1fr); gap:16px; margin-top:12px; align-items:start; }
 .diary-rail { --rail-height:min(calc(var(--rail-item-count,0) * 14px + 12px),calc(100vh - 190px)); position:sticky; top:calc((100vh + var(--diary-toolbar-bottom,calc(56px + var(--diary-toolbar-height,52px))) + 16px - var(--rail-measured-height,var(--rail-height))) / 2); max-height:calc(100vh - 190px); overflow:visible; color:var(--muted); }
 .diary-rail strong { display:block; font-weight:400; line-height:1.5; margin-bottom:16px; }
 .diary-rail-marker { position:relative; }
@@ -222,9 +222,14 @@
 .manual-record-calendar .diary-record-table th:last-child { text-align: right; }
 
 /* The calendar is a centered date index; saved records keep the wider host body. */
-.manual-record-calendar .diary-calendar-frame { box-sizing:border-box; width:min(100%,900px); margin-inline:auto; padding-inline:clamp(12px,3vw,32px); }
-.journal-surface .manual-record-calendar .diary-toolbar { box-sizing:border-box; width:100%; max-width:900px; margin-inline:auto; padding-inline:clamp(12px,3vw,32px); }
+.manual-record-calendar .diary-calendar-frame { box-sizing:border-box; width:min(100%,760px); margin-inline:auto; padding-inline:16px; }
+.journal-surface .manual-record-calendar .diary-toolbar { box-sizing:border-box; width:100%; max-width:760px; margin-inline:auto; padding-inline:16px; }
 .manual-record-calendar .diary-calendar-frame .manual-record-month { grid-auto-rows:112px; }
 .manual-record-calendar .diary-calendar-frame .manual-record-month[data-density="compact"] { grid-auto-rows:96px; }
 .manual-record-calendar .diary-calendar-frame .manual-record-month[data-collapsed="true"] { grid-auto-rows:64px; }
 .manual-record-results .manual-diary-excerpt { max-width:none; }
+
+/* Empty weeks stay compact; actual items retain their intrinsic height.
+   Explicit saved heights above remain untouched, with no storage migration. */
+.manual-record-calendar .diary-calendar-frame .manual-record-month[data-default-height="true"] { grid-auto-rows:minmax(48px,auto); }
+.journal-surface .manual-record-calendar { margin-block:0; padding-block:0; }

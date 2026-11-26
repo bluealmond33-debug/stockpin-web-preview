@@ -1,12 +1,25 @@
-.writing-outline { margin: 0 0 28px; padding: 0 0 18px; border-bottom: 1px solid var(--border, #353535); color: var(--muted, #aaa); }
-.writing-outline .writing-outline-toggle { width:fit-content; cursor:pointer; font-size:13px; line-height:1.8; }
+.writing-outline { position:relative; width:fit-content; margin:0 0 8px; padding:0; border:0; color:var(--muted,#8c8c8c); }
+.writing-outline ol { list-style:none; margin:6px 0 0; padding:0; }
 .writing-outline ol[hidden] { display:none; }
-.writing-outline ol { list-style: none; margin: 8px 0 0; padding: 0; }
-.writing-outline li { position: relative; }
-.writing-outline-branch { position: absolute; top: 6px; width: 14px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; color: var(--muted); pointer-events: none; }
-.writing-outline button { display: block; max-width: 100%; background: transparent; border: 0; border-radius: 4px; padding: 5px 0; color: inherit; font: inherit; font-size: 14px; line-height: 1.5; text-align: left; overflow-wrap: anywhere; cursor: pointer; }
-.writing-outline button:hover, .writing-outline button:focus-visible { color: var(--text, #eee); }
-.writing-outline button:focus-visible { outline: 2px solid var(--accent, #75bc94); outline-offset: 3px; }
-.journal-surface .writing-outline button { text-decoration: none; min-height: 30px; padding-block: 4px; }
-.journal-surface .writing-outline li { margin: 0; }
-.writing-read-view :is(h2,h3,h4)[id] { scroll-margin-top: 24px; }
+.writing-outline li { position:relative; margin:0; }
+.writing-outline button { display:block; max-width:100%; padding:4px 0; border:0; background:transparent; color:inherit; font:inherit; font-size:13px; line-height:1.5; text-align:left; overflow-wrap:anywhere; cursor:pointer; }
+.writing-outline .writing-outline-toggle { width:fit-content; color:var(--muted); }
+.writing-outline button:hover,.writing-outline button:focus-visible { color:var(--text,#eee); }
+.writing-outline button:focus-visible { outline:1px solid var(--green,#75bc94); outline-offset:3px; }
+.writing-outline button[aria-current="location"] { color:var(--green,#75bc94); }
+.writing-outline-branch { display:none; }
+.writing-outline-line { display:none; }
+.writing-read-view :is(h2,h3,h4)[id] { scroll-margin-top:24px; }
+/* The collapsed rail is outside prose and the +/-handle gutter, not a list above it. */
+.writing-outline[data-outline-rail="true"] { position:sticky; top:var(--writing-outline-top,24px); align-self:flex-start; float:inline-start; width:24px; height:0; margin:0; margin-inline-start:-80px; padding:0; z-index:6; }
+.writing-outline[data-outline-rail="true"] .writing-outline-toggle { position:absolute; top:-24px; width:24px; height:20px; min-height:0; padding:2px; opacity:0; }
+.writing-outline[data-outline-rail="true"]:hover .writing-outline-toggle,.writing-outline[data-outline-rail="true"]:focus-within .writing-outline-toggle { opacity:1; }
+.writing-outline[data-outline-rail="true"] .writing-outline-toggle svg { width:16px; height:16px; fill:none; stroke:currentColor; stroke-width:1.5; stroke-linecap:round; }
+.writing-outline[data-outline-rail="true"] ol { position:absolute; top:0; inset-inline-start:0; margin:0; }
+.writing-outline[data-outline-rail="true"][data-outline-expanded="false"] li > button { position:relative; display:flex; align-items:center; justify-content:flex-end; width:24px; height:14px; min-height:0; padding:0; }
+.writing-outline[data-outline-rail="true"][data-outline-expanded="false"] .writing-outline-line { display:block; height:2px; flex-shrink:0; border-radius:1px; background:currentColor; }
+.writing-outline[data-outline-rail="true"][data-outline-expanded="false"] .writing-outline-label { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip-path:inset(50%); white-space:nowrap; }
+.writing-outline[data-outline-rail="true"][data-outline-expanded="false"] li > button:hover .writing-outline-label,.writing-outline[data-outline-rail="true"][data-outline-expanded="false"] li > button:focus-visible .writing-outline-label { left:32px; top:50%; transform:translateY(-50%); width:max-content; max-width:220px; height:auto; padding:4px 8px; margin:0; overflow:visible; clip-path:none; white-space:normal; background:var(--bg,#202020); border:1px solid var(--green); border-radius:4px; color:var(--text); pointer-events:none; }
+.writing-outline[data-outline-rail="true"][data-outline-expanded="true"] ol { width:220px; max-width:calc(100vw - 96px); max-height:min(60vh,420px); overflow:auto; box-sizing:border-box; padding:6px 10px; background:var(--bg,#202020); border:1px solid var(--green); border-radius:4px; }
+.writing-outline[data-outline-rail="true"][data-outline-expanded="true"] button { min-height:0; padding-block:4px; }
+@media(prefers-reduced-motion:reduce) { .writing-outline * { transition:none; } }

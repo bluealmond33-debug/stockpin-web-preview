@@ -29,7 +29,7 @@ th:not(:first-child) .table-sort { justify-content:flex-end; }
 .portfolio-mode-tabs .text-button{font-size:16px}
 .portfolio-widgets{margin:0;padding:0;border:0}
 [data-web-preview="true"] .dashboard-main .summary-section{padding-top:8px}
-[data-web-preview="true"] .portfolio-toolbar:not([hidden]){padding:8px 0;margin-bottom:8px}
+[data-web-preview="true"] .portfolio-toolbar:not([hidden]){padding:4px 0;margin-bottom:4px}
 .summary-section .metrics-row{margin-top:24px}
 .dashboard-grid:has(.dashboard-main){column-gap:48px}
 .portfolio-widget-frame .profit-contribution h3{color:var(--bright);font-weight:600}

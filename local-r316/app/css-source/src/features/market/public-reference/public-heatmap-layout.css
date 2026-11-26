@@ -4,3 +4,27 @@
 
 /* A single market uses the map area; extra maps keep the existing independent grid. */
 .public-heatmap-layout .market-heatmap-comparison > section:only-child { grid-column: 1 / -1; }
+
+/* Keep each public map's selectors available while its document scrolls. */
+.public-heatmap-layout .market-heatmap-panel-controls {
+  position: sticky;
+  top: var(--window-toolbar-height, 40px);
+  z-index: 10;
+  background: var(--bg);
+  padding-block: 4px;
+}
+
+/* Value-width, borderless selectors; shared popup and focus rules stay intact. */
+.public-heatmap-layout .market-heatmap-panel-controls > .heatmap-selector,
+.public-heatmap-layout .market-heatmap-panel-controls > .heatmap-selector > .single-choice {
+  flex: 0 1 auto;
+}
+.public-heatmap-layout .market-heatmap-panel-controls .single-choice-trigger {
+  width: auto;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  justify-content: flex-start;
+  gap: 8px;
+  padding: 6px 4px;
+}

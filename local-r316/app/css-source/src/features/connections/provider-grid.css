@@ -135,3 +135,44 @@
 .provider-grid-edit{position:absolute;right:14px;top:20px;width:28px;height:28px;display:grid;place-items:center;border:0;background:transparent;color:var(--muted);cursor:pointer}
 .provider-grid-edit:hover,.provider-grid-edit:focus-visible{color:var(--bright)}
 .provider-grid-edit:focus-visible{outline:1px solid var(--green);outline-offset:2px}
+
+/* Compact lists own their width; the legacy outer grid must not halve the ul.
+   Size columns against the actual app content, not the surrounding desktop. */
+.provider-grid[data-compact-context] {
+  display: block;
+  container-type: inline-size;
+  container-name: connections-list;
+  margin: 12px 0 16px;
+}
+.provider-grid[data-compact-context] > .provider-grid-list {
+  grid-template-columns: minmax(0, 1fr);
+  gap: 12px 24px;
+  align-items: start;
+}
+@container connections-list (min-width: 600px) {
+  .provider-grid[data-compact-context] > .provider-grid-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+.provider-grid[data-compact-context] .provider-grid-card {
+  box-sizing: border-box;
+  min-height: 104px;
+  padding: 12px;
+  gap: 6px;
+}
+.provider-grid[data-compact-context] .provider-grid-card .provider-grid-accounts {
+  margin: 0;
+}
+.provider-grid[data-compact-context] .provider-grid-name {
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+  white-space: normal;
+}
+.provider-grid[data-compact-context] .provider-grid-accounts {
+  word-break: keep-all;
+}
+.provider-grid[data-compact-context] .provider-grid-edit {
+  top: 12px;
+  right: 8px;
+}
+

@@ -200,6 +200,35 @@
 /* Described commands keep their natural height inside the existing bounded menu. */
 .journal-surface.manual-journal-draft .writing-editor .writing-menu:has(> button > .writing-command-hint) { overflow-y:auto; scroll-padding-block:8px; }
 
+/* Low-noise block actions: existing behavior, no new hover explanations. */
+.journal-surface.manual-journal-draft .writing-editor .writing-current-format { display:flex; align-items:center; gap:8px; }
+.journal-surface.manual-journal-draft .writing-editor .writing-paragraph-alignment { grid-template-columns:repeat(4,minmax(0,1fr)); }
+.journal-surface.manual-journal-draft .writing-editor .writing-paragraph-alignment > button { display:flex; align-items:center; justify-content:center; min-height:32px; }
+.journal-surface.manual-journal-draft .writing-editor .writing-block-actions { display:flex; align-items:center; gap:4px; padding-block:4px; }
+.journal-surface.manual-journal-draft .writing-editor .writing-block-actions > button { display:inline-flex; align-items:center; justify-content:center; flex:0 0 32px; width:32px; min-width:32px; min-height:32px; padding:4px; }
+.journal-surface.manual-journal-draft .writing-editor .writing-block-actions > button:first-child { flex:1 1 auto; width:auto; justify-content:flex-start; }
+
+/* Supplemental hints are scoped to actual formatting actions, never close/name-only controls. */
+.writing-editor .writing-selection-format > button:has(> .writing-format-hint) { position:relative; }
+.writing-editor .writing-format-hint { position:absolute; bottom:calc(100% + 8px); left:50%; transform:translateX(-50%); z-index:30; display:grid; gap:4px; width:max-content; max-width:min(220px,calc(100vw - 32px)); box-sizing:border-box; padding:8px 10px; border:1px solid var(--green); border-radius:6px; background:var(--bg); color:var(--text); font-size:12px; line-height:1.5; font-weight:400; text-align:center; white-space:normal; pointer-events:none; visibility:hidden; opacity:0; transition:opacity 120ms ease; }
+.writing-editor .writing-format-hint strong { font-size:12px; font-weight:600; }
+.writing-editor .writing-format-hint kbd { justify-self:center; padding:1px 5px; border:1px solid var(--border); border-radius:3px; font:inherit; }
+.writing-editor .writing-selection-format > button:hover > .writing-format-hint,
+.writing-editor .writing-selection-format > button:focus-visible > .writing-format-hint { visibility:visible; opacity:1; }
+/* Follow the real menu-open state; a retained selectedBlock index must not leave a tint behind. */
+.journal-surface.manual-journal-draft .writing-block:has(> .writing-block-tools > .editor-popover-trigger[aria-expanded="true"]) > textarea { background:color-mix(in srgb,var(--green) 7%,transparent); }
+@media(prefers-reduced-motion:reduce) { .writing-editor .writing-format-hint { transition:none; } }
+
+/* Color choices stay behind two compact controls; existing color tokens/callbacks remain authoritative. */
+.writing-editor .writing-inline-color-picker { position:relative; display:flex; align-items:center; }
+.writing-editor .writing-inline-color-picker > .writing-color-trigger { position:relative; }
+.writing-editor .writing-color-text-glyph { font-weight:600; text-decoration:underline; text-decoration-color:var(--green); text-decoration-thickness:2px; text-underline-offset:3px; }
+.writing-editor .writing-color-trigger[aria-expanded="true"] { color:var(--green); }
+.writing-editor .writing-color-options { position:absolute; top:calc(100% + 6px); right:0; z-index:25; display:flex; gap:3px; width:max-content; max-width:calc(100vw - 32px); padding:4px; border:1px solid var(--green); border-radius:5px; background:var(--bg); }
+.writing-editor .writing-color-options > button { width:28px; height:28px; flex:0 0 28px; }
+.writing-editor .writing-inline-color-picker > button:hover > .writing-format-hint,
+.writing-editor .writing-inline-color-picker > button:focus-visible > .writing-format-hint { visibility:visible; opacity:1; }
+
 /* Inline script is presentation only; raw body and surrounding line height stay intact. */
 sup.writing-inline-script, sub.writing-inline-script,
 .writing-selection-format button sup, .writing-selection-format button sub {
@@ -208,4 +237,45 @@ sup.writing-inline-script, sub.writing-inline-script,
 sup.writing-inline-script, .writing-selection-format button sup { top:-0.5em; }
 sub.writing-inline-script, .writing-selection-format button sub { bottom:-0.25em; }
 
+/* Only the six-dot handle starts a drag; the native ghost uses the whole block. */
+.writing-block-tools > .editor-popover-trigger[draggable="true"] { cursor:grab; }
+.writing-block[data-block-dragging="true"] > textarea,
+.writing-block[data-block-dragging="true"] > .writing-block-tools { opacity: .35; }
+.writing-block[data-drop-edge="before"]::before,
+.writing-block[data-drop-edge="after"]::after { content:""; position:absolute; left:0; right:0; height:2px; background:var(--green); border-radius:2px; pointer-events: none; z-index:5; }
+.writing-block[data-drop-edge="before"]::before { top:-3px; }
+.writing-block[data-drop-edge="after"]::after { bottom:-3px; }
 
+
+
+/* Contextual block menu: existing commands, one aligned icon column. */
+.journal-surface.manual-journal-draft .writing-editor .writing-block-tools .editor-popover-panel { scroll-padding-block:8px; animation:writing-menu-enter 140ms ease-out; --writing-menu-offset:-3px; }
+.journal-surface.manual-journal-draft .writing-editor .writing-block-tools .editor-popover-panel[data-anchor-side="above"] { --writing-menu-offset:3px; }
+.journal-surface.manual-journal-draft .writing-editor .writing-block-tools .writing-paragraph-alignment,
+.journal-surface.manual-journal-draft .writing-editor .writing-block-tools .writing-block-actions { display:flex; flex-direction:column; align-items:stretch; gap:2px; }
+.journal-surface.manual-journal-draft .writing-editor .writing-block-tools .editor-popover-panel button { display:flex; align-items:center; justify-content:flex-start; gap:8px; flex:0 0 auto; width:100%; min-width:0; min-height:44px; height:auto; padding:6px 8px; white-space:normal; text-align:left; transition:background-color 140ms ease,color 140ms ease; }
+.journal-surface.manual-journal-draft .writing-editor .writing-block-tools .editor-popover-panel button > :is(svg,.writing-command-icon) { width:16px; height:16px; flex:0 0 16px; }
+.journal-surface.manual-journal-draft .writing-editor .writing-block-tools .editor-popover-panel button:enabled:hover { background:color-mix(in srgb,var(--green) 9%,transparent); }
+.journal-surface.manual-journal-draft .writing-editor .writing-block-tools .editor-popover-panel button:focus-visible { outline:2px solid var(--green); outline-offset:-2px; }
+.journal-surface.manual-journal-draft .writing-editor .writing-block-tools .editor-popover-panel button[aria-pressed="true"] { color:var(--green); }
+.writing-editor .writing-menu-separator { flex:0 0 auto; height:1px; width:100%; margin-block:5px; background:var(--border); }
+.writing-editor .writing-format-hint { bottom:calc(100% + 6px); padding:4px 8px; gap:2px; transform:translate(-50%,3px); transition:opacity 140ms ease,transform 140ms ease; }
+.writing-editor button:is(:hover,:focus-visible) > .writing-format-hint { transform:translate(-50%,0); }
+.writing-editor .writing-block-tools > .editor-popover-trigger > .journal-action-tooltip { position:absolute; top:auto; bottom:calc(100% + 6px); left:50%; right:auto; width:max-content; padding:4px 8px; font-size:12px; line-height:18px; background:var(--bg); border:1px solid var(--green); border-radius:4px; pointer-events:none; visibility:hidden; opacity:0; transform:translate(-50%,3px); transition:opacity 140ms ease,transform 140ms ease; }
+.writing-editor .writing-block-tools > .editor-popover-trigger:is(:hover,:focus-visible) > .journal-action-tooltip { visibility:visible; opacity:1; transform:translate(-50%,0); }
+@keyframes writing-menu-enter { from { opacity:0; transform:translateY(var(--writing-menu-offset)); } to { opacity:1; transform:translateY(0); } }
+@media(prefers-reduced-motion:reduce) {
+ .journal-surface.manual-journal-draft .writing-editor .writing-block-tools .editor-popover-panel { animation:none; }
+ .journal-surface.manual-journal-draft .writing-editor .writing-block-tools .editor-popover-panel button { transition:none; }
+ .writing-editor .writing-format-hint,
+ .writing-editor .writing-block-tools > .editor-popover-trigger > .journal-action-tooltip { transition:none; transform:translate(-50%,0); }
+}
+
+/* Prose wraps visually; never insert line breaks into the saved raw string. */
+.journal-surface.manual-journal-draft .writing-editor .writing-block:not(.writing-block-code) > textarea {
+  min-width:0;
+  max-width:100%;
+  white-space:pre-wrap;
+  overflow-wrap:anywhere;
+  word-break:normal;
+}

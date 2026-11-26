@@ -1,0 +1,126 @@
+{
+  "retrievedAt": "2026-11-03T07:33:34.292055+00:00",
+  "purpose": "private local issuer identification; no runtime requests or endorsement",
+  "accepted": [
+    {
+      "slug": "skhynix",
+      "url": "https://mis-prod-koce-skhynixhomepage-cdn-01-ep.azureedge.net/img/favicon.ico",
+      "finalURL": "https://mis-prod-koce-skhynixhomepage-cdn-01-ep.azureedge.net/img/favicon.ico",
+      "originalFormat": "ICO",
+      "size": [
+        16,
+        16
+      ],
+      "sourceSHA256": "2abaf67fe3591a90ae5ef6e12666da0a1fc2b1acea8c25d9171f506338f171b7",
+      "pngSHA256": "de54fbf5b1016aa20fbc62269b67cc4b88ffc9084de84f161d6c7b1a975d7854"
+    },
+    {
+      "slug": "samsung",
+      "url": "https://resources.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/images/Favicon.png",
+      "finalURL": "https://resources.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/images/Favicon.png",
+      "originalFormat": "PNG",
+      "size": [
+        96,
+        96
+      ],
+      "sourceSHA256": "bd67e186bbb0e83748385c50d427911990e0956104a745b1933b9e6e9359e49a",
+      "pngSHA256": "bef6cba120955d3aba29857d4dc7d9ccd88b0dfbecf0409de1b65b9e035f2c51"
+    },
+    {
+      "slug": "hyundai",
+      "url": "https://www.hyundai.com/etc/designs/hyundai/ww/favicon.ico",
+      "finalURL": "https://www.hyundai.com/etc/designs/hyundai/ww/favicon.ico",
+      "originalFormat": "ICO",
+      "size": [
+        64,
+        64
+      ],
+      "sourceSHA256": "8788fff2192c0b88c225ed232bd72f3b26eedc6bae1a3f64b4bca5150f1d1c63",
+      "pngSHA256": "f4d9d80ce946c046c2bf3f8c9fb57bb76bfda051e18d6147ef1a0f1c254ab1f6"
+    },
+    {
+      "slug": "apple",
+      "url": "https://www.apple.com/favicon.ico",
+      "finalURL": "https://www.apple.com/favicon.ico",
+      "originalFormat": "ICO",
+      "size": [
+        64,
+        64
+      ],
+      "sourceSHA256": "5493c61cf725cf3a1d63cd9d07de75b0d6faa5564e772f7d0a6074f341442938",
+      "pngSHA256": "697ab51e0b6e351e90337c5e984e90823806aa632e19ddd5bb76c1f4b82f893c"
+    },
+    {
+      "slug": "nvidia",
+      "url": "https://www.nvidia.com/favicon.ico",
+      "finalURL": "https://www.nvidia.com/favicon.ico",
+      "originalFormat": "ICO",
+      "size": [
+        48,
+        48
+      ],
+      "sourceSHA256": "bedcb14e0470ff8abe26405a630e9604ac4fa581b385a7cfb00420c22f541b6e",
+      "pngSHA256": "f15cdc4abe8f14df25174c3d6539160d811f71287f05b0c6cece1ef5759365b3"
+    },
+    {
+      "slug": "microsoft",
+      "url": "https://uhf.microsoft.com/images/microsoft/RE1Mu3b.png",
+      "finalURL": "https://uhf.microsoft.com/images/microsoft/RE1Mu3b.png",
+      "originalFormat": "PNG",
+      "size": [
+        46,
+        46
+      ],
+      "sourceSHA256": "112fec798b78aa02e102a724b5cb1990c0f909bc1d8b7b1fa256eab41bbc0960",
+      "pngSHA256": "0cd0910008f29af925cc504ba9997a4480e0965345f20df30fa1158a6e246a12",
+      "transformation": "crop left square symbol, remove wordmark; preserve original symbol colours",
+      "normalizedBeforeCropSHA256": "301e73d6d30b74689983bfe629c2a07964b3bfc54503baf303eda4837d108f06"
+    }
+  ],
+  "rejected": [
+    {
+      "slug": "alphabet",
+      "reason": "download decoded to uniformly white16x16; retain existing sourced alphabet.svg"
+    },
+    {
+      "slug": "tesla",
+      "reason": "official fetch403; retain existing pinned Simple Icons asset"
+    }
+  ],
+  "classification": {
+    "KRX": {
+      "069500": "ETF",
+      "122630": "2*"
+    },
+    "US": {
+      "QQQ": "ETF",
+      "SPY": "ETF",
+      "VOO": "ETF",
+      "NVDL": "2*",
+      "TSLL": "2*"
+    }
+  },
+  "additionalETFVerification": {
+  "verifiedOn": "2026-11-03T08:47:37.845710+00:00",
+  "newEntries": [
+    {
+      "market": "US",
+      "symbol": "VOO",
+      "badge": "ETF",
+      "source": "https://advisors.vanguard.com/investments/products/voo/vanguard-sp-500-etf",
+      "evidence": "Vanguard S&P 500 ETF",
+      "kind": "static instrument identity, not price or automatic security master"
+    },
+    {
+      "market": "US",
+      "symbol": "SPY",
+      "badge": "ETF",
+      "source": "https://www.ssga.com/us/en/individual/etfs/spdr-sp-500-etf-trust-spy",
+      "evidence": "Launched in January 1993, SPY was the very first exchange traded fund listed in the United States",
+      "kind": "static instrument identity, not price or automatic security master"
+    }
+  ],
+  "limits": "exact ticker/qualified broker US identity only; no whole master/issuer logos/return metrics/holdings downloaded into product, no runtime requests or blanket reuse rights"
+},
+  "limits": "explicit bounded catalogue, not an all-security master; no name-based issuer/ETF/leverage guessing; brand/public redistribution rights not established"
+}

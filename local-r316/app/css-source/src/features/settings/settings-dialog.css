@@ -2,7 +2,7 @@
   color: var(--text);
   background: var(--bg);
   border: 0;
-  padding: 24px;
+  padding: 16px;
   width: min(720px, calc(100% - 48px));
   max-height: calc(100dvh - 48px);
   overflow: auto;
@@ -21,7 +21,8 @@
 }
 .settings-dialog-header h2 {
   color: var(--bright);
-  font: 400 24px/1.4 var(--title-font);
+  margin: 0;
+  font: 400 calc(18px * var(--ui-font-scale, 1))/1.4 var(--title-font);
 }
 .settings-dialog .settings-section {
   max-width: none;
@@ -29,7 +30,7 @@
 .settings-dialog-actions {
   display: flex;
   justify-content: flex-end;
-  padding-top: 16px;
+  padding-top: 8px;
 }
 .settings-dialog-actions button {
   min-height: 44px;
@@ -59,22 +60,27 @@
 
 /* v2.1: category navigation and content share one neutral surface. */
 .settings-dialog {
-  width: min(1040px, calc(100% - 48px));
-  min-height: min(620px, calc(100dvh - 48px));
+  width: min(720px, calc(100% - 48px));
+  box-sizing: border-box;
+  height: min(520px, calc(100dvh - 48px));
+  min-height: 0;
+  font-size: calc(13px * var(--ui-font-scale, 1));
 }
 .settings-layout {
   display: grid;
-  grid-template-columns: 176px minmax(0, 1fr);
-  gap: 32px;
-  min-height: 420px;
-  margin-top: 24px;
+  grid-template-columns: 144px minmax(0, 1fr);
+  gap: 20px;
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  margin-top: 8px;
 }
 .settings-categories {
   display: flex;
   flex-direction: column;
   align-items: stretch;
   border-right: 1px solid var(--border);
-  padding-right: 20px;
+  padding-right: 12px;
   gap: 4px;
 }
 .settings-categories button {
@@ -86,7 +92,8 @@
   color: var(--green);
 }
 .settings-layout .setting-row {
-  min-height: 64px;
+  min-height: 56px;
+  padding: 6px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -144,3 +151,31 @@
 .setting-refresh-row .asset-refresh-choices { grid-column: 2; grid-row: 1; justify-self: end; }
 .setting-refresh-row .refresh-save-status { grid-column: 2; grid-row: 2; margin: 8px 0 0; min-width: 0; color: var(--muted); font-size: 13px; line-height: 1.5; text-align: right; overflow-wrap: anywhere; }
 .asset-refresh-choices{display:flex;align-items:center;gap:20px}.asset-refresh-choices button{min-width:32px;min-height:44px;border:0;background:none;box-shadow:none;color:var(--muted);font:inherit}.asset-refresh-choices button[aria-pressed=true]{color:var(--green)}
+
+/* Settings-only current privacy state; preserve the shared toggle and its aria. */
+.settings-dialog .settings-privacy-control {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  color: var(--muted);
+}
+.settings-dialog .settings-privacy-control[data-hidden="true"] {
+  color: var(--green);
+}
+.settings-dialog .settings-privacy-control > .privacy-toggle {
+  min-height: 44px;
+  min-width: 44px;
+  width: 44px;
+  padding: 0;
+  color: inherit;
+}
+.settings-dialog .settings-privacy-state {
+  white-space: nowrap;
+}
+
+/* Keep header and completion outside the content scroll track, even at large text. */
+.settings-dialog[open] { display: grid; grid-template-rows: auto minmax(0, 1fr) auto; }
+.settings-dialog .setting-row strong { font-size: calc(14px * var(--ui-font-scale, 1)); }
+.settings-dialog button { font-size: inherit; }
+.settings-dialog .settings-section .section-heading { padding-top: 4px; }

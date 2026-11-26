@@ -14,6 +14,7 @@ button.shared-icon-button,
   background: transparent;
   color: var(--muted);
   cursor: pointer;
+  transition: color 140ms ease-out;
 }
 button.shared-icon-button:is(:hover, :focus-visible) {
   background: transparent;

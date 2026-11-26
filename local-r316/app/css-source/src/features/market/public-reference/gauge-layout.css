@@ -1,7 +1,7 @@
 /* Owned overview-only corrections; outrank the legacy -12px value offset. */
-.market-page[data-market-mode="public"] .public-market-overview .public-market-gauge .sentiment-dial__value { margin-top:12px; }
+.market-page[data-market-mode="public"] .public-market-overview .public-market-gauge .sentiment-dial__value { margin-top:0; }
 .market-page[data-market-mode="public"] .public-market-overview .public-market-gauge .sentiment-dial-state { margin-top:0; }
-.market-page[data-market-mode="public"] .public-market-overview .bitcoin-public-gauge[data-supply-mode="web-auto"] { display:flex; flex-direction:column; gap:8px; }
+.market-page[data-market-mode="public"] .public-market-overview .bitcoin-public-gauge[data-supply-mode="web-auto"] { display:flex; flex-direction:column; gap:2px; }
 
 .public-market-overview .metric-history-help { display:contents; }
 .public-market-overview .sentiment-dial-state-row > .widget-metric-help { flex:none; }
@@ -12,5 +12,32 @@
 /* Keep the glyph 8px away; padding must not add an invisible second gap. */
 .market-page[data-market-mode="public"] .public-market-overview .sentiment-dial-state-row .widget-metric-help-floating { grid-column:3; justify-self:start; }
 .market-page[data-market-mode="public"] .public-market-overview .sentiment-dial-state-row .widget-metric-help-trigger { display:flex; align-items:center; justify-content:flex-start; width:28px; min-width:28px; height:28px; min-height:28px; padding:0; border:0; background:transparent; }
-.market-page[data-market-mode="public"] .public-market-overview { margin-bottom:32px; }
+.market-page[data-market-mode="public"] .public-market-overview { margin-bottom:12px; }
 @media (pointer:coarse) { .market-page[data-market-mode="public"] .public-market-overview .sentiment-dial-state-row .widget-metric-help-trigger { width:44px; min-width:44px; height:44px; min-height:44px; } }
+
+/* Resize only the overview's physical dial; preserve its viewBox, palette and data. */
+.market-page[data-market-mode="public"] .public-market-overview .public-market-gauge { gap:2px; }
+.market-page[data-market-mode="public"] .public-market-overview .public-market-gauge > header { min-height:28px; }
+.market-page[data-market-mode="public"] .public-market-overview .public-market-gauge .sentiment-dial-control { width:120px; }
+.market-page[data-market-mode="public"] .public-market-overview .public-market-gauge .sentiment-dial { width:120px; height:auto; }
+/* Keep overview heading text centred independently of its help. */
+.market-page[data-market-mode="public"] .public-market-overview .public-market-gauge > header.public-reference-heading-title {
+  display:grid;
+  grid-template-columns:minmax(28px,1fr) minmax(0,auto) minmax(28px,1fr);
+  column-gap:6px;
+}
+.market-page[data-market-mode="public"] .public-market-overview .public-market-gauge > header.public-reference-heading-title > h2 {
+  grid-column:2;
+  grid-row:1;
+  justify-self:center;
+  min-width:0;
+  max-width:100%;
+  text-align:center;
+  overflow-wrap:anywhere;
+}
+.market-page[data-market-mode="public"] .public-market-overview .public-market-gauge > header.public-reference-heading-title > .market-data-help,
+.market-page[data-market-mode="public"] .public-market-overview .public-market-gauge > header.public-reference-heading-title > .widget-metric-help {
+  grid-column:3;
+  grid-row:1;
+  justify-self:start;
+}
